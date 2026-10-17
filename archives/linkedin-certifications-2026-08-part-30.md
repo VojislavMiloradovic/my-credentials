@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 30 of 41
-date_range: 2026-08 to 2026-08
-total_entries: 46
+chunk_part: 30 of 42
+date_range: 2026-07 to 2026-08
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-30.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,22 +11,10 @@ artifacts: complete, index
 
 # LinkedIn Certifications -- Part 30
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-29.md](./linkedin-certifications-2026-08-part-29.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-31.md](./linkedin-certifications-2026-08-part-31.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-29.md](./linkedin-certifications-2026-07-part-29.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-31.md](./linkedin-certifications-2026-08-part-31.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Build Collaborative Multi-Agent Systems with ADK & MCP** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286201?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-08 | **Build Agent Skills with Google** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286234?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-08 | **Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286333?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-08 | **Secure Enterprise AI Agents** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286386?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-08 | **Build a Certification Study Guide: ADP Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286575?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-08 | **Generative AI Explorer - Agent Platform** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27296691?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-08 | **Build LookML Objects in Looker Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/f1fe4c27-fc5b-4f16-857c-0a78b63662de/linked_in_profile) |
-| 2026-08 | **Implement Cloud Storage and Data Protection Solutions** | Google | [Verify Record](https://www.credly.com/badges/d6b57587-ca0e-49ae-ac3f-c27583931211/linked_in_profile) |
-| 2026-08 | **Arcade Re-Trail: Vaults & Vectors** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27327295?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-08 | **Analyze Sentiment with Natural Language API Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/linked_in_profile) |
-| 2026-08 | **Monitoring in Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/7f426d35-6e3b-419e-8236-e382d94e9666/linked_in_profile) |
-| 2026-08 | **Arcade Base Camp August 2026** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **Cloud Tech Professional Security Awareness Training** | Acronis | [Verify Record](https://www.credly.com/badges/a27ae8fb-f3f3-4cec-9c2c-b6ba415f4150/linked_in_profile) |
 | 2026-08 | **Cloud Tech Professional Microsoft 365** | Acronis | [Verify Record](https://www.credly.com/badges/da472709-da7d-4ddd-9611-e119004c08f3/linked_in_profile) |
 | 2026-08 | **Cloud Computing Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/3372ff55-1a0f-4fd1-b85e-4642dae974c0/linked_in_profile) |
@@ -61,7 +49,23 @@ artifacts: complete, index
 | 2026-08 | **Nano Tips for Inclusive Leadership with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a09c174390f7ca190a0101ef0c87d575acdde92cfe2d58349c23233fd51a8a00) |
 | 2026-08 | **Data Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/48961c89-7ace-474a-9a78-34e0b63722d5/linked_in_profile) |
 | 2026-08 | **A Manager's Guide to Learning in the Flow of Work with LinkedIn Learning** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8108de1a5d8132d293ce4d8ff39b9d6a5d6df65f07107093bfcf10762bcc6845) |
+| 2026-08 | **Nano Tips to Stop Overthinking with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a33fc64c70cb885c4d886d429e17926ad8e2a0f42fafa4762b435fe05efb395a) |
+| 2026-08 | **Implement CI/CD Pipelines on Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/a15b509b-48e1-47dc-96f7-6e36d36e0412/linked_in_profile) |
+| 2026-08 | **Manage Kubernetes in Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/28a8c491-f478-4684-96b4-9bac1b172a39/linked_in_profile) |
+| 2026-08 | **Share Data Using Google Data Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/35d9f8d7-dc3e-4f66-9ec8-d83eeb50882f/linked_in_profile) |
+| 2026-08 | **Cloud Tech Professional XDR** | Acronis | [Verify Record](https://www.credly.com/badges/7576a471-6531-4ba8-8133-a367cbbea9a0/linked_in_profile) |
+| 2026-08 | **MSP Academy: Corporate Social Responsibility (CSR) in a Box** | Acronis | [Verify Record](https://www.credly.com/badges/3c66a5ea-7ceb-4706-a1ae-552dc9f55bdc/linked_in_profile) |
+| 2026-08 | **MSP Academy: Cyber Scripting** | Acronis | [Verify Record](https://www.credly.com/badges/08f1b56f-b3eb-41af-9553-5cc25976d29e/linked_in_profile) |
+| 2026-08 | **MSP Academy: Disaster Recovery** | Acronis | [Verify Record](https://www.credly.com/badges/4aae4192-7870-4fbc-8644-06db35ece843/linked_in_profile) |
+| 2026-08 | **EDR Basic Course** | Acronis | [Verify Record](https://www.credly.com/badges/f47fe6a0-2dfc-4afb-8ca2-df6914a9dfca/linked_in_profile) |
+| 2026-08 | **MSP Academy: Maximizing Your Business Efficiency** | Acronis | [Verify Record](https://www.credly.com/badges/8b9124df-62b5-4111-8029-b4fd9b558ea4/linked_in_profile) |
+| 2026-08 | **Generative AI in Action** | IBM | [Verify Record](https://www.credly.com/badges/1c239877-da1b-4c2e-87d3-713550512b3c/linked_in_profile) |
+| 2026-07 | **Nano Tips for Powerful Leadership Storytelling with Christina Blacken** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b9f2ed3cb9e430e1894006f7b9083ae85ad15a6e40771e83fc787be56a5da86c) |
+| 2026-07 | **Nano Tips for Using Chat GPT to 10x Your Productivity at Work with Gianluca Mauro** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/708d71a91fcc860b70812f9851b60436767d3a4879ebf431878971872807860b) |
+| 2026-07 | **Discovering Entrepreneurship** | Cisco | [Verify Record](https://www.credly.com/badges/e0ae2fb9-9f66-424a-a990-8cca00679943/linked_in_profile) |
+| 2026-07 | **Nano Tips For Building a Career in Cybersecurity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/46787484b5a7def9b9500a7f73696124c0b7c3eca978747896c8e9c2eda551bf) |
+| 2026-07 | **Nano Tips for Career Success and Daily Wins with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d4751c8aa6f87f3960668aeac8e812f96c0a052e952297a1723e46355b5f4642) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-29.md](./linkedin-certifications-2026-08-part-29.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-31.md](./linkedin-certifications-2026-08-part-31.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-07-part-29.md](./linkedin-certifications-2026-07-part-29.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-31.md](./linkedin-certifications-2026-08-part-31.md)
 

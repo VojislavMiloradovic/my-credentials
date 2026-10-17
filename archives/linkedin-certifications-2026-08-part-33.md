@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 33 of 41
+chunk_part: 33 of 42
 date_range: 2026-08 to 2026-08
-total_entries: 43
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-33.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,19 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Google Cloud Computing Foundations: Networking & Security in Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26758292?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-08 | **Nano Tips to Collaborate Across Boundaries and Build Versatile Teams with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/aa7a1589a2a9d656fa023aa0b3d5e47c947daae605e48fa804f7dc4d6c536dbb) |
-| 2026-08 | **Nano Tips for Delegating with Kim Kaupe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b7a127e3f84c91f8d2995f0a50ac8b5a0f38f734684deb4ea78850508bdf4998) |
-| 2026-08 | **Nano Tips for Creating a More Effective Relationship with Your Manager with Allison Peck** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f896336f30230ad0e561300fee1e551ace2fc0f0408f781d8cbe3df21dc7d5b2) |
-| 2026-08 | **Nano Tips To Overcome Overthinking with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8954ad1c73052275ac74878cc319a71e8621be1f591c1883269b8add3c4d7a2a) |
-| 2026-08 | **Mindset Nano Tips to Shift from Survival to Thriving in Complex Situations with Gemma Leigh Roberts** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f451dd5f22113d3b710cc20a3757156ccb5307ee63751e89c05c8982724dab25) |
-| 2026-08 | **Nano Tips To Get Time Back in Your Day with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5d718e24b77bde1416685156983777f570ce96fe9396b9e5643e7446a4d7a5ef) |
-| 2026-08 | **Nano Tips for Healthy Boundaries and Expectations at Work with Allison Peck** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f452f678eb0d6f0ca7cf5d5ec779159034bdc45c53c4d04274cccecce7547c8a) |
-| 2026-08 | **Executive's Guide to Engaging on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cc4904114e9d2abffdf8a508a70e558084b83af91a78ce3843a7b32fa210b3a6) |
-| 2026-08 | **Nano Tips for Building Your Leadership Brand with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/883eab57d4ec1338dc3380db80bc70898b514a47cec9f6f2ad8d6dd4c464ae35) |
-| 2026-08 | **Nano Tips for Using LinkedIn to Close More Sales with Jake Dunlap** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7b17872887e0810f26d85b00ebc3b8d64dfc52de072960f407c806087cfe46c0) |
-| 2026-08 | **Nano Tips for Empathetic Customer Service with Brenda Bailey-Hughes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b3373754a814ad82ca6f74c9eae50f3b3bd3c0625a33e6ef709c3824d1fd6c26) |
-| 2026-08 | **Nano Tips on Becoming the CEO of Your Career with Maya Grossman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8e04a44a77963477d1ed48c55d4a41562e70a067f63dacebfb6139e71d224a83) |
 | 2026-08 | **Nano Tips for Saying No at Work with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d4689efbf247a2fd6f4d403ee8ba6b018c383a3fbd3f8a097d5c56f0123d8d8a) |
 | 2026-08 | **Cloud Tech Pro - Email Security** | Acronis | [Verify Record](https://www.credly.com/badges/a94e5a37-1599-485e-a03c-b28d11fdd800/linked_in_profile) |
 | 2026-08 | **NanoTips for Using Mindfulness Strategies to Build Resilience with Gemma Leigh Roberts** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c2097569f5fcf5da5f0c8d29032f10305fd4c9145f065ed7e6dbfde59529b43d) |
@@ -58,6 +45,21 @@ artifacts: complete, index
 | 2026-08 | **Nano Tips for Strategic Storytelling with Andy Eninger** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3334bb81ec51dc48b4c46ff067eff2b212026c255665eb0694fffc42bc6206a6) |
 | 2026-08 | **Nano Tips for Building Your Leadership Credibility on LinkedIn with Patrick Shea-Stamford and Mike Soutar** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f6df45e40102d31a2db44661a47326f35cf26151a5e466860c22f590fd6cb0f1) |
 | 2026-08 | **How to Succeed as a Social Media Manager Nano Tips with Joanna Yung** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a6ca73865aebe306a823f39608a76e3443c94bc32fec3795655bd1f8af2ccca3) |
+| 2026-08 | **Alison Mann: Animation Talent Scout** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/205f0a1f6be8d34d0c8aa7cfd21dbc9b59559e89229e09e6aa889dc3c7356a35) |
+| 2026-08 | **Nano Tips for Closing the Soft Skills Gap with Gen Z with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5d061ab54d1589fd089d8133fe2f87cf212566c2897f2deccc59bde6d81fc11f) |
+| 2026-08 | **Nano Tips for Navigating Office Politics with Ginny Clarke** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6a116d4e2ccf49cced6dd858b6223be5633902c71f785e65d46b98a9547d244b) |
+| 2026-08 | **Nano Tips for Managers: Fostering Human Connection with Simone Heng** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1b3810ab7b82feafb94611985520cde2f1183b89653b3ecd7c1a99e9ed8763f5) |
+| 2026-08 | **Foundations of CTEM** | AttackIQ | [Verify Record](https://www.credly.com/badges/1a9fd111-6d83-418c-9603-ec8af02aacaf/linked_in_profile) |
+| 2026-08 | **Nano Tips for Managing Generational Work Differences with Gen Z with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a322018ae5792f0f32a7375b3a7b7bf3cd99795fa23c990920b42c939900a503) |
+| 2026-08 | **Tetragon Security Visibility** | Isovalent | [Verify Record](https://www.credly.com/badges/8f8c28a6-bdbe-4bb7-a37f-e40d7693a64c/linked_in_profile) |
+| 2026-08 | **Guy Kawasaki on Entrepreneurship** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a48bc841ac04003a8ebb970537b960715b01b5507c9fc48e81c07770a9a5e2e2) |
+| 2026-08 | **Nano Tips to Lead with Humanity with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f4a1bffacef5eff8fb93b7a51fdfd04c3261046b064af3527fd6e1b27134bc2c) |
+| 2026-08 | **Nano Tips for Building a Culture of Calculated Risks with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0c99c8cb2bb0bed6058171904301636179cee92edc02ffb42141e005370d7323) |
+| 2026-08 | **Cilium Zero Trust Visibility** | Isovalent | [Verify Record](https://www.credly.com/badges/052c407b-a68b-4e80-9f1d-6f7ea7ce108b/linked_in_profile) |
+| 2026-08 | **How to Think Strategically** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7373848b0a08c583ba16ee4969b95975d53fd900d4a73ad79fcf33ec5e37496a) |
+| 2026-08 | **Cilium Host Firewall** | Isovalent | [Verify Record](https://www.credly.com/badges/47e22199-0433-4745-9c12-194fba627617/linked_in_profile) |
+| 2026-08 | **Tetragon TLS Visibility** | Isovalent | [Verify Record](https://www.credly.com/badges/a3d9f055-17d1-479b-ad6c-730a71fdd982/linked_in_profile) |
+| 2026-08 | **Sales Strategy: How to Effectively Sell Your Product or Service** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cb62315bebf4e7cab791df3c67804015080d9203fd4dca4be7467cfc47fff497) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-32.md](./linkedin-certifications-2026-08-part-32.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md)

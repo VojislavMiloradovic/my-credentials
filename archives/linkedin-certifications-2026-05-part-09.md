@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 9 of 41
+chunk_part: 9 of 42
 date_range: 2026-04 to 2026-05
-total_entries: 48
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-09.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,18 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **AI Boost Bites: Productivity On the Go with NotebookLM** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171764?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **AI Boost Bites: Become a Homework Hero for Your Kids** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171850?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **AI Boost Bites: Presentations in Seconds with Nano Banana Pro** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24171873?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Looker Studio Essentials** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24173032?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Build AI Agents with Enterprise Databases** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198352?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Select a Google Cloud Database for Your Applications** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198703?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Working with Notebooks in Vertex AI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198950?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Accelerate App Development with Gemini CLI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24251263?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Boost Productivity with Gemini in BigQuery** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24253675?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Data Governance with Dataplex Universal Catalog** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24287792?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Website Modernization with Generative AI on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24328413?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Introduction to Data Analytics on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24448908?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Developing Data Models with LookML** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24560747?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-04 | **Campaign manager 360 Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/c9bfd359-05b1-4751-8872-a99c43f4883b) |
 | 2026-04 | **Provisioning and Implementing Joule - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/a66fc475-3933-4417-ad38-02e9ab7c8fa2/linked_in_profile) |
@@ -63,6 +51,23 @@ artifacts: complete, index
 | 2026-04 | **Exploring the SAP Customer Data Platform's AI Workbench - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xurad-gygos-harur-mylog-mufig) |
 | 2026-04 | **Working in a Digital World: Professional Skills** | IBM | [Verify Record](https://www.credly.com/badges/a3eadc8d-e260-4d4f-bc57-b00d05ff0a50/linked_in_profile) |
 | 2026-04 | **Introduction to Modern AI** | Cisco | [Verify Record](https://www.credly.com/badges/8d48ad0b-4e3a-4d75-889d-90f586263f0e/linked_in_profile) |
+| 2026-04 | **Understanding SAP’s 2026 Go-to-Market Direction for Partners - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/cccb34bc-a8ae-4c85-8a7f-793cd28bfa1b/linked_in_profile) |
+| 2026-04 | **Positioning SAP Customer Loyalty Management - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xokab-pimar-haber-tanim-debem) |
+| 2026-04 | **Creating Promotions and Coupons in SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xecyl-rybub-lamid-hyvof-gugub) |
+| 2026-04 | **Using Computer and Mobile Devices** | Cisco | [Verify Record](https://www.credly.com/badges/156370e6-b39b-4f49-a04e-cdb1fb215489/linked_in_profile) |
+| 2026-04 | **Getting Started with Support from SAP (Support Accreditation) - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xenyc-fitun-relan-rogif-vifyp) |
+| 2026-04 | **Modernizing Integration with SAP Integration Suite - SAP Learning MOOC - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/f3166cf7-82ab-4871-8b96-7ed8cbf350e6/linked_in_profile) |
+| 2026-04 | **Digital Awareness** | Cisco | [Verify Record](https://www.credly.com/badges/9edc3f97-91e5-4d5d-b674-27e822964fb4/linked_in_profile) |
+| 2026-04 | **Introduction to IoT** | Cisco | [Verify Record](https://www.credly.com/badges/9fd72888-3b11-4f02-b53a-1506890ed015/linked_in_profile) |
+| 2026-04 | **Google Ads Display Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/aaa06037-984b-436d-a969-138478771e90) |
+| 2026-04 | **AWS Knowledge: AWS Transform Fundamentals – Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/54d81ecb-6fd5-4ff9-aba6-6acaa59cdcec/linked_in_profile) |
+| 2026-04 | **AI Fundamentals: Foundations for Understanding AI** | IBM | [Verify Record](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef/linked_in_profile) |
+| 2026-04 | **Working with Invoice Pay in Concur Invoice Professional - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/6a8ba215-f454-4b26-91ef-5ff968b721f7/linked_in_profile) |
+| 2026-04 | **Explore Emerging Tech** | IBM | [Verify Record](https://www.credly.com/badges/67d065a9-5177-45e1-b94d-72bc4b493ca0/linked_in_profile) |
+| 2026-04 | **AWS Knowledge: Amazon Connect Fundamentals - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/cb6a4e9e-b375-4e40-bf27-7f3d4ad252d5/linked_in_profile) |
+| 2026-04 | **Introduction to Greenhouse Gas Accounting for IT** | Cisco | [Verify Record](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250/linked_in_profile) |
+| 2026-04 | **Transition from SAP Solution Manager to SAP Cloud ALM - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/e95d01e6-d813-4038-bc38-8e396c4b88bc/linked_in_profile) |
+| 2026-04 | **Explorations into Mindfulness** | IBM | [Verify Record](https://www.credly.com/badges/58226aca-cc26-41a3-8ed7-1ef7e7880114/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-04-part-08.md](./linkedin-certifications-2026-04-part-08.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-10.md](./linkedin-certifications-2026-05-part-10.md)

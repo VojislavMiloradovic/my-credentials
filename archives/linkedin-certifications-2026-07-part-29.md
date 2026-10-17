@@ -1,9 +1,9 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 29 of 41
-date_range: 2026-07 to 2026-08
+chunk_part: 29 of 42
+date_range: 2026-07 to 2026-07
 total_entries: 45
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-29.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-29.md
 layer: L2_published
 transform: 1:1_pass_through
 artifacts: complete, index
@@ -15,22 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Nano Tips to Stop Overthinking with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a33fc64c70cb885c4d886d429e17926ad8e2a0f42fafa4762b435fe05efb395a) |
-| 2026-08 | **Implement CI/CD Pipelines on Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/a15b509b-48e1-47dc-96f7-6e36d36e0412/linked_in_profile) |
-| 2026-08 | **Manage Kubernetes in Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/28a8c491-f478-4684-96b4-9bac1b172a39/linked_in_profile) |
-| 2026-08 | **Share Data Using Google Data Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/35d9f8d7-dc3e-4f66-9ec8-d83eeb50882f/linked_in_profile) |
-| 2026-08 | **Cloud Tech Professional XDR** | Acronis | [Verify Record](https://www.credly.com/badges/7576a471-6531-4ba8-8133-a367cbbea9a0/linked_in_profile) |
-| 2026-08 | **MSP Academy: Corporate Social Responsibility (CSR) in a Box** | Acronis | [Verify Record](https://www.credly.com/badges/3c66a5ea-7ceb-4706-a1ae-552dc9f55bdc/linked_in_profile) |
-| 2026-08 | **MSP Academy: Cyber Scripting** | Acronis | [Verify Record](https://www.credly.com/badges/08f1b56f-b3eb-41af-9553-5cc25976d29e/linked_in_profile) |
-| 2026-08 | **MSP Academy: Disaster Recovery** | Acronis | [Verify Record](https://www.credly.com/badges/4aae4192-7870-4fbc-8644-06db35ece843/linked_in_profile) |
-| 2026-08 | **EDR Basic Course** | Acronis | [Verify Record](https://www.credly.com/badges/f47fe6a0-2dfc-4afb-8ca2-df6914a9dfca/linked_in_profile) |
-| 2026-08 | **MSP Academy: Maximizing Your Business Efficiency** | Acronis | [Verify Record](https://www.credly.com/badges/8b9124df-62b5-4111-8029-b4fd9b558ea4/linked_in_profile) |
-| 2026-08 | **Generative AI in Action** | IBM | [Verify Record](https://www.credly.com/badges/1c239877-da1b-4c2e-87d3-713550512b3c/linked_in_profile) |
-| 2026-07 | **Nano Tips for Powerful Leadership Storytelling with Christina Blacken** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b9f2ed3cb9e430e1894006f7b9083ae85ad15a6e40771e83fc787be56a5da86c) |
-| 2026-07 | **Nano Tips for Using Chat GPT to 10x Your Productivity at Work with Gianluca Mauro** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/708d71a91fcc860b70812f9851b60436767d3a4879ebf431878971872807860b) |
-| 2026-07 | **Discovering Entrepreneurship** | Cisco | [Verify Record](https://www.credly.com/badges/e0ae2fb9-9f66-424a-a990-8cca00679943/linked_in_profile) |
-| 2026-07 | **Nano Tips For Building a Career in Cybersecurity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/46787484b5a7def9b9500a7f73696124c0b7c3eca978747896c8e9c2eda551bf) |
-| 2026-07 | **Nano Tips for Career Success and Daily Wins with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d4751c8aa6f87f3960668aeac8e812f96c0a052e952297a1723e46355b5f4642) |
 | 2026-07 | **Nano Tips for Understanding AI's Impact to Business with Marco Andre** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4e807863cbb82e544917219c9a4f9975a36ab1f78a1c379b708b1e90c990095f) |
 | 2026-07 | **Nano Tips for Using AI in the Job Search with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a3dd97158bcfeabee945ee220924414173fb1d5bbd2c694d375d58330f0ca0a8) |
 | 2026-07 | **Nano Tips for Resolving Conflict with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c30d25c1ec70e5089898b74440ca15320fb0d88d6391a1f46fdb1dee3e08835a) |
@@ -60,6 +44,22 @@ artifacts: complete, index
 | 2026-07 | **What No One Tells You About Career Fulfillment with Arthur Brooks** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4834d75ed3d5357cdd27b33358126e27377391196d7cf579f8d4177b540e9b9e) |
 | 2026-07 | **Fred Kofman on Making Commitments** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/07e5fa530e36629710c81a39465595a2c9be0deef59387f40d1161c6cfc8a532) |
 | 2026-07 | **Secrets to Nailing Job Interviews with Matt Abrahams** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e171adb0ce5844e5bdcd13d4aaccda2daf086d21be2149c7fb70068de26c86fd) |
+| 2026-07 | **Build Infrastructure with Terraform on Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/35059bf2-e867-46eb-95b6-5ef733207698/linked_in_profile) |
+| 2026-07 | **Talent Development for Managers** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/51648d6e28c75b4178eac3c9ec4c23f5085fe5714c6313d472f8ad7c0dea7a39) |
+| 2026-07 | **Sales: Closing Strategies** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cd362b6eff391caba747ac2701fea093f48bfa00b7c8fe0f7747216a47cb56cb) |
+| 2026-07 | **AWS SimuLearn - AI Practitioner - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/bf88d187-0e8f-44cc-bec9-7e9e69115951/linked_in_profile) |
+| 2026-07 | **Cloud Sales Associate Advanced Management** | Acronis | [Verify Record](https://www.credly.com/badges/7a16d6a7-7f4a-43e0-8ddb-fbcb300a8822/linked_in_profile) |
+| 2026-07 | **Process Mining Audit Professional** | Celonis | [Verify Record](https://www.credly.com/badges/f2f7155c-98d7-40ee-8c4d-6a6fd43667ab/linked_in_profile) |
+| 2026-07 | **Manage Change and Scale Adoption** | Celonis | [Verify Record](https://www.credly.com/badges/06895ebe-457b-40c8-8c8d-336b96da8ac4/linked_in_profile) |
+| 2026-07 | **Use and Interpret Views** | Celonis | [Verify Record](https://www.credly.com/badges/98c3a33b-f27a-4850-84b1-dd59f013f830/linked_in_profile) |
+| 2026-07 | **Process Automation Concepts** | Celonis | [Verify Record](https://www.credly.com/badges/da7e7652-ed54-4938-b484-e509978ae444/linked_in_profile) |
+| 2026-07 | **Configure Database Integration for Okta Privileged Access** | Okta | [Verify Record](https://www.credly.com/badges/eb355e8c-609f-45e9-94dd-f86b7788027e/linked_in_profile) |
+| 2026-07 | **Nano Tips for Avoiding Burnout with Kim Kaupe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9c787399a4b20ceb52417e0e287fa325b3b2571422b11d95bad5a7ffe10d89de) |
+| 2026-07 | **Nano Tips and Social Media Strategies for B2B Brands with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1c61099206d6609484912f2f75994ebf6c0455602600f7a328d467fee232b896) |
+| 2026-07 | **BASILE Studio: Designing Timeless Restaurants** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8d3046fd5eb2c76b5711ef7a683a7a7aae247fa9d8d3c4a86fab584219bd8caf) |
+| 2026-07 | **The Creative Spark: Alberto Scirocco and the Motion Graphics of leftchannel** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2e5171f5af198ca772831d73df3349f05e2060199944c29fdd15290bccf7706e) |
+| 2026-07 | **Sharon Ross: Character Designer for 2D Animation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ac27f2dbf8447e8cca07d586132ce7d56391178cb07407b3b7c34e3ccf143114) |
+| 2026-07 | **My Photoshop Story: Bert Monroy, Digital Painter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bc19b7e1a3087cabd4716542068ddf4ad38acfba8a653fa4e435bb1de742577c) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-28.md](./linkedin-certifications-2026-07-part-28.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-30.md](./linkedin-certifications-2026-08-part-30.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 36 of 41
+chunk_part: 36 of 42
 date_range: 2026-08 to 2026-09
-total_entries: 46
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-36.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,22 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-09 | **AI Infrastructure: Orchestration and Automation** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466553?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-09 | **Build a Certification Study Guide: AGWA Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466921?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-09 | **Migrate your VPC Firewall Policies to Cloud NGFW** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28470543?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-09 | **AI-Enabled Applications for Customer Service** | IBM | [Verify Record](https://www.credly.com/badges/e707134d-f39f-48bf-b0df-11990f414bc3/linked_in_profile) |
-| 2026-09 | **Data Visualization Using Python** | IBM | [Verify Record](https://www.credly.com/badges/16c8215d-9ca6-4579-a402-c1c69d189614/linked_in_profile) |
-| 2026-09 | **Data Analytics for Sustainability** | IBM | [Verify Record](https://www.credly.com/badges/48193bbc-2b59-4beb-b811-669f8fd684aa/linked_in_profile) |
-| 2026-09 | **Political Advertising Essentials** | Basis | [Verify Record](https://www.credly.com/badges/f0e35276-14b5-4cbc-a8f9-b4748865f5de/linked_in_profile) |
-| 2026-09 | **Basis Onboarding** | Basis | [Verify Record](https://www.credly.com/badges/4d87c182-6dbd-4c85-9563-ce1d26c2cdbe/linked_in_profile) |
-| 2026-09 | **Contextual Targeting: Strategies with Proximic by Comscore** | Basis | [Verify Record](https://www.credly.com/badges/678f7f02-73f8-4fb6-8c6e-ce8a77ebba5a/linked_in_profile) |
-| 2026-09 | **Collaboration & Communication** | Basis | [Verify Record](https://www.credly.com/badges/6016826a-ee02-4bd1-b2c6-ffcdb71616a8/linked_in_profile) |
-| 2026-09 | **Basis Planner** | Basis | [Verify Record](https://www.credly.com/badges/b21ec6f2-c32f-4ef6-9536-19b8ba89a0b7/linked_in_profile) |
-| 2026-09 | **Basis DSP Tactics** | Basis | [Verify Record](https://www.credly.com/badges/84fdc926-20d9-477f-b88e-9f372681a6b2/linked_in_profile) |
-| 2026-09 | **Make Smart Decisions with AI Insight: A 10 Day Challenge** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3cdd41c75cfdbaaa0f12e70ff1a6a62a82098b42ad5ad792eacc93de958af4ed) |
-| 2026-09 | **Nano Tips to Manage Layoff Anxiety with Elayne Fluker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/83454980a995e0b3f061f704574a59d9eddc981330bf44ac5219b3a2f7782342) |
-| 2026-09 | **The Executive's Guide to Engaging on LinkedIn: Learning Path Introduction** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7763ea069fb1ea9ded4c53ebdfc71a166d103345d9d5c90069da2b47bc3e7f61) |
-| 2026-09 | **Managing Your Mental Health in Your First Corporate Job Nano Tips with Julian Sarafian** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9c4bfd658021eef02f0a57be92c21da5f43b82cec530caec4e22110fda229f11) |
 | 2026-09 | **Nano Tips to Build Grit for Mental Toughness with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f0a50ee278898eb55b016382d245a442fc5e0e9d6462a515546f75db6f0a96d3) |
 | 2026-09 | **Bitter Choices: Navigating Global Cocoa Sourcing Tradeoffs (Cocoa Supply Chain Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eb4f82e71a3ad6a07b3e71b3664daa6247bb34894e03a352790cc99b15f1e5d0) |
 | 2026-09 | **Seeing beyond the Box: Smarter Inspection with Computer Vision (Intel Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/044ed3ce749b2e9eaa577dd08432a3099f8eb8edd0eaaa5eafd75692cdd89de9) |
@@ -61,6 +45,24 @@ artifacts: complete, index
 | 2026-08 | **Cloud Sales Pro - Workflow Automation** | Acronis | [Verify Record](https://www.credly.com/badges/a63cce86-72f9-432c-96ca-2d9daed850d8/linked_in_profile) |
 | 2026-08 | **Delivering Value with the ATT&CK Sightings Report** | AttackIQ | [Verify Record](https://www.credly.com/badges/6763d0db-b815-41d1-9dd9-f6f3064087ad/linked_in_profile) |
 | 2026-08 | **AttackIQ Foundational Blueprints** | AttackIQ | [Verify Record](https://www.credly.com/badges/fb6207f0-02f5-4fe6-9a76-d46eb5624a48/linked_in_profile) |
+| 2026-08 | **Advanced Cyber Threat Intelligence Writing: Crafting Actionable Reports** | AttackIQ | [Verify Record](https://www.credly.com/badges/8168b2f0-bad1-4fa8-bfb2-81ff1ca5ae03/linked_in_profile) |
+| 2026-08 | **AttackIQ Academy Threat Whisperer** | AttackIQ | [Verify Record](https://www.credly.com/badges/90f733cf-e8d8-4bbe-b560-5c66a35f9cc6/linked_in_profile) |
+| 2026-08 | **Reliability and Availability: How MongoDB ensures Business Continuity** | MongoDB | [Verify Record](https://www.credly.com/badges/f7b720f4-a41d-40e1-825d-12396020c40c/linked_in_profile) |
+| 2026-08 | **Cilium Getting Started** | Isovalent | [Verify Record](https://www.credly.com/badges/7e1806fc-d8d8-4d2a-8599-217816425f34/linked_in_profile) |
+| 2026-08 | **Discovery: Platform Engineer** | Isovalent | [Verify Record](https://www.credly.com/badges/d7da7369-d022-4776-a0eb-c8fc5a4d1524/linked_in_profile) |
+| 2026-08 | **Discovery: Network Engineer** | Isovalent | [Verify Record](https://www.credly.com/badges/b986a888-d21a-447e-b1c4-f9294bd2f740/linked_in_profile) |
+| 2026-08 | **Discovery: SecOps Engineer** | Isovalent | [Verify Record](https://www.credly.com/badges/0cc70c14-2825-4fdb-b46e-98c7027e69e7/linked_in_profile) |
+| 2026-08 | **eBPF Getting Started** | Isovalent | [Verify Record](https://www.credly.com/badges/c81eb262-6bce-465c-8877-1c5270232227/linked_in_profile) |
+| 2026-08 | **BGP on Cilium** | Isovalent | [Verify Record](https://www.credly.com/badges/60cadfc4-3a16-4323-8025-7fbd106ce7ab/linked_in_profile) |
+| 2026-08 | **Cilium Egress Gateway** | Isovalent | [Verify Record](https://www.credly.com/badges/b291cb8c-8817-42fc-bdd0-b23ec9e7e101/linked_in_profile) |
+| 2026-08 | **Connecting Cloud Networks with NCC** | Google | [Verify Record](https://www.credly.com/badges/6b9a8831-80bd-450b-8832-b13a02608855/linked_in_profile) |
+| 2026-08 | **Arcade Simulator: Network Security Engineer** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26380399?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Cloud Sales Professional XDR** | Acronis | [Verify Record](https://www.credly.com/badges/7f370553-e0b2-41a3-9909-131fe11a94a3/linked_in_profile) |
+| 2026-08 | **Cloud Tech Pro - Backup** | Acronis | [Verify Record](https://www.credly.com/badges/da9a50b8-a6fc-4e2e-bf7e-35da0a65a04c/linked_in_profile) |
+| 2026-08 | **Validating Defenses Quickly with Micro Emulation Plans** | AttackIQ | [Verify Record](https://www.credly.com/badges/d2d863a1-4240-48a3-83d4-e51e7b3b428c/linked_in_profile) |
+| 2026-08 | **Continuous Security Validation Workshop** | AttackIQ | [Verify Record](https://www.credly.com/badges/132269ac-0ab7-4b20-91c4-76ed7fa3359e/linked_in_profile) |
+| 2026-08 | **Cilium Gateway API** | Isovalent | [Verify Record](https://www.credly.com/badges/7a20ae99-3df6-481e-8b3a-9b20d2db3dea/linked_in_profile) |
+| 2026-08 | **Cilium Cluster Mesh** | Isovalent | [Verify Record](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-35.md](./linkedin-certifications-2026-08-part-35.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-37.md](./linkedin-certifications-2026-09-part-37.md)

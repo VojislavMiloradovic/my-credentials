@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 21 of 41
+chunk_part: 21 of 42
 date_range: 2026-06 to 2026-06
 total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-21.md
@@ -15,20 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Using AI to Improve Human Resources Practices** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9d0d3527f08ec8dcb038708cac0df9e8c4e5f0ca724432cc7cc3113414a159b5) |
-| 2026-06 | **Open to Work: Building Key Career Skills in the Age of AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/73b2017db01fe9273c53c94de742bb268c50fef067cce71feb13f73ceaeceb71) |
-| 2026-06 | **Field Sales Techniques That Win Customers** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/210d550333cdbf58bf7ba9dc7356a159a9a031f14f211583d21621ccbf83a8ad) |
-| 2026-06 | **Generative AI in HR** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8ae13306ea030042848b79f0594185109e912931af982cc088a14a5bf2c3ad9f) |
-| 2026-06 | **Navigating AI Through an Intersectional DEI Lens** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7dddae39e05654b6ea7b674482213abcc3837ee819163cd4d721781295909849) |
-| 2026-06 | **AI in Action: Global Case Studies from Public Institutions** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2d6cec05cc5189a251e5c8f125014a9e040bed08b9a565387f3ea3a0d7f60bc3) |
-| 2026-06 | **The New Rules of Career Longevity with Myechia Minter-Jordan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5d616eec032d40ab3caa47c68ae94d2cc722ecafbc61e3ec4e82a39273b5405d) |
-| 2026-06 | **Beyond Chat: A Quick Guide to Copilot Cowork in Microsoft 365** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/76757556a28b83415a2d18ac568707dee11a3011ab75a107c874cb551c661281) |
-| 2026-06 | **How to Use AI for Upskilling and Lifelong Learning** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4484f8ad670d79c0938bef8bcdecbeb12a4739d2d4cd5fae2d456c3c5c27fd64) |
-| 2026-06 | **Building Career Agility and Resilience in the Age of AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/51c29c1d683100682b3ffdbaae094d830fb74c43cb984069225416466a6a8c9f) |
-| 2026-06 | **Get Started with Dataplex Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/716e37e5-9b04-4615-a6bb-b7a3129f6aa9/linked_in_profile) |
-| 2026-06 | **Understanding AI’s Global Impact: Governance, Equity, and Responsibility** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d3bfa3005de59fae80ae90859eafac0050f135301fa40ebd987ba92c82ea2818) |
-| 2026-06 | **Overcome Communication Challenges: Adapt Your Style for Success** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3b5ba06014c693dde34328575d2255bceef9cb5112c15435181791f1f4963020) |
-| 2026-06 | **How to Be an Agent Boss: Leading AI Agents at Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2fca9de48e83ec5727e115cfca3f67e9398fb222d9efd78017f4e3b49209d843) |
 | 2026-06 | **Nano Tips for Using Google Gemini with Lachezar Arabadzhiev** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d86ee77113aceac4150008cec659aea6c5720e807283fe46ac83a95f85568ba7) |
 | 2026-06 | **Hands-On Data Analysis with Claude** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b91dfd802b0e9b25c960a8b4aefb6ef8ae3ef8ae7f071d98c93be04e6f6909d8) |
 | 2026-06 | **The Communicator’s Guide to AI: Tools and Mindsets for Modern PR and Media** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/26950470cfe6e4236413bae916f703c0a4f5d5f6b81449bb3bd91801dea35404) |
@@ -60,6 +46,20 @@ artifacts: complete, index
 | 2026-06 | **Learn to Vibe Code in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/23a61933ec61cff9676a940e8f60c10282bbd8d724431f81b2a62b27d1677899) |
 | 2026-06 | **Ethical AI for Hiring and Talent Acquisition: A Conversation with Don Phin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/587afcf949c8f73cd1be04f42bf827f57699daefa5cc8b9b58b06f9a8f6afe42) |
 | 2026-06 | **Digital Marketing Analytics Nano Tips with Sam Dey** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4da3055cf72a4acb8fe2c02b2b0fe33dae8bd6408c0137a6d687993c9a0c8eb0) |
+| 2026-06 | **Nano Tips for Innovative Ideation with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/df9e17c3f97fccc3cada1e92a6ab5ceea36196ed88093cb318ffad1fa5e71e27) |
+| 2026-06 | **Creative Insights: Local Projects Interactive Media Designers** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/02d2702a44843f7ad4571c22a73039721d2f472091384338b18e656512c8b01b) |
+| 2026-06 | **Nano Tips for Running a Content Engine That Drives ROI with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c5838ddc3ec27942e35c9f58eef1845a29ed3a3aa389f7135ff5f1b4eff9922c) |
+| 2026-06 | **Master Your Content and Communication: Nano Tips with Jon Youshaei** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/61faeefeba17efc067897b447b8b67839f7f04d0a106802f7d205658086e5ce3) |
+| 2026-06 | **Nano Tips For Marketing Using AI Tools with Sam Dey** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/57ffe712543b56c65011673f46d0e1096694c23b86b08a074c5d49e35af5d4d5) |
+| 2026-06 | **Video Without Cameras: Text-to-Video Tools and Trends** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1249eaa61ad5ea0d37e3a74df4de53834c34d4e5f7c249dd60f4f8b23679d04c) |
+| 2026-06 | **Nano Tips for Leaders to Model Curiosity and Growth with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3a478565755e08c21d5f5180dad81bb98027e09dc57c7ada9427892490221f5b) |
+| 2026-06 | **Maria Giudice: Design Leadership in Business** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d4df78cdc7fe95f362cfeefdeb1300ee5ce077d514c9d467bdc87e78e20da8fd) |
+| 2026-06 | **Nir Eyal on Creating Habit-Forming Products** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2437a83ab1cc2ba3ae283e6e9af302b47f247afe79025f72403c655eafb917b1) |
+| 2026-06 | **What is Graphic Design?** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a9fc5bdceaef5ce1ec6bc847249dd4d95b5bf8cb4caebba90260440071c65228) |
+| 2026-06 | **Nano Tips for Using ChatGPT for Marketers with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b9da48205e655a3e02fe575aa7cbd00a2fde52180add713a825194f476255d9a) |
+| 2026-06 | **Following the Digital Thread** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2de4d9a806e9113e43bca92602a20daff2b7c3d6f7c74321eec50e42a5330bd7) |
+| 2026-06 | **Smarter Cities: Using Data to Drive Urban Innovation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a8bdb9cf7884dbceb9bbc011b4d369fc1319291fb7e9c193511918e8fd110dd4) |
+| 2026-06 | **Fundamentals of AI Engineering: Principles and Practical Applications** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30dc17dd541da4a5ae1729145f9ae71e9f925b7f8502f32ce3a735e043221e58) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-20.md](./linkedin-certifications-2026-06-part-20.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-22.md](./linkedin-certifications-2026-06-part-22.md)

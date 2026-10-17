@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 12 of 41
+chunk_part: 12 of 42
 date_range: 2026-05 to 2026-05
-total_entries: 54
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-12.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,24 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **Applying SAP S/4HANA Product Engineering - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/9c1dab10-70e9-4bd3-b9fa-9f2eead26a00/linked_in_profile) |
-| 2026-05 | **Core Skills Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/9cfe8da1-05a9-4242-9dfc-8e91c87f9fe3/linked_in_profile) |
-| 2026-05 | **Configuration Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/a71f14fd-df65-47c9-9527-109add5f04d5/linked_in_profile) |
-| 2026-05 | **Dashboards Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/3ada1a37-c791-4d66-860b-36b7c30ec4c3/linked_in_profile) |
-| 2026-05 | **LLM Observability Metrics & Traces Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/linked_in_profile) |
-| 2026-05 | **Agents & Agentic AI Fundamentals** | Intel | [Verify Record](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d/linked_in_profile) |
-| 2026-05 | **Explore Identity Foundations** | Okta | [Verify Record](https://www.credly.com/badges/bef6ae97-3d40-441b-a5fd-168016f17b32/linked_in_profile) |
-| 2026-05 | **Managing Company Administration in Legacy Concur Travel - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/ec23d781-1dce-4c64-9a2c-1199a7650f19/linked_in_profile) |
-| 2026-05 | **Cloud Security Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/85e91ec4-bba7-40fb-bc78-ab15fc5c4c1f/linked_in_profile) |
-| 2026-05 | **Cloud Security Engineer - Cloud SIEM Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/577f478c-820f-4968-b0d8-4442919eb244/linked_in_profile) |
-| 2026-05 | **Log Querying & Analytics Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/a621b498-451c-4f52-ab24-2af344bc773d/linked_in_profile) |
-| 2026-05 | **Log Configuration & Processing Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/e1e5c2fb-df56-4426-b482-94ee2d79e9e0/linked_in_profile) |
-| 2026-05 | **Log Management Fundamentals** | Datadog | [Verify Record](https://www.credly.com/badges/bb1f9ed7-1194-4b2f-98ec-3919dfccd7df/linked_in_profile) |
-| 2026-05 | **Okta for AI Agents** | Okta | [Verify Record](https://www.credly.com/badges/692470a1-f212-48bf-a7b7-79e824c6f06f/linked_in_profile) |
-| 2026-05 | **Secure Your RAG Pipelines with Auth0 Fine-Grained Access** | Okta | [Verify Record](https://www.credly.com/badges/a39802d7-ae30-4c95-ae7d-434cc1243233/linked_in_profile) |
-| 2026-05 | **Secure Your AI Agents to Act on the Behalf of Users** | Okta | [Verify Record](https://www.credly.com/badges/bd7cf46e-660f-406b-9547-69b0c0b9d822/linked_in_profile) |
-| 2026-05 | **Securing AI Agents** | Okta | [Verify Record](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/linked_in_profile) |
-| 2026-05 | **Implementing SAP S/4HANA Cloud for Group Reporting - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/edb638dc-fb67-4321-ac1f-be6461909fe4/linked_in_profile) |
 | 2026-05 | **Attacks & Threat Detection Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/c709595f-bccc-4383-9323-6172990f3c8d/linked_in_profile) |
 | 2026-05 | **Kubernetes Monitoring Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/775a311d-54f3-4e38-9e60-3da0c5149df4/linked_in_profile) |
 | 2026-05 | **Application Performance Monitoring Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/23440c88-44f9-416e-a91e-03f421624399/linked_in_profile) |
@@ -69,6 +51,23 @@ artifacts: complete, index
 | 2026-05 | **Foundations of Risk and Asset Liability Management Knowledge Badge** | SAS | [Verify Record](https://www.credly.com/badges/5328bcd2-a3eb-4848-97d6-1943f04e2219/linked_in_profile) |
 | 2026-05 | **AI for Product Management** | Pendo.io | [Verify Record](https://www.credly.com/badges/1f9721c8-f066-45c5-b673-61955c346c47/linked_in_profile) |
 | 2026-05 | **Digital Adoption Certification** | Pendo.io | [Verify Record](https://www.credly.com/badges/7245de95-83f1-4f30-b301-0d61c8576780/linked_in_profile) |
+| 2026-05 | **Statistics 1: Introduction to ANOVA, Regression, and Logistic Regression** | SAS | [Verify Record](https://www.credly.com/badges/e3ce2619-792f-4d85-9ed2-41865bbd6eec/linked_in_profile) |
+| 2026-05 | **Setting up SAP Mobile Start with SAP S/4HANA on SAP Build Work Zone - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/07157e87-17e7-4a62-9599-6da52e400954/linked_in_profile) |
+| 2026-05 | **Cybersecurity Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9/linked_in_profile) |
+| 2026-05 | **Data Literacy Essentials** | SAS | [Verify Record](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31/linked_in_profile) |
+| 2026-05 | **Introduction to Statistical Concepts** | SAS | [Verify Record](https://www.credly.com/badges/c503a241-0ce2-4131-878d-d2695680bde2/linked_in_profile) |
+| 2026-05 | **Overview of the IFRS 17 Standard** | SAS | [Verify Record](https://www.credly.com/badges/85b05775-f078-4b2e-9a1c-8987a14c0162/linked_in_profile) |
+| 2026-05 | **Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity** | Okta | [Verify Record](https://www.credly.com/badges/2f421b3d-277a-4bc8-8120-3a07438a5962/linked_in_profile) |
+| 2026-05 | **Discovering the Basics of SAP S/4HANA Portfolio and Project Management - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/d3c10832-4cf4-4d04-939b-bbcc1dcc9f1e/linked_in_profile) |
+| 2026-05 | **GenAI - Client to Cloud Fundamentals** | Intel | [Verify Record](https://www.credly.com/badges/bbd4f4ac-6aba-480f-b77c-9b8f79b65bdd/linked_in_profile) |
+| 2026-05 | **SAS 9 Administration: Getting Started** | SAS | [Verify Record](https://www.credly.com/badges/db55699d-258e-4a61-870c-0d66d5f6166f/linked_in_profile) |
+| 2026-05 | **Getting Started with SAS and Kubernetes** | SAS | [Verify Record](https://www.credly.com/badges/1a509b1d-9a06-410c-8916-eac5b639fe28/linked_in_profile) |
+| 2026-05 | **Introduction to Web Design** | SAS | [Verify Record](https://www.credly.com/badges/3fc971ca-8531-4e28-b6f8-6eecdf8354b3/linked_in_profile) |
+| 2026-05 | **Introduction to Authentication Protocols** | SAS | [Verify Record](https://www.credly.com/badges/843836d7-d464-422e-bb40-5d76c77c3bde/linked_in_profile) |
+| 2026-05 | **Mastering AML Compliance: Safeguarding the Financial Sector** | SAS | [Verify Record](https://www.credly.com/badges/dc24612b-9d31-4ece-b66a-7198e4b05f76/linked_in_profile) |
+| 2026-05 | **Modern Data Science with SAS Viya Workbench: Unified Development with SAS, Python, and R** | SAS | [Verify Record](https://www.credly.com/badges/a0be387e-762c-4126-96bb-f1e42b60e922/linked_in_profile) |
+| 2026-05 | **Agentic AI - How to with SAS Viya** | SAS | [Verify Record](https://www.credly.com/badges/5fe72598-ffcd-4c5c-8b30-319831d7d2bd/linked_in_profile) |
+| 2026-05 | **Mastering Financial Fraud Prevention: Safeguarding Assets & Integrity** | SAS | [Verify Record](https://www.credly.com/badges/24877ce6-89fc-430e-b0bd-cc255519b9b3/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-11.md](./linkedin-certifications-2026-05-part-11.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-13.md](./linkedin-certifications-2026-06-part-13.md)

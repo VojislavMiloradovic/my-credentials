@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 13 of 41
+chunk_part: 13 of 42
 date_range: 2026-05 to 2026-06
-total_entries: 49
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-13.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,22 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Nano Tips for Improving Email Communications with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/af671dcd36e2cf561b9d8f79f5533d536ad2de2d6acdf191a09328b537466b25) |
-| 2026-06 | **Cloud Tech Associate Advanced Management** | Acronis | [Verify Record](https://www.credly.com/badges/30b95128-ad8f-470c-85e7-e00a4ceba43b/linked_in_profile) |
-| 2026-06 | **Academic Process Mining Fundamentals** | Celonis | [Verify Record](https://www.credly.com/badges/20201bb7-c784-40de-99ab-d72dc8147145/linked_in_profile) |
-| 2026-06 | **Deliver Business Value with Celonis** | Celonis | [Verify Record](https://www.credly.com/badges/897bc772-848b-40cc-8a6e-315c76aec649/linked_in_profile) |
-| 2026-06 | **Celonis AI Foundations** | Celonis | [Verify Record](https://www.credly.com/badges/584ca505-5e6b-4d33-ae7e-be95f464c2eb/linked_in_profile) |
-| 2026-06 | **Review and Interpret Analyses** | Celonis | [Verify Record](https://www.credly.com/badges/25472282-590d-4f27-9fda-6f344e2fd901/linked_in_profile) |
-| 2026-06 | **Create and Deliver Demos** | Celonis | [Verify Record](https://www.credly.com/badges/b65bf69a-ce07-487d-b439-fafad1ee79d9/linked_in_profile) |
-| 2026-06 | **Implement Passwordless Authentication** | Okta | [Verify Record](https://www.credly.com/badges/b5aeea2a-0424-47c4-87d4-ea6a6acd3bad/linked_in_profile) |
-| 2026-06 | **Manage Your Tenant with Auth0 MCP Server** | Okta | [Verify Record](https://www.credly.com/badges/c9da5f3b-b75b-43d4-9e6d-d291b9504fe3/linked_in_profile) |
-| 2026-06 | **Nano Tips For Conscious Communication To Grow Your Career with Ravi Rajani** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e934b6033c566c014f3b1a896fdfc7895f7c344121410127eda99674966c7514) |
-| 2026-06 | **Nano Tips for Managing Customer Expectations with Richard Moore** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e84a22b907cd65448677b6375fa8fa406ff2bbfd250e302a99532a7fee006f3c) |
-| 2026-06 | **Nano Tips for Delegating as a Manager with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/006a317be1d0dbeead2f512cdc5d17de862c079335a0bd52d22e229305c24913) |
-| 2026-06 | **Nano Tips For Building Trust As A Leader with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9145d02123647e95295d07e9fc8905a10f6519b55840fce913d39876e7faa69b) |
-| 2026-06 | **Nano Tips for Peak Performance with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c888652b4433279e1d16da2a6b90188cb53dab0f633de508720d021963578ce6) |
-| 2026-06 | **Nano Tips for Optimizing Your Content for Social Media Algorithms with Sam Dey** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b8d69bb161e1e861f0ccf5fd5dcc3ace8ddde639573890d0821d19d69230b4f9) |
-| 2026-06 | **Business Model Innovation: Seven Essentials** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dbb82feb9ad3336aec9ba43b7621e1d42279ca4dfc1e52ada642d89577a56cef) |
 | 2026-06 | **Nano Tips on How to Use Storytelling for Problem Solving with Ash Rathod** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/29a2741c5a743864fb844de0116b5dd08202c26dee2773469ed99e50a7275bd4) |
 | 2026-06 | **Nano Tips for Video Creation on LinkedIn with Roshanda Pratt** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6bb8cf37faaff1f89c01c174518e4e1ed8617254fe9e4ed7d49d2f2a82637402) |
 | 2026-06 | **Beginner Sales Nano Tips with Miles Croft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/872044416d3991448d30f5f9326d0ffdd2b23191891359248163acdc0e3897ca) |
@@ -64,6 +48,24 @@ artifacts: complete, index
 | 2026-05 | **IT Customer Support Basics** | Cisco | [Verify Record](https://www.credly.com/badges/66dd5194-76bb-456f-b199-db61a26524a3/linked_in_profile) |
 | 2026-05 | **Exploring SAP SuccessFactors Embedded Launch Activities for Business User - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/cc432e30-9613-4886-b82d-dd8b9ed936f3/linked_in_profile) |
 | 2026-05 | **Project Management Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/544641c1-b718-4173-ac14-39c1b0656aea/linked_in_profile) |
+| 2026-05 | **Applying SAP S/4HANA Product Engineering - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/9c1dab10-70e9-4bd3-b9fa-9f2eead26a00/linked_in_profile) |
+| 2026-05 | **Core Skills Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/9cfe8da1-05a9-4242-9dfc-8e91c87f9fe3/linked_in_profile) |
+| 2026-05 | **Configuration Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/a71f14fd-df65-47c9-9527-109add5f04d5/linked_in_profile) |
+| 2026-05 | **Dashboards Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/3ada1a37-c791-4d66-860b-36b7c30ec4c3/linked_in_profile) |
+| 2026-05 | **LLM Observability Metrics & Traces Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/linked_in_profile) |
+| 2026-05 | **Agents & Agentic AI Fundamentals** | Intel | [Verify Record](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d/linked_in_profile) |
+| 2026-05 | **Explore Identity Foundations** | Okta | [Verify Record](https://www.credly.com/badges/bef6ae97-3d40-441b-a5fd-168016f17b32/linked_in_profile) |
+| 2026-05 | **Managing Company Administration in Legacy Concur Travel - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/ec23d781-1dce-4c64-9a2c-1199a7650f19/linked_in_profile) |
+| 2026-05 | **Cloud Security Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/85e91ec4-bba7-40fb-bc78-ab15fc5c4c1f/linked_in_profile) |
+| 2026-05 | **Cloud Security Engineer - Cloud SIEM Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/577f478c-820f-4968-b0d8-4442919eb244/linked_in_profile) |
+| 2026-05 | **Log Querying & Analytics Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/a621b498-451c-4f52-ab24-2af344bc773d/linked_in_profile) |
+| 2026-05 | **Log Configuration & Processing Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/e1e5c2fb-df56-4426-b482-94ee2d79e9e0/linked_in_profile) |
+| 2026-05 | **Log Management Fundamentals** | Datadog | [Verify Record](https://www.credly.com/badges/bb1f9ed7-1194-4b2f-98ec-3919dfccd7df/linked_in_profile) |
+| 2026-05 | **Okta for AI Agents** | Okta | [Verify Record](https://www.credly.com/badges/692470a1-f212-48bf-a7b7-79e824c6f06f/linked_in_profile) |
+| 2026-05 | **Secure Your RAG Pipelines with Auth0 Fine-Grained Access** | Okta | [Verify Record](https://www.credly.com/badges/a39802d7-ae30-4c95-ae7d-434cc1243233/linked_in_profile) |
+| 2026-05 | **Secure Your AI Agents to Act on the Behalf of Users** | Okta | [Verify Record](https://www.credly.com/badges/bd7cf46e-660f-406b-9547-69b0c0b9d822/linked_in_profile) |
+| 2026-05 | **Securing AI Agents** | Okta | [Verify Record](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/linked_in_profile) |
+| 2026-05 | **Implementing SAP S/4HANA Cloud for Group Reporting - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/edb638dc-fb67-4321-ac1f-be6461909fe4/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-12.md](./linkedin-certifications-2026-05-part-12.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-14.md](./linkedin-certifications-2026-06-part-14.md)

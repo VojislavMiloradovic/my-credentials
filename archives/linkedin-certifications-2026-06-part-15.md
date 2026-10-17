@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 15 of 41
+chunk_part: 15 of 42
 date_range: 2026-06 to 2026-06
-total_entries: 44
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-15.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,20 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Future-Proofing Your Career** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e687441c5c58363cd0962f01f3f8ca9276b6848397e73a0e0f702792a52e7811) |
-| 2026-06 | **How to Generate Marketing Leads with AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2dbfc20cdac1b57e1da0bbc7057fe047a6b9b6e1b557997ed2cd24d0355d2c89) |
-| 2026-06 | **How to Build a Strong Professional Brand on LinkedIn with LinkedIn Career Expert Andrew Seaman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/77c955cf6a957a2c07a8f9ca816ca6c2cbf145813ee5e40cbc0a38f5b3c7d84c) |
-| 2026-06 | **Guided Lab: Model Context Protocol (MCP) for Data Science Models** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5fbdf576432de68c2bd93ffe313d691df7667c8c987fb5c6f175a9b17fa76035) |
-| 2026-06 | **Navigating Generative AI Ethics: Guided by Transparency, Accountability, and Responsibility Principles by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b398f70ada9b3d88b2634d17d8a0f252c6b4dbe8b855d7c76fdf6775e2e6a6e5) |
-| 2026-06 | **AWS Knowledge: Media & Entertainment: Direct-to-Consumer and Broadcast Foundations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/3b24da57-1197-413e-8fa4-fdb2fe314113/linked_in_profile) |
-| 2026-06 | **Cloud Tech Professional Advanced Backup** | Acronis | [Verify Record](https://www.credly.com/badges/73990582-085d-46e4-a7b9-537fdb44401e/linked_in_profile) |
-| 2026-06 | **LFC101: Inclusive Speaker Orientation** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/ad970f8a-3675-4caa-b4bf-70a3b661751f/linked_in_profile) |
-| 2026-06 | **LFD114: Porting Software to RISC-V** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/bb54e8cf-48fd-49a8-8cfc-6e4e182504e3/linked_in_profile) |
-| 2026-06 | **Chainguard Container Crusader** | Chainguard | [Verify Record](https://www.credly.com/badges/bc36c287-1124-4591-99a8-02051ffa7402/linked_in_profile) |
-| 2026-06 | **Get Hired at a Top Company: Strategies from Amazon VP Ofori Agboka** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/79ec9990f1603021d6f2630c406e95d8284a35b29a583603516a8f952fec156a) |
-| 2026-06 | **The Creative Spark: Larry Crane, Recording Engineer and Music Producer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c636937bf1283f3f3f0dd70fd7425e0850852ef93095f5bae12936c10ceb3f69) |
-| 2026-06 | **Chris Landreth: Oscar-Winning Animation Director** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8fedb952a4fb7506e4d08b29b0d1fcaeb9baae3134ce73a11cd58010a9fa6524) |
-| 2026-06 | **Douglas Kirkland on Photography: A Life in Pictures** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/60e9c3543ce0bcca97af2758f27c07ba67576137c89f7c8788497f64f310479c) |
 | 2026-06 | **The Motionographer Story** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0ccc46a05541ad61c93f45d8d4b0dcb088b15e9c8fbcc381cd6214e7862e2494) |
 | 2026-06 | **RAD Lab: Revitalizing the City Block** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f831015f176ddfe74ce74e81e9d4a1d5d6fcc6f499b01df35dfa69d299bd5d4f) |
 | 2026-06 | **Taylre Jones, Film and Video Colorist** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f6073b98f26d87efaa2fe5c9cde0a7d650c3485d32deec6ade33af5f744c7a9e) |
@@ -59,6 +45,21 @@ artifacts: complete, index
 | 2026-06 | **Building AI Agents: From Zero to Production by Microsoft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3673fc1b227c9bce4657197fe26e881d62d28c1a82be1e9d92fd747b6f552e9a) |
 | 2026-06 | **Agentic AI: Tools and Strategies for the Super Agent Future** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d7c01042b07c62842e2851737449a8384fc8243b5e24b2b77b8ece28b24dc987) |
 | 2026-06 | **Agentic Artificial Intelligence: Harnessing AI Agents to Reinvent Business, Work, and Life** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ef16d1a547f6e3dbc675749db607699961b1ac9cc6f3caa8d45d02d5379cd743) |
+| 2026-06 | **Build with AI: Create an Agent with GPT-OSS** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f79baa51ac1f6f09381a7aeb00e5e48d7641e0e13e339129d4d3a50b019d8325) |
+| 2026-06 | **Boosting Your Negotiation Skills with Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/89025fad23b3dca0ebd46500cd6df3f584e27735204ea9c23eeac130ec4ac260) |
+| 2026-06 | **Harnessing AI in the Recruiting Lifecycle** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/574b2e278ebca2d97b14730b09dbf4b4cd446df9079de43da562ee54d3fd0cd9) |
+| 2026-06 | **A Standalone Project: Perform Data Analytics to Find Trends through Visualization** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a778b6a9f7ff19c0252f1969d443e7ca096e35c81ad998f62377ca23279650d5) |
+| 2026-06 | **Nano Tips for Leading with Positivity with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/833890872bdf5c98127fb8816d206244d41051d4ac02ce4e825ed81e8dbbfae9) |
+| 2026-06 | **Nano Tips for Effortless Conversations with Shadé Zahrai and Jefferson Fisher** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0bfd90fd1c2be378fde459a28b0dc78498c1fc127fea3a88e6b9c69e2c33e169) |
+| 2026-06 | **How to Evaluate a Job Offer's Benefits Package** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/61d903e771dcc60fa36d6c5a2dadcbf1869f97340dfd6ee6792ce088eb278fcc) |
+| 2026-06 | **AWS Knowledge: Migration Foundations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e/linked_in_profile) |
+| 2026-06 | **Cloud Tech Associate Advanced Disaster Recovery** | Acronis | [Verify Record](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937/linked_in_profile) |
+| 2026-06 | **Nano Tips for Digital Networking with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7c1d2eb3c0d57562c6ce9d9e20a3e32258a2d14a20591a04ea7771d122f2a811) |
+| 2026-06 | **Nano Tips To Improve Adaptability and Flexibility with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/39e0f33e8ed9d6becf8c93eb8ce821fb4dd3ac4d9de29982514705d342eef74d) |
+| 2026-06 | **Celonis Foundations** | Celonis | [Verify Record](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf/linked_in_profile) |
+| 2026-06 | **Monitor KPIs in Analysis Dashboards** | Celonis | [Verify Record](https://www.credly.com/badges/d23419cf-0b96-4003-8c51-d0156b673365/linked_in_profile) |
+| 2026-06 | **Monitor KPIs in Execution Apps** | Celonis | [Verify Record](https://www.credly.com/badges/648e7ea8-11ed-42ec-8bb2-68235dd7841a/linked_in_profile) |
+| 2026-06 | **Process Automation Basics** | Celonis | [Verify Record](https://www.credly.com/badges/8da97b58-6d1d-46ef-bad3-34ed67aa3baa/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-14.md](./linkedin-certifications-2026-06-part-14.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-16.md](./linkedin-certifications-2026-06-part-16.md)

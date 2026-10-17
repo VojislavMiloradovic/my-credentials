@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 8 of 41
+chunk_part: 8 of 42
 date_range: 2026-04 to 2026-04
-total_entries: 49
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-04-part-08.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,23 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-04 | **Understanding SAP’s 2026 Go-to-Market Direction for Partners - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/cccb34bc-a8ae-4c85-8a7f-793cd28bfa1b/linked_in_profile) |
-| 2026-04 | **Positioning SAP Customer Loyalty Management - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xokab-pimar-haber-tanim-debem) |
-| 2026-04 | **Creating Promotions and Coupons in SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xecyl-rybub-lamid-hyvof-gugub) |
-| 2026-04 | **Using Computer and Mobile Devices** | Cisco | [Verify Record](https://www.credly.com/badges/156370e6-b39b-4f49-a04e-cdb1fb215489/linked_in_profile) |
-| 2026-04 | **Getting Started with Support from SAP (Support Accreditation) - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xenyc-fitun-relan-rogif-vifyp) |
-| 2026-04 | **Modernizing Integration with SAP Integration Suite - SAP Learning MOOC - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/f3166cf7-82ab-4871-8b96-7ed8cbf350e6/linked_in_profile) |
-| 2026-04 | **Digital Awareness** | Cisco | [Verify Record](https://www.credly.com/badges/9edc3f97-91e5-4d5d-b674-27e822964fb4/linked_in_profile) |
-| 2026-04 | **Introduction to IoT** | Cisco | [Verify Record](https://www.credly.com/badges/9fd72888-3b11-4f02-b53a-1506890ed015/linked_in_profile) |
-| 2026-04 | **Google Ads Display Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/aaa06037-984b-436d-a969-138478771e90) |
-| 2026-04 | **AWS Knowledge: AWS Transform Fundamentals – Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/54d81ecb-6fd5-4ff9-aba6-6acaa59cdcec/linked_in_profile) |
-| 2026-04 | **AI Fundamentals: Foundations for Understanding AI** | IBM | [Verify Record](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef/linked_in_profile) |
-| 2026-04 | **Working with Invoice Pay in Concur Invoice Professional - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/6a8ba215-f454-4b26-91ef-5ff968b721f7/linked_in_profile) |
-| 2026-04 | **Explore Emerging Tech** | IBM | [Verify Record](https://www.credly.com/badges/67d065a9-5177-45e1-b94d-72bc4b493ca0/linked_in_profile) |
-| 2026-04 | **AWS Knowledge: Amazon Connect Fundamentals - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/cb6a4e9e-b375-4e40-bf27-7f3d4ad252d5/linked_in_profile) |
-| 2026-04 | **Introduction to Greenhouse Gas Accounting for IT** | Cisco | [Verify Record](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250/linked_in_profile) |
-| 2026-04 | **Transition from SAP Solution Manager to SAP Cloud ALM - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/e95d01e6-d813-4038-bc38-8e396c4b88bc/linked_in_profile) |
-| 2026-04 | **Explorations into Mindfulness** | IBM | [Verify Record](https://www.credly.com/badges/58226aca-cc26-41a3-8ed7-1ef7e7880114/linked_in_profile) |
 | 2026-04 | **Google Ads Creative Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/72c8a75b-85e1-4619-b34b-61adaa5a68c9) |
 | 2026-04 | **Linux Unhatched** | Cisco | [Verify Record](https://www.credly.com/badges/4c3ee7b3-330b-437b-8e6a-91d96bca1b45/linked_in_profile) |
 | 2026-04 | **Discovering Extended Warehouse Management with SAP S/4HANA - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/57c930ea-4372-4144-a8d3-92e615d6f439/linked_in_profile) |
@@ -64,6 +47,19 @@ artifacts: complete, index
 | 2026-04 | **Google DeepMind: 07 Accelerate Your Model** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23413107?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-04 | **Introduction to Data Analytics in Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23425067?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-04 | **Responsible AI for Developers: Fairness & Bias** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23425551?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Introduction to Gemini Enterprise** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23440944?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Introduction to reCAPTCHA** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23448939?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Unlock Insights with NotebookLM** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23449115?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Getting Started with Security Command Center Enterprise** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23461724?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Create Agents with Generative Playbooks** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23480307?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Agent Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23480394?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Build Your First Agent with Agent Development Kit (ADK)** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23480494?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Optimize Agent Behavior** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23480600?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Build Agents with Agent Development Kit (ADK)** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23497985?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Add Agent Capabilities With Tools** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23498188?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Manage Agent Memory and State** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23498280?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Introduction to AI Agents** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23515484?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Enterprise Agents and Use Cases** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23515527?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-04-part-07.md](./linkedin-certifications-2026-04-part-07.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-09.md](./linkedin-certifications-2026-05-part-09.md)

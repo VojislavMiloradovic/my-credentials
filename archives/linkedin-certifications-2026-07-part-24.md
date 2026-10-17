@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 24 of 41
-date_range: 2026-07 to 2026-07
-total_entries: 50
+chunk_part: 24 of 42
+date_range: 2026-06 to 2026-07
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-24.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,25 +11,10 @@ artifacts: complete, index
 
 # LinkedIn Certifications -- Part 24
 
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-23.md](./linkedin-certifications-2026-07-part-23.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-25.md](./linkedin-certifications-2026-07-part-25.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-06-part-23.md](./linkedin-certifications-2026-06-part-23.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-25.md](./linkedin-certifications-2026-07-part-25.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-07 | **MongoDB Advanced Schema Design Patterns and Anti-patterns Skill Badge** | MongoDB | [Verify Record](https://www.credly.com/badges/e467dede-3af7-4e52-94b6-024d53997597/linked_in_profile) |
-| 2026-07 | **AWS Educate Getting Started with Databases - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/da4e7c34-8a7a-4418-86f2-eb9db7a34148/linked_in_profile) |
-| 2026-07 | **MongoDB Schema Design Optimization Skill Badge** | MongoDB | [Verify Record](https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8/linked_in_profile) |
-| 2026-07 | **MongoDB Query Optimization Techniques** | MongoDB | [Verify Record](https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09/linked_in_profile) |
-| 2026-07 | **Ryan Holmes on Social Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e6e647ae9bc82a07bc3b120c592af1ea458467921ca9b3bb56b0b50ade2c3ca7) |
-| 2026-07 | **Ken Blanchard on Servant Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0adf14b7571424f8ea180aed404be5f4e9fb70ab0d2d03c43b47ca5e109a44a8) |
-| 2026-07 | **Ram Charan on Coaching High Potentials** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ad95c14cd19e81af1e04ad1fe9009cf3a792df7eebc375a3fce0a8f5e5c9f53) |
-| 2026-07 | **Arcade Adventure: Low-Code Development** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25819783?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Orchestrate Workflows with the Data Agent Kit** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25826281?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Set Up Multiple Network Interfaces** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25828763?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Configure VPC Routes and Addresses** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25829594?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Cloud Sales Pro - Email Security** | Acronis | [Verify Record](https://www.credly.com/badges/1ae5dbfc-3538-41eb-b208-8cd3fa60648a/linked_in_profile) |
-| 2026-07 | **Cloud Sales Pro - Entra ID Backup** | Acronis | [Verify Record](https://www.credly.com/badges/00d5b48a-6926-43c6-842d-3585215523fe/linked_in_profile) |
-| 2026-07 | **AWS Educate Getting Started with Networking - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/95dadb7d-8f0b-4520-b945-c7b41292f126/linked_in_profile) |
-| 2026-07 | **menuPass Emulation Plan Execution** | AttackIQ | [Verify Record](https://www.credly.com/badges/6fd90ef1-aa26-4e52-bdd8-e499e96f3644/linked_in_profile) |
 | 2026-07 | **Mapping MITRE ATT&CK to CVE for Impact** | AttackIQ | [Verify Record](https://www.credly.com/badges/8f620453-4525-4c45-9107-5a24f2bf89a5/linked_in_profile) |
 | 2026-07 | **Securing MongoDB Self-Managed: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/ccb3958d-00b6-4cf5-abf2-9481f3f12197/linked_in_profile) |
 | 2026-07 | **MongoDB Overview: Core Concepts and Architecture** | MongoDB | [Verify Record](https://www.credly.com/badges/ec006874-acdf-4095-abab-5b6657054fc1/linked_in_profile) |
@@ -65,7 +50,24 @@ artifacts: complete, index
 | 2026-07 | **Building an App with Code Agents and MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/e69b5623-374c-482a-b29f-6cee2c6714d1/linked_in_profile) |
 | 2026-07 | **MongoDB Encryption at Rest with BYOK** | MongoDB | [Verify Record](https://www.credly.com/badges/ea5fdc47-7f57-42a4-9829-eb7c40b0b729/linked_in_profile) |
 | 2026-07 | **Vector Search Performance** | MongoDB | [Verify Record](https://www.credly.com/badges/a89e8a08-ff7d-433a-9131-a8e2d464db34/linked_in_profile) |
+| 2026-07 | **Practical GitHub Code Search** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0a69148f2ef2e50e11ac9e4318c93b7af77806ba6c9fafcd76080af74f97ae68) |
+| 2026-07 | **Delivering and Analyzing a Software Pilot: GitHub Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2387b7333a40de8752f2080716d0aac9ee1736351c94fc8b0ae3ef42536f6857) |
+| 2026-07 | **Networking in Action: Build Real Connections That Accelerate Your Career** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/938a95030be5377f10fc0c93b84bd5ea05c18f4fd009326b925abaf920428cc3) |
+| 2026-07 | **Practical GitHub Actions** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0278c3e6638cf65ea033337c73ea18d2d09bbb8988d1a9d880fc9a2ccba723b1) |
+| 2026-06 | **Session and Token Management Best Practices** | Okta | [Verify Record](https://www.credly.com/badges/1b01f351-59a3-42a9-a39e-2c5e22b1ef8c/linked_in_profile) |
+| 2026-06 | **Product-led Certification** | Pendo.io | [Verify Record](https://www.credly.com/badges/4813afed-be74-43f4-a69e-9a6482970fa2/linked_in_profile) |
+| 2026-06 | **Product Analytics Certification** | Pendo.io | [Verify Record](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16/linked_in_profile) |
+| 2026-06 | **Product Discovery Certification** | Pendo.io | [Verify Record](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145/linked_in_profile) |
+| 2026-06 | **Data Literacy in Practice** | SAS | [Verify Record](https://www.credly.com/badges/45b07a9e-9ca9-4189-a489-ebb58c023824/linked_in_profile) |
+| 2026-06 | **Deploying SAS Grid Manager** | SAS | [Verify Record](https://www.credly.com/badges/a0ad62be-1ecc-43c0-92ca-35437a0dd09b/linked_in_profile) |
+| 2026-06 | **Deploying SAS Viya from a Mirrored Registry** | SAS | [Verify Record](https://www.credly.com/badges/da51d4a3-2800-400d-a88d-d189bf53cc7e/linked_in_profile) |
+| 2026-06 | **Manual SAS Viya Deployment** | SAS | [Verify Record](https://www.credly.com/badges/0a5e2982-bdb6-498f-8ec6-979b3c0db919/linked_in_profile) |
+| 2026-06 | **Post-Deployment Steps for SAS Viya** | SAS | [Verify Record](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc/linked_in_profile) |
+| 2026-06 | **Practical Application of Gen AI for Project Managers** | Project Management Institute | [Verify Record](https://www.credly.com/badges/d8cbec32-4350-4590-831f-34ad56889daf/linked_in_profile) |
+| 2026-06 | **Talking to AI: Prompt Engineering for Project Managers** | Project Management Institute | [Verify Record](https://www.credly.com/badges/1b9b4a53-4ddc-4d6b-bd7c-c31df88dabc8/linked_in_profile) |
+| 2026-06 | **PMI® Essentials: Seven AI Project Patterns** | Project Management Institute | [Verify Record](https://www.credly.com/badges/2f214aa1-1de2-4e25-ba59-61ba86729898/linked_in_profile) |
+| 2026-06 | **Build Scalable Authorization Models with Auth0 FGA** | Okta | [Verify Record](https://www.credly.com/badges/03f314ca-34b2-45d8-9b2a-d0a5a45db527/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-07-part-23.md](./linkedin-certifications-2026-07-part-23.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-25.md](./linkedin-certifications-2026-07-part-25.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-06-part-23.md](./linkedin-certifications-2026-06-part-23.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-25.md](./linkedin-certifications-2026-07-part-25.md)
 

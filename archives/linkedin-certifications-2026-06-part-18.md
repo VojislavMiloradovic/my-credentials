@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 18 of 41
+chunk_part: 18 of 42
 date_range: 2026-06 to 2026-06
 total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-18.md
@@ -15,21 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **AI-Powered Content Planning for Marketers: Research Trends and Build Briefs by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ff0ca1f03491136a94fadad1cbf45c3eedb7643929c7bd975632e5c111247918) |
-| 2026-06 | **Marketing Analytics and Insights with AI: Use Claude and Copilot to Analyze Data, Generate Insights, and Build Dashboards by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3cedba5b1e8adf134b4b4f001f7f3abc0c7555d9ed8b93de6646c60cc24b7d29) |
-| 2026-06 | **AI-Powered Content Generation for Communications and Social Media Marketing by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f84644b499e4bb799d4a78b31a4b9c91267f3269604b0038236ab0f241b0a68f) |
-| 2026-06 | **AI-Powered Audience Strategy for Digital Marketing: Build Seed Audiences, Improve Data Quality, and Optimize Segmentation by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a30bd965b1093e7e4631022020997c26ea5ac81dd266a9efc4c711216f2f733c) |
-| 2026-06 | **How to Use LinkedIn Learning** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4913c5d70d7893ed1d11101e295aac77d8c075c4f81d4eccfa0c6e121e512f5d) |
-| 2026-06 | **AWS Knowledge: Amazon EKS - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/a56b19c1-ecf5-4bf0-b66e-1849a18b9722/linked_in_profile) |
-| 2026-06 | **Intro to Acronis** | Acronis | [Verify Record](https://www.credly.com/badges/9e744ff2-c093-46d2-adba-97b5f1c92be2/linked_in_profile) |
-| 2026-06 | **LFS183: Introduction to Zero Trust** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/ea7570fb-d863-4cbf-8329-ee746d40980a/linked_in_profile) |
-| 2026-06 | **LFC112: Creating Effective Documentation for Developers** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/74c24889-addb-48cd-8539-b9484742e114/linked_in_profile) |
-| 2026-06 | **LFC114: Remote Work at Scale** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/e180e574-1bfe-4afb-a7ff-dce17455e64c/linked_in_profile) |
-| 2026-06 | **LFS147: Introduction to AI/ML Toolkits with Kubeflow** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/53e07dd4-10c5-4a02-97e3-904a594ed3a6/linked_in_profile) |
-| 2026-06 | **Secure Applications with Auth0 Attack Protection** | Okta | [Verify Record](https://www.credly.com/badges/eb46f4ee-e054-47be-bdec-ce97fa77fcd6/linked_in_profile) |
-| 2026-06 | **Protect Your API Endpoints with Auth0** | Okta | [Verify Record](https://www.credly.com/badges/7a85c1f9-c3ec-42d2-a898-8ca954ed58bf/linked_in_profile) |
-| 2026-06 | **How to Start Your Career in the AI Era with Kyla Scanlon** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a6d62bdcee737f8097321ba997fc059aaba6767864de857b1ab6a1e5c18e8816) |
-| 2026-06 | **Leveraging AI in Your Nonprofit Organization by Microsoft and NetHope** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5d2c6fbea5557fc8cd9d913488208cd378cd178bac47bb5ab566ca6677ea2b27) |
 | 2026-06 | **What It Takes to Lead Your Team Through Turbulence** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8dfbcac043f39dd33aa576cfe18e282b8e80c2e23316d973dd078bfd71eb03cf) |
 | 2026-06 | **Winning With Intelligent Choice Architectures** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2dd3994569e774cfaa8ab9275d6f73ce962e2e4d45395d7f8110bf6026aeb5a5) |
 | 2026-06 | **Responsible AI: Global Risks, Governance, and Human Oversight** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0f66eda19ac62c34e4d5d7d8aa5a4481aa543081a4304bf204272209b91ac453) |
@@ -59,6 +44,21 @@ artifacts: complete, index
 | 2026-06 | **Alex McDowell: World Building and Narrative** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/08c3fb5fa47a5d78475c9d1ddeecc471299b39acb0dfdcd769982caec6fcfa0a) |
 | 2026-06 | **Built-in Machine Learning in the Wolfram Language** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6fe387546f75d53181ee8dd75001588897f071271d491264e645327c2dea64bc) |
 | 2026-06 | **Nano Tips to Jump Start Your Coding in Python with Ronnie Sheer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/991739037d4884631b0c84dc174c31102abbf98254d8a5af4a6fc28c08597678) |
+| 2026-06 | **AWS Knowledge: Amazon ECS - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/6b61161d-dd36-4991-b23a-8ec2b7c96368/linked_in_profile) |
+| 2026-06 | **M365 Basic Course** | Acronis | [Verify Record](https://www.credly.com/badges/ddd3f99a-a3bd-44e6-8916-3b27b50cc8e4/linked_in_profile) |
+| 2026-06 | **Nano Tips for Showcasing Thought Leadership to the Market with Peter Winick** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d8d9438194106478d474527325173b5320e175a242af30d3779944e4e0185e57) |
+| 2026-06 | **How to Speak So Others Will Listen Nano Tips with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/768950d1560db26151e95006b9a36cf1695defed5fe1d22735855e78633dcc19) |
+| 2026-06 | **Nano Tips for Self-Motivation with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6895717266dbf6eadc5c93e6aa496ea342f5b0e7b7f1860fff796516ac76a530) |
+| 2026-06 | **LFC120: Leading High-Performance Working Group Meetings** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/d1bc4d63-e2c5-4d32-b281-089f9b653a12/linked_in_profile) |
+| 2026-06 | **LFS148: Getting Started with OpenTelemetry** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/85321abd-62c6-4b89-8d3f-a6ca51383a27/linked_in_profile) |
+| 2026-06 | **LFS120: Conversational AI: Ensuring Compliance and Mitigating Risks** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/63f7d08a-0b8e-4020-bd2a-987bd528444a/linked_in_profile) |
+| 2026-06 | **LFD141: IT Specification Basics for New Developers** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/bbc99675-45d1-4af8-b9df-90f47260bd68/linked_in_profile) |
+| 2026-06 | **Nano Tips for Building a Supportive Network with Gemma, Tatiana, and Erin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/aa8ee3f6768f14f66e282e7f50d95c877100f9a33d480242c191f8e86b028f3f) |
+| 2026-06 | **Brand Your Okta Customer Identity Experience** | Okta | [Verify Record](https://www.credly.com/badges/ef277f59-d9a8-464c-88be-5e92dcb590a2/linked_in_profile) |
+| 2026-06 | **Implement B2C Self-Service Registration with Okta** | Okta | [Verify Record](https://www.credly.com/badges/50cbbb61-b545-4f07-b122-39494ae2b6f6/linked_in_profile) |
+| 2026-06 | **Leading the Shift: The future of generative AI for scientific discovery \| Microsoft Research** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1424804f84d57d72a00032f30dcc1e2348379c803d36360b657fd048a559884b) |
+| 2026-06 | **Nano Tips for Acing Your SQL Interview with Nick Singh** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/45391660c2eb503114f3724cd2f42d69455ddfac92914c160bb58622f821933f) |
+| 2026-06 | **Nano Tips for Leveraging Technical Prompts Using ChatGPT with Lachezar Arabadzhiev (2023)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/439e5d0dae02f31c24a1f9fdbc1a643e1684250e5b3cc2d23bff28ea1e495c86) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-17.md](./linkedin-certifications-2026-06-part-17.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-19.md](./linkedin-certifications-2026-06-part-19.md)

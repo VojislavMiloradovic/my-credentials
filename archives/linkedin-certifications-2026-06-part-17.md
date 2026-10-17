@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 17 of 41
+chunk_part: 17 of 42
 date_range: 2026-06 to 2026-06
 total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-17.md
@@ -15,21 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **AWS Knowledge: Amazon ECS - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/6b61161d-dd36-4991-b23a-8ec2b7c96368/linked_in_profile) |
-| 2026-06 | **M365 Basic Course** | Acronis | [Verify Record](https://www.credly.com/badges/ddd3f99a-a3bd-44e6-8916-3b27b50cc8e4/linked_in_profile) |
-| 2026-06 | **Nano Tips for Showcasing Thought Leadership to the Market with Peter Winick** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d8d9438194106478d474527325173b5320e175a242af30d3779944e4e0185e57) |
-| 2026-06 | **How to Speak So Others Will Listen Nano Tips with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/768950d1560db26151e95006b9a36cf1695defed5fe1d22735855e78633dcc19) |
-| 2026-06 | **Nano Tips for Self-Motivation with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6895717266dbf6eadc5c93e6aa496ea342f5b0e7b7f1860fff796516ac76a530) |
-| 2026-06 | **LFC120: Leading High-Performance Working Group Meetings** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/d1bc4d63-e2c5-4d32-b281-089f9b653a12/linked_in_profile) |
-| 2026-06 | **LFS148: Getting Started with OpenTelemetry** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/85321abd-62c6-4b89-8d3f-a6ca51383a27/linked_in_profile) |
-| 2026-06 | **LFS120: Conversational AI: Ensuring Compliance and Mitigating Risks** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/63f7d08a-0b8e-4020-bd2a-987bd528444a/linked_in_profile) |
-| 2026-06 | **LFD141: IT Specification Basics for New Developers** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/bbc99675-45d1-4af8-b9df-90f47260bd68/linked_in_profile) |
-| 2026-06 | **Nano Tips for Building a Supportive Network with Gemma, Tatiana, and Erin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/aa8ee3f6768f14f66e282e7f50d95c877100f9a33d480242c191f8e86b028f3f) |
-| 2026-06 | **Brand Your Okta Customer Identity Experience** | Okta | [Verify Record](https://www.credly.com/badges/ef277f59-d9a8-464c-88be-5e92dcb590a2/linked_in_profile) |
-| 2026-06 | **Implement B2C Self-Service Registration with Okta** | Okta | [Verify Record](https://www.credly.com/badges/50cbbb61-b545-4f07-b122-39494ae2b6f6/linked_in_profile) |
-| 2026-06 | **Leading the Shift: The future of generative AI for scientific discovery \| Microsoft Research** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1424804f84d57d72a00032f30dcc1e2348379c803d36360b657fd048a559884b) |
-| 2026-06 | **Nano Tips for Acing Your SQL Interview with Nick Singh** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/45391660c2eb503114f3724cd2f42d69455ddfac92914c160bb58622f821933f) |
-| 2026-06 | **Nano Tips for Leveraging Technical Prompts Using ChatGPT with Lachezar Arabadzhiev (2023)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/439e5d0dae02f31c24a1f9fdbc1a643e1684250e5b3cc2d23bff28ea1e495c86) |
 | 2026-06 | **Nano Tips for Using Anthropic's Claude AI with Lachezar Arabadzhiev** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d42898ae506925d4097d7c642f2d7baa41f8b86cc1d01e30952b2ee0fa575784) |
 | 2026-06 | **Nano Tips for Effective Networking at Work with Kristi Kennebrew** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/82ba843d192253231bcbfd109d9f3362addd25bf65ebdfbb920ab434f7d8c44c) |
 | 2026-06 | **Nano Tips for Increasing Your Creativity with Chris Croft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30f3dea0f73e8e0ebf7f52359fd097cef6ce954ea08d3b553bdf254d3975f5b8) |
@@ -60,6 +45,21 @@ artifacts: complete, index
 | 2026-06 | **What You Need to Know About Crafting a Stand-out Resume** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f272a770a7294440f647201c83e67b987f3d74a40e3109e359097b70a882e074) |
 | 2026-06 | **2-Minute Tips for Senior Leaders** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f34c67236ed0b6b1483e5e8084aebfbac6aded149cfaf49fcc9e6e4f8f17e687) |
 | 2026-06 | **Nano Tips for Getting Unstuck as an Entrepreneur with Terry Rice** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c25e4d301eef6e8062e6756c7b041dca4f2bed2f949aaf1424b3f1e1762edfb8) |
+| 2026-06 | **What They Don't Teach You at Harvard Business School (Blinkist Summary)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c5681386de9d855b9ef469646a45cf092137a8e27267b399aa1c8c99075ed30e) |
+| 2026-06 | **Nano Tips for Handling Difficult Work Situations with Tiffany Uman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e0917a28ac70d0bb4fe7128166d6bb579d047129a808b163f0d9422ef6575e11) |
+| 2026-06 | **Intro to Acronis Cyber Protect** | Acronis | [Verify Record](https://www.credly.com/badges/95c18649-2dd7-44ca-bddc-7285bb443923/linked_in_profile) |
+| 2026-06 | **LFD123: Open Source RT-Thread RTOS on RISC-V** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/2482190c-9a4b-4272-a75a-9e758f185c23/linked_in_profile) |
+| 2026-06 | **LFS184: Introduction to JavaScript Security** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/adbfc39b-1a5a-4225-80bc-0ee44b06bcd5/linked_in_profile) |
+| 2026-06 | **LFD140: GitHub for Open Standards Development** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/3d6db85f-b193-4d6c-9431-9c78f1f8e253/linked_in_profile) |
+| 2026-06 | **LFEL1004: Authentication & Authorization for Web/API** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/697a5045-42c3-4df6-be0a-660972953e02/linked_in_profile) |
+| 2026-06 | **Creative Inspirations: Bert Monroy, Digital Painter and Illustrator** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bab2fc98392964409b2a820b4f4ec21b35fcbe41cc9d9805f88a5e0d59475b49) |
+| 2026-06 | **Creative Inspirations: Ed Emberley, Children's Book Illustrator** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4316ed0362f10ddd63127a90ce2276cdc1d00d84fdcd12f97cc2925c8897edb4) |
+| 2026-06 | **Celebrating Photoshop: A 25th Anniversary Retrospective** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7455ce7c548d9e6df9767c23f08e9e0098f1d0157b4997f3b9b2ab8738946fa0) |
+| 2026-06 | **Chainguard AI/ML Guardian** | Chainguard | [Verify Record](https://www.credly.com/badges/d2cacfac-d281-4064-b53b-574c5e6aeb63/linked_in_profile) |
+| 2026-06 | **Using the Google Cloud Speech API** | Google | [Verify Record](https://www.credly.com/badges/858557c5-7a5b-430b-9068-9712aaa334a9/linked_in_profile) |
+| 2026-06 | **DJ Patil on Data Science: The Ask Me Anything Conversations** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0acbba7b2cf62360a44793259109fac10273ad7c3ed0516f9126862949567c76) |
+| 2026-06 | **Analyzing and Visualizing Data in Looker** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24658131?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-06 | **Google Cloud Essentials** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24830932?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-16.md](./linkedin-certifications-2026-06-part-16.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-18.md](./linkedin-certifications-2026-06-part-18.md)

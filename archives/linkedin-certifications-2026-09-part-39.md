@@ -1,9 +1,9 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 39 of 41
-date_range: 2026-09 to 2026-10
+chunk_part: 39 of 42
+date_range: 2026-09 to 2026-09
 total_entries: 48
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-39.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-39.md
 layer: L2_published
 transform: 1:1_pass_through
 artifacts: complete, index
@@ -15,22 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Developing Applications with Cloud Run on Google Cloud: Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28830363?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-10 | **Machine Learning for Data Science Projects** | IBM | [Verify Record](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/linked_in_profile) |
-| 2026-10 | **User Experience Design Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/linked_in_profile) |
-| 2026-10 | **Kong Gateway Operations** | Kong | [Verify Record](https://www.credly.com/badges/ec9b0dd2-a167-4d92-87af-2a5e6e2df6d6/linked_in_profile) |
-| 2026-10 | **Harness Certified Cloud & AI Cost Management Developer** | Harness | [Verify Record](https://www.credly.com/badges/150ce8a5-8669-42aa-a2df-2d0f61c1fbbc/linked_in_profile) |
-| 2026-10 | **Harness Certified Internal Developer Portal Developer** | Harness | [Verify Record](https://www.credly.com/badges/a9e63d43-0f30-4c99-a8e0-fb7db936a3b0/linked_in_profile) |
-| 2026-10 | **Harness Certified Feature Flag Developer** | Harness | [Verify Record](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/linked_in_profile) |
-| 2026-10 | **Harness Certified AI DLC Insights Formerly SEI Developer** | Harness | [Verify Record](https://www.credly.com/badges/281d5b1c-95e0-497d-8784-bbbca82109a5/linked_in_profile) |
-| 2026-10 | **Harness Certified Database DevOps Developer** | Harness | [Verify Record](https://www.credly.com/badges/ba7bac4e-647c-4521-aedf-23c0d4df34df/linked_in_profile) |
-| 2026-10 | **Traceable by Harness Developer Certification** | Harness | [Verify Record](https://www.credly.com/badges/81821f9e-ed55-49db-a20b-6c2afdd9cacb/linked_in_profile) |
-| 2026-10 | **AWS Knowledge: Security Champion - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c59d7bc6-b7c4-496c-bdc5-841330331449/linked_in_profile) |
-| 2026-10 | **Microsoft Applied Skills: Protect information in Microsoft 365 Copilot by using Microsoft Purview** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/F87E8DADFE9F36FD?sharingId) |
-| 2026-10 | **Sustainable Leadership in Uncertain Times: A Conversation with Andrew Winston** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30cfa27e09aee8a4d67d7c3dc5795fc5e23db2ba90161ed92e20050e5b999749) |
-| 2026-10 | **Quantum-Safe Encryption Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2a47f562-b192-4791-8fac-f4e981fe7726/linked_in_profile) |
-| 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
-| 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 | 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
 | 2026-09 | **Getting Started as a LinkedIn Learning Admin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fe023a5e666217da82c02a4d2515e674acba39f2c4330cdd0281dc67328aebc8) |
 | 2026-09 | **Derive Insights from BigQuery Data Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/linked_in_profile) |
@@ -63,6 +47,22 @@ artifacts: complete, index
 | 2026-09 | **Essentials - GenAI Protection** | Acronis | [Verify Record](https://www.credly.com/badges/34cf63a3-9c10-4ce1-8855-67ec2b1eb97d/linked_in_profile) |
 | 2026-09 | **AI Skills for Everyday Productivity Certificate** | IBM | [Verify Record](https://www.credly.com/badges/25478651-081d-4ce1-9ec8-9a16f4888064/linked_in_profile) |
 | 2026-09 | **Professional Growth and Future Readiness with AI** | IBM | [Verify Record](https://www.credly.com/badges/93d024cb-0d8e-40b6-b352-8071dbf9d6f1/linked_in_profile) |
+| 2026-09 | **LinkedIn Help Center: Premium Membership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ed19e1c9f1f8e920966673bb4f4f62a93e53126607d13706aaecccf42a502069) |
+| 2026-09 | **Nano Tips for Becoming a Better Thought Leader with Peter Winick** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7cc6701b355798bf25e10681573bf32573f006c263e163a4ebac1ab02e649b80) |
+| 2026-09 | **Nano Tips to Improve Workplace Communication with Elayne Fluker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/500695db665fd6ac11f974c0147f1e661d9285a5bf53ddde643888673fe22b93) |
+| 2026-09 | **Python Essentials 1** | Cisco | [Verify Record](https://www.credly.com/badges/0ce437b3-fc46-48da-a95a-44061cbfb588/linked_in_profile) |
+| 2026-09 | **Certified Calico Operator - AWS Expert** | Tigera | [Verify Record](https://www.credly.com/badges/c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c/linked_in_profile) |
+| 2026-09 | **Developing Your Emotional Intelligence (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b808b80ba96d00a8989382bce9b54becb3967f0eb5c9e0ba7a885e430ed1a9a4) |
+| 2026-09 | **Moving from Government Work into Other Sectors: A Conversation with Nick Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a48e36ea1c50c5c5d97f2db66e7f6294cffd8eb01b93d12d6cc79172e62971bc) |
+| 2026-09 | **Nano Tips to Build Visibility at Work with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a5190a4fe030596811fca9b395c94a657ca6d371df3d85d0a5f10ffe7d2992a6) |
+| 2026-09 | **Critical Thinking for Better Judgment and Decision-Making (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cb34ae75591b1b193de1416ae42190da12cb20eb0d05a3a24b819c1690634eef) |
+| 2026-09 | **Effective Listening (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6839b2691d8f1e6b95b65809cf4f867020d178a63e8b364839b5d277cd25420e) |
+| 2026-09 | **Certified Calico Operator - Azure Expert** | Tigera | [Verify Record](https://www.credly.com/badges/acb7859e-864b-4401-9c78-fbd6835a3454/linked_in_profile) |
+| 2026-09 | **Data** | Basis | [Verify Record](https://www.credly.com/badges/62777e7e-63b5-4734-b345-e09dc1c49076/linked_in_profile) |
+| 2026-09 | **Digital Media Essentials** | Basis | [Verify Record](https://www.credly.com/badges/6349cc21-2ec7-414b-ad91-9a24a869e0a1/linked_in_profile) |
+| 2026-09 | **Programmatic Essentials** | Basis | [Verify Record](https://www.credly.com/badges/c13f56ad-cf6b-4e39-b941-53df80b3e391/linked_in_profile) |
+| 2026-09 | **Data Essentials** | Basis | [Verify Record](https://www.credly.com/badges/3edec3e1-d0d2-400b-82c1-7da1d34ec078/linked_in_profile) |
+| 2026-09 | **AWS Educate Getting Started with Compute - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1be6c262-db05-4138-bbe6-62e93c73e5ac/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-09-part-38.md](./linkedin-certifications-2026-09-part-38.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-40.md](./linkedin-certifications-2026-10-part-40.md)

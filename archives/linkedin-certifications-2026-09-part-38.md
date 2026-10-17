@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 38 of 41
+chunk_part: 38 of 42
 date_range: 2026-09 to 2026-09
-total_entries: 50
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-38.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,26 +11,10 @@ artifacts: complete, index
 
 # LinkedIn Certifications -- Part 38
 
-> **Navigation:** Prev: [linkedin-certifications-2026-09-part-37.md](./linkedin-certifications-2026-09-part-37.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-39.md](./linkedin-certifications-2026-10-part-39.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-09-part-37.md](./linkedin-certifications-2026-09-part-37.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-39.md](./linkedin-certifications-2026-09-part-39.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-09 | **LinkedIn Help Center: Premium Membership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ed19e1c9f1f8e920966673bb4f4f62a93e53126607d13706aaecccf42a502069) |
-| 2026-09 | **Nano Tips for Becoming a Better Thought Leader with Peter Winick** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7cc6701b355798bf25e10681573bf32573f006c263e163a4ebac1ab02e649b80) |
-| 2026-09 | **Nano Tips to Improve Workplace Communication with Elayne Fluker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/500695db665fd6ac11f974c0147f1e661d9285a5bf53ddde643888673fe22b93) |
-| 2026-09 | **Python Essentials 1** | Cisco | [Verify Record](https://www.credly.com/badges/0ce437b3-fc46-48da-a95a-44061cbfb588/linked_in_profile) |
-| 2026-09 | **Certified Calico Operator - AWS Expert** | Tigera | [Verify Record](https://www.credly.com/badges/c89f8a08-a9a1-4088-a4d0-dfb3b0c6488c/linked_in_profile) |
-| 2026-09 | **Developing Your Emotional Intelligence (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b808b80ba96d00a8989382bce9b54becb3967f0eb5c9e0ba7a885e430ed1a9a4) |
-| 2026-09 | **Moving from Government Work into Other Sectors: A Conversation with Nick Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a48e36ea1c50c5c5d97f2db66e7f6294cffd8eb01b93d12d6cc79172e62971bc) |
-| 2026-09 | **Nano Tips to Build Visibility at Work with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a5190a4fe030596811fca9b395c94a657ca6d371df3d85d0a5f10ffe7d2992a6) |
-| 2026-09 | **Critical Thinking for Better Judgment and Decision-Making (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cb34ae75591b1b193de1416ae42190da12cb20eb0d05a3a24b819c1690634eef) |
-| 2026-09 | **Effective Listening (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6839b2691d8f1e6b95b65809cf4f867020d178a63e8b364839b5d277cd25420e) |
-| 2026-09 | **Certified Calico Operator - Azure Expert** | Tigera | [Verify Record](https://www.credly.com/badges/acb7859e-864b-4401-9c78-fbd6835a3454/linked_in_profile) |
-| 2026-09 | **Data** | Basis | [Verify Record](https://www.credly.com/badges/62777e7e-63b5-4734-b345-e09dc1c49076/linked_in_profile) |
-| 2026-09 | **Digital Media Essentials** | Basis | [Verify Record](https://www.credly.com/badges/6349cc21-2ec7-414b-ad91-9a24a869e0a1/linked_in_profile) |
-| 2026-09 | **Programmatic Essentials** | Basis | [Verify Record](https://www.credly.com/badges/c13f56ad-cf6b-4e39-b941-53df80b3e391/linked_in_profile) |
-| 2026-09 | **Data Essentials** | Basis | [Verify Record](https://www.credly.com/badges/3edec3e1-d0d2-400b-82c1-7da1d34ec078/linked_in_profile) |
-| 2026-09 | **AWS Educate Getting Started with Compute - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1be6c262-db05-4138-bbe6-62e93c73e5ac/linked_in_profile) |
 | 2026-09 | **Develop Serverless Applications on Cloud Run Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/de882ce6-face-43c9-95b2-db616dd32f16/linked_in_profile) |
 | 2026-09 | **Nano Tips for Managing Neurodivergent Teams with Kate Isichei** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a73cd94ed49f84d7a30d9479713418407fcc17bf627dfa3ebb7949335f02fa0d) |
 | 2026-09 | **A First Look at the LinkedIn Hiring Assistant in Recruiter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8ad8521cc738f34bf6f8132215c74f69c72a565af1322611ed40a461a88880e3) |
@@ -65,7 +49,25 @@ artifacts: complete, index
 | 2026-09 | **MSP Academy: Marketing Practitioner** | Acronis | [Verify Record](https://www.credly.com/badges/19148b1a-4067-4f28-a90b-c264a9f05fb5/linked_in_profile) |
 | 2026-09 | **MSP Academy: Marketing Your MSP** | Acronis | [Verify Record](https://www.credly.com/badges/366e2f28-1690-4929-b51a-914bc72c313a/linked_in_profile) |
 | 2026-09 | **MSP Academy: MDR Basics** | Acronis | [Verify Record](https://www.credly.com/badges/2e504ab8-0ffe-4d22-9600-da1db92856a8/linked_in_profile) |
+| 2026-09 | **MSP Academy: Microsoft 365 Integration and Optimization** | Acronis | [Verify Record](https://www.credly.com/badges/79099641-89c2-4c50-b8cf-f7ded86d3cf5/linked_in_profile) |
+| 2026-09 | **MSP Academy: Microsoft 365** | Acronis | [Verify Record](https://www.credly.com/badges/b3af2b8c-426e-4959-8b23-459d9a62c832/linked_in_profile) |
+| 2026-09 | **MSP Academy: Marketing Your MSP** | Acronis | [Verify Record](https://www.credly.com/badges/f5ae66ba-d6bf-4db5-bf50-95a1dac4f80f/linked_in_profile) |
+| 2026-09 | **MSP Academy: Running an MSP Business** | Acronis | [Verify Record](https://www.credly.com/badges/caf79e10-afa4-4513-af4e-e55099850ebd/linked_in_profile) |
+| 2026-09 | **MSP Academy: Marketing Practitioner** | Acronis | [Verify Record](https://www.credly.com/badges/8b3a5e36-fd36-4358-b111-35b5bc0f791c/linked_in_profile) |
+| 2026-09 | **MSP Academy: Navigating the landscape** | Acronis | [Verify Record](https://www.credly.com/badges/0d4baaa2-327f-4d35-8433-ff620be4e4ca/linked_in_profile) |
+| 2026-09 | **MSP Academy: Preventing Ransomware** | Acronis | [Verify Record](https://www.credly.com/badges/4c84adbc-8a45-4aa1-85f0-188d005693f7/linked_in_profile) |
+| 2026-09 | **MSP Academy: Remote Desktop and Monitoring** | Acronis | [Verify Record](https://www.credly.com/badges/f6754ded-9d6e-4f42-8c59-25a15c1f69f3/linked_in_profile) |
+| 2026-09 | **RMM & PSA Basic Course** | Acronis | [Verify Record](https://www.credly.com/badges/97f581e9-d2ab-4ad7-9dae-cc422eddeeda/linked_in_profile) |
+| 2026-09 | **MSP Academy: Running an MSP Business** | Acronis | [Verify Record](https://www.credly.com/badges/f529fa82-07ae-41d0-be80-89f81ed38ee1/linked_in_profile) |
+| 2026-09 | **Solution Basic Training – Cyber Resilience** | Acronis | [Verify Record](https://www.credly.com/badges/aabfa633-82c5-44bb-ad30-dddd976ebe28/linked_in_profile) |
+| 2026-09 | **Solution Basic Training – Operational Technologies (OT)** | Acronis | [Verify Record](https://www.credly.com/badges/88d1c07e-371d-4bb2-ae8c-fad4f47485a8/linked_in_profile) |
+| 2026-09 | **Solution Basic Training – Protected Workspace** | Acronis | [Verify Record](https://www.credly.com/badges/27286e3c-1dd9-49b0-b7b3-a239538cea57/linked_in_profile) |
+| 2026-09 | **Solution Basic Training – Ultimate 365** | Acronis | [Verify Record](https://www.credly.com/badges/b7b8e6e8-ced7-41b3-aa80-85a4bc2827fa/linked_in_profile) |
+| 2026-09 | **MSP Academy: Starting an MSP - Breaking Free from the Break-Fix Model** | Acronis | [Verify Record](https://www.credly.com/badges/0ef96bf2-8062-467e-a24a-d98254952a1d/linked_in_profile) |
+| 2026-09 | **Tech Pro - Operational Technology (OT) Environments** | Acronis | [Verify Record](https://www.credly.com/badges/6c9fc184-af93-44e1-b187-9144fbd71c33/linked_in_profile) |
+| 2026-09 | **MSP Academy: Troubleshooting** | Acronis | [Verify Record](https://www.credly.com/badges/629f38e8-d8b3-480c-ab63-a263fa47de67/linked_in_profile) |
+| 2026-09 | **MSP Academy: Vulnerability Assessment and Patch Management** | Acronis | [Verify Record](https://www.credly.com/badges/819b0b4a-5357-4d6a-a831-7eefabcc4f75/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-09-part-37.md](./linkedin-certifications-2026-09-part-37.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-39.md](./linkedin-certifications-2026-10-part-39.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-09-part-37.md](./linkedin-certifications-2026-09-part-37.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-39.md](./linkedin-certifications-2026-09-part-39.md)
 

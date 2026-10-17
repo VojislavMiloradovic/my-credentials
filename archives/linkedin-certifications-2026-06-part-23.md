@@ -1,9 +1,9 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 23 of 41
-date_range: 2026-06 to 2026-07
-total_entries: 53
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-23.md
+chunk_part: 23 of 42
+date_range: 2026-06 to 2026-06
+total_entries: 52
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-23.md
 layer: L2_published
 transform: 1:1_pass_through
 artifacts: complete, index
@@ -15,23 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-07 | **Practical GitHub Code Search** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0a69148f2ef2e50e11ac9e4318c93b7af77806ba6c9fafcd76080af74f97ae68) |
-| 2026-07 | **Delivering and Analyzing a Software Pilot: GitHub Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2387b7333a40de8752f2080716d0aac9ee1736351c94fc8b0ae3ef42536f6857) |
-| 2026-07 | **Networking in Action: Build Real Connections That Accelerate Your Career** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/938a95030be5377f10fc0c93b84bd5ea05c18f4fd009326b925abaf920428cc3) |
-| 2026-07 | **Practical GitHub Actions** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0278c3e6638cf65ea033337c73ea18d2d09bbb8988d1a9d880fc9a2ccba723b1) |
-| 2026-06 | **Session and Token Management Best Practices** | Okta | [Verify Record](https://www.credly.com/badges/1b01f351-59a3-42a9-a39e-2c5e22b1ef8c/linked_in_profile) |
-| 2026-06 | **Product-led Certification** | Pendo.io | [Verify Record](https://www.credly.com/badges/4813afed-be74-43f4-a69e-9a6482970fa2/linked_in_profile) |
-| 2026-06 | **Product Analytics Certification** | Pendo.io | [Verify Record](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16/linked_in_profile) |
-| 2026-06 | **Product Discovery Certification** | Pendo.io | [Verify Record](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145/linked_in_profile) |
-| 2026-06 | **Data Literacy in Practice** | SAS | [Verify Record](https://www.credly.com/badges/45b07a9e-9ca9-4189-a489-ebb58c023824/linked_in_profile) |
-| 2026-06 | **Deploying SAS Grid Manager** | SAS | [Verify Record](https://www.credly.com/badges/a0ad62be-1ecc-43c0-92ca-35437a0dd09b/linked_in_profile) |
-| 2026-06 | **Deploying SAS Viya from a Mirrored Registry** | SAS | [Verify Record](https://www.credly.com/badges/da51d4a3-2800-400d-a88d-d189bf53cc7e/linked_in_profile) |
-| 2026-06 | **Manual SAS Viya Deployment** | SAS | [Verify Record](https://www.credly.com/badges/0a5e2982-bdb6-498f-8ec6-979b3c0db919/linked_in_profile) |
-| 2026-06 | **Post-Deployment Steps for SAS Viya** | SAS | [Verify Record](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc/linked_in_profile) |
-| 2026-06 | **Practical Application of Gen AI for Project Managers** | Project Management Institute | [Verify Record](https://www.credly.com/badges/d8cbec32-4350-4590-831f-34ad56889daf/linked_in_profile) |
-| 2026-06 | **Talking to AI: Prompt Engineering for Project Managers** | Project Management Institute | [Verify Record](https://www.credly.com/badges/1b9b4a53-4ddc-4d6b-bd7c-c31df88dabc8/linked_in_profile) |
-| 2026-06 | **PMI® Essentials: Seven AI Project Patterns** | Project Management Institute | [Verify Record](https://www.credly.com/badges/2f214aa1-1de2-4e25-ba59-61ba86729898/linked_in_profile) |
-| 2026-06 | **Build Scalable Authorization Models with Auth0 FGA** | Okta | [Verify Record](https://www.credly.com/badges/03f314ca-34b2-45d8-9b2a-d0a5a45db527/linked_in_profile) |
 | 2026-06 | **AWS Knowledge: Compute - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/422b41e8-bf11-4ac3-b1fd-90dfd1838224/linked_in_profile) |
 | 2026-06 | **SAS Viya Architecture for Practitioners** | SAS | [Verify Record](https://www.credly.com/badges/11e650a9-21ef-44ff-8ede-fdab2d0fe35b/linked_in_profile) |
 | 2026-06 | **SAS Viya Architecture Fundamentals** | SAS | [Verify Record](https://www.credly.com/badges/f387423f-26aa-44b8-8e59-c87c449cd49b/linked_in_profile) |
@@ -68,6 +51,22 @@ artifacts: complete, index
 | 2026-06 | **LFS158: Introduction to Kubernetes** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/85746ca0-36fc-4ba0-b753-d0dce904b02d/linked_in_profile) |
 | 2026-06 | **SKF100: Understanding the OWASP® Top 10 Security Threats** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/8a0199ec-ff1c-4b87-a185-92cf277719e6/linked_in_profile) |
 | 2026-06 | **LFD116: Software Engineering Basics for Embedded Systems** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/bf5261b3-1ed7-4acf-958a-5f937e4ca8e0/linked_in_profile) |
+| 2026-06 | **Cloud Accelerator Badge** | Lucid Software | [Verify Record](https://www.credly.com/badges/a10ab236-0af0-45ad-a9f0-694426ba3f8d/linked_in_profile) |
+| 2026-06 | **Hotelier Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/student/award/gF16sHVdVZqRBMZDvpJig8vG) |
+| 2026-06 | **AWS Knowledge: Object Storage - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/a8254829-cc58-43f8-aa2f-910c836df8a8/linked_in_profile) |
+| 2026-06 | **LFS157: Introduction to Serverless on Kubernetes** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/b7b7ca0d-9eb3-42a1-9e11-70c2260d2b4e/linked_in_profile) |
+| 2026-06 | **LFD121: Developing Secure Software** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/21cf0189-83ae-4159-abd9-f2eecf3bd6a9/linked_in_profile) |
+| 2026-06 | **LFS182: Securing Your Software Supply Chain with Sigstore** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/78826580-a3a7-4213-be79-3233321f3d3e/linked_in_profile) |
+| 2026-06 | **LFD125: Security for Software Development Managers** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/c0a1f565-7255-4a8b-8a99-c447b22e0023/linked_in_profile) |
+| 2026-06 | **LFD103: A Beginner's Guide to Linux Kernel Development** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/014a781e-7a70-47a0-b79d-c6080bbef63d/linked_in_profile) |
+| 2026-06 | **Agile Visualization** | Lucid Software | [Verify Record](https://www.credly.com/badges/651c65f7-cb93-4591-874a-abb27ce07b19/linked_in_profile) |
+| 2026-06 | **Verified Lucid Admin** | Lucid Software | [Verify Record](https://www.credly.com/badges/81693063-e75b-457f-90c9-ae13044ef9e1/linked_in_profile) |
+| 2026-06 | **LFC193: Introduction to Open Source Licensing Compliance Management** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/ee58bb5f-4568-48b1-a075-98982a829a7a/linked_in_profile) |
+| 2026-06 | **Cloud Tech Fundamentals** | Acronis | [Verify Record](https://www.credly.com/badges/3c5fdd0e-66a5-436b-bdeb-4f3da1702089/linked_in_profile) |
+| 2026-06 | **Boosting Your Productivity with AI Deep Research** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/972ef3adab9785e35e4b7a1637cccbf92b3c31560c60ef535a77bb7a170ca422) |
+| 2026-06 | **15 ChatGPT Tips for Everyday Data Analysis** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3dc6aeea0522e2ba05ff956a7daf79788bdc0a49fa567ba7496a35200b88a009) |
+| 2026-06 | **Generative AI Skills for Creative Content: Opportunities, Issues, and Ethics** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c476f004637e99d54045295dd8a3b036bd4479115a78845b83617ad175c20e80) |
+| 2026-06 | **Boosting Your Time Management with AI Tools** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/aba4024dea7a15527cb089f1e1ec20be1117e334dbf4bce19c2901957831b614) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-22.md](./linkedin-certifications-2026-06-part-22.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-24.md](./linkedin-certifications-2026-07-part-24.md)

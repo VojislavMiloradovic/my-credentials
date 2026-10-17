@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 37 of 41
+chunk_part: 37 of 42
 date_range: 2026-09 to 2026-09
-total_entries: 52
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-37.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,24 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-09 | **MSP Academy: Microsoft 365 Integration and Optimization** | Acronis | [Verify Record](https://www.credly.com/badges/79099641-89c2-4c50-b8cf-f7ded86d3cf5/linked_in_profile) |
-| 2026-09 | **MSP Academy: Microsoft 365** | Acronis | [Verify Record](https://www.credly.com/badges/b3af2b8c-426e-4959-8b23-459d9a62c832/linked_in_profile) |
-| 2026-09 | **MSP Academy: Marketing Your MSP** | Acronis | [Verify Record](https://www.credly.com/badges/f5ae66ba-d6bf-4db5-bf50-95a1dac4f80f/linked_in_profile) |
-| 2026-09 | **MSP Academy: Running an MSP Business** | Acronis | [Verify Record](https://www.credly.com/badges/caf79e10-afa4-4513-af4e-e55099850ebd/linked_in_profile) |
-| 2026-09 | **MSP Academy: Marketing Practitioner** | Acronis | [Verify Record](https://www.credly.com/badges/8b3a5e36-fd36-4358-b111-35b5bc0f791c/linked_in_profile) |
-| 2026-09 | **MSP Academy: Navigating the landscape** | Acronis | [Verify Record](https://www.credly.com/badges/0d4baaa2-327f-4d35-8433-ff620be4e4ca/linked_in_profile) |
-| 2026-09 | **MSP Academy: Preventing Ransomware** | Acronis | [Verify Record](https://www.credly.com/badges/4c84adbc-8a45-4aa1-85f0-188d005693f7/linked_in_profile) |
-| 2026-09 | **MSP Academy: Remote Desktop and Monitoring** | Acronis | [Verify Record](https://www.credly.com/badges/f6754ded-9d6e-4f42-8c59-25a15c1f69f3/linked_in_profile) |
-| 2026-09 | **RMM & PSA Basic Course** | Acronis | [Verify Record](https://www.credly.com/badges/97f581e9-d2ab-4ad7-9dae-cc422eddeeda/linked_in_profile) |
-| 2026-09 | **MSP Academy: Running an MSP Business** | Acronis | [Verify Record](https://www.credly.com/badges/f529fa82-07ae-41d0-be80-89f81ed38ee1/linked_in_profile) |
-| 2026-09 | **Solution Basic Training – Cyber Resilience** | Acronis | [Verify Record](https://www.credly.com/badges/aabfa633-82c5-44bb-ad30-dddd976ebe28/linked_in_profile) |
-| 2026-09 | **Solution Basic Training – Operational Technologies (OT)** | Acronis | [Verify Record](https://www.credly.com/badges/88d1c07e-371d-4bb2-ae8c-fad4f47485a8/linked_in_profile) |
-| 2026-09 | **Solution Basic Training – Protected Workspace** | Acronis | [Verify Record](https://www.credly.com/badges/27286e3c-1dd9-49b0-b7b3-a239538cea57/linked_in_profile) |
-| 2026-09 | **Solution Basic Training – Ultimate 365** | Acronis | [Verify Record](https://www.credly.com/badges/b7b8e6e8-ced7-41b3-aa80-85a4bc2827fa/linked_in_profile) |
-| 2026-09 | **MSP Academy: Starting an MSP - Breaking Free from the Break-Fix Model** | Acronis | [Verify Record](https://www.credly.com/badges/0ef96bf2-8062-467e-a24a-d98254952a1d/linked_in_profile) |
-| 2026-09 | **Tech Pro - Operational Technology (OT) Environments** | Acronis | [Verify Record](https://www.credly.com/badges/6c9fc184-af93-44e1-b187-9144fbd71c33/linked_in_profile) |
-| 2026-09 | **MSP Academy: Troubleshooting** | Acronis | [Verify Record](https://www.credly.com/badges/629f38e8-d8b3-480c-ab63-a263fa47de67/linked_in_profile) |
-| 2026-09 | **MSP Academy: Vulnerability Assessment and Patch Management** | Acronis | [Verify Record](https://www.credly.com/badges/819b0b4a-5357-4d6a-a831-7eefabcc4f75/linked_in_profile) |
 | 2026-09 | **MSP Academy: What is Backup?** | Acronis | [Verify Record](https://www.credly.com/badges/08670e42-d71c-4b03-820b-64b70e8c1715/linked_in_profile) |
 | 2026-09 | **VAR to MSP: Business Transformation Fundamentals** | Acronis | [Verify Record](https://www.credly.com/badges/7eeca65f-9170-4626-ad62-912c7abe978c/linked_in_profile) |
 | 2026-09 | **MSP Academy: What is DLP?** | Acronis | [Verify Record](https://www.credly.com/badges/fae0513e-c599-4ea9-83af-edbf66710f56/linked_in_profile) |
@@ -67,6 +49,22 @@ artifacts: complete, index
 | 2026-09 | **Hybrid Load Balancing and Traffic Management** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28463484?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-09 | **Architect Private Connection Options** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28463901?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-09 | **Introduction to the Gemini App** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466194?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-09 | **AI Infrastructure: Orchestration and Automation** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466553?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-09 | **Build a Certification Study Guide: AGWA Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28466921?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-09 | **Migrate your VPC Firewall Policies to Cloud NGFW** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28470543?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-09 | **AI-Enabled Applications for Customer Service** | IBM | [Verify Record](https://www.credly.com/badges/e707134d-f39f-48bf-b0df-11990f414bc3/linked_in_profile) |
+| 2026-09 | **Data Visualization Using Python** | IBM | [Verify Record](https://www.credly.com/badges/16c8215d-9ca6-4579-a402-c1c69d189614/linked_in_profile) |
+| 2026-09 | **Data Analytics for Sustainability** | IBM | [Verify Record](https://www.credly.com/badges/48193bbc-2b59-4beb-b811-669f8fd684aa/linked_in_profile) |
+| 2026-09 | **Political Advertising Essentials** | Basis | [Verify Record](https://www.credly.com/badges/f0e35276-14b5-4cbc-a8f9-b4748865f5de/linked_in_profile) |
+| 2026-09 | **Basis Onboarding** | Basis | [Verify Record](https://www.credly.com/badges/4d87c182-6dbd-4c85-9563-ce1d26c2cdbe/linked_in_profile) |
+| 2026-09 | **Contextual Targeting: Strategies with Proximic by Comscore** | Basis | [Verify Record](https://www.credly.com/badges/678f7f02-73f8-4fb6-8c6e-ce8a77ebba5a/linked_in_profile) |
+| 2026-09 | **Collaboration & Communication** | Basis | [Verify Record](https://www.credly.com/badges/6016826a-ee02-4bd1-b2c6-ffcdb71616a8/linked_in_profile) |
+| 2026-09 | **Basis Planner** | Basis | [Verify Record](https://www.credly.com/badges/b21ec6f2-c32f-4ef6-9536-19b8ba89a0b7/linked_in_profile) |
+| 2026-09 | **Basis DSP Tactics** | Basis | [Verify Record](https://www.credly.com/badges/84fdc926-20d9-477f-b88e-9f372681a6b2/linked_in_profile) |
+| 2026-09 | **Make Smart Decisions with AI Insight: A 10 Day Challenge** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3cdd41c75cfdbaaa0f12e70ff1a6a62a82098b42ad5ad792eacc93de958af4ed) |
+| 2026-09 | **Nano Tips to Manage Layoff Anxiety with Elayne Fluker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/83454980a995e0b3f061f704574a59d9eddc981330bf44ac5219b3a2f7782342) |
+| 2026-09 | **The Executive's Guide to Engaging on LinkedIn: Learning Path Introduction** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7763ea069fb1ea9ded4c53ebdfc71a166d103345d9d5c90069da2b47bc3e7f61) |
+| 2026-09 | **Managing Your Mental Health in Your First Corporate Job Nano Tips with Julian Sarafian** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9c4bfd658021eef02f0a57be92c21da5f43b82cec530caec4e22110fda229f11) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-09-part-36.md](./linkedin-certifications-2026-09-part-36.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-38.md](./linkedin-certifications-2026-09-part-38.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 35 of 41
+chunk_part: 35 of 42
 date_range: 2026-08 to 2026-08
-total_entries: 51
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-35.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,24 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Advanced Cyber Threat Intelligence Writing: Crafting Actionable Reports** | AttackIQ | [Verify Record](https://www.credly.com/badges/8168b2f0-bad1-4fa8-bfb2-81ff1ca5ae03/linked_in_profile) |
-| 2026-08 | **AttackIQ Academy Threat Whisperer** | AttackIQ | [Verify Record](https://www.credly.com/badges/90f733cf-e8d8-4bbe-b560-5c66a35f9cc6/linked_in_profile) |
-| 2026-08 | **Reliability and Availability: How MongoDB ensures Business Continuity** | MongoDB | [Verify Record](https://www.credly.com/badges/f7b720f4-a41d-40e1-825d-12396020c40c/linked_in_profile) |
-| 2026-08 | **Cilium Getting Started** | Isovalent | [Verify Record](https://www.credly.com/badges/7e1806fc-d8d8-4d2a-8599-217816425f34/linked_in_profile) |
-| 2026-08 | **Discovery: Platform Engineer** | Isovalent | [Verify Record](https://www.credly.com/badges/d7da7369-d022-4776-a0eb-c8fc5a4d1524/linked_in_profile) |
-| 2026-08 | **Discovery: Network Engineer** | Isovalent | [Verify Record](https://www.credly.com/badges/b986a888-d21a-447e-b1c4-f9294bd2f740/linked_in_profile) |
-| 2026-08 | **Discovery: SecOps Engineer** | Isovalent | [Verify Record](https://www.credly.com/badges/0cc70c14-2825-4fdb-b46e-98c7027e69e7/linked_in_profile) |
-| 2026-08 | **eBPF Getting Started** | Isovalent | [Verify Record](https://www.credly.com/badges/c81eb262-6bce-465c-8877-1c5270232227/linked_in_profile) |
-| 2026-08 | **BGP on Cilium** | Isovalent | [Verify Record](https://www.credly.com/badges/60cadfc4-3a16-4323-8025-7fbd106ce7ab/linked_in_profile) |
-| 2026-08 | **Cilium Egress Gateway** | Isovalent | [Verify Record](https://www.credly.com/badges/b291cb8c-8817-42fc-bdd0-b23ec9e7e101/linked_in_profile) |
-| 2026-08 | **Connecting Cloud Networks with NCC** | Google | [Verify Record](https://www.credly.com/badges/6b9a8831-80bd-450b-8832-b13a02608855/linked_in_profile) |
-| 2026-08 | **Arcade Simulator: Network Security Engineer** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26380399?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-08 | **Cloud Sales Professional XDR** | Acronis | [Verify Record](https://www.credly.com/badges/7f370553-e0b2-41a3-9909-131fe11a94a3/linked_in_profile) |
-| 2026-08 | **Cloud Tech Pro - Backup** | Acronis | [Verify Record](https://www.credly.com/badges/da9a50b8-a6fc-4e2e-bf7e-35da0a65a04c/linked_in_profile) |
-| 2026-08 | **Validating Defenses Quickly with Micro Emulation Plans** | AttackIQ | [Verify Record](https://www.credly.com/badges/d2d863a1-4240-48a3-83d4-e51e7b3b428c/linked_in_profile) |
-| 2026-08 | **Continuous Security Validation Workshop** | AttackIQ | [Verify Record](https://www.credly.com/badges/132269ac-0ab7-4b20-91c4-76ed7fa3359e/linked_in_profile) |
-| 2026-08 | **Cilium Gateway API** | Isovalent | [Verify Record](https://www.credly.com/badges/7a20ae99-3df6-481e-8b3a-9b20d2db3dea/linked_in_profile) |
-| 2026-08 | **Cilium Cluster Mesh** | Isovalent | [Verify Record](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/linked_in_profile) |
 | 2026-08 | **Cilium Ingress Controller** | Isovalent | [Verify Record](https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/linked_in_profile) |
 | 2026-08 | **Isovalent Lab Champion (10 labs)** | Isovalent | [Verify Record](https://www.credly.com/badges/1aa636d3-d301-4b4b-8808-e3da552cfc0b/linked_in_profile) |
 | 2026-08 | **Tetragon Getting Started** | Isovalent | [Verify Record](https://www.credly.com/badges/dffe3f42-4e0a-49bd-92f7-2646e68f51eb/linked_in_profile) |
@@ -66,6 +48,20 @@ artifacts: complete, index
 | 2026-08 | **Nano Tips for Effective Listening for Leaders with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d57a2f9f18c799024bf8eb2d2aff8982720081cf5226694dc20b41799a5adb31) |
 | 2026-08 | **Nano Tips for Leading Diverse Teams with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/13e473304257aad5a6d62dfe7467e61c5ff0aecb73db4dffcb5ae37d9096d333) |
 | 2026-08 | **Using Data Science to Hire Employees** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/84e29c3aa1cb4cfec900537f8eedb2709792e8ac493e0e98b2290029c163813a) |
+| 2026-08 | **Nano Tips for Effective Sponsorship as a Leader with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a58690e1c6cb2a78176de902f3dbe8f01a81c34e61d5c549d747f459e90557ee) |
+| 2026-08 | **Nano Tips for Business Etiquette to Accelerate Your Career with Ziying Zhou** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a2097a8192640bd74ee2092c8860712680684f5eca72c930a250d50faa60a2bf) |
+| 2026-08 | **Nano Tips for Managers to Become Coaches with Shawn Hunter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/051f30b2084dc3647ce4519c2448bc67505232a6c81cc128b6c24e7ef29f89ab) |
+| 2026-08 | **Nano Tips for Making Learning a Practice with Dr. Jazz** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/40a26fe95a44fd66497bafe32b26320f609efdfc2790f5e3dc3826be5f8f4c9b) |
+| 2026-08 | **Facebook Marketing Nano Tips for Beginners with Sam Dey** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ea64957a6f02f508d0d1872222bb1767263615cc5bfe37a1241050c0644356d) |
+| 2026-08 | **Nano Tips For Closing the Sale with Richard Moore** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/36bd0c2c1f369c7355ec2ee61b61cde99e8b7cc21a3cd3b225f501f61fda5a88) |
+| 2026-08 | **Nano Tips for Advancing Your Career with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/32d33a3f2687c4b1954b3ca2da1aa32792c746179a1565f75ba72e64fd96e5ae) |
+| 2026-08 | **Visual Thinking Strategies** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2439bfad641c2b08d4ba249f280e2d1cff00a0c56f0883d1b0f649a007f5c12a) |
+| 2026-08 | **Interpersonal Communication Nano Tips with Selena Rezvani** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bd6fcc4fc61bd9248a3a195bd31d56c3af3089e19f44c173dc5b31ab24f1199b) |
+| 2026-08 | **Nano Tips for Using Mindfulness to Handle Difficult Conversations at Work with Lillian Daniels** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7dd9b6547ea45541478d2a480262f94717e81e627dc36ed1b78aa441232d1b4b) |
+| 2026-08 | **20 Nano Tips for Maximizing Excel with Mike Tholfsen** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/135314a94372dfa089c1329c528a5611148549a7da0e0fe2fbfb9febd5962da8) |
+| 2026-08 | **Nano Tips to Lead with Agility and Thrive in a World of Perma-Change with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/725810371ef6d74127ab47b4e11145e0d6be71ac74523c8fe8cb807d7069f279) |
+| 2026-08 | **Cross-Cultural Communication Nano Tips with Jessica Chen** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ad5835db114abcf49bcb949020f0512d88212418c62d5e6e52e84eb065d7fa17) |
+| 2026-08 | **Vivek Wadhwa on Technology and Doing What Is Right** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6a9910a95bee24bdb3473fc88393c0ba369b20912b8b80cf693eecc0b0c3182a) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-36.md](./linkedin-certifications-2026-09-part-36.md)

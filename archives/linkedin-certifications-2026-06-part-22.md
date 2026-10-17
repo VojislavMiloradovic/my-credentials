@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 22 of 41
+chunk_part: 22 of 42
 date_range: 2026-06 to 2026-06
-total_entries: 48
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-22.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,26 +11,10 @@ artifacts: complete, index
 
 # LinkedIn Certifications -- Part 22
 
-> **Navigation:** Prev: [linkedin-certifications-2026-06-part-21.md](./linkedin-certifications-2026-06-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-23.md](./linkedin-certifications-2026-07-part-23.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-06-part-21.md](./linkedin-certifications-2026-06-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-23.md](./linkedin-certifications-2026-06-part-23.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Cloud Accelerator Badge** | Lucid Software | [Verify Record](https://www.credly.com/badges/a10ab236-0af0-45ad-a9f0-694426ba3f8d/linked_in_profile) |
-| 2026-06 | **Hotelier Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/student/award/gF16sHVdVZqRBMZDvpJig8vG) |
-| 2026-06 | **AWS Knowledge: Object Storage - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/a8254829-cc58-43f8-aa2f-910c836df8a8/linked_in_profile) |
-| 2026-06 | **LFS157: Introduction to Serverless on Kubernetes** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/b7b7ca0d-9eb3-42a1-9e11-70c2260d2b4e/linked_in_profile) |
-| 2026-06 | **LFD121: Developing Secure Software** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/21cf0189-83ae-4159-abd9-f2eecf3bd6a9/linked_in_profile) |
-| 2026-06 | **LFS182: Securing Your Software Supply Chain with Sigstore** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/78826580-a3a7-4213-be79-3233321f3d3e/linked_in_profile) |
-| 2026-06 | **LFD125: Security for Software Development Managers** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/c0a1f565-7255-4a8b-8a99-c447b22e0023/linked_in_profile) |
-| 2026-06 | **LFD103: A Beginner's Guide to Linux Kernel Development** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/014a781e-7a70-47a0-b79d-c6080bbef63d/linked_in_profile) |
-| 2026-06 | **Agile Visualization** | Lucid Software | [Verify Record](https://www.credly.com/badges/651c65f7-cb93-4591-874a-abb27ce07b19/linked_in_profile) |
-| 2026-06 | **Verified Lucid Admin** | Lucid Software | [Verify Record](https://www.credly.com/badges/81693063-e75b-457f-90c9-ae13044ef9e1/linked_in_profile) |
-| 2026-06 | **LFC193: Introduction to Open Source Licensing Compliance Management** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/ee58bb5f-4568-48b1-a075-98982a829a7a/linked_in_profile) |
-| 2026-06 | **Cloud Tech Fundamentals** | Acronis | [Verify Record](https://www.credly.com/badges/3c5fdd0e-66a5-436b-bdeb-4f3da1702089/linked_in_profile) |
-| 2026-06 | **Boosting Your Productivity with AI Deep Research** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/972ef3adab9785e35e4b7a1637cccbf92b3c31560c60ef535a77bb7a170ca422) |
-| 2026-06 | **15 ChatGPT Tips for Everyday Data Analysis** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3dc6aeea0522e2ba05ff956a7daf79788bdc0a49fa567ba7496a35200b88a009) |
-| 2026-06 | **Generative AI Skills for Creative Content: Opportunities, Issues, and Ethics** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c476f004637e99d54045295dd8a3b036bd4479115a78845b83617ad175c20e80) |
-| 2026-06 | **Boosting Your Time Management with AI Tools** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/aba4024dea7a15527cb089f1e1ec20be1117e334dbf4bce19c2901957831b614) |
 | 2026-06 | **Customer Journey Mapping with Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e1eb4595e15c89fcfef1af263e76f8530f98f57e4247949f42627c262839d0f3) |
 | 2026-06 | **Thriving as a Project Manager in the Age of AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cbf42c3376dd7bf13c72b15b4f924f7b8ed0427914bb1aa59fcdf4f5f6bfb756) |
 | 2026-06 | **Managing AI Risks: 8 Common Mistakes to Avoid at Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a2a064a2d4ae1e3e11caf88f2db13080f86d1f3421466a1a37fd33f99a0b5370) |
@@ -63,7 +47,21 @@ artifacts: complete, index
 | 2026-06 | **Smarter Learning with AI: 10 Powerful Prompts to Build Skills, Show Your Value, and Grow Your Career** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8c069d7d4179b58d72f701714cbf1dd80f8ff3a5f369fbe8c05a96c03bff881a) |
 | 2026-06 | **Introduction to Artificial Intelligence** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5cecc4f2855cdebcf7e11f67cead67e007e891378f4897782856951382f35041) |
 | 2026-06 | **Learn AI Agents in 15 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dbbefbf66fa73d802b501b61f4dce5bc44a919b9e0f241c5e75fe9a969f5e2ac) |
+| 2026-06 | **Using AI to Improve Human Resources Practices** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9d0d3527f08ec8dcb038708cac0df9e8c4e5f0ca724432cc7cc3113414a159b5) |
+| 2026-06 | **Open to Work: Building Key Career Skills in the Age of AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/73b2017db01fe9273c53c94de742bb268c50fef067cce71feb13f73ceaeceb71) |
+| 2026-06 | **Field Sales Techniques That Win Customers** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/210d550333cdbf58bf7ba9dc7356a159a9a031f14f211583d21621ccbf83a8ad) |
+| 2026-06 | **Generative AI in HR** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8ae13306ea030042848b79f0594185109e912931af982cc088a14a5bf2c3ad9f) |
+| 2026-06 | **Navigating AI Through an Intersectional DEI Lens** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7dddae39e05654b6ea7b674482213abcc3837ee819163cd4d721781295909849) |
+| 2026-06 | **AI in Action: Global Case Studies from Public Institutions** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2d6cec05cc5189a251e5c8f125014a9e040bed08b9a565387f3ea3a0d7f60bc3) |
+| 2026-06 | **The New Rules of Career Longevity with Myechia Minter-Jordan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5d616eec032d40ab3caa47c68ae94d2cc722ecafbc61e3ec4e82a39273b5405d) |
+| 2026-06 | **Beyond Chat: A Quick Guide to Copilot Cowork in Microsoft 365** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/76757556a28b83415a2d18ac568707dee11a3011ab75a107c874cb551c661281) |
+| 2026-06 | **How to Use AI for Upskilling and Lifelong Learning** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4484f8ad670d79c0938bef8bcdecbeb12a4739d2d4cd5fae2d456c3c5c27fd64) |
+| 2026-06 | **Building Career Agility and Resilience in the Age of AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/51c29c1d683100682b3ffdbaae094d830fb74c43cb984069225416466a6a8c9f) |
+| 2026-06 | **Get Started with Dataplex Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/716e37e5-9b04-4615-a6bb-b7a3129f6aa9/linked_in_profile) |
+| 2026-06 | **Understanding AI’s Global Impact: Governance, Equity, and Responsibility** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d3bfa3005de59fae80ae90859eafac0050f135301fa40ebd987ba92c82ea2818) |
+| 2026-06 | **Overcome Communication Challenges: Adapt Your Style for Success** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3b5ba06014c693dde34328575d2255bceef9cb5112c15435181791f1f4963020) |
+| 2026-06 | **How to Be an Agent Boss: Leading AI Agents at Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2fca9de48e83ec5727e115cfca3f67e9398fb222d9efd78017f4e3b49209d843) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-06-part-21.md](./linkedin-certifications-2026-06-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-23.md](./linkedin-certifications-2026-07-part-23.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-06-part-21.md](./linkedin-certifications-2026-06-part-21.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-23.md](./linkedin-certifications-2026-06-part-23.md)
 

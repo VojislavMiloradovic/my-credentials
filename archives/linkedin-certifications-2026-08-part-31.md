@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 31 of 41
+chunk_part: 31 of 42
 date_range: 2026-08 to 2026-08
-total_entries: 42
+total_entries: 39
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-31.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,21 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Cilium IPAM** | Isovalent | [Verify Record](https://www.credly.com/badges/781ae1d3-d016-448f-82e3-5b887b43886e/linked_in_profile) |
-| 2026-08 | **Cilium AI/ML Security** | Isovalent | [Verify Record](https://www.credly.com/badges/0d6b393c-0f31-4c76-98ed-0adb380e23f0/linked_in_profile) |
-| 2026-08 | **Discovery: Cloud Architect on Azure** | Isovalent | [Verify Record](https://www.credly.com/badges/da069ba5-7566-4254-992f-5ffb42c42770/linked_in_profile) |
-| 2026-08 | **Securing OpenClaw with Tetragon** | Isovalent | [Verify Record](https://www.credly.com/badges/20087ee1-5248-4fef-aa1e-97fb867406cd/linked_in_profile) |
-| 2026-08 | **Detecting VoidLink Malware with Tetragon** | Isovalent | [Verify Record](https://www.credly.com/badges/b79ddcee-1373-4c72-b0ea-41fe0857ce55/linked_in_profile) |
-| 2026-08 | **Cilium Gateway API: External Authentication** | Isovalent | [Verify Record](https://www.credly.com/badges/99029a9f-411a-4645-b898-91c7cd5bd127/linked_in_profile) |
-| 2026-08 | **SASE Expert Level 1** | Cato Networks | [Verify Record](https://www.credly.com/badges/0ba13d72-84cf-492a-affc-884dcb154111/linked_in_profile) |
-| 2026-08 | **SASE Expert Level 2** | Cato Networks | [Verify Record](https://www.credly.com/badges/a67ce979-bda5-4132-abb4-41ce77285177/linked_in_profile) |
-| 2026-08 | **AI In Cybersecurity** | Cato Networks | [Verify Record](https://www.credly.com/badges/f5b5f3bb-1c90-4409-bda9-fb96331e43bf/linked_in_profile) |
-| 2026-08 | **Nano Tips for Finding Happiness through Empathy with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/622a9d3c5ed8cddd51ac57efc941e4b58cbb25f1f8f92693ed66e622932b5841) |
-| 2026-08 | **Nano Tips on How to Power Network as an Introvert with Elayne Fluker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6b6082acf3d65c0d50fb2a5c6407a96bd4ff8638b325355114b782468928a0d9) |
-| 2026-08 | **Nano Tips to Stand Out as an Introvert with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cfff51780fa31c43f1c848c69e0ea5cc08ac3b475526905d08727cebeb231a86) |
-| 2026-08 | **Nano Tips for Cross-Cultural Communication for Leaders with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c0f9659727332a17d9ceb7d012168877898e6ec8af230bcb5adaf57061942651) |
-| 2026-08 | **Job Interview Nano Tips with Madeline Mann** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e7b22fafa49c9c13d5968e1e62fb7fb0971403a42e545b0881c59d7ff44aa848) |
-| 2026-08 | **Nano Tips to Foster a Growth Mindset and Mental Agility with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/67f9e8b0f8b19b75b96d43c647dc984993e7769a116b1fa0f8595422103d484b) |
 | 2026-08 | **Nano Tips on How to Apologize Authentically with Arti Halai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b8516aa5d871050f4893098576f4c6d67194437a81425c03cecaeb7775fb8e23) |
 | 2026-08 | **Nano Tips for Overcoming Imposter Syndrome at Work with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cae79de2ce1addf6ce36acb939781918c80e1c09803a44ddb9eed0e938d71b24) |
 | 2026-08 | **Personal Finance Nano Tips with Brittney Castro** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4ace4fdf7e59f338eab06b7f5ab10c4df6f92e8032d300292d7cfe39979f10ef) |
@@ -57,6 +42,18 @@ artifacts: complete, index
 | 2026-08 | **Looker Core Administration** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285912?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **Critical Thinking in AI-Driven Workflows** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27285992?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **Simplify Your Architecture with Network Connectivity Center** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286098?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Build Collaborative Multi-Agent Systems with ADK & MCP** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286201?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Build Agent Skills with Google** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286234?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Google DeepMind : 08 Capstone: Develop Your Model for Real-World Impact** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286333?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Secure Enterprise AI Agents** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286386?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Build a Certification Study Guide: ADP Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27286575?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Generative AI Explorer - Agent Platform** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27296691?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Build LookML Objects in Looker Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/f1fe4c27-fc5b-4f16-857c-0a78b63662de/linked_in_profile) |
+| 2026-08 | **Implement Cloud Storage and Data Protection Solutions** | Google | [Verify Record](https://www.credly.com/badges/d6b57587-ca0e-49ae-ac3f-c27583931211/linked_in_profile) |
+| 2026-08 | **Arcade Re-Trail: Vaults & Vectors** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27327295?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Analyze Sentiment with Natural Language API Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/linked_in_profile) |
+| 2026-08 | **Monitoring in Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/7f426d35-6e3b-419e-8236-e382d94e9666/linked_in_profile) |
+| 2026-08 | **Arcade Base Camp August 2026** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-30.md](./linkedin-certifications-2026-08-part-30.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-32.md](./linkedin-certifications-2026-08-part-32.md)

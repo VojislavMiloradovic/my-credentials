@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 14 of 41
+chunk_part: 14 of 42
 date_range: 2026-06 to 2026-06
-total_entries: 44
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-14.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,21 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Build with AI: Create an Agent with GPT-OSS** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f79baa51ac1f6f09381a7aeb00e5e48d7641e0e13e339129d4d3a50b019d8325) |
-| 2026-06 | **Boosting Your Negotiation Skills with Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/89025fad23b3dca0ebd46500cd6df3f584e27735204ea9c23eeac130ec4ac260) |
-| 2026-06 | **Harnessing AI in the Recruiting Lifecycle** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/574b2e278ebca2d97b14730b09dbf4b4cd446df9079de43da562ee54d3fd0cd9) |
-| 2026-06 | **A Standalone Project: Perform Data Analytics to Find Trends through Visualization** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a778b6a9f7ff19c0252f1969d443e7ca096e35c81ad998f62377ca23279650d5) |
-| 2026-06 | **Nano Tips for Leading with Positivity with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/833890872bdf5c98127fb8816d206244d41051d4ac02ce4e825ed81e8dbbfae9) |
-| 2026-06 | **Nano Tips for Effortless Conversations with Shadé Zahrai and Jefferson Fisher** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0bfd90fd1c2be378fde459a28b0dc78498c1fc127fea3a88e6b9c69e2c33e169) |
-| 2026-06 | **How to Evaluate a Job Offer's Benefits Package** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/61d903e771dcc60fa36d6c5a2dadcbf1869f97340dfd6ee6792ce088eb278fcc) |
-| 2026-06 | **AWS Knowledge: Migration Foundations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c6d0351c-5227-4931-8bec-3d4789d4fe0e/linked_in_profile) |
-| 2026-06 | **Cloud Tech Associate Advanced Disaster Recovery** | Acronis | [Verify Record](https://www.credly.com/badges/cdf5678e-fcbe-4a91-a6a3-30a7d2b24937/linked_in_profile) |
-| 2026-06 | **Nano Tips for Digital Networking with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7c1d2eb3c0d57562c6ce9d9e20a3e32258a2d14a20591a04ea7771d122f2a811) |
-| 2026-06 | **Nano Tips To Improve Adaptability and Flexibility with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/39e0f33e8ed9d6becf8c93eb8ce821fb4dd3ac4d9de29982514705d342eef74d) |
-| 2026-06 | **Celonis Foundations** | Celonis | [Verify Record](https://www.credly.com/badges/e2811911-4464-4eb1-9981-681c751363bf/linked_in_profile) |
-| 2026-06 | **Monitor KPIs in Analysis Dashboards** | Celonis | [Verify Record](https://www.credly.com/badges/d23419cf-0b96-4003-8c51-d0156b673365/linked_in_profile) |
-| 2026-06 | **Monitor KPIs in Execution Apps** | Celonis | [Verify Record](https://www.credly.com/badges/648e7ea8-11ed-42ec-8bb2-68235dd7841a/linked_in_profile) |
-| 2026-06 | **Process Automation Basics** | Celonis | [Verify Record](https://www.credly.com/badges/8da97b58-6d1d-46ef-bad3-34ed67aa3baa/linked_in_profile) |
 | 2026-06 | **Nano Tips for Navigating Corporate Culture with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8ded0b8ada19903a6cd4a4a6ebdcf6a155b4dd3e6f071f0bea7c4b3df1aba6ce) |
 | 2026-06 | **Get Started with Auth0 Tenants** | Okta | [Verify Record](https://www.credly.com/badges/a626c5ef-b24c-4dce-be69-548d51377e78/linked_in_profile) |
 | 2026-06 | **AI Fluency: Generative AI for Workforce Agency Administrators by Microsoft and NAWB** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f2c1ee6ae0c4c71f9af8a92fe7be726eee4f1d2f0e112cb5c920dbfa7b225276) |
@@ -59,6 +44,22 @@ artifacts: complete, index
 | 2026-06 | **Nano Tips for Using AI to Streamline Project Management with Jean Kang** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/09fd72258721b32bff58314c22666abed04741a0a268bb5612a898e7780be80a) |
 | 2026-06 | **Generative AI, Recruiting, and Talent Acquisition** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/266d8103821516065580e6a5a08b5a8f75233d26b22e1538e628d1fcb219069c) |
 | 2026-06 | **Nano Tips to Succeed in Sales with Morgan Ingram** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d0567cbc13cc08e53cb87151bc2a23a099e74ba82cd1bb1e41202dd63248bdcc) |
+| 2026-06 | **Nano Tips for Improving Email Communications with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/af671dcd36e2cf561b9d8f79f5533d536ad2de2d6acdf191a09328b537466b25) |
+| 2026-06 | **Cloud Tech Associate Advanced Management** | Acronis | [Verify Record](https://www.credly.com/badges/30b95128-ad8f-470c-85e7-e00a4ceba43b/linked_in_profile) |
+| 2026-06 | **Academic Process Mining Fundamentals** | Celonis | [Verify Record](https://www.credly.com/badges/20201bb7-c784-40de-99ab-d72dc8147145/linked_in_profile) |
+| 2026-06 | **Deliver Business Value with Celonis** | Celonis | [Verify Record](https://www.credly.com/badges/897bc772-848b-40cc-8a6e-315c76aec649/linked_in_profile) |
+| 2026-06 | **Celonis AI Foundations** | Celonis | [Verify Record](https://www.credly.com/badges/584ca505-5e6b-4d33-ae7e-be95f464c2eb/linked_in_profile) |
+| 2026-06 | **Review and Interpret Analyses** | Celonis | [Verify Record](https://www.credly.com/badges/25472282-590d-4f27-9fda-6f344e2fd901/linked_in_profile) |
+| 2026-06 | **Create and Deliver Demos** | Celonis | [Verify Record](https://www.credly.com/badges/b65bf69a-ce07-487d-b439-fafad1ee79d9/linked_in_profile) |
+| 2026-06 | **Implement Passwordless Authentication** | Okta | [Verify Record](https://www.credly.com/badges/b5aeea2a-0424-47c4-87d4-ea6a6acd3bad/linked_in_profile) |
+| 2026-06 | **Manage Your Tenant with Auth0 MCP Server** | Okta | [Verify Record](https://www.credly.com/badges/c9da5f3b-b75b-43d4-9e6d-d291b9504fe3/linked_in_profile) |
+| 2026-06 | **Nano Tips For Conscious Communication To Grow Your Career with Ravi Rajani** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e934b6033c566c014f3b1a896fdfc7895f7c344121410127eda99674966c7514) |
+| 2026-06 | **Nano Tips for Managing Customer Expectations with Richard Moore** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e84a22b907cd65448677b6375fa8fa406ff2bbfd250e302a99532a7fee006f3c) |
+| 2026-06 | **Nano Tips for Delegating as a Manager with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/006a317be1d0dbeead2f512cdc5d17de862c079335a0bd52d22e229305c24913) |
+| 2026-06 | **Nano Tips For Building Trust As A Leader with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9145d02123647e95295d07e9fc8905a10f6519b55840fce913d39876e7faa69b) |
+| 2026-06 | **Nano Tips for Peak Performance with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c888652b4433279e1d16da2a6b90188cb53dab0f633de508720d021963578ce6) |
+| 2026-06 | **Nano Tips for Optimizing Your Content for Social Media Algorithms with Sam Dey** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b8d69bb161e1e861f0ccf5fd5dcc3ace8ddde639573890d0821d19d69230b4f9) |
+| 2026-06 | **Business Model Innovation: Seven Essentials** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dbb82feb9ad3336aec9ba43b7621e1d42279ca4dfc1e52ada642d89577a56cef) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-13.md](./linkedin-certifications-2026-06-part-13.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-15.md](./linkedin-certifications-2026-06-part-15.md)
