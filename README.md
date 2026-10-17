@@ -139,25 +139,25 @@ Showing latest 10 of 1068 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 764
-**Total Verified Skills Mapped:** 2669
+**Total Portfolio Credentials:** 775
+**Total Verified Skills Mapped:** 2697
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 764 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 775 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-10-16 | [Quantum-Safe Encryption Essentials](https://www.credly.com/badges/2a47f562-b192-4791-8fac-f4e981fe7726/public_url) | IBM | Credly Verified Badge |
-| 2026-10-15 | [AWS Knowledge: Security Champion - Training Badge](https://www.credly.com/badges/c59d7bc6-b7c4-496c-bdc5-841330331449/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-10-15 | [Microsoft Applied Skills: Protect information in Microsoft 365 Copilot by using Microsoft Purview](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/F87E8DADFE9F36FD?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
-| 2026-10-14 | [Harness Certified Database DevOps Developer](https://www.credly.com/badges/ba7bac4e-647c-4521-aedf-23c0d4df34df/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-14 | [Traceable by Harness Developer Certification](https://www.credly.com/badges/81821f9e-ed55-49db-a20b-6c2afdd9cacb/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-13 | [Harness Certified AI DLC Insights Formerly SEI Developer](https://www.credly.com/badges/281d5b1c-95e0-497d-8784-bbbca82109a5/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-13 | [Harness Certified Cloud & AI Cost Management Developer](https://www.credly.com/badges/150ce8a5-8669-42aa-a2df-2d0f61c1fbbc/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-13 | [Harness Certified Feature Flag Developer](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-13 | [Harness Certified Internal Developer Portal Developer](https://www.credly.com/badges/a9e63d43-0f30-4c99-a8e0-fb7db936a3b0/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-13 | [Kong Gateway Operations](https://www.credly.com/badges/ec9b0dd2-a167-4d92-87af-2a5e6e2df6d6/public_url) | Kong | Credly Verified Badge |
+| 2026-10-17 | [Authenticate with Auth0 Database and Passwordless Connections](https://www.credly.com/badges/8ec03de7-4ca2-4da9-bb70-2cd9dfb6ebe8/public_url) | Okta | Credly Verified Badge |
+| 2026-10-17 | [Authentication Best Practices](https://www.credly.com/badges/71fa34c8-31d2-4c30-aca8-a7eb46b8a0f3/public_url) | Okta | Credly Verified Badge |
+| 2026-10-17 | [Authorization Best Practices](https://www.credly.com/badges/f910a5fd-db59-4f35-86f8-9415ff4649fe/public_url) | Okta | Credly Verified Badge |
+| 2026-10-17 | [Deep Learning Essentials](https://www.credly.com/badges/3337a2f8-5bd7-488a-acfb-1643a2135d68/public_url) | IBM | Credly Verified Badge |
+| 2026-10-17 | [Docker Essentials: A Developer Introduction](https://www.credly.com/badges/9fb77f5d-7410-46fe-9ca0-597993fe77c4/public_url) | IBM | Credly Verified Badge |
+| 2026-10-17 | [Extend Auth0 with Actions](https://www.credly.com/badges/9a68d38d-8238-4259-aa8e-40a315c621bc/public_url) | Okta | Credly Verified Badge |
+| 2026-10-17 | [Harness Certified API & Application Discovery Developer Certification](https://www.credly.com/badges/526c7d05-ee39-44f0-a28a-7e6a366f9f42/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-17 | [Harness Certified Application & API Runtime Protection Developer Certification](https://www.credly.com/badges/4435d662-89cf-45dc-b84d-e1df4ca5b43b/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-17 | [Harness Certified Application & API Security Testing Developer Certification](https://www.credly.com/badges/89162e0d-265a-429f-af72-a2ddabd26a8e/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-17 | [Harness Certified Feature Management & Experimentation Developer](https://www.credly.com/badges/1de21658-16d9-4730-9874-71e917be31b4/public_url) | Harness Inc | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
