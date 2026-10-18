@@ -117,7 +117,7 @@ def compute_content_hash(record: dict, id_field: str, platform: str = "") -> str
     Supports two modes:
     1. Schema-driven (preferred): Uses FINGERPRINT_SCHEMAS[platform] to determine
        which fields to hash. This allows provider-specific content definitions.
-    2. Fallback (legacy): Excludes VOLATILE_FIELDS globally.
+    2. Fallback (legacy): Excludes LEGACY_VOLATILE_FIELDS globally (deprecated).
 
     Args:
         record: Record dictionary
@@ -156,8 +156,12 @@ def compute_content_hash(record: dict, id_field: str, platform: str = "") -> str
         )
         return hashlib.sha256(content_str.encode("utf-8")).hexdigest()[:32]
 
-    # Fallback: legacy global VOLATILE_FIELDS exclusion
-    VOLATILE_FIELDS = {
+    # Fallback: legacy global LEGACY_VOLATILE_FIELDS exclusion
+    # DEPRECATED: This global volatile fields list is a legacy fallback only.
+    # The primary mechanism is now provider-specific fingerprint schemas
+    # defined in models.fingerprint_schemas.FINGERPRINT_SCHEMAS.
+    # This fallback is only used for unknown platforms without a schema.
+    LEGACY_VOLATILE_FIELDS = {
         "version",
         "_ts",
         "partitionKey",
@@ -206,7 +210,7 @@ def compute_content_hash(record: dict, id_field: str, platform: str = "") -> str
     # Create a normalized copy for hashing
     normalized = {}
     for k, v in record.items():
-        if k in VOLATILE_FIELDS:
+        if k in LEGACY_VOLATILE_FIELDS:
             continue
         if k == id_field:
             continue
