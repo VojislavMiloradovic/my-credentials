@@ -794,7 +794,89 @@ class AWSSkillsPipeline(PipelineBase):
                     f"[NOTE] Updated {marked} badge(s) with retired status"
                 )
 
+        # Sync source-flagged retired items to registry
+        self.sync_retired_to_registry(records)
+
         return records
+
+    def sync_retired_to_registry(self, records: list[dict]) -> int:
+        """Add source-flagged retired items to retired_urls.json.
+
+        Iterates through records with retired=True and retirement_source="source_csv",
+        adding them to the registry if not already present.
+
+        Returns:
+            Number of new entries added to the registry.
+        """
+        retired_rules = self.get_retired_rules()
+
+        # Build lookup sets for existing IDs and URLs to avoid duplicates
+        existing_ids = {str(rule.get("id", "")).strip() for rule in retired_rules}
+        existing_urls = {
+            str(rule.get("url", "")).strip()
+            for rule in retired_rules
+            if rule.get("url")
+        }
+
+        added_count = 0
+        for record in records:
+            if not record.get("retired", False):
+                continue
+            if record.get("retirement_source") != "source_csv":
+                continue
+
+            record_id = record.get("id")
+            record_url = record.get("verify_url")
+
+            # Skip if already in registry
+            if record_id in existing_ids:
+                continue
+            if record_url and record_url in existing_urls:
+                continue
+
+            # Create registry entry
+            rule = {
+                "id": record_id,
+                "match_type": "url" if record_url else "id",
+                "reason": record.get("retirement_reason", "Source CSV Status=Retired"),
+                "retired_at": record.get("retired_at"),
+                "title": record.get("title", ""),
+                "retirement_source": "source_csv",
+            }
+            if record_url:
+                rule["url"] = record_url
+
+            retired_rules.append(rule)
+            existing_ids.add(record_id)
+            if record_url:
+                existing_urls.add(record_url)
+            added_count += 1
+            self.logger.info(
+                f"[REGISTRY] Added source-flagged retired item: {record.get('title')} (ID: {record_id})"
+            )
+
+        if added_count > 0:
+            # Save updated retired rules, preserving other platforms
+            full_data = {}
+            if os.path.exists(RETIRED_URLS_FILE):
+                try:
+                    with open(RETIRED_URLS_FILE, "r", encoding="utf-8") as f:
+                        full_data = json.load(f)
+                except (json.JSONDecodeError, OSError):
+                    full_data = {}
+
+            full_data["aws-skills"] = retired_rules
+
+            try:
+                with open(RETIRED_URLS_FILE, "w", encoding="utf-8") as f:
+                    json.dump(full_data, f, indent=2, ensure_ascii=False)
+                self.logger.info(
+                    f"[REGISTRY] Updated {RETIRED_URLS_FILE} with {added_count} new retired item(s) for aws-skills"
+                )
+            except OSError as e:
+                self.logger.error(f"[REGISTRY] Failed to save retired_urls.json: {e}")
+
+        return added_count
 
     def persist_validation(self, records):
         """Persist validated data with AWS-specific filename."""
