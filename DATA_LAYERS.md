@@ -83,9 +83,72 @@ The `cross_artifact_validator.py` validates that record counts flow correctly ac
 | L2 → L3 | `compute_display_metrics` | L3 derived from L0/L1 |
 | L2 → L3 | `count_streams_separately` | L3 = sum(L2 streams) |
 
-## Manifest Schema
+## Content Fingerprint Schema Architecture
 
-The `dataset_layers.yaml` is validated against Pydantic models in `models/layer_manifest.py`:
+### Overview
+
+The content loss guard uses **provider-specific fingerprint schemas** (defined in `models/fingerprint_schemas.py`) to compute stable content hashes for credential records. This replaces the legacy global `VOLATILE_FIELDS` exclusion approach with a declarative, per-platform schema system.
+
+### Schema-Driven Hashing
+
+Each platform declares a fingerprint schema specifying exactly which fields constitute the "semantic content" of a credential:
+
+```python
+FINGERPRINT_SCHEMAS = {
+    "microsoft-learn": {
+        "fields": ["title", "grantedOn", "category", "verify_url", "retired"],
+        "canonical_issuer": "Microsoft",
+        "id_field": "id",
+    },
+    "credly": {
+        "fields": ["title", "date", "issuer_name", "type", "verify_url", "retired"],
+        "id_field": "id",
+    },
+    # ... other platforms
+}
+```
+
+**Fields included in hash** (per platform):
+
+| Platform | Fields Hashed |
+|----------|---------------|
+| microsoft-learn | title, grantedOn, category, verify_url, retired (+ canonical issuer: Microsoft) |
+| credly | title, date, issuer_name, type, verify_url, retired |
+| aws-skills | title, date, issuer_name, type, verify_url, retired |
+| google-skills | title, date, issuer_name, type, verify_url, retired |
+| linkedin-certifications | title, issued, authority, verify_url, retired |
+| google-developer (public) | title, description, source, retired (+ canonical issuer: Google) |
+| google-developer (detailed) | title, description, source, retired (+ canonical issuer: Google) |
+
+### Schema Version Migration
+
+- **Current version**: `2` (defined in `CURRENT_FINGERPRINT_SCHEMA_VERSION`)
+- **Migration behavior**: When baseline schema version doesn't match current, `load_baseline()` returns `None`, triggering clean regeneration on next pipeline run
+- **Baseline format**: Added `"fingerprint_schema_version": 2` to all baseline JSON files
+- **Migration is automatic**: No manual intervention needed; next pipeline run regenerates baselines
+
+### Deprecated: Global VOLATILE_FIELDS
+
+The legacy global `VOLATILE_FIELDS` set has been renamed to `LEGACY_VOLATILE_FIELDS` and is now **deprecated**. It serves only as a fallback for unknown platforms without a defined schema.
+
+| Aspect | Legacy (VOLATILE_FIELDS) | New (Fingerprint Schemas) |
+|--------|-------------------------|---------------------------|
+| Scope | Global, one-size-fits-all | Per-platform, declarative |
+| Fields excluded | ~60 global fields | Only fields NOT in schema |
+| Extensibility | Modify global set | Add/modify per-platform schema |
+| Semantic clarity | Low (excludes everything) | High (explicitly declares content) |
+
+### Usage in Loss Guard
+
+```python
+# Schema-driven mode (preferred)
+hash = compute_content_hash(record, id_field, platform="microsoft-learn")
+
+# Fallback (deprecated) - only for unknown platforms
+hash = compute_content_hash(record, id_field, platform="unknown")
+```
+
+## Manifest Schema
 
 ```yaml
 version: "1.0"

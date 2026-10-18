@@ -230,3 +230,80 @@ Available builders:
 - HTTP mocks are per-test via `responses` library
 - Time is frozen to `2024-06-15 12:00:00 UTC` via `freezegun`
 - Shared modules mocked via `monkeypatch` in fixtures
+
+## Testing Fingerprint Schemas
+
+### Unit Tests (`tests/unit/test_loss_guard.py`)
+
+```bash
+# Run all loss guard tests
+uv run pytest tests/unit/test_loss_guard.py -v
+
+# Run specific test groups
+uv run pytest tests/unit/test_loss_guard.py::TestComputeContentHash -v
+uv run pytest tests/unit/test_loss_guard.py::TestCompareFingerprints -v
+uv run pytest tests/unit/test_loss_guard.py::TestExecuteContentLossGuard -v
+```
+
+### Integration Tests (`tests/integration/test_provider_contracts.py`)
+
+```bash
+# Test provider contracts including fingerprint schema behavior
+uv run pytest tests/integration/test_provider_contracts.py -k "loss_guard" -v
+```
+
+### Schema Version Migration Testing
+
+```bash
+# Test baseline migration (simulates schema version bump)
+# 1. Create a baseline with old schema version
+# 2. Run pipeline - should auto-regenerate baseline with new schema version
+# 3. Verify new baseline has fingerprint_schema_version: 2
+
+# Manual test:
+# 1. Edit for_validation/google-developer-baseline.json, change fingerprint_schema_version to 1
+# 2. Run: uv run python update_google_developer.py
+# 3. Verify new baseline has fingerprint_schema_version: 2 and regenerated
+```
+
+### Verifying Schema-Driven Hashing
+
+```bash
+# Quick verification that schemas are working:
+uv run python -c "
+from loss_guard import compute_content_hash
+
+# Microsoft Learn record
+record = {'id': '123', 'title': 'Test', 'grantedOn': '2024-01-15', 'category': 'module', 'verify_url': 'https://...', 'retired': False, 'retrieved_at': '2024-01-01T00:00:00Z', 'source_hash': 'abc'}
+hash1 = compute_content_hash(record, 'id', 'microsoft-learn')
+
+# Change date - should change hash
+record['grantedOn'] = '2024-01-16'
+hash2 = compute_content_hash(record, 'id', 'microsoft-learn')
+assert hash1 != hash2, 'Date change should change hash'
+
+# Change provenance only - should NOT change hash (excluded by schema)
+record['retrieved_at'] = '2024-01-02T00:00:00Z'
+hash3 = compute_content_hash(record, 'id', 'microsoft-learn')
+assert hash2 == hash3, 'Provenance change should not change hash'
+
+print('Schema-driven hashing working correctly!')
+"
+```
+
+### Cross-Artifact Validation
+
+```bash
+# Run full cross-artifact validation (includes fingerprint schema checks)
+uv run python cross_artifact_validator.py --mode strict
+
+# Check specific platform
+uv run python cross_artifact_validator.py --mode strict 2>&1 | grep -E "PASS|FAIL.*google-developer"
+```
+
+### Test Isolation
+
+- Each test gets fresh `tmp_path` directory
+- HTTP mocks are per-test via `responses` library
+- Time is frozen to `2024-06-15 12:00:00 UTC` via `freezegun`
+- Shared modules mocked via `monkeypatch` in fixtures
