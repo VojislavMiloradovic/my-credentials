@@ -459,17 +459,17 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
     for row in reader:
         if not row.get("Title") or not row["Title"].strip():
             skipped += 1
-
             continue
 
         title = row["Title"].strip()
-
         badge_type = row.get("Type", "").strip()
 
+        # Extract Status column for retirement handling
+        status = row.get("Status", "").strip()
+        is_retired = status.lower() == "retired"
+
         # Try multiple possible date column names from AWS CSV exports
-
         # Actual column in aws-training-activity.csv is "Completed on"
-
         earned_date = (
             row.get("Completed on", "")
             or row.get("Earned Date", "")
@@ -481,26 +481,25 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
         ).strip()
 
         credential_url = row.get("Credential URL", "").strip()
-
         credential_id = row.get("Credential ID", "") or row.get("ID", "")
-
         credential_id = credential_id.strip()
 
         # Normalize the date, with fallback to "2026-01-01" for missing/unparseable dates
-
         # This maintains backward compatibility and ensures proper sorting
-
         normalized_date = normalize_date_string(earned_date)
-
         if not normalized_date:
             normalized_date = "2026-01-01"
 
         b_id = credential_id or generate_badge_id(title, normalized_date)
 
+        # Strip [RETIRED] prefix from title for clean display
+        clean_title = title
+        clean_title = clean_title.removeprefix("[RETIRED] ")
+
         entry = {
             "id": b_id,
-            "title": title,
-            "name": title,
+            "title": clean_title,
+            "name": clean_title,
             "issuer": "Amazon Web Services",
             "issuer_name": "Amazon Web Services",
             "issued_at": normalized_date,
@@ -511,8 +510,14 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
             "url": credential_url,
             "type": badge_type or "AWS Skill Builder Badge",
             "verification_type": badge_type or "AWS Skill Builder Badge",
-            "skills": [title] if title else ["AWS"],
+            "skills": [clean_title] if clean_title else ["AWS"],
+            "retired": is_retired,
         }
+
+        if is_retired:
+            entry["retirement_reason"] = "Source CSV Status=Retired"
+            entry["retired_at"] = normalized_date
+            entry["retirement_source"] = "source_csv"
 
         try:
             badges.append(AwsBadgeItemModel(**entry).model_dump(mode="json"))
