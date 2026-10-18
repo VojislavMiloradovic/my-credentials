@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 4 of 20
+chunk_part: 4 of 21
 date_range: 2026-03-11 to 2026-03-18
-total_entries: 56
+total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-04.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -71,6 +71,7 @@ artifacts: complete, index
 | 2026-03-12 | [AWS Lambda Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-11 | [[RETIRED] Introduction to AWS Mainframe Modernization Replatform with NTT Data UniKix](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-11 | [Amazon Connect Flows Lambda Integrations Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-03-11 | [Amazon Connect Metrics & Analytics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-03-part-03.md](./aws-skills-2026-03-part-03.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-04-part-05.md](./aws-skills-2026-04-part-05.md)
