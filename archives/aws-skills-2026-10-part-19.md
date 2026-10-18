@@ -2,7 +2,7 @@
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 19 of 21
 date_range: 2026-10-05 to 2026-10-10
-total_entries: 50
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-19.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-10-10 | [Automate Model Quota Request and Operational Issue Triage on Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Automating Multi-Cloud Cost Management at Scale: A2A's FinOps Platform Powered by AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [AWS Security Agent: A multi-agent architecture for automated penetration testing](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [AWS Security Hub: Unify your security at scale](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -65,6 +64,8 @@ artifacts: complete, index
 | 2026-10-05 | [Funding Programs for System Integrators (SI)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-05 | [How Lore Rethinks Binary Asset Storage on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-05 | [How to understand and estimate combined AWS WAF and AWS Shield Advanced costs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-05 | [Improve bot accuracy with Amazon Lex Assisted NLU](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-05 | [Independent Software Vendor Accelerate Program](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-10-part-18.md](./aws-skills-2026-10-part-18.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-10-part-20.md](./aws-skills-2026-10-part-20.md)

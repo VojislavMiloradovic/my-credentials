@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-10-18 | [AWS Free Tier: Introduction to Managing Services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [AWS Free Tier: Introduction to Monitoring Services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [AWS Health Adoption and Maturity Acceleration](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [AWS Hybrid Storage Services Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -69,6 +68,7 @@ artifacts: complete, index
 | 2026-10-10 | [Amazon Quick integration with time-series databases for market intelligence using MCP](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Architecting offline-first generative AI applications for edge deployments using AWS services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Authenticate legitimate AI agent traffic with AWS WAF Bot Control](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Automate Model Quota Request and Operational Issue Triage on Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-10-part-19.md](./aws-skills-2026-10-part-19.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-10-part-21.md](./aws-skills-2026-10-part-21.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 9 of 21
-date_range: 2026-07-17 to 2026-08-02
-total_entries: 54
+date_range: 2026-07-16 to 2026-08-02
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-09.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,12 +15,11 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-02 | [Building web search-enabled agents with Strands and Exa](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [Embed Amazon Quick chat agents in enterprise applications](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [Generate dashboards from natural language prompts in Amazon Quick](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [How AWS Step Functions Work](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [Introduction to Amazon S3 Files](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-07-31 | [[RETIRED] Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-07-31 | [Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) [WARN] *Content retired* | Amazon Web Services | Digital course |
 | 2026-07-31 | [Amazon Elastic File System (Amazon EFS) Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-31 | [Amazon Route 53 - Basics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-31 | [AWS Database Migration Service Overview](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -69,6 +68,8 @@ artifacts: complete, index
 | 2026-07-17 | [AWS File Storage Services Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-17 | [Getting Started with AWS Auto Scaling](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-17 | [Instance Isolation with Elastic Network Interfaces](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-07-16 | [AgentCore Evaluation on Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-07-16 | [Amazon Aurora Service Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-08.md](./aws-skills-2026-07-part-08.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-10.md](./aws-skills-2026-08-part-10.md)

@@ -2,7 +2,7 @@
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 17 of 21
 date_range: 2026-09-20 to 2026-09-30
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-17.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-09-30 | [Upgrading Amazon Aurora PostgreSQL](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-30 | [Use CloudWatch syslog and Log Alarms to give AWS DevOps Agent on-premises visibility](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [Using Amazon GameLift FleetIQ for Game Servers](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [Well-Architected For Enterprises](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [Which AI tool for which FinOps Use Case?](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -68,6 +66,9 @@ artifacts: complete, index
 | 2026-09-20 | [Amazon Connect Customer AI and ML Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-20 | [Amazon Connect Customer AI Fundamentals Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-20 | [Amazon Data Firehose Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-20 | [Amazon DynamoDB Accelerator (DAX) (Amazon DAX) Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-20 | [Amazon EBS Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-20 | [Amazon ECS Deployment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-09-part-16.md](./aws-skills-2026-09-part-16.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-10-part-18.md](./aws-skills-2026-10-part-18.md)

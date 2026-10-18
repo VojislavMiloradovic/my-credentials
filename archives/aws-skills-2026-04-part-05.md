@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-04-07 | [Authentication and Authorization with AWS Identity and Access Management](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-04-07 | [AWS Elemental Link - Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-07 | [AWS Identity and Access Management - Architecture and Terminology](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-07 | [AWS Identity and Access Management - Basics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-06 | [Amazon EC2 Auto Scaling Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -26,7 +24,7 @@ artifacts: complete, index
 | 2026-04-05 | [Introduction to AWS Neuron](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-04 | [AWS Elemental Live - Foundations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-04 | [Getting Started with Cloud Acquisition](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-04-03 | [[RETIRED] Building a Machine Learning Ready Organization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-04-03 | [Building a Machine Learning Ready Organization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) [WARN] *Content retired* | Amazon Web Services | Digital course |
 | 2026-04-03 | [AWS Foundations: How Amazon SageMaker Can Help](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-03 | [Understanding AWS Networking Gateways](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-02 | [Application Load Balancer Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -64,13 +62,15 @@ artifacts: complete, index
 | 2026-03-21 | [Machine Learning Essentials for Business and Technical Decision Makers](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-20 | [Amazon DynamoDB Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-20 | [Getting Started with AWS Storage](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-03-19 | [[RETIRED] Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
+| 2026-03-19 | [Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) [WARN] *Content retired* | Amazon Web Services | Certification Exam Preparation |
 | 2026-03-19 | [AWS Cloud Economics for Healthcare](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-19 | [AWS Cloud Essentials for Business Leaders](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-19 | [AWS Config Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-18 | [AgentCore Browser: Secure and Scalable Web Automation with Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-18 | [Amazon Connect: Introduction to the Administrative Interface](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-18 | [Amazon SageMaker Unified Studio - Administrator Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-03-18 | [AWS Security – Encryption Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-03-18 | [AWS SimuLearn: Generate Code for a Webpage](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-03-part-04.md](./aws-skills-2026-03-part-04.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-04-part-06.md](./aws-skills-2026-04-part-06.md)

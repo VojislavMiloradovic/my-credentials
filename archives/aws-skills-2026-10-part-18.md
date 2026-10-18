@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-10-05 | [Improve bot accuracy with Amazon Lex Assisted NLU](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-05 | [Independent Software Vendor Accelerate Program](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-05 | [Introduction to Advertising Domain](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-05 | [Introduction to AWS Resilience Migration Advisor Tool](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-05 | [Introduction to Cost Management for SaaS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -69,6 +67,8 @@ artifacts: complete, index
 | 2026-09-30 | [The Rise of GeoAI - Esri on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [Trails for AWS CloudTrail Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [Turn Your Amazon CloudWatch Alarms into Actionable Signals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-30 | [Upgrading Amazon Aurora PostgreSQL](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-30 | [Use CloudWatch syslog and Log Alarms to give AWS DevOps Agent on-premises visibility](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-09-part-17.md](./aws-skills-2026-09-part-17.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-10-part-19.md](./aws-skills-2026-10-part-19.md)
