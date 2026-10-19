@@ -6,12 +6,13 @@ This document represents a unified, verifiable list of all 1094 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-18T23:22:13.740485+00:00 -->
+<!-- retrieved_at: 2026-10-19T00:33:23.629212+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-19 | [Amazon Connect Outbound Communications Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Amazon Connect - Infrastructure as Code Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Amazon Connect Conversational Interfaces Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Amazon Connect Customer Profiles Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -1083,7 +1084,6 @@ This document represents a unified, verifiable list of all 1094 records.
 | 2026-01-01 | [CloudEndure Migration Training - Technical](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) [WARN] *Content retired* | Amazon Web Services | Digital course |
 | 2026-01-01 | [Selling in AWS Marketplace (Technical)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) [WARN] *Content retired* | Amazon Web Services | Digital course |
 | 2026-01-01 | [Amazon Connect Communications Specialist Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-01-01 | [Amazon Connect Outbound Communications Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-01 | [Amazon Connect Reporting & Analytics - Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-01 | [AWS Agentic AI Demonstrated](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
 | 2026-01-01 | [AWS Application Networking Demonstrated](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |

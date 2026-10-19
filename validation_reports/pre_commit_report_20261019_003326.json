@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-18T20:19:23.833947+00:00",
+  "timestamp": "2026-10-19T00:33:26.872487+00:00",
   "summary": {
     "total": 95,
     "passed": 95,
@@ -45,12 +45,12 @@
       "jsonld_count": 1094,
       "llms_txt_count": 1094,
       "llms_full_count": 1,
-      "retired_in_source": 0,
-      "retired_in_archive": 37,
-      "retired_in_jsonld": 37,
-      "latest_record_date_source": "2026-10-18T00:00:00",
-      "latest_record_date_archive": "2026-10-18T00:00:00",
-      "latest_record_date_jsonld": "2026-10-18T00:00:00"
+      "retired_in_source": 40,
+      "retired_in_archive": 40,
+      "retired_in_jsonld": 40,
+      "latest_record_date_source": "2026-10-19T00:00:00",
+      "latest_record_date_archive": "2026-10-19T00:00:00",
+      "latest_record_date_jsonld": "2026-10-19T00:00:00"
     },
     "credly": {
       "source_records": 775,
@@ -123,7 +123,7 @@
       "passed": true,
       "expected": "> 0",
       "actual": 1094,
-      "message": "Source snapshot has 1094 records (0 retired)",
+      "message": "Source snapshot has 1094 records (40 retired)",
       "severity": "warning"
     },
     {
@@ -177,7 +177,7 @@
       "passed": true,
       "expected": "> 0",
       "actual": 1094,
-      "message": "Complete archive has 1094 records (37 retired)",
+      "message": "Complete archive has 1094 records (40 retired)",
       "severity": "error"
     },
     {
@@ -339,7 +339,7 @@
       "passed": true,
       "expected": "> 0",
       "actual": 1094,
-      "message": "JSON-LD has 1094 credentials (37 retired)",
+      "message": "JSON-LD has 1094 credentials (40 retired)",
       "severity": "error"
     },
     {
@@ -652,9 +652,9 @@
       "check": "retired_consistency_archive_vs_jsonld",
       "platform": "aws-skills",
       "passed": true,
-      "expected": 37,
-      "actual": 37,
-      "message": "Retired count: archive=37 vs jsonld=37 [OK]",
+      "expected": 40,
+      "actual": 40,
+      "message": "Retired count: archive=40 vs jsonld=40 [OK]",
       "severity": "warning"
     },
     {
@@ -1003,7 +1003,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-10-18 to 2026-10-18)",
+      "message": "Latest record dates span 0 days across artifacts (2026-10-19 to 2026-10-19)",
       "severity": "warning"
     },
     {

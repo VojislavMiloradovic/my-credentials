@@ -7,7 +7,7 @@
 <!-- artifacts: complete, index -->
 
 
-<!-- retrieved_at: 2026-10-18T23:22:13.740485+00:00 -->
+<!-- retrieved_at: 2026-10-19T00:33:23.629212+00:00 -->
 
 
 
@@ -29,7 +29,7 @@ This directory provides chunked, AI-readable historical records for AWS Skill Bu
 
 | Part | File Name | Date Range | Entries | Size (KB) | Tokens | Direct Raw URL |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| Part 21 | [`aws-skills-2026-10-part-21.md`](./aws-skills-2026-10-part-21.md) | `2026-10-18 to 2026-10-18` | 7 | 1.91 KB | 557 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-21.md) |
+| Part 21 | [`aws-skills-2026-10-part-21.md`](./aws-skills-2026-10-part-21.md) | `2026-10-18 to 2026-10-19` | 8 | 2.08 KB | 600 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-21.md) |
 | Part 20 | [`aws-skills-2026-10-part-20.md`](./aws-skills-2026-10-part-20.md) | `2026-10-10 to 2026-10-18` | 54 | 10.14 KB | 2,792 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-20.md) |
 | Part 19 | [`aws-skills-2026-10-part-19.md`](./aws-skills-2026-10-part-19.md) | `2026-10-05 to 2026-10-10` | 51 | 10.2 KB | 2,781 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-19.md) |
 | Part 18 | [`aws-skills-2026-10-part-18.md`](./aws-skills-2026-10-part-18.md) | `2026-09-30 to 2026-10-05` | 54 | 10.13 KB | 2,788 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-18.md) |
@@ -47,9 +47,9 @@ This directory provides chunked, AI-readable historical records for AWS Skill Bu
 | Part 06 | [`aws-skills-2026-04-part-06.md`](./aws-skills-2026-04-part-06.md) | `2026-04-07 to 2026-04-30` | 56 | 10.19 KB | 2,836 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-04-part-06.md) |
 | Part 05 | [`aws-skills-2026-04-part-05.md`](./aws-skills-2026-04-part-05.md) | `2026-03-18 to 2026-04-07` | 56 | 10.18 KB | 2,844 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-04-part-05.md) |
 | Part 04 | [`aws-skills-2026-03-part-04.md`](./aws-skills-2026-03-part-04.md) | `2026-03-11 to 2026-03-18` | 56 | 10.13 KB | 2,851 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-04.md) |
-| Part 03 | [`aws-skills-2026-03-part-03.md`](./aws-skills-2026-03-part-03.md) | `2026-02-27 to 2026-03-11` | 58 | 10.21 KB | 2,887 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-03.md) |
-| Part 02 | [`aws-skills-2026-02-part-02.md`](./aws-skills-2026-02-part-02.md) | `2026-01-31 to 2026-02-27` | 57 | 10.2 KB | 2,858 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-02-part-02.md) |
-| Part 01 | [`aws-skills-2026-01-part-01.md`](./aws-skills-2026-01-part-01.md) | `2026-01-01 to 2026-01-30` | 57 | 10.11 KB | 2,822 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-01-part-01.md) |
+| Part 03 | [`aws-skills-2026-03-part-03.md`](./aws-skills-2026-03-part-03.md) | `2026-02-27 to 2026-03-11` | 57 | 10.07 KB | 2,845 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-03.md) |
+| Part 02 | [`aws-skills-2026-02-part-02.md`](./aws-skills-2026-02-part-02.md) | `2026-02-01 to 2026-02-27` | 57 | 10.18 KB | 2,856 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-02-part-02.md) |
+| Part 01 | [`aws-skills-2026-01-part-01.md`](./aws-skills-2026-01-part-01.md) | `2026-01-01 to 2026-01-31` | 57 | 10.09 KB | 2,823 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-01-part-01.md) |
 
 
 [[UP] Back to Main README](../README.md)

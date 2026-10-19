@@ -2,7 +2,7 @@
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 3 of 21
 date_range: 2026-02-27 to 2026-03-11
-total_entries: 58
+total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-03.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -72,7 +72,6 @@ artifacts: complete, index
 | 2026-02-27 | [AWS Identity and Access Management - Identity Center Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-27 | [AWS Security Hub Extended](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-27 | [AWS Wickr Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-02-27 | [Cloud for CMOs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-02-part-02.md](./aws-skills-2026-02-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-03-part-04.md](./aws-skills-2026-03-part-04.md)

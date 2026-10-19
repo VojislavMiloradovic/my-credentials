@@ -119,6 +119,7 @@ Showing latest 10 of 1094 credentials. View full dataset via [Platform Archive I
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-19 | [Amazon Connect Outbound Communications Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Amazon Connect - Infrastructure as Code Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Amazon Connect Conversational Interfaces Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Amazon Connect Customer Profiles Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -128,7 +129,6 @@ Showing latest 10 of 1094 credentials. View full dataset via [Platform Archive I
 | 2026-10-18 | [AWS Free Tier: Introduction to Managing Services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [AWS Free Tier: Introduction to Monitoring Services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [AWS Health Adoption and Maturity Acceleration](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-18 | [AWS Hybrid Storage Services Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 
