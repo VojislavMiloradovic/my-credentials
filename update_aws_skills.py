@@ -241,6 +241,16 @@ class AwsBadgeItemModel(ProvenanceBase):
         False, description="Whether the content has been retired by the platform"
     )
 
+    retirement_reason: str | None = Field(None, description="Reason for retirement")
+
+    retired_at: str | None = Field(
+        None, description="Date when the content was retired"
+    )
+
+    retirement_source: str | None = Field(
+        None, description="Source of retirement info (e.g., source_csv, registry, auto)"
+    )
+
     # Provenance fields with platform-specific defaults
 
     source_platform: str = Field(
@@ -319,9 +329,10 @@ class AwsBadgeItemModel(ProvenanceBase):
         return VerificationStatus.UNKNOWN
 
     model_config = ConfigDict(
+        extra="allow",
         json_encoders={
             datetime: lambda v: v.isoformat() if v else None,
-        }
+        },
     )
 
 
