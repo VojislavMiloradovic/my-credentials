@@ -18,7 +18,17 @@
     }
   ],
   "google-skills": [],
-  "aws-skills": [],
+  "aws-skills": [
+    {
+      "id": "01f863215bb1c2e1",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-09-06",
+      "title": "Advanced fine-tuning methods on Amazon SageMaker AI",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    }
+  ],
   "credly": [],
   "google-developer": [
     {
