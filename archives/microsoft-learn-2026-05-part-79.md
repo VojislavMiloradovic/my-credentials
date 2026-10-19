@@ -38,8 +38,8 @@ artifacts: complete, index
 | **Understand endpoint management strategies and Microsoft Intune** | Modules | 2026-05-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-intune-strategies/) |
 | **Choose data stores in Microsoft Fabric** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-data-store-fabric/) |
 | **Secure developer AI environments with Microsoft Purview** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-ai-developer-apps/) |
-| **Secure access to resources by using Microsoft Entra** | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-access-resources-entra/) |
 | **Manage and implement authentication methods in Microsoft Entra ID** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-implement-authentication-methods/) |
+| **Secure access to resources by using Microsoft Entra** | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-access-resources-entra/) |
 | **Govern AI ready workloads with Microsoft Foundry** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-ai-ready-workloads-microsoft-foundry/) |
 | **Translate text and speech with Microsoft Foundry Tools** | Modules | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/translate-text-speech/) |
 | **Develop natural language solutions in Azure** | Learningpaths | 2026-05-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-language-solutions-azure-ai/) |

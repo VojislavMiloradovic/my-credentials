@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Troubleshoot physical failures on Windows clients** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-physical-failures-windows-clients/) |
 | **MD-100 Troubleshoot hardware and drivers** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/troubleshoot-hardware-drivers/) |
 | **Explore physical hardware troubleshooting** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-physical-hardware-troubleshooting/) |
 | **Troubleshoot Windows startup** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-windows-startup/) |
@@ -43,10 +44,10 @@ artifacts: complete, index
 | **Discover AI for leaders in manufacturing** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/discover-microsoft-ai-leaders-manufacturing/) |
 | **Define a Microsoft AI strategy to create business value in manufacturing** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/define-microsoft-ai-strategy-manufacturing/) |
 | **Developing in the Windows Subsystem for Linux with Visual Studio Code** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/developing-in-wsl/) |
-| **Work with different technologies in Power Automate for desktop** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-work-different-technologies/) |
 | **Control file and folder handling in Power Automate for desktop** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-files-folders-handling/) |
-| **Exploring basic computer concepts** | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-basic-computer-concepts/) |
+| **Work with different technologies in Power Automate for desktop** | Learningpaths | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-work-different-technologies/) |
 | **Investigate the history of app development** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/investigate-history-app-development/) |
+| **Exploring basic computer concepts** | Learningpaths | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-basic-computer-concepts/) |
 | **Explore computers** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-computers/) |
 | **Discover the basics of computing** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-basics-computing/) |
 | **Explore security** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-security/) |
@@ -66,7 +67,6 @@ artifacts: complete, index
 | **Govern your hybrid and multicloud machines through Azure Arc-enabled servers** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-azure-arc-enabled-servers/) |
 | **The inclusive classroom: Find the correct learning tools to help all students achieve more** | Learningpaths | 2025-12-26 | N/A |
 | **Differentiation in the classroom using the built-in tools in Office 365 and Windows** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/differentiation-classroom-built-in-tools-office-365-windows/) |
-| **Introduction to Dynamics 365 Commerce** | Modules | 2025-12-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/dynamics-365-commerce-introduction/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-22.md](./microsoft-learn-2025-12-part-22.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-24.md](./microsoft-learn-2025-12-part-24.md)

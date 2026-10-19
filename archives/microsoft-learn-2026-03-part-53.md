@@ -27,8 +27,8 @@ artifacts: complete, index
 | **Challenge Project - Build a booking requests app with Power Apps and Power Automate** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-build-booking-requests-app-with-power-apps-power-automate/) |
 | **Deploy an Azure Kubernetes Service cluster** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-azure-kubernetes-service-cluster/) |
 | **Work with class extensions in finance and operations apps** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/class-extensions-finance-operations/) |
-| **MD-101 Deploy using cloud based tools** | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-use-cloud-based-tools/) |
 | **Implement dynamic deployment methods** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dynamic-deployment-methods/) |
+| **MD-101 Deploy using cloud based tools** | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-use-cloud-based-tools/) |
 | **Get started with project management in Dynamics 365 Project Operations** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-project-management/) |
 | **Implement change tracking and file integrity monitoring for Windows IaaS VMs** | Modules | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-change-tracking-file-integrity-monitoring/) |
 | **Implement Windows Server IaaS VM Security** | Learningpaths | 2026-03-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-iaas-virtual-machine-security/) |
@@ -40,8 +40,8 @@ artifacts: complete, index
 | **Service adoption framework - Phase 3, Scale** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-service-adoption-scale/) |
 | **MD-101 Deploy using on-premises based tools** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-use-premises-based-tools/) |
 | **Assess deployment readiness** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/assess-deployment-readiness/) |
-| **Configure secure access to your workloads using Azure virtual networking** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-secure-workloads-using-azure-virtual-networking/) |
 | **Guided Project - Configure secure access to workloads with Azure virtual networking services** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-configure-secure-access-workloads/) |
+| **Configure secure access to your workloads using Azure virtual networking** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-secure-workloads-using-azure-virtual-networking/) |
 | **Receive and invoice items in Dynamics 365 Business Central** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/receive-invoice-dynamics-d365-business-central/) |
 | **Get started with Microsoft Power Platform Center of Excellence** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-center-excellence/) |
 | **Work with accounts payable in Dynamics 365 Finance** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-accounts-payable-dyn365-finance/) |
@@ -64,7 +64,7 @@ artifacts: complete, index
 | **Update clients using Windows Update for Business** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/update-clients-use-windows-update-business/) |
 | **Create a canvas app based on Business Central data** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-canvas-app/) |
 | **Inspections in Dynamics 365 Field Service** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/inspections/) |
-| **Prepare the environment for a Microsoft Teams deployment** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-environment-for-microsoft-teams-deployment/) |
+| **Plan and configure network settings for Microsoft Teams** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-configure-network-settings-for-microsoft-teams/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-52.md](./microsoft-learn-2026-03-part-52.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-54.md](./microsoft-learn-2026-03-part-54.md)

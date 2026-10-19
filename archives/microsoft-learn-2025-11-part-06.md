@@ -45,8 +45,8 @@ artifacts: complete, index
 | **Use Activator in Microsoft Fabric** | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-fabric-activator/) |
 | **Collaborate on presentations using PowerPoint** | Modules | 2025-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/collaborate-presentations-using-powerpoint/) |
 | **Query a data warehouse in Microsoft Fabric** | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-data-warehouse-microsoft-fabric/) |
-| **Describe the identity protection and governance capabilities of Microsoft Entra** | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-identity-protection-governance-capabilities/) |
 | **Introduction to Microsoft Entra** | Learningpaths | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/describe-capabilities-of-microsoft-identity-access/) |
+| **Describe the identity protection and governance capabilities of Microsoft Entra** | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-identity-protection-governance-capabilities/) |
 | **Introduction to generative AI - Exploring the basics** | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-generative-ai-explore-basics/) |
 | **Design a dream destination with AI** | Learningpaths | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-dream-destination-ai/) |
 | **Design a dream destination using Microsoft Copilot** | Modules | 2025-11-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dream-destination-ai-copilot/) |

@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Adjust process behavior using conditional actions with Power Automate for desktop** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-conditionals/) |
 | **Migrate your repository by using GitHub best practices** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-repository-github/) |
 | **Discover DevOps** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-devops/) |
 | **Support reading fluency practice with Reading Progress** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-reading-fluency-practice-with-reading-progress/) |
@@ -36,8 +37,8 @@ artifacts: complete, index
 | **Explore Dynamics 365 Customer Service** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-dynamics-365-customer-service/) |
 | **Introduction to Microsoft Defender for Office 365** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-office-365-introduction/) |
 | **Introduction to Azure application delivery services** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/intro-to-azure-application-delivery-services/) |
-| **Introduction to Secure Application Delivery with Azure network security** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-application-delivery/) |
 | **Introduction to Azure Web Application Firewall** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-web-application-firewall/) |
+| **Introduction to Secure Application Delivery with Azure network security** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-application-delivery/) |
 | **Business process mapping for Dynamics 365** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-process-mapping-dynamics-365/) |
 | **Plan with DevOps** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-with-devops/) |
 | **Prepare your development environment for Azure development** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-your-dev-environment-for-azure-development/) |
@@ -67,7 +68,6 @@ artifacts: complete, index
 | **Azure Database for MySQL** | Learningpaths | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-azure-database-for-mysql/) |
 | **Introduction to Azure Database for MySQL** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-database-for-mysql/) |
 | **Develop on a remote machine using SSH in Visual Studio Code** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-on-remote-machine/) |
-| **Get started with Dynamics 365 Intelligent Order Management** | Modules | 2025-12-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-intelligent-order-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-16.md](./microsoft-learn-2025-12-part-16.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-18.md](./microsoft-learn-2025-12-part-18.md)

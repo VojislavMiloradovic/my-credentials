@@ -18,8 +18,8 @@ artifacts: complete, index
 | **Implement privileged access management** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-insider-implement-privileged-access-management/) |
 | **Work with pages in Dynamics 365 Business Central** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-pages/) |
 | **Set up cash management in Dynamics 365 Business Central** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/cash-management-dynamics-365-business-central/) |
-| **Implement advanced logic in Power Automate for desktop** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-implement-advanced-logic/) |
 | **Text manipulation in Power Automate for desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-text-manipulation/) |
+| **Implement advanced logic in Power Automate for desktop** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-implement-advanced-logic/) |
 | **Challenge project - Build a declarative agent to chat with your external data ingested to Microsoft 365** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-challenge-chat-with-external-data/) |
 | **Database handling in Power Automate for desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-database-handling/) |
 | **Implement retention, eDiscovery, and Communication compliance in Microsoft Purview** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-exercise-implement-retention-ediscovery-communication-compliance/) |
@@ -55,8 +55,8 @@ artifacts: complete, index
 | **Create custom experiences for service representatives with agent experience profiles in Customer Service** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/agents-app-profile-manager/) |
 | **Run Azure Databricks Notebooks with Azure Data Factory** | Modules | 2026-02-12 | N/A |
 | **Introduction to Azure Virtual Desktop** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-wvd-intro/) |
-| **Try Azure Cosmos DB for NoSQL** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/try-azure-cosmos-db-sql-api/) |
 | **Get started with Azure Cosmos DB for NoSQL** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-azure-cosmos-db-sql-api/) |
+| **Try Azure Cosmos DB for NoSQL** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/try-azure-cosmos-db-sql-api/) |
 | **Orchestrate containers on Windows Server using Kubernetes** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-containers-windows-server-using-kubernetes/) |
 | **Manage leads with Dynamics 365 Sales** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-leads-dynamics-365-sales/) |
 | **Examine data security and compliance in Microsoft 365 Copilot** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-data-security-microsoft-365-copilot/) |

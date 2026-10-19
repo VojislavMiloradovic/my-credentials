@@ -49,21 +49,21 @@ artifacts: complete, index
 | **Use the Teams connector in Power Automate** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-teams-connector/) |
 | **Plan and implement data platform resources** | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/plan-implement-data-platform-resources/) |
 | **Migrate SQL Server workloads to Azure SQL Managed Instance** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-sql-workloads-azure-managed-instances/) |
-| **Implement sensitivity labels** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-sensitivity-labels-microsoft-365/) |
 | **Prepare security and compliance to support Microsoft 365 Copilot** | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-security-compliance-support-microsoft-365-copilot/) |
+| **Implement sensitivity labels** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-sensitivity-labels-microsoft-365/) |
 | **Review CIM and WMI** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/review-common-information-model-windows-management-instrumentation/) |
 | **Security incident management in Microsoft Sentinel** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/incident-management-sentinel/) |
 | **Implement Microsoft Purview Data Loss Prevention** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-data-loss-prevention-policies-microsoft-365/) |
 | **Guided Project: Deploy and administer Linux virtual machines on Azure** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-deploy-administer-linux-virtual-machines-azure/) |
 | **Reduce complexity in your data model with Dataverse table relationships** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/reduce-complexity-dataverse-table/) |
-| **Construct KQL statements for Microsoft Sentinel** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/construct-kusto-query-language-statements/) |
 | **Create queries for Microsoft Sentinel using Kusto Query Language (KQL)** | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-utilize-kql-for-azure-sentinel/) |
+| **Construct KQL statements for Microsoft Sentinel** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/construct-kusto-query-language-statements/) |
 | **Automation in Microsoft Sentinel** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/automation-microsoft-sentinel/) |
 | **Implement Windows Server IaaS VM networking** | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-iaas-virtual-machine-networking/) |
 | **Implement Windows Server IaaS VM network security** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-iaas-virtual-machine-network-security/) |
 | **Deploy and Configure Microsoft Entra Global Secure Access** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-configure-microsoft-entra-global-secure-access/) |
-| **Explore Azure Event Grid** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-event-grid/) |
 | **Develop event-based solutions** | Learningpaths | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-develop-event-based-solutions/) |
+| **Explore Azure Event Grid** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-event-grid/) |
 | **Use administration options for Dataverse** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-admin-options-cds/) |
 | **Work with data in Microsoft Sentinel using Kusto Query Language** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-data-kusto-query-language/) |
 

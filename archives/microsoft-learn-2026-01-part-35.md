@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 35 of 99
 date_range: 2026-01-20 to 2026-01-23
-total_entries: 55
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-35.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -21,8 +21,8 @@ artifacts: complete, index
 | **Create and configure Group Policy Objects in Active Directory** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-group-policy-objects-active-directory/) |
 | **How to build the User Interface in a canvas app in Power Apps** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/how-to-build-ui-canvas-app/) |
 | **Create and manage Active Directory objects** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-active-directory-objects/) |
-| **Develop Azure Functions** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/) |
 | **Implement Azure Functions** | Learningpaths | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-azure-functions/) |
+| **Develop Azure Functions** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-azure-functions/) |
 | **Create a knowledge store with Azure AI Search** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-knowledge-store-azure-cognitive-search/) |
 | **Explore Azure App Service deployment slots** | Modules | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-app-service-deployment-slots/) |
 | **AZ-104: Deploy and manage Azure compute resources** | Learningpaths | 2026-01-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-manage-compute-resources/) |
@@ -54,8 +54,8 @@ artifacts: complete, index
 | **Analyze text with Azure Language** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-text-ai-language/) |
 | **Create question answering solutions with Azure Language** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-question-answer-solution-ai-language/) |
 | **Develop an AI agent with Microsoft Agent Framework** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-ai-agent-with-semantic-kernel/) |
-| **Introduction to GitHub administration** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/) |
 | **GitHub fundamentals - Administration basics and product features Part 1 of 2** | Learningpaths | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-administration-products/) |
+| **Introduction to GitHub administration** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-introduction-administration/) |
 | **Configure Azure Blob Storage** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-blob-storage/) |
 | **Custom named entity recognition** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-name-entity-recognition/) |
 | **Translate text with Azure Translator service** | Modules | 2026-01-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/translate-text-with-translator-service/) |
@@ -69,7 +69,6 @@ artifacts: complete, index
 | **Manage meetings and events experiences** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-meetings-virtual-events-experiences/) |
 | **Configure BYOD spaces and bookable desks** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-byod-spaces-bookable-desks/) |
 | **Use DAX in semantic models** | Learningpaths | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/dax-power-bi/) |
-| **Create DAX calculations in semantic models** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-create-calculations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-34.md](./microsoft-learn-2026-01-part-34.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-36.md](./microsoft-learn-2026-01-part-36.md)

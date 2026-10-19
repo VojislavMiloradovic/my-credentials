@@ -15,7 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **AZ-400: Implement security and validate code bases for compliance** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-security-validate-code-bases-compliance/) |
+| **Software Composition Analysis** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/) |
 | **Implement Bicep** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-bicep/) |
 | **Integrate with Dataverse and Azure** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-azure/) |
 | **Integrate Dataverse Azure solutions** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-dataverse-azure-solutions/) |
