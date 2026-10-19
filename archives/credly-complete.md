@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 775 records.
+This document represents a unified, verifiable list of all 776 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-18T02:33:53.623148+00:00 -->
+<!-- retrieved_at: 2026-10-19T00:37:35.410574+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-18 | [AWS Knowledge: Amazon Connect Outbound Communications - Training Badge](https://www.credly.com/badges/c44e4187-5b36-400a-9bc3-3771edd19305/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-17 | [Authenticate with Auth0 Database and Passwordless Connections](https://www.credly.com/badges/8ec03de7-4ca2-4da9-bb70-2cd9dfb6ebe8/public_url) | Okta | Credly Verified Badge |
 | 2026-10-17 | [Authentication Best Practices](https://www.credly.com/badges/71fa34c8-31d2-4c30-aca8-a7eb46b8a0f3/public_url) | Okta | Credly Verified Badge |
 | 2026-10-17 | [Authorization Best Practices](https://www.credly.com/badges/f910a5fd-db59-4f35-86f8-9415ff4649fe/public_url) | Okta | Credly Verified Badge |

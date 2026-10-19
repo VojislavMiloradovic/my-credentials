@@ -139,15 +139,16 @@ Showing latest 10 of 1094 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 775
-**Total Verified Skills Mapped:** 2697
+**Total Portfolio Credentials:** 776
+**Total Verified Skills Mapped:** 2698
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 775 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 776 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-18 | [AWS Knowledge: Amazon Connect Outbound Communications - Training Badge](https://www.credly.com/badges/c44e4187-5b36-400a-9bc3-3771edd19305/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-17 | [Authenticate with Auth0 Database and Passwordless Connections](https://www.credly.com/badges/8ec03de7-4ca2-4da9-bb70-2cd9dfb6ebe8/public_url) | Okta | Credly Verified Badge |
 | 2026-10-17 | [Authentication Best Practices](https://www.credly.com/badges/71fa34c8-31d2-4c30-aca8-a7eb46b8a0f3/public_url) | Okta | Credly Verified Badge |
 | 2026-10-17 | [Authorization Best Practices](https://www.credly.com/badges/f910a5fd-db59-4f35-86f8-9415ff4649fe/public_url) | Okta | Credly Verified Badge |
@@ -157,7 +158,6 @@ Showing latest 10 of 775 credentials. View full dataset via [Platform Archive In
 | 2026-10-17 | [Harness Certified API & Application Discovery Developer Certification](https://www.credly.com/badges/526c7d05-ee39-44f0-a28a-7e6a366f9f42/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-17 | [Harness Certified Application & API Runtime Protection Developer Certification](https://www.credly.com/badges/4435d662-89cf-45dc-b84d-e1df4ca5b43b/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-17 | [Harness Certified Application & API Security Testing Developer Certification](https://www.credly.com/badges/89162e0d-265a-429f-af72-a2ddabd26a8e/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-17 | [Harness Certified Feature Management & Experimentation Developer](https://www.credly.com/badges/1de21658-16d9-4730-9874-71e917be31b4/public_url) | Harness Inc | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
