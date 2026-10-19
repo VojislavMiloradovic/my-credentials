@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
 Generated on: 19. октобар 2026.
-Total rows: 1094
+Total rows: 1096
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED] Advanced fine-tuning methods on Amazon SageMaker AI,Digital course,Retired,0,-,"September 6, 2026","September 6, 2026","September 6, 2026",1 hour 30 minutes,Advanced,English
@@ -142,6 +142,7 @@ Amazon Connect Conversational Analytics Essentials,Digital course,Completed,0,-,
 Amazon Connect Conversational Interfaces Fundamentals,Digital course,Completed,0,-,"October 18, 2026","October 18, 2026","October 18, 2026",45 minutes,Fundamental,English
 Amazon Connect Conversational Interfaces Intermediate,Digital course,Completed,0,-,"August 8, 2026","August 8, 2026","August 8, 2026",1 hour,Intermediate,English
 Amazon Connect Custom Contact Control Panel Fundamentals,Digital course,Completed,0,-,"February 28, 2026","February 28, 2026","February 28, 2026",50 minutes,Fundamental,English
+Amazon Connect Custom Contact Control Panel Intermediate,Digital course,Completed,0,-,"October 19, 2026","October 19, 2026","October 19, 2026",1 hour 15 minutes,Intermediate,English
 Amazon Connect Customer AI Agent Capabilities,Digital course,Completed,0,-,"September 20, 2026","September 20, 2026","September 20, 2026",1 hour,Intermediate,English
 Amazon Connect Customer AI and ML Fundamentals,Digital course,Completed,0,-,"September 20, 2026","September 20, 2026","September 20, 2026",1 hour,Fundamental,English
 Amazon Connect Customer AI Fundamentals Assessment,Digital course,Completed,96.2,-,"August 9, 2026","August 9, 2026","September 20, 2026",1 hour,Intermediate,English
@@ -630,6 +631,7 @@ Cloud Financial Management: FinOps fundamentals & strategies (Part 1),Digital co
 Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2),Digital course,Completed,0,-,"August 6, 2026","August 6, 2026","August 6, 2026",1 hour,Intermediate,English
 Cloud for CEOs,Digital course,Completed,0,-,"October 18, 2026","October 18, 2026","October 18, 2026",10 minutes,Fundamental,English
 Cloud for CFOs,Digital course,Completed,0,-,"October 18, 2026","October 18, 2026","October 18, 2026",13 minutes,Fundamental,English
+Cloud for CHROs,Digital course,Completed,0,-,"October 19, 2026","October 19, 2026","October 19, 2026",50 minutes,Fundamental,English
 Cloud for CMOs,Digital course,Completed,0,-,"February 27, 2026","February 27, 2026","February 27, 2026",8 minutes,Fundamental,English
 Cloud for Risk and Compliance Executives,Digital course,Completed,0,-,"January 24, 2026","January 24, 2026","January 24, 2026",11 minutes,Fundamental,English
 Cloud for Small Business Owners,Digital course,Completed,0,-,"January 28, 2026","January 28, 2026","January 28, 2026",13 minutes,Fundamental,English
