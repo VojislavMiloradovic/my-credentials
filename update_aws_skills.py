@@ -821,10 +821,13 @@ class AWSSkillsPipeline(PipelineBase):
         """
         retired_rules = self.get_retired_rules()
 
-        # Build lookup set for existing IDs to avoid duplicates
-        # For AWS Skills, we only deduplicate by ID since all retired records
-        # share the same generic profile URL as verify_url
+        # Build lookup sets for existing IDs and URLs to avoid duplicates
         existing_ids = {str(rule.get("id", "")).strip() for rule in retired_rules}
+        existing_urls = {
+            str(rule.get("url", "")).strip()
+            for rule in retired_rules
+            if rule.get("url")
+        }
 
         added_count = 0
         for record in records:
@@ -834,23 +837,30 @@ class AWSSkillsPipeline(PipelineBase):
                 continue
 
             record_id = record.get("id")
+            record_url = record.get("verify_url")
 
-            # Skip if already in registry (deduplicate by ID only for AWS Skills)
+            # Skip if already in registry
             if record_id in existing_ids:
+                continue
+            if record_url and record_url in existing_urls:
                 continue
 
             # Create registry entry
             rule = {
                 "id": record_id,
-                "match_type": "id",
+                "match_type": "url" if record_url else "id",
                 "reason": record.get("retirement_reason", "Source CSV Status=Retired"),
                 "retired_at": record.get("retired_at"),
                 "title": record.get("title", ""),
                 "retirement_source": "source_csv",
             }
+            if record_url:
+                rule["url"] = record_url
 
             retired_rules.append(rule)
             existing_ids.add(record_id)
+            if record_url:
+                existing_urls.add(record_url)
             added_count += 1
             self.logger.info(
                 f"[REGISTRY] Added source-flagged retired item: {record.get('title')} (ID: {record_id})"
@@ -1012,7 +1022,7 @@ class AWSSkillsPipeline(PipelineBase):
             [
                 "#### Latest Earned Credentials",
                 "",
-                f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index]({index_raw})), latest slice [Latest Slice]({{LATEST_SLICE_NORMAL}}) ([Raw]({{LATEST_SLICE_RAW}})), or [Monolithic File](./archives/aws-skills-complete.md).",
+                f"Showing latest 10 of {total_count} credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index]({index_raw})), latest slice [Latest [...]",
                 "",
                 "| Date Earned | Credential Name | Issuer | Verification Type |",
                 "| :---: | :--- | :--- | :---: |",
