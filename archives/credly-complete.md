@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 778 records.
+This document represents a unified, verifiable list of all 779 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-19T23:39:18.291682+00:00 -->
+<!-- retrieved_at: 2026-10-20T00:40:01.752204+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-19 | [AI Power User Launchpad](https://www.credly.com/badges/d2e77dd9-3ae5-492a-8f64-b0a008afee43/public_url) | Cisco | Credly Verified Badge |
 | 2026-10-19 | [Kong Mesh Foundations](https://www.credly.com/badges/d8f5e17b-d599-491c-866e-e6cf898a9709/public_url) | Kong | Credly Verified Badge |
 | 2026-10-19 | [Microsoft Applied Skills: Build an agent in Microsoft Copilot Studio](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/586C3134869081FC?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-18 | [AWS Knowledge: Amazon Connect Outbound Communications - Training Badge](https://www.credly.com/badges/c44e4187-5b36-400a-9bc3-3771edd19305/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |

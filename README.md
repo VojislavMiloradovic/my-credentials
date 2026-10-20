@@ -140,15 +140,16 @@ Showing latest 10 of 1097 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 778
-**Total Verified Skills Mapped:** 2702
+**Total Portfolio Credentials:** 779
+**Total Verified Skills Mapped:** 2713
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 778 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 779 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-19 | [AI Power User Launchpad](https://www.credly.com/badges/d2e77dd9-3ae5-492a-8f64-b0a008afee43/public_url) | Cisco | Credly Verified Badge |
 | 2026-10-19 | [Kong Mesh Foundations](https://www.credly.com/badges/d8f5e17b-d599-491c-866e-e6cf898a9709/public_url) | Kong | Credly Verified Badge |
 | 2026-10-19 | [Microsoft Applied Skills: Build an agent in Microsoft Copilot Studio](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/586C3134869081FC?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-18 | [AWS Knowledge: Amazon Connect Outbound Communications - Training Badge](https://www.credly.com/badges/c44e4187-5b36-400a-9bc3-3771edd19305/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
@@ -158,7 +159,6 @@ Showing latest 10 of 778 credentials. View full dataset via [Platform Archive In
 | 2026-10-17 | [Deep Learning Essentials](https://www.credly.com/badges/3337a2f8-5bd7-488a-acfb-1643a2135d68/public_url) | IBM | Credly Verified Badge |
 | 2026-10-17 | [Docker Essentials: A Developer Introduction](https://www.credly.com/badges/9fb77f5d-7410-46fe-9ca0-597993fe77c4/public_url) | IBM | Credly Verified Badge |
 | 2026-10-17 | [Extend Auth0 with Actions](https://www.credly.com/badges/9a68d38d-8238-4259-aa8e-40a315c621bc/public_url) | Okta | Credly Verified Badge |
-| 2026-10-17 | [Harness Certified API & Application Discovery Developer Certification](https://www.credly.com/badges/526c7d05-ee39-44f0-a28a-7e6a366f9f42/public_url) | Harness Inc | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
