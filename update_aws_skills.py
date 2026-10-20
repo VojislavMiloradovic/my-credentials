@@ -978,8 +978,30 @@ class AWSSkillsPipeline(PipelineBase):
 
         name_cell = f"[{title_clean}]({verify_url})" if verify_url else title_clean
 
+        # Build enhanced retired marker for Verification Type column
         if retired:
-            name_cell += " [WARN] *Content retired*"
+            retirement_source = record.get("retirement_source", "")
+            retirement_reason = record.get("retirement_reason", "")
+            retired_at = record.get("retired_at", "")
+
+            if retirement_source == "source_csv":
+                marker = (
+                    f"[WARN] *Content retired (platform-flagged: {retirement_reason}"
+                )
+                if retired_at:
+                    marker += f", {retired_at}"
+                marker += ")*"
+            elif retirement_source == "registry":
+                marker = "[WARN] *Content retired (registry-matched)*"
+            elif retirement_source == "auto":
+                marker = "[WARN] *Content retired (auto-detected"
+                if retired_at:
+                    marker += f": {retired_at}"
+                marker += ")*"
+            else:
+                marker = "[WARN] *Content retired*"
+
+            v_type_clean = f"{v_type_clean} {marker}"
 
         row_text = f"| {date_str} | {name_cell} | {issuer_clean} | {v_type_clean} |"
 
