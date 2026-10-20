@@ -531,7 +531,14 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
             entry["retirement_source"] = "source_csv"
 
         try:
-            badges.append(AwsBadgeItemModel(**entry).model_dump(mode="json"))
+            model = AwsBadgeItemModel(**entry)
+            dumped = model.model_dump(mode="json")
+            # Explicitly preserve retirement fields that may not be included in model_dump
+            if is_retired:
+                dumped["retirement_reason"] = entry["retirement_reason"]
+                dumped["retired_at"] = entry["retired_at"]
+                dumped["retirement_source"] = entry["retirement_source"]
+            badges.append(dumped)
 
         except ValidationError as ve:
             logging.getLogger("aws_skills").warning(
