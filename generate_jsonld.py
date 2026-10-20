@@ -237,6 +237,9 @@ def parse_archive_monoliths():
             image_url = ""
             cred_id = ""
             retired = False
+            retirement_source = None
+            retirement_reason = None
+            retired_at = None
 
             verify_url = ""
             for idx, col in enumerate(cols):
@@ -290,9 +293,13 @@ def parse_archive_monoliths():
                     cred_id = id_match.group(1)
 
                 # Detect retired marker and parse enhanced metadata
-                retired, retirement_source, retirement_reason, retired_at = (
-                    parse_retired_marker(col)
-                )
+                # Only set to True/values when found, never reset to False/None
+                r, rs, rr, ra = parse_retired_marker(col)
+                if r:
+                    retired = True
+                    retirement_source = rs
+                    retirement_reason = rr
+                    retired_at = ra
 
             if not title and cols:
                 for col in cols:
