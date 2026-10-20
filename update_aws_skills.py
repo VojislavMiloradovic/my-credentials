@@ -836,13 +836,8 @@ class AWSSkillsPipeline(PipelineBase):
             f"{source_csv_count} with source_csv, {reason_count} with retirement_reason"
         )
 
-        # Build lookup sets for existing IDs and URLs to avoid duplicates
+        # Build lookup set for existing IDs to avoid duplicates (ID-only deduplication for AWS)
         existing_ids = {str(rule.get("id", "")).strip() for rule in retired_rules}
-        existing_urls = {
-            str(rule.get("url", "")).strip()
-            for rule in retired_rules
-            if rule.get("url")
-        }
 
         added_count = 0
         for record in records:
@@ -859,10 +854,8 @@ class AWSSkillsPipeline(PipelineBase):
             record_id = record.get("id")
             record_url = record.get("verify_url")
 
-            # Skip if already in registry
+            # Skip if already in registry (ID-only deduplication for AWS)
             if record_id in existing_ids:
-                continue
-            if record_url and record_url in existing_urls:
                 continue
 
             # Create registry entry
@@ -879,8 +872,6 @@ class AWSSkillsPipeline(PipelineBase):
 
             retired_rules.append(rule)
             existing_ids.add(record_id)
-            if record_url:
-                existing_urls.add(record_url)
             added_count += 1
             self.logger.info(
                 f"[REGISTRY] Added source-flagged retired item: {record.get('title')} (ID: {record_id})"
