@@ -70,6 +70,56 @@ def clean_str(s):
     return re.sub(r"[\*\_`]", "", str(s)).strip()
 
 
+def parse_retired_marker(col: str) -> tuple[bool, str | None, str | None, str | None]:
+    """
+    Parse enhanced retired marker from Verification Type column.
+    Returns: (retired, retirement_source, retirement_reason, retired_at)
+    """
+    if not col:
+        return False, None, None, None
+
+    # Check for enhanced retired markers
+    # Format: [WARN] *Content retired (platform-flagged: Source CSV Status=Retired, 2026-09-06)*
+    # Format: [WARN] *Content retired (registry-matched)*
+    # Format: [WARN] *Content retired (auto-detected: 2026-09-06)*
+    # Format: [WARN] *Content retired*
+
+    if "Content retired" not in col:
+        return False, None, None, None
+
+    retired = True
+    retirement_source = None
+    retirement_reason = None
+    retired_at = None
+
+    # Extract content within parentheses
+    paren_match = re.search(r"\(([^)]+)\)", col)
+    if paren_match:
+        paren_content = paren_match.group(1).strip()
+
+        if paren_content.startswith("platform-flagged:"):
+            retirement_source = "source_csv"
+            # Extract reason and date: "Source CSV Status=Retired, 2026-09-06"
+            content = paren_content[len("platform-flagged:") :].strip()
+            if "," in content:
+                parts = content.split(",", 1)
+                retirement_reason = parts[0].strip()
+                retired_at = parts[1].strip()
+            else:
+                retirement_reason = content
+
+        elif paren_content.startswith("registry-matched"):
+            retirement_source = "registry"
+            retirement_reason = "Registry-matched"
+
+        elif paren_content.startswith("auto-detected:"):
+            retirement_source = "auto"
+            retired_at = paren_content[len("auto-detected:") :].strip()
+            retirement_reason = "Auto-detected"
+
+    return retired, retirement_source, retirement_reason, retired_at
+
+
 def validate_jsonld(payload):
     """Validates generated JSON-LD object against the defined schema before writing."""
     try:
@@ -239,9 +289,10 @@ def parse_archive_monoliths():
                 if id_match and not cred_id:
                     cred_id = id_match.group(1)
 
-                # Detect retired marker
-                if "Content retired" in col or "retired" in col.lower():
-                    retired = True
+                # Detect retired marker and parse enhanced metadata
+                retired, retirement_source, retirement_reason, retired_at = (
+                    parse_retired_marker(col)
+                )
 
             if not title and cols:
                 for col in cols:
@@ -318,6 +369,13 @@ def parse_archive_monoliths():
                     c_obj["url"] = url
                 if retired:
                     c_obj["credentialStatus"] = "Retired"
+                    # Add retirement metadata fields
+                    if retirement_source:
+                        c_obj["retirement_source"] = retirement_source
+                    if retirement_reason:
+                        c_obj["retirement_reason"] = retirement_reason
+                    if retired_at:
+                        c_obj["retired_at"] = retired_at
 
                 # Provenance fields - use platform-specific defaults
                 platform_provenance_defaults = {
