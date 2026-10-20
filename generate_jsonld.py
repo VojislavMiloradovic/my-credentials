@@ -78,46 +78,50 @@ def parse_retired_marker(col: str) -> tuple[bool, str | None, str | None, str | 
     if not col:
         return False, None, None, None
 
-    # Check for enhanced retired markers
+    # Check for enhanced retired markers first
     # Format: [WARN] *Content retired (platform-flagged: Source CSV Status=Retired, 2026-09-06)*
     # Format: [WARN] *Content retired (registry-matched)*
     # Format: [WARN] *Content retired (auto-detected: 2026-09-06)*
     # Format: [WARN] *Content retired*
 
-    if "Content retired" not in col:
-        return False, None, None, None
+    if "Content retired" in col:
+        retired = True
+        retirement_source = None
+        retirement_reason = None
+        retired_at = None
 
-    retired = True
-    retirement_source = None
-    retirement_reason = None
-    retired_at = None
+        # Extract content within parentheses
+        paren_match = re.search(r"\(([^)]+)\)", col)
+        if paren_match:
+            paren_content = paren_match.group(1).strip()
 
-    # Extract content within parentheses
-    paren_match = re.search(r"\(([^)]+)\)", col)
-    if paren_match:
-        paren_content = paren_match.group(1).strip()
+            if paren_content.startswith("platform-flagged:"):
+                retirement_source = "source_csv"
+                # Extract reason and date: "Source CSV Status=Retired, 2026-09-06"
+                content = paren_content[len("platform-flagged:") :].strip()
+                if "," in content:
+                    parts = content.split(",", 1)
+                    retirement_reason = parts[0].strip()
+                    retired_at = parts[1].strip()
+                else:
+                    retirement_reason = content
 
-        if paren_content.startswith("platform-flagged:"):
-            retirement_source = "source_csv"
-            # Extract reason and date: "Source CSV Status=Retired, 2026-09-06"
-            content = paren_content[len("platform-flagged:") :].strip()
-            if "," in content:
-                parts = content.split(",", 1)
-                retirement_reason = parts[0].strip()
-                retired_at = parts[1].strip()
-            else:
-                retirement_reason = content
+            elif paren_content.startswith("registry-matched"):
+                retirement_source = "registry"
+                retirement_reason = "Registry-matched"
 
-        elif paren_content.startswith("registry-matched"):
-            retirement_source = "registry"
-            retirement_reason = "Registry-matched"
+            elif paren_content.startswith("auto-detected:"):
+                retirement_source = "auto"
+                retired_at = paren_content[len("auto-detected:") :].strip()
+                retirement_reason = "Auto-detected"
 
-        elif paren_content.startswith("auto-detected:"):
-            retirement_source = "auto"
-            retired_at = paren_content[len("auto-detected:") :].strip()
-            retirement_reason = "Auto-detected"
+        return retired, retirement_source, retirement_reason, retired_at
 
-    return retired, retirement_source, retirement_reason, retired_at
+    # Fallback: generic "retired" keyword (e.g., "[Retired]")
+    if "retired" in col.lower():
+        return True, None, None, None
+
+    return False, None, None, None
 
 
 def validate_jsonld(payload):
