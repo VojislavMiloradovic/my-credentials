@@ -27,6 +27,357 @@
       "title": "Advanced fine-tuning methods on Amazon SageMaker AI",
       "retirement_source": "source_csv",
       "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "f2fdbbaa3c628bdc",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-03-17",
+      "title": "Amazon EKS Pre-assessment",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "b470a08bc2910d5f",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-04-17",
+      "title": "Amazon Kendra Getting Started",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "8309a860b0ff8eac",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-02-15",
+      "title": "Amazon Q Business Getting Started",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "c38626ecdb458de1",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-01-17",
+      "title": "Amazon Q Introduction",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "d4fe19917bc6ef79",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-04-29",
+      "title": "Amazon Timestream Getting Started",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "a168251f2fda920c",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-02-10",
+      "title": "Amazon WorkMail Getting Started",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "75d59ffcc9bab5a4",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-03-08",
+      "title": "AWS Fargate - Overview",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "c5e63a50d2feb4be",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-04-12",
+      "title": "AWS Graviton - Knowledge Badge Readiness Path",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "1ca236393d1a70de",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-04-14",
+      "title": "AWS Panorama - Building Edge Computer Vision (CV) Applications",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "772582c621acf5ef",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-02-01",
+      "title": "Build a migration assessment with AWS Transform",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "51f5e3fa476df0a4",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-07-31",
+      "title": "Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "b126f73b45dce8ad",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-06-24",
+      "title": "Build with Amazon S3 Vectors and Amazon Bedrock Knowledge Bases",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "ad075b977563083d",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-04-03",
+      "title": "Building a Machine Learning Ready Organization",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "139e5c130b50d5bd",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-05-24",
+      "title": "Building with MultiModal Knowledge Bases in AWS Bedrock",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "9096e42e0006699b",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-02-28",
+      "title": "Cloud Financial Management: FinOps Fundamentals & Strategies (Part 2)",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "7747d03ed56bdb6f",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-01-01",
+      "title": "CloudEndure Migration Training - Technical",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "11cde88ba2870296",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-06-29",
+      "title": "Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "ea3d938b0a31a02b",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-08-11",
+      "title": "Designing Secure Retrieval Augmented Generation (RAG) Applications with AWS",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "5ad086e8e37ebb20",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-03-19",
+      "title": "Domain 3 Review: AWS Certified Machine Learning Engineer - Associate (MLA-C01 - English)",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "b79688319662a759",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-04-19",
+      "title": "Generative AI Business Strategy and Solution Design",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "17b46dadd310bd7d",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-01-29",
+      "title": "How Orchestration Works with AI Agents",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "4c57609efd02a4a8",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-03-08",
+      "title": "Introduction to Amazon CloudFront",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "5107558d606f9aca",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-08-02",
+      "title": "Introduction to Autonomous Driving Data Framework (ADDF) on AWS",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "30d80abb384b23be",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-03-14",
+      "title": "Introduction to AWS Global Accelerator",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "6df1eb366414dcb5",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-03-11",
+      "title": "Introduction to AWS Mainframe Modernization Replatform with NTT Data UniKix",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "69eb9d58f6fc4643",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-02-02",
+      "title": "Introduction to AWS Security Token Services (STS)",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "25b6d6eb6012a540",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-03-14",
+      "title": "Introduction to AWS Service Catalog",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "aebf215557a3d7a5",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-02-09",
+      "title": "Introduction to AWS WAF",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "aaa7355198791771",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-02-06",
+      "title": "Introduction to Robotics on AWS",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "8fbcd1c17116c553",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-08-11",
+      "title": "Migrating from Amazon CodeCatalyst",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "37040c302b6dba24",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-03-17",
+      "title": "Planning an Orchestration System",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "aedc440bea61b915",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-01-01",
+      "title": "Selling in AWS Marketplace (Technical)",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "b226e76e540aad7c",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-03-14",
+      "title": "Succeeding in the Cloud- Rethinking your Levers",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "b3e81a9bec837c74",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-02-18",
+      "title": "Use MCP to create AI Agents",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "07489738c25c35f3",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-03-10",
+      "title": "Using Amazon Q to Enhance Applications and Developer Productivity",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "fa73f4f5485fec12",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-04-26",
+      "title": "What are we looking for in an LLM?",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "129c107c3554fa41",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-02-10",
+      "title": "Amazon Q Developer Getting Started",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "8b3e8ceb99f271bd",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-02-25",
+      "title": "Generative BI with Amazon Q in Quicksight - Getting Started",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "59582bcf3152dda2",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-06-22",
+      "title": "Getting started with Amazon Connect Customer's agentic CX designer",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
     }
   ],
   "credly": [],
