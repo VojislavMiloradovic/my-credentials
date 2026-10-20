@@ -793,18 +793,11 @@ class AWSSkillsPipeline(PipelineBase):
         return unique_badges
 
     def post_loss_guard(self, records: list[dict]) -> list[dict]:
-        """Mark retired items after loss guard."""
+        """Sync source-flagged retired items to registry.
 
-        retired_rules = self.get_retired_rules()
-
-        if retired_rules:
-            _, marked = mark_retired(records, retired_rules, url_field="verify_url")
-
-            if marked > 0:
-                self.logger.info(
-                    f"[NOTE] Updated {marked} badge(s) with retired status"
-                )
-
+        AWS retirement status comes from CSV Status column (source data).
+        Registry is only for auto-retire (items disappearing from source).
+        """
         # Sync source-flagged retired items to registry
         self.sync_retired_to_registry(records)
 
