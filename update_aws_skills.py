@@ -821,6 +821,21 @@ class AWSSkillsPipeline(PipelineBase):
         """
         retired_rules = self.get_retired_rules()
 
+        # Debug: log field presence for diagnosis
+        retired_count = sum(1 for r in records if r.get("retired"))
+        source_csv_count = sum(
+            1 for r in records if r.get("retirement_source") == "source_csv"
+        )
+        reason_count = sum(
+            1
+            for r in records
+            if r.get("retirement_reason") == "Source CSV Status=Retired"
+        )
+        self.logger.info(
+            f"[REGISTRY] Checking {len(records)} records: {retired_count} retired, "
+            f"{source_csv_count} with source_csv, {reason_count} with retirement_reason"
+        )
+
         # Build lookup sets for existing IDs and URLs to avoid duplicates
         existing_ids = {str(rule.get("id", "")).strip() for rule in retired_rules}
         existing_urls = {
@@ -833,7 +848,12 @@ class AWSSkillsPipeline(PipelineBase):
         for record in records:
             if not record.get("retired", False):
                 continue
-            if record.get("retirement_source") != "source_csv":
+            # Multiple detection strategies for source-flagged retirement
+            is_source_retired = (
+                record.get("retirement_source") == "source_csv"
+                or record.get("retirement_reason") == "Source CSV Status=Retired"
+            )
+            if not is_source_retired:
                 continue
 
             record_id = record.get("id")
