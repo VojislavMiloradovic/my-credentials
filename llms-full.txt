@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-10-20 01:43 UTC
+> **Last Generated:** 2026-10-20 02:15 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -257,7 +257,7 @@ This document represents a unified, verifiable list of all 1097 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-20T01:43:21.784860+00:00 -->
+<!-- retrieved_at: 2026-10-20T02:15:39.125552+00:00 -->
 
 ## Verified Records Archive
 
