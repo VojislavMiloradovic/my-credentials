@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-10-20 03:21 UTC
+> **Last Generated:** 2026-10-20 03:27 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -181,7 +181,7 @@ Showing latest 10 of 779 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,895 |
+| **Total External Certifications Verified** | 1,904 |
 
 #### Recent Certifications
 
@@ -4381,13 +4381,13 @@ This document represents a unified, verifiable list of all 413 records.
 
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 1895 records.
+This document represents a unified, verifiable list of all 1904 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-17T22:41:27.211795+00:00 -->
+<!-- retrieved_at: 2026-10-20T03:27:50.129229+00:00 -->
 
 ## Verified Records Archive
 
@@ -4505,6 +4505,15 @@ This document represents a unified, verifiable list of all 1895 records.
 | 2026-10 | **Extend Auth0 with Actions** | Okta | [Verify Record](https://www.credly.com/badges/9a68d38d-8238-4259-aa8e-40a315c621bc/linked_in_profile) |
 | 2026-10 | **Authentication Best Practices** | Okta | [Verify Record](https://www.credly.com/badges/71fa34c8-31d2-4c30-aca8-a7eb46b8a0f3/linked_in_profile) |
 | 2026-10 | **Authorization Best Practices** | Okta | [Verify Record](https://www.credly.com/badges/f910a5fd-db59-4f35-86f8-9415ff4649fe/linked_in_profile) |
+| 2026-10 | **AWS Knowledge: Amazon Connect Outbound Communications - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c44e4187-5b36-400a-9bc3-3771edd19305/linked_in_profile) |
+| 2026-10 | **From AI to Super Intelligence: Understanding the 2026 US Policy** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3345083b541ec12f93d03976facca941c92b3afe03300cdeb3af6a750775ba85) |
+| 2026-10 | **Microsoft Applied Skills: Build an agent in Microsoft Copilot Studio** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/586C3134869081FC?sharingId) |
+| 2026-10 | **Kong Mesh Foundations** | Kong | [Verify Record](https://www.credly.com/badges/d8f5e17b-d599-491c-866e-e6cf898a9709/linked_in_profile) |
+| 2026-10 | **AI Power User Launchpad** | Cisco | [Verify Record](https://www.credly.com/badges/d2e77dd9-3ae5-492a-8f64-b0a008afee43/linked_in_profile) |
+| 2026-10 | **Introducing SAP Data Services Foundations and Core Concepts** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyrid-noran-dumaf-lumaf-batih) |
+| 2026-10 | **Applying SAP Data Services Transformation Techniques** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xabar-nyguc-mynup-nyser-dofut) |
+| 2026-10 | **Using SAP Data Services Advanced Techniques** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xetyf-favur-ripar-lugat-tudeg) |
+| 2026-10 | **Exploring SAP Data Services** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xalef-kareb-meton-rivod-dupec) |
 | 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
 | 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 | 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
