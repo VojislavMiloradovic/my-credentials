@@ -1,6 +1,6 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-10-20 03:27 UTC
+> **Last Generated:** 2026-10-20 14:00 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
@@ -33,7 +33,7 @@ Use these index files to navigate chunked historical records without exceeding c
 ## Complete Platform Archives (Monolithic)
 For tools with large context windows, complete datasets are available:
 
-- [Aws Skills Complete](./archives/aws-skills-complete.md) (187.44 KB, 50,863 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
+- [Aws Skills Complete](./archives/aws-skills-complete.md) (189.71 KB, 51,623 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
 - [Credly Complete](./archives/credly-complete.md) (136.20 KB, 51,137 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-complete.md
 - [Google Developer Complete](./archives/google-developer-complete.md) (331.83 KB, 84,656 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
 - [Google Skills Complete](./archives/google-skills-complete.md) (79.09 KB, 26,721 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-complete.md
@@ -41,7 +41,7 @@ For tools with large context windows, complete datasets are available:
 - [Microsoft Learn Complete](./archives/microsoft-learn-complete.md) (907.30 KB, 232,616 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
 
 ## JSON-LD Structured Data
-Full Schema.org linked data available at [credentials.jsonld](../credentials.jsonld) (`10584.70 KB`)
+Full Schema.org linked data available at [credentials.jsonld](../credentials.jsonld) (`10587.87 KB`)
 
 ---
 *Generated automatically from live archive data. See [GitHub Actions](https://github.com/VojislavMiloradovic/my-credentials/actions) for build logs.*
