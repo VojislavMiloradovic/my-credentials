@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-10-21 05:59 UTC
+> **Last Generated:** 2026-10-21 17:33 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -214,24 +214,24 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 172 |
-| **Total Codelabs & Learning Activities** | 1,697 |
+| **Total Codelabs & Learning Activities** | 1,706 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-10-part-36.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-10-part-36.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-10-part-37.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-10-part-37.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| *2026-10-21* | **Evaluate agent skills using open source frameworks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/evaluate-agent-skills-using-open-source-frameworks |
+| *2026-10-21* | **VibeStudio — Multimodal Agentic Workflow with ADK, Haunted Edition** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vibe-studio-multimodal/instructions |
+| *2026-10-21* | **Build a Matter virtual device** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/matter-device-virtual |
+| *2026-10-21* | **Long-Running Agents with ADK 2 — triggers, resumable runs, workflows and a human in the loop** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/long-running-agents/instructions |
+| *2026-10-21* | **Agent Harness with the Google Cloud Developer Plugin and Workflow Skills: Migrating a Vibe-Coded App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-harness-developer-plugin |
+| *2026-10-21* | **Building Intra-VPC IPv6-to-IPv4 Connectivity with Private NAT64 and DNS64** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/private-nat64 |
+| *2026-10-21* | **Build a Matter device** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/matter-device |
+| *2026-10-21* | **Simulating a Thread network using OpenThread in Docker** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-simulation |
+| *2026-10-21* | **Advanced AI with Gemma 4 and AlloyDB Omni for Regulated Industries** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemma-4-alloydb-omni |
 | *2026-10-17* | **Build an AI agent with Google ADK and MCP to interact with Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/looker-mcp-adk-codelab |
-| *2026-10-17* | **Progressive Web Apps: Working with Workbox** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa2-working_with_workbox |
-| *2026-10-17* | **How to Deploy Autonomous Agents with the Claude Agent SDK on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-claude-agents-cloud-run |
-| *2026-10-17* | **Progressive Web Apps: Service Worker Includes** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa7-service_worker_includes |
-| *2026-10-17* | **Dynamic MCP Server Discovery with Agent Registry and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-registry-dynamic-discovery-with-adk |
-| *2026-10-17* | **Table for N — Agent Eval and the Self-Evolving Loop with ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/table-for-n/instructions |
-| *2026-10-17* | **Progressive Web Apps: IndexedDB** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa3-indexeddb |
-| *2026-10-17* | **Real time communication with WebRTC** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/web-rtc |
-| *2026-10-13* | **Deploy application with Compose Specification to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-run-compose-application |
-| *2026-10-13* | **Build custom Google Workspace Studio steps in Node.js on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/workspace-studio-custom-extensions-nodejs |
 <!-- GOOGLE_DEVELOPER_END -->
 
 
@@ -2173,18 +2173,27 @@ This document represents a unified, verifiable list of all 779 records.
 
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1749 records.
+This document represents a unified, verifiable list of all 1758 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-21T03:23:01.086214+00:00 -->
+<!-- retrieved_at: 2026-10-21T17:33:06.399096+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-10-21 | **Evaluate agent skills using open source frameworks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/evaluate-agent-skills-using-open-source-frameworks |
+| 2026-10-21 | **VibeStudio — Multimodal Agentic Workflow with ADK, Haunted Edition** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vibe-studio-multimodal/instructions |
+| 2026-10-21 | **Build a Matter virtual device** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/matter-device-virtual |
+| 2026-10-21 | **Long-Running Agents with ADK 2 — triggers, resumable runs, workflows and a human in the loop** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/long-running-agents/instructions |
+| 2026-10-21 | **Agent Harness with the Google Cloud Developer Plugin and Workflow Skills: Migrating a Vibe-Coded App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-harness-developer-plugin |
+| 2026-10-21 | **Building Intra-VPC IPv6-to-IPv4 Connectivity with Private NAT64 and DNS64** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/private-nat64 |
+| 2026-10-21 | **Build a Matter device** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/matter-device |
+| 2026-10-21 | **Simulating a Thread network using OpenThread in Docker** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-simulation |
+| 2026-10-21 | **Advanced AI with Gemma 4 and AlloyDB Omni for Regulated Industries** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemma-4-alloydb-omni |
 | 2026-10-17 | **Build an AI agent with Google ADK and MCP to interact with Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/looker-mcp-adk-codelab |
 | 2026-10-17 | **Progressive Web Apps: Working with Workbox** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa2-working_with_workbox |
 | 2026-10-17 | **How to Deploy Autonomous Agents with the Claude Agent SDK on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-claude-agents-cloud-run |

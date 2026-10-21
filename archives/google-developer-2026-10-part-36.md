@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
-chunk_part: 36 of 36
-date_range: 2026-09-29 to 2026-10-17
-total_entries: 40
+chunk_part: 36 of 37
+date_range: 2026-09-29 to 2026-10-21
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-10-part-36.md
 layer: L2_published
 transform: unknown
@@ -11,10 +11,17 @@ artifacts: complete, index
 
 # google-developer -- Part 36
 
-> **Navigation:** Prev: [google-developer-2026-09-part-35.md](./google-developer-2026-09-part-35.md) | [Index](./google-developer-index.md) | Next: None | [Complete Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-09-part-35.md](./google-developer-2026-09-part-35.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-10-part-37.md](./google-developer-2026-10-part-37.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-10-21 | **Build a Matter virtual device** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/matter-device-virtual |
+| 2026-10-21 | **Long-Running Agents with ADK 2 — triggers, resumable runs, workflows and a human in the loop** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/long-running-agents/instructions |
+| 2026-10-21 | **Agent Harness with the Google Cloud Developer Plugin and Workflow Skills: Migrating a Vibe-Coded App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-harness-developer-plugin |
+| 2026-10-21 | **Building Intra-VPC IPv6-to-IPv4 Connectivity with Private NAT64 and DNS64** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/private-nat64 |
+| 2026-10-21 | **Build a Matter device** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/matter-device |
+| 2026-10-21 | **Simulating a Thread network using OpenThread in Docker** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-simulation |
+| 2026-10-21 | **Advanced AI with Gemma 4 and AlloyDB Omni for Regulated Industries** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemma-4-alloydb-omni |
 | 2026-10-17 | **Build an AI agent with Google ADK and MCP to interact with Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/looker-mcp-adk-codelab |
 | 2026-10-17 | **Progressive Web Apps: Working with Workbox** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa2-working_with_workbox |
 | 2026-10-17 | **How to Deploy Autonomous Agents with the Claude Agent SDK on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-claude-agents-cloud-run |
@@ -57,5 +64,5 @@ artifacts: complete, index
 | 2026-09-29 | **Enhancing e-commerce checkout with browser AI capabilities** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/enhancing-ecommerce-web-ai |
 
 ---
-> **Navigation:** Prev: [google-developer-2026-09-part-35.md](./google-developer-2026-09-part-35.md) | [Index](./google-developer-index.md) | Next: None
+> **Navigation:** Prev: [google-developer-2026-09-part-35.md](./google-developer-2026-09-part-35.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-10-part-37.md](./google-developer-2026-10-part-37.md)
 
