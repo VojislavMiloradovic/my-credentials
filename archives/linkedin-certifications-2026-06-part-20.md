@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 20 of 42
 date_range: 2026-06 to 2026-06
-total_entries: 45
+total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-20.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,14 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Tech Trends** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ac02c19fcdd18cad8a179577ad1cf906abe8f635f23943279be0827b6bc4b7f) |
-| 2026-06 | **The Cybersecurity Threat Landscape** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/37c77bf43dad94c0c2138aca7af0664db1af0b39672e3c5942764df83a8fbf20) |
-| 2026-06 | **Generative AI: The Evolution of Thoughtful Online Search** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/55872f296092615790f03f381eae96ff3a616c17a0eb8bedc431bc1285de2cba) |
-| 2026-06 | **Boost Your Problem-Solving Skills with Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d360604d03e1fd553eec5165852c724e8575a19239e957c7993cbf1c3f9b1df1) |
-| 2026-06 | **Microsoft Security Essentials: Concepts, Solutions, and AI-Powered Protection** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/13215d1eee44a9b4ef68296bd5caa417d2dc0fb2f44a8308460b515e6470686e) |
-| 2026-06 | **Hands-On AI: Building LLM-Powered Apps** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0d853f846cf44f72262edeaba7177d0caa56a5d3f8bc78df6f8b5d7dd59b0107) |
-| 2026-06 | **Nano Tips for Developing a Content Calendar with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/76ee656409dfd9558c8431ffcd32e93095ab8ac7b7a21b624204b14e38a15e01) |
-| 2026-06 | **Recommendation Systems: A Practical Hands-On Introduction** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b40dfc984976a7ead304b9dcf86b8569069858efa6ac59a294b90ee65d96db2c) |
 | 2026-06 | **The AI-Driven Software Developer: Optimize, Innovate, Transform** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3d7bcbd485f7323dc890c60dd6f52d72bc0e20bc6f6caebe8fac71bb839065e0) |
 | 2026-06 | **Azure AI Engineering: Speech, Language, and Vision Solutions** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/46c3ab3b032ebb747489af93dabced1b3b1ee2666360dbac6990b69f12c1dedb) |
 | 2026-06 | **LLM Foundations: Building Effective Applications for Enterprises** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/45029f1a9d05199bf4a9681d3ddee9329129bf42d4657c065a148a788104a4ff) |
@@ -60,6 +52,13 @@ artifacts: complete, index
 | 2026-06 | **Nano Tips for Using ChatGPT for Business with Rachel Woods** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/480e2acb306c9973546be05212c221bc8e97f7c86b0eb4f08d2eea7d3398cd64) |
 | 2026-06 | **The Case for Lean Cybersecurity Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1f551037ccdccb87c36974a2f2625cd2e3bcde0780b20ff2e7b21cf4ef93449c) |
 | 2026-06 | **A Standalone Project: Migrate Applications to Azure Virtual Machine (VM) as PoC** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f42dcf7fb552eb46a19d059f4ee5b5d836a32f133e60b2178bfdfa4aa2cdd464) |
+| 2026-06 | **A Standalone Project: Show Integration between AWS Lambda and AWS API Gateway** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0889627e340a8030dbdec43ef215d26b7731937cd9244201b25e1687ef169b50) |
+| 2026-06 | **How I Use Claude as a Data Scientist** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4bd8b169a02492736af489073c411b80fcb07dd5448964b86af249bc156d97d9) |
+| 2026-06 | **Welcome to the "Building AI Products: Implementing Responsible AI" Professional Certificate** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e7533e7e77f05f45d1661986e70047c8e8bfc615df88db88358bb00660f34765) |
+| 2026-06 | **A Standalone Project: Create a AWS EC2 Web App with Load Balancing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/300ea6b9bb38274da99bf677951bad02b6083f6ea6eef9272c6d463baba9e57c) |
+| 2026-06 | **Welcome to the "Building AI Products: Architecture and Orchestration" Professional Certificate** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/da139934471a4ae392f922778dd8b2a05c1996425c8a787f42022ce687e0bcc1) |
+| 2026-06 | **Welcome to the "Building AI Products: Understanding the Workflow" Professional Certificate** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/34843cffdb58899989a4fa26d99611d0bd17ada4f4aff1889ed74e7447ccf3b0) |
+| 2026-06 | **Nano Tips for Influencing Those More Senior Than You with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4fdd5f5bb59c3eaf44447684850c026b213c2c4a02fbf3ff6cbb9832f267225b) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-19.md](./linkedin-certifications-2026-06-part-19.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-21.md](./linkedin-certifications-2026-06-part-21.md)

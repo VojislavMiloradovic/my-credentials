@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 23 of 42
 date_range: 2026-06 to 2026-06
-total_entries: 52
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-23.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,15 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **AWS Knowledge: Compute - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/422b41e8-bf11-4ac3-b1fd-90dfd1838224/linked_in_profile) |
-| 2026-06 | **SAS Viya Architecture for Practitioners** | SAS | [Verify Record](https://www.credly.com/badges/11e650a9-21ef-44ff-8ede-fdab2d0fe35b/linked_in_profile) |
-| 2026-06 | **SAS Viya Architecture Fundamentals** | SAS | [Verify Record](https://www.credly.com/badges/f387423f-26aa-44b8-8e59-c87c449cd49b/linked_in_profile) |
-| 2026-06 | **SAS Viya System Requirements** | SAS | [Verify Record](https://www.credly.com/badges/501cd3e4-bc19-4c21-9c87-f5236435c13b/linked_in_profile) |
-| 2026-06 | **SAS SQL Essentials Knowledge Badge** | SAS | [Verify Record](https://www.credly.com/badges/941d23c2-923c-43b8-9598-97e81961b113/linked_in_profile) |
-| 2026-06 | **Preparing for SAS Viya Deployment** | SAS | [Verify Record](https://www.credly.com/badges/4af7b7bd-7dba-40ab-93b2-0890561ec829/linked_in_profile) |
-| 2026-06 | **SAS Analytics Pro: Deployment and Configuration** | SAS | [Verify Record](https://www.credly.com/badges/bb1c9967-6387-4a7f-b848-4dfdbb0ff2e1/linked_in_profile) |
-| 2026-06 | **SAS Viya Advanced Topics in Authentication - OIDC and SAML** | SAS | [Verify Record](https://www.credly.com/badges/7c025534-4c80-48de-a2e5-c0be01217e37/linked_in_profile) |
-| 2026-06 | **SAS Viya: Deployment on Google Kubernetes Engine** | SAS | [Verify Record](https://www.credly.com/badges/7195bcb4-0573-419b-a5c2-02d4677e72e4/linked_in_profile) |
 | 2026-06 | **AWS Knowledge: Serverless - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/f9330cf1-b091-4b44-b8b1-31fc37561492/linked_in_profile) |
 | 2026-06 | **Integrate with Active Directory** | Okta | [Verify Record](https://www.credly.com/badges/8a2cdb72-66f2-4151-ac05-087b4eaa0986/linked_in_profile) |
 | 2026-06 | **Optimize Device Security and Management** | Okta | [Verify Record](https://www.credly.com/badges/9bf4e9ce-ebbf-4d65-9aec-ffd109e1bc06/linked_in_profile) |
@@ -67,6 +58,14 @@ artifacts: complete, index
 | 2026-06 | **15 ChatGPT Tips for Everyday Data Analysis** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3dc6aeea0522e2ba05ff956a7daf79788bdc0a49fa567ba7496a35200b88a009) |
 | 2026-06 | **Generative AI Skills for Creative Content: Opportunities, Issues, and Ethics** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c476f004637e99d54045295dd8a3b036bd4479115a78845b83617ad175c20e80) |
 | 2026-06 | **Boosting Your Time Management with AI Tools** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/aba4024dea7a15527cb089f1e1ec20be1117e334dbf4bce19c2901957831b614) |
+| 2026-06 | **Customer Journey Mapping with Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e1eb4595e15c89fcfef1af263e76f8530f98f57e4247949f42627c262839d0f3) |
+| 2026-06 | **Thriving as a Project Manager in the Age of AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cbf42c3376dd7bf13c72b15b4f924f7b8ed0427914bb1aa59fcdf4f5f6bfb756) |
+| 2026-06 | **Managing AI Risks: 8 Common Mistakes to Avoid at Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a2a064a2d4ae1e3e11caf88f2db13080f86d1f3421466a1a37fd33f99a0b5370) |
+| 2026-06 | **Uncertainty to Action: Starting Your AI Learning Journey** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cd874b688694ff51c45d2b6dc1acaaa2680e4c0b0778d3ab2f998ff165f0c8ff) |
+| 2026-06 | **GPT Foundations: Building AI-Powered Apps** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/be181ac375f184c260bd5964146b9ff700e3ba5792d0ed7bb25389a557665db1) |
+| 2026-06 | **Working with Computers and Devices** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/75a49f78f019e4fb76f3915d32476d0636f83be07b478b83f5b72ebffb0b2dfc) |
+| 2026-06 | **Leading with a Growth Mindset** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ece711c90e86097e78cf4bbaf4f8bf21db2a1394eaeebe1b9c3453253afc1a4e) |
+| 2026-06 | **Strategic Negotiation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4c59f0ad4029aae2b38c567edd2fa6593158bcc3d1a1ba50937aa4fec66dc89d) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-22.md](./linkedin-certifications-2026-06-part-22.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-24.md](./linkedin-certifications-2026-07-part-24.md)

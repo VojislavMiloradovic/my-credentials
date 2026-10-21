@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 13 of 42
 date_range: 2026-05 to 2026-06
-total_entries: 51
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-13.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,13 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Nano Tips on How to Use Storytelling for Problem Solving with Ash Rathod** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/29a2741c5a743864fb844de0116b5dd08202c26dee2773469ed99e50a7275bd4) |
-| 2026-06 | **Nano Tips for Video Creation on LinkedIn with Roshanda Pratt** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6bb8cf37faaff1f89c01c174518e4e1ed8617254fe9e4ed7d49d2f2a82637402) |
-| 2026-06 | **Beginner Sales Nano Tips with Miles Croft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/872044416d3991448d30f5f9326d0ffdd2b23191891359248163acdc0e3897ca) |
-| 2026-06 | **Nano Tips for Aspiring Product Managers with Cherie Luo** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/32b5bb1d541a44f76f81eb5f4ea97c496bf7df90fc236a57f781d804fb966655) |
-| 2026-06 | **Nano Tips for Demonstrating Your Transferable Skills with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1c41ecf7e6908ba8ec152875bb13239cd014e9b87d8021bd11cccfbd12f17e79) |
-| 2026-06 | **AI Agents for Marketing: Automate Workflows with Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a41085d43fe496fc2f4c1f7133b13d1de652ae649d739bcb8869044c98735a14) |
-| 2026-06 | **Storytelling to Connect People with Purpose with Liz Fosslien** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6e856a80cf2fb8610dc05710e8096b5cc9db942acec4ae3eba57e6bb35d4f9f1) |
 | 2026-06 | **Set Up an App Dev Environment on Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/43021c74-b7bc-4226-a740-e9ffa98089d7/linked_in_profile) |
 | 2026-06 | **AI Strategy and Growth for the Modern Board: A Conversation with Dr. Lisa Palmer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eca1ead06c2851829b2512bd0cf64072f4fde43f2e0ca20e79ed63d8c542dd86) |
 | 2026-06 | **Microsoft Copilot Essentials by Microsoft Press** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/550f69324b0a6f66f4ac8f8f5d1bf381ca6b45c16e58cbd2f700cade3cd84535) |
@@ -66,6 +59,14 @@ artifacts: complete, index
 | 2026-05 | **Secure Your AI Agents to Act on the Behalf of Users** | Okta | [Verify Record](https://www.credly.com/badges/bd7cf46e-660f-406b-9547-69b0c0b9d822/linked_in_profile) |
 | 2026-05 | **Securing AI Agents** | Okta | [Verify Record](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/linked_in_profile) |
 | 2026-05 | **Implementing SAP S/4HANA Cloud for Group Reporting - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/edb638dc-fb67-4321-ac1f-be6461909fe4/linked_in_profile) |
+| 2026-05 | **Attacks & Threat Detection Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/c709595f-bccc-4383-9323-6172990f3c8d/linked_in_profile) |
+| 2026-05 | **Kubernetes Monitoring Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/775a311d-54f3-4e38-9e60-3da0c5149df4/linked_in_profile) |
+| 2026-05 | **Application Performance Monitoring Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/23440c88-44f9-416e-a91e-03f421624399/linked_in_profile) |
+| 2026-05 | **Application Security Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/18f1283d-e980-49d8-84f7-6a12b54c898d/linked_in_profile) |
+| 2026-05 | **Backend Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/aac771f0-c159-47dd-a82f-f7f1169e7811/linked_in_profile) |
+| 2026-05 | **Frontend Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/e8ec0d30-25e8-4a3b-8747-3a43181664a7/linked_in_profile) |
+| 2026-05 | **Site Reliability Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/82670fe2-987b-43c4-8023-09500fa4696b/linked_in_profile) |
+| 2026-05 | **Implement Phishing-Resistant Authentication** | Okta | [Verify Record](https://www.credly.com/badges/c34fa8f3-05dc-434e-884f-8058eb03679f/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-12.md](./linkedin-certifications-2026-05-part-12.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-14.md](./linkedin-certifications-2026-06-part-14.md)

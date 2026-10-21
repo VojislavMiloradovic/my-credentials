@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 10 of 42
 date_range: 2026-05 to 2026-05
-total_entries: 37
+total_entries: 39
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-10.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,11 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **AI Boost Bootcamp: How to Use Gemini at Work 101** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913042?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Add Agent Guardrails with Callbacks** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913217?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Running Oracle Workloads on Google Cloud: Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913319?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **Agentic Strategy: Discover, Design, and Prototype** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913646?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-05 | **AI-powered Database Management with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913792?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Build a Certification Study Guide: PCD Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23936168?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Streamline App Development with Gemini Code Assist** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23959109?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Google Workspace Essentials** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23986573?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -52,6 +47,13 @@ artifacts: complete, index
 | 2026-05 | **Data Governance with Dataplex Universal Catalog** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24287792?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Website Modernization with Generative AI on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24328413?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Introduction to Data Analytics on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24448908?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Developing Data Models with LookML** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24560747?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Extending cloud solutions with SAP Cloud Applications Studio** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xafoh-napob-bedus-cidif-lusik) |
+| 2026-05 | **Creating and Managing a Strategic Plan and Document** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xanun-pikyf-makyg-pekuf-suvup) |
+| 2026-05 | **Introducing Concur Travel Administration Fundamentals - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xygas-novyl-rydyp-tugip-nepan) |
+| 2026-05 | **Exploring Company Administration Features in legacy Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuryr-mubug-tegog-mecas-vabap) |
+| 2026-05 | **Exploring User Administration Features in legacy Concur Travel - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xucir-ropyn-dacas-lelir-synih) |
+| 2026-05 | **Managing Travel Admin Features in Legacy Concur Travel - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xehur-kibem-sisoc-sinyl-kepit) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-09.md](./linkedin-certifications-2026-05-part-09.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-11.md](./linkedin-certifications-2026-05-part-11.md)

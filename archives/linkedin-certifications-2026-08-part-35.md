@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 35 of 42
 date_range: 2026-08 to 2026-08
-total_entries: 47
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-35.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,11 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Cilium Ingress Controller** | Isovalent | [Verify Record](https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/linked_in_profile) |
-| 2026-08 | **Isovalent Lab Champion (10 labs)** | Isovalent | [Verify Record](https://www.credly.com/badges/1aa636d3-d301-4b4b-8808-e3da552cfc0b/linked_in_profile) |
-| 2026-08 | **Tetragon Getting Started** | Isovalent | [Verify Record](https://www.credly.com/badges/dffe3f42-4e0a-49bd-92f7-2646e68f51eb/linked_in_profile) |
-| 2026-08 | **Cilium Network Policies** | Isovalent | [Verify Record](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/linked_in_profile) |
-| 2026-08 | **Cilium Flow Encryption** | Isovalent | [Verify Record](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/linked_in_profile) |
 | 2026-08 | **AWS Knowledge: Amazon WorkSpaces Migrations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31/linked_in_profile) |
 | 2026-08 | **Create and Manage Cloud Spanner Instances Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/linked_in_profile) |
 | 2026-08 | **Cloud Tech Pro - Email Archiving** | Acronis | [Verify Record](https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/linked_in_profile) |
@@ -62,6 +57,10 @@ artifacts: complete, index
 | 2026-08 | **Nano Tips to Lead with Agility and Thrive in a World of Perma-Change with Lisa Bodell** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/725810371ef6d74127ab47b4e11145e0d6be71ac74523c8fe8cb807d7069f279) |
 | 2026-08 | **Cross-Cultural Communication Nano Tips with Jessica Chen** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ad5835db114abcf49bcb949020f0512d88212418c62d5e6e52e84eb065d7fa17) |
 | 2026-08 | **Vivek Wadhwa on Technology and Doing What Is Right** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6a9910a95bee24bdb3473fc88393c0ba369b20912b8b80cf693eecc0b0c3182a) |
+| 2026-08 | **Closing the Confidence Gap** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f6e44309d93508e783ae21665082d37df9fde01a14e46b9b81e84a107ee3f463) |
+| 2026-08 | **Creating and Delivering Presentations Nano Tips with Jessica Chen** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2ddcf5bde8b5a3139ae0c482634ea7fa1da7828b8c0239de0169aaaccc2328c7) |
+| 2026-08 | **Nano Tips for Communicating with Confidence with Selena Rezvani** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ddb7db09fdedf02fa5c66d29d793773208a66f42c6b7314b1ec2fb57b946584f) |
+| 2026-08 | **Sharing Your Expertise Online Nano Tips with Kim Kaupe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bde819042ebc39e9a21e6e8c5dc6c36253726c52679ec4e8146f7b6a92b485ec) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-36.md](./linkedin-certifications-2026-09-part-36.md)

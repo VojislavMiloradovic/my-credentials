@@ -15,13 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **The Motionographer Story** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0ccc46a05541ad61c93f45d8d4b0dcb088b15e9c8fbcc381cd6214e7862e2494) |
-| 2026-06 | **RAD Lab: Revitalizing the City Block** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f831015f176ddfe74ce74e81e9d4a1d5d6fcc6f499b01df35dfa69d299bd5d4f) |
-| 2026-06 | **Taylre Jones, Film and Video Colorist** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f6073b98f26d87efaa2fe5c9cde0a7d650c3485d32deec6ade33af5f744c7a9e) |
-| 2026-06 | **A Standalone Project: Create a Website for Online Burger Orders Using React.js** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3e150032b69b19d71e35427a6e01819485fde8cbe962dfc607b1e143d3ef3419) |
-| 2026-06 | **The Creative Spark: James White, Visual Artist and Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ef033b0e3503b633dd824b3597fdf47c419a34201c5e93c9732c5040f19034ee) |
-| 2026-06 | **Bonnie Siegler: Designing Her Design Career** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/29c026f424b50b9af715ab07e2554250400f006d0fc825f644e9ed2fbde46cb4) |
-| 2026-06 | **Scanimate: The Origins of Computer Motion Graphics** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c1018dbbc4b5589031f48ebac9d0dab468a9108d7508c44ff18c093f2948ce16) |
 | 2026-06 | **Projection Mapping Union Station's History** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0ee9750220610560020caace1a2741f779c46457198c617f143953c1d00c9618) |
 | 2026-06 | **Optimize Your LinkedIn Profile to Stand Out with Yrbenka Arthus and Andrew Seaman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1fe5cc46c7bc6f33644450ce45812deb3011c1cb9131a46cfa312a474f987fc7) |
 | 2026-06 | **The Creative Spark: Michael Langan, Experimental Filmmaker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fa2c8e9473a168239524acb8771ae297745835b21014a4efa0be46832cb591a3) |
@@ -60,6 +53,13 @@ artifacts: complete, index
 | 2026-06 | **Monitor KPIs in Analysis Dashboards** | Celonis | [Verify Record](https://www.credly.com/badges/d23419cf-0b96-4003-8c51-d0156b673365/linked_in_profile) |
 | 2026-06 | **Monitor KPIs in Execution Apps** | Celonis | [Verify Record](https://www.credly.com/badges/648e7ea8-11ed-42ec-8bb2-68235dd7841a/linked_in_profile) |
 | 2026-06 | **Process Automation Basics** | Celonis | [Verify Record](https://www.credly.com/badges/8da97b58-6d1d-46ef-bad3-34ed67aa3baa/linked_in_profile) |
+| 2026-06 | **Nano Tips for Navigating Corporate Culture with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8ded0b8ada19903a6cd4a4a6ebdcf6a155b4dd3e6f071f0bea7c4b3df1aba6ce) |
+| 2026-06 | **Get Started with Auth0 Tenants** | Okta | [Verify Record](https://www.credly.com/badges/a626c5ef-b24c-4dce-be69-548d51377e78/linked_in_profile) |
+| 2026-06 | **AI Fluency: Generative AI for Workforce Agency Administrators by Microsoft and NAWB** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f2c1ee6ae0c4c71f9af8a92fe7be726eee4f1d2f0e112cb5c920dbfa7b225276) |
+| 2026-06 | **AI Fluency: Generative AI for Career Growth and Job Search by Microsoft and NAWB** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9d697e6d062b3dfd9fa19cd6b386ba7bf8c0ef80b9b7fe281be67c19df93932f) |
+| 2026-06 | **A Standalone Project: Use AI-Driven Exploration to Develop Predictive Models to Anticipate Future Company Registrations for Informed Decision-Making** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e0194266100e7a85c3a1aef8f0d591bc7edc97176693d2671faf7d69719bff0d) |
+| 2026-06 | **10-in-10 AI Challenge** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/26d954210aa0a072d7ac847f5889fb7f58aca2ef08b47c1168c804c6c58be605) |
+| 2026-06 | **Nano Tips for Effective Collaboration with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/254d88ed5c73454fc8b516cddad9d8e57b9cf8438d0d121160f69daf9774459c) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-14.md](./linkedin-certifications-2026-06-part-14.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-16.md](./linkedin-certifications-2026-06-part-16.md)

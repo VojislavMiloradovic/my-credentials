@@ -15,11 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Sales: Selling Financial Products and Services** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9ef828274533451f34077393bd94ec46f6bc5a47c924a49eddc4a36172ab1912) |
-| 2026-08 | **Boost Your Career with an Experimental Mindset** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0794e0ce43df17e93aa508748a562eddc2744b62cdd5a79acdad553ed83aeb82) |
-| 2026-08 | **Cilium Multi Networking** | Isovalent | [Verify Record](https://www.credly.com/badges/b1b71f3f-33ae-4d2b-a02d-42a31937b2a1/linked_in_profile) |
-| 2026-08 | **B2B Sales Strategy: Avoid Prospect Stalls and Stops** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bdcd1070dfaa28daec89f6999ec69fcb4694023b560e2ab81080850dbde2c001) |
-| 2026-08 | **Building Resilience as a Leader** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/402bf3c13e482ac2c90c94c383a49ae47d6748e2fa637175ccf949adca64530b) |
 | 2026-08 | **Mixtape: Learning Highlights on Personal Effectiveness** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1a9c270f7119c3d9fdc404828845c68674106016ba3466cfe636facf492bad7b) |
 | 2026-08 | **Marketing on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b8a074c56f0aaf0fc4d41eaddb3f08763dd745f824d626acadb3648e6bc2a2c1) |
 | 2026-08 | **Social Media Marketing for Small Business** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fc47888bd5ca06001489afef0f5c5e1ae54b73a297cc1473dbdba0f69e8cdc7b) |
@@ -64,6 +59,11 @@ artifacts: complete, index
 | 2026-08 | **Nano Tips for Cross-Cultural Communication for Leaders with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c0f9659727332a17d9ceb7d012168877898e6ec8af230bcb5adaf57061942651) |
 | 2026-08 | **Job Interview Nano Tips with Madeline Mann** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e7b22fafa49c9c13d5968e1e62fb7fb0971403a42e545b0881c59d7ff44aa848) |
 | 2026-08 | **Nano Tips to Foster a Growth Mindset and Mental Agility with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/67f9e8b0f8b19b75b96d43c647dc984993e7769a116b1fa0f8595422103d484b) |
+| 2026-08 | **Nano Tips on How to Apologize Authentically with Arti Halai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b8516aa5d871050f4893098576f4c6d67194437a81425c03cecaeb7775fb8e23) |
+| 2026-08 | **Nano Tips for Overcoming Imposter Syndrome at Work with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cae79de2ce1addf6ce36acb939781918c80e1c09803a44ddb9eed0e938d71b24) |
+| 2026-08 | **Personal Finance Nano Tips with Brittney Castro** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4ace4fdf7e59f338eab06b7f5ab10c4df6f92e8032d300292d7cfe39979f10ef) |
+| 2026-08 | **Nano Tips for Empathetic Leadership with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fc9eaaff841ad500c00df042468d9ae8d400dfdf2d8cd7434823302912940466) |
+| 2026-08 | **Career Wellness Nano Tips with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e73dd34442fe2f554bb5855e1dfa98b968f4ffd4c8786ba3ec9d0d44c8643d16) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-31.md](./linkedin-certifications-2026-08-part-31.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-33.md](./linkedin-certifications-2026-08-part-33.md)

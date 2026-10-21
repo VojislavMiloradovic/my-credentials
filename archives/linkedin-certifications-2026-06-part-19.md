@@ -15,13 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **A Standalone Project: Show Integration between AWS Lambda and AWS API Gateway** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0889627e340a8030dbdec43ef215d26b7731937cd9244201b25e1687ef169b50) |
-| 2026-06 | **How I Use Claude as a Data Scientist** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4bd8b169a02492736af489073c411b80fcb07dd5448964b86af249bc156d97d9) |
-| 2026-06 | **Welcome to the "Building AI Products: Implementing Responsible AI" Professional Certificate** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e7533e7e77f05f45d1661986e70047c8e8bfc615df88db88358bb00660f34765) |
-| 2026-06 | **A Standalone Project: Create a AWS EC2 Web App with Load Balancing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/300ea6b9bb38274da99bf677951bad02b6083f6ea6eef9272c6d463baba9e57c) |
-| 2026-06 | **Welcome to the "Building AI Products: Architecture and Orchestration" Professional Certificate** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/da139934471a4ae392f922778dd8b2a05c1996425c8a787f42022ce687e0bcc1) |
-| 2026-06 | **Welcome to the "Building AI Products: Understanding the Workflow" Professional Certificate** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/34843cffdb58899989a4fa26d99611d0bd17ada4f4aff1889ed74e7447ccf3b0) |
-| 2026-06 | **Nano Tips for Influencing Those More Senior Than You with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4fdd5f5bb59c3eaf44447684850c026b213c2c4a02fbf3ff6cbb9832f267225b) |
 | 2026-06 | **Nano Tips to Communicate Assertively and Set Boundaries with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b68fc11c017b61fa60d9b382640af7738cc80b8e57cd0ac15d790b83f245f1a4) |
 | 2026-06 | **Nano Tips and Shortcuts for Using Excel with Kat Norton** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0b0198ec3458f6cd3426e7dfbfaaab6681aab82542779fd64ed60f9a2d30a168) |
 | 2026-06 | **Nano Tips to Sharpen Your Critical Thinking with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bebc8acd2abfba8eaec891493d182482fa08f5de079387f27a1896a90ec78ea3) |
@@ -59,6 +52,13 @@ artifacts: complete, index
 | 2026-06 | **Protect Your API Endpoints with Auth0** | Okta | [Verify Record](https://www.credly.com/badges/7a85c1f9-c3ec-42d2-a898-8ca954ed58bf/linked_in_profile) |
 | 2026-06 | **How to Start Your Career in the AI Era with Kyla Scanlon** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a6d62bdcee737f8097321ba997fc059aaba6767864de857b1ab6a1e5c18e8816) |
 | 2026-06 | **Leveraging AI in Your Nonprofit Organization by Microsoft and NetHope** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5d2c6fbea5557fc8cd9d913488208cd378cd178bac47bb5ab566ca6677ea2b27) |
+| 2026-06 | **What It Takes to Lead Your Team Through Turbulence** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8dfbcac043f39dd33aa576cfe18e282b8e80c2e23316d973dd078bfd71eb03cf) |
+| 2026-06 | **Winning With Intelligent Choice Architectures** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2dd3994569e774cfaa8ab9275d6f73ce962e2e4d45395d7f8110bf6026aeb5a5) |
+| 2026-06 | **Responsible AI: Global Risks, Governance, and Human Oversight** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0f66eda19ac62c34e4d5d7d8aa5a4481aa543081a4304bf204272209b91ac453) |
+| 2026-06 | **Build Trust and Grow Your Business with a LinkedIn Premium Company Page** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a027c039a5ed6c081bdf722f8d65eb01015ac9489e265e3df5cff03e35096e49) |
+| 2026-06 | **John Maeda on Design, Business, and Inclusion** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8e75f17485c10fc13b52e65d4d26b138400058e1888107078a6b75ff12ca9f2a) |
+| 2026-06 | **Tony Schwartz on Managing Your Energy for Sustainable High Performance** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5e9cc24842cda50f49ac9304cdff3e0e0a91370e75e4f52dd15d19a14c029996) |
+| 2026-06 | **Why Trust Matters with Rachel Botsman (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9a1fbf1c4f8e90043ba31ca651716e9aa8a0752bc3950157e413436ad0c25887) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-18.md](./linkedin-certifications-2026-06-part-18.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-20.md](./linkedin-certifications-2026-06-part-20.md)

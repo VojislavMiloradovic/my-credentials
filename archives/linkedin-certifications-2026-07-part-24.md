@@ -15,15 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-07 | **Mapping MITRE ATT&CK to CVE for Impact** | AttackIQ | [Verify Record](https://www.credly.com/badges/8f620453-4525-4c45-9107-5a24f2bf89a5/linked_in_profile) |
-| 2026-07 | **Securing MongoDB Self-Managed: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/ccb3958d-00b6-4cf5-abf2-9481f3f12197/linked_in_profile) |
-| 2026-07 | **MongoDB Overview: Core Concepts and Architecture** | MongoDB | [Verify Record](https://www.credly.com/badges/ec006874-acdf-4095-abab-5b6657054fc1/linked_in_profile) |
-| 2026-07 | **Securing MongoDB Atlas: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/c92a6b9b-e628-42f2-b33c-d51f189a3f3c/linked_in_profile) |
-| 2026-07 | **MongoDB Indexing Design Fundamentals** | MongoDB | [Verify Record](https://www.credly.com/badges/cd687719-8495-41e0-a74d-61cd2ab6f12e/linked_in_profile) |
-| 2026-07 | **MongoDB Sharding Strategies** | MongoDB | [Verify Record](https://www.credly.com/badges/ec69041f-6f70-4cab-b52f-dc3b9a64132f/linked_in_profile) |
-| 2026-07 | **Memory for AI Applications with MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/17cc10c2-1879-4741-8660-896581fc660d/linked_in_profile) |
-| 2026-07 | **Practical GitHub Project Management and Collaboration** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bce9d15b67d1eeda3832ddf53e1ab7ff710e25a6988f1e28bb7e871c3f9517f1) |
-| 2026-07 | **Scaling Data Science with Agents** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25938520?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-07 | **Gemini in Google Chat** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25939305?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-07 | **Protect Sensitive Data with Data Loss Prevention Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/5cc3e16f-1432-408b-baf1-5a82c6d65229/linked_in_profile) |
 | 2026-07 | **MSP Academy: Automation** | Acronis | [Verify Record](https://www.credly.com/badges/d16d9c70-9200-49b5-8a1f-706919b48e24/linked_in_profile) |
@@ -67,6 +58,15 @@ artifacts: complete, index
 | 2026-06 | **Talking to AI: Prompt Engineering for Project Managers** | Project Management Institute | [Verify Record](https://www.credly.com/badges/1b9b4a53-4ddc-4d6b-bd7c-c31df88dabc8/linked_in_profile) |
 | 2026-06 | **PMI® Essentials: Seven AI Project Patterns** | Project Management Institute | [Verify Record](https://www.credly.com/badges/2f214aa1-1de2-4e25-ba59-61ba86729898/linked_in_profile) |
 | 2026-06 | **Build Scalable Authorization Models with Auth0 FGA** | Okta | [Verify Record](https://www.credly.com/badges/03f314ca-34b2-45d8-9b2a-d0a5a45db527/linked_in_profile) |
+| 2026-06 | **AWS Knowledge: Compute - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/422b41e8-bf11-4ac3-b1fd-90dfd1838224/linked_in_profile) |
+| 2026-06 | **SAS Viya Architecture for Practitioners** | SAS | [Verify Record](https://www.credly.com/badges/11e650a9-21ef-44ff-8ede-fdab2d0fe35b/linked_in_profile) |
+| 2026-06 | **SAS Viya Architecture Fundamentals** | SAS | [Verify Record](https://www.credly.com/badges/f387423f-26aa-44b8-8e59-c87c449cd49b/linked_in_profile) |
+| 2026-06 | **SAS Viya System Requirements** | SAS | [Verify Record](https://www.credly.com/badges/501cd3e4-bc19-4c21-9c87-f5236435c13b/linked_in_profile) |
+| 2026-06 | **SAS SQL Essentials Knowledge Badge** | SAS | [Verify Record](https://www.credly.com/badges/941d23c2-923c-43b8-9598-97e81961b113/linked_in_profile) |
+| 2026-06 | **Preparing for SAS Viya Deployment** | SAS | [Verify Record](https://www.credly.com/badges/4af7b7bd-7dba-40ab-93b2-0890561ec829/linked_in_profile) |
+| 2026-06 | **SAS Analytics Pro: Deployment and Configuration** | SAS | [Verify Record](https://www.credly.com/badges/bb1c9967-6387-4a7f-b848-4dfdbb0ff2e1/linked_in_profile) |
+| 2026-06 | **SAS Viya Advanced Topics in Authentication - OIDC and SAML** | SAS | [Verify Record](https://www.credly.com/badges/7c025534-4c80-48de-a2e5-c0be01217e37/linked_in_profile) |
+| 2026-06 | **SAS Viya: Deployment on Google Kubernetes Engine** | SAS | [Verify Record](https://www.credly.com/badges/7195bcb4-0573-419b-a5c2-02d4677e72e4/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-23.md](./linkedin-certifications-2026-06-part-23.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-25.md](./linkedin-certifications-2026-07-part-25.md)

@@ -15,12 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-07 | **Nano Tips for Understanding AI's Impact to Business with Marco Andre** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4e807863cbb82e544917219c9a4f9975a36ab1f78a1c379b708b1e90c990095f) |
-| 2026-07 | **Nano Tips for Using AI in the Job Search with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a3dd97158bcfeabee945ee220924414173fb1d5bbd2c694d375d58330f0ca0a8) |
-| 2026-07 | **Nano Tips for Resolving Conflict with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c30d25c1ec70e5089898b74440ca15320fb0d88d6391a1f46fdb1dee3e08835a) |
-| 2026-07 | **Nano Tips for Building Soft Skills with Elayne Fluker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ca112ab33733f38994447c983946cb93f89d82b0aa7d018ef7fe5238ceb0a8c8) |
-| 2026-07 | **Nano Tips for Using Excel with Kat Norton** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/06eff828dc88459fc2cf0c54a762747ef7839812c9bc240168cccb3afee3ab4b) |
-| 2026-07 | **Nano Tips for Nailing Your Job Interview with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0109900d1dc0926d443af8e43a60d395f7d1fadb26fa5e4b0688466ddb55438d) |
 | 2026-07 | **Creating Inspiring Content on Uninspiring Days Nano Tips with Salina Yeung** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1371e1cdce06763a5736bdad183df9f7e136f2744b878fcc57e86031053f11a2) |
 | 2026-07 | **Nano Tips for Communicating in Your Authentic Style with Arti Halai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/79bfd3af4c28b40bae622b67d4c518a2d00ea11a6dbe7d54d1f8a9ff087c3bd3) |
 | 2026-07 | **Nano Tips for Leading Authentically at Work with Luvvie Ajayi Jones** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ce15e3292ef15dc2fea807ffb877e46ee26dcb2b023a24f910c0b4c234bd28ec) |
@@ -60,6 +54,12 @@ artifacts: complete, index
 | 2026-07 | **The Creative Spark: Alberto Scirocco and the Motion Graphics of leftchannel** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2e5171f5af198ca772831d73df3349f05e2060199944c29fdd15290bccf7706e) |
 | 2026-07 | **Sharon Ross: Character Designer for 2D Animation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ac27f2dbf8447e8cca07d586132ce7d56391178cb07407b3b7c34e3ccf143114) |
 | 2026-07 | **My Photoshop Story: Bert Monroy, Digital Painter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bc19b7e1a3087cabd4716542068ddf4ad38acfba8a653fa4e435bb1de742577c) |
+| 2026-07 | **James White's Laser Horse Illustration: Start to Finish** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0810499a4aac7a1c01462698c6ef3bdc56206a3ee1de5dcdf7f045a359340708) |
+| 2026-07 | **Nano Tips for Senior Leaders Navigating Corporate Politics with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cffaa286a2bd5561ab7bde22761eff820f36c049f9cde676cc6c89dbf4648a92) |
+| 2026-07 | **Nano Tips for Answering Common Interview Questions with Tiffany Uman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5a67740596020fd510c5e66681316c8da1f94f651f8a8b0002285327198d5f00) |
+| 2026-07 | **Nano Tips for Increasing Your Visibility at Work with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1ad78e9a94edeb61dc7bb1b175bd9f7668ecdf53bbd5894e8f0046c4fe7accf1) |
+| 2026-07 | **B2B Marketing on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ecba3b836bb1a091206ea14147cadcc7c6c2caa3ccae1a7dd3bc840bcda35cb2) |
+| 2026-07 | **Mitigate Threats and Vulnerabilities with Security Command Center Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/0daa2483-3793-42a7-afb0-4d338d3725bc/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-28.md](./linkedin-certifications-2026-07-part-28.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-30.md](./linkedin-certifications-2026-08-part-30.md)
