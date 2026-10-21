@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 16 of 42
 date_range: 2026-06 to 2026-06
-total_entries: 44
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-16.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,12 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Managing Cloud Infrastructure with Terraform** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24879428?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **Essential Google Cloud CLI Tools** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24880145?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **AI Boost Bootcamp: How to Use Gemini for Marketing 201** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24914097?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **Troubleshooting with AI Using Cloud Assist Investigations** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25020466?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **Customer Experience Agent Studio: Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25048886?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-06 | **Understanding LookML in Looker** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25096293?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-06 | **Applying Advanced LookML Concepts in Looker** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25096906?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-06 | **AWS Knowledge: Data Protection & Disaster Recovery - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b0648167-39ae-4aca-b7dd-cc83c7ade7da/linked_in_profile) |
 | 2026-06 | **Cloud Sales Fundamentals** | Acronis | [Verify Record](https://www.credly.com/badges/f38a3c55-4e53-4eb5-8eb8-5a98e428fff7/linked_in_profile) |
@@ -59,6 +53,13 @@ artifacts: complete, index
 | 2026-06 | **The Creative Spark: Larry Crane, Recording Engineer and Music Producer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c636937bf1283f3f3f0dd70fd7425e0850852ef93095f5bae12936c10ceb3f69) |
 | 2026-06 | **Chris Landreth: Oscar-Winning Animation Director** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8fedb952a4fb7506e4d08b29b0d1fcaeb9baae3134ce73a11cd58010a9fa6524) |
 | 2026-06 | **Douglas Kirkland on Photography: A Life in Pictures** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/60e9c3543ce0bcca97af2758f27c07ba67576137c89f7c8788497f64f310479c) |
+| 2026-06 | **The Motionographer Story** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0ccc46a05541ad61c93f45d8d4b0dcb088b15e9c8fbcc381cd6214e7862e2494) |
+| 2026-06 | **RAD Lab: Revitalizing the City Block** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f831015f176ddfe74ce74e81e9d4a1d5d6fcc6f499b01df35dfa69d299bd5d4f) |
+| 2026-06 | **Taylre Jones, Film and Video Colorist** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f6073b98f26d87efaa2fe5c9cde0a7d650c3485d32deec6ade33af5f744c7a9e) |
+| 2026-06 | **A Standalone Project: Create a Website for Online Burger Orders Using React.js** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3e150032b69b19d71e35427a6e01819485fde8cbe962dfc607b1e143d3ef3419) |
+| 2026-06 | **The Creative Spark: James White, Visual Artist and Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ef033b0e3503b633dd824b3597fdf47c419a34201c5e93c9732c5040f19034ee) |
+| 2026-06 | **Bonnie Siegler: Designing Her Design Career** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/29c026f424b50b9af715ab07e2554250400f006d0fc825f644e9ed2fbde46cb4) |
+| 2026-06 | **Scanimate: The Origins of Computer Motion Graphics** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c1018dbbc4b5589031f48ebac9d0dab468a9108d7508c44ff18c093f2948ce16) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-15.md](./linkedin-certifications-2026-06-part-15.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-17.md](./linkedin-certifications-2026-06-part-17.md)

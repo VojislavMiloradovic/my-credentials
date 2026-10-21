@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 28 of 42
 date_range: 2026-07 to 2026-07
-total_entries: 47
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-28.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,12 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-07 | **James White's Laser Horse Illustration: Start to Finish** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0810499a4aac7a1c01462698c6ef3bdc56206a3ee1de5dcdf7f045a359340708) |
-| 2026-07 | **Nano Tips for Senior Leaders Navigating Corporate Politics with India Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cffaa286a2bd5561ab7bde22761eff820f36c049f9cde676cc6c89dbf4648a92) |
-| 2026-07 | **Nano Tips for Answering Common Interview Questions with Tiffany Uman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5a67740596020fd510c5e66681316c8da1f94f651f8a8b0002285327198d5f00) |
-| 2026-07 | **Nano Tips for Increasing Your Visibility at Work with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1ad78e9a94edeb61dc7bb1b175bd9f7668ecdf53bbd5894e8f0046c4fe7accf1) |
-| 2026-07 | **B2B Marketing on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ecba3b836bb1a091206ea14147cadcc7c6c2caa3ccae1a7dd3bc840bcda35cb2) |
-| 2026-07 | **Mitigate Threats and Vulnerabilities with Security Command Center Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/0daa2483-3793-42a7-afb0-4d338d3725bc/linked_in_profile) |
 | 2026-07 | **Nano Tips for Landing Your Dream Internship with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ec3d8a82ac0ab0795ea25dbbe6637d5277be03ee580a98d6d5552693cde968f4) |
 | 2026-07 | **Nano Tips to Use and Improve SEO with Sam Dey** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7f4c3445ab7c0ba6fac35c0d7b15726ffbed776771c46299f29af3bb43d78f08) |
 | 2026-07 | **Nano Tips for Using AI for Your Content Marketing with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/712c8ed4ffc7b8a6bc1f84b2e0de1c96d255dadd22ec28a8a25d4d40fcf67d9e) |
@@ -62,6 +56,14 @@ artifacts: complete, index
 | 2026-07 | **Guided Lab: Data Analysis and Feature Engineering with Python** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4bb0fd1645d1fa89e8ca9e6a5b8ee08e0ac4f8afd770479c339b6a04a961861d) |
 | 2026-07 | **Nano Tips for Leading Change as a New Manager with Chris Williams** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6483c691bd4ffb80c482d6f72ec5e4e62b183b44c7d286fef14085894f40180a) |
 | 2026-07 | **Arcade Trail: Google Workspace Administration** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25402530?utm_medium=social) |
+| 2026-07 | **AI Fluency: Generative AI for Career Coaches by Microsoft and NAWB** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e6a84b7a3453aa455ba3865e70f8930a8236e7e5fa98f762cf58827b99b0d139) |
+| 2026-07 | **Nano Tips for Tactical Marketing with ChatGPT with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eabbd5263f954752afa2f2ed018c9b1773e426cc20619e7a05a56a3d607d06ce) |
+| 2026-07 | **Cloud Tech Associate Advanced Data Loss Prevention** | Acronis | [Verify Record](https://www.credly.com/badges/1e7b88fd-f5b2-4563-9cb8-6815ee1dfedc/linked_in_profile) |
+| 2026-07 | **Well-Architected Proficient** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/5956f2ee-34a1-400c-8d10-a6a9d75a08a8/linked_in_profile) |
+| 2026-07 | **Foundations of Purple Teaming** | AttackIQ | [Verify Record](https://www.credly.com/badges/1ae8e7ed-2bc5-48c6-87e3-c8a427c96c86/linked_in_profile) |
+| 2026-07 | **Intel® Xeon® 6 Processor Family Essentials** | Intel | [Verify Record](https://www.credly.com/badges/11bd816c-b1e7-4b97-8c4b-ca8c88793e1e/linked_in_profile) |
+| 2026-07 | **Principles of AI Transformation** | Intel | [Verify Record](https://www.credly.com/badges/dea04841-c966-4353-9ede-2aa009ec2426/linked_in_profile) |
+| 2026-07 | **Cloud FinOps** | Intel | [Verify Record](https://www.credly.com/badges/1a4b9280-a856-4f4b-868b-b1a727ce03fb/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-27.md](./linkedin-certifications-2026-07-part-27.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-29.md](./linkedin-certifications-2026-07-part-29.md)

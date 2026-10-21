@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 9 of 42
 date_range: 2026-04 to 2026-05
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-09.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,7 +15,8 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **Developing Data Models with LookML** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24560747?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Managing Data Retention in Legacy Concur Travel - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesok-fyvug-gibum-potat-digem) |
+| 2026-05 | **Positioning Solutions for Design in SAP Supply Chain Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xufeh-diveg-rones-barog-hogev) |
 | 2026-04 | **Campaign manager 360 Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/c9bfd359-05b1-4751-8872-a99c43f4883b) |
 | 2026-04 | **Provisioning and Implementing Joule - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/a66fc475-3933-4417-ad38-02e9ab7c8fa2/linked_in_profile) |
 | 2026-04 | **Applying a Human-Centered Approach to Identify and Define Business AI Use Cases - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/a6b2b584-95c7-4ee4-97dd-3765ecebbc8a/linked_in_profile) |

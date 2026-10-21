@@ -15,17 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Harness Certified Infrastructure as Code Management Developer** | Harness | [Verify Record](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/linked_in_profile) |
-| 2026-10 | **Harness Certified Code Repository Developer** | Harness | [Verify Record](https://www.credly.com/badges/e7564671-e168-49e2-b28b-c2f2da887146/linked_in_profile) |
-| 2026-10 | **Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B3E75DBC35A98214?sharingId) |
-| 2026-10 | **Microsoft 365 Copilot Chat (Basic) Quick Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8a27e62eb27018f352f3681242e59f62a9c6cd58ea07b08709959310160b551c) |
-| 2026-10 | **Copilot Cowork Quick Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5de60ba5942faf9be4932676d472af3082c19df3ea48b8cbcf1ab957f3c4177c) |
-| 2026-10 | **Microsoft Applied Skills: Integrate model context protocol tools with agents in Microsoft Foundry** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/D296FE0D58F3B6D0?sharingId) |
-| 2026-10 | **AWS Knowledge: Amazon Connect Developer - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/linked_in_profile) |
-| 2026-10 | **Teamwork Foundations (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a8f6f668b2cf734913bdc2899aa6b2b6a2d7c9a2d8ca82528bb5082f4eb34228) |
-| 2026-10 | **Learning Microsoft 365 Copilot for Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/339342b2a5fd135bb57b7230ce10fad15bb11c08376a50c57bfc1bf6018b8956) |
-| 2026-10 | **Microsoft Azure Essentials by Microsoft Press** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/69e688e0189684be87310ff1edd2cbaf0747931994311be90672c945afe18455) |
-| 2026-10 | **Serving Multimedia Content with Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28829629?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **Developing Applications with Cloud Run on Google Cloud: Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28830363?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **Machine Learning for Data Science Projects** | IBM | [Verify Record](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/linked_in_profile) |
 | 2026-10 | **User Experience Design Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/linked_in_profile) |
@@ -62,8 +51,19 @@ artifacts: complete, index
 | 2026-10 | **Applying SAP Data Services Transformation Techniques** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xabar-nyguc-mynup-nyser-dofut) |
 | 2026-10 | **Using SAP Data Services Advanced Techniques** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xetyf-favur-ripar-lugat-tudeg) |
 | 2026-10 | **Exploring SAP Data Services** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xalef-kareb-meton-rivod-dupec) |
+| 2026-10 | **Introducing the Implementation Process of SAP Engagement Cloud, Enterprise Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyvev-babed-guvep-hanob-sylyd) |
+| 2026-10 | **Developing a Universe: Fundamental Concepts of SAP BusinessObjects Information Design Tool** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xeban-cuvik-bidic-tefof-nitit) |
+| 2026-10 | **Developing a Universe: Advanced Concepts of SAP BusinessObjects Information Design Tool** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xakad-vymir-cukym-rifum-daged) |
+| 2026-10 | **Converting a UNV Universe to UNX** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xetov-dikuc-vykid-tygeh-hanug) |
+| 2026-10 | **Integrate Applications with Gemini on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29000448?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Responsible AI for Developers: Privacy & Safety** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29001105?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
 | 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
+| 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
+| 2026-09 | **Getting Started as a LinkedIn Learning Admin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fe023a5e666217da82c02a4d2515e674acba39f2c4330cdd0281dc67328aebc8) |
+| 2026-09 | **Derive Insights from BigQuery Data Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/linked_in_profile) |
+| 2026-09 | **Essentials - Acronis Cyber Platform: Automate** | Acronis | [Verify Record](https://www.credly.com/badges/47021d40-dba0-4fa9-8853-e28fe207dea1/linked_in_profile) |
+| 2026-09 | **Essentials - Acronis Cyber Platform: Manage** | Acronis | [Verify Record](https://www.credly.com/badges/dc4210de-cbe7-47f4-97b8-ecbb7df7becd/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-09-part-39.md](./linkedin-certifications-2026-09-part-39.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-41.md](./linkedin-certifications-2026-10-part-41.md)

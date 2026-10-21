@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 38 of 42
 date_range: 2026-09 to 2026-09
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-38.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,11 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-09 | **Develop Serverless Applications on Cloud Run Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/de882ce6-face-43c9-95b2-db616dd32f16/linked_in_profile) |
-| 2026-09 | **Nano Tips for Managing Neurodivergent Teams with Kate Isichei** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a73cd94ed49f84d7a30d9479713418407fcc17bf627dfa3ebb7949335f02fa0d) |
-| 2026-09 | **A First Look at the LinkedIn Hiring Assistant in Recruiter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8ad8521cc738f34bf6f8132215c74f69c72a565af1322611ed40a461a88880e3) |
-| 2026-09 | **Essentials - How to Migrate to the Acronis Cyber Platform** | Acronis | [Verify Record](https://www.credly.com/badges/fa585e84-9608-46de-ae63-6f6577f58ac8/linked_in_profile) |
-| 2026-09 | **Essentials - How to Sell the Acronis Cyber Platform** | Acronis | [Verify Record](https://www.credly.com/badges/d7515459-db41-43fd-b6f8-5b5b1344362f/linked_in_profile) |
 | 2026-09 | **Marketing Funnel Essentials** | Basis | [Verify Record](https://www.credly.com/badges/3e508494-0af6-4ecd-8087-b67a5997489e/linked_in_profile) |
 | 2026-09 | **Information Technology Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/a189c2dc-a907-43b0-802e-9448393045c0/linked_in_profile) |
 | 2026-09 | **Code Generation and Optimization Using IBM Granite** | IBM | [Verify Record](https://www.credly.com/badges/a5c6bf0b-8465-41f8-b777-2216d2d49c52/linked_in_profile) |
@@ -67,6 +62,12 @@ artifacts: complete, index
 | 2026-09 | **Tech Pro - Operational Technology (OT) Environments** | Acronis | [Verify Record](https://www.credly.com/badges/6c9fc184-af93-44e1-b187-9144fbd71c33/linked_in_profile) |
 | 2026-09 | **MSP Academy: Troubleshooting** | Acronis | [Verify Record](https://www.credly.com/badges/629f38e8-d8b3-480c-ab63-a263fa47de67/linked_in_profile) |
 | 2026-09 | **MSP Academy: Vulnerability Assessment and Patch Management** | Acronis | [Verify Record](https://www.credly.com/badges/819b0b4a-5357-4d6a-a831-7eefabcc4f75/linked_in_profile) |
+| 2026-09 | **MSP Academy: What is Backup?** | Acronis | [Verify Record](https://www.credly.com/badges/08670e42-d71c-4b03-820b-64b70e8c1715/linked_in_profile) |
+| 2026-09 | **VAR to MSP: Business Transformation Fundamentals** | Acronis | [Verify Record](https://www.credly.com/badges/7eeca65f-9170-4626-ad62-912c7abe978c/linked_in_profile) |
+| 2026-09 | **MSP Academy: What is DLP?** | Acronis | [Verify Record](https://www.credly.com/badges/fae0513e-c599-4ea9-83af-edbf66710f56/linked_in_profile) |
+| 2026-09 | **MSP Academy: What is EDR?** | Acronis | [Verify Record](https://www.credly.com/badges/f447a55a-7699-4bae-8183-ada79bd7696e/linked_in_profile) |
+| 2026-09 | **MSP Academy: XDR Basics** | Acronis | [Verify Record](https://www.credly.com/badges/d0666d2c-aeff-4066-954a-e20f18374074/linked_in_profile) |
+| 2026-09 | **IBM watsonx.data Technical Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2cafe853-8fbf-4941-9b24-00483669d083/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-09-part-37.md](./linkedin-certifications-2026-09-part-37.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-39.md](./linkedin-certifications-2026-09-part-39.md)

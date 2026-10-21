@@ -15,11 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Nano Tips for Saying No at Work with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d4689efbf247a2fd6f4d403ee8ba6b018c383a3fbd3f8a097d5c56f0123d8d8a) |
-| 2026-08 | **Cloud Tech Pro - Email Security** | Acronis | [Verify Record](https://www.credly.com/badges/a94e5a37-1599-485e-a03c-b28d11fdd800/linked_in_profile) |
-| 2026-08 | **NanoTips for Using Mindfulness Strategies to Build Resilience with Gemma Leigh Roberts** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c2097569f5fcf5da5f0c8d29032f10305fd4c9145f065ed7e6dbfde59529b43d) |
-| 2026-08 | **Nano Tips for New Managers with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3456d68d40cbdc0ff177c0dc693af6dc3cc74727f851c6da778e82d1ed83a421) |
-| 2026-08 | **Cloud Tech Professional Home & Business** | Acronis | [Verify Record](https://www.credly.com/badges/664f50a3-c675-434d-890f-4efd62cbfb7d/linked_in_profile) |
 | 2026-08 | **Nano Tips to Prepare for Public Speaking with Nausheen I. Chen** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/82735a90cef548ca06540c364605e9745f10a6d6231b90d2c14134d4c9de2b40) |
 | 2026-08 | **Nano Tips for Landing Your Dream Job with Austin Belcak** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/48845fd3dd9a6067db8073d5f8cd704e816dd6ce7d4b414576e965bcabd93beb) |
 | 2026-08 | **Nano Tips for Communicating with Courage at Work with Tatiana Kolovou** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/02b5769f123c412dddea10de4a96cfdc393f800213e7c5e568881ca14a073710) |
@@ -60,6 +55,11 @@ artifacts: complete, index
 | 2026-08 | **Cilium Host Firewall** | Isovalent | [Verify Record](https://www.credly.com/badges/47e22199-0433-4745-9c12-194fba627617/linked_in_profile) |
 | 2026-08 | **Tetragon TLS Visibility** | Isovalent | [Verify Record](https://www.credly.com/badges/a3d9f055-17d1-479b-ad6c-730a71fdd982/linked_in_profile) |
 | 2026-08 | **Sales Strategy: How to Effectively Sell Your Product or Service** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cb62315bebf4e7cab791df3c67804015080d9203fd4dca4be7467cfc47fff497) |
+| 2026-08 | **Sales: Selling Financial Products and Services** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9ef828274533451f34077393bd94ec46f6bc5a47c924a49eddc4a36172ab1912) |
+| 2026-08 | **Boost Your Career with an Experimental Mindset** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0794e0ce43df17e93aa508748a562eddc2744b62cdd5a79acdad553ed83aeb82) |
+| 2026-08 | **Cilium Multi Networking** | Isovalent | [Verify Record](https://www.credly.com/badges/b1b71f3f-33ae-4d2b-a02d-42a31937b2a1/linked_in_profile) |
+| 2026-08 | **B2B Sales Strategy: Avoid Prospect Stalls and Stops** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bdcd1070dfaa28daec89f6999ec69fcb4694023b560e2ab81080850dbde2c001) |
+| 2026-08 | **Building Resilience as a Leader** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/402bf3c13e482ac2c90c94c383a49ae47d6748e2fa637175ccf949adca64530b) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-32.md](./linkedin-certifications-2026-08-part-32.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md)

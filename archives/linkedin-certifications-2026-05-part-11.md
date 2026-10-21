@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 11 of 42
 date_range: 2026-05 to 2026-05
-total_entries: 55
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-11.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,14 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **SAS Viya Overview** | SAS | [Verify Record](https://www.credly.com/badges/2fdf77a8-806b-4cf7-bbd3-a87225b74bac/linked_in_profile) |
-| 2026-05 | **Dremio Verified Lakehouse Associate** | Dremio | [Verify Record](https://www.credly.com/badges/c0079fd6-071e-48bf-8acd-394880abd3de/linked_in_profile) |
-| 2026-05 | **Dremio Verified Data Analyst** | Dremio | [Verify Record](https://www.credly.com/badges/9fcf4bf3-0cca-4ad9-b9e6-65fd1a08e707/linked_in_profile) |
-| 2026-05 | **Dremio Verified Reflections Specialist** | Dremio | [Verify Record](https://www.credly.com/badges/8a752ed3-b824-4874-b24c-9962301128ab/linked_in_profile) |
-| 2026-05 | **Dremio Verified Data Product Developer** | Dremio | [Verify Record](https://www.credly.com/badges/ffd9f7c2-9815-4f28-bd5f-76ada869307d/linked_in_profile) |
-| 2026-05 | **Dremio Verified AI Architect** | Dremio | [Verify Record](https://www.credly.com/badges/21f0649c-434c-42f7-a233-d7b1a86b18bf/linked_in_profile) |
-| 2026-05 | **Fundamentals of Predictive Project Management** | Project Management Institute | [Verify Record](https://www.credly.com/badges/6ff63094-6930-44d1-83c8-fedaae412178/linked_in_profile) |
-| 2026-05 | **Fundamentals of Agile Project Management** | Project Management Institute | [Verify Record](https://www.credly.com/badges/5829bdb0-b2dd-4e23-9aa4-22c6ea61c8b4/linked_in_profile) |
 | 2026-05 | **Generative AI Overview for Project Managers** | Project Management Institute | [Verify Record](https://www.credly.com/badges/be0d5350-61bb-416c-ac0d-13fe417cdf7c/linked_in_profile) |
 | 2026-05 | **NASA Open Science 101** | NASA - National Aeronautics and Space Administration | [Verify Record](https://www.credly.com/badges/b367bbf7-307f-40f3-82ac-975d987f525f/linked_in_profile) |
 | 2026-05 | **SAP Business Network Supplier Portal Fundamentals** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomut-balyp-kavic-teriv-vepyt) |
@@ -70,6 +62,11 @@ artifacts: complete, index
 | 2026-05 | **ZEDEDA Edge Orchestration Essentials** | ZEDEDA | [Verify Record](https://www.credly.com/badges/d481756e-959f-471c-8d68-3f0ebd5d3775/linked_in_profile) |
 | 2026-05 | **ZEDEDA Certified Edge Computing Associate (ZCEA)** | ZEDEDA | [Verify Record](https://www.credly.com/badges/26649e2a-0f74-463a-a67c-7796888e7477/linked_in_profile) |
 | 2026-05 | **Human-Centered AI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23912864?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **AI Boost Bootcamp: How to Use Gemini at Work 101** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913042?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Add Agent Guardrails with Callbacks** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913217?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Running Oracle Workloads on Google Cloud: Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913319?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Agentic Strategy: Discover, Design, and Prototype** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913646?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **AI-powered Database Management with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913792?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-10.md](./linkedin-certifications-2026-05-part-10.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-12.md](./linkedin-certifications-2026-05-part-12.md)

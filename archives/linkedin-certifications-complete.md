@@ -1,12 +1,12 @@
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 1904 records.
+This document represents a unified, verifiable list of all 1918 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-20T03:27:50.129229+00:00 -->
+<!-- retrieved_at: 2026-10-21T05:59:12.260565+00:00 -->
 
 ## Verified Records Archive
 
@@ -133,6 +133,12 @@ This document represents a unified, verifiable list of all 1904 records.
 | 2026-10 | **Applying SAP Data Services Transformation Techniques** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xabar-nyguc-mynup-nyser-dofut) |
 | 2026-10 | **Using SAP Data Services Advanced Techniques** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xetyf-favur-ripar-lugat-tudeg) |
 | 2026-10 | **Exploring SAP Data Services** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xalef-kareb-meton-rivod-dupec) |
+| 2026-10 | **Introducing the Implementation Process of SAP Engagement Cloud, Enterprise Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyvev-babed-guvep-hanob-sylyd) |
+| 2026-10 | **Developing a Universe: Fundamental Concepts of SAP BusinessObjects Information Design Tool** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xeban-cuvik-bidic-tefof-nitit) |
+| 2026-10 | **Developing a Universe: Advanced Concepts of SAP BusinessObjects Information Design Tool** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xakad-vymir-cukym-rifum-daged) |
+| 2026-10 | **Converting a UNV Universe to UNX** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xetov-dikuc-vykid-tygeh-hanug) |
+| 2026-10 | **Integrate Applications with Gemini on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29000448?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Responsible AI for Developers: Privacy & Safety** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29001105?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
 | 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 | 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
@@ -1546,6 +1552,14 @@ This document represents a unified, verifiable list of all 1904 records.
 | 2026-05 | **Website Modernization with Generative AI on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24328413?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Introduction to Data Analytics on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24448908?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Developing Data Models with LookML** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24560747?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Extending cloud solutions with SAP Cloud Applications Studio** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xafoh-napob-bedus-cidif-lusik) |
+| 2026-05 | **Creating and Managing a Strategic Plan and Document** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xanun-pikyf-makyg-pekuf-suvup) |
+| 2026-05 | **Introducing Concur Travel Administration Fundamentals - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xygas-novyl-rydyp-tugip-nepan) |
+| 2026-05 | **Exploring Company Administration Features in legacy Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuryr-mubug-tegog-mecas-vabap) |
+| 2026-05 | **Exploring User Administration Features in legacy Concur Travel - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xucir-ropyn-dacas-lelir-synih) |
+| 2026-05 | **Managing Travel Admin Features in Legacy Concur Travel - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xehur-kibem-sisoc-sinyl-kepit) |
+| 2026-05 | **Managing Data Retention in Legacy Concur Travel - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesok-fyvug-gibum-potat-digem) |
+| 2026-05 | **Positioning Solutions for Design in SAP Supply Chain Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xufeh-diveg-rones-barog-hogev) |
 | 2026-04 | **Campaign manager 360 Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/c9bfd359-05b1-4751-8872-a99c43f4883b) |
 | 2026-04 | **Provisioning and Implementing Joule - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/a66fc475-3933-4417-ad38-02e9ab7c8fa2/linked_in_profile) |
 | 2026-04 | **Applying a Human-Centered Approach to Identify and Define Business AI Use Cases - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/a6b2b584-95c7-4ee4-97dd-3765ecebbc8a/linked_in_profile) |

@@ -15,13 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **What It Takes to Lead Your Team Through Turbulence** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8dfbcac043f39dd33aa576cfe18e282b8e80c2e23316d973dd078bfd71eb03cf) |
-| 2026-06 | **Winning With Intelligent Choice Architectures** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2dd3994569e774cfaa8ab9275d6f73ce962e2e4d45395d7f8110bf6026aeb5a5) |
-| 2026-06 | **Responsible AI: Global Risks, Governance, and Human Oversight** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0f66eda19ac62c34e4d5d7d8aa5a4481aa543081a4304bf204272209b91ac453) |
-| 2026-06 | **Build Trust and Grow Your Business with a LinkedIn Premium Company Page** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a027c039a5ed6c081bdf722f8d65eb01015ac9489e265e3df5cff03e35096e49) |
-| 2026-06 | **John Maeda on Design, Business, and Inclusion** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8e75f17485c10fc13b52e65d4d26b138400058e1888107078a6b75ff12ca9f2a) |
-| 2026-06 | **Tony Schwartz on Managing Your Energy for Sustainable High Performance** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5e9cc24842cda50f49ac9304cdff3e0e0a91370e75e4f52dd15d19a14c029996) |
-| 2026-06 | **Why Trust Matters with Rachel Botsman (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9a1fbf1c4f8e90043ba31ca651716e9aa8a0752bc3950157e413436ad0c25887) |
 | 2026-06 | **Nano Tips for Sales Strategy Success with Marcus Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ec5028f4ad3e4188e3390e4ad54341926412a2614fb9f02514b19215fc5e019) |
 | 2026-06 | **Nano Tips For Hosting Story Circles to Unlock Team Wisdom with David Hutchens** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b3023119242d5918b3b4a01d34e3656a80089d7eb0d5df8ff8ff134f775d143c) |
 | 2026-06 | **Soon Yu on Creating Timeless Brands** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ad3441e13a3ad97f6c7ae2b321aef9c4ebe83837ac1086f2002c78af696cc14c) |
@@ -59,6 +52,13 @@ artifacts: complete, index
 | 2026-06 | **Leading the Shift: The future of generative AI for scientific discovery \| Microsoft Research** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1424804f84d57d72a00032f30dcc1e2348379c803d36360b657fd048a559884b) |
 | 2026-06 | **Nano Tips for Acing Your SQL Interview with Nick Singh** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/45391660c2eb503114f3724cd2f42d69455ddfac92914c160bb58622f821933f) |
 | 2026-06 | **Nano Tips for Leveraging Technical Prompts Using ChatGPT with Lachezar Arabadzhiev (2023)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/439e5d0dae02f31c24a1f9fdbc1a643e1684250e5b3cc2d23bff28ea1e495c86) |
+| 2026-06 | **Nano Tips for Using Anthropic's Claude AI with Lachezar Arabadzhiev** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d42898ae506925d4097d7c642f2d7baa41f8b86cc1d01e30952b2ee0fa575784) |
+| 2026-06 | **Nano Tips for Effective Networking at Work with Kristi Kennebrew** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/82ba843d192253231bcbfd109d9f3362addd25bf65ebdfbb920ab434f7d8c44c) |
+| 2026-06 | **Nano Tips for Increasing Your Creativity with Chris Croft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30f3dea0f73e8e0ebf7f52359fd097cef6ce954ea08d3b553bdf254d3975f5b8) |
+| 2026-06 | **The Creative Spark: Nick Onken, Travel and Lifestyle Photographer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/718370f2e9cfd24c06967b0d701352b2b25ed447113ca563f9737f2f45b0b42b) |
+| 2026-06 | **The Creative Spark: Between Two Worlds, The Hybrid Animation of Tiny Inventions** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0eec1783687f4f4e5f4d3e7429c527ae3fa58e2c169845b900849020db398ed2) |
+| 2026-06 | **The Creative Spark: Brian Taylor, Handmade Photography** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d82dbf2d2c9a8cb240434788bc58ed2e07c8d8f80ff8fd972fdc09087673407e) |
+| 2026-06 | **The Creative Spark: Stacey Williams-Ng, Interactive Book Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7c940f25a9a57f834575ed43b016a985e591bd7eaeced0e1b86616eead68d076) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-17.md](./linkedin-certifications-2026-06-part-17.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-19.md](./linkedin-certifications-2026-06-part-19.md)

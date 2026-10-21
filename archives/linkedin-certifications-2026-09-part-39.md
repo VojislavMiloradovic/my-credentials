@@ -15,11 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
-| 2026-09 | **Getting Started as a LinkedIn Learning Admin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fe023a5e666217da82c02a4d2515e674acba39f2c4330cdd0281dc67328aebc8) |
-| 2026-09 | **Derive Insights from BigQuery Data Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/linked_in_profile) |
-| 2026-09 | **Essentials - Acronis Cyber Platform: Automate** | Acronis | [Verify Record](https://www.credly.com/badges/47021d40-dba0-4fa9-8853-e28fe207dea1/linked_in_profile) |
-| 2026-09 | **Essentials - Acronis Cyber Platform: Manage** | Acronis | [Verify Record](https://www.credly.com/badges/dc4210de-cbe7-47f4-97b8-ecbb7df7becd/linked_in_profile) |
 | 2026-09 | **Lifelong Professional Skills** | IBM | [Verify Record](https://www.credly.com/badges/e981ea1d-c27f-4baf-9811-f8eb8a44c7cd/linked_in_profile) |
 | 2026-09 | **Career Management Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2a1cf5d5-5ba0-4d9a-86ad-a1c1b920f2e8/linked_in_profile) |
 | 2026-09 | **Nano Tips to Build Authority on LinkedIn with Shadé Zahrai & Jasmin Alić** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b36e8947f730009d5fc4fb6daa85358c35953451a997ccf08240970b86caeca1) |
@@ -63,6 +58,11 @@ artifacts: complete, index
 | 2026-09 | **Programmatic Essentials** | Basis | [Verify Record](https://www.credly.com/badges/c13f56ad-cf6b-4e39-b941-53df80b3e391/linked_in_profile) |
 | 2026-09 | **Data Essentials** | Basis | [Verify Record](https://www.credly.com/badges/3edec3e1-d0d2-400b-82c1-7da1d34ec078/linked_in_profile) |
 | 2026-09 | **AWS Educate Getting Started with Compute - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1be6c262-db05-4138-bbe6-62e93c73e5ac/linked_in_profile) |
+| 2026-09 | **Develop Serverless Applications on Cloud Run Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/de882ce6-face-43c9-95b2-db616dd32f16/linked_in_profile) |
+| 2026-09 | **Nano Tips for Managing Neurodivergent Teams with Kate Isichei** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a73cd94ed49f84d7a30d9479713418407fcc17bf627dfa3ebb7949335f02fa0d) |
+| 2026-09 | **A First Look at the LinkedIn Hiring Assistant in Recruiter** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8ad8521cc738f34bf6f8132215c74f69c72a565af1322611ed40a461a88880e3) |
+| 2026-09 | **Essentials - How to Migrate to the Acronis Cyber Platform** | Acronis | [Verify Record](https://www.credly.com/badges/fa585e84-9608-46de-ae63-6f6577f58ac8/linked_in_profile) |
+| 2026-09 | **Essentials - How to Sell the Acronis Cyber Platform** | Acronis | [Verify Record](https://www.credly.com/badges/d7515459-db41-43fd-b6f8-5b5b1344362f/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-09-part-38.md](./linkedin-certifications-2026-09-part-38.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-40.md](./linkedin-certifications-2026-10-part-40.md)

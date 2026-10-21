@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 31 of 42
 date_range: 2026-08 to 2026-08
-total_entries: 39
+total_entries: 42
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-31.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,11 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Nano Tips on How to Apologize Authentically with Arti Halai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b8516aa5d871050f4893098576f4c6d67194437a81425c03cecaeb7775fb8e23) |
-| 2026-08 | **Nano Tips for Overcoming Imposter Syndrome at Work with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cae79de2ce1addf6ce36acb939781918c80e1c09803a44ddb9eed0e938d71b24) |
-| 2026-08 | **Personal Finance Nano Tips with Brittney Castro** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4ace4fdf7e59f338eab06b7f5ab10c4df6f92e8032d300292d7cfe39979f10ef) |
-| 2026-08 | **Nano Tips for Empathetic Leadership with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fc9eaaff841ad500c00df042468d9ae8d400dfdf2d8cd7434823302912940466) |
-| 2026-08 | **Career Wellness Nano Tips with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e73dd34442fe2f554bb5855e1dfa98b968f4ffd4c8786ba3ec9d0d44c8643d16) |
 | 2026-08 | **Nano Tips for Navigating Life After Layoff with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3c5d95836de6cf11d1192b2abf6dbd140def8e712004c2e78e662f25c435b7cc) |
 | 2026-08 | **Google Cloud Agent Governance and Security** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284033?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **Gemini in Google Workspace Studio** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284806?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -54,6 +49,14 @@ artifacts: complete, index
 | 2026-08 | **Analyze Sentiment with Natural Language API Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/4ad490cd-fa1d-4436-8895-6d233aa59d3f/linked_in_profile) |
 | 2026-08 | **Monitoring in Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/7f426d35-6e3b-419e-8236-e382d94e9666/linked_in_profile) |
 | 2026-08 | **Arcade Base Camp August 2026** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27329116?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-08 | **Cloud Tech Professional Security Awareness Training** | Acronis | [Verify Record](https://www.credly.com/badges/a27ae8fb-f3f3-4cec-9c2c-b6ba415f4150/linked_in_profile) |
+| 2026-08 | **Cloud Tech Professional Microsoft 365** | Acronis | [Verify Record](https://www.credly.com/badges/da472709-da7d-4ddd-9611-e119004c08f3/linked_in_profile) |
+| 2026-08 | **Cloud Computing Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/3372ff55-1a0f-4fd1-b85e-4642dae974c0/linked_in_profile) |
+| 2026-08 | **Getting Started with Data** | IBM | [Verify Record](https://www.credly.com/badges/0fa215bc-cc0b-46a6-a2cd-2963394e085d/linked_in_profile) |
+| 2026-08 | **Kubernetes Packet Capture with Isopcap** | Isovalent | [Verify Record](https://www.credly.com/badges/9d1ee8e2-bc9c-491e-aea3-9b28c417ddff/linked_in_profile) |
+| 2026-08 | **Cilium SCTP** | Isovalent | [Verify Record](https://www.credly.com/badges/93beb0d4-956a-4579-b936-626a9fd880d8/linked_in_profile) |
+| 2026-08 | **Isovalent Lab Champion (40 labs)** | Isovalent | [Verify Record](https://www.credly.com/badges/ca469b74-715c-4426-915e-a0b50da4cdd7/linked_in_profile) |
+| 2026-08 | **Network Policy Governance** | Isovalent | [Verify Record](https://www.credly.com/badges/09b34caf-720a-4689-9559-a2fa0ff72b79/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-30.md](./linkedin-certifications-2026-08-part-30.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-32.md](./linkedin-certifications-2026-08-part-32.md)

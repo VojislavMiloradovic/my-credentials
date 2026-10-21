@@ -15,14 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Nano Tips for Using Google Gemini with Lachezar Arabadzhiev** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d86ee77113aceac4150008cec659aea6c5720e807283fe46ac83a95f85568ba7) |
-| 2026-06 | **Hands-On Data Analysis with Claude** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b91dfd802b0e9b25c960a8b4aefb6ef8ae3ef8ae7f071d98c93be04e6f6909d8) |
-| 2026-06 | **The Communicator’s Guide to AI: Tools and Mindsets for Modern PR and Media** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/26950470cfe6e4236413bae916f703c0a4f5d5f6b81449bb3bd91801dea35404) |
-| 2026-06 | **Networking in the Age of AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7e528400b1314be7944d5e58b5d4344e05fae2283f4f2df955aa05dd77ab9e3a) |
-| 2026-06 | **AWS Knowledge: Block Storage - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/62acad1e-85b7-4c83-99d4-55b512552814/linked_in_profile) |
-| 2026-06 | **Using Gen AI to Develop Personalized Learning Plans** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8e5e8cebf45d4aa9f58cc0547fa3394fdcbdc1a8d2d63066e6d090c4f4ab076c) |
-| 2026-06 | **Smarter Thinking and Better Living in an AI World: A Conversation with Daniel Pink** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b651732ce04934d8bd0de1270ee70c4489e7dd1e79e1bfb00e3a5cb0b88db32b) |
-| 2026-06 | **How to Build Your First AI Agent with ChatGPT** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1eafa8b7b7fae0902449a7f16e7cb8fd391ef1c2723aff5b61cdd43cb4de6bc0) |
 | 2026-06 | **AI on Intel® Xeon® Processors** | Intel | [Verify Record](https://www.credly.com/badges/868a09ec-ec7b-4c1f-97e3-aad9d4c6cfa9/linked_in_profile) |
 | 2026-06 | **How to Network Smarter with Dorie Clark** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4a5f27d5ccf6bbbd456ebb5e7cf133f85773a1c0e2b89e03838e5faa5ce62d89) |
 | 2026-06 | **Organize Users with Groups** | Okta | [Verify Record](https://www.credly.com/badges/1783bc8c-6c64-44b3-901c-95e0cfacac79/linked_in_profile) |
@@ -60,6 +52,14 @@ artifacts: complete, index
 | 2026-06 | **Following the Digital Thread** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2de4d9a806e9113e43bca92602a20daff2b7c3d6f7c74321eec50e42a5330bd7) |
 | 2026-06 | **Smarter Cities: Using Data to Drive Urban Innovation** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a8bdb9cf7884dbceb9bbc011b4d369fc1319291fb7e9c193511918e8fd110dd4) |
 | 2026-06 | **Fundamentals of AI Engineering: Principles and Practical Applications** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30dc17dd541da4a5ae1729145f9ae71e9f925b7f8502f32ce3a735e043221e58) |
+| 2026-06 | **Tech Trends** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ac02c19fcdd18cad8a179577ad1cf906abe8f635f23943279be0827b6bc4b7f) |
+| 2026-06 | **The Cybersecurity Threat Landscape** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/37c77bf43dad94c0c2138aca7af0664db1af0b39672e3c5942764df83a8fbf20) |
+| 2026-06 | **Generative AI: The Evolution of Thoughtful Online Search** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/55872f296092615790f03f381eae96ff3a616c17a0eb8bedc431bc1285de2cba) |
+| 2026-06 | **Boost Your Problem-Solving Skills with Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d360604d03e1fd553eec5165852c724e8575a19239e957c7993cbf1c3f9b1df1) |
+| 2026-06 | **Microsoft Security Essentials: Concepts, Solutions, and AI-Powered Protection** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/13215d1eee44a9b4ef68296bd5caa417d2dc0fb2f44a8308460b515e6470686e) |
+| 2026-06 | **Hands-On AI: Building LLM-Powered Apps** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0d853f846cf44f72262edeaba7177d0caa56a5d3f8bc78df6f8b5d7dd59b0107) |
+| 2026-06 | **Nano Tips for Developing a Content Calendar with Ross Simmonds** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/76ee656409dfd9558c8431ffcd32e93095ab8ac7b7a21b624204b14e38a15e01) |
+| 2026-06 | **Recommendation Systems: A Practical Hands-On Introduction** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b40dfc984976a7ead304b9dcf86b8569069858efa6ac59a294b90ee65d96db2c) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-20.md](./linkedin-certifications-2026-06-part-20.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-22.md](./linkedin-certifications-2026-06-part-22.md)

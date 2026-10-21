@@ -15,13 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Nano Tips for Navigating Corporate Culture with Watchen Nyanue** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8ded0b8ada19903a6cd4a4a6ebdcf6a155b4dd3e6f071f0bea7c4b3df1aba6ce) |
-| 2026-06 | **Get Started with Auth0 Tenants** | Okta | [Verify Record](https://www.credly.com/badges/a626c5ef-b24c-4dce-be69-548d51377e78/linked_in_profile) |
-| 2026-06 | **AI Fluency: Generative AI for Workforce Agency Administrators by Microsoft and NAWB** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f2c1ee6ae0c4c71f9af8a92fe7be726eee4f1d2f0e112cb5c920dbfa7b225276) |
-| 2026-06 | **AI Fluency: Generative AI for Career Growth and Job Search by Microsoft and NAWB** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9d697e6d062b3dfd9fa19cd6b386ba7bf8c0ef80b9b7fe281be67c19df93932f) |
-| 2026-06 | **A Standalone Project: Use AI-Driven Exploration to Develop Predictive Models to Anticipate Future Company Registrations for Informed Decision-Making** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e0194266100e7a85c3a1aef8f0d591bc7edc97176693d2671faf7d69719bff0d) |
-| 2026-06 | **10-in-10 AI Challenge** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/26d954210aa0a072d7ac847f5889fb7f58aca2ef08b47c1168c804c6c58be605) |
-| 2026-06 | **Nano Tips for Effective Collaboration with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/254d88ed5c73454fc8b516cddad9d8e57b9cf8438d0d121160f69daf9774459c) |
 | 2026-06 | **Nano Tips for Negotiating Your Salary with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0552739b1a94666133bae41201d0059814929e6c478d4233026bcfaddcd983cf) |
 | 2026-06 | **Nano Tips for Enterprise Thinking to Drive Strategic Action with Andy Eninger** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/375a44074a2882d13bae709805b67f3480e71ea906a9d7ffe29afbd61066c589) |
 | 2026-06 | **Nano Tips for Building Strong Asking Skills with Tatiana Kolovou** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9ed011a5064be4f1e3bae5a30d00688d7bc68fb01b5c4a255cc322c5003c389d) |
@@ -60,6 +53,13 @@ artifacts: complete, index
 | 2026-06 | **Nano Tips for Peak Performance with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c888652b4433279e1d16da2a6b90188cb53dab0f633de508720d021963578ce6) |
 | 2026-06 | **Nano Tips for Optimizing Your Content for Social Media Algorithms with Sam Dey** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b8d69bb161e1e861f0ccf5fd5dcc3ace8ddde639573890d0821d19d69230b4f9) |
 | 2026-06 | **Business Model Innovation: Seven Essentials** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dbb82feb9ad3336aec9ba43b7621e1d42279ca4dfc1e52ada642d89577a56cef) |
+| 2026-06 | **Nano Tips on How to Use Storytelling for Problem Solving with Ash Rathod** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/29a2741c5a743864fb844de0116b5dd08202c26dee2773469ed99e50a7275bd4) |
+| 2026-06 | **Nano Tips for Video Creation on LinkedIn with Roshanda Pratt** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6bb8cf37faaff1f89c01c174518e4e1ed8617254fe9e4ed7d49d2f2a82637402) |
+| 2026-06 | **Beginner Sales Nano Tips with Miles Croft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/872044416d3991448d30f5f9326d0ffdd2b23191891359248163acdc0e3897ca) |
+| 2026-06 | **Nano Tips for Aspiring Product Managers with Cherie Luo** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/32b5bb1d541a44f76f81eb5f4ea97c496bf7df90fc236a57f781d804fb966655) |
+| 2026-06 | **Nano Tips for Demonstrating Your Transferable Skills with Diana YK Chan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1c41ecf7e6908ba8ec152875bb13239cd014e9b87d8021bd11cccfbd12f17e79) |
+| 2026-06 | **AI Agents for Marketing: Automate Workflows with Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a41085d43fe496fc2f4c1f7133b13d1de652ae649d739bcb8869044c98735a14) |
+| 2026-06 | **Storytelling to Connect People with Purpose with Liz Fosslien** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6e856a80cf2fb8610dc05710e8096b5cc9db942acec4ae3eba57e6bb35d4f9f1) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-13.md](./linkedin-certifications-2026-06-part-13.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-15.md](./linkedin-certifications-2026-06-part-15.md)

@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 36 of 42
 date_range: 2026-08 to 2026-09
-total_entries: 48
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-36.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,9 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-09 | **Nano Tips to Build Grit for Mental Toughness with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f0a50ee278898eb55b016382d245a442fc5e0e9d6462a515546f75db6f0a96d3) |
-| 2026-09 | **Bitter Choices: Navigating Global Cocoa Sourcing Tradeoffs (Cocoa Supply Chain Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eb4f82e71a3ad6a07b3e71b3664daa6247bb34894e03a352790cc99b15f1e5d0) |
-| 2026-09 | **Seeing beyond the Box: Smarter Inspection with Computer Vision (Intel Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/044ed3ce749b2e9eaa577dd08432a3099f8eb8edd0eaaa5eafd75692cdd89de9) |
 | 2026-09 | **AI Skills in Minutes: Quick Wins for Prompting, Research, and Productivity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b093a2348d83daff6928fd6fddc86d47b5ad04aae73139c20fa56fb483ab5b40) |
 | 2026-09 | **Closing the Loop: Reinventing Reusable Packaging at Scale (Roambee Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6d910f129cb6c8c96390f6d5a22ad7f85efcba082c8f0f760334af61feac5eb1) |
 | 2026-09 | **Resilience in Action: Managing Disruptions in Tech Supply Chains (Dell Technologies Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ca29ff9fb66c0b5fed769daa2959cdbb0b660e89c59baf9d728c8b8df5a60cd6) |
@@ -63,6 +60,11 @@ artifacts: complete, index
 | 2026-08 | **Continuous Security Validation Workshop** | AttackIQ | [Verify Record](https://www.credly.com/badges/132269ac-0ab7-4b20-91c4-76ed7fa3359e/linked_in_profile) |
 | 2026-08 | **Cilium Gateway API** | Isovalent | [Verify Record](https://www.credly.com/badges/7a20ae99-3df6-481e-8b3a-9b20d2db3dea/linked_in_profile) |
 | 2026-08 | **Cilium Cluster Mesh** | Isovalent | [Verify Record](https://www.credly.com/badges/4330e262-6e46-4c65-90ba-53174b20d55d/linked_in_profile) |
+| 2026-08 | **Cilium Ingress Controller** | Isovalent | [Verify Record](https://www.credly.com/badges/29a5efa1-d0ce-4c25-a983-f3b435be6b59/linked_in_profile) |
+| 2026-08 | **Isovalent Lab Champion (10 labs)** | Isovalent | [Verify Record](https://www.credly.com/badges/1aa636d3-d301-4b4b-8808-e3da552cfc0b/linked_in_profile) |
+| 2026-08 | **Tetragon Getting Started** | Isovalent | [Verify Record](https://www.credly.com/badges/dffe3f42-4e0a-49bd-92f7-2646e68f51eb/linked_in_profile) |
+| 2026-08 | **Cilium Network Policies** | Isovalent | [Verify Record](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/linked_in_profile) |
+| 2026-08 | **Cilium Flow Encryption** | Isovalent | [Verify Record](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-35.md](./linkedin-certifications-2026-08-part-35.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-37.md](./linkedin-certifications-2026-09-part-37.md)

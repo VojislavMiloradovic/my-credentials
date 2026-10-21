@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 17 of 42
 date_range: 2026-06 to 2026-06
-total_entries: 45
+total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-17.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,13 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-06 | **Nano Tips for Using Anthropic's Claude AI with Lachezar Arabadzhiev** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d42898ae506925d4097d7c642f2d7baa41f8b86cc1d01e30952b2ee0fa575784) |
-| 2026-06 | **Nano Tips for Effective Networking at Work with Kristi Kennebrew** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/82ba843d192253231bcbfd109d9f3362addd25bf65ebdfbb920ab434f7d8c44c) |
-| 2026-06 | **Nano Tips for Increasing Your Creativity with Chris Croft** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30f3dea0f73e8e0ebf7f52359fd097cef6ce954ea08d3b553bdf254d3975f5b8) |
-| 2026-06 | **The Creative Spark: Nick Onken, Travel and Lifestyle Photographer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/718370f2e9cfd24c06967b0d701352b2b25ed447113ca563f9737f2f45b0b42b) |
-| 2026-06 | **The Creative Spark: Between Two Worlds, The Hybrid Animation of Tiny Inventions** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0eec1783687f4f4e5f4d3e7429c527ae3fa58e2c169845b900849020db398ed2) |
-| 2026-06 | **The Creative Spark: Brian Taylor, Handmade Photography** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d82dbf2d2c9a8cb240434788bc58ed2e07c8d8f80ff8fd972fdc09087673407e) |
-| 2026-06 | **The Creative Spark: Stacey Williams-Ng, Interactive Book Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7c940f25a9a57f834575ed43b016a985e591bd7eaeced0e1b86616eead68d076) |
 | 2026-06 | **Audio and Music Production Careers: First Steps** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1861e2312dcf4b21928e5f2a3c355176e31141cb6fe248fef57c32de164578a3) |
 | 2026-06 | **Margo Chase's Hand-Lettered Poster: Start to Finish** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0d4c6b1bc3ff2bd11693dbf1398bf69eac5de28eaba15323b6d1a6e6ec25732e) |
 | 2026-06 | **The Creative Spark: Title Case, Typographic Artisans** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a2556a77c126455a280c7e97234f638dd5705061f8a30f020e55c84c8d2a0d62) |
@@ -60,6 +53,12 @@ artifacts: complete, index
 | 2026-06 | **DJ Patil on Data Science: The Ask Me Anything Conversations** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0acbba7b2cf62360a44793259109fac10273ad7c3ed0516f9126862949567c76) |
 | 2026-06 | **Analyzing and Visualizing Data in Looker** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24658131?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-06 | **Google Cloud Essentials** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24830932?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-06 | **Managing Cloud Infrastructure with Terraform** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24879428?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-06 | **Essential Google Cloud CLI Tools** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24880145?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-06 | **AI Boost Bootcamp: How to Use Gemini for Marketing 201** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24914097?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-06 | **Troubleshooting with AI Using Cloud Assist Investigations** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25020466?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-06 | **Customer Experience Agent Studio: Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25048886?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-06 | **Understanding LookML in Looker** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25096293?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-06-part-16.md](./linkedin-certifications-2026-06-part-16.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-18.md](./linkedin-certifications-2026-06-part-18.md)

@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 37 of 42
 date_range: 2026-09 to 2026-09
-total_entries: 50
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-37.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,12 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-09 | **MSP Academy: What is Backup?** | Acronis | [Verify Record](https://www.credly.com/badges/08670e42-d71c-4b03-820b-64b70e8c1715/linked_in_profile) |
-| 2026-09 | **VAR to MSP: Business Transformation Fundamentals** | Acronis | [Verify Record](https://www.credly.com/badges/7eeca65f-9170-4626-ad62-912c7abe978c/linked_in_profile) |
-| 2026-09 | **MSP Academy: What is DLP?** | Acronis | [Verify Record](https://www.credly.com/badges/fae0513e-c599-4ea9-83af-edbf66710f56/linked_in_profile) |
-| 2026-09 | **MSP Academy: What is EDR?** | Acronis | [Verify Record](https://www.credly.com/badges/f447a55a-7699-4bae-8183-ada79bd7696e/linked_in_profile) |
-| 2026-09 | **MSP Academy: XDR Basics** | Acronis | [Verify Record](https://www.credly.com/badges/d0666d2c-aeff-4066-954a-e20f18374074/linked_in_profile) |
-| 2026-09 | **IBM watsonx.data Technical Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2cafe853-8fbf-4941-9b24-00483669d083/linked_in_profile) |
 | 2026-09 | **IBM watsonx.governance: Technical Essentials** | IBM | [Verify Record](https://www.credly.com/badges/e07c113b-ca43-4ec4-9f69-2659d207134a/linked_in_profile) |
 | 2026-09 | **Craft Precise Prompts for AI Models** | IBM | [Verify Record](https://www.credly.com/badges/25d554f0-f025-4d06-aa44-3cb6c43a60e6/linked_in_profile) |
 | 2026-09 | **Data Classification and Summarization Using IBM Granite** | IBM | [Verify Record](https://www.credly.com/badges/fb4b0999-a53c-4a1e-bfb4-3fdf51326bdc/linked_in_profile) |
@@ -65,6 +59,9 @@ artifacts: complete, index
 | 2026-09 | **Nano Tips to Manage Layoff Anxiety with Elayne Fluker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/83454980a995e0b3f061f704574a59d9eddc981330bf44ac5219b3a2f7782342) |
 | 2026-09 | **The Executive's Guide to Engaging on LinkedIn: Learning Path Introduction** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7763ea069fb1ea9ded4c53ebdfc71a166d103345d9d5c90069da2b47bc3e7f61) |
 | 2026-09 | **Managing Your Mental Health in Your First Corporate Job Nano Tips with Julian Sarafian** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9c4bfd658021eef02f0a57be92c21da5f43b82cec530caec4e22110fda229f11) |
+| 2026-09 | **Nano Tips to Build Grit for Mental Toughness with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f0a50ee278898eb55b016382d245a442fc5e0e9d6462a515546f75db6f0a96d3) |
+| 2026-09 | **Bitter Choices: Navigating Global Cocoa Sourcing Tradeoffs (Cocoa Supply Chain Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eb4f82e71a3ad6a07b3e71b3664daa6247bb34894e03a352790cc99b15f1e5d0) |
+| 2026-09 | **Seeing beyond the Box: Smarter Inspection with Computer Vision (Intel Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/044ed3ce749b2e9eaa577dd08432a3099f8eb8edd0eaaa5eafd75692cdd89de9) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-09-part-36.md](./linkedin-certifications-2026-09-part-36.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-38.md](./linkedin-certifications-2026-09-part-38.md)

@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 30 of 42
 date_range: 2026-07 to 2026-08
-total_entries: 50
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-30.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,14 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Cloud Tech Professional Security Awareness Training** | Acronis | [Verify Record](https://www.credly.com/badges/a27ae8fb-f3f3-4cec-9c2c-b6ba415f4150/linked_in_profile) |
-| 2026-08 | **Cloud Tech Professional Microsoft 365** | Acronis | [Verify Record](https://www.credly.com/badges/da472709-da7d-4ddd-9611-e119004c08f3/linked_in_profile) |
-| 2026-08 | **Cloud Computing Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/3372ff55-1a0f-4fd1-b85e-4642dae974c0/linked_in_profile) |
-| 2026-08 | **Getting Started with Data** | IBM | [Verify Record](https://www.credly.com/badges/0fa215bc-cc0b-46a6-a2cd-2963394e085d/linked_in_profile) |
-| 2026-08 | **Kubernetes Packet Capture with Isopcap** | Isovalent | [Verify Record](https://www.credly.com/badges/9d1ee8e2-bc9c-491e-aea3-9b28c417ddff/linked_in_profile) |
-| 2026-08 | **Cilium SCTP** | Isovalent | [Verify Record](https://www.credly.com/badges/93beb0d4-956a-4579-b936-626a9fd880d8/linked_in_profile) |
-| 2026-08 | **Isovalent Lab Champion (40 labs)** | Isovalent | [Verify Record](https://www.credly.com/badges/ca469b74-715c-4426-915e-a0b50da4cdd7/linked_in_profile) |
-| 2026-08 | **Network Policy Governance** | Isovalent | [Verify Record](https://www.credly.com/badges/09b34caf-720a-4689-9559-a2fa0ff72b79/linked_in_profile) |
 | 2026-08 | **SSE Expert Certification** | Cato Networks | [Verify Record](https://www.credly.com/badges/2d5a7b6b-db2d-4a99-814a-870cea7ec348/linked_in_profile) |
 | 2026-08 | **SASE Advanced Security** | Cato Networks | [Verify Record](https://www.credly.com/badges/3a796ab4-659a-4141-a249-b6f94611201f/linked_in_profile) |
 | 2026-08 | **SASE Deployment and Management** | Cato Networks | [Verify Record](https://www.credly.com/badges/906c5b04-f903-46cb-805c-9b3f0729718f/linked_in_profile) |
@@ -65,6 +57,12 @@ artifacts: complete, index
 | 2026-07 | **Discovering Entrepreneurship** | Cisco | [Verify Record](https://www.credly.com/badges/e0ae2fb9-9f66-424a-a990-8cca00679943/linked_in_profile) |
 | 2026-07 | **Nano Tips For Building a Career in Cybersecurity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/46787484b5a7def9b9500a7f73696124c0b7c3eca978747896c8e9c2eda551bf) |
 | 2026-07 | **Nano Tips for Career Success and Daily Wins with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d4751c8aa6f87f3960668aeac8e812f96c0a052e952297a1723e46355b5f4642) |
+| 2026-07 | **Nano Tips for Understanding AI's Impact to Business with Marco Andre** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4e807863cbb82e544917219c9a4f9975a36ab1f78a1c379b708b1e90c990095f) |
+| 2026-07 | **Nano Tips for Using AI in the Job Search with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a3dd97158bcfeabee945ee220924414173fb1d5bbd2c694d375d58330f0ca0a8) |
+| 2026-07 | **Nano Tips for Resolving Conflict with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c30d25c1ec70e5089898b74440ca15320fb0d88d6391a1f46fdb1dee3e08835a) |
+| 2026-07 | **Nano Tips for Building Soft Skills with Elayne Fluker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ca112ab33733f38994447c983946cb93f89d82b0aa7d018ef7fe5238ceb0a8c8) |
+| 2026-07 | **Nano Tips for Using Excel with Kat Norton** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/06eff828dc88459fc2cf0c54a762747ef7839812c9bc240168cccb3afee3ab4b) |
+| 2026-07 | **Nano Tips for Nailing Your Job Interview with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0109900d1dc0926d443af8e43a60d395f7d1fadb26fa5e4b0688466ddb55438d) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-29.md](./linkedin-certifications-2026-07-part-29.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-31.md](./linkedin-certifications-2026-08-part-31.md)

@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 34 of 42
 date_range: 2026-08 to 2026-08
-total_entries: 42
+total_entries: 43
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-34.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,10 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Closing the Confidence Gap** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f6e44309d93508e783ae21665082d37df9fde01a14e46b9b81e84a107ee3f463) |
-| 2026-08 | **Creating and Delivering Presentations Nano Tips with Jessica Chen** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2ddcf5bde8b5a3139ae0c482634ea7fa1da7828b8c0239de0169aaaccc2328c7) |
-| 2026-08 | **Nano Tips for Communicating with Confidence with Selena Rezvani** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ddb7db09fdedf02fa5c66d29d793773208a66f42c6b7314b1ec2fb57b946584f) |
-| 2026-08 | **Sharing Your Expertise Online Nano Tips with Kim Kaupe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bde819042ebc39e9a21e6e8c5dc6c36253726c52679ec4e8146f7b6a92b485ec) |
 | 2026-08 | **Nano Tips for Professional Networking with AJ Eckstein** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2257545b759b92dcaf9baab5835c1ba048213a362021cb3623d37b812c992833) |
 | 2026-08 | **How to Run Efficient Hybrid Meetings Nano Tips with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dfa309162124860a55b838edda085ea669b53a564f29d29f8ffdb5e87322fc5b) |
 | 2026-08 | **Embracing Unexpected Change (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2cb61befdab7a85f1ee50cb31723e5f72ee1cfdd6f634a88d63284f3c7ba57c7) |
@@ -57,6 +53,11 @@ artifacts: complete, index
 | 2026-08 | **Nano Tips for Using LinkedIn to Close More Sales with Jake Dunlap** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7b17872887e0810f26d85b00ebc3b8d64dfc52de072960f407c806087cfe46c0) |
 | 2026-08 | **Nano Tips for Empathetic Customer Service with Brenda Bailey-Hughes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b3373754a814ad82ca6f74c9eae50f3b3bd3c0625a33e6ef709c3824d1fd6c26) |
 | 2026-08 | **Nano Tips on Becoming the CEO of Your Career with Maya Grossman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8e04a44a77963477d1ed48c55d4a41562e70a067f63dacebfb6139e71d224a83) |
+| 2026-08 | **Nano Tips for Saying No at Work with Melody Wilding** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d4689efbf247a2fd6f4d403ee8ba6b018c383a3fbd3f8a097d5c56f0123d8d8a) |
+| 2026-08 | **Cloud Tech Pro - Email Security** | Acronis | [Verify Record](https://www.credly.com/badges/a94e5a37-1599-485e-a03c-b28d11fdd800/linked_in_profile) |
+| 2026-08 | **NanoTips for Using Mindfulness Strategies to Build Resilience with Gemma Leigh Roberts** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c2097569f5fcf5da5f0c8d29032f10305fd4c9145f065ed7e6dbfde59529b43d) |
+| 2026-08 | **Nano Tips for New Managers with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3456d68d40cbdc0ff177c0dc693af6dc3cc74727f851c6da778e82d1ed83a421) |
+| 2026-08 | **Cloud Tech Professional Home & Business** | Acronis | [Verify Record](https://www.credly.com/badges/664f50a3-c675-434d-890f-4efd62cbfb7d/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-33.md](./linkedin-certifications-2026-08-part-33.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-35.md](./linkedin-certifications-2026-08-part-35.md)

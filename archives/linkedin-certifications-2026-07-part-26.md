@@ -15,14 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-07 | **Leading the Shift: Innovating with Generative AI in Financial Services \| Moody's** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/eb559f63b2161e62a7decfde3cf82e1a87a212935c586552fb5805fc92c1ee2c) |
-| 2026-07 | **Developing Applications with Cloud Run Functions on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25465700?utm_medium=social) |
-| 2026-07 | **How to Land a Job and Grow Your Career with Carla Harris** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b0123ad9e3bd2230c5428d559bcd364ec73be3258601faa87cdf08815ce512a1) |
-| 2026-07 | **The Creative Spark: Krista Donaldson, Social Innovation Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/61a1dc4a9e7e1c1010f4a463d607cac7677e05aff0b8fcb831b6bd8bad8f1310) |
-| 2026-07 | **Practical GitHub Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f65a8746b041584a1d9420276f46d6157bc740f417618919153ceace9696acaa) |
-| 2026-07 | **Certificate of completion: Claude 101** | Anthropic | [Verify Record](https://verify.skilljar.com/c/x8xevsgspbsp) |
-| 2026-07 | **Certificate of completion: Claude code 101** | Anthropic | [Verify Record](https://verify.skilljar.com/c/9x7efxjnfwkh) |
-| 2026-07 | **Certificate of completion: Claude Platform 101** | Anthropic | [Verify Record](https://verify.skilljar.com/c/jhusp5h7zcyt) |
 | 2026-07 | **Certificate of completion: Introduction to Claude Cowork** | Anthropic | [Verify Record](https://verify.skilljar.com/c/stgugigxajbf) |
 | 2026-07 | **Acronis Cyber Frame Basic** | Acronis | [Verify Record](https://www.credly.com/badges/82c5caa9-aa5c-4d6b-ae63-fb14b8b8dd4a/linked_in_profile) |
 | 2026-07 | **Certificate of completion: Introduction to Claude Cowork** | Anthropic | [Verify Record](https://verify.skilljar.com/c/stgugigxajbf) |
@@ -67,6 +59,14 @@ artifacts: complete, index
 | 2026-07 | **Beyond the Hype: Strategic Steps to Implement AI in your Organization, with Jamie Champagne** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cffd81d0351f9fd205e1c2215becd2c29b5cea26162c4712a4e7d13021fa6480) |
 | 2026-07 | **How AI intersects with Sustainability and Business: A Conversation with Amy Luers** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/acf600bf7f6e43a96727f3f8ed40c4a2fd6735d8ae3ce6bef6319a44711ce211) |
 | 2026-07 | **Deploy and Monitor in Google Cloud for AWS Professionals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25533410?utm_medium=social) |
+| 2026-07 | **Finding a Job on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ca80d6e4514609ece268e39f6455f5d0e94c07a84623cb8e717a7b5b97000d6) |
+| 2026-07 | **Harnessing AI for Effective Interviewing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7583a0e48821cc69e0e4f641da1fd165b188cfb1669d1cc5c9c73ec538a30764) |
+| 2026-07 | **Cloud Tech Professional Disaster Recovery** | Acronis | [Verify Record](https://www.credly.com/badges/b1960c54-6ac1-4206-8631-f489b925b6eb/linked_in_profile) |
+| 2026-07 | **Strategic Cybersecurity Management** | AttackIQ | [Verify Record](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de/linked_in_profile) |
+| 2026-07 | **AWS Educate Getting Started with Storage - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c0cd9a0e-d2c9-4c72-9e6f-87b5cedde8a7/linked_in_profile) |
+| 2026-07 | **Building AI-Powered Search with MongoDB Vector Search** | MongoDB | [Verify Record](https://www.credly.com/badges/106d3801-84c1-4057-8474-6450f2a84b33/linked_in_profile) |
+| 2026-07 | **LinkedIn Co-Founder Reid Hoffman on How to Supercharge Your Career with AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6a949e8cb54f38babdaede02aa9801769734839aa8e1997c73929f3b506a2a1b) |
+| 2026-07 | **Leading the Shift: Creating the new field of data for social impact \| data.org** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/19c7c31ad1b900e39f878eceff224ed84d4fe56be28f0a20b8ee1197b6562f61) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-25.md](./linkedin-certifications-2026-07-part-25.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-27.md](./linkedin-certifications-2026-07-part-27.md)
