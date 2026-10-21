@@ -306,4 +306,39 @@ uv run python cross_artifact_validator.py --mode strict 2>&1 | grep -E "PASS|FAI
 - Each test gets fresh `tmp_path` directory
 - HTTP mocks are per-test via `responses` library
 - Time is frozen to `2024-06-15 12:00:00 UTC` via `freezegun`
-- Shared modules mocked via `monkeypatch` in fixtures
+- Shared modules mocked via `monkeypatch` in 
+
+## Testing Retirement Metadata Fields
+
+### Test Coverage for Retirement Metadata
+
+The following tests validate the new retirement metadata fields:
+
+| Test File | Test Function | Description |
+|-----------|---------------|-------------|
+| `tests/integration/test_jsonld_generation.py` | `test_parse_archive_monoliths_retired` | Verifies retired credentials have `credentialStatus`, `retirement_source`, `retirement_reason`, `retired_at` |
+| `tests/integration/test_provider_contracts.py` | `test_provenance_verification_status_retired` | Verifies `verificationStatus` = `"retired"` for retired credentials |
+| `tests/unit/test_retired_handling.py` | `test_retired_urls_json_valid` | Validates `retired_urls.json` structure with new fields |
+
+### Adding Tests for New Retirement Fields
+
+When adding tests for new retirement metadata fields:
+
+1. **Create test fixtures** with retired credentials in `tests/fixtures/<provider>/`
+2. **Include all retirement fields** in test data:
+   ```json
+   {
+     "credentialStatus": "Retired",
+     "retirement_source": "source_csv",
+     "retirement_reason": "Source CSV Status=Retired",
+     "retired_at": "2026-09-06"
+   }
+
+# Run JSON-LD generation tests
+uv run pytest tests/integration/test_jsonld_generation.py -v
+
+# Run retirement handling tests
+uv run pytest tests/unit/test_retired_handling.py -v
+
+# Run provider contract tests
+uv run pytest tests/integration/test_provider_contracts.py -v

@@ -385,11 +385,15 @@ def parse_archive_monoliths():
                     c_obj["credentialStatus"] = "Retired"
                     # Add retirement metadata fields
                     if retirement_source:
-                        c_obj["retirement_source"] = retirement_source
+                        c_obj["retirement_source"] = (
+                            retirement_source  # "source_csv", "registry", "auto"
+                        )
                     if retirement_reason:
-                        c_obj["retirement_reason"] = retirement_reason
+                        c_obj["retirement_reason"] = (
+                            retirement_reason  # e.g., "Source CSV Status=Retired"
+                        )
                     if retired_at:
-                        c_obj["retired_at"] = retired_at
+                        c_obj["retired_at"] = retired_at  # ISO 8601 date: YYYY-MM-DD
 
                 # Provenance fields - use platform-specific defaults
                 platform_provenance_defaults = {
