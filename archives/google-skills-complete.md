@@ -1,17 +1,19 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 413 records.
+This document represents a unified, verifiable list of all 415 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-21T02:16:42.011537+00:00 -->
+<!-- retrieved_at: 2026-10-21T05:37:09.405674+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-21 | [Responsible AI for Developers: Privacy & Safety](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29001105) | Google Cloud | Google Skill Badge |
+| 2026-10-21 | [Integrate Applications with Gemini on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29000448) | Google Cloud | Google Skill Badge |
 | 2026-10-17 | [MLOps with Agent Platform: Manage Features](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28927506) | Google Cloud | Google Skill Badge |
 | 2026-10-17 | [Introduction to AI and Machine Learning on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28926914) | Google Cloud | Google Skill Badge |
 | 2026-10-13 | [Developing Applications with Cloud Run on Google Cloud: Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28830363) | Google Cloud | Google Skill Badge |

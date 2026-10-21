@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-21T02:16:45.950594+00:00",
+  "timestamp": "2026-10-21T05:37:11.467056+00:00",
   "summary": {
     "total": 95,
     "passed": 95,
@@ -23,19 +23,19 @@
       "latest_record_date_jsonld": "2026-10-15T00:00:00"
     },
     "google-skills": {
-      "source_records": 413,
-      "archive_complete_records": 413,
-      "index_total": 413,
-      "readme_count": 413,
-      "jsonld_count": 413,
-      "llms_txt_count": 413,
+      "source_records": 415,
+      "archive_complete_records": 415,
+      "index_total": 415,
+      "readme_count": 415,
+      "jsonld_count": 415,
+      "llms_txt_count": 415,
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
-      "latest_record_date_source": "2026-10-17T00:00:00",
-      "latest_record_date_archive": "2026-10-17T00:00:00",
-      "latest_record_date_jsonld": "2026-10-17T00:00:00"
+      "latest_record_date_source": "2026-10-21T00:00:00",
+      "latest_record_date_archive": "2026-10-21T00:00:00",
+      "latest_record_date_jsonld": "2026-10-21T00:00:00"
     },
     "aws-skills": {
       "source_records": 1097,
@@ -113,8 +113,8 @@
       "platform": "google-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 413,
-      "message": "Source snapshot has 413 records (0 retired)",
+      "actual": 415,
+      "message": "Source snapshot has 415 records (0 retired)",
       "severity": "warning"
     },
     {
@@ -167,8 +167,8 @@
       "platform": "google-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 413,
-      "message": "Complete archive has 413 records (0 retired)",
+      "actual": 415,
+      "message": "Complete archive has 415 records (0 retired)",
       "severity": "error"
     },
     {
@@ -221,8 +221,8 @@
       "platform": "google-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 413,
-      "message": "Index reports 413 total records",
+      "actual": 415,
+      "message": "Index reports 415 total records",
       "severity": "error"
     },
     {
@@ -275,8 +275,8 @@
       "platform": "google-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 413,
-      "message": "README reports 413 records",
+      "actual": 415,
+      "message": "README reports 415 records",
       "severity": "error"
     },
     {
@@ -329,8 +329,8 @@
       "platform": "google-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 413,
-      "message": "JSON-LD has 413 credentials (0 retired)",
+      "actual": 415,
+      "message": "JSON-LD has 415 credentials (0 retired)",
       "severity": "error"
     },
     {
@@ -383,8 +383,8 @@
       "platform": "google-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 413,
-      "message": "llms.txt reports 413 records",
+      "actual": 415,
+      "message": "llms.txt reports 415 records",
       "severity": "error"
     },
     {
@@ -544,45 +544,45 @@
       "check": "count_consistency_complete_vs_index",
       "platform": "google-skills",
       "passed": true,
-      "expected": 413,
-      "actual": 413,
-      "message": "complete vs index (L2_published, 1:1_pass_through): complete=413 vs index=413 [OK]",
+      "expected": 415,
+      "actual": 415,
+      "message": "complete vs index (L2_published, 1:1_pass_through): complete=415 vs index=415 [OK]",
       "severity": "error"
     },
     {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "google-skills",
       "passed": true,
-      "expected": 413,
-      "actual": 413,
-      "message": "readme vs llms_txt (L3_display, 1:1_pass_through): readme=413 vs llms_txt=413 [OK]",
+      "expected": 415,
+      "actual": 415,
+      "message": "readme vs llms_txt (L3_display, 1:1_pass_through): readme=415 vs llms_txt=415 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L0_raw_to_L1_normalized",
       "platform": "google-skills",
       "passed": true,
-      "expected": "413 (transform: 1:1_pass_through)",
-      "actual": 413,
-      "message": "Declared transform L0_raw -> L1_normalized (1:1_pass_through): 413 -> 413 [OK]",
+      "expected": "415 (transform: 1:1_pass_through)",
+      "actual": 415,
+      "message": "Declared transform L0_raw -> L1_normalized (1:1_pass_through): 415 -> 415 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published",
       "platform": "google-skills",
       "passed": true,
-      "expected": "413 (transform: 1:1_pass_through)",
-      "actual": 413,
-      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 413 -> 413 [OK]",
+      "expected": "415 (transform: 1:1_pass_through)",
+      "actual": 415,
+      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 415 -> 415 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L3_display",
       "platform": "google-skills",
       "passed": true,
-      "expected": "413 (transform: 1:1_pass_through)",
-      "actual": 413,
-      "message": "Declared transform L1_normalized -> L3_display (1:1_pass_through): 413 -> 413 [OK]",
+      "expected": "415 (transform: 1:1_pass_through)",
+      "actual": 415,
+      "message": "Declared transform L1_normalized -> L3_display (1:1_pass_through): 415 -> 415 [OK]",
       "severity": "error"
     },
     {
@@ -994,7 +994,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-10-17 to 2026-10-17)",
+      "message": "Latest record dates span 0 days across artifacts (2026-10-21 to 2026-10-21)",
       "severity": "warning"
     },
     {
