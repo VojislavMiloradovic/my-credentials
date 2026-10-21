@@ -67,6 +67,19 @@ class ProvenanceBase(BaseModel):
     retrieval_method: RetrievalMethod = Field(
         default=RetrievalMethod.UNKNOWN, description="How the record was retrieved"
     )
+    # Retirement metadata fields
+    retirement_source: str | None = Field(
+        None,
+        description="Source of retirement information (e.g., 'source_csv', 'registry', 'auto')",
+    )
+    retirement_reason: str | None = Field(
+        None,
+        description="Reason for retirement (e.g., 'Source CSV Status=Retired', 'Registry-matched', 'Auto-detected')",
+    )
+    retired_at: str | None = Field(
+        None,
+        description="Date when the credential was retired (ISO format YYYY-MM-DD)",
+    )
 
     def model_post_init(self, __context: Any, /) -> None:
         """Ensure timestamps are timezone-aware."""

@@ -43,6 +43,9 @@ JSONLD_SCHEMA = {
                             "dateCreated": {"type": "string"},
                             "expires": {"type": "string"},
                             "credentialStatus": {"type": "string"},
+                            "retirement_source": {"type": ["string", "null"]},
+                            "retirement_reason": {"type": ["string", "null"]},
+                            "retired_at": {"type": ["string", "null"]},
                             "recognizedBy": {
                                 "type": "object",
                                 "properties": {
