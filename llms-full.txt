@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-10-21 17:33 UTC
+> **Last Generated:** 2026-10-21 21:07 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -148,15 +148,16 @@ Showing latest 10 of 1097 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 779
-**Total Verified Skills Mapped:** 2713
+**Total Portfolio Credentials:** 780
+**Total Verified Skills Mapped:** 2721
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 779 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 780 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-21 | [Cloud Essentials](https://www.credly.com/badges/111faf8d-0211-4709-8aa9-4e94ea3a6ca4/public_url) | IBM | Credly Verified Badge |
 | 2026-10-19 | [AI Power User Launchpad](https://www.credly.com/badges/d2e77dd9-3ae5-492a-8f64-b0a008afee43/public_url) | Cisco | Credly Verified Badge |
 | 2026-10-19 | [Kong Mesh Foundations](https://www.credly.com/badges/d8f5e17b-d599-491c-866e-e6cf898a9709/public_url) | Kong | Credly Verified Badge |
 | 2026-10-19 | [Microsoft Applied Skills: Build an agent in Microsoft Copilot Studio](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/586C3134869081FC?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
@@ -166,7 +167,6 @@ Showing latest 10 of 779 credentials. View full dataset via [Platform Archive In
 | 2026-10-17 | [Authorization Best Practices](https://www.credly.com/badges/f910a5fd-db59-4f35-86f8-9415ff4649fe/public_url) | Okta | Credly Verified Badge |
 | 2026-10-17 | [Deep Learning Essentials](https://www.credly.com/badges/3337a2f8-5bd7-488a-acfb-1643a2135d68/public_url) | IBM | Credly Verified Badge |
 | 2026-10-17 | [Docker Essentials: A Developer Introduction](https://www.credly.com/badges/9fb77f5d-7410-46fe-9ca0-597993fe77c4/public_url) | IBM | Credly Verified Badge |
-| 2026-10-17 | [Extend Auth0 with Actions](https://www.credly.com/badges/9a68d38d-8238-4259-aa8e-40a315c621bc/public_url) | Okta | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -1371,18 +1371,19 @@ This document represents a unified, verifiable list of all 1097 records.
 
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 779 records.
+This document represents a unified, verifiable list of all 780 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-21T02:53:13.834405+00:00 -->
+<!-- retrieved_at: 2026-10-21T21:07:06.098061+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-21 | [Cloud Essentials](https://www.credly.com/badges/111faf8d-0211-4709-8aa9-4e94ea3a6ca4/public_url) | IBM | Credly Verified Badge |
 | 2026-10-19 | [AI Power User Launchpad](https://www.credly.com/badges/d2e77dd9-3ae5-492a-8f64-b0a008afee43/public_url) | Cisco | Credly Verified Badge |
 | 2026-10-19 | [Kong Mesh Foundations](https://www.credly.com/badges/d8f5e17b-d599-491c-866e-e6cf898a9709/public_url) | Kong | Credly Verified Badge |
 | 2026-10-19 | [Microsoft Applied Skills: Build an agent in Microsoft Copilot Studio](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/586C3134869081FC?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
