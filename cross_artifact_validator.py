@@ -780,7 +780,10 @@ class CrossArtifactValidator:
                 )
             )
 
-            # Store provenance metadata in counts for cross-artifact comparison
+        # Validate retirement metadata fields
+        self._validate_retirement_metadata(platform_key, credentials)
+
+        # Store provenance metadata in counts for cross-artifact comparison
         # Filter credentials for this platform
         platform_credentials = [
             c
@@ -803,6 +806,79 @@ class CrossArtifactValidator:
             counts.provenance_verify_url = cred.get("verifyUrl")
             counts.provenance_last_verified_at = cred.get("lastVerifiedAt")
             counts.provenance_source_hash = cred.get("sourceHash")
+
+    def _validate_retirement_metadata(
+        self, platform_key: str, credentials: list[dict]
+    ) -> None:
+        """Validate retirement metadata fields in JSON-LD credentials."""
+        # Filter credentials for this platform
+        platform_credentials = [
+            c
+            for c in credentials
+            if (
+                c.get("platform")
+                or self._infer_platform(c.get("recognizedBy", {}).get("name", ""))
+            )
+            == platform_key
+        ]
+
+        if not platform_credentials:
+            return
+
+        valid_sources = {"source_csv", "registry", "auto"}
+
+        for cred in platform_credentials:
+            if not cred.get("retired", False):
+                continue
+
+            # Validate retirement_source
+            retirement_source = cred.get("retirement_source")
+            if retirement_source is not None and retirement_source not in valid_sources:
+                self.add_result(
+                    ValidationResult(
+                        check_name="jsonld_retirement_source_valid",
+                        platform=platform_key,
+                        passed=False,
+                        expected=f"retirement_source in {valid_sources}",
+                        actual=retirement_source,
+                        message=f"JSON-LD invalid retirement_source: {retirement_source}",
+                        severity="warning",
+                    )
+                )
+
+            # Validate retired_at date format (ISO 8601 YYYY-MM-DD)
+            retired_at = cred.get("retired_at")
+            if retired_at is not None:
+                try:
+                    datetime.fromisoformat(retired_at)
+                except (ValueError, TypeError):
+                    self.add_result(
+                        ValidationResult(
+                            check_name="jsonld_retired_at_format",
+                            platform=platform_key,
+                            passed=False,
+                            expected="ISO 8601 date (YYYY-MM-DD)",
+                            actual=retired_at,
+                            message=f"JSON-LD invalid retired_at format: {retired_at}",
+                            severity="warning",
+                        )
+                    )
+
+            # Validate retirement_reason is present for source_csv
+            retirement_source = cred.get("retirement_source")
+            retirement_reason = cred.get("retirement_reason")
+            if retirement_source == "source_csv" and not retirement_reason:
+                self.add_result(
+                    ValidationResult(
+                        check_name="jsonld_retirement_reason_present",
+                        platform=platform_key,
+                        passed=False,
+                        expected="retirement_reason present for source_csv",
+                        actual="missing",
+                        message="JSON-LD missing retirement_reason for source_csv retirement",
+                        severity="warning",
+                    )
+                )
 
     def validate_llms_txt(self) -> None:
         """Validate llms.txt portfolio counts."""
