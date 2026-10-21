@@ -112,13 +112,13 @@ FINGERPRINT_SCHEMAS = {
 
 | Platform | Fields Hashed |
 |----------|---------------|
-| microsoft-learn | title, grantedOn, category, verify_url, retired (+ canonical issuer: Microsoft) |
-| credly | title, date, issuer_name, type, verify_url, retired |
-| aws-skills | title, date, issuer_name, type, verify_url, retired |
-| google-skills | title, date, issuer_name, type, verify_url, retired |
-| linkedin-certifications | title, issued, authority, verify_url, retired |
-| google-developer (public) | title, description, source, retired (+ canonical issuer: Google) |
-| google-developer (detailed) | title, description, source, retired (+ canonical issuer: Google) |
+| microsoft-learn | title, grantedOn, category, verify_url, retired, retirement_source, retirement_reason, retired_at (+ canonical issuer: Microsoft) |
+| credly | title, date, issuer_name, type, verify_url, retired, retirement_source, retirement_reason, retired_at |
+| aws-skills | title, date, issuer_name, type, verify_url, retired, retirement_source, retirement_reason, retired_at |
+| google-skills | title, date, issuer_name, type, verify_url, retired, retirement_source, retirement_reason, retired_at |
+| linkedin-certifications | title, issued, authority, verify_url, retired, retirement_source, retirement_reason, retired_at |
+| google-developer (public) | title, description, source, retired, retirement_source, retirement_reason, retired_at (+ canonical issuer: Google) |
+| google-developer (detailed) | title, description, source, retired, retirement_source, retirement_reason, retired_at (+ canonical issuer: Google) |
 
 ### Schema Version Migration
 
@@ -147,6 +147,21 @@ hash = compute_content_hash(record, id_field, platform="microsoft-learn")
 # Fallback (deprecated) - only for unknown platforms
 hash = compute_content_hash(record, id_field, platform="unknown")
 ```
+
+### Retirement Metadata Fields
+
+The following fields are now included in the JSON-LD output for retired credentials:
+
+| Field | Type | Description | Example Values |
+|-------|------|-------------|----------------|
+| `retirement_source` | string | Source of retirement information | `"source_csv"`, `"registry"`, `"auto"` |
+| `retirement_reason` | string | Human-readable reason for retirement | `"Source CSV Status=Retired"`, `"Registry-matched"`, `"Auto-detected"` |
+| `retired_at` | string (ISO 8601) | Date when credential was retired | `"2026-09-06"` |
+
+**Retirement Source Values:**
+- `"source_csv"` - Retirement detected from source data (e.g., CSV Status column)
+- `"registry"` - Retirement from retired_urls.json registry
+- `"auto"` - Auto-detected removal from source data
 
 ## Manifest Schema
 
