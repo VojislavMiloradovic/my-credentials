@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 40 of 42
 date_range: 2026-09 to 2026-10
-total_entries: 49
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-40.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,19 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Developing Applications with Cloud Run on Google Cloud: Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28830363?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-10 | **Machine Learning for Data Science Projects** | IBM | [Verify Record](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/linked_in_profile) |
-| 2026-10 | **User Experience Design Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/linked_in_profile) |
-| 2026-10 | **Kong Gateway Operations** | Kong | [Verify Record](https://www.credly.com/badges/ec9b0dd2-a167-4d92-87af-2a5e6e2df6d6/linked_in_profile) |
-| 2026-10 | **Harness Certified Cloud & AI Cost Management Developer** | Harness | [Verify Record](https://www.credly.com/badges/150ce8a5-8669-42aa-a2df-2d0f61c1fbbc/linked_in_profile) |
-| 2026-10 | **Harness Certified Internal Developer Portal Developer** | Harness | [Verify Record](https://www.credly.com/badges/a9e63d43-0f30-4c99-a8e0-fb7db936a3b0/linked_in_profile) |
-| 2026-10 | **Harness Certified Feature Flag Developer** | Harness | [Verify Record](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/linked_in_profile) |
-| 2026-10 | **Harness Certified AI DLC Insights Formerly SEI Developer** | Harness | [Verify Record](https://www.credly.com/badges/281d5b1c-95e0-497d-8784-bbbca82109a5/linked_in_profile) |
-| 2026-10 | **Harness Certified Database DevOps Developer** | Harness | [Verify Record](https://www.credly.com/badges/ba7bac4e-647c-4521-aedf-23c0d4df34df/linked_in_profile) |
-| 2026-10 | **Traceable by Harness Developer Certification** | Harness | [Verify Record](https://www.credly.com/badges/81821f9e-ed55-49db-a20b-6c2afdd9cacb/linked_in_profile) |
-| 2026-10 | **AWS Knowledge: Security Champion - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c59d7bc6-b7c4-496c-bdc5-841330331449/linked_in_profile) |
-| 2026-10 | **Microsoft Applied Skills: Protect information in Microsoft 365 Copilot by using Microsoft Purview** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/F87E8DADFE9F36FD?sharingId) |
-| 2026-10 | **Sustainable Leadership in Uncertain Times: A Conversation with Andrew Winston** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30cfa27e09aee8a4d67d7c3dc5795fc5e23db2ba90161ed92e20050e5b999749) |
 | 2026-10 | **Quantum-Safe Encryption Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2a47f562-b192-4791-8fac-f4e981fe7726/linked_in_profile) |
 | 2026-10 | **Introduction to AI and Machine Learning on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28926914?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **MLOps with Agent Platform: Manage Features** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28927506?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -57,6 +44,22 @@ artifacts: complete, index
 | 2026-10 | **Converting a UNV Universe to UNX** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xetov-dikuc-vykid-tygeh-hanug) |
 | 2026-10 | **Integrate Applications with Gemini on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29000448?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **Responsible AI for Developers: Privacy & Safety** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29001105?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Prompt Engineering for Everyone** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/cf55633b0a9f478cb1080b1129e10eef) |
+| 2026-10 | **Cloud Essentials** | IBM | [Verify Record](https://www.credly.com/badges/111faf8d-0211-4709-8aa9-4e94ea3a6ca4/linked_in_profile) |
+| 2026-10 | **A Quick Introduction to Machine Learning** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/e32d7d957e5d4f9a93e661139088772f) |
+| 2026-10 | **Data Privacy Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/230b3fb7-5a66-40c3-8f06-aeb1286d094d/linked_in_profile) |
+| 2026-10 | **Kong Developer** | Kong | [Verify Record](https://www.credly.com/badges/331ba597-adaa-412b-817e-d9064735f5fc/linked_in_profile) |
+| 2026-10 | **Explore the Okta Data Model via the Okta Core API** | Okta | [Verify Record](https://www.credly.com/badges/2ffbb4f6-1ed6-4a8b-b8e0-7d3ab1c13c40/linked_in_profile) |
+| 2026-10 | **Implement Security Policies** | Okta | [Verify Record](https://www.credly.com/badges/da8571cc-b89c-4c85-86fd-b560e4baae59/linked_in_profile) |
+| 2026-10 | **Analyze Identity Risk with ISPM** | Okta | [Verify Record](https://www.credly.com/badges/92682534-5ad0-40d0-a597-85b17dfc51f1/linked_in_profile) |
+| 2026-10 | **Protecting Non-Human Identities** | Okta | [Verify Record](https://www.credly.com/badges/b120995e-8c0f-4888-97ff-f99d2839cdc8/linked_in_profile) |
+| 2026-10 | **Identity Governance Access Requests** | Okta | [Verify Record](https://www.credly.com/badges/29908aeb-bd3b-4722-92da-acb29b4687df/linked_in_profile) |
+| 2026-10 | **Utilizing SAP Ariba Category Management Toolkit** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiviv-sabek-mepir-lecim-toduc) |
+| 2026-10 | **Navigating the Initiatives Overview in SAP Ariba Category Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xolup-salub-hutin-vyden-padyk) |
+| 2026-10 | **Exploring Company Administration Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xemil-cynot-tipys-huked-bybok) |
+| 2026-10 | **Exploring User Administration Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xitys-difuc-vygen-goheb-sufok) |
+| 2026-10 | **Managing Travel Admin Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xynip-necoh-tudol-hugiv-vemob) |
+| 2026-10 | **Managing Data Retention in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xafih-pedir-cecof-demif-tonyl) |
 | 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
 | 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 | 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |

@@ -1,12 +1,12 @@
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 1918 records.
+This document represents a unified, verifiable list of all 1934 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-21T05:59:12.260565+00:00 -->
+<!-- retrieved_at: 2026-10-22T23:10:24.743007+00:00 -->
 
 ## Verified Records Archive
 
@@ -139,6 +139,22 @@ This document represents a unified, verifiable list of all 1918 records.
 | 2026-10 | **Converting a UNV Universe to UNX** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xetov-dikuc-vykid-tygeh-hanug) |
 | 2026-10 | **Integrate Applications with Gemini on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29000448?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **Responsible AI for Developers: Privacy & Safety** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29001105?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Prompt Engineering for Everyone** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/cf55633b0a9f478cb1080b1129e10eef) |
+| 2026-10 | **Cloud Essentials** | IBM | [Verify Record](https://www.credly.com/badges/111faf8d-0211-4709-8aa9-4e94ea3a6ca4/linked_in_profile) |
+| 2026-10 | **A Quick Introduction to Machine Learning** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/e32d7d957e5d4f9a93e661139088772f) |
+| 2026-10 | **Data Privacy Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/230b3fb7-5a66-40c3-8f06-aeb1286d094d/linked_in_profile) |
+| 2026-10 | **Kong Developer** | Kong | [Verify Record](https://www.credly.com/badges/331ba597-adaa-412b-817e-d9064735f5fc/linked_in_profile) |
+| 2026-10 | **Explore the Okta Data Model via the Okta Core API** | Okta | [Verify Record](https://www.credly.com/badges/2ffbb4f6-1ed6-4a8b-b8e0-7d3ab1c13c40/linked_in_profile) |
+| 2026-10 | **Implement Security Policies** | Okta | [Verify Record](https://www.credly.com/badges/da8571cc-b89c-4c85-86fd-b560e4baae59/linked_in_profile) |
+| 2026-10 | **Analyze Identity Risk with ISPM** | Okta | [Verify Record](https://www.credly.com/badges/92682534-5ad0-40d0-a597-85b17dfc51f1/linked_in_profile) |
+| 2026-10 | **Protecting Non-Human Identities** | Okta | [Verify Record](https://www.credly.com/badges/b120995e-8c0f-4888-97ff-f99d2839cdc8/linked_in_profile) |
+| 2026-10 | **Identity Governance Access Requests** | Okta | [Verify Record](https://www.credly.com/badges/29908aeb-bd3b-4722-92da-acb29b4687df/linked_in_profile) |
+| 2026-10 | **Utilizing SAP Ariba Category Management Toolkit** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiviv-sabek-mepir-lecim-toduc) |
+| 2026-10 | **Navigating the Initiatives Overview in SAP Ariba Category Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xolup-salub-hutin-vyden-padyk) |
+| 2026-10 | **Exploring Company Administration Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xemil-cynot-tipys-huked-bybok) |
+| 2026-10 | **Exploring User Administration Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xitys-difuc-vygen-goheb-sufok) |
+| 2026-10 | **Managing Travel Admin Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xynip-necoh-tudol-hugiv-vemob) |
+| 2026-10 | **Managing Data Retention in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xafih-pedir-cecof-demif-tonyl) |
 | 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
 | 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 | 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
