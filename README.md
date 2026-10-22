@@ -140,15 +140,17 @@ Showing latest 10 of 1097 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 780
-**Total Verified Skills Mapped:** 2721
+**Total Portfolio Credentials:** 782
+**Total Verified Skills Mapped:** 2731
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 780 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 782 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-22 | [Data Privacy Fundamentals](https://www.credly.com/badges/230b3fb7-5a66-40c3-8f06-aeb1286d094d/public_url) | IBM | Credly Verified Badge |
+| 2026-10-22 | [Kong Developer](https://www.credly.com/badges/331ba597-adaa-412b-817e-d9064735f5fc/public_url) | Kong | Credly Verified Badge |
 | 2026-10-21 | [Cloud Essentials](https://www.credly.com/badges/111faf8d-0211-4709-8aa9-4e94ea3a6ca4/public_url) | IBM | Credly Verified Badge |
 | 2026-10-19 | [AI Power User Launchpad](https://www.credly.com/badges/d2e77dd9-3ae5-492a-8f64-b0a008afee43/public_url) | Cisco | Credly Verified Badge |
 | 2026-10-19 | [Kong Mesh Foundations](https://www.credly.com/badges/d8f5e17b-d599-491c-866e-e6cf898a9709/public_url) | Kong | Credly Verified Badge |
@@ -157,8 +159,6 @@ Showing latest 10 of 780 credentials. View full dataset via [Platform Archive In
 | 2026-10-17 | [Authenticate with Auth0 Database and Passwordless Connections](https://www.credly.com/badges/8ec03de7-4ca2-4da9-bb70-2cd9dfb6ebe8/public_url) | Okta | Credly Verified Badge |
 | 2026-10-17 | [Authentication Best Practices](https://www.credly.com/badges/71fa34c8-31d2-4c30-aca8-a7eb46b8a0f3/public_url) | Okta | Credly Verified Badge |
 | 2026-10-17 | [Authorization Best Practices](https://www.credly.com/badges/f910a5fd-db59-4f35-86f8-9415ff4649fe/public_url) | Okta | Credly Verified Badge |
-| 2026-10-17 | [Deep Learning Essentials](https://www.credly.com/badges/3337a2f8-5bd7-488a-acfb-1643a2135d68/public_url) | IBM | Credly Verified Badge |
-| 2026-10-17 | [Docker Essentials: A Developer Introduction](https://www.credly.com/badges/9fb77f5d-7410-46fe-9ca0-597993fe77c4/public_url) | IBM | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

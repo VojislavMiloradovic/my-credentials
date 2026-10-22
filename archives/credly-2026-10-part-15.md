@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 15 of 15
-date_range: 2026-10-10 to 2026-10-21
-total_entries: 34
+date_range: 2026-10-10 to 2026-10-22
+total_entries: 36
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-22 | [Data Privacy Fundamentals](https://www.credly.com/badges/230b3fb7-5a66-40c3-8f06-aeb1286d094d/public_url) | IBM | Credly Verified Badge |
+| 2026-10-22 | [Kong Developer](https://www.credly.com/badges/331ba597-adaa-412b-817e-d9064735f5fc/public_url) | Kong | Credly Verified Badge |
 | 2026-10-21 | [Cloud Essentials](https://www.credly.com/badges/111faf8d-0211-4709-8aa9-4e94ea3a6ca4/public_url) | IBM | Credly Verified Badge |
 | 2026-10-19 | [AI Power User Launchpad](https://www.credly.com/badges/d2e77dd9-3ae5-492a-8f64-b0a008afee43/public_url) | Cisco | Credly Verified Badge |
 | 2026-10-19 | [Kong Mesh Foundations](https://www.credly.com/badges/d8f5e17b-d599-491c-866e-e6cf898a9709/public_url) | Kong | Credly Verified Badge |
