@@ -27,7 +27,7 @@ artifacts: complete, index
 | 2026-04-23 | [Future-Proof Your AI Learning Strategy](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23760924) | Google Cloud | Google Skill Badge |
 | 2026-04-22 | [Introduction to Google Distributed Cloud Sandbox](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23744488) | Google Cloud | Google Skill Badge |
 | 2026-04-21 | [Google Cloud Security for the Public Sector](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23723537) | Google Cloud | Google Skill Badge |
-| 2026-04-20 | [Accelerate Knowledge Exchange with Gemini Enterprise](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23702768) | Google Cloud | Google Skill Badge |
+| 2026-04-20 | [[DEPRECATED] Accelerate Knowledge Exchange with Gemini Enterprise](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23702768) | Google Cloud | Google Skill Badge |
 | 2026-04-18 | [Build a Certification Study Guide: PSOE Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23677452) | Google Cloud | Google Skill Badge |
 | 2026-04-18 | [Gemini for end-to-end SDLC](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23677349) | Google Cloud | Google Skill Badge |
 | 2026-04-18 | [Implement Cloud Next Generation Firewall](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23670599) | Google Cloud | Google Skill Badge |
