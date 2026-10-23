@@ -378,6 +378,48 @@
       "title": "Getting started with Amazon Connect Customer's agentic CX designer",
       "retirement_source": "source_csv",
       "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "0dc9f216c4126875",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-10-23",
+      "retired_at": "2026-10-23",
+      "title": "0dc9f216c4126875"
+    },
+    {
+      "id": "2e804cd30a1f24b8",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-10-23",
+      "retired_at": "2026-10-23",
+      "title": "2e804cd30a1f24b8"
+    },
+    {
+      "id": "3e496f5f9c85aba0",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-10-23",
+      "retired_at": "2026-10-23",
+      "title": "3e496f5f9c85aba0"
+    },
+    {
+      "id": "81038e2098ef2b46",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-10-23",
+      "retired_at": "2026-10-23",
+      "title": "81038e2098ef2b46"
+    },
+    {
+      "id": "9f78be44fdaec257",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-10-23",
+      "retired_at": "2026-10-23",
+      "title": "9f78be44fdaec257"
+    },
+    {
+      "id": "b27003cdc3d60453",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-10-23",
+      "retired_at": "2026-10-23",
+      "title": "b27003cdc3d60453"
     }
   ],
   "credly": [],
