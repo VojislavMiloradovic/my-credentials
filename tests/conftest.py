@@ -540,14 +540,20 @@ def mock_archiver(monkeypatch):
 
 @pytest.fixture
 def mock_loss_guard(monkeypatch):
-    """Mock loss_guard module to avoid baseline file I/O."""
+    """Mock loss_guard module to avoid baseline file I/O and auto-retire logic."""
     mock_execute = MagicMock()
     mock_execute_data = MagicMock()
     mock_anomaly = type("PipelineDataLossAnomaly", (Exception,), {})
+    # Patch at the source module
     monkeypatch.setattr("loss_guard.execute_content_loss_guard", mock_execute)
     monkeypatch.setattr("loss_guard.execute_data_loss_guard", mock_execute_data)
     monkeypatch.setattr("loss_guard.run_provider_loss_guards", MagicMock())
+    monkeypatch.setattr(
+        "loss_guard.auto_retire_removed_items", MagicMock(return_value=0)
+    )
     monkeypatch.setattr("loss_guard.PipelineDataLossAnomaly", mock_anomaly)
+    # Also patch in pipeline_base where run_provider_loss_guards is used
+    monkeypatch.setattr("pipeline_base.run_provider_loss_guards", MagicMock())
     # Also patch in modules that import it directly
     monkeypatch.setattr("update_linkedin.execute_content_loss_guard", mock_execute)
     monkeypatch.setattr("update_linkedin.execute_data_loss_guard", mock_execute_data)
@@ -557,10 +563,28 @@ def mock_loss_guard(monkeypatch):
     monkeypatch.setattr(
         "update_google_developer.execute_data_loss_guard", mock_execute_data
     )
+    # Patch modules that import execute_content_loss_guard with aliases
+    monkeypatch.setattr("update_aws_skills._execute_content", mock_execute)
+    monkeypatch.setattr("update_aws_skills._execute_guard", mock_execute_data)
+    monkeypatch.setattr("update_credly_badges._execute_content", mock_execute)
+    monkeypatch.setattr("update_credly_badges._execute_guard", mock_execute_data)
+    monkeypatch.setattr("update_ms_learn._execute_content", mock_execute)
+    monkeypatch.setattr("update_ms_learn._execute_guard", mock_execute_data)
+    monkeypatch.setattr("update_google_skills._execute_content", mock_execute)
+    monkeypatch.setattr("update_google_skills._execute_guard", mock_execute_data)
+    # Patch Google Developer's aliased import of run_provider_loss_guards
+    monkeypatch.setattr(
+        "update_google_developer._run_provider_loss_guards", MagicMock()
+    )
     # Only patch PipelineDataLossAnomaly in modules that still define it
     monkeypatch.setattr("update_linkedin.PipelineDataLossAnomaly", mock_anomaly)
     monkeypatch.setattr("update_google_developer.PipelineDataLossAnomaly", mock_anomaly)
     # Note: update_credly_badges, update_ms_learn, update_aws_skills, update_google_skills no longer define PipelineDataLossAnomaly
+    # Mock AWS sync_retired_to_registry to prevent file I/O in integration tests
+    monkeypatch.setattr(
+        "update_aws_skills.AWSSkillsPipeline.sync_retired_to_registry",
+        MagicMock(return_value=0),
+    )
     return mock_execute
 
 

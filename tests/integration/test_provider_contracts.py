@@ -12,7 +12,7 @@ import sys
 import tempfile
 from datetime import UTC, datetime
 from pathlib import Path
-from unittest.mock import MagicMock, patch
+from unittest.mock import patch
 
 import pytest
 
@@ -97,19 +97,6 @@ def mock_archiver():
         return_value="microsoft-learn-2024-01-part-01.md",
     ) as mock:
         yield mock
-
-
-@pytest.fixture
-def mock_loss_guard():
-    """Mock loss guard to avoid baseline file checks."""
-    mock_execute = MagicMock()
-    mock_anomaly = type("PipelineDataLossAnomaly", (Exception,), {})
-    with (
-        patch("update_ms_learn.execute_content_loss_guard", mock_execute),
-        patch("loss_guard.execute_content_loss_guard", mock_execute),
-        patch("loss_guard.PipelineDataLossAnomaly", mock_anomaly),
-    ):
-        yield mock_execute
 
 
 @pytest.fixture

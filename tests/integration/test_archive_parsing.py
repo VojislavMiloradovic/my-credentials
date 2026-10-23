@@ -7,6 +7,7 @@ from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
+
 from archiver import (
     generate_platform_archive,
 )
@@ -111,7 +112,7 @@ class TestArchiveParsing:
 class TestArchiveGenerationRoundtrip:
     """Tests for archive generation and parsing roundtrip."""
 
-    def test_generate_then_parse(self, temp_dir):
+    def test_generate_then_parse(self, temp_dir, mock_loss_guard):
         """Generate archive then parse it back."""
         formatted_rows = [
             (

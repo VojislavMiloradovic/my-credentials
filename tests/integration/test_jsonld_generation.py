@@ -224,7 +224,7 @@ class TestJsonLdCleanup:
 class TestJsonLdMain:
     """Tests for main JSON-LD generation."""
 
-    def test_main_generates_jsonld(self, temp_dir):
+    def test_main_generates_jsonld(self, temp_dir, mock_loss_guard):
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
 

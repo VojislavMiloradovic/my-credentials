@@ -146,7 +146,7 @@ class TestDomainBreakdown:
 class TestLlmsTxtGeneration:
     """Tests for llms.txt generation."""
 
-    def test_generate_llms_txt(self, temp_dir):
+    def test_generate_llms_txt(self, temp_dir, mock_loss_guard):
         # Create mock files
         readme = temp_dir / "README.md"
         readme.write_text("Test README")
@@ -220,7 +220,7 @@ class TestLlmsFullGeneration:
         expected = f"\n\n<!-- {missing_path} not found -->\n"
         assert read_file_safe(missing_path) == expected
 
-    def test_generate_llms_full(self, temp_dir):
+    def test_generate_llms_full(self, temp_dir, mock_loss_guard):
         readme = temp_dir / "README.md"
         readme.write_text("# README Content")
 

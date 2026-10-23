@@ -90,7 +90,7 @@ class TestCliSmoke:
 
         assert hasattr(build_exclude, "normalize_url")
 
-    def test_main_functions_callable(self):
+    def test_main_functions_callable(self, mock_loss_guard):
         """All main functions should be callable (with mocked dependencies)."""
         from unittest.mock import patch
 
@@ -106,7 +106,7 @@ class TestCliSmoke:
                 pass
             mock_exit.assert_called_with(1)
 
-    def test_update_scripts_exit_codes(self):
+    def test_update_scripts_exit_codes(self, mock_loss_guard):
         """All update scripts should exit with code 1 on missing input."""
         scripts = [
             "update_ms_learn",
@@ -130,7 +130,7 @@ class TestCliSmoke:
                     except Exception:
                         pass
 
-    def test_generate_scripts_runnable(self):
+    def test_generate_scripts_runnable(self, mock_loss_guard):
         """Generation scripts should be runnable with mocked I/O."""
         with (
             patch("generate_jsonld.os.path.exists", return_value=False),
@@ -147,7 +147,7 @@ class TestCliSmoke:
             except Exception:
                 pass  # Expected with mocked I/O
 
-    def test_sanitize_ms_export_cli(self):
+    def test_sanitize_ms_export_cli(self, mock_loss_guard):
         """sanitize_ms_export.py should accept file argument."""
         import sys
 
