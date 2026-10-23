@@ -15,11 +15,12 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-10 | [Designing and Deploying SAP Workloads on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Eliminating Java cold starts with AWS Lambda Managed Instances](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Enterprise Cost Optimization Strategies: Compute, Storage, and Network Efficiency](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [How Agentic AI Is Transforming Game Infrastructure Management](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [How Amazon Achieved Full Stack Observability Across 400 Offices with Amazon OpenSearch Serverless](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Integrating Amazon Bedrock AgentCore with Slack](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-10 | [Introducing container caching in Amazon SageMaker AI for faster model scaling](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-10 | [Investigating Service Issues with Amazon CloudWatch Application Signals Custom Metrics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Low-latency, high-throughput SQS event processing with AWS Lambda provisioned mode](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Migrate from Amazon Nova 1 to Amazon Nova 2 on Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Modernizing SAP Workloads on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -66,7 +67,6 @@ artifacts: complete, index
 | 2026-10-02 | [Introduction to Amazon Nova Forge](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-02 | [Introduction to AWS Security Agent (Tech Preview)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-02 | [Introduction to Managed PostgreSQL offerings on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-02 | [Monitor Java applications using Amazon CloudWatch Application Signals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-10-part-18.md](./aws-skills-2026-10-part-18.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-10-part-20.md](./aws-skills-2026-10-part-20.md)

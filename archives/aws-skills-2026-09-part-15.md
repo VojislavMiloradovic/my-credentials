@@ -11,10 +11,11 @@ artifacts: complete, index
 
 # AWS Skill Builder Credentials -- Part 15
 
-> **Navigation:** Prev: [aws-skills-2026-08-part-14.md](./aws-skills-2026-08-part-14.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-16.md](./aws-skills-2026-09-part-16.md) | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-09-part-14.md](./aws-skills-2026-09-part-14.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-16.md](./aws-skills-2026-09-part-16.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-10 | [Managing Amazon Simple Storage Service (Amazon S3)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Observing, Troubleshooting, and Optimizing Workloads Running on Amazon ECS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Optimize Your Cloud Governance: Balance Security and Cost](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Tuning and Troubleshooting Amazon Bedrock Guardrails](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -66,8 +67,7 @@ artifacts: complete, index
 | 2026-09-01 | [S&P Global's innovative disaster recovery strategy using Amazon FSx for NetApp ONTAP snapshots](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [Securing and Protecting Your Data in Amazon Simple Storage Service (Amazon S3)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [Setting up Delegated Administrator for AWS services integrated with AWS Organizations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-01 | [Strands Shell: Sandboxed Agent Execution for Production Workloads](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-08-part-14.md](./aws-skills-2026-08-part-14.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-16.md](./aws-skills-2026-09-part-16.md)
+> **Navigation:** Prev: [aws-skills-2026-09-part-14.md](./aws-skills-2026-09-part-14.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-16.md](./aws-skills-2026-09-part-16.md)
 

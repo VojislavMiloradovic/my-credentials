@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 41 of 42
 date_range: 2026-10 to 2026-10
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-41.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,18 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Kong Gateway Foundations** | Kong | [Verify Record](https://www.credly.com/badges/0af05791-af55-4214-b9ee-f2ce15d2a35c/linked_in_profile) |
-| 2026-10 | **AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/linked_in_profile) |
-| 2026-10 | **Generative AI: From Prompts to Partnership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/45f8ee921e8f88d3f1284eff9995980652f48512aca4ee79c2092e1dfc227766) |
-| 2026-10 | **Data Storytelling with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fd42599d03ff68dceb87bd570d33958be38be6840195dacd675f86c74af88165) |
-| 2026-10 | **Microsoft Applied Skills: Get started developing agents in Microsoft Foundry** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/9DB8E4A68E66793?sharingId) |
-| 2026-10 | **Microsoft Security Copilot** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/460368401799de36c8198d3090fe3a302d34abdfbe4db33e5ea44cc1c6d3dcbc) |
-| 2026-10 | **Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/15F428743381AFA9?sharingId) |
-| 2026-10 | **Creating Change: Diversity and Inclusion in the Tech Industry** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f839d9732ff242f4e0492f2024168ecc8b5673e6be2429052eab26eea8f04ec8) |
-| 2026-10 | **C#: Advanced Practices** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/830f21c9ea0d408593d735d98879366cc10f4b3442cff33ea92d182ef9a68eca) |
-| 2026-10 | **Creating a Culture of Privacy** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30b77d839563942d76a76ea000b3dea978e758dd011ab62e91496637cbe5d819) |
-| 2026-10 | **Learn AI Video Models in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1fb0007e90fbb288b98036d1a39cb79532a0d755adaba3b8167c05d8c84ccdbc) |
-| 2026-10 | **Implement DevOps Workflows in Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/6cd6bbb4-b1d6-4edf-8add-2523026f6915/linked_in_profile) |
 | 2026-10 | **Set Up a Google Cloud Network Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/981311c0-3ff9-4b0b-8491-79f928f8349f/linked_in_profile) |
 | 2026-10 | **Arcade Simulator: Site Reliability Engineer** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28726632?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Foundations** | OpenAI | [Verify Record](https://oaiacademy.credential.net/4ec9bf1c-4513-45e8-9158-af7b12572578) |
@@ -67,6 +55,19 @@ artifacts: complete, index
 | 2026-10 | **Learning Microsoft 365 Copilot for Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/339342b2a5fd135bb57b7230ce10fad15bb11c08376a50c57bfc1bf6018b8956) |
 | 2026-10 | **Microsoft Azure Essentials by Microsoft Press** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/69e688e0189684be87310ff1edd2cbaf0747931994311be90672c945afe18455) |
 | 2026-10 | **Serving Multimedia Content with Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28829629?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Developing Applications with Cloud Run on Google Cloud: Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28830363?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Machine Learning for Data Science Projects** | IBM | [Verify Record](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/linked_in_profile) |
+| 2026-10 | **User Experience Design Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/linked_in_profile) |
+| 2026-10 | **Kong Gateway Operations** | Kong | [Verify Record](https://www.credly.com/badges/ec9b0dd2-a167-4d92-87af-2a5e6e2df6d6/linked_in_profile) |
+| 2026-10 | **Harness Certified Cloud & AI Cost Management Developer** | Harness | [Verify Record](https://www.credly.com/badges/150ce8a5-8669-42aa-a2df-2d0f61c1fbbc/linked_in_profile) |
+| 2026-10 | **Harness Certified Internal Developer Portal Developer** | Harness | [Verify Record](https://www.credly.com/badges/a9e63d43-0f30-4c99-a8e0-fb7db936a3b0/linked_in_profile) |
+| 2026-10 | **Harness Certified Feature Flag Developer** | Harness | [Verify Record](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/linked_in_profile) |
+| 2026-10 | **Harness Certified AI DLC Insights Formerly SEI Developer** | Harness | [Verify Record](https://www.credly.com/badges/281d5b1c-95e0-497d-8784-bbbca82109a5/linked_in_profile) |
+| 2026-10 | **Harness Certified Database DevOps Developer** | Harness | [Verify Record](https://www.credly.com/badges/ba7bac4e-647c-4521-aedf-23c0d4df34df/linked_in_profile) |
+| 2026-10 | **Traceable by Harness Developer Certification** | Harness | [Verify Record](https://www.credly.com/badges/81821f9e-ed55-49db-a20b-6c2afdd9cacb/linked_in_profile) |
+| 2026-10 | **AWS Knowledge: Security Champion - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c59d7bc6-b7c4-496c-bdc5-841330331449/linked_in_profile) |
+| 2026-10 | **Microsoft Applied Skills: Protect information in Microsoft 365 Copilot by using Microsoft Purview** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/F87E8DADFE9F36FD?sharingId) |
+| 2026-10 | **Sustainable Leadership in Uncertain Times: A Conversation with Andrew Winston** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30cfa27e09aee8a4d67d7c3dc5795fc5e23db2ba90161ed92e20050e5b999749) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-10-part-40.md](./linkedin-certifications-2026-10-part-40.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-42.md](./linkedin-certifications-2026-10-part-42.md)

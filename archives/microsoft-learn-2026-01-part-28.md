@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 28 of 99
 date_range: 2026-01-02 to 2026-01-04
-total_entries: 52
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-28.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,14 +15,12 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Introduction to Graph connectors** | Modules | 2026-01-04 | N/A |
-| **Configure a JavaScript application to retrieve Microsoft 365 data by using Microsoft Graph** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-javascript-app/) |
 | **Microsoft Graph Fundamentals** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-msgraph-fundamentals/) |
 | **Run nonfunctional tests in Azure Pipelines** | Modules | 2026-01-04 | N/A |
 | **Interact with data in Blazor web apps** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/interact-with-data-blazor-web-apps/) |
 | **Build a Connect Four game with Blazor** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-connect-four/) |
-| **Minecraft block coding academy** | Learningpaths | 2026-01-04 | N/A |
 | **Transition to Python in Minecraft Education** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/transition-python-minecraft-education-edition/) |
+| **Minecraft block coding academy** | Learningpaths | 2026-01-04 | N/A |
 | **Minecraft Python coding academy** | Learningpaths | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/minecraft-python-coding-academy/) |
 | **Build programs using Python coding in Minecraft with Azure Notebooks** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-programs-use-python-coding-minecraft-azure-notebooks/) |
 | **Testing with Pytest** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-python-with-pytest/) |
@@ -67,6 +65,7 @@ artifacts: complete, index
 | **Execute existing SSIS packages in Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/execute-existing-ssis-packages-azure-data-factory/) |
 | **Orchestrate data movement and transformation in Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-data-movement-transformation-azure-data-factory/) |
 | **Populate slowly changing dimensions in Azure Synapse Analytics pipelines** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/populate-slowly-changing-dimensions-azure-synapse-analytics-pipelines/) |
+| **Petabyte-scale ingestion with Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/petabyte-scale-ingestion-azure-data-factory/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-27.md](./microsoft-learn-2026-01-part-27.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-29.md](./microsoft-learn-2026-01-part-29.md)

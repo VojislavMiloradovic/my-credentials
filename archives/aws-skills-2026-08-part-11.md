@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-11 | [Amazon Connect: Implementing Task on Connect](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [Amazon ECS Auto Scaling and Cost Optimization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [AWS Security Best Practices: Monitoring and Alerting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [AWS Security Best Practices: Network Infrastructure](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [AWS Security Best Practices: Overview](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -67,8 +69,6 @@ artifacts: complete, index
 | 2026-08-08 | [Differentiation for System Integrators (SI)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [Drive organizational growth with Amazon Lex multi-developer CI/CD pipeline](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [Evaluating generative AI models with Amazon Nova LLM-as-a-Judge on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [Introducing granular cost attribution for Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [Modernizing KYC with AWS serverless solutions and agentic AI for financial services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-08-part-10.md](./aws-skills-2026-08-part-10.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md)

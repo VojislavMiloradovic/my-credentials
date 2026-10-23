@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 2 of 21
-date_range: 2026-01-30 to 2026-02-27
+date_range: 2026-01-31 to 2026-02-27
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-02-part-02.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-02-27 | [Introduction to Amazon CloudWatch Logs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-27 | [Introduction to Serverless Development](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-26 | [Amazon Connect Administration](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-26 | [Amazon DynamoDB Service Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -68,7 +69,6 @@ artifacts: complete, index
 | 2026-02-01 | [Build a migration assessment with AWS Transform](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course [WARN] *Content retired (platform-flagged: Source CSV Status=Retired, 2026-02-01)* |
 | 2026-02-01 | [AWS for Media & Entertainment Content Production Security Essentials](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-31 | [AWS for RISE with SAP Introduction](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-01-30 | [Planning a Machine Learning Project](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-01-part-01.md](./aws-skills-2026-01-part-01.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-03-part-03.md](./aws-skills-2026-03-part-03.md)

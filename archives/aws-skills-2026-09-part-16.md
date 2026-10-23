@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-20 | [ECS Introduction to Containers](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-20 | [Getting Started with Amazon Detective](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-20 | [Intro to AWS Elastic Beanstalk](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-20 | [Introduction to Capacity Manager for Amazon EC2](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -68,7 +69,6 @@ artifacts: complete, index
 | 2026-09-10 | [Enterprise Migration Strategy: Successfully Moving Workloads to AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Increasing Application Security with Bedrock Guardrails and GenAI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Integrating Amazon Bedrock powered Agents with Model Context Protocol Servers using the Strands Agents SDK](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-10 | [Managing Amazon Simple Storage Service (Amazon S3)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-09-part-15.md](./aws-skills-2026-09-part-15.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-17.md](./aws-skills-2026-09-part-17.md)

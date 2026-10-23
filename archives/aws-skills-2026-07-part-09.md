@@ -2,7 +2,7 @@
 archive_platform: AWS Skill Builder Credentials
 chunk_part: 9 of 21
 date_range: 2026-07-14 to 2026-07-30
-total_entries: 56
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-07-part-09.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-30 | [AWS Transit Gateway - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-07-30 | [Build an intelligent contract management solution with Amazon Quick Suite and Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-30 | [Introducing OpenTelemetry and PromQL support in Amazon CloudWatch](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-30 | [Kick off Nova customization experiments using Nova Forge SDK](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-30 | [Penetration Testing for Everyone: Autonomous Security with AWS Security Agent](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -68,9 +70,6 @@ artifacts: complete, index
 | 2026-07-14 | [A day in the life of CxO with Amazon Quick](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-14 | [AI for Everyone: Your First Practical Steps](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-14 | [Amazon SageMaker AI Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-07-14 | [Amazon Textract Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-07-14 | [AWS Migration Evaluator Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-07-14 | [Building the Mainframe Modernization Business Case](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-07-part-08.md](./aws-skills-2026-07-part-08.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-10.md](./aws-skills-2026-08-part-10.md)

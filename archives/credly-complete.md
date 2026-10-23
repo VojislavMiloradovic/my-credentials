@@ -1,17 +1,25 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 780 records.
+This document represents a unified, verifiable list of all 788 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-21T21:07:06.098061+00:00 -->
+<!-- retrieved_at: 2026-10-23T02:55:32.305627+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-22 | [Analyze Identity Risk with ISPM](https://www.credly.com/badges/92682534-5ad0-40d0-a597-85b17dfc51f1/public_url) | Okta | Credly Verified Badge |
+| 2026-10-22 | [Data Privacy Fundamentals](https://www.credly.com/badges/230b3fb7-5a66-40c3-8f06-aeb1286d094d/public_url) | IBM | Credly Verified Badge |
+| 2026-10-22 | [Explore the Okta Data Model via the Okta Core API](https://www.credly.com/badges/2ffbb4f6-1ed6-4a8b-b8e0-7d3ab1c13c40/public_url) | Okta | Credly Verified Badge |
+| 2026-10-22 | [Identity Governance Access Requests](https://www.credly.com/badges/29908aeb-bd3b-4722-92da-acb29b4687df/public_url) | Okta | Credly Verified Badge |
+| 2026-10-22 | [Implement MFA with Okta](https://www.credly.com/badges/ca060113-a210-4c4b-8c13-b10c33404d76/public_url) | Okta | Credly Verified Badge |
+| 2026-10-22 | [Implement Security Policies](https://www.credly.com/badges/da8571cc-b89c-4c85-86fd-b560e4baae59/public_url) | Okta | Credly Verified Badge |
+| 2026-10-22 | [Kong Developer](https://www.credly.com/badges/331ba597-adaa-412b-817e-d9064735f5fc/public_url) | Kong | Credly Verified Badge |
+| 2026-10-22 | [Protecting Non-Human Identities](https://www.credly.com/badges/b120995e-8c0f-4888-97ff-f99d2839cdc8/public_url) | Okta | Credly Verified Badge |
 | 2026-10-21 | [Cloud Essentials](https://www.credly.com/badges/111faf8d-0211-4709-8aa9-4e94ea3a6ca4/public_url) | IBM | Credly Verified Badge |
 | 2026-10-19 | [AI Power User Launchpad](https://www.credly.com/badges/d2e77dd9-3ae5-492a-8f64-b0a008afee43/public_url) | Cisco | Credly Verified Badge |
 | 2026-10-19 | [Kong Mesh Foundations](https://www.credly.com/badges/d8f5e17b-d599-491c-866e-e6cf898a9709/public_url) | Kong | Credly Verified Badge |
