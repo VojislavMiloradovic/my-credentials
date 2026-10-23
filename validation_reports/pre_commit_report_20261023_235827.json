@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T15:14:22.135656+00:00",
+  "timestamp": "2026-10-23T23:58:27.598864+00:00",
   "summary": {
     "total": 95,
     "passed": 95,
@@ -38,12 +38,12 @@
       "latest_record_date_jsonld": "2026-10-21T00:00:00"
     },
     "aws-skills": {
-      "source_records": 1111,
-      "archive_complete_records": 1111,
-      "index_total": 1111,
-      "readme_count": 1111,
-      "jsonld_count": 1111,
-      "llms_txt_count": 1111,
+      "source_records": 1121,
+      "archive_complete_records": 1121,
+      "index_total": 1121,
+      "readme_count": 1121,
+      "jsonld_count": 1121,
+      "llms_txt_count": 1121,
       "llms_full_count": 1,
       "retired_in_source": 40,
       "retired_in_archive": 40,
@@ -122,8 +122,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 1111,
-      "message": "Source snapshot has 1111 records (40 retired)",
+      "actual": 1121,
+      "message": "Source snapshot has 1121 records (40 retired)",
       "severity": "warning"
     },
     {
@@ -176,8 +176,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 1111,
-      "message": "Complete archive has 1111 records (40 retired)",
+      "actual": 1121,
+      "message": "Complete archive has 1121 records (40 retired)",
       "severity": "error"
     },
     {
@@ -230,8 +230,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 1111,
-      "message": "Index reports 1111 total records",
+      "actual": 1121,
+      "message": "Index reports 1121 total records",
       "severity": "error"
     },
     {
@@ -284,8 +284,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 1111,
-      "message": "README reports 1111 records",
+      "actual": 1121,
+      "message": "README reports 1121 records",
       "severity": "error"
     },
     {
@@ -338,8 +338,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 1111,
-      "message": "JSON-LD has 1111 credentials (40 retired)",
+      "actual": 1121,
+      "message": "JSON-LD has 1121 credentials (40 retired)",
       "severity": "error"
     },
     {
@@ -392,8 +392,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 1111,
-      "message": "llms.txt reports 1111 records",
+      "actual": 1121,
+      "message": "llms.txt reports 1121 records",
       "severity": "error"
     },
     {
@@ -598,45 +598,45 @@
       "check": "count_consistency_complete_vs_index",
       "platform": "aws-skills",
       "passed": true,
-      "expected": 1111,
-      "actual": 1111,
-      "message": "complete vs index (L2_published, 1:1_pass_through): complete=1111 vs index=1111 [OK]",
+      "expected": 1121,
+      "actual": 1121,
+      "message": "complete vs index (L2_published, 1:1_pass_through): complete=1121 vs index=1121 [OK]",
       "severity": "error"
     },
     {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "aws-skills",
       "passed": true,
-      "expected": 1111,
-      "actual": 1111,
-      "message": "readme vs llms_txt (L3_display, count_active_and_retired): readme=1111 vs llms_txt=1111 [OK]",
+      "expected": 1121,
+      "actual": 1121,
+      "message": "readme vs llms_txt (L3_display, count_active_and_retired): readme=1121 vs llms_txt=1121 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L0_raw_to_L1_normalized",
       "platform": "aws-skills",
       "passed": true,
-      "expected": "1111 (transform: parse_csv_combine_retired_flags)",
-      "actual": 1111,
-      "message": "Declared transform L0_raw -> L1_normalized (parse_csv_combine_retired_flags): 1111 -> 1111 [OK]",
+      "expected": "1121 (transform: parse_csv_combine_retired_flags)",
+      "actual": 1121,
+      "message": "Declared transform L0_raw -> L1_normalized (parse_csv_combine_retired_flags): 1121 -> 1121 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published",
       "platform": "aws-skills",
       "passed": true,
-      "expected": "1111 (transform: 1:1_pass_through)",
-      "actual": 1111,
-      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 1111 -> 1111 [OK]",
+      "expected": "1121 (transform: 1:1_pass_through)",
+      "actual": 1121,
+      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 1121 -> 1121 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L3_display",
       "platform": "aws-skills",
       "passed": true,
-      "expected": "1111 (transform: count_active_and_retired)",
-      "actual": 1111,
-      "message": "Declared transform L1_normalized -> L3_display (count_active_and_retired): 1111 -> 1111 [OK]",
+      "expected": "1121 (transform: count_active_and_retired)",
+      "actual": 1121,
+      "message": "Declared transform L1_normalized -> L3_display (count_active_and_retired): 1121 -> 1121 [OK]",
       "severity": "error"
     },
     {
