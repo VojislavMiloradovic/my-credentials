@@ -503,9 +503,15 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
 
         b_id = credential_id or generate_badge_id(title, normalized_date)
 
-        # Strip [RETIRED] prefix from title for clean display
+        # Strip [RETIRED] and [RETIRING - ...] prefixes from title for clean display
         clean_title = title
         clean_title = clean_title.removeprefix("[RETIRED] ")
+        # Also strip [RETIRING - YYYY-MM-DD] prefix
+        import re
+
+        clean_title = re.sub(
+            r"^\[RETIRING\s*-\s*\d{4}-\d{2}-\d{2}\]\s*", "", clean_title
+        )
 
         entry = {
             "id": b_id,
@@ -532,7 +538,7 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
 
         try:
             model = AwsBadgeItemModel(**entry)
-            dumped = model.model_dump(mode="json")
+            dumped = model.model_dump(mode="json", exclude_none=True)
             # Explicitly preserve retirement fields that may not be included in model_dump
             if is_retired:
                 dumped["retirement_reason"] = entry["retirement_reason"]
@@ -899,6 +905,11 @@ class AWSSkillsPipeline(PipelineBase):
                 self.logger.error(f"[REGISTRY] Failed to save retired_urls.json: {e}")
 
         return added_count
+
+    def get_retired_rules(self) -> list[dict]:
+        """Load retired rules for AWS using module-level load_retired_rules wrapper."""
+        # Use the module's load_retired_rules which respects RETIRED_URLS_FILE and can be mocked
+        return load_retired_rules(self.PLATFORM_NAME)
 
     def persist_validation(self, records):
         """Persist validated data with AWS-specific filename."""

@@ -251,3 +251,386 @@ class TestAwsSkillsPipelineIntegration:
             data = json.loads(validation_file.read_text())
             assert data["profile_user"] == AWS_PROFILE_USER
             assert len(data["badges"]) == 4
+
+
+class TestAwsSkillsRetirementHandling:
+    """Tests for AWS Skills retirement handling (Phase 5)."""
+
+    def test_parse_aws_badges_from_csv_with_retired_status(
+        self, temp_dir, mock_loss_guard
+    ):
+        """Test parsing CSV with Status=Retired column."""
+        csv_content = """Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
+[RETIRED] Test Retired Course,Digital course,Retired,0,-,"January 15, 2026","January 15, 2026","January 15, 2026",1 hour,Fundamental,English
+Active Course,Digital course,Completed,100,-,"February 15, 2026","February 15, 2026","February 15, 2026",2 hours,Intermediate,English
+[RETIRED] Another Retired Course,Digital course,Retired,0,-,"March 15, 2026","March 15, 2026","March 15, 2026",30 minutes,Advanced,English
+"""
+        csv_file = temp_dir / "aws-training-activity.csv"
+        csv_file.write_text(csv_content)
+
+        badges = parse_aws_badges_from_csv(str(csv_file), "testuser")
+
+        assert len(badges) == 3
+
+        # Check retired items
+        retired_badges = [b for b in badges if b.get("retired")]
+        assert len(retired_badges) == 2
+
+        for badge in retired_badges:
+            assert badge["retired"] is True
+            assert badge["retirement_reason"] == "Source CSV Status=Retired"
+            assert badge["retirement_source"] == "source_csv"
+            assert badge["retired_at"] is not None
+            # Title should have [RETIRED] prefix stripped
+            assert not badge["title"].startswith("[RETIRED]")
+
+        # Check active item
+        active_badges = [b for b in badges if not b.get("retired")]
+        assert len(active_badges) == 1
+        assert active_badges[0]["retired"] is False
+        assert "retirement_reason" not in active_badges[0]
+
+    def test_parse_aws_badges_from_csv_retired_flag_propagation(
+        self, temp_dir, mock_loss_guard
+    ):
+        """Test that retired flag is never reset to False during column iteration."""
+        csv_content = """Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
+[RETIRED] Test Course,Digital course,Retired,0,-,"January 15, 2026","January 15, 2026","January 15, 2026",1 hour,Fundamental,English
+"""
+        csv_file = temp_dir / "aws-training-activity.csv"
+        csv_file.write_text(csv_content)
+
+        badges = parse_aws_badges_from_csv(str(csv_file), "testuser")
+
+        assert len(badges) == 1
+        badge = badges[0]
+        # The retired flag should be True and never reset
+        assert badge["retired"] is True
+        assert badge["retirement_reason"] == "Source CSV Status=Retired"
+        assert badge["retirement_source"] == "source_csv"
+
+    def test_parse_aws_badges_from_csv_retiring_soon_status(
+        self, temp_dir, mock_loss_guard
+    ):
+        """Test parsing CSV with RETIRING - YYYY-MM-DD status."""
+        csv_content = """Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
+[RETIRING - 2026-11-07] Soon Retired Course,Digital course,Completed,0,-,"January 15, 2026","January 15, 2026","January 15, 2026",1 hour,Fundamental,English
+"""
+        csv_file = temp_dir / "aws-training-activity.csv"
+        csv_file.write_text(csv_content)
+
+        badges = parse_aws_badges_from_csv(str(csv_file), "testuser")
+
+        assert len(badges) == 1
+        badge = badges[0]
+
+        # RETIRING status should not set retired=True (only "Retired" does)
+        assert badge["retired"] is False
+        assert "retirement_reason" not in badge
+        # Title should have [RETIRING - ...] prefix stripped
+        assert not badge["title"].startswith("[RETIRING")
+
+    def test_parse_aws_badges_from_csv_fixture_with_retired(
+        self, temp_dir, mock_loss_guard
+    ):
+        """Test parsing the actual transcript_with_retired.csv fixture."""
+        fixture_path = (
+            Path(__file__).parent.parent
+            / "fixtures"
+            / "aws_skills"
+            / "transcript_with_retired.csv"
+        )
+
+        if not fixture_path.exists():
+            pytest.skip("Fixture file not found")
+
+        badges = parse_aws_badges_from_csv(str(fixture_path), "testuser")
+
+        # Should have both retired and active items
+        assert len(badges) > 0
+
+        retired_badges = [b for b in badges if b.get("retired")]
+        active_badges = [b for b in badges if not b.get("retired")]
+
+        # Should have at least some retired items from the fixture
+        assert len(retired_badges) > 0
+        assert len(active_badges) > 0
+
+        for badge in retired_badges:
+            assert badge["retired"] is True
+            assert badge["retirement_reason"] == "Source CSV Status=Retired"
+            assert badge["retirement_source"] == "source_csv"
+            assert badge["retired_at"] is not None
+
+    def test_sync_retired_to_registry_adds_new_entries(self, temp_dir, monkeypatch):
+        """Test sync_retired_to_registry adds source-flagged retired items."""
+        from update_aws_skills import AWSSkillsPipeline
+
+        # Create a pipeline instance
+        pipeline = AWSSkillsPipeline()
+
+        # Mock the retired rules file
+        retired_file = temp_dir / "retired_urls.json"
+        monkeypatch.setattr("update_aws_skills.RETIRED_URLS_FILE", str(retired_file))
+
+        # Create test records with retired items
+        records = [
+            {
+                "id": "aws-001",
+                "title": "Retired Course 1",
+                "retired": True,
+                "retirement_reason": "Source CSV Status=Retired",
+                "retired_at": "2026-01-15",
+                "retirement_source": "source_csv",
+                "verify_url": "https://example.com/1",
+            },
+            {
+                "id": "aws-002",
+                "title": "Retired Course 2",
+                "retired": True,
+                "retirement_reason": "Source CSV Status=Retired",
+                "retired_at": "2026-02-15",
+                "retirement_source": "source_csv",
+                "verify_url": "https://example.com/2",
+            },
+            {
+                "id": "aws-003",
+                "title": "Active Course",
+                "retired": False,
+                "verify_url": "https://example.com/3",
+            },
+        ]
+
+        added = pipeline.sync_retired_to_registry(records)
+
+        assert added == 2
+
+        # Verify the registry was updated
+        import json
+
+        with open(retired_file, "r") as f:
+            data = json.load(f)
+
+        assert "aws-skills" in data
+        assert len(data["aws-skills"]) == 2
+        ids = {rule["id"] for rule in data["aws-skills"]}
+        assert "aws-001" in ids
+        assert "aws-002" in ids
+
+    def test_sync_retired_to_registry_id_only_deduplication(
+        self, temp_dir, monkeypatch
+    ):
+        """Test ID-only deduplication for AWS (all items share same URL)."""
+        from update_aws_skills import AWSSkillsPipeline
+
+        pipeline = AWSSkillsPipeline()
+
+        retired_file = temp_dir / "retired_urls.json"
+        monkeypatch.setattr("update_aws_skills.RETIRED_URLS_FILE", str(retired_file))
+
+        # Pre-populate registry with one entry
+        import json
+
+        with open(retired_file, "w") as f:
+            json.dump(
+                {
+                    "aws-skills": [
+                        {
+                            "id": "aws-001",
+                            "match_type": "url",
+                            "reason": "Source CSV Status=Retired",
+                            "retired_at": "2026-01-15",
+                            "title": "Existing Retired Course",
+                            "retirement_source": "source_csv",
+                            "url": "https://skillsprofile.skillbuilder.aws/user/testuser",
+                        }
+                    ]
+                },
+                f,
+            )
+
+        # New records - same URL but different IDs
+        records = [
+            {
+                "id": "aws-001",  # Already in registry
+                "title": "Existing Retired Course",
+                "retired": True,
+                "retirement_reason": "Source CSV Status=Retired",
+                "retired_at": "2026-01-15",
+                "retirement_source": "source_csv",
+                "verify_url": "https://skillsprofile.skillbuilder.aws/user/testuser",
+            },
+            {
+                "id": "aws-002",  # New ID, same URL
+                "title": "New Retired Course",
+                "retired": True,
+                "retirement_reason": "Source CSV Status=Retired",
+                "retired_at": "2026-02-15",
+                "retirement_source": "source_csv",
+                "verify_url": "https://skillsprofile.skillbuilder.aws/user/testuser",
+            },
+        ]
+
+        added = pipeline.sync_retired_to_registry(records)
+
+        # Should only add the new one (aws-002), not the duplicate (aws-001)
+        assert added == 1
+
+        with open(retired_file, "r") as f:
+            data = json.load(f)
+
+        assert len(data["aws-skills"]) == 2
+        ids = {rule["id"] for rule in data["aws-skills"]}
+        assert "aws-001" in ids
+        assert "aws-002" in ids
+
+    def test_sync_retired_to_registry_skips_non_source_retired(
+        self, temp_dir, monkeypatch
+    ):
+        """Test that registry sync only processes source_csv retirement_source."""
+        from update_aws_skills import AWSSkillsPipeline
+
+        pipeline = AWSSkillsPipeline()
+
+        retired_file = temp_dir / "retired_urls.json"
+        monkeypatch.setattr("update_aws_skills.RETIRED_URLS_FILE", str(retired_file))
+
+        records = [
+            {
+                "id": "aws-001",
+                "title": "Registry Retired",
+                "retired": True,
+                "retirement_reason": "Registry matched",
+                "retired_at": "2026-01-15",
+                "retirement_source": "registry",  # Not source_csv
+                "verify_url": "https://example.com/1",
+            },
+            {
+                "id": "aws-002",
+                "title": "Auto Retired",
+                "retired": True,
+                "retirement_reason": "Auto-detected",
+                "retired_at": "2026-02-15",
+                "retirement_source": "auto",  # Not source_csv
+                "verify_url": "https://example.com/2",
+            },
+            {
+                "id": "aws-003",
+                "title": "Source CSV Retired",
+                "retired": True,
+                "retirement_reason": "Source CSV Status=Retired",
+                "retired_at": "2026-03-15",
+                "retirement_source": "source_csv",
+                "verify_url": "https://example.com/3",
+            },
+        ]
+
+        added = pipeline.sync_retired_to_registry(records)
+
+        # Only source_csv should be added
+        assert added == 1
+
+        with open(retired_file, "r") as f:
+            data = json.load(f)
+
+        assert len(data["aws-skills"]) == 1
+        assert data["aws-skills"][0]["id"] == "aws-003"
+
+    def test_format_for_archive_with_retired_items(self, temp_dir):
+        """Test format_for_archive produces enhanced retired markers."""
+        from update_aws_skills import AWSSkillsPipeline
+
+        pipeline = AWSSkillsPipeline()
+
+        # Test source_csv retirement
+        record = {
+            "id": "aws-001",
+            "title": "Retired Course",
+            "issued_at": "2026-01-15",
+            "verify_url": "https://example.com/1",
+            "issuer": "Amazon Web Services",
+            "type": "Digital course",
+            "retired": True,
+            "retirement_reason": "Source CSV Status=Retired",
+            "retired_at": "2026-01-15",
+            "retirement_source": "source_csv",
+        }
+
+        row_text, date_str = pipeline.format_for_archive(record)
+
+        assert date_str == "2026-01-15"
+        assert (
+            "[WARN] *Content retired (platform-flagged: Source CSV Status=Retired, 2026-01-15)*"
+            in row_text
+        )
+        assert "Digital course" in row_text
+        assert "Retired Course" in row_text
+
+    def test_format_for_archive_with_registry_retired(self, temp_dir):
+        """Test format_for_archive with registry-matched retirement."""
+        from update_aws_skills import AWSSkillsPipeline
+
+        pipeline = AWSSkillsPipeline()
+
+        record = {
+            "id": "aws-001",
+            "title": "Registry Retired Course",
+            "issued_at": "2026-01-15",
+            "verify_url": "https://example.com/1",
+            "issuer": "Amazon Web Services",
+            "type": "Digital course",
+            "retired": True,
+            "retirement_reason": "Registry matched",
+            "retired_at": "2026-01-15",
+            "retirement_source": "registry",
+        }
+
+        row_text, _date_str = pipeline.format_for_archive(record)
+
+        assert "[WARN] *Content retired (registry-matched)*" in row_text
+
+    def test_format_for_archive_with_auto_retired(self, temp_dir):
+        """Test format_for_archive with auto-detected retirement."""
+        from update_aws_skills import AWSSkillsPipeline
+
+        pipeline = AWSSkillsPipeline()
+
+        record = {
+            "id": "aws-001",
+            "title": "Auto Retired Course",
+            "issued_at": "2026-01-15",
+            "verify_url": "https://example.com/1",
+            "issuer": "Amazon Web Services",
+            "type": "Digital course",
+            "retired": True,
+            "retirement_reason": "Auto-detected",
+            "retired_at": "2026-01-15",
+            "retirement_source": "auto",
+        }
+
+        row_text, _date_str = pipeline.format_for_archive(record)
+
+        assert "[WARN] *Content retired (auto-detected: 2026-01-15)*" in row_text
+
+    def test_format_for_archive_without_retired(self, temp_dir):
+        """Test format_for_archive for active (non-retired) items."""
+        from update_aws_skills import AWSSkillsPipeline
+
+        pipeline = AWSSkillsPipeline()
+
+        record = {
+            "id": "aws-001",
+            "title": "Active Course",
+            "issued_at": "2026-01-15",
+            "verify_url": "https://example.com/1",
+            "issuer": "Amazon Web Services",
+            "type": "Digital course",
+            "retired": False,
+        }
+
+        row_text, date_str = pipeline.format_for_archive(record)
+
+        assert date_str == "2026-01-15"
+        assert "[WARN]" not in row_text
+        assert "Digital course" in row_text
+        assert "Active Course" in row_text
