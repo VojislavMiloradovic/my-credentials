@@ -342,3 +342,73 @@ uv run pytest tests/unit/test_retired_handling.py -v
 
 # Run provider contract tests
 uv run pytest tests/integration/test_provider_contracts.py -v
+
+
+### AWS Skills Retirement Handling Tests (`TestAwsSkillsRetirementHandling`)
+
+The `tests/integration/test_aws_skills_pipeline.py::TestAwsSkillsRetirementHandling` class provides comprehensive test coverage for AWS Skills retirement handling:
+
+| Test Method | Description |
+|-------------|-------------|
+| `test_parse_aws_badges_from_csv_with_retired_status` | CSV parsing with `Status=Retired` column |
+| `test_parse_aws_badges_from_csv_retired_flag_propagation` | Retired flag never reset to `False` during column iteration |
+| `test_parse_aws_badges_from_csv_retiring_soon_status` | `RETIRING - YYYY-MM-DD` status doesn't set `retired=True` |
+| `test_parse_aws_badges_from_csv_fixture_with_retired` | Integration test using `transcript_with_retired.csv` fixture |
+| `test_sync_retired_to_registry_adds_new_entries` | Registry sync adds source-flagged retired items |
+| `test_sync_retired_to_registry_id_only_deduplication` | ID-only deduplication (same URL, different IDs) |
+| `test_sync_retired_to_registry_skips_non_source_retired` | Only `retirement_source="source_csv"` items processed |
+| `test_format_for_archive_with_retired_items` | Enhanced markers for `source_csv` retirement |
+| `test_format_for_archive_with_registry_retired` | Registry-matched retirement format |
+| `test_format_for_archive_with_auto_retired` | Auto-detected retirement format |
+| `test_format_for_archive_without_retired` | Active items have no warning markers |
+
+#### Test Fixture
+
+New fixture: `tests/fixtures/aws_skills/transcript_with_retired.csv`
+
+Contains 5 records covering:
+- 2 records with `Status=Retired` and `[RETIRED]` prefix
+- 2 records with `Status=Completed` and `[RETIRING - YYYY-MM-DD]` prefix
+- 1 active record with `Status=Completed`
+
+#### Registry Sync Test Pattern
+
+```python
+def test_sync_retired_to_registry_adds_new_entries(self, temp_dir, monkeypatch):
+    from update_aws_skills import AWSSkillsPipeline
+    
+    pipeline = AWSSkillsPipeline()
+    retired_file = temp_dir / "retired_urls.json"
+    monkeypatch.setattr("update_aws_skills.RETIRED_URLS_FILE", str(retired_file))
+    
+    records = [
+        {"id": "aws-001", "retired": True, "retirement_source": "source_csv", ...},
+        {"id": "aws-002", "retired": True, "retirement_source": "source_csv", ...},
+        {"id": "aws-003", "retired": False, ...},
+    ]
+    
+    added = pipeline.sync_retired_to_registry(records)
+    assert added == 2
+```
+
+#### Test Isolation Pattern
+
+The `AWSSkillsPipeline.get_retired_rules()` override uses the module-level `load_retired_rules` wrapper that respects `RETIRED_URLS_FILE`, enabling proper test isolation via `monkeypatch`:
+
+```python
+def get_retired_rules(self) -> list[dict]:
+    """Load retired rules for AWS using module-level load_retired_rules wrapper."""
+    return load_retired_rules(self.PLATFORM_NAME)
+```
+
+This allows tests to monkeypatch `update_aws_skills.RETIRED_URLS_FILE` to a temp file without affecting the actual `retired_urls.json`.
+
+#### Running Retirement Tests
+
+```bash
+# Run all AWS retirement tests
+uv run pytest tests/integration/test_aws_skills_pipeline.py::TestAwsSkillsRetirementHandling -v -p no:xdist
+
+# Run specific test
+uv run pytest tests/integration/test_aws_skills_pipeline.py::TestAwsSkillsRetirementHandling::test_sync_retired_to_registry_adds_new_entries -v
+```
