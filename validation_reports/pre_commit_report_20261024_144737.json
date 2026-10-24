@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-24T00:53:07.901210+00:00",
+  "timestamp": "2026-10-24T14:47:37.558782+00:00",
   "summary": {
     "total": 95,
     "passed": 95,
@@ -8,7 +8,7 @@
   },
   "platforms": {
     "microsoft-learn": {
-      "source_records": 5550,
+      "source_records": 5551,
       "archive_complete_records": 5007,
       "index_total": 5007,
       "readme_count": 37222,
@@ -53,19 +53,19 @@
       "latest_record_date_jsonld": "2026-10-24T00:00:00"
     },
     "credly": {
-      "source_records": 788,
-      "archive_complete_records": 788,
-      "index_total": 788,
-      "readme_count": 788,
-      "jsonld_count": 788,
-      "llms_txt_count": 788,
+      "source_records": 790,
+      "archive_complete_records": 790,
+      "index_total": 790,
+      "readme_count": 790,
+      "jsonld_count": 790,
+      "llms_txt_count": 790,
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
-      "latest_record_date_source": "2026-10-22T00:00:00",
-      "latest_record_date_archive": "2026-10-22T00:00:00",
-      "latest_record_date_jsonld": "2026-10-22T00:00:00"
+      "latest_record_date_source": "2026-10-24T00:00:00",
+      "latest_record_date_archive": "2026-10-24T00:00:00",
+      "latest_record_date_jsonld": "2026-10-24T00:00:00"
     },
     "linkedin-certifications": {
       "source_records": 1934,
@@ -104,8 +104,8 @@
       "platform": "microsoft-learn",
       "passed": true,
       "expected": "> 0",
-      "actual": 5550,
-      "message": "Source snapshot has 5550 records (2 retired)",
+      "actual": 5551,
+      "message": "Source snapshot has 5551 records (2 retired)",
       "severity": "warning"
     },
     {
@@ -131,8 +131,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 788,
-      "message": "Source snapshot has 788 records (0 retired)",
+      "actual": 790,
+      "message": "Source snapshot has 790 records (0 retired)",
       "severity": "warning"
     },
     {
@@ -185,8 +185,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 788,
-      "message": "Complete archive has 788 records (0 retired)",
+      "actual": 790,
+      "message": "Complete archive has 790 records (0 retired)",
       "severity": "error"
     },
     {
@@ -239,8 +239,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 788,
-      "message": "Index reports 788 total records",
+      "actual": 790,
+      "message": "Index reports 790 total records",
       "severity": "error"
     },
     {
@@ -293,8 +293,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 788,
-      "message": "README reports 788 records",
+      "actual": 790,
+      "message": "README reports 790 records",
       "severity": "error"
     },
     {
@@ -347,8 +347,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 788,
-      "message": "JSON-LD has 788 credentials (0 retired)",
+      "actual": 790,
+      "message": "JSON-LD has 790 credentials (0 retired)",
       "severity": "error"
     },
     {
@@ -401,8 +401,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 788,
-      "message": "llms.txt reports 788 records",
+      "actual": 790,
+      "message": "llms.txt reports 790 records",
       "severity": "error"
     },
     {
@@ -499,9 +499,9 @@
       "check": "declared_transform_L0_raw_to_L1_normalized",
       "platform": "microsoft-learn",
       "passed": true,
-      "expected": "5550 (transform: extract_achievements_dedupe_by_id)",
+      "expected": "5551 (transform: extract_achievements_dedupe_by_id)",
       "actual": 5007,
-      "message": "Declared transform L0_raw -> L1_normalized (extract_achievements_dedupe_by_id): 5550 -> 5007 [OK]",
+      "message": "Declared transform L0_raw -> L1_normalized (extract_achievements_dedupe_by_id): 5551 -> 5007 [OK]",
       "severity": "error"
     },
     {
@@ -661,45 +661,45 @@
       "check": "count_consistency_complete_vs_index",
       "platform": "credly",
       "passed": true,
-      "expected": 788,
-      "actual": 788,
-      "message": "complete vs index (L2_published, 1:1_pass_through): complete=788 vs index=788 [OK]",
+      "expected": 790,
+      "actual": 790,
+      "message": "complete vs index (L2_published, 1:1_pass_through): complete=790 vs index=790 [OK]",
       "severity": "error"
     },
     {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "credly",
       "passed": true,
-      "expected": 788,
-      "actual": 788,
-      "message": "readme vs llms_txt (L3_display, 1:1_pass_through): readme=788 vs llms_txt=788 [OK]",
+      "expected": 790,
+      "actual": 790,
+      "message": "readme vs llms_txt (L3_display, 1:1_pass_through): readme=790 vs llms_txt=790 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L0_raw_to_L1_normalized",
       "platform": "credly",
       "passed": true,
-      "expected": "788 (transform: 1:1_pass_through)",
-      "actual": 788,
-      "message": "Declared transform L0_raw -> L1_normalized (1:1_pass_through): 788 -> 788 [OK]",
+      "expected": "790 (transform: 1:1_pass_through)",
+      "actual": 790,
+      "message": "Declared transform L0_raw -> L1_normalized (1:1_pass_through): 790 -> 790 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published",
       "platform": "credly",
       "passed": true,
-      "expected": "788 (transform: 1:1_pass_through)",
-      "actual": 788,
-      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 788 -> 788 [OK]",
+      "expected": "790 (transform: 1:1_pass_through)",
+      "actual": 790,
+      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 790 -> 790 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L3_display",
       "platform": "credly",
       "passed": true,
-      "expected": "788 (transform: 1:1_pass_through)",
-      "actual": 788,
-      "message": "Declared transform L1_normalized -> L3_display (1:1_pass_through): 788 -> 788 [OK]",
+      "expected": "790 (transform: 1:1_pass_through)",
+      "actual": 790,
+      "message": "Declared transform L1_normalized -> L3_display (1:1_pass_through): 790 -> 790 [OK]",
       "severity": "error"
     },
     {
@@ -1012,7 +1012,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-10-22 to 2026-10-22)",
+      "message": "Latest record dates span 0 days across artifacts (2026-10-24 to 2026-10-24)",
       "severity": "warning"
     },
     {
