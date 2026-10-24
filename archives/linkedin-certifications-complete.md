@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 1934 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-22T23:10:24.743007+00:00 -->
+<!-- retrieved_at: 2026-10-24T00:02:10.316848+00:00 -->
 
 ## Verified Records Archive
 
