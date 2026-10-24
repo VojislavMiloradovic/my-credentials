@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-23T23:58:27.598864+00:00",
+  "timestamp": "2026-10-24T00:53:07.901210+00:00",
   "summary": {
     "total": 95,
     "passed": 95,
@@ -48,9 +48,9 @@
       "retired_in_source": 40,
       "retired_in_archive": 40,
       "retired_in_jsonld": 40,
-      "latest_record_date_source": "2026-10-23T00:00:00",
-      "latest_record_date_archive": "2026-10-23T00:00:00",
-      "latest_record_date_jsonld": "2026-10-23T00:00:00"
+      "latest_record_date_source": "2026-10-24T00:00:00",
+      "latest_record_date_archive": "2026-10-24T00:00:00",
+      "latest_record_date_jsonld": "2026-10-24T00:00:00"
     },
     "credly": {
       "source_records": 788,
@@ -1003,7 +1003,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-10-23 to 2026-10-23)",
+      "message": "Latest record dates span 0 days across artifacts (2026-10-24 to 2026-10-24)",
       "severity": "warning"
     },
     {
