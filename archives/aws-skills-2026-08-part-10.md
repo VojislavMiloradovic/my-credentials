@@ -45,7 +45,7 @@ artifacts: complete, index
 | 2026-08-03 | [Configuring and Deploying VPCs with Multiple Subnets](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-03 | [Malware analysis on AWS: Setting up a secure environment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [Introduction to Autonomous Driving Data Framework (ADDF) on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course [WARN] *Content retired (platform-flagged: Source CSV Status=Retired, 2026-08-02)* |
-| 2026-08-02 | [[RETIRING - 2026-11-18] Building web search-enabled agents with Strands and Exa](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-02 | [Building web search-enabled agents with Strands and Exa](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [AI Agent Guardrails for Production on AWS \| Databases for AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [Amazon Connect AI Customer Engagement](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [Amazon Connect APIs Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

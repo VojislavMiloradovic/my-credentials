@@ -33,7 +33,7 @@ artifacts: complete, index
 | 2026-10-02 | [Scaled hiring with Amazon Connect Talent (Tech Preview)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-02 | [Scaling content review operations with multi-agent workflow](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-02 | [Scaling Serverless Architectures](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-30 | [[RETIRING - 2026-11-18] Simplifying Prometheus metrics collection across your AWS infrastructure](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-30 | [Simplifying Prometheus metrics collection across your AWS infrastructure](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [AI-DLC Foundations: Planning, Implementation and Measurement](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [AI-DLC Foundations: Principles](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [Alerting Best Practices with Amazon Managed Service for Prometheus](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

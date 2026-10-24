@@ -28,7 +28,7 @@ artifacts: complete, index
 | 2026-09-25 | [A leader's guide to achieving compliance through software excellence - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-25 | [A leader's guide to data strategy in the era of agentic AI - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-25 | [Security Hub adds AI workload protection and multicloud support for Microsoft Azure](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-21 | [[RETIRING - 2026-11-07] Audio tokenization layer behind Speech AI: Deploy and compare neural codecs on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Builder Lab |
+| 2026-09-21 | [Audio tokenization layer behind Speech AI: Deploy and compare neural codecs on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Builder Lab |
 | 2026-09-21 | [AgentCore Policy on Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-21 | [Amazon Aurora Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-21 | [Amazon Bedrock Business Value and ROI Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

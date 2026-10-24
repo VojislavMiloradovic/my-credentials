@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 1121 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-24T00:53:03.900524+00:00 -->
+<!-- retrieved_at: 2026-10-24T15:06:51.701011+00:00 -->
 
 ## Verified Records Archive
 
@@ -99,8 +99,8 @@ This document represents a unified, verifiable list of all 1121 records.
 | 2026-10-14 | [Introduction to vector search in Amazon DynamoDB](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-14 | [Microsoft on AWS - Migrate SQL Server Databases to Aurora](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-11 | [Amazon Connect Developer Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-10 | [[RETIRING - 2026-11-18] Introducing container caching in Amazon SageMaker AI for faster model scaling](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-10 | [[RETIRING - 2026-11-18] Investigating Service Issues with Amazon CloudWatch Application Signals Custom Metrics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Introducing container caching in Amazon SageMaker AI for faster model scaling](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Investigating Service Issues with Amazon CloudWatch Application Signals Custom Metrics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Amazon Quick integration with time-series databases for market intelligence using MCP](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Architecting offline-first generative AI applications for edge deployments using AWS services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Authenticate legitimate AI agent traffic with AWS WAF Bot Control](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -186,7 +186,7 @@ This document represents a unified, verifiable list of all 1121 records.
 | 2026-10-02 | [Scaled hiring with Amazon Connect Talent (Tech Preview)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-02 | [Scaling content review operations with multi-agent workflow](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-02 | [Scaling Serverless Architectures](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-30 | [[RETIRING - 2026-11-18] Simplifying Prometheus metrics collection across your AWS infrastructure](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-30 | [Simplifying Prometheus metrics collection across your AWS infrastructure](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [AI-DLC Foundations: Planning, Implementation and Measurement](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [AI-DLC Foundations: Principles](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-30 | [Alerting Best Practices with Amazon Managed Service for Prometheus](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -235,7 +235,7 @@ This document represents a unified, verifiable list of all 1121 records.
 | 2026-09-25 | [A leader's guide to achieving compliance through software excellence - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-25 | [A leader's guide to data strategy in the era of agentic AI - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-25 | [Security Hub adds AI workload protection and multicloud support for Microsoft Azure](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-21 | [[RETIRING - 2026-11-07] Audio tokenization layer behind Speech AI: Deploy and compare neural codecs on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Builder Lab |
+| 2026-09-21 | [Audio tokenization layer behind Speech AI: Deploy and compare neural codecs on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Builder Lab |
 | 2026-09-21 | [AgentCore Policy on Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-21 | [Amazon Aurora Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-21 | [Amazon Bedrock Business Value and ROI Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -412,7 +412,7 @@ This document represents a unified, verifiable list of all 1121 records.
 | 2026-08-29 | [Retrieval, Citations, and Why RAG Quietly Fails](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Shift-Left Tag Compliance using AWS Organizations and Terraform](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Transform AWS Support Case Workflows with Kiro CLI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-25 | [[RETIRING - 2026-11-18] Build an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-25 | [Build an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Advanced CloudFormation: Macros](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Advanced features of Amazon Aurora PostgreSQL (Part 2)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Amazon Elastic Kubernetes Service (Amazon EKS) - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -441,7 +441,7 @@ This document represents a unified, verifiable list of all 1121 records.
 | 2026-08-25 | [Safeguard generative AI applications with Amazon Bedrock Guardrails](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Securing Data in Amazon Elastic File System (Amazon EFS)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Serverless Analytics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-24 | [[RETIRING - 2026-11-12] Data for SaaS - Season 1](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-24 | [Data for SaaS - Season 1](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-24 | [Amazon Aurora MySQL and Amazon RDS MySQL](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-24 | [Amazon Simple Storage Service (Amazon S3) Cost Optimization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-24 | [Architecting SAP on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -622,7 +622,7 @@ This document represents a unified, verifiable list of all 1121 records.
 | 2026-08-03 | [Configuring and Deploying VPCs with Multiple Subnets](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-03 | [Malware analysis on AWS: Setting up a secure environment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [Introduction to Autonomous Driving Data Framework (ADDF) on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course [WARN] *Content retired (platform-flagged: Source CSV Status=Retired, 2026-08-02)* |
-| 2026-08-02 | [[RETIRING - 2026-11-18] Building web search-enabled agents with Strands and Exa](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-02 | [Building web search-enabled agents with Strands and Exa](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [AI Agent Guardrails for Production on AWS \| Databases for AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [Amazon Connect AI Customer Engagement](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-02 | [Amazon Connect APIs Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -1104,7 +1104,7 @@ This document represents a unified, verifiable list of all 1121 records.
 | 2026-01-14 | [Exploring Artificial Intelligence Use Cases and Applications](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-13 | [Responsible Artificial Intelligence Practices](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-12 | [Generative AI for Executives](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-01-11 | [[RETIRING - 2026-11-19]  AWS Command Line Interface (CLI) Basics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-01-11 | [AWS Command Line Interface (CLI) Basics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-11 | [Introduction to Machine Learning: Art of the Possible](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-09 | [Fundamentals of Machine Learning and Artificial Intelligence](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-09 | [Getting Started with DevOps on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

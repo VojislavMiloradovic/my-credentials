@@ -102,7 +102,7 @@ Showing latest 10 of 415 credentials. View full dataset via [Platform Archive In
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
 **Total Portfolio Credentials:** 1121
-**Total Verified Skills Mapped:** 1116
+**Total Verified Skills Mapped:** 1114
 
 #### AWS Cloud Quest Summary
 

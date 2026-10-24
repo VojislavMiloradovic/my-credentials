@@ -45,7 +45,7 @@ artifacts: complete, index
 | 2026-08-29 | [Retrieval, Citations, and Why RAG Quietly Fails](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Shift-Left Tag Compliance using AWS Organizations and Terraform](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-29 | [Transform AWS Support Case Workflows with Kiro CLI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-25 | [[RETIRING - 2026-11-18] Build an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-25 | [Build an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Advanced CloudFormation: Macros](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Advanced features of Amazon Aurora PostgreSQL (Part 2)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Amazon Elastic Kubernetes Service (Amazon EKS) - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

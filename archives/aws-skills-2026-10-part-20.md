@@ -50,8 +50,8 @@ artifacts: complete, index
 | 2026-10-14 | [Introduction to vector search in Amazon DynamoDB](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-14 | [Microsoft on AWS - Migrate SQL Server Databases to Aurora](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-11 | [Amazon Connect Developer Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-10 | [[RETIRING - 2026-11-18] Introducing container caching in Amazon SageMaker AI for faster model scaling](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-10 | [[RETIRING - 2026-11-18] Investigating Service Issues with Amazon CloudWatch Application Signals Custom Metrics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Introducing container caching in Amazon SageMaker AI for faster model scaling](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-10 | [Investigating Service Issues with Amazon CloudWatch Application Signals Custom Metrics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Amazon Quick integration with time-series databases for market intelligence using MCP](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Architecting offline-first generative AI applications for edge deployments using AWS services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Authenticate legitimate AI agent traffic with AWS WAF Bot Control](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
