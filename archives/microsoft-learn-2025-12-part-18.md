@@ -47,8 +47,8 @@ artifacts: complete, index
 | **Advanced lessons in psychological safety** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-advanced-psychological-safety/) |
 | **Understand hybrid data platform on SQL Server 2025** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-hybrid-data-platform-sql-server-2022/) |
 | **Configure your data in finance and operations apps** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-your-data-dynamics-365-finance-operations-apps/) |
-| **Understand and share your Viva Glint results** | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-understand-and-share-results/) |
 | **Navigate your Viva Glint results** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/viva-glint-navigate-viva-glint-results/) |
+| **Understand and share your Viva Glint results** | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/viva-glint-understand-and-share-results/) |
 | **Describe the basics of Azure for business** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-basics-azure-business/) |
 | **Introduction to Azure OpenAI managed identity authentication with Python** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-openai-managed-identity-auth-python/) |
 | **Describe reporting and integration capabilities in finance apps** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-report-integration/) |
@@ -62,8 +62,8 @@ artifacts: complete, index
 | **Get started with Power Automate for desktop** | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/pad-get-started/) |
 | **Power Automate for desktop development essentials** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-power-automate-desktop-development-essentials/) |
 | **Design a SQL Server migration strategy** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-data-platform-modernization/) |
-| **Share a cloud flow with Power Automate** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/share-cloud-flow/) |
 | **Connect and share cloud flow to desktop flows in Power Automate for desktop** | Learningpaths | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/connect-share-cloud-flow-desktop-flows-power-automate/) |
+| **Share a cloud flow with Power Automate** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/share-cloud-flow/) |
 | **Build a mobile-optimized app from Power Apps** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-mobile-optimized/) |
 | **Upload your project by using GitHub best practices** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-project-github/) |
 | **Adjust process behavior using conditional actions with Power Automate for desktop** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-conditionals/) |

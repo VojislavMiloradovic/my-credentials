@@ -23,6 +23,7 @@ Welcome to my portfolio! Here is my live learning history:
 - **Completed Individual Units:** 37,222
 
 ### Verifiable Applied Skills & Credentials
+- **Implement Information Protection And Data Loss Prevention By Using Microsoft Purview** (Credential ID: `7B5F7FFBA2989947` | Earned: 2026-10-24T14:32:43+00:00 | Status: Active)
 - **Build An Agent In Microsoft Copilot Studio** (Credential ID: `586C3134869081FC` | Earned: 2026-10-19T14:16:36+00:00 | Status: Active)
 - **Protect Information In Microsoft 365 Copilot By Using Microsoft Purview** (Credential ID: `F87E8DADFE9F36FD` | Earned: 2026-10-15T19:49:57+00:00 | Status: Active)
 - **Integrate Model Context Protocol Tools With Agents In Microsoft Foundry** (Credential ID: `D296FE0D58F3B6D0` | Earned: 2026-10-11T10:57:14+00:00 | Status: Active)

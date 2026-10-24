@@ -30,8 +30,8 @@ artifacts: complete, index
 | **Design a Modern Data Warehouse using Azure Synapse Analytics** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-modern-data-warehouse-using-azure-synapse-analytics/) |
 | **Get started with Dynamics 365 Commerce channels** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-commerce-channels/) |
 | **Get started with B2B e-commerce in Dynamics 365 Commerce** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-business-to-business-commerce/) |
-| **Get started with Delegates** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-delegates/) |
 | **Implement delegates and events** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/delegates-events-exceptions/) |
+| **Get started with Delegates** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-delegates/) |
 | **Introduction to Secure Network Infrastructure with Azure network security** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-networking-infrastructure/) |
 | **Introduction to Azure Firewall Manager** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-firewall-manager/) |
 | **Explore concepts of data analytics** | Modules | 2026-01-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-concepts-of-data-analytics/) |

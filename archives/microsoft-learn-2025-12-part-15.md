@@ -47,8 +47,8 @@ artifacts: complete, index
 | **Troubleshoot Web App Down Scenarios with App Service Diagnostics** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-web-app-down-scenarios-app-service-diagnostics/) |
 | **Introduction to AI Center of Excellence** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-ai-center-excellence/) |
 | **Discover Microsoft guidelines for responsible conversational AI development** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-conversational-ai/) |
-| **Design degree program curricula that implement certification** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-design-program-curricula/) |
 | **Implement certifications in academic programs** | Learningpaths | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/academic-program-certifications/) |
+| **Design degree program curricula that implement certification** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/academic-program-certifications-design-program-curricula/) |
 | **Introduction to gaming and disability** | Modules | 2025-12-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-gaming/) |
 | **Introduction to .NET** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/dotnet-introduction/) |
 | **Work with choices in Dataverse** | Modules | 2025-12-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/working-with-option-sets/) |
