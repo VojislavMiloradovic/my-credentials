@@ -140,15 +140,16 @@ Showing latest 10 of 1121 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 788
+**Total Portfolio Credentials:** 789
 **Total Verified Skills Mapped:** 2747
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 788 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 789 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-23 | [AWS Knowledge: Amazon Connect Communications Specialist - Training Badge](https://www.credly.com/badges/7e611b8a-f83d-4f69-b3ea-1b7c858837d0/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-22 | [Analyze Identity Risk with ISPM](https://www.credly.com/badges/92682534-5ad0-40d0-a597-85b17dfc51f1/public_url) | Okta | Credly Verified Badge |
 | 2026-10-22 | [Data Privacy Fundamentals](https://www.credly.com/badges/230b3fb7-5a66-40c3-8f06-aeb1286d094d/public_url) | IBM | Credly Verified Badge |
 | 2026-10-22 | [Explore the Okta Data Model via the Okta Core API](https://www.credly.com/badges/2ffbb4f6-1ed6-4a8b-b8e0-7d3ab1c13c40/public_url) | Okta | Credly Verified Badge |
@@ -158,7 +159,6 @@ Showing latest 10 of 788 credentials. View full dataset via [Platform Archive In
 | 2026-10-22 | [Kong Developer](https://www.credly.com/badges/331ba597-adaa-412b-817e-d9064735f5fc/public_url) | Kong | Credly Verified Badge |
 | 2026-10-22 | [Protecting Non-Human Identities](https://www.credly.com/badges/b120995e-8c0f-4888-97ff-f99d2839cdc8/public_url) | Okta | Credly Verified Badge |
 | 2026-10-21 | [Cloud Essentials](https://www.credly.com/badges/111faf8d-0211-4709-8aa9-4e94ea3a6ca4/public_url) | IBM | Credly Verified Badge |
-| 2026-10-19 | [AI Power User Launchpad](https://www.credly.com/badges/d2e77dd9-3ae5-492a-8f64-b0a008afee43/public_url) | Cisco | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
