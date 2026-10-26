@@ -141,15 +141,17 @@ Showing latest 10 of 1121 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 791
+**Total Portfolio Credentials:** 793
 **Total Verified Skills Mapped:** 2757
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 791 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 793 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-26 | [Analyze Speech and Language with Google APIs Skill Badge](https://www.credly.com/badges/1fb39bd7-add0-4944-9f60-17025c91dca6/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-10-26 | [Deploy Kubernetes Applications on Google Cloud Skill Badge](https://www.credly.com/badges/0c63a326-6ed3-445a-a6a4-8232c89f57ea/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-24 | [Networking Basics](https://www.credly.com/badges/52301a6a-b07c-4272-9055-a0854ee63ab3/public_url) | Cisco | Credly Verified Badge |
 | 2026-10-24 | [Microsoft Applied Skills: Implement information protection and data loss prevention by using Microsoft Purview](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/7B5F7FFBA2989947?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-23 | [AWS Knowledge: Amazon Connect Communications Specialist - Training Badge](https://www.credly.com/badges/7e611b8a-f83d-4f69-b3ea-1b7c858837d0/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
@@ -158,8 +160,6 @@ Showing latest 10 of 791 credentials. View full dataset via [Platform Archive In
 | 2026-10-22 | [Explore the Okta Data Model via the Okta Core API](https://www.credly.com/badges/2ffbb4f6-1ed6-4a8b-b8e0-7d3ab1c13c40/public_url) | Okta | Credly Verified Badge |
 | 2026-10-22 | [Identity Governance Access Requests](https://www.credly.com/badges/29908aeb-bd3b-4722-92da-acb29b4687df/public_url) | Okta | Credly Verified Badge |
 | 2026-10-22 | [Implement MFA with Okta](https://www.credly.com/badges/ca060113-a210-4c4b-8c13-b10c33404d76/public_url) | Okta | Credly Verified Badge |
-| 2026-10-22 | [Implement Security Policies](https://www.credly.com/badges/da8571cc-b89c-4c85-86fd-b560e4baae59/public_url) | Okta | Credly Verified Badge |
-| 2026-10-22 | [Kong Developer](https://www.credly.com/badges/331ba597-adaa-412b-817e-d9064735f5fc/public_url) | Kong | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

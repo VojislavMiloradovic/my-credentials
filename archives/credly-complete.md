@@ -1,17 +1,19 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 791 records.
+This document represents a unified, verifiable list of all 793 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-26T02:42:26.124103+00:00 -->
+<!-- retrieved_at: 2026-10-26T16:57:28.949687+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-26 | [Analyze Speech and Language with Google APIs Skill Badge](https://www.credly.com/badges/1fb39bd7-add0-4944-9f60-17025c91dca6/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-10-26 | [Deploy Kubernetes Applications on Google Cloud Skill Badge](https://www.credly.com/badges/0c63a326-6ed3-445a-a6a4-8232c89f57ea/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-24 | [Networking Basics](https://www.credly.com/badges/52301a6a-b07c-4272-9055-a0854ee63ab3/public_url) | Cisco | Credly Verified Badge |
 | 2026-10-24 | [Microsoft Applied Skills: Implement information protection and data loss prevention by using Microsoft Purview](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/7B5F7FFBA2989947?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-23 | [AWS Knowledge: Amazon Connect Communications Specialist - Training Badge](https://www.credly.com/badges/7e611b8a-f83d-4f69-b3ea-1b7c858837d0/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
