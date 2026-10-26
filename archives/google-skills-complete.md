@@ -1,17 +1,21 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 415 records.
+This document represents a unified, verifiable list of all 419 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-26T02:02:40.642624+00:00 -->
+<!-- retrieved_at: 2026-10-26T16:54:58.063282+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-26 | [Analyze Speech and Language with Google APIs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29139278) | Google Cloud | Google Skill Badge |
+| 2026-10-26 | [Deploy Kubernetes Applications on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29137881) | Google Cloud | Google Skill Badge |
+| 2026-10-26 | [Arcade Adventure: Google Cloud ML APIs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29137135) | Google Cloud | Google Skill Badge |
+| 2026-10-26 | [Trick-or-Metric](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29133690) | Google Cloud | Google Skill Badge |
 | 2026-10-21 | [Responsible AI for Developers: Privacy & Safety](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29001105) | Google Cloud | Google Skill Badge |
 | 2026-10-21 | [Integrate Applications with Gemini on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29000448) | Google Cloud | Google Skill Badge |
 | 2026-10-17 | [MLOps with Agent Platform: Manage Features](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28927506) | Google Cloud | Google Skill Badge |
@@ -198,7 +202,7 @@ This document represents a unified, verifiable list of all 415 records.
 | 2026-04-21 | [Google Cloud Security for the Public Sector](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23723537) | Google Cloud | Google Skill Badge |
 | 2026-04-20 | [[DEPRECATED] Accelerate Knowledge Exchange with Gemini Enterprise](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23702768) | Google Cloud | Google Skill Badge |
 | 2026-04-18 | [Build a Certification Study Guide: PSOE Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23677452) | Google Cloud | Google Skill Badge |
-| 2026-04-18 | [Gemini for end-to-end SDLC](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23677349) | Google Cloud | Google Skill Badge |
+| 2026-04-18 | [[DEPRECATED] Gemini for end-to-end SDLC](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23677349) | Google Cloud | Google Skill Badge |
 | 2026-04-18 | [Implement Cloud Next Generation Firewall](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23670599) | Google Cloud | Google Skill Badge |
 | 2026-04-17 | [Quiz: GDC Air-Gapped Practitioner Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23659912) | Google Cloud | Google Skill Badge |
 | 2026-04-16 | [Machine Learning Operations (MLOps) with Agent Platform: Model Evaluation](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23640729) | Google Cloud | Google Skill Badge |
@@ -247,10 +251,10 @@ This document represents a unified, verifiable list of all 415 records.
 | 2026-03-25 | [SecOps on GDC for Tier 3 Analysts](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23252609) | Google Cloud | Google Skill Badge |
 | 2026-03-25 | [Quiz: GDC Air-Gapped Security Operator Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23252126) | Google Cloud | Google Skill Badge |
 | 2026-03-22 | [Conversational AI on Vertex AI and Dialogflow CX](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23173335) | Google Cloud | Google Skill Badge |
-| 2026-03-22 | [Gemini for Security Engineers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23172667) | Google Cloud | Google Skill Badge |
-| 2026-03-22 | [Gemini for Cloud Architects](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23172626) | Google Cloud | Google Skill Badge |
+| 2026-03-22 | [[DEPRECATED] Gemini for Security Engineers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23172667) | Google Cloud | Google Skill Badge |
+| 2026-03-22 | [[DEPRECATED] Gemini for Cloud Architects](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23172626) | Google Cloud | Google Skill Badge |
 | 2026-03-21 | [Building No-Code Apps with AppSheet: Implementation](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23161995) | Google Cloud | Google Skill Badge |
-| 2026-03-20 | [Gemini for Application Developers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23146474) | Google Cloud | Google Skill Badge |
+| 2026-03-20 | [[DEPRECATED] Gemini for Application Developers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23146474) | Google Cloud | Google Skill Badge |
 | 2026-03-19 | [Introduction Google Security Operations (SOAR)](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23131290) | Google Cloud | Google Skill Badge |
 | 2026-03-19 | [[DEPRECATED] Google Security Operations - SOAR Developer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23131102) | Google Cloud | Google Skill Badge |
 | 2026-03-19 | [Google Security Operations - SOAR Analyst](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23131057) | Google Cloud | Google Skill Badge |
@@ -261,7 +265,7 @@ This document represents a unified, verifiable list of all 415 records.
 | 2026-03-08 | [Networking in Google Cloud: Routing and Addressing](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22853188) | Google Cloud | Google Skill Badge |
 | 2026-03-07 | [Networking in Google Cloud: Network Architecture](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22838249) | Google Cloud | Google Skill Badge |
 | 2026-03-07 | [Networking in Google Cloud: Hybrid and Multicloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22837772) | Google Cloud | Google Skill Badge |
-| 2026-03-03 | [Gemini for Network Engineers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22742333) | Google Cloud | Google Skill Badge |
+| 2026-03-03 | [[DEPRECATED] Gemini for Network Engineers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22742333) | Google Cloud | Google Skill Badge |
 | 2026-03-01 | [Plan Your Cloud Next Generation Firewall Needs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691283) | Google Cloud | Google Skill Badge |
 | 2026-03-01 | [Introduction to Cloud Next Generation Firewall](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691267) | Google Cloud | Google Skill Badge |
 | 2026-02-25 | [Build a Certification Study Guide: PMLE](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22568934) | Google Cloud | Google Skill Badge |
@@ -322,8 +326,8 @@ This document represents a unified, verifiable list of all 415 records.
 | 2025-12-09 | [[DEPRECATED] Agent Summarization (Custom)](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20767214) | Google Cloud | Google Skill Badge |
 | 2025-12-07 | [Conversational AI and its Engagement Framework](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20718087) | Google Cloud | Google Skill Badge |
 | 2025-12-07 | [Conversational Insights](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20717950) | Google Cloud | Google Skill Badge |
-| 2025-12-07 | [How to Use TPUs for Inference](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20717495) | Google Cloud | Google Skill Badge |
-| 2025-12-07 | [Architecting an AI Inference Stack](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20707852) | Google Cloud | Google Skill Badge |
+| 2025-12-07 | [[DEPRECATED] How to Use TPUs for Inference](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20717495) | Google Cloud | Google Skill Badge |
+| 2025-12-07 | [[DEPRECATED] Architecting an AI Inference Stack](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20707852) | Google Cloud | Google Skill Badge |
 | 2025-12-06 | [Google Workspace Troubleshooting](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20701950) | Google Cloud | Google Skill Badge |
 | 2025-12-06 | [Google Workspace Security](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20688811) | Google Cloud | Google Skill Badge |
 | 2025-12-05 | [Google Workspace Data Governance](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20683058) | Google Cloud | Google Skill Badge |

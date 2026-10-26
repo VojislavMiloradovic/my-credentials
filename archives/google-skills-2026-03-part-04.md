@@ -29,10 +29,10 @@ artifacts: complete, index
 | 2026-03-25 | [SecOps on GDC for Tier 3 Analysts](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23252609) | Google Cloud | Google Skill Badge |
 | 2026-03-25 | [Quiz: GDC Air-Gapped Security Operator Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23252126) | Google Cloud | Google Skill Badge |
 | 2026-03-22 | [Conversational AI on Vertex AI and Dialogflow CX](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23173335) | Google Cloud | Google Skill Badge |
-| 2026-03-22 | [Gemini for Security Engineers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23172667) | Google Cloud | Google Skill Badge |
-| 2026-03-22 | [Gemini for Cloud Architects](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23172626) | Google Cloud | Google Skill Badge |
+| 2026-03-22 | [[DEPRECATED] Gemini for Security Engineers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23172667) | Google Cloud | Google Skill Badge |
+| 2026-03-22 | [[DEPRECATED] Gemini for Cloud Architects](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23172626) | Google Cloud | Google Skill Badge |
 | 2026-03-21 | [Building No-Code Apps with AppSheet: Implementation](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23161995) | Google Cloud | Google Skill Badge |
-| 2026-03-20 | [Gemini for Application Developers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23146474) | Google Cloud | Google Skill Badge |
+| 2026-03-20 | [[DEPRECATED] Gemini for Application Developers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23146474) | Google Cloud | Google Skill Badge |
 | 2026-03-19 | [Introduction Google Security Operations (SOAR)](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23131290) | Google Cloud | Google Skill Badge |
 | 2026-03-19 | [[DEPRECATED] Google Security Operations - SOAR Developer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23131102) | Google Cloud | Google Skill Badge |
 | 2026-03-19 | [Google Security Operations - SOAR Analyst](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23131057) | Google Cloud | Google Skill Badge |
@@ -43,7 +43,7 @@ artifacts: complete, index
 | 2026-03-08 | [Networking in Google Cloud: Routing and Addressing](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22853188) | Google Cloud | Google Skill Badge |
 | 2026-03-07 | [Networking in Google Cloud: Network Architecture](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22838249) | Google Cloud | Google Skill Badge |
 | 2026-03-07 | [Networking in Google Cloud: Hybrid and Multicloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22837772) | Google Cloud | Google Skill Badge |
-| 2026-03-03 | [Gemini for Network Engineers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22742333) | Google Cloud | Google Skill Badge |
+| 2026-03-03 | [[DEPRECATED] Gemini for Network Engineers](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22742333) | Google Cloud | Google Skill Badge |
 | 2026-03-01 | [Plan Your Cloud Next Generation Firewall Needs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691283) | Google Cloud | Google Skill Badge |
 | 2026-03-01 | [Introduction to Cloud Next Generation Firewall](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691267) | Google Cloud | Google Skill Badge |
 | 2026-02-25 | [Build a Certification Study Guide: PMLE](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22568934) | Google Cloud | Google Skill Badge |

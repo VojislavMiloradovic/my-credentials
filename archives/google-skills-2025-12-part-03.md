@@ -56,8 +56,8 @@ artifacts: complete, index
 | 2025-12-09 | [[DEPRECATED] Agent Summarization (Custom)](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20767214) | Google Cloud | Google Skill Badge |
 | 2025-12-07 | [Conversational AI and its Engagement Framework](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20718087) | Google Cloud | Google Skill Badge |
 | 2025-12-07 | [Conversational Insights](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20717950) | Google Cloud | Google Skill Badge |
-| 2025-12-07 | [How to Use TPUs for Inference](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20717495) | Google Cloud | Google Skill Badge |
-| 2025-12-07 | [Architecting an AI Inference Stack](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20707852) | Google Cloud | Google Skill Badge |
+| 2025-12-07 | [[DEPRECATED] How to Use TPUs for Inference](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20717495) | Google Cloud | Google Skill Badge |
+| 2025-12-07 | [[DEPRECATED] Architecting an AI Inference Stack](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20707852) | Google Cloud | Google Skill Badge |
 | 2025-12-06 | [Google Workspace Troubleshooting](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20701950) | Google Cloud | Google Skill Badge |
 | 2025-12-06 | [Google Workspace Security](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20688811) | Google Cloud | Google Skill Badge |
 | 2025-12-05 | [Google Workspace Data Governance](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/20683058) | Google Cloud | Google Skill Badge |
