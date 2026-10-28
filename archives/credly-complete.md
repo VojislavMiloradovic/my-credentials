@@ -1,17 +1,20 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 793 records.
+This document represents a unified, verifiable list of all 796 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-27T03:16:51.736301+00:00 -->
+<!-- retrieved_at: 2026-10-28T00:03:07.750100+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-27 | [Game-playing AI with Swift for TensorFlow](https://www.credly.com/badges/bba0e5ce-372f-4f04-8c7e-add137f1656b/public_url) | IBM | Credly Verified Badge |
+| 2026-10-27 | [Kong Gateway Operations for KIC](https://www.credly.com/badges/ea916ed5-cdde-4b4a-ae16-6b7a912566f0/public_url) | Kong | Credly Verified Badge |
+| 2026-10-27 | [Open Source Foundations](https://www.credly.com/badges/3e3d462b-caac-40e5-94d3-9faf88b318a5/public_url) | IBM | Credly Verified Badge |
 | 2026-10-26 | [Analyze Speech and Language with Google APIs Skill Badge](https://www.credly.com/badges/1fb39bd7-add0-4944-9f60-17025c91dca6/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-26 | [Deploy Kubernetes Applications on Google Cloud Skill Badge](https://www.credly.com/badges/0c63a326-6ed3-445a-a6a4-8232c89f57ea/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-24 | [Networking Basics](https://www.credly.com/badges/52301a6a-b07c-4272-9055-a0854ee63ab3/public_url) | Cisco | Credly Verified Badge |
