@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-10-28 00:03 UTC
+> **Last Generated:** 2026-10-28 00:22 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -182,11 +182,11 @@ Showing latest 10 of 796 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,934 |
+| **Total External Certifications Verified** | 1,945 |
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-10-part-42.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-42.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-10-part-43.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-43.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -4438,13 +4438,13 @@ This document represents a unified, verifiable list of all 419 records.
 
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 1934 records.
+This document represents a unified, verifiable list of all 1945 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-24T00:02:10.316848+00:00 -->
+<!-- retrieved_at: 2026-10-28T00:22:56.620590+00:00 -->
 
 ## Verified Records Archive
 
@@ -4593,6 +4593,17 @@ This document represents a unified, verifiable list of all 1934 records.
 | 2026-10 | **Exploring User Administration Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xitys-difuc-vygen-goheb-sufok) |
 | 2026-10 | **Managing Travel Admin Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xynip-necoh-tudol-hugiv-vemob) |
 | 2026-10 | **Managing Data Retention in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xafih-pedir-cecof-demif-tonyl) |
+| 2026-10 | **AWS Knowledge: Amazon Connect Communications Specialist - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/7e611b8a-f83d-4f69-b3ea-1b7c858837d0/linked_in_profile) |
+| 2026-10 | **Microsoft Applied Skills: Implement information protection and data loss prevention by using Microsoft Purview** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/7B5F7FFBA2989947?sharingId) |
+| 2026-10 | **Networking Basics** | Cisco | [Verify Record](https://www.credly.com/badges/52301a6a-b07c-4272-9055-a0854ee63ab3/linked_in_profile) |
+| 2026-10 | **Trick-or-Metric** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29133690?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Arcade Adventure: Google Cloud ML APIs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29137135?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Deploy Kubernetes Applications on Google Cloud Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/0c63a326-6ed3-445a-a6a4-8232c89f57ea/linked_in_profile) |
+| 2026-10 | **Analyze Speech and Language with Google APIs Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/1fb39bd7-add0-4944-9f60-17025c91dca6/linked_in_profile) |
+| 2026-10 | **Open Source Foundations** | IBM | [Verify Record](https://www.credly.com/badges/3e3d462b-caac-40e5-94d3-9faf88b318a5/linked_in_profile) |
+| 2026-10 | **Scalable Web Applications on Kubernetes** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/3b4b537ce2c44a2a85c183bc36a0d819) |
+| 2026-10 | **Game-playing AI with Swift for TensorFlow** | IBM | [Verify Record](https://www.credly.com/badges/bba0e5ce-372f-4f04-8c7e-add137f1656b/linked_in_profile) |
+| 2026-10 | **Kong Gateway Operations for KIC** | Kong | [Verify Record](https://www.credly.com/badges/ea916ed5-cdde-4b4a-ae16-6b7a912566f0/linked_in_profile) |
 | 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
 | 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 | 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |

@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 41 of 42
+chunk_part: 41 of 43
 date_range: 2026-10 to 2026-10
-total_entries: 53
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-41.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,21 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Set Up a Google Cloud Network Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/981311c0-3ff9-4b0b-8491-79f928f8349f/linked_in_profile) |
-| 2026-10 | **Arcade Simulator: Site Reliability Engineer** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28726632?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-10 | **AI Foundations** | OpenAI | [Verify Record](https://oaiacademy.credential.net/4ec9bf1c-4513-45e8-9158-af7b12572578) |
-| 2026-10 | **Applied AI Foundations** | OpenAI | [Verify Record](https://oaiacademy.credential.net/05420b94-f7b2-4a8f-94c0-1126a81c6ccf) |
-| 2026-10 | **Agents and Workflows** | OpenAI | [Verify Record](https://oaiacademy.credential.net/0fc22b15-4fdc-4a00-870b-17a377d31140) |
-| 2026-10 | **Apply AI at Work Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/e106a393-57d6-4d31-87d0-a777c12095b0) |
-| 2026-10 | **AI Leadership** | OpenAI | [Verify Record](https://oaiacademy.credential.net/298344d0-7037-4e8f-aa91-9b73db962a4c) |
-| 2026-10 | **AI for Educators** | OpenAI | [Verify Record](https://oaiacademy.credential.net/83b5de68-80e1-4cce-8eed-8f2aaac50b03) |
-| 2026-10 | **AI for College Students** | OpenAI | [Verify Record](https://oaiacademy.credential.net/1c7fcb2a-fd59-436f-a70d-2fff539820d8) |
-| 2026-10 | **Build with Retrieval-Augmented Generation** | OpenAI | [Verify Record](https://oaiacademy.credential.net/badf24c7-2d8f-4f1e-9b41-24e1b5c11908) |
-| 2026-10 | **Design and Build Agentic Systems** | OpenAI | [Verify Record](https://oaiacademy.credential.net/53ceab8d-072a-4629-96a1-7ac796be215f) |
-| 2026-10 | **Optimize AI Application Performance** | OpenAI | [Verify Record](https://oaiacademy.credential.net/36a6db1f-de51-4200-812c-e01de420a016) |
-| 2026-10 | **Evaluate AI Applications** | OpenAI | [Verify Record](https://oaiacademy.credential.net/7bdef3bd-608a-407b-9aa8-5d3756791e1c) |
-| 2026-10 | **Scope AI Solutions** | OpenAI | [Verify Record](https://oaiacademy.credential.net/022f81a0-1eaf-4b48-a864-6e459662f0fd) |
-| 2026-10 | **Build With AI - OpenAI API Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/a6153528-a0b7-43ff-838a-925dd5273de6) |
 | 2026-10 | **Scale Codex Across Teams and Systems** | OpenAI | [Verify Record](https://oaiacademy.credential.net/4337aae6-0da3-4369-8cb7-8f4122bd18c3) |
 | 2026-10 | **Extend Codex Workflows** | OpenAI | [Verify Record](https://oaiacademy.credential.net/a10d60f9-eb74-4456-8bbe-d81065270025) |
 | 2026-10 | **Get Started with Codex** | OpenAI | [Verify Record](https://oaiacademy.credential.net/c3b19d3e-e2dc-4c89-b89c-cfc1a49ebed6) |
@@ -68,6 +53,17 @@ artifacts: complete, index
 | 2026-10 | **AWS Knowledge: Security Champion - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c59d7bc6-b7c4-496c-bdc5-841330331449/linked_in_profile) |
 | 2026-10 | **Microsoft Applied Skills: Protect information in Microsoft 365 Copilot by using Microsoft Purview** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/F87E8DADFE9F36FD?sharingId) |
 | 2026-10 | **Sustainable Leadership in Uncertain Times: A Conversation with Andrew Winston** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30cfa27e09aee8a4d67d7c3dc5795fc5e23db2ba90161ed92e20050e5b999749) |
+| 2026-10 | **Quantum-Safe Encryption Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2a47f562-b192-4791-8fac-f4e981fe7726/linked_in_profile) |
+| 2026-10 | **Introduction to AI and Machine Learning on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28926914?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **MLOps with Agent Platform: Manage Features** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28927506?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Docker Essentials: A Developer Introduction** | IBM | [Verify Record](https://www.credly.com/badges/9fb77f5d-7410-46fe-9ca0-597993fe77c4/linked_in_profile) |
+| 2026-10 | **Deep Learning Essentials** | IBM | [Verify Record](https://www.credly.com/badges/3337a2f8-5bd7-488a-acfb-1643a2135d68/linked_in_profile) |
+| 2026-10 | **Harness Certified Feature Management & Experimentation Developer** | Harness | [Verify Record](https://www.credly.com/badges/1de21658-16d9-4730-9874-71e917be31b4/linked_in_profile) |
+| 2026-10 | **Harness Certified Supply Chain Security Developer** | Harness | [Verify Record](https://www.credly.com/badges/fb105659-8e57-4a0b-ace4-245f2f5fdace/linked_in_profile) |
+| 2026-10 | **Harness Certified API & Application Discovery Developer Certification** | Harness | [Verify Record](https://www.credly.com/badges/526c7d05-ee39-44f0-a28a-7e6a366f9f42/linked_in_profile) |
+| 2026-10 | **Harness Certified Application & API Runtime Protection Developer Certification** | Harness | [Verify Record](https://www.credly.com/badges/4435d662-89cf-45dc-b84d-e1df4ca5b43b/linked_in_profile) |
+| 2026-10 | **Harness Certified Application & API Security Testing Developer Certification** | Harness | [Verify Record](https://www.credly.com/badges/89162e0d-265a-429f-af72-a2ddabd26a8e/linked_in_profile) |
+| 2026-10 | **Authenticate with Auth0 Database and Passwordless Connections** | Okta | [Verify Record](https://www.credly.com/badges/8ec03de7-4ca2-4da9-bb70-2cd9dfb6ebe8/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-10-part-40.md](./linkedin-certifications-2026-10-part-40.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-42.md](./linkedin-certifications-2026-10-part-42.md)
