@@ -44,7 +44,7 @@ artifacts: complete, index
 | 2026-05-05 | [Chronicle SOAR Fundamentals - Locales](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23986980) | Google Cloud | Google Skill Badge |
 | 2026-05-05 | [Introduction to Vertex AI Studio](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23986796) | Google Cloud | Google Skill Badge |
 | 2026-05-05 | [Google Workspace Essentials](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23986573) | Google Cloud | Google Skill Badge |
-| 2026-05-04 | [Streamline App Development with Gemini Code Assist](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23959109) | Google Cloud | Google Skill Badge |
+| 2026-05-04 | [[DEPRECATED] Streamline App Development with Gemini Code Assist](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23959109) | Google Cloud | Google Skill Badge |
 | 2026-05-02 | [Develop AI-Powered Prototypes in Google AI Studio](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23936622) | Google Cloud | Google Skill Badge |
 | 2026-05-02 | [Build a Certification Study Guide: PCD Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23936168) | Google Cloud | Google Skill Badge |
 | 2026-05-02 | [Google Cloud Database Migrations: Homogeneous](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23935956) | Google Cloud | Google Skill Badge |
