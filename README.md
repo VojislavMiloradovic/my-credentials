@@ -141,25 +141,25 @@ Showing latest 10 of 1121 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 796
-**Total Verified Skills Mapped:** 2769
+**Total Portfolio Credentials:** 802
+**Total Verified Skills Mapped:** 2791
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 796 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 802 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-28 | [Discover and Register AI Agents](https://www.credly.com/badges/cb8dd3b8-f179-45bc-b1b5-729751855746/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Identity Governance](https://www.credly.com/badges/d7edb0d7-1935-4389-87dc-39b5f395f23e/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Identity Governance Access Certifications](https://www.credly.com/badges/33ce5fd1-570d-42ff-bea6-32d007088ab1/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Identity Governance Entitlement Management](https://www.credly.com/badges/e73184e8-22d6-4175-ab5d-3d53bbfb4a04/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Manage AI Agents Access to Resources](https://www.credly.com/badges/656a7c48-79f9-40ec-9e10-9078ace2e722/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Streamline Identity Governance with Workflows](https://www.credly.com/badges/984861ae-3ade-45cf-bf5b-b7a99316dab6/public_url) | Okta | Credly Verified Badge |
 | 2026-10-27 | [Game-playing AI with Swift for TensorFlow](https://www.credly.com/badges/bba0e5ce-372f-4f04-8c7e-add137f1656b/public_url) | IBM | Credly Verified Badge |
 | 2026-10-27 | [Kong Gateway Operations for KIC](https://www.credly.com/badges/ea916ed5-cdde-4b4a-ae16-6b7a912566f0/public_url) | Kong | Credly Verified Badge |
 | 2026-10-27 | [Open Source Foundations](https://www.credly.com/badges/3e3d462b-caac-40e5-94d3-9faf88b318a5/public_url) | IBM | Credly Verified Badge |
 | 2026-10-26 | [Analyze Speech and Language with Google APIs Skill Badge](https://www.credly.com/badges/1fb39bd7-add0-4944-9f60-17025c91dca6/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-10-26 | [Deploy Kubernetes Applications on Google Cloud Skill Badge](https://www.credly.com/badges/0c63a326-6ed3-445a-a6a4-8232c89f57ea/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-10-24 | [Networking Basics](https://www.credly.com/badges/52301a6a-b07c-4272-9055-a0854ee63ab3/public_url) | Cisco | Credly Verified Badge |
-| 2026-10-24 | [Microsoft Applied Skills: Implement information protection and data loss prevention by using Microsoft Purview](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/7B5F7FFBA2989947?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
-| 2026-10-23 | [AWS Knowledge: Amazon Connect Communications Specialist - Training Badge](https://www.credly.com/badges/7e611b8a-f83d-4f69-b3ea-1b7c858837d0/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-10-22 | [Analyze Identity Risk with ISPM](https://www.credly.com/badges/92682534-5ad0-40d0-a597-85b17dfc51f1/public_url) | Okta | Credly Verified Badge |
-| 2026-10-22 | [Data Privacy Fundamentals](https://www.credly.com/badges/230b3fb7-5a66-40c3-8f06-aeb1286d094d/public_url) | IBM | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

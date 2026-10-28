@@ -1,17 +1,23 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 796 records.
+This document represents a unified, verifiable list of all 802 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-28T03:32:08.470876+00:00 -->
+<!-- retrieved_at: 2026-10-28T20:22:55.165492+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-28 | [Discover and Register AI Agents](https://www.credly.com/badges/cb8dd3b8-f179-45bc-b1b5-729751855746/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Identity Governance](https://www.credly.com/badges/d7edb0d7-1935-4389-87dc-39b5f395f23e/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Identity Governance Access Certifications](https://www.credly.com/badges/33ce5fd1-570d-42ff-bea6-32d007088ab1/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Identity Governance Entitlement Management](https://www.credly.com/badges/e73184e8-22d6-4175-ab5d-3d53bbfb4a04/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Manage AI Agents Access to Resources](https://www.credly.com/badges/656a7c48-79f9-40ec-9e10-9078ace2e722/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Streamline Identity Governance with Workflows](https://www.credly.com/badges/984861ae-3ade-45cf-bf5b-b7a99316dab6/public_url) | Okta | Credly Verified Badge |
 | 2026-10-27 | [Game-playing AI with Swift for TensorFlow](https://www.credly.com/badges/bba0e5ce-372f-4f04-8c7e-add137f1656b/public_url) | IBM | Credly Verified Badge |
 | 2026-10-27 | [Kong Gateway Operations for KIC](https://www.credly.com/badges/ea916ed5-cdde-4b4a-ae16-6b7a912566f0/public_url) | Kong | Credly Verified Badge |
 | 2026-10-27 | [Open Source Foundations](https://www.credly.com/badges/3e3d462b-caac-40e5-94d3-9faf88b318a5/public_url) | IBM | Credly Verified Badge |

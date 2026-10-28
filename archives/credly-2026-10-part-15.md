@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
-chunk_part: 15 of 15
-date_range: 2026-10-10 to 2026-10-27
-total_entries: 50
+chunk_part: 15 of 16
+date_range: 2026-10-10 to 2026-10-28
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,11 @@ artifacts: complete, index
 
 # Credly Verified Credentials -- Part 15
 
-> **Navigation:** Prev: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Index](./credly-index.md) | Next: None | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-16.md](./credly-2026-10-part-16.md) | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-28 | [Streamline Identity Governance with Workflows](https://www.credly.com/badges/984861ae-3ade-45cf-bf5b-b7a99316dab6/public_url) | Okta | Credly Verified Badge |
 | 2026-10-27 | [Game-playing AI with Swift for TensorFlow](https://www.credly.com/badges/bba0e5ce-372f-4f04-8c7e-add137f1656b/public_url) | IBM | Credly Verified Badge |
 | 2026-10-27 | [Kong Gateway Operations for KIC](https://www.credly.com/badges/ea916ed5-cdde-4b4a-ae16-6b7a912566f0/public_url) | Kong | Credly Verified Badge |
 | 2026-10-27 | [Open Source Foundations](https://www.credly.com/badges/3e3d462b-caac-40e5-94d3-9faf88b318a5/public_url) | IBM | Credly Verified Badge |
@@ -67,5 +68,5 @@ artifacts: complete, index
 | 2026-10-10 | [Harness Certified Infrastructure as Code Management Developer](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/public_url) | Harness Inc | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Index](./credly-index.md) | Next: None
+> **Navigation:** Prev: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-16.md](./credly-2026-10-part-16.md)
 
