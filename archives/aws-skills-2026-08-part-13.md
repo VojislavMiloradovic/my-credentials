@@ -1,6 +1,6 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 13 of 21
+chunk_part: 13 of 22
 date_range: 2026-08-19 to 2026-08-25
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-13.md
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-25 | [It's safe to close your laptop now: Hosting coding agents on Amazon Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-25 | [Mastering millisecond latency and millions of events: The event-driven architecture behind the Amazon Key Suite](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Migrating a text agent to a voice assistant with Amazon Nova 2 Sonic](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Navigating EU AI Act requirements for LLM fine-tuning on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-25 | [Nova Forge SDK series part 2: Practical guide to fine-tune Nova models using data mixing capabilities](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -65,8 +67,6 @@ artifacts: complete, index
 | 2026-08-19 | [Cases in Amazon Connect Customer - AI Powered Customer Engagement](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-19 | [Data Engineering for Generative AI Applications](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-19 | [Developing Serverless Solutions on AWS - Course Supplement (OCS)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-19 | [Discover and Assess On-Premises Database Fleet with AWS DMS Fleet Advisor](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-19 | [Handling AWS IoT Device Data and States](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-14.md](./aws-skills-2026-09-part-14.md)

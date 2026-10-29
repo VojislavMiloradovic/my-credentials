@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 3 of 21
-date_range: 2026-02-27 to 2026-03-10
+chunk_part: 3 of 22
+date_range: 2026-02-27 to 2026-03-11
 total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-03-part-03.md
 layer: L2_published
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-03-11 | [Media Glossary](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-03-11 | [Migrating VMware Workloads to AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-10 | [Using Amazon Q to Enhance Applications and Developer Productivity](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course [WARN] *Content retired (platform-flagged: Source CSV Status=Retired, 2026-03-10)* |
 | 2026-03-10 | [AWS CloudTrail Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-03-10 | [AWS Simple Queue Service (SQS) Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -69,8 +71,6 @@ artifacts: complete, index
 | 2026-02-27 | [AWS Wickr Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-27 | [Cloud for CMOs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-02-27 | [Getting Started with Administering Amazon Quick](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-02-27 | [Getting Started with AWS Clean Rooms](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-02-27 | [Getting Started with AWS Elemental MediaConnect](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-02-part-02.md](./aws-skills-2026-02-part-02.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-03-part-04.md](./aws-skills-2026-03-part-04.md)

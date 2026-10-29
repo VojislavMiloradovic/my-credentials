@@ -1,6 +1,6 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 15 of 21
+chunk_part: 15 of 22
 date_range: 2026-09-01 to 2026-09-10
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-15.md
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-10 | [Increasing Application Security with Bedrock Guardrails and GenAI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-10 | [Integrating Amazon Bedrock powered Agents with Model Context Protocol Servers using the Strands Agents SDK](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Managing Amazon Simple Storage Service (Amazon S3)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Observing, Troubleshooting, and Optimizing Workloads Running on Amazon ECS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Optimize Your Cloud Governance: Balance Security and Cost](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -65,8 +67,6 @@ artifacts: complete, index
 | 2026-09-01 | [Multi-Account Resource Inventory and Visualization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [Prompt Engineering Best Practices for Amazon Bedrock Models](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-01 | [S&P Global's innovative disaster recovery strategy using Amazon FSx for NetApp ONTAP snapshots](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-01 | [Securing and Protecting Your Data in Amazon Simple Storage Service (Amazon S3)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-01 | [Setting up Delegated Administrator for AWS services integrated with AWS Organizations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-09-part-14.md](./aws-skills-2026-09-part-14.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-16.md](./aws-skills-2026-09-part-16.md)

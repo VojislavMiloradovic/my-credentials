@@ -1,9 +1,9 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 1 of 21
-date_range: 2026-01-01 to 2026-01-31
+chunk_part: 1 of 22
+date_range: 2026-01-01 to 2026-02-01
 total_entries: 55
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-01-part-01.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-02-part-01.md
 layer: L2_published
 transform: 1:1_pass_through
 artifacts: complete, index
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-02-01 | [AWS for Media & Entertainment Content Production Security Essentials](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-31 | [AWS for RISE with SAP Introduction](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-30 | [Planning a Machine Learning Project](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-29 | [How Orchestration Works with AI Agents](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course [WARN] *Content retired (platform-flagged: Source CSV Status=Retired, 2026-01-29)* |
@@ -57,7 +58,6 @@ artifacts: complete, index
 | 2026-01-01 | [AWS Data Lakehouse Demonstrated](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
 | 2026-01-01 | [AWS Data Streaming Demonstrated](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
 | 2026-01-01 | [AWS Data Visualization Demonstrated](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
-| 2026-01-01 | [AWS Database Offerings](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-01 | [AWS for Media & Entertainment Content Production Learning Plan Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-01 | [AWS MLOps Demonstrated](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
 | 2026-01-01 | [AWS Serverless Demonstrated](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |

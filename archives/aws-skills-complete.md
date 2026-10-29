@@ -1,17 +1,32 @@
 # Complete AWS Skill Builder Credentials Archive
 
-This document represents a unified, verifiable list of all 1121 records.
+This document represents a unified, verifiable list of all 1135 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-24T15:06:51.701011+00:00 -->
+<!-- retrieved_at: 2026-10-29T15:50:16.229447+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-29 | [Amazon DynamoDB Service Introduction](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Amazon Managed Service for Apache Flink - Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Amazon Redshift Introduction](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Automate IAM Identity Center governance with continuous discovery and reporting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Automate root cause analysis for AWS Backup failures with AWS DevOps Agent](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [AWS Database Offerings](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Build AI-powered file classification with AWS Transfer Family](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Database Modernization Patterns: Migrating from Commercial Engines to Aurora](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Extend your data perimeter to the AWS Management Console with Private Access](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [GPU Cost Attribution in Amazon EKS Using Amazon Managed Service for Prometheus, Amazon Managed Grafana, and OpenTelemetry](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [How TReNDS automates root-cause analysis with Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Managing identity source transition for AWS IAM Identity Center](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Run Spark 31% faster and optimize compute costs with Amazon S3 Express One Zone on Amazon EMR](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Secure team file sharing on Amazon WorkSpaces with Amazon EFS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-24 | [Amazon Connect Communications Specialist Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-23 | [Amazon Connect Data Streaming Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-23 | [Amazon Connect Flows Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -1120,7 +1135,6 @@ This document represents a unified, verifiable list of all 1121 records.
 | 2026-01-01 | [AWS Data Lakehouse Demonstrated](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
 | 2026-01-01 | [AWS Data Streaming Demonstrated](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
 | 2026-01-01 | [AWS Data Visualization Demonstrated](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
-| 2026-01-01 | [AWS Database Offerings](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-01 | [AWS for Media & Entertainment Content Production Learning Plan Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-01-01 | [AWS MLOps Demonstrated](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
 | 2026-01-01 | [AWS Serverless Demonstrated](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |

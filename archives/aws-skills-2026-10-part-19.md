@@ -1,6 +1,6 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 19 of 21
+chunk_part: 19 of 22
 date_range: 2026-10-02 to 2026-10-10
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-19.md
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-10 | [Building Your Agentic Applications the Well-Architected Way](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Designing and Deploying SAP Workloads on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Eliminating Java cold starts with AWS Lambda Managed Instances](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Enterprise Cost Optimization Strategies: Compute, Storage, and Network Efficiency](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -66,7 +67,6 @@ artifacts: complete, index
 | 2026-10-02 | [Introduction to Amazon EC2 P6e-GB300 UltraServers](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-02 | [Introduction to Amazon Nova Forge](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-02 | [Introduction to AWS Security Agent (Tech Preview)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-02 | [Introduction to Managed PostgreSQL offerings on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-10-part-18.md](./aws-skills-2026-10-part-18.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-10-part-20.md](./aws-skills-2026-10-part-20.md)

@@ -434,6 +434,13 @@
       "reason": "Auto-retired: removed from source data on 2026-10-24",
       "retired_at": "2026-10-24",
       "title": "9618e24b4650583d"
+    },
+    {
+      "id": "61f8afe115584b93",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-10-29",
+      "retired_at": "2026-10-29",
+      "title": "61f8afe115584b93"
     }
   ],
   "credly": [],

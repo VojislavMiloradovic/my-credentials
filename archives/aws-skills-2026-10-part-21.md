@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 21 of 21
-date_range: 2026-10-18 to 2026-10-24
-total_entries: 52
+chunk_part: 21 of 22
+date_range: 2026-10-18 to 2026-10-29
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-21.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,14 @@ artifacts: complete, index
 
 # AWS Skill Builder Credentials -- Part 21
 
-> **Navigation:** Prev: [aws-skills-2026-10-part-20.md](./aws-skills-2026-10-part-20.md) | [Index](./aws-skills-index.md) | Next: None | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-10-part-20.md](./aws-skills-2026-10-part-20.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-10-part-22.md](./aws-skills-2026-10-part-22.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-29 | [How TReNDS automates root-cause analysis with Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Managing identity source transition for AWS IAM Identity Center](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Run Spark 31% faster and optimize compute costs with Amazon S3 Express One Zone on Amazon EMR](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Secure team file sharing on Amazon WorkSpaces with Amazon EFS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-24 | [Amazon Connect Communications Specialist Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-23 | [Amazon Connect Data Streaming Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-23 | [Amazon Connect Flows Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -66,8 +70,7 @@ artifacts: complete, index
 | 2026-10-18 | [Cloud for CFOs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Essential security controls to prevent unauthorized account removal in AWS Organizations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Fully Automating your Kubernetes Clusters using Amazon EKS Auto Mode](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-18 | [Generative AI Inference on AWS Hybrid and Edge Services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-10-part-20.md](./aws-skills-2026-10-part-20.md) | [Index](./aws-skills-index.md) | Next: None
+> **Navigation:** Prev: [aws-skills-2026-10-part-20.md](./aws-skills-2026-10-part-20.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-10-part-22.md](./aws-skills-2026-10-part-22.md)
 

@@ -1,6 +1,6 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 16 of 21
+chunk_part: 16 of 22
 date_range: 2026-09-10 to 2026-09-20
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-09-part-16.md
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-20 | [Build with Amazon Neptune](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-09-20 | [Containers Learning Series for Amazon ECS Overview](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-20 | [ECS Introduction to Containers](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-20 | [Getting Started with Amazon Detective](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-20 | [Intro to AWS Elastic Beanstalk](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -67,8 +69,6 @@ artifacts: complete, index
 | 2026-09-10 | [Deep Dive: Architecting with Amazon Elastic Block Store (Amazon EBS)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Dive Deep into Amazon Connect Reporting and Metrics](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-09-10 | [Enterprise Migration Strategy: Successfully Moving Workloads to AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-10 | [Increasing Application Security with Bedrock Guardrails and GenAI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-09-10 | [Integrating Amazon Bedrock powered Agents with Model Context Protocol Servers using the Strands Agents SDK](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-09-part-15.md](./aws-skills-2026-09-part-15.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-09-part-17.md](./aws-skills-2026-09-part-17.md)

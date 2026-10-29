@@ -1,6 +1,6 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 20 of 21
+chunk_part: 20 of 22
 date_range: 2026-10-10 to 2026-10-18
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-20.md
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-18 | [Generative AI Inference on AWS Hybrid and Edge Services](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Implementing Defense-in-Depth Security for AWS CodeBuild Pipelines](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Migration Evaluator – Gather Insights to Deliver a Migration Business Case](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Optimization with AWS Graviton](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -66,7 +67,6 @@ artifacts: complete, index
 | 2026-10-10 | [Building Intelligent Search with Bedrock and OpenSearch for hybrid RAG](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Building multi-Region resiliency for AWS CloudFormation custom resource deployment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-10 | [Building web search-enabled agents with Strands and Exa](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-10 | [Building Your Agentic Applications the Well-Architected Way](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-10-part-19.md](./aws-skills-2026-10-part-19.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-10-part-21.md](./aws-skills-2026-10-part-21.md)

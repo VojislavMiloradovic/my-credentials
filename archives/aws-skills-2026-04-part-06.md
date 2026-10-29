@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 6 of 21
-date_range: 2026-04-04 to 2026-04-25
+chunk_part: 6 of 22
+date_range: 2026-04-05 to 2026-04-25
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-04-part-06.md
 layer: L2_published
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-04-25 | [Amazon Q Developer Command Line Interface (CLI)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-04-25 | [Amazon Q Developer Fundamentals Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Assessment |
 | 2026-04-25 | [Amazon Q Developer Knowledge Badge Readiness Path](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Learning plan |
 | 2026-04-25 | [Customization in Amazon Q Developer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-25 | [GitLab Duo with Amazon Q](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -68,8 +70,6 @@ artifacts: complete, index
 | 2026-04-06 | [AWS Elemental Statmux](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-05 | [Amazon EKS Anywhere Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-04-05 | [Getting Started with AWS IoT](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-04-05 | [Introduction to AWS Neuron](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-04-04 | [AWS Elemental Live - Foundations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-04-part-05.md](./aws-skills-2026-04-part-05.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-06-part-07.md](./aws-skills-2026-06-part-07.md)

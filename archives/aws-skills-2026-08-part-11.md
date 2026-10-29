@@ -1,6 +1,6 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 11 of 21
+chunk_part: 11 of 22
 date_range: 2026-08-08 to 2026-08-11
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-08-part-11.md
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-11 | [Agentic AI Framework Deep Dive - Overview](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-11 | [Amazon Braket Quantum Application Development](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [Amazon Connect: Implementing Task on Connect](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [Amazon ECS Auto Scaling and Cost Optimization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-11 | [AWS Security Best Practices: Monitoring and Alerting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -67,8 +69,6 @@ artifacts: complete, index
 | 2026-08-08 | [Contact Lens Advanced Analytics & Optimization](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [Data Modeling for Amazon Neptune](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [Differentiation for System Integrators (SI)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [Drive organizational growth with Amazon Lex multi-developer CI/CD pipeline](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [Evaluating generative AI models with Amazon Nova LLM-as-a-Judge on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-08-part-10.md](./aws-skills-2026-08-part-10.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-08-part-12.md](./aws-skills-2026-08-part-12.md)
