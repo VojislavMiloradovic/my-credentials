@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-28T02:48:58.904813+00:00",
+  "timestamp": "2026-10-29T03:53:43.935031+00:00",
   "summary": {
     "total": 95,
     "passed": 95,
@@ -53,19 +53,19 @@
       "latest_record_date_jsonld": "2026-10-24T00:00:00"
     },
     "credly": {
-      "source_records": 796,
-      "archive_complete_records": 796,
-      "index_total": 796,
-      "readme_count": 796,
-      "jsonld_count": 796,
-      "llms_txt_count": 796,
+      "source_records": 802,
+      "archive_complete_records": 802,
+      "index_total": 802,
+      "readme_count": 802,
+      "jsonld_count": 802,
+      "llms_txt_count": 802,
       "llms_full_count": 1,
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
-      "latest_record_date_source": "2026-10-27T00:00:00",
-      "latest_record_date_archive": "2026-10-27T00:00:00",
-      "latest_record_date_jsonld": "2026-10-27T00:00:00"
+      "latest_record_date_source": "2026-10-28T00:00:00",
+      "latest_record_date_archive": "2026-10-28T00:00:00",
+      "latest_record_date_jsonld": "2026-10-28T00:00:00"
     },
     "linkedin-certifications": {
       "source_records": 1945,
@@ -131,8 +131,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 796,
-      "message": "Source snapshot has 796 records (0 retired)",
+      "actual": 802,
+      "message": "Source snapshot has 802 records (0 retired)",
       "severity": "warning"
     },
     {
@@ -185,8 +185,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 796,
-      "message": "Complete archive has 796 records (0 retired)",
+      "actual": 802,
+      "message": "Complete archive has 802 records (0 retired)",
       "severity": "error"
     },
     {
@@ -239,8 +239,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 796,
-      "message": "Index reports 796 total records",
+      "actual": 802,
+      "message": "Index reports 802 total records",
       "severity": "error"
     },
     {
@@ -293,8 +293,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 796,
-      "message": "README reports 796 records",
+      "actual": 802,
+      "message": "README reports 802 records",
       "severity": "error"
     },
     {
@@ -347,8 +347,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 796,
-      "message": "JSON-LD has 796 credentials (0 retired)",
+      "actual": 802,
+      "message": "JSON-LD has 802 credentials (0 retired)",
       "severity": "error"
     },
     {
@@ -401,8 +401,8 @@
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
-      "actual": 796,
-      "message": "llms.txt reports 796 records",
+      "actual": 802,
+      "message": "llms.txt reports 802 records",
       "severity": "error"
     },
     {
@@ -661,45 +661,45 @@
       "check": "count_consistency_complete_vs_index",
       "platform": "credly",
       "passed": true,
-      "expected": 796,
-      "actual": 796,
-      "message": "complete vs index (L2_published, 1:1_pass_through): complete=796 vs index=796 [OK]",
+      "expected": 802,
+      "actual": 802,
+      "message": "complete vs index (L2_published, 1:1_pass_through): complete=802 vs index=802 [OK]",
       "severity": "error"
     },
     {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "credly",
       "passed": true,
-      "expected": 796,
-      "actual": 796,
-      "message": "readme vs llms_txt (L3_display, 1:1_pass_through): readme=796 vs llms_txt=796 [OK]",
+      "expected": 802,
+      "actual": 802,
+      "message": "readme vs llms_txt (L3_display, 1:1_pass_through): readme=802 vs llms_txt=802 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L0_raw_to_L1_normalized",
       "platform": "credly",
       "passed": true,
-      "expected": "796 (transform: 1:1_pass_through)",
-      "actual": 796,
-      "message": "Declared transform L0_raw -> L1_normalized (1:1_pass_through): 796 -> 796 [OK]",
+      "expected": "802 (transform: 1:1_pass_through)",
+      "actual": 802,
+      "message": "Declared transform L0_raw -> L1_normalized (1:1_pass_through): 802 -> 802 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published",
       "platform": "credly",
       "passed": true,
-      "expected": "796 (transform: 1:1_pass_through)",
-      "actual": 796,
-      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 796 -> 796 [OK]",
+      "expected": "802 (transform: 1:1_pass_through)",
+      "actual": 802,
+      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 802 -> 802 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L3_display",
       "platform": "credly",
       "passed": true,
-      "expected": "796 (transform: 1:1_pass_through)",
-      "actual": 796,
-      "message": "Declared transform L1_normalized -> L3_display (1:1_pass_through): 796 -> 796 [OK]",
+      "expected": "802 (transform: 1:1_pass_through)",
+      "actual": 802,
+      "message": "Declared transform L1_normalized -> L3_display (1:1_pass_through): 802 -> 802 [OK]",
       "severity": "error"
     },
     {
@@ -1012,7 +1012,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-10-27 to 2026-10-27)",
+      "message": "Latest record dates span 0 days across artifacts (2026-10-28 to 2026-10-28)",
       "severity": "warning"
     },
     {
