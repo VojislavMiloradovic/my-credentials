@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
-Generated on: 24. октобар 2026.
-Total rows: 1121
+Generated on: 29. октобар 2026.
+Total rows: 1135
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED] Advanced fine-tuning methods on Amazon SageMaker AI,Digital course,Retired,0,-,"September 6, 2026","September 6, 2026","September 6, 2026",1 hour 30 minutes,Advanced,English
@@ -195,6 +195,7 @@ Amazon DynamoDB - Troubleshooting,Digital course,Completed,0,-,"March 16, 2026",
 Amazon DynamoDB Accelerator (DAX) (Amazon DAX) Getting Started,Digital course,Completed,0,-,"September 20, 2026","September 20, 2026","September 20, 2026",1 hour,Fundamental,English
 Amazon DynamoDB for Serverless Architectures,Digital course,Completed,0,-,"April 24, 2026","April 24, 2026","April 24, 2026",2 hours,Fundamental,English
 Amazon DynamoDB Getting Started,Digital course,Completed,0,-,"March 20, 2026","March 20, 2026","March 20, 2026",1 hour,Fundamental,English
+Amazon DynamoDB Service Introduction,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",5 minutes,Fundamental,English
 Amazon DynamoDB Service Primer,Digital course,Completed,80,-,"February 26, 2026","February 26, 2026","February 26, 2026",20 minutes,Fundamental,English
 Amazon EBS Getting Started,Digital course,Completed,0,-,"September 20, 2026","September 20, 2026","September 20, 2026",1 hour,Fundamental,English
 Amazon EC2 Auto Scaling Getting Started,Digital course,Completed,0,-,"April 6, 2026","April 6, 2026","April 6, 2026",1 hour,Fundamental,English
@@ -239,6 +240,7 @@ Amazon Location Service Getting Started,Digital course,Completed,0,-,"October 14
 Amazon Macie - Getting Started,Digital course,Completed,0,-,"February 25, 2026","February 25, 2026","February 25, 2026",1 hour,Fundamental,English
 Amazon Managed Blockchain Getting Started,Digital course,Completed,0,-,"July 27, 2026","July 28, 2026","July 28, 2026",1 hour,Fundamental,English
 Amazon Managed Grafana - Getting Started,Digital course,Completed,0,-,"September 13, 2026","September 13, 2026","September 13, 2026",1 hour,Fundamental,English
+Amazon Managed Service for Apache Flink - Getting Started,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",1 hour,Fundamental,English
 Amazon Managed Service for Prometheus Getting Started,Digital course,Completed,0,-,"September 13, 2026","September 13, 2026","September 13, 2026",1 hour,Fundamental,English
 Amazon Managed Streaming for Apache Kafka (MSK) Getting Started,Digital course,Completed,0,-,"March 7, 2026","March 7, 2026","March 7, 2026",1 hour,Fundamental,English
 Amazon Neptune Getting Started,Digital course,Completed,0,-,"July 16, 2026","July 16, 2026","July 16, 2026",1 hour,Fundamental,English
@@ -275,6 +277,7 @@ Amazon RDS for SQL Server Getting Started,Digital course,Completed,0,-,"February
 Amazon RDS Service Primer,Digital course,Completed,80,-,"January 27, 2026","January 27, 2026","January 27, 2026",20 minutes,Fundamental,English
 Amazon Redshift - Best Practices for Data Warehousing on AWS,Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",30 minutes,Advanced,English
 Amazon Redshift Getting Started,Digital course,Completed,0,-,"February 25, 2026","February 25, 2026","February 25, 2026",1 hour,Fundamental,English
+Amazon Redshift Introduction,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",15 minutes,Fundamental,English
 Amazon Redshift Service Primer,Digital course,Completed,100,-,"July 16, 2026","July 16, 2026","July 16, 2026",20 minutes,Fundamental,English
 Amazon Relational Database Service (Amazon RDS) for PostgreSQL - Troubleshooting,Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",1 hour,Advanced,English
 Amazon Route 53 - Basics,Digital course,Completed,0,-,"July 31, 2026","July 31, 2026","July 31, 2026",1 hour,Intermediate,English
@@ -325,7 +328,9 @@ Authenticate legitimate AI agent traffic with AWS WAF Bot Control,Digital course
 Authentication and Authorization with AWS Identity and Access Management,Digital course,Completed,0,-,"April 7, 2026","April 7, 2026","April 7, 2026",15 minutes,Fundamental,English
 Automate CI/CD troubleshooting with AWS DevOps Agent and GitHub,Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",45 minutes,Advanced,English
 Automate Generative AI workflows using Amazon Bedrock Flows,Digital course,Completed,0,-,"October 16, 2026","October 16, 2026","October 16, 2026",30 minutes,Intermediate,English
+Automate IAM Identity Center governance with continuous discovery and reporting,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",45 minutes,Advanced,English
 Automate Model Quota Request and Operational Issue Triage on Amazon Bedrock,Digital course,Completed,0,-,"October 10, 2026","October 10, 2026","October 10, 2026",45 minutes,Intermediate,English
+Automate root cause analysis for AWS Backup failures with AWS DevOps Agent,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",45 minutes,Advanced,English
 Automate the creation of handout notes using Amazon Bedrock Data Automation,Digital course,Completed,0,-,"September 6, 2026","September 6, 2026","September 6, 2026",1 hour 30 minutes,Advanced,English
 Automated Security Response in AWS: Disabling Compromised Active Directory Users,Digital course,Completed,0,-,"July 25, 2026","July 25, 2026","July 25, 2026",1 hour,Intermediate,English
 Automatically Detect and Mitigate Account Compromise Issues,Digital course,Completed,0,-,"October 23, 2026","October 23, 2026","October 23, 2026",30 minutes,Fundamental,English
@@ -402,7 +407,7 @@ AWS Database Migration Service Best Practices - Planning,Digital course,Complete
 AWS Database Migration Service Best Practices - Practical,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",1 hour,Advanced,English
 AWS Database Migration Service Best Practices - Troubleshooting,Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",1 hour,Advanced,English
 AWS Database Migration Service Overview,Digital course,Completed,0,-,"July 31, 2026","July 31, 2026","July 31, 2026",45 minutes,Intermediate,English
-AWS Database Offerings,Digital course,In progress,0,-,"March 19, 2026","March 19, 2026",-,4 hours,Fundamental,English
+AWS Database Offerings,Digital course,Completed,0,-,"March 19, 2026","March 19, 2026","October 29, 2026",4 hours,Fundamental,English
 AWS DataSync Getting Started,Digital course,Completed,0,-,"October 14, 2026","October 14, 2026","October 14, 2026",1 hour,Fundamental,English
 AWS DataSync Primer,Digital course,Completed,0,-,"October 23, 2026","October 23, 2026","October 23, 2026",1 hour 5 minutes,Intermediate,English
 AWS Design Architectures for Advertising workflows,Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",1 hour 40 minutes,Advanced,English
@@ -573,6 +578,7 @@ Blu Age Level 3 (L3) Assessment,Digital course,In progress,0,-,"September 6, 202
 Build  an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore,Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",45 minutes,Advanced,English
 Build a meeting prep and follow-up assistant with Amazon Quick and Cisco Webex MCP servers,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",45 minutes,Advanced,English
 Build AI-powered dashboard automation agents with NLP on Amazon Bedrock AgentCore,Digital course,Completed,0,-,"October 10, 2026","October 10, 2026","October 10, 2026",45 minutes,Intermediate,English
+Build AI-powered file classification with AWS Transfer Family,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",45 minutes,Advanced,English
 Build an agentic AI healthcare claims pipeline with Amazon Bedrock and AWS HealthLake,Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",45 minutes,Advanced,English
 Build an agentic incident triage assistant with Amazon Quick and New Relic,Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",45 minutes,Advanced,English
 Build an AI-powered recruitment assistant using Amazon Bedrock,Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",45 minutes,Advanced,English
@@ -681,6 +687,7 @@ Data Modeling for Amazon ElastiCache for Redis,Digital course,Completed,0,-,"Feb
 Data Modeling for Amazon Neptune,Digital course,Completed,0,-,"August 8, 2026","August 8, 2026","August 8, 2026",1 hour,Intermediate,English
 Data Perimeter Implementation in AWS Organizations,Digital course,Completed,0,-,"September 10, 2026","September 10, 2026","September 10, 2026",3 hours,Advanced,English
 Data Protection and Disaster Recovery Knowledge Badge Assessment,Digital course,Completed,93.33333333333333,-,"June 24, 2026","June 24, 2026","June 24, 2026",1 hour 30 minutes,Intermediate,English
+Database Modernization Patterns: Migrating from Commercial Engines to Aurora,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",2 hours,Advanced,English
 Database Upgrades,Digital course,Completed,0,-,"September 6, 2026","September 6, 2026","September 6, 2026",1 hour 15 minutes,Advanced,English
 Debugging production agents with Amazon Bedrock AgentCore Observability,Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",45 minutes,Advanced,English
 Decarbonization with AWS Introduction,Digital course,Completed,0,-,"October 14, 2026","October 14, 2026","October 14, 2026",15 minutes,Fundamental,English
@@ -694,6 +701,7 @@ Deep Dive: Managing and Monitoring Amazon Elastic Block Store (Amazon EBS),Digit
 Deepdive into Advertising Domain,Digital course,Completed,0,-,"August 15, 2026","August 15, 2026","August 15, 2026",1 hour 22 minutes,Intermediate,English
 Deepdive into AWS Advertising Services,Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",1 hour 40 minutes,Advanced,English
 Deliver hyper-personalized viewer experiences with an agentic AI movie assistant using Amazon Bedrock AgentCore and Amazon Nova Sonic 2.0,Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",45 minutes,Advanced,English
+Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",45 minutes,Advanced,English
 Deploy the AWS Marketplace SPG Dashboard for Unified Insights,Digital course,Completed,0,-,"October 14, 2026","October 14, 2026","October 14, 2026",45 minutes,Fundamental,English
 Deploying a Workload on Amazon ECS,Digital course,Completed,0,-,"August 11, 2026","August 11, 2026","August 11, 2026",1 hour 30 minutes,Intermediate,English
 Deploying custom Terraform to LZA-Managed Accounts with AFT,Digital course,Completed,0,-,"June 29, 2026","June 29, 2026","June 29, 2026",45 minutes,Fundamental,English
@@ -747,6 +755,7 @@ Events and Workflows Pre-assessment,Digital course,Completed,87,-,"March 6, 2026
 Explore the value and benefits of SAP Cloud ERP on AWS,Digital course,Completed,0,-,"February 25, 2026","February 25, 2026","February 25, 2026",1 hour,Fundamental,English
 Exploring Amazon Nova models using Amazon Bedrock,Digital course,Completed,0,-,"July 20, 2026","July 20, 2026","July 20, 2026",2 hours,Fundamental,English
 Exploring Artificial Intelligence Use Cases and Applications,Digital course,Completed,0,-,"January 14, 2026","January 14, 2026","January 14, 2026",1 hour,Fundamental,English
+Extend your data perimeter to the AWS Management Console with Private Access,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",45 minutes,Advanced,English
 Extended Thinking with Amazon Nova,Digital course,Completed,0,-,"August 12, 2026","August 12, 2026","August 12, 2026",1 hour 30 minutes,Intermediate,English
 Extending MCP support for Amazon Bedrock AgentCore Gateway,Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",45 minutes,Advanced,English
 File Storage Knowledge Badge Assessment,Digital course,Completed,95,-,"June 8, 2026","June 8, 2026","June 8, 2026",1 hour 30 minutes,Intermediate,English
@@ -800,6 +809,7 @@ Getting Started with DevOps on AWS,Digital course,Completed,0,-,"January 9, 2026
 Getting Started with Migration Hub Refactor Spaces,Digital course,Completed,0,-,"April 20, 2026","April 20, 2026","April 20, 2026",1 hour,Fundamental,English
 GitLab Duo with Amazon Q,Digital course,Completed,0,-,"April 25, 2026","April 25, 2026","April 25, 2026",30 minutes,Fundamental,English
 GitOps for Amazon EKS Automation,Digital course,Completed,0,-,"July 25, 2026","July 25, 2026","July 25, 2026",1 hour,Intermediate,English
+"GPU Cost Attribution in Amazon EKS Using Amazon Managed Service for Prometheus, Amazon Managed Grafana, and OpenTelemetry",Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",45 minutes,Advanced,English
 Handling AWS IoT Device Data and States,Digital course,Completed,0,-,"August 19, 2026","August 19, 2026","August 19, 2026",2 hours,Intermediate,English
 How Agentic AI Is Transforming Game Infrastructure Management,Digital course,Completed,0,-,"October 10, 2026","October 10, 2026","October 10, 2026",45 minutes,Intermediate,English
 How Amazon Achieved Full Stack Observability Across 400 Offices with Amazon OpenSearch Serverless,Digital course,Completed,0,-,"October 10, 2026","October 10, 2026","October 10, 2026",45 minutes,Intermediate,English
@@ -811,6 +821,7 @@ How Lore Rethinks Binary Asset Storage on AWS,Digital course,Completed,0,-,"Octo
 How the Amazon AMET Payments team accelerates test case generation with Strands Agents,Digital course,Completed,0,-,"June 29, 2026","June 29, 2026","June 29, 2026",45 minutes,Intermediate,English
 How to Find Hidden Data Relationships in Your S3 Data - with Amazon Neptune,Digital course,Completed,0,-,"March 16, 2026","March 16, 2026","March 16, 2026",1 hour,Intermediate,English
 How to understand and estimate combined AWS WAF and AWS Shield Advanced costs,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",45 minutes,Intermediate,English
+How TReNDS automates root-cause analysis with Amazon Bedrock,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",45 minutes,Advanced,English
 Human-in-the-loop constructs for agentic workflows in healthcare and life sciences,Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",45 minutes,Advanced,English
 IAM authentication with OAuth 2.0 for Amazon MQ for RabbitMQ,Digital course,Completed,0,-,"October 23, 2026","October 23, 2026","October 23, 2026",45 minutes,Advanced,English
 IBM z/OS Essentials (Technical),Digital course,Completed,0,-,"March 7, 2026","March 7, 2026","March 7, 2026",1 hour,Fundamental,English
@@ -953,6 +964,7 @@ Malware analysis on AWS: Setting up a secure environment,Digital course,Complete
 Managing Amazon Simple Storage Service (Amazon S3),Digital course,Completed,0,-,"September 10, 2026","September 10, 2026","September 10, 2026",1 hour 30 minutes,Advanced,English
 Managing Applications at Scale with Amazon ECS,Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",1 hour 30 minutes,Advanced,English
 Managing AWS IoT Devices at Scale,Digital course,Completed,0,-,"August 19, 2026","August 19, 2026","August 19, 2026",3 hours 30 minutes,Intermediate,English
+Managing identity source transition for AWS IAM Identity Center,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",45 minutes,Advanced,English
 Managing Operations on AWS with Amazon Q Developer,Digital course,Completed,0,-,"April 25, 2026","April 25, 2026","April 25, 2026",30 minutes,Fundamental,English
 Managing the Application Lifecycle in Amazon ECS,Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",1 hour 30 minutes,Advanced,English
 "Managing, Monitoring, and Optimizing your Amazon Elastic File System (Amazon EFS) Solution",Digital course,Completed,0,-,"August 24, 2026","August 24, 2026","August 24, 2026",55 minutes,Advanced,English
@@ -1043,6 +1055,7 @@ Responsible Artificial Intelligence Practices,Digital course,Completed,0,-,"Janu
 Restrict access to sensitive documents in your Amazon Quick knowledge bases for Amazon S3,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",45 minutes,Intermediate,English
 "Retrieval, Citations, and Why RAG Quietly Fails",Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",1 hour,Advanced,English
 Right Size Your Amazon EC2 Workload,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",2 hours,Intermediate,English
+Run Spark 31% faster and optimize compute costs with Amazon S3 Express One Zone on Amazon EMR,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",45 minutes,Advanced,English
 Running ComfyUI workflows on Amazon SageMaker AI processing jobs,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",45 minutes,Intermediate,English
 Running High Performance Applications with Amazon FSx,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",1 hour,Intermediate,English
 S&P Global's innovative disaster recovery strategy using Amazon FSx for NetApp ONTAP snapshots,Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",45 minutes,Advanced,English
@@ -1055,6 +1068,7 @@ Scaled hiring with Amazon Connect Talent (Tech Preview),Digital course,Completed
 Scaling content review operations with multi-agent workflow,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",45 minutes,Intermediate,English
 Scaling Serverless Architectures,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",1 hour 30 minutes,Intermediate,English
 Secure AI agents with Amazon Bedrock AgentCore Identity on Amazon ECS,Digital course,Completed,0,-,"May 27, 2026","May 27, 2026","May 27, 2026",45 minutes,Fundamental,English
+Secure team file sharing on Amazon WorkSpaces with Amazon EFS,Digital course,Completed,0,-,"October 29, 2026","October 29, 2026","October 29, 2026",45 minutes,Advanced,English
 Securing Agentic Workflows: Identity Propagation with Amazon Bedrock AgentCore,Digital course,Completed,0,-,"September 21, 2026","September 21, 2026","September 21, 2026",45 minutes,Advanced,English
 Securing and Protecting Your Data in Amazon Simple Storage Service (Amazon S3),Digital course,Completed,0,-,"September 1, 2026","September 1, 2026","September 1, 2026",1 hour 40 minutes,Advanced,English
 Securing Data in Amazon Elastic File System (Amazon EFS),Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",55 minutes,Advanced,English
