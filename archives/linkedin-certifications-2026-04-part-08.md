@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-04 | **Google Ads Creative Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/72c8a75b-85e1-4619-b34b-61adaa5a68c9) |
 | 2026-04 | **Linux Unhatched** | Cisco | [Verify Record](https://www.credly.com/badges/4c3ee7b3-330b-437b-8e6a-91d96bca1b45/linked_in_profile) |
 | 2026-04 | **Discovering Extended Warehouse Management with SAP S/4HANA - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/57c930ea-4372-4144-a8d3-92e615d6f439/linked_in_profile) |
 | 2026-04 | **Enterprise Design Thinking Practitioner** | IBM | [Verify Record](https://www.credly.com/badges/b18e17a2-6952-4d85-8adf-5eb5a0dfb366/linked_in_profile) |
@@ -60,6 +59,7 @@ artifacts: complete, index
 | 2026-04 | **Manage Agent Memory and State** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23498280?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-04 | **Introduction to AI Agents** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23515484?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-04 | **Enterprise Agents and Use Cases** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23515527?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-04 | **Architect Gemini Enterprise for Customer Experience** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23537383?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-04-part-07.md](./linkedin-certifications-2026-04-part-07.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-09.md](./linkedin-certifications-2026-05-part-09.md)

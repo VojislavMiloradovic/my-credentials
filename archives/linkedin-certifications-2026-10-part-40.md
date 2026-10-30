@@ -15,18 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Extend Auth0 with Actions** | Okta | [Verify Record](https://www.credly.com/badges/9a68d38d-8238-4259-aa8e-40a315c621bc/linked_in_profile) |
-| 2026-10 | **Authentication Best Practices** | Okta | [Verify Record](https://www.credly.com/badges/71fa34c8-31d2-4c30-aca8-a7eb46b8a0f3/linked_in_profile) |
-| 2026-10 | **Authorization Best Practices** | Okta | [Verify Record](https://www.credly.com/badges/f910a5fd-db59-4f35-86f8-9415ff4649fe/linked_in_profile) |
-| 2026-10 | **AWS Knowledge: Amazon Connect Outbound Communications - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c44e4187-5b36-400a-9bc3-3771edd19305/linked_in_profile) |
-| 2026-10 | **From AI to Super Intelligence: Understanding the 2026 US Policy** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3345083b541ec12f93d03976facca941c92b3afe03300cdeb3af6a750775ba85) |
-| 2026-10 | **Microsoft Applied Skills: Build an agent in Microsoft Copilot Studio** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/586C3134869081FC?sharingId) |
-| 2026-10 | **Kong Mesh Foundations** | Kong | [Verify Record](https://www.credly.com/badges/d8f5e17b-d599-491c-866e-e6cf898a9709/linked_in_profile) |
-| 2026-10 | **AI Power User Launchpad** | Cisco | [Verify Record](https://www.credly.com/badges/d2e77dd9-3ae5-492a-8f64-b0a008afee43/linked_in_profile) |
-| 2026-10 | **Introducing SAP Data Services Foundations and Core Concepts** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyrid-noran-dumaf-lumaf-batih) |
-| 2026-10 | **Applying SAP Data Services Transformation Techniques** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xabar-nyguc-mynup-nyser-dofut) |
-| 2026-10 | **Using SAP Data Services Advanced Techniques** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xetyf-favur-ripar-lugat-tudeg) |
-| 2026-10 | **Exploring SAP Data Services** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xalef-kareb-meton-rivod-dupec) |
 | 2026-10 | **Introducing the Implementation Process of SAP Engagement Cloud, Enterprise Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyvev-babed-guvep-hanob-sylyd) |
 | 2026-10 | **Developing a Universe: Fundamental Concepts of SAP BusinessObjects Information Design Tool** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xeban-cuvik-bidic-tefof-nitit) |
 | 2026-10 | **Developing a Universe: Advanced Concepts of SAP BusinessObjects Information Design Tool** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xakad-vymir-cukym-rifum-daged) |
@@ -60,6 +48,18 @@ artifacts: complete, index
 | 2026-10 | **Scalable Web Applications on Kubernetes** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/3b4b537ce2c44a2a85c183bc36a0d819) |
 | 2026-10 | **Game-playing AI with Swift for TensorFlow** | IBM | [Verify Record](https://www.credly.com/badges/bba0e5ce-372f-4f04-8c7e-add137f1656b/linked_in_profile) |
 | 2026-10 | **Kong Gateway Operations for KIC** | Kong | [Verify Record](https://www.credly.com/badges/ea916ed5-cdde-4b4a-ae16-6b7a912566f0/linked_in_profile) |
+| 2026-10 | **Identity Governance Access Certifications** | Okta | [Verify Record](https://www.credly.com/badges/33ce5fd1-570d-42ff-bea6-32d007088ab1/linked_in_profile) |
+| 2026-10 | **Identity Governance** | Okta | [Verify Record](https://www.credly.com/badges/d7edb0d7-1935-4389-87dc-39b5f395f23e/linked_in_profile) |
+| 2026-10 | **Manage AI Agents Access to Resources** | Okta | [Verify Record](https://www.credly.com/badges/656a7c48-79f9-40ec-9e10-9078ace2e722/linked_in_profile) |
+| 2026-10 | **Streamline Identity Governance with Workflows** | Okta | [Verify Record](https://www.credly.com/badges/984861ae-3ade-45cf-bf5b-b7a99316dab6/linked_in_profile) |
+| 2026-10 | **Administrating SAP Analytics Cloud** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xonyp-tokot-mavas-sycyn-suhal) |
+| 2026-10 | **Managing Security and Administration in SAP Analytics Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xypas-pofuc-lolon-lubom-lohyp) |
+| 2026-10 | **Creating Data Connections for On-Premise Data Sources in SAP Analytics Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylel-cesyt-rekog-vokek-gekiv) |
+| 2026-10 | **Creating Data Connections for Cloud Applications in SAP Analytics Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xorah-misap-fatyp-cobeb-kogoh) |
+| 2026-10 | **Establishing Core Supply Chain Processes in SAP S/4HANA Cloud Public Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xucam-kodyv-topes-fuvut-dufev) |
+| 2026-10 | **Managing Inventory Movements and Stock Transfers in SAP S/4HANA Cloud Public Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xekyt-tabyk-dobit-tovat-ciman) |
+| 2026-10 | **Handling Special Stocks and Physical Inventory in SAP S/4HANA Cloud Public Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xovam-feseb-nabyl-duvol-dabef) |
+| 2026-10 | **Optimizing Advanced Logistics and Analytics in SAP S/4HANA Cloud Public Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xofec-resod-tisoc-nokev-kidus) |
 | 2026-09 | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
 | 2026-09 | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
 | 2026-09 | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |

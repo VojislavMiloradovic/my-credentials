@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **Generative AI Overview for Project Managers** | Project Management Institute | [Verify Record](https://www.credly.com/badges/be0d5350-61bb-416c-ac0d-13fe417cdf7c/linked_in_profile) |
 | 2026-05 | **NASA Open Science 101** | NASA - National Aeronautics and Space Administration | [Verify Record](https://www.credly.com/badges/b367bbf7-307f-40f3-82ac-975d987f525f/linked_in_profile) |
 | 2026-05 | **SAP Business Network Supplier Portal Fundamentals** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomut-balyp-kavic-teriv-vepyt) |
 | 2026-05 | **SAP Business Network for Procurement, Buyer Account Overview** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xibil-dymim-sirup-magyl-galav) |
@@ -67,6 +66,7 @@ artifacts: complete, index
 | 2026-05 | **Running Oracle Workloads on Google Cloud: Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913319?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Agentic Strategy: Discover, Design, and Prototype** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913646?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **AI-powered Database Management with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913792?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-05 | **Build a Certification Study Guide: PCD Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23936168?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-10.md](./linkedin-certifications-2026-05-part-10.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-12.md](./linkedin-certifications-2026-05-part-12.md)

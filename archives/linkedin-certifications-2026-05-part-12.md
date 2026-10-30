@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **Define a Secure Policy Structure** | Okta | [Verify Record](https://www.credly.com/badges/c2ff8b68-4187-4799-b8b5-27c9fa37ef45/linked_in_profile) |
 | 2026-05 | **Manage User Profiles in UD** | Okta | [Verify Record](https://www.credly.com/badges/23833ee2-c157-450c-963c-0eae083fefea/linked_in_profile) |
 | 2026-05 | **Define Your Users in Okta** | Okta | [Verify Record](https://www.credly.com/badges/bbc3e057-150e-4ba8-80f4-57fe61b0a4c4/linked_in_profile) |
 | 2026-05 | **Digital Trust for All** | Intel | [Verify Record](https://www.credly.com/badges/617235ff-34bf-4063-8972-bdad6126ad11/linked_in_profile) |
@@ -68,6 +67,7 @@ artifacts: complete, index
 | 2026-05 | **Dremio Verified AI Architect** | Dremio | [Verify Record](https://www.credly.com/badges/21f0649c-434c-42f7-a233-d7b1a86b18bf/linked_in_profile) |
 | 2026-05 | **Fundamentals of Predictive Project Management** | Project Management Institute | [Verify Record](https://www.credly.com/badges/6ff63094-6930-44d1-83c8-fedaae412178/linked_in_profile) |
 | 2026-05 | **Fundamentals of Agile Project Management** | Project Management Institute | [Verify Record](https://www.credly.com/badges/5829bdb0-b2dd-4e23-9aa4-22c6ea61c8b4/linked_in_profile) |
+| 2026-05 | **Generative AI Overview for Project Managers** | Project Management Institute | [Verify Record](https://www.credly.com/badges/be0d5350-61bb-416c-ac0d-13fe417cdf7c/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-11.md](./linkedin-certifications-2026-05-part-11.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-13.md](./linkedin-certifications-2026-06-part-13.md)

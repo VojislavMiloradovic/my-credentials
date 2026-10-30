@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **Managing Data Retention in Legacy Concur Travel - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesok-fyvug-gibum-potat-digem) |
 | 2026-05 | **Positioning Solutions for Design in SAP Supply Chain Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xufeh-diveg-rones-barog-hogev) |
 | 2026-04 | **Campaign manager 360 Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/c9bfd359-05b1-4751-8872-a99c43f4883b) |
 | 2026-04 | **Provisioning and Implementing Joule - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/a66fc475-3933-4417-ad38-02e9ab7c8fa2/linked_in_profile) |
@@ -69,6 +68,7 @@ artifacts: complete, index
 | 2026-04 | **Introduction to Greenhouse Gas Accounting for IT** | Cisco | [Verify Record](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250/linked_in_profile) |
 | 2026-04 | **Transition from SAP Solution Manager to SAP Cloud ALM - Record of Achievement** | SAP | [Verify Record](https://www.credly.com/badges/e95d01e6-d813-4038-bc38-8e396c4b88bc/linked_in_profile) |
 | 2026-04 | **Explorations into Mindfulness** | IBM | [Verify Record](https://www.credly.com/badges/58226aca-cc26-41a3-8ed7-1ef7e7880114/linked_in_profile) |
+| 2026-04 | **Google Ads Creative Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/72c8a75b-85e1-4619-b34b-61adaa5a68c9) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-04-part-08.md](./linkedin-certifications-2026-04-part-08.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-10.md](./linkedin-certifications-2026-05-part-10.md)

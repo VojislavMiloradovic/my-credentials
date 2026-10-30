@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 42 of 43
 date_range: 2026-10 to 2026-10
-total_entries: 52
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-42.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,16 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Unify by Basis** | Basis | [Verify Record](https://www.credly.com/badges/6a5a5d48-9544-4ed3-b3bd-69e76fa55459/linked_in_profile) |
-| 2026-10 | **Programmatic** | Basis | [Verify Record](https://www.credly.com/badges/a845f138-3606-4581-8020-b07a581eac19/linked_in_profile) |
-| 2026-10 | **Digital Media Buyer** | Basis | [Verify Record](https://www.credly.com/badges/ed43b663-fc70-4494-8902-d27a8d94d7b8/linked_in_profile) |
-| 2026-10 | **Cracking the Supply Challenge: Sourcing Strategies for Alfredo Sauce (Egg Hunt Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7066fdf5693ccebe519f738225a0e24c49fb9bbe2e4a8430e796ee56e6b71b02) |
-| 2026-10 | **Smarter Ways to Use AI at Work: Cut Costs, Carbon, and Complexity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f736fa1c739619573f34c4b5db5d060e4404f254bca1d73949cd12e7b7099dca) |
-| 2026-10 | **Leadership Live with Dorie Clark: Why Content Creation Matters for Leaders** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/78cd6faa1b30dadd43fde32985c796efd9ca419aebf6a3d62ef6cbb0acdbeb9b) |
-| 2026-10 | **The AI Sparring Partner: Using AI Prompting to Think Critically** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/105d17a106a9b963d277094fe84cdf26471cce1be195ed13b1bda1bd53dac5c1) |
-| 2026-10 | **What Bad Bosses Teach Us about Great Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5efb870563e0416e492d7c81dfb7052209a5e93a2afa10956b743d2830a52f67) |
-| 2026-10 | **When to Use AI (and When Not To): Practical Judgment at Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/48e79de07e322f6d60fd05377611abf468c7735b7d76ed3837e8b854a2e9d05b) |
-| 2026-10 | **Storytelling through Short-Form Video with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4a9efbda82d68feb2c2acfeb6bc89273e9f455a3b799e851181003b6b203b212) |
 | 2026-10 | **Social Media Content Creation with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c05dd07b5f23c4f46c10981aaa9f61547be23c3fa9bc6a4e941a930462767edc) |
 | 2026-10 | **Presentation Design with Adobe Express by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/9b3dd28fffd0edddd6e1c4b72c66a1b97cc80ba81e3c00dd451f20c4d3a13305) |
 | 2026-10 | **Learn WebMCP in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1fab7704a08cc9b4a2f82af9a52bdcacb298140cc97203c88b4ab0bf4322ec3c) |
@@ -67,6 +57,18 @@ artifacts: complete, index
 | 2026-10 | **Evaluate AI Applications** | OpenAI | [Verify Record](https://oaiacademy.credential.net/7bdef3bd-608a-407b-9aa8-5d3756791e1c) |
 | 2026-10 | **Scope AI Solutions** | OpenAI | [Verify Record](https://oaiacademy.credential.net/022f81a0-1eaf-4b48-a864-6e459662f0fd) |
 | 2026-10 | **Build With AI - OpenAI API Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/a6153528-a0b7-43ff-838a-925dd5273de6) |
+| 2026-10 | **Scale Codex Across Teams and Systems** | OpenAI | [Verify Record](https://oaiacademy.credential.net/4337aae6-0da3-4369-8cb7-8f4122bd18c3) |
+| 2026-10 | **Extend Codex Workflows** | OpenAI | [Verify Record](https://oaiacademy.credential.net/a10d60f9-eb74-4456-8bbe-d81065270025) |
+| 2026-10 | **Get Started with Codex** | OpenAI | [Verify Record](https://oaiacademy.credential.net/c3b19d3e-e2dc-4c89-b89c-cfc1a49ebed6) |
+| 2026-10 | **Build with AI - Codex Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/e9700c3c-7805-41f9-8f0c-107855848428) |
+| 2026-10 | **Certificate of completion: AI Fluency for K-12 Educators** | Anthropic | [Verify Record](https://verify.skilljar.com/c/jtn598rzvw5v) |
+| 2026-10 | **Responsible AI and Risk Management** | IBM | [Verify Record](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/linked_in_profile) |
+| 2026-10 | **Human-AI Collaborative Planning** | IBM | [Verify Record](https://www.credly.com/badges/1d2d3eaf-ee7e-4db9-a876-114852bcf023/linked_in_profile) |
+| 2026-10 | **AI Gateway Operations** | Kong | [Verify Record](https://www.credly.com/badges/382c45a4-5932-4860-9b86-0a207e34d81e/linked_in_profile) |
+| 2026-10 | **Learn Agent Memory in 10 Minutes: Why AI Agents Need Memory** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1113898e84dbe5a461345957689bc2999baae6269ae25c90f0664ccf3abacbc0) |
+| 2026-10 | **Create a Team of Agents in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1920cfa4d9e9d233d1ef1bb016f0b122c829a514eb0d1180b8a0bedff83effe9) |
+| 2026-10 | **Harness Certified Continuous Delivery & GitOps Developer** | Harness | [Verify Record](https://www.credly.com/badges/99b36a29-ec2a-4df6-bf2d-74fdad35e070/linked_in_profile) |
+| 2026-10 | **Harness Certified Continuous Integration Developer** | Harness | [Verify Record](https://www.credly.com/badges/614739fa-4c01-45e3-afaa-32d3ed5e80c5/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-10-part-41.md](./linkedin-certifications-2026-10-part-41.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-43.md](./linkedin-certifications-2026-10-part-43.md)

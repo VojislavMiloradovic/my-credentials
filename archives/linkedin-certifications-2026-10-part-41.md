@@ -15,18 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Scale Codex Across Teams and Systems** | OpenAI | [Verify Record](https://oaiacademy.credential.net/4337aae6-0da3-4369-8cb7-8f4122bd18c3) |
-| 2026-10 | **Extend Codex Workflows** | OpenAI | [Verify Record](https://oaiacademy.credential.net/a10d60f9-eb74-4456-8bbe-d81065270025) |
-| 2026-10 | **Get Started with Codex** | OpenAI | [Verify Record](https://oaiacademy.credential.net/c3b19d3e-e2dc-4c89-b89c-cfc1a49ebed6) |
-| 2026-10 | **Build with AI - Codex Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/e9700c3c-7805-41f9-8f0c-107855848428) |
-| 2026-10 | **Certificate of completion: AI Fluency for K-12 Educators** | Anthropic | [Verify Record](https://verify.skilljar.com/c/jtn598rzvw5v) |
-| 2026-10 | **Responsible AI and Risk Management** | IBM | [Verify Record](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/linked_in_profile) |
-| 2026-10 | **Human-AI Collaborative Planning** | IBM | [Verify Record](https://www.credly.com/badges/1d2d3eaf-ee7e-4db9-a876-114852bcf023/linked_in_profile) |
-| 2026-10 | **AI Gateway Operations** | Kong | [Verify Record](https://www.credly.com/badges/382c45a4-5932-4860-9b86-0a207e34d81e/linked_in_profile) |
-| 2026-10 | **Learn Agent Memory in 10 Minutes: Why AI Agents Need Memory** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1113898e84dbe5a461345957689bc2999baae6269ae25c90f0664ccf3abacbc0) |
-| 2026-10 | **Create a Team of Agents in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1920cfa4d9e9d233d1ef1bb016f0b122c829a514eb0d1180b8a0bedff83effe9) |
-| 2026-10 | **Harness Certified Continuous Delivery & GitOps Developer** | Harness | [Verify Record](https://www.credly.com/badges/99b36a29-ec2a-4df6-bf2d-74fdad35e070/linked_in_profile) |
-| 2026-10 | **Harness Certified Continuous Integration Developer** | Harness | [Verify Record](https://www.credly.com/badges/614739fa-4c01-45e3-afaa-32d3ed5e80c5/linked_in_profile) |
 | 2026-10 | **Harness Certified Resilience Testing Formerly Chaos Engineering Developer** | Harness | [Verify Record](https://www.credly.com/badges/ed311c10-6a4b-4dea-a7e5-a24b1bdde162/linked_in_profile) |
 | 2026-10 | **Harness Certified Security Testing Orchestration Developer** | Harness | [Verify Record](https://www.credly.com/badges/455c75bc-68bd-455c-8162-9f22617ffed1/linked_in_profile) |
 | 2026-10 | **Harness Certified Infrastructure as Code Management Developer** | Harness | [Verify Record](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/linked_in_profile) |
@@ -64,6 +52,18 @@ artifacts: complete, index
 | 2026-10 | **Harness Certified Application & API Runtime Protection Developer Certification** | Harness | [Verify Record](https://www.credly.com/badges/4435d662-89cf-45dc-b84d-e1df4ca5b43b/linked_in_profile) |
 | 2026-10 | **Harness Certified Application & API Security Testing Developer Certification** | Harness | [Verify Record](https://www.credly.com/badges/89162e0d-265a-429f-af72-a2ddabd26a8e/linked_in_profile) |
 | 2026-10 | **Authenticate with Auth0 Database and Passwordless Connections** | Okta | [Verify Record](https://www.credly.com/badges/8ec03de7-4ca2-4da9-bb70-2cd9dfb6ebe8/linked_in_profile) |
+| 2026-10 | **Extend Auth0 with Actions** | Okta | [Verify Record](https://www.credly.com/badges/9a68d38d-8238-4259-aa8e-40a315c621bc/linked_in_profile) |
+| 2026-10 | **Authentication Best Practices** | Okta | [Verify Record](https://www.credly.com/badges/71fa34c8-31d2-4c30-aca8-a7eb46b8a0f3/linked_in_profile) |
+| 2026-10 | **Authorization Best Practices** | Okta | [Verify Record](https://www.credly.com/badges/f910a5fd-db59-4f35-86f8-9415ff4649fe/linked_in_profile) |
+| 2026-10 | **AWS Knowledge: Amazon Connect Outbound Communications - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c44e4187-5b36-400a-9bc3-3771edd19305/linked_in_profile) |
+| 2026-10 | **From AI to Super Intelligence: Understanding the 2026 US Policy** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3345083b541ec12f93d03976facca941c92b3afe03300cdeb3af6a750775ba85) |
+| 2026-10 | **Microsoft Applied Skills: Build an agent in Microsoft Copilot Studio** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/586C3134869081FC?sharingId) |
+| 2026-10 | **Kong Mesh Foundations** | Kong | [Verify Record](https://www.credly.com/badges/d8f5e17b-d599-491c-866e-e6cf898a9709/linked_in_profile) |
+| 2026-10 | **AI Power User Launchpad** | Cisco | [Verify Record](https://www.credly.com/badges/d2e77dd9-3ae5-492a-8f64-b0a008afee43/linked_in_profile) |
+| 2026-10 | **Introducing SAP Data Services Foundations and Core Concepts** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyrid-noran-dumaf-lumaf-batih) |
+| 2026-10 | **Applying SAP Data Services Transformation Techniques** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xabar-nyguc-mynup-nyser-dofut) |
+| 2026-10 | **Using SAP Data Services Advanced Techniques** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xetyf-favur-ripar-lugat-tudeg) |
+| 2026-10 | **Exploring SAP Data Services** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xalef-kareb-meton-rivod-dupec) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-10-part-40.md](./linkedin-certifications-2026-10-part-40.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-42.md](./linkedin-certifications-2026-10-part-42.md)

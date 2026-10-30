@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-05 | **Build a Certification Study Guide: PCD Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23936168?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Streamline App Development with Gemini Code Assist** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23959109?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Google Workspace Essentials** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23986573?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-05 | **Introduction to Vertex AI Studio** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23986796?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -54,6 +53,7 @@ artifacts: complete, index
 | 2026-05 | **Exploring Company Administration Features in legacy Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuryr-mubug-tegog-mecas-vabap) |
 | 2026-05 | **Exploring User Administration Features in legacy Concur Travel - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xucir-ropyn-dacas-lelir-synih) |
 | 2026-05 | **Managing Travel Admin Features in Legacy Concur Travel - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xehur-kibem-sisoc-sinyl-kepit) |
+| 2026-05 | **Managing Data Retention in Legacy Concur Travel - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesok-fyvug-gibum-potat-digem) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-09.md](./linkedin-certifications-2026-05-part-09.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-11.md](./linkedin-certifications-2026-05-part-11.md)

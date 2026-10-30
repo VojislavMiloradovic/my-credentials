@@ -7,7 +7,7 @@
 <!-- artifacts: complete, index -->
 
 
-<!-- retrieved_at: 2026-10-28T00:22:56.620590+00:00 -->
+<!-- retrieved_at: 2026-10-30T02:48:10.306780+00:00 -->
 
 
 
@@ -15,24 +15,24 @@ This directory provides chunked, AI-readable historical records for LinkedIn Cer
 
 ## Archive Overview
 
-- **Total Records Archived:** 1945
-- **Monolithic File Size:** ~389.54 KB (137,414 tokens)
+- **Total Records Archived:** 1957
+- **Monolithic File Size:** ~391.68 KB (138,100 tokens)
 - **Total Chunk Parts:** 43 chunk(s)
 
 ### Monolithic Archive (Complete)
 
 | File Name | Size (KB) | Tokens | Recommended For | Direct Raw URL |
 | :--- | :---: | :---: | :--- | :--- |
-| [`linkedin-certifications-complete.md`](./linkedin-certifications-complete.md) | 389.54 KB | 137,414 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md) |
+| [`linkedin-certifications-complete.md`](./linkedin-certifications-complete.md) | 391.68 KB | 138,100 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md) |
 
 ### Chunked Archive Parts (~10 KB Slices)
 
 | Part | File Name | Date Range | Entries | Size (KB) | Tokens | Direct Raw URL |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| Part 43 | [`linkedin-certifications-2026-10-part-43.md`](./linkedin-certifications-2026-10-part-43.md) | `2026-10 to 2026-10` | 8 | 2.22 KB | 753 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-43.md) |
-| Part 42 | [`linkedin-certifications-2026-10-part-42.md`](./linkedin-certifications-2026-10-part-42.md) | `2026-10 to 2026-10` | 52 | 10.26 KB | 3,710 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-42.md) |
-| Part 41 | [`linkedin-certifications-2026-10-part-41.md`](./linkedin-certifications-2026-10-part-41.md) | `2026-10 to 2026-10` | 49 | 10.27 KB | 3,503 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-41.md) |
-| Part 40 | [`linkedin-certifications-2026-10-part-40.md`](./linkedin-certifications-2026-10-part-40.md) | `2026-09 to 2026-10` | 52 | 10.26 KB | 3,480 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-40.md) |
+| Part 43 | [`linkedin-certifications-2026-10-part-43.md`](./linkedin-certifications-2026-10-part-43.md) | `2026-10 to 2026-10` | 18 | 4.26 KB | 1,500 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-43.md) |
+| Part 42 | [`linkedin-certifications-2026-10-part-42.md`](./linkedin-certifications-2026-10-part-42.md) | `2026-10 to 2026-10` | 54 | 10.18 KB | 3,703 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-42.md) |
+| Part 41 | [`linkedin-certifications-2026-10-part-41.md`](./linkedin-certifications-2026-10-part-41.md) | `2026-10 to 2026-10` | 49 | 10.34 KB | 3,461 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-41.md) |
+| Part 40 | [`linkedin-certifications-2026-10-part-40.md`](./linkedin-certifications-2026-10-part-40.md) | `2026-09 to 2026-10` | 52 | 10.36 KB | 3,468 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-40.md) |
 | Part 39 | [`linkedin-certifications-2026-09-part-39.md`](./linkedin-certifications-2026-09-part-39.md) | `2026-09 to 2026-09` | 48 | 10.3 KB | 3,679 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-39.md) |
 | Part 38 | [`linkedin-certifications-2026-09-part-38.md`](./linkedin-certifications-2026-09-part-38.md) | `2026-09 to 2026-09` | 53 | 10.27 KB | 3,817 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-38.md) |
 | Part 37 | [`linkedin-certifications-2026-09-part-37.md`](./linkedin-certifications-2026-09-part-37.md) | `2026-09 to 2026-09` | 47 | 10.22 KB | 3,572 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-37.md) |
@@ -59,15 +59,15 @@ This directory provides chunked, AI-readable historical records for LinkedIn Cer
 | Part 16 | [`linkedin-certifications-2026-06-part-16.md`](./linkedin-certifications-2026-06-part-16.md) | `2026-06 to 2026-06` | 45 | 10.15 KB | 3,631 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-16.md) |
 | Part 15 | [`linkedin-certifications-2026-06-part-15.md`](./linkedin-certifications-2026-06-part-15.md) | `2026-06 to 2026-06` | 45 | 10.36 KB | 3,685 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-15.md) |
 | Part 14 | [`linkedin-certifications-2026-06-part-14.md`](./linkedin-certifications-2026-06-part-14.md) | `2026-06 to 2026-06` | 45 | 10.28 KB | 3,606 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-14.md) |
-| Part 13 | [`linkedin-certifications-2026-06-part-13.md`](./linkedin-certifications-2026-06-part-13.md) | `2026-05 to 2026-06` | 52 | 10.17 KB | 3,645 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-13.md) |
-| Part 12 | [`linkedin-certifications-2026-05-part-12.md`](./linkedin-certifications-2026-05-part-12.md) | `2026-05 to 2026-05` | 53 | 10.31 KB | 3,711 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-12.md) |
-| Part 11 | [`linkedin-certifications-2026-05-part-11.md`](./linkedin-certifications-2026-05-part-11.md) | `2026-05 to 2026-05` | 52 | 10.23 KB | 3,639 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-11.md) |
-| Part 10 | [`linkedin-certifications-2026-05-part-10.md`](./linkedin-certifications-2026-05-part-10.md) | `2026-05 to 2026-05` | 39 | 10.27 KB | 3,201 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-10.md) |
-| Part 09 | [`linkedin-certifications-2026-05-part-09.md`](./linkedin-certifications-2026-05-part-09.md) | `2026-04 to 2026-05` | 54 | 10.36 KB | 3,541 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-09.md) |
-| Part 08 | [`linkedin-certifications-2026-04-part-08.md`](./linkedin-certifications-2026-04-part-08.md) | `2026-04 to 2026-04` | 45 | 10.27 KB | 3,436 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-04-part-08.md) |
-| Part 07 | [`linkedin-certifications-2026-04-part-07.md`](./linkedin-certifications-2026-04-part-07.md) | `2026-03 to 2026-04` | 38 | 10.33 KB | 3,197 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-04-part-07.md) |
-| Part 06 | [`linkedin-certifications-2026-03-part-06.md`](./linkedin-certifications-2026-03-part-06.md) | `2026-03 to 2026-03` | 41 | 10.23 KB | 3,218 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-03-part-06.md) |
-| Part 05 | [`linkedin-certifications-2026-03-part-05.md`](./linkedin-certifications-2026-03-part-05.md) | `2026-01 to 2026-03` | 42 | 10.36 KB | 3,425 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-03-part-05.md) |
+| Part 13 | [`linkedin-certifications-2026-06-part-13.md`](./linkedin-certifications-2026-06-part-13.md) | `2026-05 to 2026-06` | 53 | 10.33 KB | 3,707 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-13.md) |
+| Part 12 | [`linkedin-certifications-2026-05-part-12.md`](./linkedin-certifications-2026-05-part-12.md) | `2026-05 to 2026-05` | 53 | 10.34 KB | 3,711 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-12.md) |
+| Part 11 | [`linkedin-certifications-2026-05-part-11.md`](./linkedin-certifications-2026-05-part-11.md) | `2026-05 to 2026-05` | 52 | 10.29 KB | 3,656 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-11.md) |
+| Part 10 | [`linkedin-certifications-2026-05-part-10.md`](./linkedin-certifications-2026-05-part-10.md) | `2026-05 to 2026-05` | 39 | 10.2 KB | 3,177 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-10.md) |
+| Part 09 | [`linkedin-certifications-2026-05-part-09.md`](./linkedin-certifications-2026-05-part-09.md) | `2026-04 to 2026-05` | 54 | 10.36 KB | 3,547 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-05-part-09.md) |
+| Part 08 | [`linkedin-certifications-2026-04-part-08.md`](./linkedin-certifications-2026-04-part-08.md) | `2026-04 to 2026-04` | 45 | 10.35 KB | 3,451 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-04-part-08.md) |
+| Part 07 | [`linkedin-certifications-2026-04-part-07.md`](./linkedin-certifications-2026-04-part-07.md) | `2026-03 to 2026-04` | 37 | 10.14 KB | 3,142 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-04-part-07.md) |
+| Part 06 | [`linkedin-certifications-2026-03-part-06.md`](./linkedin-certifications-2026-03-part-06.md) | `2026-03 to 2026-03` | 42 | 10.19 KB | 3,234 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-03-part-06.md) |
+| Part 05 | [`linkedin-certifications-2026-03-part-05.md`](./linkedin-certifications-2026-03-part-05.md) | `2026-01 to 2026-03` | 41 | 10.35 KB | 3,388 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-03-part-05.md) |
 | Part 04 | [`linkedin-certifications-2026-01-part-04.md`](./linkedin-certifications-2026-01-part-04.md) | `2025-12 to 2026-01` | 38 | 10.22 KB | 3,167 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-01-part-04.md) |
 | Part 03 | [`linkedin-certifications-2025-12-part-03.md`](./linkedin-certifications-2025-12-part-03.md) | `2025-11 to 2025-12` | 38 | 10.32 KB | 3,248 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2025-12-part-03.md) |
 | Part 02 | [`linkedin-certifications-2025-11-part-02.md`](./linkedin-certifications-2025-11-part-02.md) | `2025-11 to 2025-11` | 37 | 10.21 KB | 3,240 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2025-11-part-02.md) |

@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 6 of 43
 date_range: 2026-03 to 2026-03
-total_entries: 41
+total_entries: 42
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-03-part-06.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-03 | **Preparing for the Future of Work with AI Agents** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e539869c9437b99c694205b6bf274eef97f5d7ff64e5fbc0433b226d858a8315) |
+| 2026-03 | **Fundamentals of digital marketing** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/student/award/RuM7eufo8FGxiFKdoKune8HD) |
+| 2026-03 | **YouTube Music Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/profiles/c92f51aa68fc451f9ee992f9e813024b) |
+| 2026-03 | **Microsoft Copilot for Productivity by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ebee0f751b683082436e62c08e7461b97f7f11191f192f20010404efefcdd55a) |
 | 2026-03 | **Artificial Intelligence Foundations: Machine Learning** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/05658b20b59db9dbbd1b31ef562e84870bb01d03cec38a0621ae8f423103355a?trk=share_certificate) |
 | 2026-03 | **Google Analytics Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/c845a7b6-cef3-4e66-87e2-481771d889ed) |
 | 2026-03 | **Microsoft Applied Skills: Create an AI agent** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/DC86763A7069ABBF?sharingId) |
@@ -33,6 +37,11 @@ artifacts: complete, index
 | 2026-03 | **Grow Offline Sales Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/2d2774cb-bf2e-47c5-a286-86de5cc1bcd8) |
 | 2026-03 | **Human Skills in the Age of AI by Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/ae6b4ab2f3e25673ea0b882f5443d748f91855994ac4f6204d2b824e14bc51f4) [WARN] *Content retired* |
 | 2026-03 | **Conversion Optimization Certification Exam** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/3c4afa84-5637-4c3b-b3fc-6e6c26e48d35) |
+| 2026-03 | **Ethics in the Age of Generative AI** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/81172a2f26ee5028965fae175cd98c07a750b0b0d5f6b30cd42abd8f9d950c5f) |
+| 2026-03 | **What Is Generative AI?** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2004c711ab3acf5357eeb3306378f06aa8a591232f4984a4730d786670b381d7) |
+| 2026-03 | **Serverless Data Processing with Dataflow: Foundations** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22543145?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-03 | **Serverless Data Processing with Dataflow: Develop Pipelines** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22543230?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-03 | **Build a Certification Study Guide: PMLE** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22568934?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Introduction to Cloud Next Generation Firewall** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691267?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Plan Your Cloud Next Generation Firewall Needs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22691283?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Gemini for Network Engineers** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/22742333?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -48,14 +57,6 @@ artifacts: complete, index
 | 2026-03 | **Introduction Google Security Operations (SOAR)** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23131290?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Gemini for Application Developers** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23146474?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Building No-Code Apps with AppSheet: Implementation** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23161995?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Gemini for Cloud Architects** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23172626?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Gemini for Security Engineers** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23172667?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Conversational AI on Vertex AI and Dialogflow CX** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23173335?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Quiz: GDC Air-Gapped Security Operator Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23252126?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **SecOps on GDC for Tier 3 Analysts** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23252609?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **SecOps on GDC for Tier 1 and Tier 2 Analysts** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23253112?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **GDC Platform Introduction** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23277454?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Compute, Network, and Storage Services Configuration in GDC** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23277696?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-03-part-05.md](./linkedin-certifications-2026-03-part-05.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-04-part-07.md](./linkedin-certifications-2026-04-part-07.md)

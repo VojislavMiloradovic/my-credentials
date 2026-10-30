@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 13 of 43
 date_range: 2026-05 to 2026-06
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-06-part-13.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -67,6 +67,7 @@ artifacts: complete, index
 | 2026-05 | **Frontend Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/e8ec0d30-25e8-4a3b-8747-3a43181664a7/linked_in_profile) |
 | 2026-05 | **Site Reliability Engineer Learning Path** | Datadog | [Verify Record](https://www.credly.com/badges/82670fe2-987b-43c4-8023-09500fa4696b/linked_in_profile) |
 | 2026-05 | **Implement Phishing-Resistant Authentication** | Okta | [Verify Record](https://www.credly.com/badges/c34fa8f3-05dc-434e-884f-8058eb03679f/linked_in_profile) |
+| 2026-05 | **Define a Secure Policy Structure** | Okta | [Verify Record](https://www.credly.com/badges/c2ff8b68-4187-4799-b8b5-27c9fa37ef45/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-05-part-12.md](./linkedin-certifications-2026-05-part-12.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-06-part-14.md](./linkedin-certifications-2026-06-part-14.md)
