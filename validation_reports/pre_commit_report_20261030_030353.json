@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-29T03:53:43.935031+00:00",
+  "timestamp": "2026-10-30T03:03:53.634835+00:00",
   "summary": {
     "total": 95,
     "passed": 95,
@@ -38,19 +38,19 @@
       "latest_record_date_jsonld": "2026-10-26T00:00:00"
     },
     "aws-skills": {
-      "source_records": 1121,
-      "archive_complete_records": 1121,
-      "index_total": 1121,
-      "readme_count": 1121,
-      "jsonld_count": 1121,
-      "llms_txt_count": 1121,
+      "source_records": 1145,
+      "archive_complete_records": 1145,
+      "index_total": 1145,
+      "readme_count": 1145,
+      "jsonld_count": 1145,
+      "llms_txt_count": 1145,
       "llms_full_count": 1,
       "retired_in_source": 40,
       "retired_in_archive": 40,
       "retired_in_jsonld": 40,
-      "latest_record_date_source": "2026-10-24T00:00:00",
-      "latest_record_date_archive": "2026-10-24T00:00:00",
-      "latest_record_date_jsonld": "2026-10-24T00:00:00"
+      "latest_record_date_source": "2026-10-30T00:00:00",
+      "latest_record_date_archive": "2026-10-30T00:00:00",
+      "latest_record_date_jsonld": "2026-10-30T00:00:00"
     },
     "credly": {
       "source_records": 802,
@@ -68,12 +68,12 @@
       "latest_record_date_jsonld": "2026-10-28T00:00:00"
     },
     "linkedin-certifications": {
-      "source_records": 1945,
-      "archive_complete_records": 1945,
-      "index_total": 1945,
-      "readme_count": 1945,
-      "jsonld_count": 1945,
-      "llms_txt_count": 1945,
+      "source_records": 1957,
+      "archive_complete_records": 1957,
+      "index_total": 1957,
+      "readme_count": 1957,
+      "jsonld_count": 1957,
+      "llms_txt_count": 1957,
       "llms_full_count": 1,
       "retired_in_source": 1,
       "retired_in_archive": 1,
@@ -122,8 +122,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 1121,
-      "message": "Source snapshot has 1121 records (40 retired)",
+      "actual": 1145,
+      "message": "Source snapshot has 1145 records (40 retired)",
       "severity": "warning"
     },
     {
@@ -140,8 +140,8 @@
       "platform": "linkedin-certifications",
       "passed": true,
       "expected": "> 0",
-      "actual": 1945,
-      "message": "Source snapshot has 1945 records (1 retired)",
+      "actual": 1957,
+      "message": "Source snapshot has 1957 records (1 retired)",
       "severity": "warning"
     },
     {
@@ -176,8 +176,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 1121,
-      "message": "Complete archive has 1121 records (40 retired)",
+      "actual": 1145,
+      "message": "Complete archive has 1145 records (40 retired)",
       "severity": "error"
     },
     {
@@ -194,8 +194,8 @@
       "platform": "linkedin-certifications",
       "passed": true,
       "expected": "> 0",
-      "actual": 1945,
-      "message": "Complete archive has 1945 records (1 retired)",
+      "actual": 1957,
+      "message": "Complete archive has 1957 records (1 retired)",
       "severity": "error"
     },
     {
@@ -230,8 +230,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 1121,
-      "message": "Index reports 1121 total records",
+      "actual": 1145,
+      "message": "Index reports 1145 total records",
       "severity": "error"
     },
     {
@@ -248,8 +248,8 @@
       "platform": "linkedin-certifications",
       "passed": true,
       "expected": "> 0",
-      "actual": 1945,
-      "message": "Index reports 1945 total records",
+      "actual": 1957,
+      "message": "Index reports 1957 total records",
       "severity": "error"
     },
     {
@@ -284,8 +284,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 1121,
-      "message": "README reports 1121 records",
+      "actual": 1145,
+      "message": "README reports 1145 records",
       "severity": "error"
     },
     {
@@ -302,8 +302,8 @@
       "platform": "linkedin-certifications",
       "passed": true,
       "expected": "> 0",
-      "actual": 1945,
-      "message": "README reports 1945 records",
+      "actual": 1957,
+      "message": "README reports 1957 records",
       "severity": "error"
     },
     {
@@ -338,8 +338,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 1121,
-      "message": "JSON-LD has 1121 credentials (40 retired)",
+      "actual": 1145,
+      "message": "JSON-LD has 1145 credentials (40 retired)",
       "severity": "error"
     },
     {
@@ -356,8 +356,8 @@
       "platform": "linkedin-certifications",
       "passed": true,
       "expected": "> 0",
-      "actual": 1945,
-      "message": "JSON-LD has 1945 credentials (1 retired)",
+      "actual": 1957,
+      "message": "JSON-LD has 1957 credentials (1 retired)",
       "severity": "error"
     },
     {
@@ -392,8 +392,8 @@
       "platform": "aws-skills",
       "passed": true,
       "expected": "> 0",
-      "actual": 1121,
-      "message": "llms.txt reports 1121 records",
+      "actual": 1145,
+      "message": "llms.txt reports 1145 records",
       "severity": "error"
     },
     {
@@ -410,8 +410,8 @@
       "platform": "linkedin-certifications",
       "passed": true,
       "expected": "> 0",
-      "actual": 1945,
-      "message": "llms.txt reports 1945 records",
+      "actual": 1957,
+      "message": "llms.txt reports 1957 records",
       "severity": "error"
     },
     {
@@ -598,45 +598,45 @@
       "check": "count_consistency_complete_vs_index",
       "platform": "aws-skills",
       "passed": true,
-      "expected": 1121,
-      "actual": 1121,
-      "message": "complete vs index (L2_published, 1:1_pass_through): complete=1121 vs index=1121 [OK]",
+      "expected": 1145,
+      "actual": 1145,
+      "message": "complete vs index (L2_published, 1:1_pass_through): complete=1145 vs index=1145 [OK]",
       "severity": "error"
     },
     {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "aws-skills",
       "passed": true,
-      "expected": 1121,
-      "actual": 1121,
-      "message": "readme vs llms_txt (L3_display, count_active_and_retired): readme=1121 vs llms_txt=1121 [OK]",
+      "expected": 1145,
+      "actual": 1145,
+      "message": "readme vs llms_txt (L3_display, count_active_and_retired): readme=1145 vs llms_txt=1145 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L0_raw_to_L1_normalized",
       "platform": "aws-skills",
       "passed": true,
-      "expected": "1121 (transform: parse_csv_combine_retired_flags)",
-      "actual": 1121,
-      "message": "Declared transform L0_raw -> L1_normalized (parse_csv_combine_retired_flags): 1121 -> 1121 [OK]",
+      "expected": "1145 (transform: parse_csv_combine_retired_flags)",
+      "actual": 1145,
+      "message": "Declared transform L0_raw -> L1_normalized (parse_csv_combine_retired_flags): 1145 -> 1145 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published",
       "platform": "aws-skills",
       "passed": true,
-      "expected": "1121 (transform: 1:1_pass_through)",
-      "actual": 1121,
-      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 1121 -> 1121 [OK]",
+      "expected": "1145 (transform: 1:1_pass_through)",
+      "actual": 1145,
+      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 1145 -> 1145 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L3_display",
       "platform": "aws-skills",
       "passed": true,
-      "expected": "1121 (transform: count_active_and_retired)",
-      "actual": 1121,
-      "message": "Declared transform L1_normalized -> L3_display (count_active_and_retired): 1121 -> 1121 [OK]",
+      "expected": "1145 (transform: count_active_and_retired)",
+      "actual": 1145,
+      "message": "Declared transform L1_normalized -> L3_display (count_active_and_retired): 1145 -> 1145 [OK]",
       "severity": "error"
     },
     {
@@ -715,45 +715,45 @@
       "check": "count_consistency_complete_vs_index",
       "platform": "linkedin-certifications",
       "passed": true,
-      "expected": 1945,
-      "actual": 1945,
-      "message": "complete vs index (L2_published, 1:1_pass_through): complete=1945 vs index=1945 [OK]",
+      "expected": 1957,
+      "actual": 1957,
+      "message": "complete vs index (L2_published, 1:1_pass_through): complete=1957 vs index=1957 [OK]",
       "severity": "error"
     },
     {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "linkedin-certifications",
       "passed": true,
-      "expected": 1945,
-      "actual": 1945,
-      "message": "readme vs llms_txt (L3_display, 1:1_pass_through): readme=1945 vs llms_txt=1945 [OK]",
+      "expected": 1957,
+      "actual": 1957,
+      "message": "readme vs llms_txt (L3_display, 1:1_pass_through): readme=1957 vs llms_txt=1957 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L0_raw_to_L1_normalized",
       "platform": "linkedin-certifications",
       "passed": true,
-      "expected": "1945 (transform: 1:1_pass_through)",
-      "actual": 1945,
-      "message": "Declared transform L0_raw -> L1_normalized (1:1_pass_through): 1945 -> 1945 [OK]",
+      "expected": "1957 (transform: 1:1_pass_through)",
+      "actual": 1957,
+      "message": "Declared transform L0_raw -> L1_normalized (1:1_pass_through): 1957 -> 1957 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published",
       "platform": "linkedin-certifications",
       "passed": true,
-      "expected": "1945 (transform: 1:1_pass_through)",
-      "actual": 1945,
-      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 1945 -> 1945 [OK]",
+      "expected": "1957 (transform: 1:1_pass_through)",
+      "actual": 1957,
+      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 1957 -> 1957 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L3_display",
       "platform": "linkedin-certifications",
       "passed": true,
-      "expected": "1945 (transform: 1:1_pass_through)",
-      "actual": 1945,
-      "message": "Declared transform L1_normalized -> L3_display (1:1_pass_through): 1945 -> 1945 [OK]",
+      "expected": "1957 (transform: 1:1_pass_through)",
+      "actual": 1957,
+      "message": "Declared transform L1_normalized -> L3_display (1:1_pass_through): 1957 -> 1957 [OK]",
       "severity": "error"
     },
     {
@@ -1003,7 +1003,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-10-24 to 2026-10-24)",
+      "message": "Latest record dates span 0 days across artifacts (2026-10-30 to 2026-10-30)",
       "severity": "warning"
     },
     {

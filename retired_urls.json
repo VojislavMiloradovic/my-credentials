@@ -441,6 +441,20 @@
       "reason": "Auto-retired: removed from source data on 2026-10-29",
       "retired_at": "2026-10-29",
       "title": "61f8afe115584b93"
+    },
+    {
+      "id": "6e661bc30f77f2c8",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-10-30",
+      "retired_at": "2026-10-30",
+      "title": "6e661bc30f77f2c8"
+    },
+    {
+      "id": "935de4a428af3440",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-10-30",
+      "retired_at": "2026-10-30",
+      "title": "935de4a428af3440"
     }
   ],
   "credly": [],

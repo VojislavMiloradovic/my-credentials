@@ -44,8 +44,8 @@ artifacts: complete, index
 | 2026-07-02 | [AWS SimuLearn: Create an AI Smart Assistant](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-07-02 | [AWS SimuLearn: Get Started with Generative AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-07-02 | [AWS SimuLearn: Use AI Services with Amazon SageMaker](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
-| 2026-06-30 | [Amazon QuickSight Advanced Business Intelligence Authoring (Part 1)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-06-30 | [Amazon QuickSight Advanced Business Intelligence Authoring (Part 2)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-06-30 | [Amazon Quick Sight Advanced Business Intelligence Authoring (Part 1)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-06-30 | [Amazon Quick Sight Advanced Business Intelligence Authoring (Part 2)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-29 | [Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course [WARN] *Content retired (platform-flagged: Source CSV Status=Retired, 2026-06-29)* |
 | 2026-06-29 | [Build Strands Agents with SageMaker AI models and MLflow](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-29 | [Deploying custom Terraform to LZA-Managed Accounts with AFT](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

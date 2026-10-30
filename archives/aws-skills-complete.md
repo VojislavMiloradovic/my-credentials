@@ -1,17 +1,27 @@
 # Complete AWS Skill Builder Credentials Archive
 
-This document represents a unified, verifiable list of all 1135 records.
+This document represents a unified, verifiable list of all 1145 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-29T15:50:16.229447+00:00 -->
+<!-- retrieved_at: 2026-10-30T03:03:51.201107+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-30 | [Amazon DataZone Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Amazon Relational Database Service for MySQL - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Build a protein research copilot with Amazon Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Build AI Agents That Remember: Agentic Memory with Valkey](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Build an AI Recommendation Engine Step by Step (Graph + Bedrock)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Build and scale agentic AI apps with Amazon Aurora: Multi-agent orchestration](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Build Knowledge Graph-powered AI Agents For Your Use Case - with Amazon Neptune](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Database Guardrails for AI Agents - Stop Prompt Injection with AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [How Nearmap built continental-scale aerial search using Amazon S3 Vectors](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [The Role of Vector Databases in Generative AI Applications](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-29 | [Amazon DynamoDB Service Introduction](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-29 | [Amazon Managed Service for Apache Flink - Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-29 | [Amazon Redshift Introduction](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -740,8 +750,8 @@ This document represents a unified, verifiable list of all 1135 records.
 | 2026-07-02 | [AWS SimuLearn: Create an AI Smart Assistant](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-07-02 | [AWS SimuLearn: Get Started with Generative AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
 | 2026-07-02 | [AWS SimuLearn: Use AI Services with Amazon SageMaker](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS SimuLearn |
-| 2026-06-30 | [Amazon QuickSight Advanced Business Intelligence Authoring (Part 1)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-06-30 | [Amazon QuickSight Advanced Business Intelligence Authoring (Part 2)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-06-30 | [Amazon Quick Sight Advanced Business Intelligence Authoring (Part 1)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-06-30 | [Amazon Quick Sight Advanced Business Intelligence Authoring (Part 2)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-29 | [Creating interactive gaming experiences with Amazon GameLift Streams and Amazon Interactive Video Service](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course [WARN] *Content retired (platform-flagged: Source CSV Status=Retired, 2026-06-29)* |
 | 2026-06-29 | [Build Strands Agents with SageMaker AI models and MLflow](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-06-29 | [Deploying custom Terraform to LZA-Managed Accounts with AFT](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
