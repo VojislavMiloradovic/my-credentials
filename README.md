@@ -14,15 +14,16 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,273,475
+- **Total Experience Points (XP):** 6,281,775
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 4,075
+- **Badges Earned (Profile):** 4,081
 - **Trophies Earned (Profile):** 932
 - **Completed Learning Paths (Active Tracker):** 531
-- **Completed Modules (Active Tracker):** 2,798
-- **Completed Individual Units:** 37,222
+- **Completed Modules (Active Tracker):** 2,804
+- **Completed Individual Units:** 37,281
 
 ### Verifiable Applied Skills & Credentials
+- **Enhance Agents With Autonomous Capabilities** (Credential ID: `A2805BBD40427267` | Earned: 2026-10-31T02:40:58+00:00 | Status: Active)
 - **Implement Information Protection And Data Loss Prevention By Using Microsoft Purview** (Credential ID: `7B5F7FFBA2989947` | Earned: 2026-10-24T14:32:43+00:00 | Status: Active)
 - **Build An Agent In Microsoft Copilot Studio** (Credential ID: `586C3134869081FC` | Earned: 2026-10-19T14:16:36+00:00 | Status: Active)
 - **Protect Information In Microsoft 365 Copilot By Using Microsoft Purview** (Credential ID: `F87E8DADFE9F36FD` | Earned: 2026-10-15T19:49:57+00:00 | Status: Active)
@@ -38,20 +39,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 5,007 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-99.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-99.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 5,013 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-99.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-99.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Azure Local network infrastructure** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-network-configuration/) |
+| **Design an Azure Local architecture, deployment model, and support plan** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-architecture-deployment-support/) |
+| **Code defensively with best practices** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-defensively-with-best-practices/) |
+| **Deploy Elastic on Azure virtual machines** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-elastic-azure-virtual-machines/) |
+| **Explore interaction experiences with Surface Mouse (2nd Edition)** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-mouse-second-edition/) |
+| **Prepare Azure Local hardware and identity readiness** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-hardware-identity-readiness/) |
 | **Restrict unauthorized code execution with Code Integrity policies on Windows Server** | Modules | 2026-10-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/app-control-windows-server/) |
 | **Extend Dataverse with code and Azure compute** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-dataverse-code-azure/) |
 | **Get started with Microsoft Power Platform development** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-platform-development/) |
-| **Build professional Power Apps experiences** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-power-apps-experiences/) |
 | **Build reusable controls with Power Apps component framework** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component-framework-code-components/) |
-| **Implement business logic with Microsoft Dataverse plug-ins** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dataverse-plug-ins/) |
-| **Diagnose advanced Microsoft Dataverse API failures** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/diagnose-dataverse-api-failures/) |
-| **Security campaigns and prevention-first strategy** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-campaign/) |
-| **Synchronize external data reliably with Microsoft Dataverse** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/synchronize-external-data-dataverse/) |
-| **Integrate Dataverse with services and external data** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-external-services/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

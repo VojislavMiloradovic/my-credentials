@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 29 of 99
 date_range: 2026-01-04 to 2026-01-06
-total_entries: 55
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-29.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Source control for machine learning projects** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/source-control-for-machine-learning-projects/) |
 | **Get started with Power Apps and SharePoint** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-apps-sharepoint/) |
 | **Build and deploy apps for Microsoft Teams using Teams Toolkit for Visual Studio Code** | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-teams-toolkit-vsc/) |
 | **Deploy a Microsoft Teams app to Azure by using Teams Toolkit for Visual Studio Code** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/teams-toolkit-vsc-deploy-apps/) |
@@ -23,11 +24,11 @@ artifacts: complete, index
 | **Expand the capabilities for Java apps on Azure** | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/expand-capabilities-java-azure/) |
 | **Sign in users with Microsoft Entra ID in a Java web app** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-java-app-enable-authentication-authorization/) |
 | **Deploy a Jakarta EE application to Azure** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-java-ee-app-to-jboss-app-service/) |
-| **Manage your generative AI APIs with Azure API Management** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/api-management/) |
 | **Architect API integration in Azure** | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-api-integration/) |
+| **Manage your generative AI APIs with Azure API Management** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/api-management/) |
 | **Implement generative AI guardrails with Azure AI Content Safety** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/moderate-content-detect-harm-azure-ai-content-safety/) |
-| **Sell through the commercial marketplace** | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/sell-through-commercial-marketplace/) |
 | **Go to market through the commercial marketplace** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/go-to-market-commercial-marketplace/) |
+| **Sell through the commercial marketplace** | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/sell-through-commercial-marketplace/) |
 | **Overview of Dynamics 365 Sales Professional** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/overview-d365-sales-professional/) |
 | **Stay current with Windows devices and Microsoft 365 Apps** | Learningpaths | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-stay-current/) |
 | **Plan to deploy updates for Windows clients and Microsoft 365 apps** | Modules | 2026-01-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-plan/) |
@@ -68,8 +69,6 @@ artifacts: complete, index
 | **Minecraft Trainer Academy: Train educators to teach with Minecraft Education in the classroom** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/minecraft-trainer-academy-minecraft-education-classroom/) |
 | **Automate multi-container Kubernetes deployments with Azure Pipelines** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-kubernetes/) |
 | **Automate Docker container deployments with Azure Pipelines** | Modules | 2026-01-04 | N/A |
-| **Introduction to Graph connectors** | Modules | 2026-01-04 | N/A |
-| **Configure a JavaScript application to retrieve Microsoft 365 data by using Microsoft Graph** | Modules | 2026-01-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-javascript-app/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-28.md](./microsoft-learn-2026-01-part-28.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-30.md](./microsoft-learn-2026-01-part-30.md)

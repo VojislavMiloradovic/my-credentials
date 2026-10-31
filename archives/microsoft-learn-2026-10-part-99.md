@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 99 of 99
-date_range: 2026-10-15 to 2026-10-23
-total_entries: 10
+date_range: 2026-10-15 to 2026-10-31
+total_entries: 16
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-99.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,11 +15,17 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Azure Local network infrastructure** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-network-configuration/) |
+| **Design an Azure Local architecture, deployment model, and support plan** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-architecture-deployment-support/) |
+| **Code defensively with best practices** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-defensively-with-best-practices/) |
+| **Deploy Elastic on Azure virtual machines** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-elastic-azure-virtual-machines/) |
+| **Explore interaction experiences with Surface Mouse (2nd Edition)** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-mouse-second-edition/) |
+| **Prepare Azure Local hardware and identity readiness** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-hardware-identity-readiness/) |
 | **Restrict unauthorized code execution with Code Integrity policies on Windows Server** | Modules | 2026-10-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/app-control-windows-server/) |
 | **Extend Dataverse with code and Azure compute** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-dataverse-code-azure/) |
 | **Get started with Microsoft Power Platform development** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-platform-development/) |
-| **Build professional Power Apps experiences** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-power-apps-experiences/) |
 | **Build reusable controls with Power Apps component framework** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component-framework-code-components/) |
+| **Build professional Power Apps experiences** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-power-apps-experiences/) |
 | **Implement business logic with Microsoft Dataverse plug-ins** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dataverse-plug-ins/) |
 | **Diagnose advanced Microsoft Dataverse API failures** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/diagnose-dataverse-api-failures/) |
 | **Security campaigns and prevention-first strategy** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-campaign/) |

@@ -15,9 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Simulate mouse and keyboard actions by using Power Automate for desktop** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-mouse-keyboard/) |
 | **Use input and output variables - Online workshop** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-input-output-online-workshop/) |
-| **Introduction to Azure Virtual WAN** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-virtual-wan/) |
 | **Introduction to key Azure network security services** | Learningpaths | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-azure-networking-services/) |
+| **Introduction to Azure Virtual WAN** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-virtual-wan/) |
 | **Choose the best service level of Azure NetApp Files for your high-performance computing (HPC) applications** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-service-level-azure-netapp-files-hpc-applications/) |
 | **Create a UI in a .NET MAUI app by using XAML** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-user-interface-xaml/) |
 | **Challenge Project — Create a Business Model for your startup using Microsoft Copilot** | Modules | 2025-12-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-use-generative-ai-to-create-business-model-startup/) |
@@ -64,7 +65,6 @@ artifacts: complete, index
 | **Manage scoped administration and delegation with Microsoft Intune and Intune for Education** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/education-manage-admin/) |
 | **Integrate data with Azure Data Factory or Azure Synapse Pipeline** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-integration-azure-data-factory/) |
 | **Communicate using message boxes in Power Automate for desktop flows** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-message-boxes/) |
-| **Troubleshoot physical failures on Windows clients** | Modules | 2025-12-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-physical-failures-windows-clients/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-23.md](./microsoft-learn-2025-12-part-23.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-25.md](./microsoft-learn-2025-12-part-25.md)
