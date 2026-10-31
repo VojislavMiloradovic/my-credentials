@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-03 | **Building No-Code Apps with AppSheet: Implementation** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23161995?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Gemini for Cloud Architects** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23172626?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Gemini for Security Engineers** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23172667?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Conversational AI on Vertex AI and Dialogflow CX** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23173335?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -55,7 +56,6 @@ artifacts: complete, index
 | 2026-01 | **Change Management for Google Workspace** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21326571?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-01 | **Configure and Maintain CCaaS as an Admin** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21338783?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-01 | **Security Practices with Google Security Operations - SIEM** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21339154?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-01 | **Google Cloud Computing Foundations: Cloud Computing Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/21520588?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-01-part-04.md](./linkedin-certifications-2026-01-part-04.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-03-part-06.md](./linkedin-certifications-2026-03-part-06.md)

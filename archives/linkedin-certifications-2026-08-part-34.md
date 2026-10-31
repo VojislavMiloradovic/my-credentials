@@ -15,9 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Nano Tips for Professional Networking with AJ Eckstein** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2257545b759b92dcaf9baab5835c1ba048213a362021cb3623d37b812c992833) |
-| 2026-08 | **How to Run Efficient Hybrid Meetings Nano Tips with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dfa309162124860a55b838edda085ea669b53a564f29d29f8ffdb5e87322fc5b) |
-| 2026-08 | **Embracing Unexpected Change (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2cb61befdab7a85f1ee50cb31723e5f72ee1cfdd6f634a88d63284f3c7ba57c7) |
 | 2026-08 | **Reid Hoffman and Chris Yeh on Blitzscaling** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/65314d7cd431b54ddf2f6797338907f1a02f5b62f09ff714734a7847c24eed83) |
 | 2026-08 | **Communicating as a Leader Nano Tips with Jessica Chen** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/79273c5e554f6102f794984ff2e240fee3e9a647a49602373b17857ce3a36f6b) |
 | 2026-08 | **Nano Tips for Giving and Receiving Feedback with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/78cff22549af862e17c5690738e9eb1b098c0c0f535264f5cd7b60d5559ddf66) |
@@ -58,6 +55,9 @@ artifacts: complete, index
 | 2026-08 | **NanoTips for Using Mindfulness Strategies to Build Resilience with Gemma Leigh Roberts** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c2097569f5fcf5da5f0c8d29032f10305fd4c9145f065ed7e6dbfde59529b43d) |
 | 2026-08 | **Nano Tips for New Managers with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3456d68d40cbdc0ff177c0dc693af6dc3cc74727f851c6da778e82d1ed83a421) |
 | 2026-08 | **Cloud Tech Professional Home & Business** | Acronis | [Verify Record](https://www.credly.com/badges/664f50a3-c675-434d-890f-4efd62cbfb7d/linked_in_profile) |
+| 2026-08 | **Nano Tips to Prepare for Public Speaking with Nausheen I. Chen** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/82735a90cef548ca06540c364605e9745f10a6d6231b90d2c14134d4c9de2b40) |
+| 2026-08 | **Nano Tips for Landing Your Dream Job with Austin Belcak** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/48845fd3dd9a6067db8073d5f8cd704e816dd6ce7d4b414576e965bcabd93beb) |
+| 2026-08 | **Nano Tips for Communicating with Courage at Work with Tatiana Kolovou** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/02b5769f123c412dddea10de4a96cfdc393f800213e7c5e568881ca14a073710) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-33.md](./linkedin-certifications-2026-08-part-33.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-35.md](./linkedin-certifications-2026-08-part-35.md)

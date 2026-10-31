@@ -1,9 +1,9 @@
 ---
 archive_platform: LinkedIn Certifications
 chunk_part: 36 of 43
-date_range: 2026-08 to 2026-09
-total_entries: 50
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-09-part-36.md
+date_range: 2026-08 to 2026-10
+total_entries: 54
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-36.md
 layer: L2_published
 transform: 1:1_pass_through
 artifacts: complete, index
@@ -11,21 +11,21 @@ artifacts: complete, index
 
 # LinkedIn Certifications -- Part 36
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-35.md](./linkedin-certifications-2026-08-part-35.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-37.md](./linkedin-certifications-2026-09-part-37.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-35.md](./linkedin-certifications-2026-08-part-35.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-37.md](./linkedin-certifications-2026-10-part-37.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-09 | **AI Skills in Minutes: Quick Wins for Prompting, Research, and Productivity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b093a2348d83daff6928fd6fddc86d47b5ad04aae73139c20fa56fb483ab5b40) |
-| 2026-09 | **Closing the Loop: Reinventing Reusable Packaging at Scale (Roambee Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6d910f129cb6c8c96390f6d5a22ad7f85efcba082c8f0f760334af61feac5eb1) |
-| 2026-09 | **Resilience in Action: Managing Disruptions in Tech Supply Chains (Dell Technologies Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ca29ff9fb66c0b5fed769daa2959cdbb0b660e89c59baf9d728c8b8df5a60cd6) |
-| 2026-09 | **Choosing the Right Partner: Smarter Vendor Selection with AHP (PT TMI Case Study) by Council of Supply Chain Management Professionals (CSCMP)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c5470fdc8c0a46ecc410e16d16c8b17e27adf8c081d6b32326eaa729bebb86e2) |
-| 2026-09 | **15 ChatGPT for Excel Productivity Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d5eab1109d541bd89b0ea60864443c0f0a523dda9dee577a78e63fe466cc3a08) |
-| 2026-09 | **15 Claude for Excel Productivity Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5fd54052f654b389b04765dc81176f93f63ea53220bf5b02fb5da23143e20ae1) |
-| 2026-09 | **Navigating an Entry-Level Job Search** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4f1846c68bbb3ebcb2bf85bfbd2cbf631b6c1b4699350a05f8104aaafd59abab) |
-| 2026-09 | **Nano Tips For Building Diverse and Inclusive Teams with Madison Butler** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5ac31a5a066ca7a54d3cf5e2b209c7bf7a33ff1cde0ceeeb572ef437cb3de83b) |
-| 2026-09 | **Nano Tips for Checking Your Bias: Becoming a People Advocate with Madison Butler** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cedfe423d79eaa64e0da7aa52125e0797b816ca1071b9d0342fc8805cd437240) |
-| 2026-09 | **Nano Tips for Talking about Race at Work with Benjy Kusi** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/623fe53394337ffdd99394630ef62600c027b1b3a2c5800453cd01f6afe6e464) |
-| 2026-09 | **Making a Case for Accessibility in Your Organization** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ef182d577eb16f34700076afad2b8f88735696469c1d3f5ed16bde552657fa9c) |
+| 2026-10 | **Handling Special Stocks and Physical Inventory in SAP S/4HANA Cloud Public Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xovam-feseb-nabyl-duvol-dabef) |
+| 2026-10 | **Optimizing Advanced Logistics and Analytics in SAP S/4HANA Cloud Public Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xofec-resod-tisoc-nokev-kidus) |
+| 2026-10 | **AWS Knowledge: Amazon Connect Reporting & Analytics - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/95f30003-6293-417a-89d3-8b2f8c8db025/linked_in_profile) |
+| 2026-10 | **Microsoft Applied Skills: Enhance agents with autonomous capabilities** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/A2805BBD40427267?sharingId) |
+| 2026-10 | **Configuring and Administering new Concur Travel, professional edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylor-radyk-rafak-sofog-kabom) |
+| 2026-10 | **Exploring Company Tree Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xatyd-cyfac-sivip-lacad-pylir) |
+| 2026-10 | **Managing Company-Specific Configuration Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xynaf-levap-ryvah-pypim-kakok) |
+| 2026-10 | **Implementing Travel Configuration Page Options in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xykyg-cugos-bocid-soveb-capom) |
+| 2026-10 | **Discovering Joule with SAP Concur Solutions** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyduf-cocug-ralal-fikyr-ricig) |
+| 2026-10 | **Managing Company Administration in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xobem-gohic-pevyd-darac-pypol) |
+| 2026-10 | **Applying SAP Digital Manufacturing** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xefit-luges-kypom-regib-sisyr) |
 | 2026-08 | **Cloud Sales Pro - PSA** | Acronis | [Verify Record](https://www.credly.com/badges/2123c22a-1b9f-4724-8252-536df8dbd4d1/linked_in_profile) |
 | 2026-08 | **Cloud Sales Professional Security Awareness Training** | Acronis | [Verify Record](https://www.credly.com/badges/e3cb20dc-1a7a-4ec5-8318-10d8742f16ee/linked_in_profile) |
 | 2026-08 | **Attack Flows v2: How to Model and Sequence Attacks** | AttackIQ | [Verify Record](https://www.credly.com/badges/975e7ac6-20c4-4b0f-9d17-eafc0dd69edb/linked_in_profile) |
@@ -65,7 +65,11 @@ artifacts: complete, index
 | 2026-08 | **Tetragon Getting Started** | Isovalent | [Verify Record](https://www.credly.com/badges/dffe3f42-4e0a-49bd-92f7-2646e68f51eb/linked_in_profile) |
 | 2026-08 | **Cilium Network Policies** | Isovalent | [Verify Record](https://www.credly.com/badges/22c5caa6-fc0f-4a4e-9739-a14b97edfc01/linked_in_profile) |
 | 2026-08 | **Cilium Flow Encryption** | Isovalent | [Verify Record](https://www.credly.com/badges/ac2cc631-94a7-4bf6-a5f5-a867c4e754fd/linked_in_profile) |
+| 2026-08 | **AWS Knowledge: Amazon WorkSpaces Migrations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31/linked_in_profile) |
+| 2026-08 | **Create and Manage Cloud Spanner Instances Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/linked_in_profile) |
+| 2026-08 | **Cloud Tech Pro - Email Archiving** | Acronis | [Verify Record](https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/linked_in_profile) |
+| 2026-08 | **Cloud Tech Professional EDR** | Acronis | [Verify Record](https://www.credly.com/badges/1bf4cc99-349a-43d4-a520-4fcda2a5df27/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-35.md](./linkedin-certifications-2026-08-part-35.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-37.md](./linkedin-certifications-2026-09-part-37.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-35.md](./linkedin-certifications-2026-08-part-35.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-37.md](./linkedin-certifications-2026-10-part-37.md)
 

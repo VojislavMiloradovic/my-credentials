@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 25 of 43
 date_range: 2026-07 to 2026-07
-total_entries: 49
+total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-07-part-25.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,55 +15,50 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-07 | **Arcade Simulator: Data Mesh Architect** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597578?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Build a Data Mesh with Knowledge Catalog** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25597616?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **BDR Basic Course** | Acronis | [Verify Record](https://www.credly.com/badges/eecab10e-35f3-446c-9503-a4b15c76acf8/linked_in_profile) |
-| 2026-07 | **Top ATT&CK Techniques** | AttackIQ | [Verify Record](https://www.credly.com/badges/61cec03c-1282-4a54-b48f-2c31d5a043f1/linked_in_profile) |
-| 2026-07 | **Building RAG Apps Using MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/647d5577-f948-4a84-9093-7b511bca6ecb/linked_in_profile) |
-| 2026-07 | **Small Business Marketing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/94db99f46d47baf611df7e9cc96772d22004fc6b9875cd832a541e35feac1513) |
-| 2026-07 | **Nano Tips for Building a LinkedIn Presence as an Early Career Professional with Lindsay Rosenthal** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8bd70cb8dc6dec4ce59d87920e0e6184e94fbbfc79bc4712ebb9cdf206c5960d) |
-| 2026-07 | **Arcade Base Camp July 2026** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25679839?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Secure Software Delivery Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2cf13bdf-9555-4bac-a807-2f80b52ddb56/linked_in_profile) |
-| 2026-07 | **Acronis Cyber Protect – Sales Pro** | Acronis | [Verify Record](https://www.credly.com/badges/a2071cbe-5c63-4b7e-9b49-306f58c74a30/linked_in_profile) |
-| 2026-07 | **Creating a Compelling Brand Narrative** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/572d01ac7ecd6f0f279fa8f2e0d263132f6e0b42a88b9ecc32068face7175f1b) |
-| 2026-07 | **Customer Service for Any Sector: Tips from a Hospitality Expert** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c98aee3d9495f01637c022c0544399e274438255cc400e926a4983d018698963) |
-| 2026-07 | **Introduction to EASY Framework for Threat Intelligence** | AttackIQ | [Verify Record](https://www.credly.com/badges/351d4db6-cd03-429e-a629-0765c3c78ba0/linked_in_profile) |
-| 2026-07 | **Foundations of AI Security** | AttackIQ | [Verify Record](https://www.credly.com/badges/fa327098-5494-4463-84bc-6429f541bf76/linked_in_profile) |
-| 2026-07 | **Building AI Agents with MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/445b664c-c048-4f35-99ed-087e1d1ffc15/linked_in_profile) |
-| 2026-07 | **CRUD Operations in MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/9fd53140-ed9f-49c4-ba08-46f3b86499ad/linked_in_profile) |
-| 2026-07 | **Acronis Cyber Protect – Tech Pro** | Acronis | [Verify Record](https://www.credly.com/badges/0d5fac3c-48d7-4e36-bb6c-bed01e8304d9/linked_in_profile) |
-| 2026-07 | **Creative Inspirations: Troika Design Group, Design and Branding Agency** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e450a756a55e74387f1d52ca88ab442dfbf0dbb733e116e28ebc9ed4a792dd06) |
-| 2026-07 | **Cloud Functions: 3 Ways Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/f57106b4-cf01-4ad0-a05a-67f322da7411/linked_in_profile) |
-| 2026-07 | **Cloud Sales Pro - Archival Storage** | Acronis | [Verify Record](https://www.credly.com/badges/f158f922-f150-4b0b-8690-da627a5aea91/linked_in_profile) |
-| 2026-07 | **Cloud Sales Pro - Backup** | Acronis | [Verify Record](https://www.credly.com/badges/8792dd40-33ba-45a4-8a3b-68f57d1ec0d3/linked_in_profile) |
-| 2026-07 | **Extending ATT&CK with ATT&CK Workbench** | AttackIQ | [Verify Record](https://www.credly.com/badges/1a455d6f-de65-420a-a531-f26d2562538b/linked_in_profile) |
-| 2026-07 | **Leveraging AI in Your Nonprofit Role by Microsoft and NetHope** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ccc7e8d46f6498c536d9f14cbd28dee76f392ed4a1276682382eaf3c4b11875c) |
-| 2026-07 | **Foundations of Cyber Threat Intelligence** | AttackIQ | [Verify Record](https://www.credly.com/badges/7de6eae2-567f-4628-9a07-b832ea35db92/linked_in_profile) |
-| 2026-07 | **AI and Innovation: How MongoDB Enables a Resilient AI Strategy** | MongoDB | [Verify Record](https://www.credly.com/badges/eb31b07d-b515-4678-aad1-792c118e67dc/linked_in_profile) |
-| 2026-07 | **MongoDB Advanced Schema Design Patterns and Anti-patterns Skill Badge** | MongoDB | [Verify Record](https://www.credly.com/badges/e467dede-3af7-4e52-94b6-024d53997597/linked_in_profile) |
-| 2026-07 | **AWS Educate Getting Started with Databases - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/da4e7c34-8a7a-4418-86f2-eb9db7a34148/linked_in_profile) |
-| 2026-07 | **MongoDB Schema Design Optimization Skill Badge** | MongoDB | [Verify Record](https://www.credly.com/badges/526ac37a-cf81-4031-82ad-ea72351d42b8/linked_in_profile) |
-| 2026-07 | **MongoDB Query Optimization Techniques** | MongoDB | [Verify Record](https://www.credly.com/badges/adc22d84-9e52-40b6-8f56-09b163398c09/linked_in_profile) |
-| 2026-07 | **Ryan Holmes on Social Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e6e647ae9bc82a07bc3b120c592af1ea458467921ca9b3bb56b0b50ade2c3ca7) |
-| 2026-07 | **Ken Blanchard on Servant Leadership** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0adf14b7571424f8ea180aed404be5f4e9fb70ab0d2d03c43b47ca5e109a44a8) |
-| 2026-07 | **Ram Charan on Coaching High Potentials** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6ad95c14cd19e81af1e04ad1fe9009cf3a792df7eebc375a3fce0a8f5e5c9f53) |
-| 2026-07 | **Arcade Adventure: Low-Code Development** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25819783?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Orchestrate Workflows with the Data Agent Kit** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25826281?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Set Up Multiple Network Interfaces** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25828763?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Configure VPC Routes and Addresses** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25829594?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-07 | **Cloud Sales Pro - Email Security** | Acronis | [Verify Record](https://www.credly.com/badges/1ae5dbfc-3538-41eb-b208-8cd3fa60648a/linked_in_profile) |
-| 2026-07 | **Cloud Sales Pro - Entra ID Backup** | Acronis | [Verify Record](https://www.credly.com/badges/00d5b48a-6926-43c6-842d-3585215523fe/linked_in_profile) |
-| 2026-07 | **AWS Educate Getting Started with Networking - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/95dadb7d-8f0b-4520-b945-c7b41292f126/linked_in_profile) |
-| 2026-07 | **menuPass Emulation Plan Execution** | AttackIQ | [Verify Record](https://www.credly.com/badges/6fd90ef1-aa26-4e52-bdd8-e499e96f3644/linked_in_profile) |
-| 2026-07 | **Mapping MITRE ATT&CK to CVE for Impact** | AttackIQ | [Verify Record](https://www.credly.com/badges/8f620453-4525-4c45-9107-5a24f2bf89a5/linked_in_profile) |
-| 2026-07 | **Securing MongoDB Self-Managed: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/ccb3958d-00b6-4cf5-abf2-9481f3f12197/linked_in_profile) |
-| 2026-07 | **MongoDB Overview: Core Concepts and Architecture** | MongoDB | [Verify Record](https://www.credly.com/badges/ec006874-acdf-4095-abab-5b6657054fc1/linked_in_profile) |
-| 2026-07 | **Securing MongoDB Atlas: Authentication & Authorization** | MongoDB | [Verify Record](https://www.credly.com/badges/c92a6b9b-e628-42f2-b33c-d51f189a3f3c/linked_in_profile) |
-| 2026-07 | **MongoDB Indexing Design Fundamentals** | MongoDB | [Verify Record](https://www.credly.com/badges/cd687719-8495-41e0-a74d-61cd2ab6f12e/linked_in_profile) |
-| 2026-07 | **MongoDB Sharding Strategies** | MongoDB | [Verify Record](https://www.credly.com/badges/ec69041f-6f70-4cab-b52f-dc3b9a64132f/linked_in_profile) |
-| 2026-07 | **Memory for AI Applications with MongoDB** | MongoDB | [Verify Record](https://www.credly.com/badges/17cc10c2-1879-4741-8660-896581fc660d/linked_in_profile) |
-| 2026-07 | **Practical GitHub Project Management and Collaboration** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bce9d15b67d1eeda3832ddf53e1ab7ff710e25a6988f1e28bb7e871c3f9517f1) |
-| 2026-07 | **Scaling Data Science with Agents** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25938520?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-07 | **Welcome to the "Building AI Products: Implementing Responsible AI" Professional Certificate** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e7533e7e77f05f45d1661986e70047c8e8bfc615df88db88358bb00660f34765) |
+| 2026-07 | **A Standalone Project: Create a AWS EC2 Web App with Load Balancing** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/300ea6b9bb38274da99bf677951bad02b6083f6ea6eef9272c6d463baba9e57c) |
+| 2026-07 | **Welcome to the "Building AI Products: Architecture and Orchestration" Professional Certificate** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/da139934471a4ae392f922778dd8b2a05c1996425c8a787f42022ce687e0bcc1) |
+| 2026-07 | **Welcome to the "Building AI Products: Understanding the Workflow" Professional Certificate** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/34843cffdb58899989a4fa26d99611d0bd17ada4f4aff1889ed74e7447ccf3b0) |
+| 2026-07 | **Nano Tips for Influencing Those More Senior Than You with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4fdd5f5bb59c3eaf44447684850c026b213c2c4a02fbf3ff6cbb9832f267225b) |
+| 2026-07 | **Nano Tips to Communicate Assertively and Set Boundaries with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b68fc11c017b61fa60d9b382640af7738cc80b8e57cd0ac15d790b83f245f1a4) |
+| 2026-07 | **Nano Tips and Shortcuts for Using Excel with Kat Norton** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0b0198ec3458f6cd3426e7dfbfaaab6681aab82542779fd64ed60f9a2d30a168) |
+| 2026-07 | **Nano Tips to Sharpen Your Critical Thinking with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bebc8acd2abfba8eaec891493d182482fa08f5de079387f27a1896a90ec78ea3) |
+| 2026-07 | **Nano Tips for Managing Up with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/67f3070887dab4a01c30d05ef04c5b09411febfd792ede243e65dc9060ff527c) |
+| 2026-07 | **Nano Tips for Developing Magnetic Charisma with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/6f091291752c37aa2ebf101764e3e780d67d22f27fca01f2801fa2d70365d1fe) |
+| 2026-07 | **How to Have Difficult Conversations Nano Tips with Melanie Whitney** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a8e69ce43c7f514bbd92fcc92be537666762b0d604e9aee7361582cbf0960dc2) |
+| 2026-07 | **Nano Tips for Intentional Engagement Online with Richard Moore** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2099c4913531753eb8efdb97f1faa7df31ac5574925dd7330be3af8c521f22d8) |
+| 2026-07 | **Nano Tips for Interpersonal Communication with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/17dceaeb40cdf956c580a5ca0e6504b432310000710c2cf85948200627fb5a21) |
+| 2026-07 | **Nano Tips to Boost Productivity with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/71cb29893e242b90e92bda31424ba7f4df819372cb20e41e0035c538af69c815) |
+| 2026-07 | **Nano Tips for Using Excel with Kat Norton (2022)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/cef88e027a10d62d4ef204641304c82f20e8f29dc558183519af61ff42009446) |
+| 2026-07 | **Nano Tips for Writing a Resume with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/033896516a76adc415f06e06c1f5948f043e54949c14e04116d318331faf977e) |
+| 2026-07 | **Nano Tips for Leading with Influence with Kim Kaupe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a47e5a6d4e0a336539aa15a7e9bb124dc6779718718c9fd87ec265d0a14244d0) |
+| 2026-07 | **Nano Tips for Career Growth from Today’s Top Business Leaders** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e293ab43880956b0561629f633e5967a41849df5fb2674d1c657a0b1765fd7f5) |
+| 2026-07 | **Nano Tips for Dealing with a Difficult Customer with Richard Moore** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3be01510ff9be7ffff598ddf3c4516d53aba9d3c3312132a8c38beab01db166b) |
+| 2026-07 | **Nano Tips for Charismatic Communication with Ravi Rajani** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d6009e59aa72edc5c93faf1486cef36a2cc2653df1f1d01dc0abdd57777933ba) |
+| 2026-07 | **Nano Tips for Quick Decision Making with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0b907908abd00584b436ddbb9ad61b6162d3c50cdb715805a1f2658f3e9562b6) |
+| 2026-07 | **How to Advocate for Yourself in Your Career Nano Tips with Tiffany Uman** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c7088b96ed8d97134b2a9aa6340de4f485731c4b9bc0deef91fba59757103c67) |
+| 2026-07 | **How to Be an Adaptable Employee during Change and Uncertainty** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c7ce06ba2dc4d6e834a06cd3121bb0f363905e40358a2a2c1993ac510e8b3394) |
+| 2026-07 | **Store, Process, and Manage Data on Google Cloud - Console Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/59bdf724-fa62-4fae-b148-cb57e28e3fb0/linked_in_profile) |
+| 2026-07 | **AI Essentials for Marketers: An Introduction by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1e1d0f1f68d8633517eee8aa4c47cdf971c58b0573ad3cedcf6c0697570ca9d8) |
+| 2026-07 | **Rock Your LinkedIn Profile** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a6ad6b4c77150728a98d05fda0697c6cd2f341a8ce11f02eaaa42e6775ebcc46) |
+| 2026-07 | **How to Navigate Rapid Growth** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/94f1576ed27d7c77f64a725a2808cf1c3d9e03f05433daa5b30e61aa6ad4012c) |
+| 2026-07 | **AI-Powered Content Planning for Marketers: Research Trends and Build Briefs by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ff0ca1f03491136a94fadad1cbf45c3eedb7643929c7bd975632e5c111247918) |
+| 2026-07 | **Marketing Analytics and Insights with AI: Use Claude and Copilot to Analyze Data, Generate Insights, and Build Dashboards by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3cedba5b1e8adf134b4b4f001f7f3abc0c7555d9ed8b93de6646c60cc24b7d29) |
+| 2026-07 | **AI-Powered Content Generation for Communications and Social Media Marketing by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/f84644b499e4bb799d4a78b31a4b9c91267f3269604b0038236ab0f241b0a68f) |
+| 2026-07 | **AI-Powered Audience Strategy for Digital Marketing: Build Seed Audiences, Improve Data Quality, and Optimize Segmentation by Adobe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a30bd965b1093e7e4631022020997c26ea5ac81dd266a9efc4c711216f2f733c) |
+| 2026-07 | **How to Use LinkedIn Learning** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4913c5d70d7893ed1d11101e295aac77d8c075c4f81d4eccfa0c6e121e512f5d) |
+| 2026-07 | **AWS Knowledge: Amazon EKS - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/a56b19c1-ecf5-4bf0-b66e-1849a18b9722/linked_in_profile) |
+| 2026-07 | **Intro to Acronis** | Acronis | [Verify Record](https://www.credly.com/badges/9e744ff2-c093-46d2-adba-97b5f1c92be2/linked_in_profile) |
+| 2026-07 | **LFS183: Introduction to Zero Trust** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/ea7570fb-d863-4cbf-8329-ee746d40980a/linked_in_profile) |
+| 2026-07 | **LFC112: Creating Effective Documentation for Developers** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/74c24889-addb-48cd-8539-b9484742e114/linked_in_profile) |
+| 2026-07 | **LFC114: Remote Work at Scale** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/e180e574-1bfe-4afb-a7ff-dce17455e64c/linked_in_profile) |
+| 2026-07 | **LFS147: Introduction to AI/ML Toolkits with Kubeflow** | The Linux Foundation | [Verify Record](https://www.credly.com/badges/53e07dd4-10c5-4a02-97e3-904a594ed3a6/linked_in_profile) |
+| 2026-07 | **Secure Applications with Auth0 Attack Protection** | Okta | [Verify Record](https://www.credly.com/badges/eb46f4ee-e054-47be-bdec-ce97fa77fcd6/linked_in_profile) |
+| 2026-07 | **Protect Your API Endpoints with Auth0** | Okta | [Verify Record](https://www.credly.com/badges/7a85c1f9-c3ec-42d2-a898-8ca954ed58bf/linked_in_profile) |
+| 2026-07 | **How to Start Your Career in the AI Era with Kyla Scanlon** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a6d62bdcee737f8097321ba997fc059aaba6767864de857b1ab6a1e5c18e8816) |
+| 2026-07 | **Leveraging AI in Your Nonprofit Organization by Microsoft and NetHope** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5d2c6fbea5557fc8cd9d913488208cd378cd178bac47bb5ab566ca6677ea2b27) |
+| 2026-07 | **What It Takes to Lead Your Team Through Turbulence** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8dfbcac043f39dd33aa576cfe18e282b8e80c2e23316d973dd078bfd71eb03cf) |
+| 2026-07 | **Winning With Intelligent Choice Architectures** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2dd3994569e774cfaa8ab9275d6f73ce962e2e4d45395d7f8110bf6026aeb5a5) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-24.md](./linkedin-certifications-2026-07-part-24.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-07-part-26.md](./linkedin-certifications-2026-07-part-26.md)

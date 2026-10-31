@@ -11,10 +11,11 @@ artifacts: complete, index
 
 # LinkedIn Certifications -- Part 06
 
-> **Navigation:** Prev: [linkedin-certifications-2026-03-part-05.md](./linkedin-certifications-2026-03-part-05.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-04-part-07.md](./linkedin-certifications-2026-04-part-07.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-03-part-05.md](./linkedin-certifications-2026-03-part-05.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-07.md](./linkedin-certifications-2026-05-part-07.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-03 | **Build Your Generative AI Productivity Skills with Microsoft and LinkedIn** | Microsoft | [Verify Record](https://www.linkedin.com/learning/certificates/9c7e9c6c769dad8b4e03ccd16ef3cae209895323fbe8d9f7bac48767b309a81d) |
 | 2026-03 | **Preparing for the Future of Work with AI Agents** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e539869c9437b99c694205b6bf274eef97f5d7ff64e5fbc0433b226d858a8315) |
 | 2026-03 | **Fundamentals of digital marketing** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/student/award/RuM7eufo8FGxiFKdoKune8HD) |
 | 2026-03 | **YouTube Music Certification** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.exceedlms.com/profiles/c92f51aa68fc451f9ee992f9e813024b) |
@@ -56,8 +57,7 @@ artifacts: complete, index
 | 2026-03 | **Google Security Operations - SOAR Developer** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23131102?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Introduction Google Security Operations (SOAR)** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23131290?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-03 | **Gemini for Application Developers** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23146474?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-03 | **Building No-Code Apps with AppSheet: Implementation** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23161995?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-03-part-05.md](./linkedin-certifications-2026-03-part-05.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-04-part-07.md](./linkedin-certifications-2026-04-part-07.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-03-part-05.md](./linkedin-certifications-2026-03-part-05.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-05-part-07.md](./linkedin-certifications-2026-05-part-07.md)
 

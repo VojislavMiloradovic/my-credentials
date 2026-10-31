@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 30 of 43
 date_range: 2026-07 to 2026-08
-total_entries: 48
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-30.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **SSE Expert Certification** | Cato Networks | [Verify Record](https://www.credly.com/badges/2d5a7b6b-db2d-4a99-814a-870cea7ec348/linked_in_profile) |
-| 2026-08 | **SASE Advanced Security** | Cato Networks | [Verify Record](https://www.credly.com/badges/3a796ab4-659a-4141-a249-b6f94611201f/linked_in_profile) |
 | 2026-08 | **SASE Deployment and Management** | Cato Networks | [Verify Record](https://www.credly.com/badges/906c5b04-f903-46cb-805c-9b3f0729718f/linked_in_profile) |
 | 2026-08 | **Upcoming Live Event, Aug 25: How to Turn AI Skeptics into Adoption Champions with Angie Jones** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bffbb36184356e50236eca353705dc0972d4184ff216bddbc297f1c168f1875b) |
 | 2026-08 | **Creative Inspirations: Margo Chase, Graphic Designer** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/53e018b054ef74b7a4b5d46acf8ef6da62cab9f6dee8381af2e7f2e21ea71b28) |
@@ -52,17 +50,21 @@ artifacts: complete, index
 | 2026-08 | **EDR Basic Course** | Acronis | [Verify Record](https://www.credly.com/badges/f47fe6a0-2dfc-4afb-8ca2-df6914a9dfca/linked_in_profile) |
 | 2026-08 | **MSP Academy: Maximizing Your Business Efficiency** | Acronis | [Verify Record](https://www.credly.com/badges/8b9124df-62b5-4111-8029-b4fd9b558ea4/linked_in_profile) |
 | 2026-08 | **Generative AI in Action** | IBM | [Verify Record](https://www.credly.com/badges/1c239877-da1b-4c2e-87d3-713550512b3c/linked_in_profile) |
-| 2026-07 | **Nano Tips for Powerful Leadership Storytelling with Christina Blacken** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b9f2ed3cb9e430e1894006f7b9083ae85ad15a6e40771e83fc787be56a5da86c) |
-| 2026-07 | **Nano Tips for Using Chat GPT to 10x Your Productivity at Work with Gianluca Mauro** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/708d71a91fcc860b70812f9851b60436767d3a4879ebf431878971872807860b) |
-| 2026-07 | **Discovering Entrepreneurship** | Cisco | [Verify Record](https://www.credly.com/badges/e0ae2fb9-9f66-424a-a990-8cca00679943/linked_in_profile) |
-| 2026-07 | **Nano Tips For Building a Career in Cybersecurity** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/46787484b5a7def9b9500a7f73696124c0b7c3eca978747896c8e9c2eda551bf) |
-| 2026-07 | **Nano Tips for Career Success and Daily Wins with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/d4751c8aa6f87f3960668aeac8e812f96c0a052e952297a1723e46355b5f4642) |
-| 2026-07 | **Nano Tips for Understanding AI's Impact to Business with Marco Andre** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4e807863cbb82e544917219c9a4f9975a36ab1f78a1c379b708b1e90c990095f) |
-| 2026-07 | **Nano Tips for Using AI in the Job Search with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a3dd97158bcfeabee945ee220924414173fb1d5bbd2c694d375d58330f0ca0a8) |
-| 2026-07 | **Nano Tips for Resolving Conflict with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/c30d25c1ec70e5089898b74440ca15320fb0d88d6391a1f46fdb1dee3e08835a) |
-| 2026-07 | **Nano Tips for Building Soft Skills with Elayne Fluker** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ca112ab33733f38994447c983946cb93f89d82b0aa7d018ef7fe5238ceb0a8c8) |
-| 2026-07 | **Nano Tips for Using Excel with Kat Norton** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/06eff828dc88459fc2cf0c54a762747ef7839812c9bc240168cccb3afee3ab4b) |
-| 2026-07 | **Nano Tips for Nailing Your Job Interview with Sho Dewan** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/0109900d1dc0926d443af8e43a60d395f7d1fadb26fa5e4b0688466ddb55438d) |
+| 2026-07 | **Session and Token Management Best Practices** | Okta | [Verify Record](https://www.credly.com/badges/1b01f351-59a3-42a9-a39e-2c5e22b1ef8c/linked_in_profile) |
+| 2026-07 | **Product-led Certification** | Pendo.io | [Verify Record](https://www.credly.com/badges/4813afed-be74-43f4-a69e-9a6482970fa2/linked_in_profile) |
+| 2026-07 | **Product Analytics Certification** | Pendo.io | [Verify Record](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16/linked_in_profile) |
+| 2026-07 | **Product Discovery Certification** | Pendo.io | [Verify Record](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145/linked_in_profile) |
+| 2026-07 | **Data Literacy in Practice** | SAS | [Verify Record](https://www.credly.com/badges/45b07a9e-9ca9-4189-a489-ebb58c023824/linked_in_profile) |
+| 2026-07 | **Deploying SAS Grid Manager** | SAS | [Verify Record](https://www.credly.com/badges/a0ad62be-1ecc-43c0-92ca-35437a0dd09b/linked_in_profile) |
+| 2026-07 | **Deploying SAS Viya from a Mirrored Registry** | SAS | [Verify Record](https://www.credly.com/badges/da51d4a3-2800-400d-a88d-d189bf53cc7e/linked_in_profile) |
+| 2026-07 | **Manual SAS Viya Deployment** | SAS | [Verify Record](https://www.credly.com/badges/0a5e2982-bdb6-498f-8ec6-979b3c0db919/linked_in_profile) |
+| 2026-07 | **Post-Deployment Steps for SAS Viya** | SAS | [Verify Record](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc/linked_in_profile) |
+| 2026-07 | **Practical Application of Gen AI for Project Managers** | Project Management Institute | [Verify Record](https://www.credly.com/badges/d8cbec32-4350-4590-831f-34ad56889daf/linked_in_profile) |
+| 2026-07 | **Talking to AI: Prompt Engineering for Project Managers** | Project Management Institute | [Verify Record](https://www.credly.com/badges/1b9b4a53-4ddc-4d6b-bd7c-c31df88dabc8/linked_in_profile) |
+| 2026-07 | **PMI® Essentials: Seven AI Project Patterns** | Project Management Institute | [Verify Record](https://www.credly.com/badges/2f214aa1-1de2-4e25-ba59-61ba86729898/linked_in_profile) |
+| 2026-07 | **Build Scalable Authorization Models with Auth0 FGA** | Okta | [Verify Record](https://www.credly.com/badges/03f314ca-34b2-45d8-9b2a-d0a5a45db527/linked_in_profile) |
+| 2026-07 | **AWS Knowledge: Compute - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/422b41e8-bf11-4ac3-b1fd-90dfd1838224/linked_in_profile) |
+| 2026-07 | **SAS Viya Architecture for Practitioners** | SAS | [Verify Record](https://www.credly.com/badges/11e650a9-21ef-44ff-8ede-fdab2d0fe35b/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-07-part-29.md](./linkedin-certifications-2026-07-part-29.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-31.md](./linkedin-certifications-2026-08-part-31.md)
