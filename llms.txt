@@ -1,23 +1,23 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-10-31 02:53 UTC
+> **Last Generated:** 2026-10-31 02:56 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
 - **Microsoft Learn**: 37,281 completed units | 5,013 total achievements | 6,281,775 XP
 - **Google Cloud Skills**: 419 badges
 - **AWS Skill Builder**: 1,145 completed courses/activities
-- **Credly**: 803 credentials
+- **Credly**: 804 credentials
 - **LinkedIn**: 1,957 certifications & learning courses
 - **Google Developer**: 172 milestone badges | 1,706 codelabs & activities
 
 ## Domain Focus & Skill Taxonomy
-Dynamic classification of ~11,095 parsed portfolio achievements across 5 primary tech domains:
+Dynamic classification of ~11,096 parsed portfolio achievements across 5 primary tech domains:
 
 - **[AI]  AI, Machine Learning & Data**: 3,621 achievements (32.6%)
 - ** DevOps, Security & Governance**: 1,220 achievements (11.0%)
 - ** Cloud & Infrastructure**: 1,814 achievements (16.3%)
-- **[Dev]  App Engineering & Software Development**: 1,365 achievements (12.3%)
+- **[Dev]  App Engineering & Software Development**: 1,366 achievements (12.3%)
 - **[Biz]  Enterprise & Professional Development**: 3,075 achievements (27.7%)
 
 ## Platform Master Indexes
@@ -34,14 +34,14 @@ Use these index files to navigate chunked historical records without exceeding c
 For tools with large context windows, complete datasets are available:
 
 - [Aws Skills Complete](./archives/aws-skills-complete.md) (198.22 KB, 53,897 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
-- [Credly Complete](./archives/credly-complete.md) (140.30 KB, 52,678 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-complete.md
+- [Credly Complete](./archives/credly-complete.md) (140.54 KB, 52,750 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-complete.md
 - [Google Developer Complete](./archives/google-developer-complete.md) (333.65 KB, 85,126 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
 - [Google Skills Complete](./archives/google-skills-complete.md) (80.33 KB, 27,122 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-complete.md
 - [Linkedin Certifications Complete](./archives/linkedin-certifications-complete.md) (391.68 KB, 138,100 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md
 - [Microsoft Learn Complete](./archives/microsoft-learn-complete.md) (908.39 KB, 232,887 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
 
 ## JSON-LD Structured Data
-Full Schema.org linked data available at [credentials.jsonld](../credentials.jsonld) (`10730.22 KB`)
+Full Schema.org linked data available at [credentials.jsonld](../credentials.jsonld) (`10731.29 KB`)
 
 ---
 *Generated automatically from live archive data. See [GitHub Actions](https://github.com/VojislavMiloradovic/my-credentials/actions) for build logs.*

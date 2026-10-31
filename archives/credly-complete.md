@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 803 records.
+This document represents a unified, verifiable list of all 804 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-30T16:27:39.017164+00:00 -->
+<!-- retrieved_at: 2026-10-31T02:56:44.733494+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-31 | [Microsoft Applied Skills: Enhance agents with autonomous capabilities](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/A2805BBD40427267?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-30 | [AWS Knowledge: Amazon Connect Reporting & Analytics - Training Badge](https://www.credly.com/badges/95f30003-6293-417a-89d3-8b2f8c8db025/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-28 | [Discover and Register AI Agents](https://www.credly.com/badges/cb8dd3b8-f179-45bc-b1b5-729751855746/public_url) | Okta | Credly Verified Badge |
 | 2026-10-28 | [Identity Governance](https://www.credly.com/badges/d7edb0d7-1935-4389-87dc-39b5f395f23e/public_url) | Okta | Credly Verified Badge |
