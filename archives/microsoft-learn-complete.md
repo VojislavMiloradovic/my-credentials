@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 5013 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-31T02:53:37.063915+00:00 -->
+<!-- retrieved_at: 2026-11-01T12:26:54.774647+00:00 -->
 
 ## Verified Records Archive
 
