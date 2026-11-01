@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 1966 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-10-31T21:01:30.672514+00:00 -->
+<!-- retrieved_at: 2026-11-01T13:10:47.066646+00:00 -->
 
 ## Verified Records Archive
 
