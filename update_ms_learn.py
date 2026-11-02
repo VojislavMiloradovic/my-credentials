@@ -615,18 +615,19 @@ class MicrosoftLearnPipeline(PipelineBase):
 
         # 4. Propagate retired status from learning paths to matching achievements
         retired_lp_urls = set()
-        for lp in self._learning_paths:
-            if lp.get("retired"):
-                for field in [
-                    "url",
-                    "learningPathUid",
-                    "learning_path_uid",
-                    "learningPathId",
-                ]:
-                    raw = lp.get(field)
-                    if raw:
-                        retired_lp_urls.add(format_verify_url(raw))
-                        break
+        if self._learning_paths:
+            for lp in self._learning_paths:
+                if lp.get("retired"):
+                    for field in [
+                        "url",
+                        "learningPathUid",
+                        "learning_path_uid",
+                        "learningPathId",
+                    ]:
+                        raw = lp.get(field)
+                        if raw:
+                            retired_lp_urls.add(format_verify_url(raw))
+                            break
 
         if retired_lp_urls:
             ach_marked = 0
@@ -695,9 +696,9 @@ class MicrosoftLearnPipeline(PipelineBase):
             f"- **Current Learning Level:** Level {current_level}",
             f"- **Badges Earned (Profile):** {format_num(badges_count)}",
             f"- **Trophies Earned (Profile):** {format_num(trophies_count)}",
-            f"- **Completed Learning Paths (Active Tracker):** {format_num(len(self._learning_paths))}",
-            f"- **Completed Modules (Active Tracker):** {format_num(len(self._modules))}",
-            f"- **Completed Individual Units:** {format_num(len(self._completed_units))}\n",
+            f"- **Completed Learning Paths (Active Tracker):** {format_num(len(self._learning_paths or []))}",
+            f"- **Completed Modules (Active Tracker):** {format_num(len(self._modules or []))}",
+            f"- **Completed Individual Units:** {format_num(len(self._completed_units or []))}\n",
         ]
 
         if self._user_creds:
@@ -778,13 +779,13 @@ class MicrosoftLearnPipeline(PipelineBase):
         return {
             "platform": self.PLATFORM_NAME,
             "total_achievements": len(records),
-            "total_learning_paths": len(self._learning_paths),
-            "total_modules": len(self._modules),
-            "total_completed_units": len(self._completed_units),
+            "total_learning_paths": len(self._learning_paths or []),
+            "total_modules": len(self._modules or []),
+            "total_completed_units": len(self._completed_units or []),
             "achievements": records,
-            "learning_paths": self._learning_paths,
-            "modules": self._modules,
-            "completed_units": self._completed_units,
+            "learning_paths": self._learning_paths or [],
+            "modules": self._modules or [],
+            "completed_units": self._completed_units or [],
             "verifiable_credentials": self._user_creds,
             "_layer_metadata": layer_metadata,
             "_retrieved_at": self._retrieved_at.isoformat(),

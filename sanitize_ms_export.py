@@ -24,6 +24,17 @@ SENSITIVE_JSON_KEYS = {
     "clientsecret",
     "labpassword",
     "vmpassword",
+    # Microsoft Learn specific PII fields
+    "userid",
+    "user_id",
+    "email",
+    "sourceuid",
+    "userprincipalname",
+    "upn",
+    "mail",
+    "objectid",
+    "object_id",
+    "principalname",
 }
 
 # Regex patterns for inline string replacement (e.g., inside scriptResult text)
@@ -71,19 +82,54 @@ def scrub_text(text: str) -> str:
 
 
 def sanitize_node(val):
+    """Recursively sanitize a JSON-serializable value."""
     if isinstance(val, str):
         return scrub_text(val)
     elif isinstance(val, dict):
-        sanitized_dict = {}
-        for k, v in val.items():
-            if is_sensitive_key(k):
-                sanitized_dict[k] = "[REDACTED]"
-            else:
-                sanitized_dict[k] = sanitize_node(v)
-        return sanitized_dict
+        # Special handling for VerifiableCredentials.userCredentials
+        if "userCredentials" in val and isinstance(val["userCredentials"], list):
+            sanitized = {}
+            for k, v in val.items():
+                if k == "userCredentials":
+                    sanitized[k] = [
+                        {
+                            k2: "[REDACTED]"
+                            if k2.lower()
+                            in (
+                                "userid",
+                                "email",
+                                "sourceuid",
+                                "userprincipalname",
+                                "upn",
+                                "mail",
+                                "objectid",
+                                "object_id",
+                                "principalname",
+                            )
+                            else sanitize_node(v2)
+                            for k2, v2 in cred.items()
+                        }
+                        for cred in v
+                    ]
+                elif is_sensitive_key(k):
+                    sanitized[k] = "[REDACTED]"
+                else:
+                    sanitized[k] = sanitize_node(v)
+            return sanitized
+        else:
+            # Regular dict handling - redact sensitive keys
+            sanitized_dict = {}
+            for k, v in val.items():
+                if is_sensitive_key(k):
+                    sanitized_dict[k] = "[REDACTED]"
+                else:
+                    sanitized_dict[k] = sanitize_node(v)
+            return sanitized_dict
     elif isinstance(val, list):
         return [sanitize_node(item) for item in val]
-    return val
+    else:
+        # Return other types (int, float, bool, None, etc.) unchanged
+        return val
 
 
 def process_file(file_path: Path):
