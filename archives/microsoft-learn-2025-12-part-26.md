@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Understand Microsoft 365 identity and access management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-identity-access-management/) |
 | **Understand Microsoft Online Services security incident management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-incident-management/) |
 | **Understand Microsoft 365 cloud architecture** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-architecture/) |
 | **Understand Microsoft 365 governance** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-governance/) |
@@ -34,8 +35,8 @@ artifacts: complete, index
 | **Customize layout in .NET MAUI XAML pages** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-xaml-pages-layout/) |
 | **Collaborate with others with Markdown and GitHub Pages** | Learningpaths | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/collaborate-markdown-github-pages/) |
 | **Create and host web sites by using GitHub Pages** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-host-web-sites-github-pages/) |
-| **Application lifecycle management for Dynamics 365** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-lifecycle-management-dynamics-365/) |
 | **Implement Dynamics 365 Projects** | Learningpaths | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-dynamics-365-projects/) |
+| **Application lifecycle management for Dynamics 365** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/application-lifecycle-management-dynamics-365/) |
 | **Test your Dynamics 365 implementation** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/test-dynamics-365-implementation/) |
 | **Document your Dynamics 365 solution for the customer** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/document-dynamics-365-solution-customer/) |
 | **Design the Dynamics 365 deployment** | Modules | 2025-12-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dynamics-365-deployment/) |
@@ -69,7 +70,6 @@ artifacts: complete, index
 | **Explore name resolution** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-name-resolution/) |
 | **Configure IP network connectivity** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ip-network-connectivity/) |
 | **Explore remote access** | Modules | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-remote-access/) |
-| **Create serverless applications** | Learningpaths | 2025-12-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-serverless-applications/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-25.md](./microsoft-learn-2025-12-part-25.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-27.md](./microsoft-learn-2026-01-part-27.md)

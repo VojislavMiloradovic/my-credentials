@@ -14,15 +14,16 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,273,475
+- **Total Experience Points (XP):** 6,281,775
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 4,075
+- **Badges Earned (Profile):** 4,081
 - **Trophies Earned (Profile):** 932
 - **Completed Learning Paths (Active Tracker):** 531
-- **Completed Modules (Active Tracker):** 2,798
-- **Completed Individual Units:** 37,222
+- **Completed Modules (Active Tracker):** 2,804
+- **Completed Individual Units:** 37,281
 
 ### Verifiable Applied Skills & Credentials
+- **Enhance Agents With Autonomous Capabilities** (Credential ID: `A2805BBD40427267` | Earned: 2026-10-31T02:40:58+00:00 | Status: Active)
 - **Implement Information Protection And Data Loss Prevention By Using Microsoft Purview** (Credential ID: `7B5F7FFBA2989947` | Earned: 2026-10-24T14:32:43+00:00 | Status: Active)
 - **Build An Agent In Microsoft Copilot Studio** (Credential ID: `586C3134869081FC` | Earned: 2026-10-19T14:16:36+00:00 | Status: Active)
 - **Protect Information In Microsoft 365 Copilot By Using Microsoft Purview** (Credential ID: `F87E8DADFE9F36FD` | Earned: 2026-10-15T19:49:57+00:00 | Status: Active)
@@ -38,20 +39,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 5,007 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-99.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-99.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 5,013 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-10-part-99.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-99.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Azure Local network infrastructure** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-network-configuration/) |
+| **Design an Azure Local architecture, deployment model, and support plan** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-architecture-deployment-support/) |
+| **Code defensively with best practices** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-defensively-with-best-practices/) |
+| **Deploy Elastic on Azure virtual machines** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-elastic-azure-virtual-machines/) |
+| **Explore interaction experiences with Surface Mouse (2nd Edition)** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-mouse-second-edition/) |
+| **Prepare Azure Local hardware and identity readiness** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-hardware-identity-readiness/) |
 | **Restrict unauthorized code execution with Code Integrity policies on Windows Server** | Modules | 2026-10-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/app-control-windows-server/) |
 | **Extend Dataverse with code and Azure compute** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-dataverse-code-azure/) |
 | **Get started with Microsoft Power Platform development** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-platform-development/) |
-| **Build professional Power Apps experiences** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-power-apps-experiences/) |
 | **Build reusable controls with Power Apps component framework** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component-framework-code-components/) |
-| **Implement business logic with Microsoft Dataverse plug-ins** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dataverse-plug-ins/) |
-| **Diagnose advanced Microsoft Dataverse API failures** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/diagnose-dataverse-api-failures/) |
-| **Security campaigns and prevention-first strategy** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-campaign/) |
-| **Synchronize external data reliably with Microsoft Dataverse** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/synchronize-external-data-dataverse/) |
-| **Integrate Dataverse with services and external data** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-external-services/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials
@@ -61,27 +62,29 @@ Showing latest 10 of 5,007 achievements. View full dataset via [Platform Archive
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 419
-**Total Verified Skills Mapped:** 418
+**Total Portfolio Credentials:** 421
+**Total Verified Skills Mapped:** 420
 
 #### Google Skills Learning Statistics
 
 | Metric | Count |
 | :--- | :---: |
-| **Check** | 2,031 |
+| **Check** | 2,047 |
 | **Classroom** | 0 |
-| **Course** | 426 |
+| **Course** | 427 |
 | **Game** | 13 |
-| **Lab** | 358 |
-| **Lesson** | 5,053 |
+| **Lab** | 362 |
+| **Lesson** | 5,112 |
 | **Path** | 18 |
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 419 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-10-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-10-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 421 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-11-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-02 | [Diwali in the Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29349189) | Google Cloud | Google Skill Badge |
+| 2026-11-01 | [Understand Your Google Cloud Costs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29320786) | Google Cloud | Google Skill Badge |
 | 2026-10-26 | [Analyze Speech and Language with Google APIs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29139278) | Google Cloud | Google Skill Badge |
 | 2026-10-26 | [Deploy Kubernetes Applications on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29137881) | Google Cloud | Google Skill Badge |
 | 2026-10-26 | [Arcade Adventure: Google Cloud ML APIs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29137135) | Google Cloud | Google Skill Badge |
@@ -90,8 +93,6 @@ Showing latest 10 of 419 credentials. View full dataset via [Platform Archive In
 | 2026-10-21 | [Integrate Applications with Gemini on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29000448) | Google Cloud | Google Skill Badge |
 | 2026-10-17 | [MLOps with Agent Platform: Manage Features](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28927506) | Google Cloud | Google Skill Badge |
 | 2026-10-17 | [Introduction to AI and Machine Learning on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28926914) | Google Cloud | Google Skill Badge |
-| 2026-10-13 | [Developing Applications with Cloud Run on Google Cloud: Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28830363) | Google Cloud | Google Skill Badge |
-| 2026-10-13 | [Serving Multimedia Content with Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28829629) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
@@ -101,8 +102,8 @@ Showing latest 10 of 419 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 1121
-**Total Verified Skills Mapped:** 1114
+**Total Portfolio Credentials:** 1145
+**Total Verified Skills Mapped:** 1138
 
 #### AWS Cloud Quest Summary
 
@@ -117,20 +118,20 @@ Showing latest 10 of 419 credentials. View full dataset via [Platform Archive In
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 1121 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-10-part-21.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-21.md)), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 1145 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-10-part-22.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-10-part-22.md)), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-10-24 | [Amazon Connect Communications Specialist Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-23 | [Amazon Connect Data Streaming Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-23 | [Amazon Connect Flows Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-23 | [Amazon Connect Flows Lambda Integrations Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-23 | [Amazon Connect Integrations Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-23 | [Amazon Connect Optimizing Routing Solutions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-23 | [Amazon Connect Routing Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-23 | [Amazon Simple Email Service (Amazon SES) - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-23 | [Automatically Detect and Mitigate Account Compromise Issues](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-23 | [AWS DataSync Primer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Amazon Connect Reporting & Analytics - Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Amazon DataZone Getting Started](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Amazon Relational Database Service for MySQL - Troubleshooting](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Build a protein research copilot with Amazon Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Build AI Agents That Remember: Agentic Memory with Valkey](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Build an AI Recommendation Engine Step by Step (Graph + Bedrock)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Build and scale agentic AI apps with Amazon Aurora: Multi-agent orchestration](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Build Knowledge Graph-powered AI Agents For Your Use Case - with Amazon Neptune](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [Database Guardrails for AI Agents - Stop Prompt Injection with AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-30 | [How Nearmap built continental-scale aerial search using Amazon S3 Vectors](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 
@@ -141,25 +142,25 @@ Showing latest 10 of 1121 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 796
-**Total Verified Skills Mapped:** 2769
+**Total Portfolio Credentials:** 806
+**Total Verified Skills Mapped:** 2803
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 796 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-15.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 806 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-10-27 | [Game-playing AI with Swift for TensorFlow](https://www.credly.com/badges/bba0e5ce-372f-4f04-8c7e-add137f1656b/public_url) | IBM | Credly Verified Badge |
-| 2026-10-27 | [Kong Gateway Operations for KIC](https://www.credly.com/badges/ea916ed5-cdde-4b4a-ae16-6b7a912566f0/public_url) | Kong | Credly Verified Badge |
-| 2026-10-27 | [Open Source Foundations](https://www.credly.com/badges/3e3d462b-caac-40e5-94d3-9faf88b318a5/public_url) | IBM | Credly Verified Badge |
-| 2026-10-26 | [Analyze Speech and Language with Google APIs Skill Badge](https://www.credly.com/badges/1fb39bd7-add0-4944-9f60-17025c91dca6/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-10-26 | [Deploy Kubernetes Applications on Google Cloud Skill Badge](https://www.credly.com/badges/0c63a326-6ed3-445a-a6a4-8232c89f57ea/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-10-24 | [Networking Basics](https://www.credly.com/badges/52301a6a-b07c-4272-9055-a0854ee63ab3/public_url) | Cisco | Credly Verified Badge |
-| 2026-10-24 | [Microsoft Applied Skills: Implement information protection and data loss prevention by using Microsoft Purview](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/7B5F7FFBA2989947?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
-| 2026-10-23 | [AWS Knowledge: Amazon Connect Communications Specialist - Training Badge](https://www.credly.com/badges/7e611b8a-f83d-4f69-b3ea-1b7c858837d0/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-10-22 | [Analyze Identity Risk with ISPM](https://www.credly.com/badges/92682534-5ad0-40d0-a597-85b17dfc51f1/public_url) | Okta | Credly Verified Badge |
-| 2026-10-22 | [Data Privacy Fundamentals](https://www.credly.com/badges/230b3fb7-5a66-40c3-8f06-aeb1286d094d/public_url) | IBM | Credly Verified Badge |
+| 2026-11-02 | [Build Your Own Chatbot - Level 1](https://www.credly.com/badges/1275ae4d-5bdd-45c3-bdc5-4eef7b2ae86f/public_url) | IBM | Credly Verified Badge |
+| 2026-11-02 | [Data Science Foundations - Level 1](https://www.credly.com/badges/8b535dbd-76db-4713-9e2e-1137abe99da0/public_url) | IBM | Credly Verified Badge |
+| 2026-10-31 | [Microsoft Applied Skills: Enhance agents with autonomous capabilities](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/A2805BBD40427267?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
+| 2026-10-30 | [AWS Knowledge: Amazon Connect Reporting & Analytics - Training Badge](https://www.credly.com/badges/95f30003-6293-417a-89d3-8b2f8c8db025/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-10-28 | [Discover and Register AI Agents](https://www.credly.com/badges/cb8dd3b8-f179-45bc-b1b5-729751855746/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Identity Governance](https://www.credly.com/badges/d7edb0d7-1935-4389-87dc-39b5f395f23e/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Identity Governance Access Certifications](https://www.credly.com/badges/33ce5fd1-570d-42ff-bea6-32d007088ab1/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Identity Governance Entitlement Management](https://www.credly.com/badges/e73184e8-22d6-4175-ab5d-3d53bbfb4a04/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Manage AI Agents Access to Resources](https://www.credly.com/badges/656a7c48-79f9-40ec-9e10-9078ace2e722/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Streamline Identity Governance with Workflows](https://www.credly.com/badges/984861ae-3ade-45cf-bf5b-b7a99316dab6/public_url) | Okta | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -174,7 +175,7 @@ Showing latest 10 of 796 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 1,945 |
+| **Total External Certifications Verified** | 1,966 |
 
 #### Recent Certifications
 
@@ -182,16 +183,16 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| *2026-10* | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
-| *2026-10* | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| *2026-10* | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |
-| *2026-10* | **Enterprise AI Business Solutions** | IBM | [Verify Record](https://www.credly.com/badges/8022d661-c083-40c9-9ab7-acd251698a1f/linked_in_profile) |
-| *2026-10* | **Basis Automate+** | Basis | [Verify Record](https://www.credly.com/badges/4cca84af-5946-435a-a853-e89ea3c9181b/linked_in_profile) |
-| *2026-10* | **Programmatic Sales Essentials** | Basis | [Verify Record](https://www.credly.com/badges/7895fbdf-6d83-4d71-95d3-6938d0ad96fb/linked_in_profile) |
-| *2026-10* | **Basis Reporting** | Basis | [Verify Record](https://www.credly.com/badges/eb14d86e-db4b-4a3f-bfd5-5b672f60e3bd/linked_in_profile) |
-| *2026-10* | **Basis Connect+** | Basis | [Verify Record](https://www.credly.com/badges/5d229e20-bae1-4dee-89b8-3c2b0afbbd7b/linked_in_profile) |
-| *2026-10* | **Unify by Basis** | Basis | [Verify Record](https://www.credly.com/badges/6a5a5d48-9544-4ed3-b3bd-69e76fa55459/linked_in_profile) |
-| *2026-10* | **Programmatic** | Basis | [Verify Record](https://www.credly.com/badges/a845f138-3606-4581-8020-b07a581eac19/linked_in_profile) |
+| *2026-10* | **Retrieval-Augmented Generation for Enhanced AI Outputs** | IBM | [Verify Record](https://www.credly.com/badges/a527e2ca-33f7-4c2b-92be-a268a9f642de/linked_in_profile) |
+| *2026-10* | **Tigera Honor Code Certificate for Certified Calico Operator: eBPF** | Tigera | [Verify Record](https://courses.academy.tigera.io/certificates/24c364042f0444ea8d4b473386b2c40a) |
+| *2026-10* | **AWS Knowledge: AI-Powered Video Advertising & Operations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/1f727234-60b9-4c13-a2b5-3f1978fbe89f/linked_in_profile) |
+| *2026-10* | **Getting Started as a LinkedIn Learning Admin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fe023a5e666217da82c02a4d2515e674acba39f2c4330cdd0281dc67328aebc8) |
+| *2026-10* | **Derive Insights from BigQuery Data Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/01067a7c-6951-46f0-bac8-40238c8d8fd2/linked_in_profile) |
+| *2026-10* | **Essentials - Acronis Cyber Platform: Automate** | Acronis | [Verify Record](https://www.credly.com/badges/47021d40-dba0-4fa9-8853-e28fe207dea1/linked_in_profile) |
+| *2026-10* | **Essentials - Acronis Cyber Platform: Manage** | Acronis | [Verify Record](https://www.credly.com/badges/dc4210de-cbe7-47f4-97b8-ecbb7df7becd/linked_in_profile) |
+| *2026-10* | **Lifelong Professional Skills** | IBM | [Verify Record](https://www.credly.com/badges/e981ea1d-c27f-4baf-9811-f8eb8a44c7cd/linked_in_profile) |
+| *2026-10* | **Career Management Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2a1cf5d5-5ba0-4d9a-86ad-a1c1b920f2e8/linked_in_profile) |
+| *2026-10* | **Nano Tips to Build Authority on LinkedIn with Shadé Zahrai & Jasmin Alić** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b36e8947f730009d5fc4fb6daa85358c35953451a997ccf08240970b86caeca1) |
 <!-- LINKEDIN_END -->
 
 

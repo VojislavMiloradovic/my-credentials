@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Get started with Windows PowerShell** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-windows-powershell/) |
+| **MS-102 Manage your security services in Microsoft Defender XDR** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-security-services-microsoft-365-defender/) |
 | **Manage Safe Links** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-safe-links-microsoft-365/) |
 | **Explore the Zero Trust security model** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-zero-trust-security-model/) |
 | **Create relationships, business rules, calculations, and rollups in Dataverse** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-relationships-common-data-service/) |
@@ -24,8 +26,8 @@ artifacts: complete, index
 | **Configure SQL Server resources for optimal performance** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-sql-server-resources-optimal-performance/) |
 | **MS-102 Manage your Microsoft 365 tenant** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-your-microsoft-365-tenant/) |
 | **Analyze your Microsoft 365 workplace data using Microsoft Viva Insights** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-microsoft-365-workplace-data-use-microsoft-viva-insights/) |
-| **Data normalization in Microsoft Sentinel** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-normalization-microsoft-sentinel/) |
 | **Create detections and perform investigations using Microsoft Sentinel** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-create-detections-perform-investigations-azure-sentinel/) |
+| **Data normalization in Microsoft Sentinel** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-normalization-microsoft-sentinel/) |
 | **Set up chart of accounts in Dynamics 365 Finance** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-chart-accounts-finance/) |
 | **Explore sensitivity labels** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-sensitivity-labels-microsoft-365/) |
 | **Create and define calculation or rollup columns in Dataverse** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-define-calculation-rollup-fields/) |
@@ -66,8 +68,6 @@ artifacts: complete, index
 | **Overview of HTTP connectors in Power Automate** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/http-connectors/) |
 | **Implement and manage Active Directory Certificate Services** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-active-directory-certificate-services/) |
 | **Investigate and respond to Microsoft Purview Data Loss Prevention alerts** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-alerts/) |
-| **Protect network infrastructure in Azure** | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-networking/) |
-| **Plan and implement security for virtual networks** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-virtual-networks/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-41.md](./microsoft-learn-2026-02-part-41.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-43.md](./microsoft-learn-2026-02-part-43.md)

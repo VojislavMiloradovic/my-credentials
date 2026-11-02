@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 41 of 43
 date_range: 2026-10 to 2026-10
-total_entries: 49
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-10-part-41.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,55 +15,60 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-10 | **Scale Codex Across Teams and Systems** | OpenAI | [Verify Record](https://oaiacademy.credential.net/4337aae6-0da3-4369-8cb7-8f4122bd18c3) |
-| 2026-10 | **Extend Codex Workflows** | OpenAI | [Verify Record](https://oaiacademy.credential.net/a10d60f9-eb74-4456-8bbe-d81065270025) |
-| 2026-10 | **Get Started with Codex** | OpenAI | [Verify Record](https://oaiacademy.credential.net/c3b19d3e-e2dc-4c89-b89c-cfc1a49ebed6) |
-| 2026-10 | **Build with AI - Codex Pathway Completion** | OpenAI | [Verify Record](https://oaiacademy.credential.net/e9700c3c-7805-41f9-8f0c-107855848428) |
-| 2026-10 | **Certificate of completion: AI Fluency for K-12 Educators** | Anthropic | [Verify Record](https://verify.skilljar.com/c/jtn598rzvw5v) |
-| 2026-10 | **Responsible AI and Risk Management** | IBM | [Verify Record](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/linked_in_profile) |
-| 2026-10 | **Human-AI Collaborative Planning** | IBM | [Verify Record](https://www.credly.com/badges/1d2d3eaf-ee7e-4db9-a876-114852bcf023/linked_in_profile) |
-| 2026-10 | **AI Gateway Operations** | Kong | [Verify Record](https://www.credly.com/badges/382c45a4-5932-4860-9b86-0a207e34d81e/linked_in_profile) |
-| 2026-10 | **Learn Agent Memory in 10 Minutes: Why AI Agents Need Memory** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1113898e84dbe5a461345957689bc2999baae6269ae25c90f0664ccf3abacbc0) |
-| 2026-10 | **Create a Team of Agents in 10 Minutes** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1920cfa4d9e9d233d1ef1bb016f0b122c829a514eb0d1180b8a0bedff83effe9) |
-| 2026-10 | **Harness Certified Continuous Delivery & GitOps Developer** | Harness | [Verify Record](https://www.credly.com/badges/99b36a29-ec2a-4df6-bf2d-74fdad35e070/linked_in_profile) |
-| 2026-10 | **Harness Certified Continuous Integration Developer** | Harness | [Verify Record](https://www.credly.com/badges/614739fa-4c01-45e3-afaa-32d3ed5e80c5/linked_in_profile) |
-| 2026-10 | **Harness Certified Resilience Testing Formerly Chaos Engineering Developer** | Harness | [Verify Record](https://www.credly.com/badges/ed311c10-6a4b-4dea-a7e5-a24b1bdde162/linked_in_profile) |
-| 2026-10 | **Harness Certified Security Testing Orchestration Developer** | Harness | [Verify Record](https://www.credly.com/badges/455c75bc-68bd-455c-8162-9f22617ffed1/linked_in_profile) |
-| 2026-10 | **Harness Certified Infrastructure as Code Management Developer** | Harness | [Verify Record](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/linked_in_profile) |
-| 2026-10 | **Harness Certified Code Repository Developer** | Harness | [Verify Record](https://www.credly.com/badges/e7564671-e168-49e2-b28b-c2f2da887146/linked_in_profile) |
-| 2026-10 | **Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B3E75DBC35A98214?sharingId) |
-| 2026-10 | **Microsoft 365 Copilot Chat (Basic) Quick Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/8a27e62eb27018f352f3681242e59f62a9c6cd58ea07b08709959310160b551c) |
-| 2026-10 | **Copilot Cowork Quick Tips** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/5de60ba5942faf9be4932676d472af3082c19df3ea48b8cbcf1ab957f3c4177c) |
-| 2026-10 | **Microsoft Applied Skills: Integrate model context protocol tools with agents in Microsoft Foundry** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/D296FE0D58F3B6D0?sharingId) |
-| 2026-10 | **AWS Knowledge: Amazon Connect Developer - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/linked_in_profile) |
-| 2026-10 | **Teamwork Foundations (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/a8f6f668b2cf734913bdc2899aa6b2b6a2d7c9a2d8ca82528bb5082f4eb34228) |
-| 2026-10 | **Learning Microsoft 365 Copilot for Work** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/339342b2a5fd135bb57b7230ce10fad15bb11c08376a50c57bfc1bf6018b8956) |
-| 2026-10 | **Microsoft Azure Essentials by Microsoft Press** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/69e688e0189684be87310ff1edd2cbaf0747931994311be90672c945afe18455) |
-| 2026-10 | **Serving Multimedia Content with Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28829629?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-10 | **Developing Applications with Cloud Run on Google Cloud: Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28830363?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-10 | **Machine Learning for Data Science Projects** | IBM | [Verify Record](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/linked_in_profile) |
-| 2026-10 | **User Experience Design Fundamentals** | IBM | [Verify Record](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/linked_in_profile) |
-| 2026-10 | **Kong Gateway Operations** | Kong | [Verify Record](https://www.credly.com/badges/ec9b0dd2-a167-4d92-87af-2a5e6e2df6d6/linked_in_profile) |
-| 2026-10 | **Harness Certified Cloud & AI Cost Management Developer** | Harness | [Verify Record](https://www.credly.com/badges/150ce8a5-8669-42aa-a2df-2d0f61c1fbbc/linked_in_profile) |
-| 2026-10 | **Harness Certified Internal Developer Portal Developer** | Harness | [Verify Record](https://www.credly.com/badges/a9e63d43-0f30-4c99-a8e0-fb7db936a3b0/linked_in_profile) |
-| 2026-10 | **Harness Certified Feature Flag Developer** | Harness | [Verify Record](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/linked_in_profile) |
-| 2026-10 | **Harness Certified AI DLC Insights Formerly SEI Developer** | Harness | [Verify Record](https://www.credly.com/badges/281d5b1c-95e0-497d-8784-bbbca82109a5/linked_in_profile) |
-| 2026-10 | **Harness Certified Database DevOps Developer** | Harness | [Verify Record](https://www.credly.com/badges/ba7bac4e-647c-4521-aedf-23c0d4df34df/linked_in_profile) |
-| 2026-10 | **Traceable by Harness Developer Certification** | Harness | [Verify Record](https://www.credly.com/badges/81821f9e-ed55-49db-a20b-6c2afdd9cacb/linked_in_profile) |
-| 2026-10 | **AWS Knowledge: Security Champion - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/c59d7bc6-b7c4-496c-bdc5-841330331449/linked_in_profile) |
-| 2026-10 | **Microsoft Applied Skills: Protect information in Microsoft 365 Copilot by using Microsoft Purview** | Microsoft | [Verify Record](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/F87E8DADFE9F36FD?sharingId) |
-| 2026-10 | **Sustainable Leadership in Uncertain Times: A Conversation with Andrew Winston** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/30cfa27e09aee8a4d67d7c3dc5795fc5e23db2ba90161ed92e20050e5b999749) |
-| 2026-10 | **Quantum-Safe Encryption Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2a47f562-b192-4791-8fac-f4e981fe7726/linked_in_profile) |
-| 2026-10 | **Introduction to AI and Machine Learning on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28926914?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-10 | **MLOps with Agent Platform: Manage Features** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28927506?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-10 | **Docker Essentials: A Developer Introduction** | IBM | [Verify Record](https://www.credly.com/badges/9fb77f5d-7410-46fe-9ca0-597993fe77c4/linked_in_profile) |
-| 2026-10 | **Deep Learning Essentials** | IBM | [Verify Record](https://www.credly.com/badges/3337a2f8-5bd7-488a-acfb-1643a2135d68/linked_in_profile) |
-| 2026-10 | **Harness Certified Feature Management & Experimentation Developer** | Harness | [Verify Record](https://www.credly.com/badges/1de21658-16d9-4730-9874-71e917be31b4/linked_in_profile) |
-| 2026-10 | **Harness Certified Supply Chain Security Developer** | Harness | [Verify Record](https://www.credly.com/badges/fb105659-8e57-4a0b-ace4-245f2f5fdace/linked_in_profile) |
-| 2026-10 | **Harness Certified API & Application Discovery Developer Certification** | Harness | [Verify Record](https://www.credly.com/badges/526c7d05-ee39-44f0-a28a-7e6a366f9f42/linked_in_profile) |
-| 2026-10 | **Harness Certified Application & API Runtime Protection Developer Certification** | Harness | [Verify Record](https://www.credly.com/badges/4435d662-89cf-45dc-b84d-e1df4ca5b43b/linked_in_profile) |
-| 2026-10 | **Harness Certified Application & API Security Testing Developer Certification** | Harness | [Verify Record](https://www.credly.com/badges/89162e0d-265a-429f-af72-a2ddabd26a8e/linked_in_profile) |
-| 2026-10 | **Authenticate with Auth0 Database and Passwordless Connections** | Okta | [Verify Record](https://www.credly.com/badges/8ec03de7-4ca2-4da9-bb70-2cd9dfb6ebe8/linked_in_profile) |
+| 2026-10 | **MSP Academy: Difficult Partners** | Acronis | [Verify Record](https://www.credly.com/badges/4ef884e4-e2c3-4c33-a566-6b0284e6f284/linked_in_profile) |
+| 2026-10 | **MSP Academy: Negotiation Skills** | Acronis | [Verify Record](https://www.credly.com/badges/9102e834-a385-41ab-b4e2-c18d3480e53b/linked_in_profile) |
+| 2026-10 | **MSP Academy: Increasing MSPs efficiency through AI** | Acronis | [Verify Record](https://www.credly.com/badges/affc63c0-9270-4cc9-82dd-c4c7965688a7/linked_in_profile) |
+| 2026-10 | **MSP Academy: Marketing Practitioner** | Acronis | [Verify Record](https://www.credly.com/badges/19148b1a-4067-4f28-a90b-c264a9f05fb5/linked_in_profile) |
+| 2026-10 | **MSP Academy: Marketing Your MSP** | Acronis | [Verify Record](https://www.credly.com/badges/366e2f28-1690-4929-b51a-914bc72c313a/linked_in_profile) |
+| 2026-10 | **MSP Academy: MDR Basics** | Acronis | [Verify Record](https://www.credly.com/badges/2e504ab8-0ffe-4d22-9600-da1db92856a8/linked_in_profile) |
+| 2026-10 | **MSP Academy: Microsoft 365 Integration and Optimization** | Acronis | [Verify Record](https://www.credly.com/badges/79099641-89c2-4c50-b8cf-f7ded86d3cf5/linked_in_profile) |
+| 2026-10 | **MSP Academy: Microsoft 365** | Acronis | [Verify Record](https://www.credly.com/badges/b3af2b8c-426e-4959-8b23-459d9a62c832/linked_in_profile) |
+| 2026-10 | **MSP Academy: Marketing Your MSP** | Acronis | [Verify Record](https://www.credly.com/badges/f5ae66ba-d6bf-4db5-bf50-95a1dac4f80f/linked_in_profile) |
+| 2026-10 | **MSP Academy: Running an MSP Business** | Acronis | [Verify Record](https://www.credly.com/badges/caf79e10-afa4-4513-af4e-e55099850ebd/linked_in_profile) |
+| 2026-10 | **MSP Academy: Marketing Practitioner** | Acronis | [Verify Record](https://www.credly.com/badges/8b3a5e36-fd36-4358-b111-35b5bc0f791c/linked_in_profile) |
+| 2026-10 | **MSP Academy: Navigating the landscape** | Acronis | [Verify Record](https://www.credly.com/badges/0d4baaa2-327f-4d35-8433-ff620be4e4ca/linked_in_profile) |
+| 2026-10 | **MSP Academy: Preventing Ransomware** | Acronis | [Verify Record](https://www.credly.com/badges/4c84adbc-8a45-4aa1-85f0-188d005693f7/linked_in_profile) |
+| 2026-10 | **MSP Academy: Remote Desktop and Monitoring** | Acronis | [Verify Record](https://www.credly.com/badges/f6754ded-9d6e-4f42-8c59-25a15c1f69f3/linked_in_profile) |
+| 2026-10 | **RMM & PSA Basic Course** | Acronis | [Verify Record](https://www.credly.com/badges/97f581e9-d2ab-4ad7-9dae-cc422eddeeda/linked_in_profile) |
+| 2026-10 | **MSP Academy: Running an MSP Business** | Acronis | [Verify Record](https://www.credly.com/badges/f529fa82-07ae-41d0-be80-89f81ed38ee1/linked_in_profile) |
+| 2026-10 | **Solution Basic Training – Cyber Resilience** | Acronis | [Verify Record](https://www.credly.com/badges/aabfa633-82c5-44bb-ad30-dddd976ebe28/linked_in_profile) |
+| 2026-10 | **Solution Basic Training – Operational Technologies (OT)** | Acronis | [Verify Record](https://www.credly.com/badges/88d1c07e-371d-4bb2-ae8c-fad4f47485a8/linked_in_profile) |
+| 2026-10 | **Solution Basic Training – Protected Workspace** | Acronis | [Verify Record](https://www.credly.com/badges/27286e3c-1dd9-49b0-b7b3-a239538cea57/linked_in_profile) |
+| 2026-10 | **Solution Basic Training – Ultimate 365** | Acronis | [Verify Record](https://www.credly.com/badges/b7b8e6e8-ced7-41b3-aa80-85a4bc2827fa/linked_in_profile) |
+| 2026-10 | **MSP Academy: Starting an MSP - Breaking Free from the Break-Fix Model** | Acronis | [Verify Record](https://www.credly.com/badges/0ef96bf2-8062-467e-a24a-d98254952a1d/linked_in_profile) |
+| 2026-10 | **Tech Pro - Operational Technology (OT) Environments** | Acronis | [Verify Record](https://www.credly.com/badges/6c9fc184-af93-44e1-b187-9144fbd71c33/linked_in_profile) |
+| 2026-10 | **MSP Academy: Troubleshooting** | Acronis | [Verify Record](https://www.credly.com/badges/629f38e8-d8b3-480c-ab63-a263fa47de67/linked_in_profile) |
+| 2026-10 | **MSP Academy: Vulnerability Assessment and Patch Management** | Acronis | [Verify Record](https://www.credly.com/badges/819b0b4a-5357-4d6a-a831-7eefabcc4f75/linked_in_profile) |
+| 2026-10 | **MSP Academy: What is Backup?** | Acronis | [Verify Record](https://www.credly.com/badges/08670e42-d71c-4b03-820b-64b70e8c1715/linked_in_profile) |
+| 2026-10 | **VAR to MSP: Business Transformation Fundamentals** | Acronis | [Verify Record](https://www.credly.com/badges/7eeca65f-9170-4626-ad62-912c7abe978c/linked_in_profile) |
+| 2026-10 | **MSP Academy: What is DLP?** | Acronis | [Verify Record](https://www.credly.com/badges/fae0513e-c599-4ea9-83af-edbf66710f56/linked_in_profile) |
+| 2026-10 | **MSP Academy: What is EDR?** | Acronis | [Verify Record](https://www.credly.com/badges/f447a55a-7699-4bae-8183-ada79bd7696e/linked_in_profile) |
+| 2026-10 | **MSP Academy: XDR Basics** | Acronis | [Verify Record](https://www.credly.com/badges/d0666d2c-aeff-4066-954a-e20f18374074/linked_in_profile) |
+| 2026-10 | **IBM watsonx.data Technical Essentials** | IBM | [Verify Record](https://www.credly.com/badges/2cafe853-8fbf-4941-9b24-00483669d083/linked_in_profile) |
+| 2026-10 | **IBM watsonx.governance: Technical Essentials** | IBM | [Verify Record](https://www.credly.com/badges/e07c113b-ca43-4ec4-9f69-2659d207134a/linked_in_profile) |
+| 2026-10 | **Craft Precise Prompts for AI Models** | IBM | [Verify Record](https://www.credly.com/badges/25d554f0-f025-4d06-aa44-3cb6c43a60e6/linked_in_profile) |
+| 2026-10 | **Data Classification and Summarization Using IBM Granite** | IBM | [Verify Record](https://www.credly.com/badges/fb4b0999-a53c-4a1e-bfb4-3fdf51326bdc/linked_in_profile) |
+| 2026-10 | **Connected TV (CTV) Essentials: Basis User Edition** | Basis | [Verify Record](https://www.credly.com/badges/aa8ae1e7-90c8-4cb4-8cb3-7f052cdbe166/linked_in_profile) |
+| 2026-10 | **Basis Foundations 2.0** | Basis | [Verify Record](https://www.credly.com/badges/01f3c51d-1d56-4883-9933-40f3c0bf43c9/linked_in_profile) |
+| 2026-10 | **Digital Media Associate** | Basis | [Verify Record](https://www.credly.com/badges/8b57e007-073d-484e-8cdf-137cc4599dfb/linked_in_profile) |
+| 2026-10 | **Digital Media Strategist** | Basis | [Verify Record](https://www.credly.com/badges/6c52d323-dee1-4c81-8be4-9d3d1d516cd6/linked_in_profile) |
+| 2026-10 | **DOOH Essentials** | Basis | [Verify Record](https://www.credly.com/badges/e26dbace-ac24-4ff4-ad3b-4251e79f5224/linked_in_profile) |
+| 2026-10 | **AI Foundations for Educators** | IBM | [Verify Record](https://www.credly.com/badges/a90de7d5-3c53-46c6-8b58-be924bf3b489/linked_in_profile) |
+| 2026-10 | **Applied AI in the Classroom** | IBM | [Verify Record](https://www.credly.com/badges/2fb201af-1733-4121-80df-fdaeab10d425/linked_in_profile) |
+| 2026-10 | **AWS Knowledge: Amazon Connect AI Fundamentals - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/d8b397ab-6ec4-4ea5-9e27-f60ae342e92d/linked_in_profile) |
+| 2026-10 | **Learning LinkedIn Sales Navigator** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2064bcc6c8167360b86d8c88b6887b104588bc971357e12aac3eaa0497d245ad) |
+| 2026-10 | **Get Unstuck: Make a Plan to Move Your Career Forward** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e2f40730ac1d15abd3c9e6b536f99d7c83d854f6cb5ff7d764561db9d8642db4) |
+| 2026-10 | **Fueling Your Company Culture** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/58de0c86f7bf43229ad7ffa93fed055f907c5b88243093f8d2387ae9f1976da1) |
+| 2026-10 | **Security Best Practices in Google Cloud: Compute** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28198520?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Security Best Practices in Google Cloud: Applications** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28199990?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Security Best Practices in Google Cloud: Models** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28201646?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Security Best Practices in Google Cloud: Data** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28203673?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-10 | **Enterprise Design Thinking Co-Creator** | IBM | [Verify Record](https://www.credly.com/badges/83cd7944-3b95-4abd-8d5c-32bbaedbe5ce/linked_in_profile) |
+| 2026-10 | **Generative AI Content Creation** | IBM | [Verify Record](https://www.credly.com/badges/b822f842-3203-4810-abfb-e4f33d0b66f9/linked_in_profile) |
+| 2026-10 | **Programmatic Guaranteed (PG) Essentials: Basis User Edition** | Basis | [Verify Record](https://www.credly.com/badges/c8ef4ec7-a9d9-4ec3-98b9-eaf70700bf5e/linked_in_profile) |
+| 2026-10 | **Optimizations** | Basis | [Verify Record](https://www.credly.com/badges/51c90b78-65b5-4650-b019-434be614778e/linked_in_profile) |
+| 2026-10 | **Curated Marketplaces with Audigent** | Basis | [Verify Record](https://www.credly.com/badges/980b0fbc-452e-4c4d-8f5e-b82ae0ca2c7b/linked_in_profile) |
+| 2026-10 | **Basis Bidding** | Basis | [Verify Record](https://www.credly.com/badges/984bb4b8-c27c-49b7-9c9d-47ccd9cca66b/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-10-part-40.md](./linkedin-certifications-2026-10-part-40.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-42.md](./linkedin-certifications-2026-10-part-42.md)

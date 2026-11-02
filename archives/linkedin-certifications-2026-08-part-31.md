@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Nano Tips for Navigating Life After Layoff with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3c5d95836de6cf11d1192b2abf6dbd140def8e712004c2e78e662f25c435b7cc) |
-| 2026-08 | **Google Cloud Agent Governance and Security** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284033?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **Gemini in Google Workspace Studio** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284806?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **AI Boost Bites: The Seller's AI Data Analyst** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284867?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-08 | **AI Boost Bites: The Expert Scaler** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284924?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -57,6 +55,8 @@ artifacts: complete, index
 | 2026-08 | **Cilium SCTP** | Isovalent | [Verify Record](https://www.credly.com/badges/93beb0d4-956a-4579-b936-626a9fd880d8/linked_in_profile) |
 | 2026-08 | **Isovalent Lab Champion (40 labs)** | Isovalent | [Verify Record](https://www.credly.com/badges/ca469b74-715c-4426-915e-a0b50da4cdd7/linked_in_profile) |
 | 2026-08 | **Network Policy Governance** | Isovalent | [Verify Record](https://www.credly.com/badges/09b34caf-720a-4689-9559-a2fa0ff72b79/linked_in_profile) |
+| 2026-08 | **SSE Expert Certification** | Cato Networks | [Verify Record](https://www.credly.com/badges/2d5a7b6b-db2d-4a99-814a-870cea7ec348/linked_in_profile) |
+| 2026-08 | **SASE Advanced Security** | Cato Networks | [Verify Record](https://www.credly.com/badges/3a796ab4-659a-4141-a249-b6f94611201f/linked_in_profile) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-30.md](./linkedin-certifications-2026-08-part-30.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-32.md](./linkedin-certifications-2026-08-part-32.md)

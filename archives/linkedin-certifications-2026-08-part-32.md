@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 32 of 43
 date_range: 2026-08 to 2026-08
-total_entries: 49
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-32.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,9 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-08 | **Mixtape: Learning Highlights on Personal Effectiveness** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1a9c270f7119c3d9fdc404828845c68674106016ba3466cfe636facf492bad7b) |
-| 2026-08 | **Marketing on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b8a074c56f0aaf0fc4d41eaddb3f08763dd745f824d626acadb3648e6bc2a2c1) |
-| 2026-08 | **Social Media Marketing for Small Business** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fc47888bd5ca06001489afef0f5c5e1ae54b73a297cc1473dbdba0f69e8cdc7b) |
 | 2026-08 | **How to Manage Feeling Overwhelmed** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/543038c7094b6d1cdf5562b1dc6b3fb05722b75eee87bbee1d30232f380906c5) |
 | 2026-08 | **Unconscious Bias (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/7507c5c8faa805490918bbbb93d70fb739886ee7b6fa77dc66990be8bd7125f7) |
 | 2026-08 | **Building a Business Step by Step: Entrepreneurship Fundamentals** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ad99366f97626b25ef60d52f892eb423ab2e5ddecd7a1f5ccd79555f063de3cb) |
@@ -64,6 +61,8 @@ artifacts: complete, index
 | 2026-08 | **Personal Finance Nano Tips with Brittney Castro** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/4ace4fdf7e59f338eab06b7f5ab10c4df6f92e8032d300292d7cfe39979f10ef) |
 | 2026-08 | **Nano Tips for Empathetic Leadership with India Gary-Martin** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fc9eaaff841ad500c00df042468d9ae8d400dfdf2d8cd7434823302912940466) |
 | 2026-08 | **Career Wellness Nano Tips with Shadé Zahrai** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/e73dd34442fe2f554bb5855e1dfa98b968f4ffd4c8786ba3ec9d0d44c8643d16) |
+| 2026-08 | **Nano Tips for Navigating Life After Layoff with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/3c5d95836de6cf11d1192b2abf6dbd140def8e712004c2e78e662f25c435b7cc) |
+| 2026-08 | **Google Cloud Agent Governance and Security** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27284033?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-31.md](./linkedin-certifications-2026-08-part-31.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-33.md](./linkedin-certifications-2026-08-part-33.md)
