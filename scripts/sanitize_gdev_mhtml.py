@@ -1,4 +1,3 @@
-#!/usr/bin/env python
 """Sanitize Google Developer MHTML by removing CID emails and any real PII."""
 
 import re
