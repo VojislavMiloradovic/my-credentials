@@ -62,8 +62,8 @@ Showing latest 10 of 5,013 achievements. View full dataset via [Platform Archive
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 420
-**Total Verified Skills Mapped:** 419
+**Total Portfolio Credentials:** 421
+**Total Verified Skills Mapped:** 420
 
 #### Google Skills Learning Statistics
 
@@ -79,10 +79,11 @@ Showing latest 10 of 5,013 achievements. View full dataset via [Platform Archive
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 420 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-11-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 421 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-11-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-02 | [Diwali in the Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29349189) | Google Cloud | Google Skill Badge |
 | 2026-11-01 | [Understand Your Google Cloud Costs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29320786) | Google Cloud | Google Skill Badge |
 | 2026-10-26 | [Analyze Speech and Language with Google APIs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29139278) | Google Cloud | Google Skill Badge |
 | 2026-10-26 | [Deploy Kubernetes Applications on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29137881) | Google Cloud | Google Skill Badge |
@@ -92,7 +93,6 @@ Showing latest 10 of 420 credentials. View full dataset via [Platform Archive In
 | 2026-10-21 | [Integrate Applications with Gemini on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29000448) | Google Cloud | Google Skill Badge |
 | 2026-10-17 | [MLOps with Agent Platform: Manage Features](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28927506) | Google Cloud | Google Skill Badge |
 | 2026-10-17 | [Introduction to AI and Machine Learning on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28926914) | Google Cloud | Google Skill Badge |
-| 2026-10-13 | [Developing Applications with Cloud Run on Google Cloud: Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28830363) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials

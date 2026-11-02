@@ -1,17 +1,18 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 420 records.
+This document represents a unified, verifiable list of all 421 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-02T03:00:35.177703+00:00 -->
+<!-- retrieved_at: 2026-11-02T22:22:44.147039+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-02 | [Diwali in the Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29349189) | Google Cloud | Google Skill Badge |
 | 2026-11-01 | [Understand Your Google Cloud Costs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29320786) | Google Cloud | Google Skill Badge |
 | 2026-10-26 | [Analyze Speech and Language with Google APIs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29139278) | Google Cloud | Google Skill Badge |
 | 2026-10-26 | [Deploy Kubernetes Applications on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29137881) | Google Cloud | Google Skill Badge |
