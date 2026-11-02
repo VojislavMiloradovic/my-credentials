@@ -11,7 +11,7 @@ artifacts: complete, index
 
 # Credly Verified Credentials -- Part 15
 
-> **Navigation:** Prev: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-16.md](./credly-2026-10-part-16.md) | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Index](./credly-index.md) | Next: [credly-2026-11-part-16.md](./credly-2026-11-part-16.md) | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -68,5 +68,5 @@ artifacts: complete, index
 | 2026-10-10 | [Harness Certified Infrastructure as Code Management Developer](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/public_url) | Harness Inc | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-16.md](./credly-2026-10-part-16.md)
+> **Navigation:** Prev: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Index](./credly-index.md) | Next: [credly-2026-11-part-16.md](./credly-2026-11-part-16.md)
 

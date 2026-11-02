@@ -142,15 +142,17 @@ Showing latest 10 of 1145 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 804
-**Total Verified Skills Mapped:** 2793
+**Total Portfolio Credentials:** 806
+**Total Verified Skills Mapped:** 2803
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 804 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-10-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 806 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-02 | [Build Your Own Chatbot - Level 1](https://www.credly.com/badges/1275ae4d-5bdd-45c3-bdc5-4eef7b2ae86f/public_url) | IBM | Credly Verified Badge |
+| 2026-11-02 | [Data Science Foundations - Level 1](https://www.credly.com/badges/8b535dbd-76db-4713-9e2e-1137abe99da0/public_url) | IBM | Credly Verified Badge |
 | 2026-10-31 | [Microsoft Applied Skills: Enhance agents with autonomous capabilities](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/A2805BBD40427267?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-30 | [AWS Knowledge: Amazon Connect Reporting & Analytics - Training Badge](https://www.credly.com/badges/95f30003-6293-417a-89d3-8b2f8c8db025/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-28 | [Discover and Register AI Agents](https://www.credly.com/badges/cb8dd3b8-f179-45bc-b1b5-729751855746/public_url) | Okta | Credly Verified Badge |
@@ -159,8 +161,6 @@ Showing latest 10 of 804 credentials. View full dataset via [Platform Archive In
 | 2026-10-28 | [Identity Governance Entitlement Management](https://www.credly.com/badges/e73184e8-22d6-4175-ab5d-3d53bbfb4a04/public_url) | Okta | Credly Verified Badge |
 | 2026-10-28 | [Manage AI Agents Access to Resources](https://www.credly.com/badges/656a7c48-79f9-40ec-9e10-9078ace2e722/public_url) | Okta | Credly Verified Badge |
 | 2026-10-28 | [Streamline Identity Governance with Workflows](https://www.credly.com/badges/984861ae-3ade-45cf-bf5b-b7a99316dab6/public_url) | Okta | Credly Verified Badge |
-| 2026-10-27 | [Game-playing AI with Swift for TensorFlow](https://www.credly.com/badges/bba0e5ce-372f-4f04-8c7e-add137f1656b/public_url) | IBM | Credly Verified Badge |
-| 2026-10-27 | [Kong Gateway Operations for KIC](https://www.credly.com/badges/ea916ed5-cdde-4b4a-ae16-6b7a912566f0/public_url) | Kong | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
