@@ -1,17 +1,34 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1758 records.
+This document represents a unified, verifiable list of all 1774 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-01T04:29:54.731253+00:00 -->
+<!-- retrieved_at: 2026-11-02T23:36:55.893970+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-11-02 | **Alert testers about your new app releases with Firebase App Distribution iOS SDK - Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/appdistribution-ios |
+| 2026-11-02 | **Building AI Agents with ADK: Orchestrating Agent Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-orchestrating-agent-workflows |
+| 2026-11-02 | **Build an AI Agent that acts On-Behalf-Of the user with Agent Identity and Auth Manager** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-identity-auth-manager |
+| 2026-11-02 | **Cloud NGFW Enterprise Codelab [w/ TLS Inspection]** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-ngfw-enterprise-tls |
+| 2026-11-02 | **Migrate from App Engine Task Queue pull tasks to Cloud Pub/Sub (Module 19)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-19-pubsub |
+| 2026-11-02 | **Alert testers about your new app releases with Firebase App Distribution Android SDK - Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/appdistribution-android |
+| 2026-11-02 | **Hybrid and Multi-VPC DNS Resolution with Cloud DNS Outbound Endpoints** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-dns-outbound-endpoints |
+| 2026-11-02 | **Validate Places API requests with Firebase AppCheck and reCAPTCHA** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/maps-platform/places-firebase-appcheck |
+| 2026-11-02 | **Closed-loop streaming CDC with Spanner, Dataflow, and BigQuery continuous queries** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-streaming-cdc-spanner-bigquery-continuous-queries |
+| 2026-11-02 | **Deploy a RAG AI Agent with Claude in Streamlit using Google ADK, Firestore, and Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/build-streamlit-rag-agent-claude-adk-cloud-run |
+| 2026-11-02 | **Progressive Web Apps: Empowering Your PWA** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa6-empowering_your_pwa |
+| 2026-11-02 | **Marketing Funnel Metrics & Attribution with BigQuery Graph & Measures** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/bigquery-measures |
+| 2026-11-02 | **Gradually roll out Firebase App Check using Firebase Remote Config** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/app-attest-remote-config |
+| 2026-11-02 | **Build and Deploy a Sovereign RAG System with Bielik and Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bielik-rag-agy |
+| 2026-11-02 | **Progressive Web Apps: Working with Workers** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa8-working_with_workers |
+| 2026-10-26 | **Secure Workloads with GKE ClusterNetworkPolicy - AI Inference example (Gemma, TPU)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/inference-gke-clusternetworkpolicy |
+| 2026-10-26 | **Data Agents & GraphRAG On-Device with Spanner Omni** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/graph-rag-spanner-omni |
 | 2026-10-21 | **Evaluate agent skills using open source frameworks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/evaluate-agent-skills-using-open-source-frameworks |
 | 2026-10-21 | **VibeStudio — Multimodal Agentic Workflow with ADK, Haunted Edition** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vibe-studio-multimodal/instructions |
 | 2026-10-21 | **Build a Matter virtual device** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/matter-device-virtual |
@@ -41,7 +58,7 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-10-08 | **Advanced AI, Graph Analysis and Conversational Agents with BigQuery AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/advanced-bigquery-ai |
 | 2026-10-08 | **Deploy an agent and Agent Gateway with VPC Service Controls** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-vpcsc-codelab |
 | 2026-10-08 | **Gemini Enterprise with Agent Gateway all-traffic VPC egress and Cloud NAT static IP to external MCP server** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-ge-egress-vpc-all-traffic |
-| 2026-10-08 | **Progressive Web Apps: Working with Workers** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa06--working-with-workers |
+| 2026-10-08 | **Pwa06 Working With Workers** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa06--working-with-workers |
 | 2026-10-08 | **Get started with BigQuery Graph Measures** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/bq-graph-measures/instructions |
 | 2026-10-08 | **Progressive Web Apps: Prompting & Measuring Install** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa5-prompting_measuring_install |
 | 2026-10-04 | **Build an IM8 Compliance & Remediation Agent with Antigravity 2.0, ADK, FastMCP, and Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-im8-compliance-agent-mcp |
@@ -91,7 +108,7 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-09-08 | **MDC-111 Android: Incorporating Material Components into your codebase (Kotlin)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mdc-111-kotlin |
 | 2026-09-08 | **Jenkins Multi-branch Pipeline on GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/jenkins-pipeline-gke |
 | 2026-09-08 | **Platform engineering on Managed Service for Apache Spark using Gemini and MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/managed-spark-ai-toolkit |
-| 2026-09-08 | **Use Actions on Google to make your home smarter** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/aog-smart-home |
+| 2026-09-08 | **Use Actions on Google to make your home smarter** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/aog-smart-home |
 | 2026-09-08 | **How to deploy a webapp with Claude Code** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/claude/how-to-deploy-a-webapp-with-claude-code/how-to-deploy-a-webapp-with-claude-code |
 | 2026-09-08 | **TensorFlow.js — Making Predictions from 2D Data** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/tfjs-training-regression |
 | 2026-09-08 | **Make your Android app more accessible** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/make-your-android-app-accessible |
@@ -192,29 +209,28 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-07-09 | **Agent Gateway egress from Agent Runtime to VPC network** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-egress-vpc |
 | 2026-07-09 | **Spec-Driven Development with Antigravity CLI — Structured Agent Workflows with Skills and MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/sdd-agy-cli |
 | 2026-07-09 | **Run inference of Gemma 4 model on Cloud Run with RTX 6000 Pro GPU with vLLM** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-gpu-rtx-pro-6000-gemma4-vllm |
-| 2026-07-09 | **Use Apps Script in Google Workspace** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/apps-script-fundamentals |
-| 2026-07-09 | **Capture media with WebRTC** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/webrtc-media-capture |
+| 2026-07-09 | **Use Apps Script in Google Workspace** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/apps-script-fundamentals |
+| 2026-07-09 | **Capture media with WebRTC** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/webrtc-media-capture |
 | 2026-07-09 | **Level Up Your Game: Google Play Games Services setup in Unreal** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/pgs-workshop-setup-unreal |
-| 2026-07-07 | **Build a serverless ecommerce web app with Python, Cloud Run, Cloud SQL, and Firebase** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/solution-ecommerce-serverless-django |
+| 2026-07-07 | **Build a serverless ecommerce web app with Python, Cloud Run, Cloud SQL, and Firebase** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/solution-ecommerce-serverless-django |
 | 2026-07-07 | **Passkeys on Android and other platforms** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/passkeys |
-| 2026-07-07 | **Build a microservice-based ecommerce web application with Kubernetes** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/solution-ecommerce-microservices-kubernetes |
-| 2026-07-07 | **Effectively engage users with Firebase** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-user-engagement |
-| 2026-07-07 | **Protect your app from abuse with App Check** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-app-check |
+| 2026-07-07 | **Build a microservice-based ecommerce web application with Kubernetes** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/solution-ecommerce-microservices-kubernetes |
+| 2026-07-07 | **Effectively engage users with Firebase** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-user-engagement |
+| 2026-07-07 | **Protect your app from abuse with App Check** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-app-check |
 | 2026-07-07 | **Basics of Kotlin Multiplatform** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/kotlin-multiplatform |
 | 2026-07-07 | **Agent Gateway egress from Agent Runtime to external MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-egress-emcp |
-| 2026-07-07 | **Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-mfa-security-rules |
+| 2026-07-07 | **Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/firebase-mfa-security-rules |
 | 2026-07-07 | **Getting Started with Antigravity IDE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/getting-started-agy-ide |
-| 2026-07-07 | **Get started with Google Maps Platform for iOS** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-ios |
-| 2026-07-07 | **Test your app with Firebase and Continuous Integration** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-continuous-integration |
+| 2026-07-07 | **Get started with Google Maps Platform for iOS** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/get-started-maps-ios |
 | 2026-07-03 | **Google Cloud MCP for AlloyDB for AI Agents** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-mcp |
 | 2026-07-03 | **Vibe Coding with AlloyDB: From 0 to Prod with Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vibe-coding-postgres-mcp |
-| 2026-07-02 | **Get to know Cloud Firestore** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-firestore/cloud-firestore |
+| 2026-07-02 | **Get to know Cloud Firestore** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-firestore/cloud-firestore |
 | 2026-07-02 | **Build with Google Maps Platform and AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/build-with-google-maps-platform-and-ai |
-| 2026-07-02 | **Build web apps backed by Cloud Firestore** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-firestore |
+| 2026-07-02 | **Build web apps backed by Cloud Firestore** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-firestore |
 | 2026-07-02 | **Misadventures in Kubernetes: The Kinda Hard Way** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/misadventures-in-kubernetes |
 | 2026-07-02 | **Lesson 12: Repository pattern and WorkManager** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-development-with-kotlin-12 |
-| 2026-07-02 | **Learn to program neural networks with TensorFlow** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/tensorflow/tensorflow-for-developers |
-| 2026-07-02 | **Build a custom, responsive chatbot in Google Cloud** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/custom-responsive-chatbots |
+| 2026-07-02 | **Learn to program neural networks with TensorFlow** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/tensorflow/tensorflow-for-developers |
+| 2026-07-02 | **Build a custom, responsive chatbot in Google Cloud** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/custom-responsive-chatbots |
 | 2026-07-02 | **Android 11 - Week 2 - Machine Learning** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week2-machine-learning |
 | 2026-07-02 | **Android 11 - Week 3 - Privacy, Trust and Security** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week3-privacy-trust-security |
 | 2026-07-02 | **Create No Code Agent using Agent Platform Agent Builder** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/create-no-code-agent-using-agent-platform-agent-builder |
@@ -228,16 +244,16 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-07-02 | **Android 11—Week 11—Modern UI** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week11-modern-ui |
 | 2026-07-02 | **Android 11—Week 9—Large Screens** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week9-large-screens |
 | 2026-07-02 | **Android 11—Week 10—Games and media** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week10-games-and-media |
-| 2026-07-02 | **Google Pay quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/google-pay/google_pay |
+| 2026-07-02 | **Google Pay quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/google-pay/google_pay |
 | 2026-07-02 | **Launch your portfolio website with AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/launch-your-portfolio-website-with-ai |
-| 2026-07-02 | **Develop locally with Firebase** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-emulators |
+| 2026-07-02 | **Develop locally with Firebase** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-emulators |
 | 2026-06-30 | **Introduction to SQL** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-6-pathway-1 |
 | 2026-06-30 | **Schedule tasks with WorkManager** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-7-pathway-1 |
 | 2026-06-30 | **Navigation in Jetpack Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-4-pathway-2 |
 | 2026-06-30 | **Lesson 4: Build your first Android app** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-development-with-kotlin-4 |
 | 2026-06-30 | **Lesson 9: App architecture (persistence)** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-development-with-kotlin-9 |
 | 2026-06-30 | **Modern Android App Architecture** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-architecture |
-| 2026-06-30 | **Get started with audio classification** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-audio-classification |
+| 2026-06-30 | **Get started with audio classification** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/get-started-audio-classification |
 | 2026-06-30 | **Lesson 2: Functions** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-development-with-kotlin-2 |
 | 2026-06-30 | **Adapt for different screen sizes** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-4-pathway-3 |
 | 2026-06-30 | **Introduction to programming in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-1-pathway-1 |
@@ -245,89 +261,89 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-30 | **Lesson 5: Layouts** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-development-with-kotlin-5 |
 | 2026-06-30 | **Lesson 11: Connect to the internet** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-development-with-kotlin-11 |
 | 2026-06-30 | **Lesson 1.1 - Get started** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-development-kotlin-1.1 |
-| 2026-06-30 | **Get started with comment-spam detection** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-text-classification-web |
+| 2026-06-30 | **Get started with comment-spam detection** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/get-started-text-classification-web |
 | 2026-06-30 | **How to do local testing of an ADK agent that writes to a Google Sheet before deploying to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/local-testing-cloud-run-google-sheets-adk-agent |
 | 2026-06-30 | **Build apps with Android Enterprise** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-enterprise-build-apps |
-| 2026-06-30 | **Go further with comment spam detection** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/going-further-text-classification-web |
+| 2026-06-30 | **Go further with comment spam detection** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/going-further-text-classification-web |
 | 2026-06-30 | **Setup Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-1-pathway-2 |
 | 2026-06-30 | **Build a Daily Tech Digest Agent with Managed Agents on the Gemini API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tech-digest-managed-agent |
 | 2026-06-30 | **PSC-I RDMA VPC Multi-NIC Deployment Guide** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/psc-i-same-vpc-design |
 | 2026-06-29 | **Android Views and Compose in Views** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-8-pathway-1 |
 | 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #5: Chart and Present Data in Slides** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/apps-script-fundamentals-5 |
-| 2026-06-29 | **Implement Material Design in web apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/mdc-web |
-| 2026-06-29 | **Engage your web app's users with push notifications** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/pwa-push-notifications |
+| 2026-06-29 | **Implement Material Design in web apps** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/mdc-web |
+| 2026-06-29 | **Engage your web app's users with push notifications** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/pwa-push-notifications |
 | 2026-06-29 | **Wear OS** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/wear |
-| 2026-06-29 | **Boost your web apps with Fugu APIs** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/fugu-apis |
-| 2026-06-29 | **Go further with object detection** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/go-further-object-detection/go-further-object-detection |
+| 2026-06-29 | **Boost your web apps with Fugu APIs** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/fugu-apis |
+| 2026-06-29 | **Go further with object detection** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/go-further-object-detection/go-further-object-detection |
 | 2026-06-29 | **Views in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-8-pathway-2 |
-| 2026-06-29 | **Get started with image classification in web apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/tensorflow-serving/image-classification-in-web-apps |
-| 2026-06-29 | **Go further with product image search** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/going-further-image-product-search |
-| 2026-06-29 | **Fundamentals of Apps Script with Google Sheets** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/apps-script-fundamentals/apps-script |
-| 2026-06-29 | **Gemini API Firebase Extensions: Quickly enhance your app with generative AI** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-extensions-gemini |
-| 2026-06-29 | **Build cross-platform apps with Angular** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/build-cross-platform-apps-angular/build-cross-platform-apps-angular |
-| 2026-06-29 | **Passwordless login on the web with passkeys** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/passkeys_web |
+| 2026-06-29 | **Get started with image classification in web apps** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/tensorflow-serving/image-classification-in-web-apps |
+| 2026-06-29 | **Go further with product image search** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/going-further-image-product-search |
+| 2026-06-29 | **Fundamentals of Apps Script with Google Sheets** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/apps-script-fundamentals/apps-script |
+| 2026-06-29 | **Gemini API Firebase Extensions: Quickly enhance your app with generative AI** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-extensions-gemini |
+| 2026-06-29 | **Build cross-platform apps with Angular** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/build-cross-platform-apps-angular/build-cross-platform-apps-angular |
+| 2026-06-29 | **Passwordless login on the web with passkeys** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/passkeys_web |
 | 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #2: Spreadsheets, Sheets, and Ranges** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/apps-script-fundamentals-2 |
-| 2026-06-29 | **Visualize data on Google Maps Platform** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/maps-visualize-data |
-| 2026-06-29 | **Build maintainable and scalable web apps with Angular** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/maintainable-scalable-web-apps |
-| 2026-06-29 | **Improve your website's identity forms** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/web-identity-forms |
-| 2026-06-29 | **Build Actions for Google Assistant** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/aog-basics |
-| 2026-06-29 | **Preventing Violence Against Women Online - Google for Developers** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/womens-online-safety |
-| 2026-06-29 | **Get started with object detection in Android apps quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/tensorflow-serving/object-detection-in-android-apps |
+| 2026-06-29 | **Visualize data on Google Maps Platform** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/maps-visualize-data |
+| 2026-06-29 | **Build maintainable and scalable web apps with Angular** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/maintainable-scalable-web-apps |
+| 2026-06-29 | **Improve your website's identity forms** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/web-identity-forms |
+| 2026-06-29 | **Build Actions for Google Assistant** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/aog-basics |
+| 2026-06-29 | **Preventing Violence Against Women Online - Google for Developers** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/womens-online-safety |
+| 2026-06-29 | **Get started with object detection in Android apps quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/tensorflow-serving/object-detection-in-android-apps |
 | 2026-06-29 | **Improve the user experience of an Android app** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/improve-user-experience |
-| 2026-06-29 | **Build real-time web apps with Firebase and Angular** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-angular-realtime |
-| 2026-06-29 | **Capture media with WebRTC quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/webrtc-media-capture/webrtc-media-capture |
+| 2026-06-29 | **Build real-time web apps with Firebase and Angular** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/firebase-angular-realtime |
+| 2026-06-29 | **Capture media with WebRTC quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/webrtc-media-capture/webrtc-media-capture |
 | 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #3: Working with Data** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/apps-script-fundamentals-3 |
 | 2026-06-29 | **Layouts, theming, and animation** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/jetpack-compose-for-android-developers-2 |
-| 2026-06-29 | **Get started with text classification in Flutter apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/text-classification-flutter |
-| 2026-06-29 | **Improve your website with Web Vitals** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/web-vitals |
-| 2026-06-29 | **AI-powered content search** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/ai-powered-content-search |
-| 2026-06-29 | **LLM on Android with Keras and TensorFlow Lite** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/llm-on-android |
+| 2026-06-29 | **Get started with text classification in Flutter apps** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/text-classification-flutter |
+| 2026-06-29 | **Improve your website with Web Vitals** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/web-vitals |
+| 2026-06-29 | **AI-powered content search** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/ai-powered-content-search |
+| 2026-06-29 | **LLM on Android with Keras and TensorFlow Lite** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/llm-on-android |
 | 2026-06-29 | **Create a simple website that classifies images** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/classify-images-tensorflow-serving |
 | 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #4: Data Formatting** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/apps-script-fundamentals-4 |
-| 2026-06-29 | **Improve your website's identity forms quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/web-identity-forms |
-| 2026-06-29 | **Data Cards Playbook: Transparent documentation for responsible AI** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/data-cards-playbook |
-| 2026-06-29 | **Get started with object detection in Android apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/object-detection-android |
+| 2026-06-29 | **Improve your website's identity forms quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/web-identity-forms |
+| 2026-06-29 | **Data Cards Playbook: Transparent documentation for responsible AI** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/data-cards-playbook |
+| 2026-06-29 | **Get started with object detection in Android apps** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/object-detection-android |
 | 2026-06-29 | **Fundamentals of Apps Script with Google Sheets #1: Macros & Custom Functions** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/apps-script-fundamentals-1 |
 | 2026-06-29 | **Create an Android app to detect objects within images** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/detect-objects-tensorflow-serving |
-| 2026-06-27 | **Applied ML with Keras** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/applied-ml-with-keras |
-| 2026-06-27 | **App Actions with Google Assistant quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/app-actions |
-| 2026-06-27 | **Go further with image classification** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/going-further-image-classification |
-| 2026-06-27 | **Add a map to your website (JavaScript)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/maps-platform-101-js |
-| 2026-06-27 | **Create fast and stable apps with Firebase** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-apps |
+| 2026-06-27 | **Applied ML with Keras** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/applied-ml-with-keras |
+| 2026-06-27 | **App Actions with Google Assistant quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/app-actions |
+| 2026-06-27 | **Go further with image classification** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/going-further-image-classification |
+| 2026-06-27 | **Maps Platform 101 JS** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/maps-platform-101-js |
+| 2026-06-27 | **Create fast and stable apps with Firebase** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-apps |
 | 2026-06-27 | **Vibecode and Deploy a Frontend for an ADK agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vibecode-frontend-with-antigravity |
-| 2026-06-27 | **Build engaging cross-platform experiences with Firebase and Flutter** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-flutter-realtime |
-| 2026-06-27 | **Get started with mobile text classification** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-mobile-text-classification |
-| 2026-06-27 | **Build a modern three-tier architecture web application with Cloud Run** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/solution-three-tier-cloud-run |
-| 2026-06-27 | **Get started with Google Maps Platform - web** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps |
-| 2026-06-27 | **Cloud Run and serverless computing** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/cloud-run-serverless-computing |
-| 2026-06-27 | **Get started with Google Maps Platform quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/get-started-maps/get-started-google-maps-platform |
-| 2026-06-27 | **Develop Java Apps on Google Cloud - Google for Developers** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/java-cloud-fundamentals |
-| 2026-06-27 | **Use Remote Config to update your Unity game without a release** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-remote-config-unity-games |
-| 2026-06-27 | **Add Firebase to your Flutter app: Advanced** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-flutter-advanced |
-| 2026-06-27 | **Get started with Google Maps Platform for Android** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-maps-android |
-| 2026-06-27 | **Understand your game's crashes using advanced Crashlytics features** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-advanced-crashlytics-unity-games |
-| 2026-06-27 | **Build apps with Flutter** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/intro-to-flutter |
-| 2026-06-27 | **Build apps for Google Chat** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/google-chat-build-apps |
+| 2026-06-27 | **Build engaging cross-platform experiences with Firebase and Flutter** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/firebase-flutter-realtime |
+| 2026-06-27 | **Get started with mobile text classification** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/get-started-mobile-text-classification |
+| 2026-06-27 | **Build a modern three-tier architecture web application with Cloud Run** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/solution-three-tier-cloud-run |
+| 2026-06-27 | **Get started with Google Maps Platform - web** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/get-started-maps |
+| 2026-06-27 | **Cloud Run and serverless computing** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/cloud-run-serverless-computing |
+| 2026-06-27 | **Get started with Google Maps Platform quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/get-started-maps/get-started-google-maps-platform |
+| 2026-06-27 | **Develop Java Apps on Google Cloud - Google for Developers** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/java-cloud-fundamentals |
+| 2026-06-27 | **Use Remote Config to update your Unity game without a release** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-remote-config-unity-games |
+| 2026-06-27 | **Add Firebase to your Flutter app: Advanced** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/firebase-flutter-advanced |
+| 2026-06-27 | **Get started with Google Maps Platform for Android** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/get-started-maps-android |
+| 2026-06-27 | **Understand your game's crashes using advanced Crashlytics features** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-advanced-crashlytics-unity-games |
+| 2026-06-27 | **Build apps with Flutter** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/intro-to-flutter |
+| 2026-06-27 | **Build apps for Google Chat** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/google-chat-build-apps |
 | 2026-06-27 | **Launch your to-do web app with AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/launch-your-to-do-web-app-with-ai |
-| 2026-06-27 | **Combine layers of Firebase Security to protect your app** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/firebase-security-layers |
-| 2026-06-27 | **Intro to Inference: How to Run AI Models on a GPU** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/ai-models-on-gpu-intro |
-| 2026-06-27 | **Get started with image product search** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/get-started-product-image-search/get-started-product-image-search |
+| 2026-06-27 | **Combine layers of Firebase Security to protect your app** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/firebase-security-layers |
+| 2026-06-27 | **Intro to Inference: How to Run AI Models on a GPU** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/ai-models-on-gpu-intro |
+| 2026-06-27 | **Get started with image product search** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/get-started-product-image-search/get-started-product-image-search |
 | 2026-06-27 | **Agent Gateway egress from Agent Runtime to Google MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-egress-gmcp |
 | 2026-06-25 | **Create AI evaluations** | Verified Google Developer learning activity. URL: https://developer.chrome.com/docs/ai/evals |
-| 2026-06-25 | **Implement Material Design with Material Components for Flutter** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/mdc-flutter |
+| 2026-06-25 | **Implement Material Design with Material Components for Flutter** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/mdc-flutter |
 | 2026-06-25 | **Onboard Location** | Verified Google Developer learning activity. URL: https://developers.google.com/business-communications/business-messages/trainings/learning-pathways/onboard-location [WARN] *Content retired* |
-| 2026-06-25 | **Streetscape Geometry and Rooftop anchors** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/arcore-buildings-and-rooftops |
-| 2026-06-25 | **Bring Google's Places data into your Android app** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/places-android |
-| 2026-06-25 | **Accelerated Machine Learning with Google Cloud and NVIDIA** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/accelerated-machine-learning-with-google-cloud-and-nvidia |
-| 2026-06-25 | **Speed Up Data Analytics on GPUs** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/speed-up-data-analytics-GPUs |
-| 2026-06-25 | **Use Spring Boot to quickly create apps for Google Cloud** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/springboot-google-cloud |
-| 2026-06-25 | **Scene Semantics and Geospatial Depth** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/arcore-semantics-and-depth |
-| 2026-06-25 | **Smart home Actions for the Google Assistant quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/aog-smart-home/smart-home-actions |
-| 2026-06-25 | **Getting started with Google AI Studio and the Gemini API using Node.js** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/solution-ai-gemini-101 |
+| 2026-06-25 | **Streetscape Geometry and Rooftop anchors** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/arcore-buildings-and-rooftops |
+| 2026-06-25 | **Bring Google's Places data into your Android app** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/places-android |
+| 2026-06-25 | **Accelerated Machine Learning with Google Cloud and NVIDIA** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/accelerated-machine-learning-with-google-cloud-and-nvidia |
+| 2026-06-25 | **Speed Up Data Analytics on GPUs** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/speed-up-data-analytics-GPUs |
+| 2026-06-25 | **Use Spring Boot to quickly create apps for Google Cloud** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/springboot-google-cloud |
+| 2026-06-25 | **Scene Semantics and Geospatial Depth** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/arcore-semantics-and-depth |
+| 2026-06-25 | **Smart home Actions for the Google Assistant quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/aog-smart-home/smart-home-actions |
+| 2026-06-25 | **Getting started with Google AI Studio and the Gemini API using Node.js** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/solution-ai-gemini-101 |
 | 2026-06-25 | **Learn JavaScript** | Verified Google Developer learning activity. URL: https://web.dev/learn/javascript |
 | 2026-06-25 | **Modern Web Guidance 101** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/modern-web-guidance-101 |
-| 2026-06-25 | **Build your first web app with Firebase** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-web |
-| 2026-06-25 | **Get started with the Google Pay API for Web** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/google-pay-for-web |
+| 2026-06-25 | **Build your first web app with Firebase** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-web |
+| 2026-06-25 | **Get started with the Google Pay API for Web** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/google-pay-for-web |
 | 2026-06-25 | **Learn CSS** | Verified Google Developer learning activity. URL: https://web.dev/learn/css |
 | 2026-06-25 | **Display nearby places in AR on Android (Kotlin)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/location-places-arcore-android |
 | 2026-06-25 | **Command and control: Orchestrate app development with Gemini and MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-mcp-agy |
@@ -353,7 +369,7 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-22 | **Alloydb Omni Vm Deployment** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-omni-vm-deployment [WARN] *Content retired* |
 | 2026-06-22 | **Data Science with Spark** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/spark-ds-agents |
 | 2026-06-22 | **Building a Serverless Data Pipeline: IoT to Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/iot-data-pipeline |
-| 2026-06-22 | **Add Firebase to your Flutter app** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-flutter |
+| 2026-06-22 | **Add Firebase to your Flutter app** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-flutter |
 | 2026-06-22 | **Create a Generative Chat App with Vertex AI Conversation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vertex-ai-conversation |
 | 2026-06-22 | **Create an accessible and personalized theme and brand with Material Design 3** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/m3-design-theming |
 | 2026-06-22 | **Cloud Firestore iOS Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firestore-ios |
@@ -365,7 +381,7 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-22 | **Configure, implement, and verify Android App Links** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-app-links-introduction |
 | 2026-06-22 | **Continuous deployment to Google Kubernetes Engine (GKE) with Cloud Build** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-builder-gke-continuous-deploy |
 | 2026-06-22 | **Deploy ASP.NET Core app to Google Kubernetes Engine with Istio (Part 2)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-istio-aspnetcore-part2 |
-| 2026-06-22 | **Getting started with the Gemini API and Web apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/solution-ai-gemini-getting-started-web |
+| 2026-06-22 | **Getting started with the Gemini API and Web apps** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/solution-ai-gemini-getting-started-web |
 | 2026-06-22 | **Building a gRPC service with Java** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-grpc-java |
 | 2026-06-22 | **Deploy Applications from Gemini CLI and Antigravity to Cloud Run using MCP Server** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/deploy-to-cloud-run-using-oss-mcp-server |
 | 2026-06-22 | **Cloud Firestore Android Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firestore-android |
@@ -736,7 +752,7 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-07 | **Privacy and security quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week3-privacy-trust-security/android-11-week-3 |
 | 2026-06-07 | **Build a Fast Checkout Experience on Android with Google Pay** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/pay-android-checkout |
 | 2026-06-07 | **Prototype to Production: Training custom models with Vertex AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-p2p-training |
-| 2026-06-07 | **Build a custom, responsive chatbot on Google Cloud quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/custom-responsive-chatbots/chatbot-201 |
+| 2026-06-07 | **Build a custom, responsive chatbot on Google Cloud quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/custom-responsive-chatbots/chatbot-201 |
 | 2026-06-07 | **Compatibility quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week4-compatibility/android-11-week-4 |
 | 2026-06-07 | **Movie Rating Prediction with BQML using SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/moviescore-prediction-bqmlsql |
 | 2026-06-07 | **Codelab - Build a contextual Yoga Poses recommender app with Firestore, Vector Search, Langchain and Gemini (Python version)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/yoga-pose-firestore-vectorsearch-python |
@@ -794,7 +810,7 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-06 | **Load and display images from the internet** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-load-images |
 | 2026-06-06 | **Use SQL to read and write to a database** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-sql |
 | 2026-06-06 | **Interacting with UI and state** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-2-pathway-3/android-basics-compose-unit-2-pathway-3 |
-| 2026-06-06 | **Get started with text classification for web** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/get-started-text-classification-for-web/get-started-text-classification-for-web |
+| 2026-06-06 | **Get started with text classification for web** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/get-started-text-classification-for-web/get-started-text-classification-for-web |
 | 2026-06-06 | **Use classes and objects in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-classes-and-objects |
 | 2026-06-06 | **Write automated tests** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-write-automated-tests |
 | 2026-06-06 | **Modern Android App Architecture quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-architecture/architecture-layers |
@@ -840,7 +856,7 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-06 | **Practice: Add a ViewModel to Dessert Clicker** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-viewmodel |
 | 2026-06-06 | **Android 11—Week 11—Modern UI quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week11-modern-ui/android-11-week-11-1 |
 | 2026-06-06 | **Download and install Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio |
-| 2026-06-06 | **Go further with audio classification** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/go-further-audio-classification/go-further-audio-classification |
+| 2026-06-06 | **Go further with audio classification** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/go-further-audio-classification/go-further-audio-classification |
 | 2026-06-06 | **ViewModel and State in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-and-state |
 | 2026-06-06 | **Practice Problems: Kotlin Basics** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-intro-kotlin-practice-problems |
 | 2026-06-06 | **TensorFlow.js: Retrain a comment spam detection model to handle edge cases** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/tensorflow-retraining-comment-spam-detection |
@@ -1055,10 +1071,10 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-05 | **Build a product image search backend with Vision API Product Search** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/build-product-search-backend |
 | 2026-06-05 | **MDC-102 Web: Material Structure and Layout (Web)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/mdc-102-web |
 | 2026-06-05 | **Engage Wear OS users in new ways with the Ongoing Activity API** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/ongoing-activity |
-| 2026-06-05 | **Get started with regression in iOS apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/tensorflow-serving/regression-in-ios-apps |
-| 2026-06-05 | **Passkey integration on the server-side and user-experience upgrades** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/passkeys-web-2 |
+| 2026-06-05 | **Get started with regression in iOS apps** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/tensorflow-serving/regression-in-ios-apps |
+| 2026-06-05 | **Passkey integration on the server-side and user-experience upgrades** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/passkeys-web-2 |
 | 2026-06-05 | **Extend an Android app to Google Assistant with App Actions (Level 2)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/appactions-2 |
-| 2026-06-05 | **Quiz: Build maintainable and scalable web apps with Angular** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/maintainable-scalable-web-apps |
+| 2026-06-05 | **Quiz: Build maintainable and scalable web apps with Angular** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/maintainable-scalable-web-apps |
 | 2026-06-05 | **Build your first WebAuthn app** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/webauthn-reauth |
 | 2026-06-05 | **Add a map to your Android app (Kotlin)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/maps-platform-101-android |
 | 2026-06-05 | **MDC-102 Android: Material Structure and Layout (Java)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/mdc-102-java |
@@ -1067,7 +1083,7 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-05 | **Advanced Android in Kotlin 04.1: Android Google Maps** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/advanced-android-kotlin-training-maps |
 | 2026-06-05 | **Module 2: Inspect** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/data-cards-inspect |
 | 2026-06-05 | **Create a widget with Glance** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/glance |
-| 2026-06-05 | **Build a serverless Ecommerce web app with Python, Cloud Run, Cloud SQL, and Firebase** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/solution-ecommerce-serverless-django |
+| 2026-06-05 | **Build a serverless Ecommerce web app with Python, Cloud Run, Cloud SQL, and Firebase** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/solution-ecommerce-serverless-django |
 | 2026-06-05 | **Gemini API Extensions Web** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/gemini-api-extensions-web [WARN] *Content retired* |
 | 2026-06-05 | **Visualize data with Google Maps Platform and deck.gl** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/maps-deck-gl |
 | 2026-06-05 | **Improve the user experience of your Android app** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/improve-user-experience/improve-user-experience |
@@ -1076,17 +1092,17 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-05 | **Module 1: Ask** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/data-cards-ask |
 | 2026-06-05 | **Create your first Tile in Wear OS** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/wear-tiles |
 | 2026-06-05 | **Create a custom text-classification model with TensorFlow Lite Model Maker** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/classify-text-update-tensorflow-serving |
-| 2026-06-05 | **Follow Material Design guidelines for Android apps in Java** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/mdc-java |
+| 2026-06-05 | **Follow Material Design guidelines for Android apps in Java** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/mdc-java |
 | 2026-06-05 | **Module 3: Answer** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/data-cards-answer |
 | 2026-06-05 | **Create an iOS app to predict values** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/regression-tensorflow-serving |
-| 2026-06-05 | **Get started with text classification in Flutter apps quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/tensorflow-serving/text-classification-in-flutter-apps |
-| 2026-06-05 | **Data Cards Playbook: Transparent documentation for responsible AI quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/data-cards-playbook |
-| 2026-06-05 | **Stop online violence against women quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/womens-online-safety |
+| 2026-06-05 | **Get started with text classification in Flutter apps quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/tensorflow-serving/text-classification-in-flutter-apps |
+| 2026-06-05 | **Data Cards Playbook: Transparent documentation for responsible AI quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/data-cards-playbook |
+| 2026-06-05 | **Stop online violence against women quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/womens-online-safety |
 | 2026-06-05 | **Measure a web page's Core Web Vitals with the web-vitals library** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/chrome-web-vitals-js |
 | 2026-06-05 | **Build and deploy a custom object detection model with TensorFlow Lite (Android)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/tflite-object-detection-android |
-| 2026-06-05 | **Gemini extensions quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-extensions/enhance-your-app-with-gemini-extensions |
+| 2026-06-05 | **Gemini extensions quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-extensions/enhance-your-app-with-gemini-extensions |
 | 2026-06-05 | **Compose for Wear OS Codelab** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/compose-for-wear-os |
-| 2026-06-05 | **Quiz: Get started with Google Maps Platform for Android** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/maps-platform-for-android |
+| 2026-06-05 | **Quiz: Get started with Google Maps Platform for Android** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/maps-platform-for-android |
 | 2026-06-05 | **Create a Flutter app to classify texts** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/classify-texts-flutter-tensorflow-serving |
 | 2026-06-05 | **Train a comment-spam detection model with TensorFlow Lite Model Maker** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/classify-text-tensorflow-serving |
 | 2026-06-05 | **Architecture and state** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/jetpack-compose-for-android-developers-3 |
@@ -1094,59 +1110,59 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-05 | **Get started with Perspective API** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/setup-perspective-api |
 | 2026-06-05 | **Build your first Computer Vision App on Android or iOS** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/tflite-computer-vision-mobile |
 | 2026-06-05 | **Enable real-time communication with WebRTC** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/webrtc-web |
-| 2026-06-05 | **Implement Material Design in Web Apps quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/mdc-web/mdc-web |
+| 2026-06-05 | **Implement Material Design in Web Apps quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/mdc-web/mdc-web |
 | 2026-06-05 | **Build Actions for Google Assistant using Actions Builder (Level 2)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/actions-builder-2 |
 | 2026-06-05 | **Measure Core Web Vitals with the PageSpeed Insights API and Chrome UX (CrUX) Report API** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/chrome-web-vitals-psi-crux |
 | 2026-06-05 | **Build a list-detail layout with activity embedding and Material Design** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/large-screens/activity-embedding |
-| 2026-06-05 | **Visualize data on Google Maps Platform quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/maps-visualize-data/visualize-data-on-google-maps |
-| 2026-06-05 | **Engage your web app's users with push notifications quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/pwa-push-notifications/pwa-push-notifications |
-| 2026-06-05 | **Get started with image classification** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/get-started-image-classification/get-started-image-classification |
-| 2026-06-05 | **Get started with mobile image classification** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/get-started-image-classification |
+| 2026-06-05 | **Visualize data on Google Maps Platform quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/maps-visualize-data/visualize-data-on-google-maps |
+| 2026-06-05 | **Engage your web app's users with push notifications quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/pwa-push-notifications/pwa-push-notifications |
+| 2026-06-05 | **Get started with image classification** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/get-started-image-classification/get-started-image-classification |
+| 2026-06-05 | **Get started with mobile image classification** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/get-started-image-classification |
 | 2026-06-03 | **Protect your Firestore data with Firebase Security Rules** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-rules |
-| 2026-06-03 | **Incorporating generative AI into your game development process with Gemini and Gemma AI** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/solution-games-ai-101 |
+| 2026-06-03 | **Incorporating generative AI into your game development process with Gemini and Gemma AI** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/solution-games-ai-101 |
 | 2026-06-03 | **Basics of Kotlin Multiplatform Pathway** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/kotlin-multiplatform |
-| 2026-06-03 | **Firebase and Flutter Pathway Quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/firebase-flutter-realtime |
+| 2026-06-03 | **Firebase and Flutter Pathway Quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/firebase-flutter-realtime |
 | 2026-06-03 | **Understand a Unity game's crashes using advanced Crashlytics features** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/understand-unity-games-crashes-using-advanced-crashlytics |
 | 2026-06-03 | **Firebase App Check for Apple platforms** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/app-attest |
-| 2026-06-03 | **Build an Android app with Jetpack Compose and Firebase** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/firebase-android-jetpack |
-| 2026-06-03 | **Monitor new features with Firebase Performance Monitoring** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/monitor-new-features-firebase-performance-monitoring/monitor-new-features-firebase-performance-monitoring |
+| 2026-06-03 | **Build an Android app with Jetpack Compose and Firebase** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/firebase-android-jetpack |
+| 2026-06-03 | **Monitor new features with Firebase Performance Monitoring** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/monitor-new-features-firebase-performance-monitoring/monitor-new-features-firebase-performance-monitoring |
 | 2026-06-03 | **Measure load time and screen rendering with Firebase Performance Monitoring** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/measure-android-view-performance |
 | 2026-06-03 | **Build an interactive poll app for Google Chat with Node.js** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/google-chat-poll-app |
 | 2026-06-03 | **Advanced Authentication features** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/auth-mfa-blocking-functions |
 | 2026-06-03 | **Firebase Cross Device Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/cross-device-controller |
-| 2026-06-03 | **Use Remote Config to update your Unity game without a release quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-remote-config/use-remote-config-to-update-game-without-a-release |
-| 2026-06-03 | **Integrate Test Lab into your CI/CD system** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/ci-with-testlab |
-| 2026-06-03 | **Creating a multiplayer crossword with Gemini, Flutter, and Firebase** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/solution-crossword |
-| 2026-06-03 | **Quiz: Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/firebase-mfa-security-rules |
-| 2026-06-03 | **Firebase Testing Pathway Quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-continuous-integration/test-your-app-with-firebase-and-continuous-integration |
-| 2026-06-03 | **Protect your app from abuse with App Check quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-app-check/protect-your-app-from-abuse-with-app-check |
+| 2026-06-03 | **Use Remote Config to update your Unity game without a release quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-remote-config/use-remote-config-to-update-game-without-a-release |
+| 2026-06-03 | **CI With Testlab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/ci-with-testlab |
+| 2026-06-03 | **Creating a multiplayer crossword with Gemini, Flutter, and Firebase** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/solution-crossword |
+| 2026-06-03 | **Quiz: Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/firebase-mfa-security-rules |
+| 2026-06-03 | **Test Your App With Firebase And Continuous Integration** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-continuous-integration/test-your-app-with-firebase-and-continuous-integration |
+| 2026-06-03 | **Protect your app from abuse with App Check quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-app-check/protect-your-app-from-abuse-with-app-check |
 | 2026-06-03 | **Migrate existing apps to Room KMP** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/kmp-migrate-room |
 | 2026-06-03 | **Revision 2025 Q4: Learn how to simplify auth journeys using Credential Manager API in your Android app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/credential-manager-api-for-android |
 | 2026-06-03 | **Instrument your Unity game with Firebase Remote Config** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/instrument-your-game-with-firebase-remote-config |
-| 2026-06-03 | **Create fast and stable apps with Firebase quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-apps/create-fast-stable-apps |
+| 2026-06-03 | **Create fast and stable apps with Firebase quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-apps/create-fast-stable-apps |
 | 2026-06-03 | **Go on vacation with a Google Chat app** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/chat-apps-script |
 | 2026-06-03 | **Passkeys for Android** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/passkeys |
 | 2026-06-03 | **Send and receive notifications for a Flutter app using Firebase Cloud Messaging** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-fcm-flutter |
 | 2026-06-03 | **Firebase Performance Monitoring for web** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-perf-mon-web |
-| 2026-06-03 | **Understand your game's crashes using advanced Crashlytics features quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-advanced-crashlytics/understand-crashes-using-advanced-crashlytics |
-| 2026-06-03 | **Quiz: Add Firebase to your Flutter app: Advanced** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/firebase-flutter-advanced |
-| 2026-06-03 | **Effectively engage users with Firebase quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-user-engagement/engage-users |
+| 2026-06-03 | **Understand your game's crashes using advanced Crashlytics features quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-advanced-crashlytics/understand-crashes-using-advanced-crashlytics |
+| 2026-06-03 | **Quiz: Add Firebase to your Flutter app: Advanced** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/firebase-flutter-advanced |
+| 2026-06-03 | **Effectively engage users with Firebase quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-user-engagement/engage-users |
 | 2026-06-03 | **Your first multicast push message using FCM topics** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-fcm-topics |
 | 2026-06-03 | **Add a map to your iOS app (Swift)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/maps-platform-101-swift |
 | 2026-06-03 | **Add a map to your iOS app (Objective-C)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/maps-platform-101-objc |
-| 2026-06-03 | **Quiz: Get started with Google Maps Platform for iOS** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/maps-platform-for-ios |
-| 2026-06-03 | **Firebase Security Pathway Quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/firebase-security-layers |
+| 2026-06-03 | **Quiz: Get started with Google Maps Platform for iOS** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/maps-platform-for-ios |
+| 2026-06-03 | **Firebase Security Pathway Quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/firebase-security-layers |
 | 2026-06-03 | **Performance Monitoring of Feature Rollouts** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/feature-rollout-performance |
 | 2026-06-03 | **Implement A/B tests for your Unity game with Firebase Remote Config** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/implement-a-b-tests-with-firebase-remote-config |
 | 2026-06-03 | **Extend dynamic shortcuts to Google Assistant with App Actions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/appactions-dynamic-shortcuts |
-| 2026-06-02 | **Implement Material Design with Material Components for Flutter quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/mdc-flutter/mdc-flutter |
-| 2026-06-02 | **Build Apps with Flutter quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/intro-to-flutter/intro-to-flutter |
-| 2026-06-02 | **Scene Semantics and Geospatial Depth quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/arcore-semantics-and-depth |
-| 2026-06-02 | **Google Pay API for Web quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/google-pay-for-web |
-| 2026-06-02 | **Spring Boot on Google Cloud Quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/springboot-google-cloud/spring-boot-on-google-cloud-platform |
+| 2026-06-02 | **Implement Material Design with Material Components for Flutter quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/mdc-flutter/mdc-flutter |
+| 2026-06-02 | **Build Apps with Flutter quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/intro-to-flutter/intro-to-flutter |
+| 2026-06-02 | **Scene Semantics and Geospatial Depth quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/arcore-semantics-and-depth |
+| 2026-06-02 | **Google Pay API for Web quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/google-pay-for-web |
+| 2026-06-02 | **Spring Boot on Google Cloud Quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/springboot-google-cloud/spring-boot-on-google-cloud-platform |
 | 2026-06-02 | **Create a custom text classification model, and update your apps with it** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-nlp-custom-model |
 | 2026-06-02 | **Cache data from a Spring Boot app with Memorystore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cache-memorystore |
-| 2026-06-02 | **Cloud Run and serverless computing quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/cloud-run-serverless-computing |
+| 2026-06-02 | **Cloud Run and serverless computing quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/cloud-run-serverless-computing |
 | 2026-06-02 | **Detect objects in images to build a visual product search with ML Kit: Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/product-search-odt-android |
 | 2026-06-02 | **Integrate a Custom Model into your App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-computer-vision-update-app |
 | 2026-06-02 | **Cloud Spring Datastore** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-datastore [WARN] *Content retired* |
@@ -1159,7 +1175,7 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-02 | **Building Beautiful Transitions with Material Motion for Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/material-motion-flutter |
 | 2026-06-02 | **Connect a Spring Boot app to Cloud SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-petclinic-cloudsql |
 | 2026-06-02 | **Distributed tracing with Spring Cloud Sleuth and Cloud Trace** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cloud-gcp-trace |
-| 2026-06-02 | **Build, containerize, and deploy Spring Boot apps on Google Cloud quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/java-cloud-fundamentals/build-containerize-deploy-spring-boot-apps-on-google-cloud |
+| 2026-06-02 | **Build, containerize, and deploy Spring Boot apps on Google Cloud quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/java-cloud-fundamentals/build-containerize-deploy-spring-boot-apps-on-google-cloud |
 | 2026-06-02 | **Your first Flutter app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter-codelab-first |
 | 2026-06-02 | **Update your app to use a spam filtering Machine Learning model** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-nlp-update-app |
 | 2026-06-02 | **Get started with the Scene Semantics and Geospatial Depth APIs in ARCore** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/arcore-scene-semantics-geospatial-depth |
@@ -1167,11 +1183,11 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-02 | **Build and launch a Spring Boot Java app from Cloud Shell** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-springboot-cloudshell |
 | 2026-06-02 | **Build a word puzzle with Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter-word-puzzle |
 | 2026-06-02 | **Google Pay API for Web 101: Basics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gpay-web-101 |
-| 2026-06-02 | **Get started with object detection** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/get-started-object-detection/get-started-object-detection |
+| 2026-06-02 | **Get started with object detection** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/get-started-object-detection/get-started-object-detection |
 | 2026-06-02 | **Create a custom model for your image classifier** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-computer-vision-train-model |
 | 2026-06-02 | **MDC-102 Flutter: Material Structure and Layout** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mdc-102-flutter |
 | 2026-06-02 | **Deploy a Spring Boot Java app to Kubernetes on Google Kubernetes Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-springboot-kubernetes |
-| 2026-06-02 | **Streetscape Geometry and Rooftop anchors quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/arcore-buildings-and-rooftops |
+| 2026-06-02 | **Streetscape Geometry and Rooftop anchors quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/arcore-buildings-and-rooftops |
 | 2026-06-02 | **Call APIs from a Google Cloud project** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/call-apis-from-a-google-cloud-project |
 | 2026-06-02 | **Messaging with Spring Integration and Google Cloud Pub/Sub** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cloud-gcp-pubsub-integration |
 | 2026-06-02 | **Deploy a Spring Boot app to App Engine standard environment** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-app-engine-springboot |
@@ -1180,28 +1196,28 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-06-02 | **Build a basic messaging style app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-nlp-basic |
 | 2026-05-31 | **Learn AI** | Verified Google Developer learning activity. URL: https://web.dev/learn/quizzes/ai |
 | 2026-05-31 | **Local Development with the Firebase Emulator Suite** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-emulator |
-| 2026-05-31 | **Build robust, distributed leaderboards with Cloud Firestore quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-firestore-leaderboards/build-distributed-leaderboards-with-cloud-firestore |
-| 2026-05-31 | **Develop locally with Firebase quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-emulators/develop-locally-with-firebase |
-| 2026-05-31 | **Getting started with the Gemini API and Web Apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/solution-ai-gemini-getting-started-web |
+| 2026-05-31 | **Build robust, distributed leaderboards with Cloud Firestore quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-firestore-leaderboards/build-distributed-leaderboards-with-cloud-firestore |
+| 2026-05-31 | **Develop locally with Firebase quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-emulators/develop-locally-with-firebase |
+| 2026-05-31 | **Getting started with the Gemini API and Web Apps** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/solution-ai-gemini-getting-started-web |
 | 2026-05-31 | **Starting Android Accessibility** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/starting-android-accessibility |
 | 2026-05-31 | **Build leaderboards with Firestore** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/build-leaderboards-with-firestore |
-| 2026-05-31 | **Message your users with Firebase Cloud Messaging and Firebase In-App Messaging on Android quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-messaging/message-users-with-fcm-and-fiam-on-Android |
-| 2026-05-31 | **Add Firebase to your Flutter app quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-flutter/add-Firebase-to-flutter-app |
+| 2026-05-31 | **Message your users with Firebase Cloud Messaging and Firebase In-App Messaging on Android quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-messaging/message-users-with-fcm-and-fiam-on-Android |
+| 2026-05-31 | **Add Firebase to your Flutter app quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-flutter/add-Firebase-to-flutter-app |
 | 2026-05-31 | **Learn HTML** | Verified Google Developer learning activity. URL: https://web.dev/learn/quizzes/html |
 | 2026-05-31 | **Use FCM and FIAM to send messages to users** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/fcm-and-fiam |
 | 2026-05-31 | **Get to know Firebase for Flutter** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-get-to-know-flutter |
-| 2026-05-31 | **Build robust, distributed leaderboards with Cloud Firestore** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-leaderboards-with-firestore |
-| 2026-05-31 | **Quiz: Bring Google's Places data into your Android app** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/places-sdk-for-android |
+| 2026-05-31 | **Build robust, distributed leaderboards with Cloud Firestore** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-leaderboards-with-firestore |
+| 2026-05-31 | **Quiz: Bring Google's Places data into your Android app** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/places-sdk-for-android |
 | 2026-05-31 | **CSS knowledge quiz** | Verified Google Developer learning activity. URL: https://web.dev/learn/css/quiz |
 | 2026-05-31 | **Learn PWA** | Verified Google Developer learning activity. URL: https://web.dev/learn/quizzes/pwa |
 | 2026-05-31 | **Get to know Firebase for web** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-get-to-know-web |
 | 2026-05-31 | **Make your Android app accessible** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/make-your-android-app-accessible/accessibility-on-android |
-| 2026-05-31 | **Leveraging the Gemini Pro Vision model for image understanding, multimodal prompts and accessibility** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/solution-ai-gemini-images |
-| 2026-05-31 | **Getting started with Google AI Studio, Gemini API and NodeJS** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/solution-ai-gemini-101 |
-| 2026-05-31 | **Message your users with FCM and FIAM on Android** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/pathways/firebase-messaging |
+| 2026-05-31 | **Leveraging the Gemini Pro Vision model for image understanding, multimodal prompts and accessibility** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/solution-ai-gemini-images |
+| 2026-05-31 | **Getting started with Google AI Studio, Gemini API and NodeJS** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/solution-ai-gemini-101 |
+| 2026-05-31 | **Message your users with FCM and FIAM on Android** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-messaging |
 | 2026-05-31 | **Prompting with images and text using the Gemini API for accessibility** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/solutions/ai-gemini-images/codelab-1 |
-| 2026-05-31 | **Deploy Faster Generative AI models with NVIDIA NIM on GKE** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/deploy-faster-gen-ai-models-nvidia-gke |
-| 2026-05-31 | **Build your first web app with Firebase quiz** | Verified Google Developer learning activity. URL: https://firebase.google.com/learn/quizzes/firebase-web/build-first-web-app-with-firebase |
+| 2026-05-31 | **Deploy Faster Generative AI models with NVIDIA NIM on GKE** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/deploy-faster-gen-ai-models-nvidia-gke |
+| 2026-05-31 | **Build your first web app with Firebase quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-web/build-first-web-app-with-firebase |
 | 2026-05-31 | **Can you create AI evaluations?** | Verified Google Developer learning activity. URL: https://developer.chrome.com/docs/ai/evals/quiz |
 | 2026-05-30 | **Vertex AI Workbench: Train a TensorFlow model with data from BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-workbench-intro |
 | 2026-05-30 | **Make the Most of Experimentation: Manage Machine Learning Experiments with Vertex AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex_experiments_pipelines_intro |
@@ -1605,7 +1621,7 @@ This document represents a unified, verifiable list of all 1758 records.
 | 2026-05-21 | **🤖 Build a Multimodal AI Agent with Graph RAG, ADK & Memory Bank** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/survivor-network/instructions |
 | 2026-05-21 | **Deploying Secure AI Agents on GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gke/ai-agents-on-gke |
 | 2026-05-21 | **Build Intelligent & Secure Agents with AlloyDB** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/alloydb-ai-agents-building-blocks |
-| 2026-05-21 | **Bumble Gemini Enterprise Day 1 Value Workshop** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ge/bumble-workshop |
+| 2026-05-21 | **Bumble Workshop** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ge/bumble-workshop |
 | 2026-05-21 | **Gemini for Developers** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-for-developers |
 | 2026-05-21 | **Spec-Driven ADK Agent Development with Antigravity and Spec-kit** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/sdd-adk-antigravity |
 | 2026-05-21 | **Toy Store Search App with Cloud Databases, Serverless Runtimes and Open Source Integrations** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/toy-store-app |

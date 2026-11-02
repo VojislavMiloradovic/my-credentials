@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
 chunk_part: 19 of 37
-date_range: 2026-06-06 to 2026-06-06
-total_entries: 47
+date_range: 2026-06-05 to 2026-06-06
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-19.md
 layer: L2_published
 transform: unknown
@@ -15,16 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-06 | **Accessibility, testing, and performance** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/jetpack-compose-for-android-developers-4/jetpack-compose-for-android-developers-4 |
-| 2026-06-06 | **Lesson 8: App architecture (UI layer)** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-8/android-development-with-kotlin-8 |
-| 2026-06-06 | **Save preferences locally with DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-datastore |
-| 2026-06-06 | **Lesson 7: Activity and fragment lifecycles** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-7/android-development-with-kotlin-7 |
-| 2026-06-06 | **Functions** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-development-kotlin-2.1 |
-| 2026-06-06 | **Build a simple app with text composables** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-text-composables |
-| 2026-06-06 | **How to connect your Android device** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-connect-device |
-| 2026-06-06 | **(Deprecated) Build an app that runs on a work profile** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/work-profile-apps |
-| 2026-06-06 | **Calculate a custom tip** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-calculate-tip |
-| 2026-06-06 | **Persist data with Room** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-persisting-data-room |
 | 2026-06-06 | **Create and use functions in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-functions |
 | 2026-06-06 | **Introduction to Coroutines in Kotlin Playground** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-coroutines-kotlin-playground |
 | 2026-06-06 | **Change the app icon** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-training-change-app-icon |
@@ -34,7 +24,7 @@ artifacts: complete, index
 | 2026-06-06 | **Practice: Add a ViewModel to Dessert Clicker** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-viewmodel |
 | 2026-06-06 | **Android 11—Week 11—Modern UI quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week11-modern-ui/android-11-week-11-1 |
 | 2026-06-06 | **Download and install Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio |
-| 2026-06-06 | **Go further with audio classification** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/go-further-audio-classification/go-further-audio-classification |
+| 2026-06-06 | **Go further with audio classification** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/go-further-audio-classification/go-further-audio-classification |
 | 2026-06-06 | **ViewModel and State in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-and-state |
 | 2026-06-06 | **Practice Problems: Kotlin Basics** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-intro-kotlin-practice-problems |
 | 2026-06-06 | **TensorFlow.js: Retrain a comment spam detection model to handle edge cases** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/tensorflow-retraining-comment-spam-detection |
@@ -62,6 +52,18 @@ artifacts: complete, index
 | 2026-06-06 | **Practice: Add navigation** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-navigation |
 | 2026-06-06 | **Practice: Kotlin Fundamentals** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-kotlin-fundamentals-practice-problems |
 | 2026-06-06 | **Create and use variables in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-variables |
+| 2026-06-06 | **Build enterprise apps on Android quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-enterprise-build-apps/android-enterprise-build-apps |
+| 2026-06-06 | **Write conditionals in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-conditionals |
+| 2026-06-06 | **Build adaptive apps with Jetpack Compose** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jetpack-compose-adaptability |
+| 2026-06-06 | **Practice: Compose Basics** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-composables-practice-problems |
+| 2026-06-05 | **Android Basics Compose Unit 8 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 2). |
+| 2026-06-05 | **Engage Users With Firebase** | Official Google Developer platform achievement (Learning Pathway: engage users with firebase). |
+| 2026-06-05 | **GDG Belgrade** | Official Google Developer platform achievement (Community: gdg belgrade). |
+| 2026-06-05 | **Android Basics Compose Unit 2 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 2 pathway 1). |
+| 2026-06-05 | **Android Development With Kotlin 8** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 8). |
+| 2026-06-05 | **Android Basics Compose Unit 4 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 4 pathway 2). |
+| 2026-06-05 | **Gear** | Official Google Developer platform achievement (Community: gear). |
+| 2026-06-05 | **Firebase Android Jetpack** | Official Google Developer platform achievement (Learning Pathway: firebase android jetpack). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-18.md](./google-developer-2026-06-part-18.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-20.md](./google-developer-2026-06-part-20.md)

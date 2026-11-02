@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 25 of 37
 date_range: 2026-06-09 to 2026-06-09
-total_entries: 47
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-25.md
 layer: L2_published
 transform: unknown
@@ -15,19 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-09 | **Optical Character Recognition (OCR) with Document AI (Python)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/docai-ocr-python |
-| 2026-06-09 | **Getting Started with Event-driven Cloud Run functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/getting-started-cloud-run-functions-event-driven |
-| 2026-06-09 | **Build Voice Bots for Android with Dialogflow Essentials & Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-flutter |
-| 2026-06-09 | **Wagtail on Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-wagtail |
-| 2026-06-09 | **Connecting to CloudSQL via Private Service Connect (Terraform)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloudsql-psc-terraform |
-| 2026-06-09 | **Track Autofill Behavior with Google Analytics 4** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ga4-autofill-tracking |
-| 2026-06-09 | **Migration from Apache Kafka to Pubsub** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/kafka-to-pubsub |
-| 2026-06-09 | **Using the Vision API with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-vision-api-python |
-| 2026-06-09 | **Vibe-code a kids game with Gemini and publish with Firebase!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gemini-games-firebase |
-| 2026-06-09 | **Deploy a website with Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-deploy |
-| 2026-06-09 | **Design a dark theme with Material and Figma** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/design-material-darktheme |
-| 2026-06-09 | **Dialogflow CX: Build a retail virtual agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-cx-retail-agent |
-| 2026-06-09 | **Cloud Spanner with Hibernate ORM** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-hibernate |
 | 2026-06-09 | **Pic-a-daily: Lab 2—Create thumbnails of pictures** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab2 |
 | 2026-06-09 | **Practical observability techniques for Generative AI application in Java** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gen-ai-o11y-for-devs/gen-ai-o11y-java |
 | 2026-06-09 | **Developing an Accessibility Service for Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/developing-android-a11y-service |
@@ -62,6 +49,18 @@ artifacts: complete, index
 | 2026-06-09 | **Pic-a-daily: Lab 4—Create a web frontend** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab4 |
 | 2026-06-09 | **Using Gemini Code Assist to explore and enhance AI Summarization Jump Start Solution** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gemini-code-assist-developer-aisummarization-jss |
 | 2026-06-09 | **Pic-a-daily: Lab 1—Store and analyse pictures** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab1 |
+| 2026-06-09 | **Deploy a full stack Angular application to Cloud Run with Cloud SQL for PostgreSQL using the Cloud SQL Node.js Connector** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/cloud-sql-nodejs-connector-angular |
+| 2026-06-09 | **Migrating from Google App Engine Java app to Cloud Run with Docker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-gae-java-migrate-docker |
+| 2026-06-09 | **Deploy a JavaScript application to Cloud Run with AlloyDB** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/alloydb-nodejs |
+| 2026-06-09 | **Spring Boot application with Cloud Spanner** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-spanner |
+| 2026-06-09 | **How to deploy a FastAPI chatbot app to Cloud Run using Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/how-to-deploy-fastapi-chat-app-gemini |
+| 2026-06-09 | **Display the first 100 files & folders in your Google Drive** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gsuite-apis-intro |
+| 2026-06-09 | **Route Datadog monitoring alerts to Google Cloud with Eventarc (Part 2)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-route-datadog-eventarc-part-two |
+| 2026-06-09 | **Send Web events to GA4 using Measurement Protocol** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/GA4_MP |
+| 2026-06-09 | **clasp - The Apps Script CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/clasp |
+| 2026-06-09 | **Pic-a-daily: Lab 1—Store and analyse pictures (Java)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab1-java |
+| 2026-06-09 | **Cloud Foundation Toolkit 101** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cft-onboarding |
+| 2026-06-09 | **Private Service Connect Mutability Codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-mutability |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-24.md](./google-developer-2026-06-part-24.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-26.md](./google-developer-2026-06-part-26.md)

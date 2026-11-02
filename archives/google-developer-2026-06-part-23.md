@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
 chunk_part: 23 of 37
-date_range: 2026-06-09 to 2026-06-09
-total_entries: 47
+date_range: 2026-06-07 to 2026-06-09
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-23.md
 layer: L2_published
 transform: unknown
@@ -15,18 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-09 | **Turn your big data into insights using Google Sheets and Slides** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/bigquery-sheets-slides |
-| 2026-06-09 | **Pic-a-daily: Lab 6—Orchestration with Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab6 |
-| 2026-06-09 | **Cloud Spanner: Your First Database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-first-db |
-| 2026-06-09 | **Exploratory data analysis of Iowa liquor sales using the BigQuery DataFrames package** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-dataframes-iowa-liquor-sales |
-| 2026-06-09 | **How to connect a Node.js application on Cloud Run to a Cloud SQL for PostgreSQL database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-sql-nodejs-connector |
-| 2026-06-09 | **Launching Google Ads Campaigns with Google Analytics Custom Events and Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter_ads |
-| 2026-06-09 | **Specialized Processors with Document AI (Python)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/docai-specialized-processors-python |
-| 2026-06-09 | **Events for Cloud Run for Anthos Codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-events-anthos |
-| 2026-06-09 | **Cloud Spanner Game Trading Post** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-game-tradepost |
-| 2026-06-09 | **Using the Vision API with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-vision-api-csharp |
-| 2026-06-09 | **Using the Translation API with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-translation-python3 |
-| 2026-06-09 | **Sign in with Google One Tap prompt for Web** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/google-one-tap |
 | 2026-06-09 | **Image archiving, analysis, and report generation Google Workspace & Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/drive-gcs-vision-sheets |
 | 2026-06-09 | **Increase intent coverage and handle errors gracefully with generative fallback** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-generative-fallback |
 | 2026-06-09 | **How to use Gemini to explore and enhance an existing application** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/duet-ai-workshop |
@@ -62,6 +50,17 @@ artifacts: complete, index
 | 2026-06-09 | **Make email more actionable with Google Workspace Add-ons** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gmail-add-ons |
 | 2026-06-09 | **Using Document AI Warehouse to Ingest, Process, and Search Documents** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/docai-warehouse |
 | 2026-06-09 | **Cloud Spanner: Create a gaming leaderboard with Go** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-leaderboard-go |
+| 2026-06-09 | **Build a Kotlin Spring Application with Google Cloud Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cloud-gcp-kotlin |
+| 2026-06-09 | **Using the Translation API with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-translation-csharp |
+| 2026-06-09 | **Build and Deploy an AI-Powered Agent Diet Planner with Streamlit, Gemini Pro, Vertex AI and BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ai-diet-planner |
+| 2026-06-09 | **Generative AI text generation in Java with PaLM and LangChain4J** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/genai-text-gen-java-palm-langchain4j |
+| 2026-06-09 | **Using revisions in Cloud Run for Traffic Splitting, Gradual Rollouts, and Rollbacks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/revisions-cloud-run-traffic-splitting-gradual-rollout-rollbacks |
+| 2026-06-09 | **Code Customization with Gemini Code Assist Enterprise** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/code-assist-enterprise |
+| 2026-06-09 | **Hands-on: Create a TV guide Google Chat with Google Workspace and Dialogflow** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/dialogflow-google-chat-tvguide |
+| 2026-06-09 | **Encrypt and decrypt data with Cloud KMS (Asymmetric)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/encrypt-and-decrypt-data-with-cloud-kms-asymmetric |
+| 2026-06-09 | **Generative AI powered chat with users and docs in Java with PaLM and LangChain4J** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/genai-chat-java-palm-langchain4j |
+| 2026-06-09 | **Ingest FHIR (Fast Healthcare Interoperability Resources) to BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fhir-to-bq |
+| 2026-06-07 | **Build Multimodal Apps and Custom Managed Agents with the Gemini Interactions Java SDK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-interactions-java-sdk |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-22.md](./google-developer-2026-06-part-22.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-24.md](./google-developer-2026-06-part-24.md)

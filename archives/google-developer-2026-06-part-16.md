@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 16 of 37
 date_range: 2026-06-05 to 2026-06-05
-total_entries: 62
+total_entries: 58
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-16.md
 layer: L2_published
 transform: unknown
@@ -15,19 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-05 | **Aog Smart Home** | Official Google Developer platform achievement (Learning Pathway: aog smart home). |
-| 2026-06-05 | **Local Development With Emulator Suite** | Official Google Developer platform achievement (Learning Pathway: local_development_with_emulator_suite). |
-| 2026-06-05 | **Android Basics Compose Unit 3 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 2). |
-| 2026-06-05 | **Get Started Audio Classification** | Official Google Developer platform achievement (Learning Pathway: get started audio classification). |
-| 2026-06-05 | **Learn Privacy** | Official Google Developer platform achievement (Learning Pathway: learn privacy). |
-| 2026-06-05 | **Android Basics Compose Unit 8 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 1). |
-| 2026-06-05 | **App Check** | Official Google Developer platform achievement (Learning Pathway: app_check). |
-| 2026-06-05 | **Learnings** | Official Google Developer platform achievement (Learning Pathway: learnings). |
-| 2026-06-05 | **Applied Ml With Keras** | Official Google Developer platform achievement (Learning Pathway: applied ml with keras). |
-| 2026-06-05 | **Apps Script** | Official Google Developer platform achievement (Learning Pathway: apps_script). |
-| 2026-06-05 | **Android Basics Compose Unit 2 Pathway 3** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 2 pathway 3). |
-| 2026-06-05 | **Android Basics Compose Unit 7 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 7 pathway 1). |
-| 2026-06-05 | **Jetpack Compose For Android Developers 5** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 5). |
 | 2026-06-05 | **Maintainable Scalable Web Apps** | Official Google Developer platform achievement (Learning Pathway: maintainable scalable web apps). |
 | 2026-06-05 | **Created Profile** | Official Google Developer platform achievement (Learning Pathway: created profile). |
 | 2026-06-05 | **Web Apps With Firebase** | Official Google Developer platform achievement (Learning Pathway: web apps with firebase). |
@@ -69,14 +56,23 @@ artifacts: complete, index
 | 2026-06-05 | **Build a product image search backend with Vision API Product Search** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/build-product-search-backend |
 | 2026-06-05 | **MDC-102 Web: Material Structure and Layout (Web)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/mdc-102-web |
 | 2026-06-05 | **Engage Wear OS users in new ways with the Ongoing Activity API** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/ongoing-activity |
-| 2026-06-05 | **Get started with regression in iOS apps** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/tensorflow-serving/regression-in-ios-apps |
-| 2026-06-05 | **Passkey integration on the server-side and user-experience upgrades** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/passkeys-web-2 |
+| 2026-06-05 | **Get started with regression in iOS apps** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/tensorflow-serving/regression-in-ios-apps |
+| 2026-06-05 | **Passkey integration on the server-side and user-experience upgrades** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/passkeys-web-2 |
 | 2026-06-05 | **Extend an Android app to Google Assistant with App Actions (Level 2)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/appactions-2 |
-| 2026-06-05 | **Quiz: Build maintainable and scalable web apps with Angular** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/maintainable-scalable-web-apps |
+| 2026-06-05 | **Quiz: Build maintainable and scalable web apps with Angular** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/maintainable-scalable-web-apps |
 | 2026-06-05 | **Build your first WebAuthn app** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/webauthn-reauth |
 | 2026-06-05 | **Add a map to your Android app (Kotlin)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/maps-platform-101-android |
 | 2026-06-05 | **MDC-102 Android: Material Structure and Layout (Java)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/mdc-102-java |
 | 2026-06-05 | **Build an Android App with Views** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-app-with-views |
+| 2026-06-05 | **Build your own Current Place picker for Android (Java)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/location-places-android |
+| 2026-06-05 | **Advanced Android in Kotlin 04.1: Android Google Maps** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/advanced-android-kotlin-training-maps |
+| 2026-06-05 | **Module 2: Inspect** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/data-cards-inspect |
+| 2026-06-05 | **Create a widget with Glance** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/glance |
+| 2026-06-05 | **Build a serverless Ecommerce web app with Python, Cloud Run, Cloud SQL, and Firebase** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/solution-ecommerce-serverless-django |
+| 2026-06-05 | **Gemini API Extensions Web** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/gemini-api-extensions-web [WARN] *Content retired* |
+| 2026-06-05 | **Visualize data with Google Maps Platform and deck.gl** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/maps-deck-gl |
+| 2026-06-05 | **Improve the user experience of your Android app** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/improve-user-experience/improve-user-experience |
+| 2026-06-05 | **Compose essentials** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/jetpack-compose-for-android-developers-1/jetpack-compose-for-android-developers-1 |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-15.md](./google-developer-2026-06-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md)

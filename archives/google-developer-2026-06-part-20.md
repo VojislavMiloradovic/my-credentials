@@ -1,7 +1,7 @@
 ---
 archive_platform: google-developer
 chunk_part: 20 of 37
-date_range: 2026-06-06 to 2026-06-07
+date_range: 2026-06-06 to 2026-06-06
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-20.md
 layer: L2_published
@@ -15,16 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-07 | **Vertex Mlmd Pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-mlmd-pipelines [WARN] *Content retired* |
-| 2026-06-07 | **TCP Proxy Codelab - Rate limiting and IP Deny list with TCP Proxy Load balancer** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tcp-proxylb-ssl-proxylb |
-| 2026-06-07 | **(Deprecated) Use Kotlin Coroutines in your Android App** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/kotlin-coroutines |
-| 2026-06-07 | **(Deprecated) Android Paging Advanced codelab** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-paging |
-| 2026-06-07 | **Vertex AI: Co-host models on the same VM for predictions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-cohost-prediction |
-| 2026-06-07 | **Vertex AI Vision Traffic Monitoring App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-ai-vision-traffic-monitoring |
-| 2026-06-07 | **End-to-End Migration: CloudSQL Database to Cloud Spanner (GoogleSQL)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudsql-to-spanner-migration |
-| 2026-06-07 | **Get started with scroll-driven animations in CSS** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/scroll-driven-animations |
-| 2026-06-07 | **Deploy a full stack Angular application to Cloud Run with Firestore using the Node.js Admin SDK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/firestore-angular |
-| 2026-06-07 | **Android 11—Week 9—TV quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week9-android-tv/android-11-week-9-1 |
 | 2026-06-06 | **Lesson 10: Advanced RecyclerView use cases** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-10/android-development-with-kotlin-10 |
 | 2026-06-06 | **Create your first Android app** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app |
 | 2026-06-06 | **TensorFlow.js: Build a comment spam detection system** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/tensorflowjs-comment-spam-detection |
@@ -35,7 +25,7 @@ artifacts: complete, index
 | 2026-06-06 | **Load and display images from the internet** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-load-images |
 | 2026-06-06 | **Use SQL to read and write to a database** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-sql |
 | 2026-06-06 | **Interacting with UI and state** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-2-pathway-3/android-basics-compose-unit-2-pathway-3 |
-| 2026-06-06 | **Get started with text classification for web** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/get-started-text-classification-for-web/get-started-text-classification-for-web |
+| 2026-06-06 | **Get started with text classification for web** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/get-started-text-classification-for-web/get-started-text-classification-for-web |
 | 2026-06-06 | **Use classes and objects in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-classes-and-objects |
 | 2026-06-06 | **Write automated tests** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-write-automated-tests |
 | 2026-06-06 | **Modern Android App Architecture quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-architecture/architecture-layers |
@@ -62,6 +52,16 @@ artifacts: complete, index
 | 2026-06-06 | **Introduction to Coroutines in Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-coroutines-android-studio |
 | 2026-06-06 | **Run your first app on the Android Emulator** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-emulator |
 | 2026-06-06 | **Lesson 6: App navigation** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-6/android-development-with-kotlin-6 |
+| 2026-06-06 | **Accessibility, testing, and performance** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/jetpack-compose-for-android-developers-4/jetpack-compose-for-android-developers-4 |
+| 2026-06-06 | **Lesson 8: App architecture (UI layer)** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-8/android-development-with-kotlin-8 |
+| 2026-06-06 | **Save preferences locally with DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-datastore |
+| 2026-06-06 | **Lesson 7: Activity and fragment lifecycles** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-7/android-development-with-kotlin-7 |
+| 2026-06-06 | **Functions** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-development-kotlin-2.1 |
+| 2026-06-06 | **Build a simple app with text composables** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-text-composables |
+| 2026-06-06 | **How to connect your Android device** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-connect-device |
+| 2026-06-06 | **(Deprecated) Build an app that runs on a work profile** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/work-profile-apps |
+| 2026-06-06 | **Calculate a custom tip** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-calculate-tip |
+| 2026-06-06 | **Persist data with Room** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-persisting-data-room |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-19.md](./google-developer-2026-06-part-19.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-21.md](./google-developer-2026-06-part-21.md)

@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 21 of 37
 date_range: 2026-06-07 to 2026-06-07
-total_entries: 49
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-21.md
 layer: L2_published
 transform: unknown
@@ -15,18 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-07 | **Code Lab: NCC VPC as a Spoke** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ncc-vpc-as-spoke |
-| 2026-06-07 | **Vertex AI Vision Motion Filter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-ai-vision-motion-filter |
-| 2026-06-07 | **Codelab: Spanner MCP Server** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/spanner-mcp-server |
-| 2026-06-07 | **Install Android 11 GSI for App Testing** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/using-android-q-gsi |
-| 2026-06-07 | **Composite Health for Private Service Connect** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/psc-health-ga |
-| 2026-06-07 | **Pic-a-daily: Lab 5—Cleanup after image deletion** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab5 |
-| 2026-06-07 | **Visualizing dynamic color in your app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/visualize-dynamic-color |
-| 2026-06-07 | **Build an animated responsive app layout with Material 3** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter-animated-responsive-layout |
-| 2026-06-07 | **Privacy and security quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week3-privacy-trust-security/android-11-week-3 |
-| 2026-06-07 | **Build a Fast Checkout Experience on Android with Google Pay** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/pay-android-checkout |
-| 2026-06-07 | **Prototype to Production: Training custom models with Vertex AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-p2p-training |
-| 2026-06-07 | **Build a custom, responsive chatbot on Google Cloud quiz** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/quizzes/custom-responsive-chatbots/chatbot-201 |
 | 2026-06-07 | **Compatibility quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week4-compatibility/android-11-week-4 |
 | 2026-06-07 | **Movie Rating Prediction with BQML using SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/moviescore-prediction-bqmlsql |
 | 2026-06-07 | **Codelab - Build a contextual Yoga Poses recommender app with Firestore, Vector Search, Langchain and Gemini (Python version)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/yoga-pose-firestore-vectorsearch-python |
@@ -64,6 +52,16 @@ artifacts: complete, index
 | 2026-06-07 | **(Deprecated) Converting to Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/java-to-kotlin |
 | 2026-06-07 | **Build an AI-powered outfit recommendation app with AlloyDB and serverless runtimes** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-stylist-app |
 | 2026-06-07 | **Integrate the Vision API with Dialogflow** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/chatbots-dialogflow-visionAPI |
+| 2026-06-07 | **Vertex Mlmd Pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-mlmd-pipelines [WARN] *Content retired* |
+| 2026-06-07 | **TCP Proxy Codelab - Rate limiting and IP Deny list with TCP Proxy Load balancer** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tcp-proxylb-ssl-proxylb |
+| 2026-06-07 | **(Deprecated) Use Kotlin Coroutines in your Android App** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/kotlin-coroutines |
+| 2026-06-07 | **(Deprecated) Android Paging Advanced codelab** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-paging |
+| 2026-06-07 | **Vertex AI: Co-host models on the same VM for predictions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-cohost-prediction |
+| 2026-06-07 | **Vertex AI Vision Traffic Monitoring App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-ai-vision-traffic-monitoring |
+| 2026-06-07 | **End-to-End Migration: CloudSQL Database to Cloud Spanner (GoogleSQL)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudsql-to-spanner-migration |
+| 2026-06-07 | **Get started with scroll-driven animations in CSS** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/scroll-driven-animations |
+| 2026-06-07 | **Deploy a full stack Angular application to Cloud Run with Firestore using the Node.js Admin SDK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/firestore-angular |
+| 2026-06-07 | **Android 11—Week 9—TV quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week9-android-tv/android-11-week-9-1 |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-20.md](./google-developer-2026-06-part-20.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-22.md](./google-developer-2026-06-part-22.md)

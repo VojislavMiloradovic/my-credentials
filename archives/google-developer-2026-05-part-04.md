@@ -40,7 +40,7 @@ artifacts: complete, index
 | 2026-05-21 | **🤖 Build a Multimodal AI Agent with Graph RAG, ADK & Memory Bank** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/survivor-network/instructions |
 | 2026-05-21 | **Deploying Secure AI Agents on GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gke/ai-agents-on-gke |
 | 2026-05-21 | **Build Intelligent & Secure Agents with AlloyDB** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/alloydb-ai-agents-building-blocks |
-| 2026-05-21 | **Bumble Gemini Enterprise Day 1 Value Workshop** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ge/bumble-workshop |
+| 2026-05-21 | **Bumble Workshop** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/ge/bumble-workshop |
 | 2026-05-21 | **Gemini for Developers** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-for-developers |
 | 2026-05-21 | **Spec-Driven ADK Agent Development with Antigravity and Spec-kit** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/sdd-adk-antigravity |
 | 2026-05-21 | **Toy Store Search App with Cloud Databases, Serverless Runtimes and Open Source Integrations** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/toy-store-app |

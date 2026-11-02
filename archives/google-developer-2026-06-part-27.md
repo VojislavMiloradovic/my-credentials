@@ -1,7 +1,7 @@
 ---
 archive_platform: google-developer
 chunk_part: 27 of 37
-date_range: 2026-06-10 to 2026-06-18
+date_range: 2026-06-10 to 2026-06-10
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-27.md
 layer: L2_published
@@ -15,19 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-18 | **Programmatic data quality with Knowledge Catalog and generative AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/programmatic-dq |
-| 2026-06-18 | **Connect and visualize all your data in Data Studio** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/community-connectors |
-| 2026-06-17 | **Hands-on with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/antigravity-cli-hands-on |
-| 2026-06-17 | **Vibecode and Secure an AI Agent Lifecycle with Antigravity and TDD** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-agentic-coding |
-| 2026-06-13 | **Vibecode an ADK 2.0 Ambient Agent with Antigravity and Agents CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vibecode-ambient-expense-agent |
-| 2026-06-13 | **Lab 1: Ingest and Govern Logistics Data** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab1 |
-| 2026-06-13 | **Lab 3: Uncovering Lost Cargo with BigQuery Graph and Conversational Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab3 |
-| 2026-06-13 | **Lab 2: Data Analysis & Multimodal Insights** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab2 |
-| 2026-06-10 | **Serverless AI: EmbeddingGemma with Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/embeddinggemma-cloud-run |
-| 2026-06-10 | **Build a no-code app using the native AppSheet database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/appsheet-asdb |
-| 2026-06-10 | **Configure ABAP SDK authentication using tokens for SAP hosted on Compute Engine VM and execute Address validation API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/abap-sdk/auth-goog |
-| 2026-06-10 | **Migrating from Google App Engine Java app to Cloud Run with Jib** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-gae-java-migrate-jib |
-| 2026-06-10 | **Using External HTTP(s) Hybrid load balancer to reach a Network Endpoint Group** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-l7-hybridneg |
 | 2026-06-10 | **Getting started with Managed Active Directory** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-managed-ad |
 | 2026-06-10 | **Call Vertex AI LLM from your ABAP environment with ABAP SDK for Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/abap-sdk/vertex-ai-text-bison |
 | 2026-06-10 | **Create an AR game using Unity's AR Foundation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/arcore-unity-ar-foundation |
@@ -63,6 +50,19 @@ artifacts: complete, index
 | 2026-06-10 | **Rate Limiting with Cloud Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-armor-rate-limiting |
 | 2026-06-10 | **Getting started with Angular Signals** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/angular-signals |
 | 2026-06-10 | **Connect AppSheet with Apps Script** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/appsheet-appsscript |
+| 2026-06-10 | **Getting Started with gRPC-Java - Streaming** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/getting-started-grpc-java-streaming |
+| 2026-06-10 | **Using BigQuery with Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-bigquery-python |
+| 2026-06-10 | **Integrate fundamental AI concepts in Google Chat apps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/chat-apps-ai-concepts |
+| 2026-06-10 | **Get Started with Unity and Google Play Games for PC** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/android-google-play-games-unity-quickstart |
+| 2026-06-10 | **Deploy an ASP.NET Core app to App Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-app-engine-aspnetcore |
+| 2026-06-10 | **Deploy a Micronaut application containerized with Jib to Google Kubernetes Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-micronaut-kubernetes |
+| 2026-06-10 | **Extending support for App Engine bundled services: Part 1 (Module 17)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-17-bundled |
+| 2026-06-10 | **Build apps for Google Chat with Gemini** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/chat-apps-gemini |
+| 2026-06-10 | **Cloud DNS ResourceRecordSets API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-dns-rrsets-gcloud |
+| 2026-06-10 | **Google Pay API for React Native on Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/pay-react-native |
+| 2026-06-10 | **Instrument for better performance in your app in Go (part 2: profiler)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-profiler-go |
+| 2026-06-10 | **Introduction to Cloud Operations Suite** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-operations-handson-with-gcloud |
+| 2026-06-10 | **Analyze and visualize credit card transaction data in Bigtable using BigQuery and Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigtable-cdc-looker-tutorial |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-26.md](./google-developer-2026-06-part-26.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-28.md](./google-developer-2026-06-part-28.md)

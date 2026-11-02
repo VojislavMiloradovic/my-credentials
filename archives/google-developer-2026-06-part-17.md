@@ -15,19 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-05 | **Jetpack Compose For Android Developers 2** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 2). |
-| 2026-06-05 | **Android Development With Kotlin 11** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 11). |
-| 2026-06-05 | **Earned Badge** | Official Google Developer platform achievement (Learning Pathway: earned badge). |
-| 2026-06-05 | **Location Awareness In Apps** | Official Google Developer platform achievement (Learning Pathway: location_awareness_in_apps). |
-| 2026-06-05 | **Regression Ios** | Official Google Developer platform achievement (Learning Pathway: regression iOS). |
-| 2026-06-05 | **Android Basics Compose Unit 4 Pathway 3** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 4 pathway 3). |
-| 2026-06-05 | **Android Basics Compose Unit 4 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 4 pathway 1). |
-| 2026-06-05 | **Maps** | Official Google Developer platform achievement (Community: maps). |
-| 2026-06-05 | **App Actions** | Official Google Developer platform achievement (Learning Pathway: app actions). |
-| 2026-06-05 | **Cloud Containerize Deploy Spring Boot** | Official Google Developer platform achievement (Learning Pathway: cloud containerize deploy spring boot). |
-| 2026-06-05 | **Going Further Audio Classification** | Official Google Developer platform achievement (Learning Pathway: going further audio classification). |
-| 2026-06-05 | **Android Development With Kotlin 1** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 1). |
-| 2026-06-05 | **Android Basics Compose Unit 1 Pathway 3** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 1 pathway 3). |
 | 2026-06-05 | **Firebase Studio** | Official Google Developer platform achievement (Community: firebase studio). |
 | 2026-06-05 | **Learn Performance** | Official Google Developer platform achievement (Learning Pathway: learn performance). |
 | 2026-06-05 | **Learn Testing** | Official Google Developer platform achievement (Learning Pathway: learn testing). |
@@ -82,6 +69,19 @@ artifacts: complete, index
 | 2026-06-05 | **Discovery** | Official Google Developer platform achievement (Community: discovery). |
 | 2026-06-05 | **Cross Platform Apps With Angular** | Official Google Developer platform achievement (Learning Pathway: cross platform apps with angular). |
 | 2026-06-05 | **Pwa Push Notifications** | Official Google Developer platform achievement (Learning Pathway: pwa push notifications). |
+| 2026-06-05 | **Aog Smart Home** | Official Google Developer platform achievement (Learning Pathway: aog smart home). |
+| 2026-06-05 | **Local Development With Emulator Suite** | Official Google Developer platform achievement (Learning Pathway: local_development_with_emulator_suite). |
+| 2026-06-05 | **Android Basics Compose Unit 3 Pathway 2** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 3 pathway 2). |
+| 2026-06-05 | **Get Started Audio Classification** | Official Google Developer platform achievement (Learning Pathway: get started audio classification). |
+| 2026-06-05 | **Learn Privacy** | Official Google Developer platform achievement (Learning Pathway: learn privacy). |
+| 2026-06-05 | **Android Basics Compose Unit 8 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 8 pathway 1). |
+| 2026-06-05 | **App Check** | Official Google Developer platform achievement (Learning Pathway: app_check). |
+| 2026-06-05 | **Learnings** | Official Google Developer platform achievement (Learning Pathway: learnings). |
+| 2026-06-05 | **Applied Ml With Keras** | Official Google Developer platform achievement (Learning Pathway: applied ml with keras). |
+| 2026-06-05 | **Apps Script** | Official Google Developer platform achievement (Learning Pathway: apps_script). |
+| 2026-06-05 | **Android Basics Compose Unit 2 Pathway 3** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 2 pathway 3). |
+| 2026-06-05 | **Android Basics Compose Unit 7 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 7 pathway 1). |
+| 2026-06-05 | **Jetpack Compose For Android Developers 5** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 5). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-16.md](./google-developer-2026-06-part-16.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-18.md](./google-developer-2026-06-part-18.md)

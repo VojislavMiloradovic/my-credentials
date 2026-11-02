@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
 chunk_part: 35 of 37
-date_range: 2026-09-03 to 2026-09-29
-total_entries: 46
+date_range: 2026-08-22 to 2026-09-12
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md
 layer: L2_published
 transform: unknown
@@ -11,33 +11,10 @@ artifacts: complete, index
 
 # google-developer -- Part 35
 
-> **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md) | [Complete Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-08-part-34.md](./google-developer-2026-08-part-34.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-09-29 | **Fe Track Planner Mcp Toolbox Adk** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/en/fe-track-planner-mcp-toolbox-adk [WARN] *Content retired* |
-| 2026-09-29 | **Your First Course on Google Cloud 2026** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-foundation-one |
-| 2026-09-29 | **Architecting Long-Term Agent Memory with BigQuery and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-agent-long-term-memory-bigquery |
-| 2026-09-29 | **Architecting an Autonomous Software Factory: End-to-End Agentic Delivery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/software-factory-end-to-end |
-| 2026-09-29 | **Build a Multimodal Durian Sommelier with ADK and Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/durian-sommelier-multi-agent-adk |
-| 2026-09-29 | **Remote Attestation and Secure Key Release on Intel TDX Confidential VMs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/confidential-vm-tdx |
-| 2026-09-29 | **Real-time Accelerated Image Segmentation on Android with LiteRT** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/litert-image-segmentation-android |
-| 2026-09-29 | **Build an Agentic Pitch Generator: Orchestration, Evaluation, and Analytics with Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bwg-agentic-masterclass |
-| 2026-09-29 | **Build a Multi-Agent Formula E Track Planner with ADK & A2A** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/formula-e-build-multi-agent-track-planner |
-| 2026-09-22 | **How to Deploy Hermes Agent on Cloud Run instances** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-hermes-cloud-run-instances |
-| 2026-09-22 | **Agent Gateway centralized governance with cross-project Agent Registry for Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-multiproject |
-| 2026-09-22 | **Build and Deploy an Autonomous Hyper-Personalized CX & Fulfillment Agent Using ADK 2.0 & MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/devsite/codelabs/adk-mcp-fulfillment-agent |
-| 2026-09-22 | **Improve app performance with Baseline Profiles** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-baseline-profiles-improve |
-| 2026-09-22 | **Inspect app performance with Macrobenchmark** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-macrobenchmark-inspect |
-| 2026-09-22 | **Working with Preferences DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-preferences-datastore |
-| 2026-09-22 | **Sharing the Thread Network With Google Thread Credentials APIs** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/thread-sharing-apis |
-| 2026-09-22 | **Beyond vibe coding for the web** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/beyond-vibe-coding-for-the-web |
-| 2026-09-15 | **Agw Cuj Arun Manual Multiproject** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-manual-multiproject [WARN] *Content retired* |
-| 2026-09-15 | **Market Street — State and the Human in the Loop at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley-market/instructions |
-| 2026-09-15 | **Rails 8 on Google Cloud: From Zero to AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/rails8-on-google-cloud |
-| 2026-09-15 | **Governing Autonomous AI Agents with Agent Gateway and Semantic Governance Policies** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/enterprise-agent-governance-sgp |
-| 2026-09-12 | **Add a user authentication flow to a Flutter app using FirebaseUI** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-auth-in-flutter-apps |
-| 2026-09-12 | **Introduction to Google's Antigravity – Build your own NUS shuttle bus timing web app and Telegram bot** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-nus-transit-hub-antigravity |
 | 2026-09-12 | **Install and use Google Cloud Developer plugin in Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-dev-plugin-agy |
 | 2026-09-08 | **Vibetube Ads: Agentic Data Engineering** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vibetube-ads-agentic-data-engineering/instructions |
 | 2026-09-08 | **Advanced ADK Evaluation with LLM-as-a-Judge Method** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/advanced-adk-evaluation-with-llm-as-a-judge |
@@ -45,7 +22,7 @@ artifacts: complete, index
 | 2026-09-08 | **MDC-111 Android: Incorporating Material Components into your codebase (Kotlin)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mdc-111-kotlin |
 | 2026-09-08 | **Jenkins Multi-branch Pipeline on GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/jenkins-pipeline-gke |
 | 2026-09-08 | **Platform engineering on Managed Service for Apache Spark using Gemini and MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/managed-spark-ai-toolkit |
-| 2026-09-08 | **Use Actions on Google to make your home smarter** | Verified Google Developer learning activity. URL: https://developers.google.com/learn/pathways/aog-smart-home |
+| 2026-09-08 | **Use Actions on Google to make your home smarter** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/aog-smart-home |
 | 2026-09-08 | **How to deploy a webapp with Claude Code** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/claude/how-to-deploy-a-webapp-with-claude-code/how-to-deploy-a-webapp-with-claude-code |
 | 2026-09-08 | **TensorFlow.js — Making Predictions from 2D Data** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/tfjs-training-regression |
 | 2026-09-08 | **Make your Android app more accessible** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/make-your-android-app-accessible |
@@ -61,7 +38,31 @@ artifacts: complete, index
 | 2026-09-03 | **Speed up attention on GPU with cuDNN and TransformerEngine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-05-attention-gpu |
 | 2026-09-03 | **FraudFinder: From raw data to AI with Vertex AI and BigQuery.** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/fraudfinder-bqml |
 | 2026-09-03 | **Your First Agent — Summoning at Agent Valley** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-valley/instructions |
+| 2026-09-03 | **Control JAX compilation with jax.jit** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-02-jit-compilation |
+| 2026-09-03 | **Export and serve a trained JAX model** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-08-serving-export |
+| 2026-09-03 | **Learn Car App Library fundamentals** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/car-app-library-fundamentals |
+| 2026-09-03 | **Train a model on GPU with JAX, Optax, and Fashion-MNIST** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-04-training-loop |
+| 2026-09-03 | **How to Run TorchServe and Stable Diffusion on Cloud Run GPUs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/how-to-use-stable-diffusion-cloud-run-gpu |
+| 2026-09-03 | **TPU-speed data pipelines: tf.data.Dataset and TFRecords** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/keras-flowers-data |
+| 2026-09-03 | **Run your first JAX program on NVIDIA GPUs with GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-01-getting-started |
+| 2026-09-03 | **Train a transformer end to end with Flax NNX and Orbax** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/jax-gpu-07-transformer-end-to-end |
+| 2026-08-31 | **Looker PSC Southbound access to multiple Cloud SQL PSC instances through proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-psc-looker-cloudsql-southbound-proxy |
+| 2026-08-31 | **Investigate a GKE outage with Antigravity CLI and SRE Extension and build a beautiful Post Mortem** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/investigate-gke-cluster-breakage-scenarios-with-postmortem |
+| 2026-08-31 | **Deploy an ADK agent to Agent Runtime using Agents CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/enterprise-cloud-scale-deploying-the-expense-agent-to-agent-runtime-on-google-cloud |
+| 2026-08-31 | **Firebase iOS codelab: FriendlyChat** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-ios-swift |
+| 2026-08-31 | **Agent Gateway ingress to Agent Runtime with Model Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-ingress-modar |
+| 2026-08-28 | **How to Deploy OpenClaw on Cloud Run Instances** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances |
+| 2026-08-28 | **Way Back Home - Level 0: Identify Yourself** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-0/instructions |
+| 2026-08-28 | **Build Your First Database-Backed Web App with Google AI Studio and Cloud SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-ai-studio-csql |
+| 2026-08-28 | **Build a User-Authenticated AI Application with Custom Instructions on Google AI Studio & Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-ai-challenge |
+| 2026-08-28 | **QueryData for AlloyDB using Gemini Data Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/alloydb-querydata |
+| 2026-08-28 | **Google's Agent Stack in Action: ADK, A2A, MCP on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/instavibe-adk-multi-agents/instructions |
+| 2026-08-28 | **Find and fix application issues with Gemini Cloud Assist** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/gemini-cloud-assist-debug-database |
+| 2026-08-28 | **Google Workspace MCP servers with Antigravity in Gemini Enterprise** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-mcp-antigravity-ge |
+| 2026-08-28 | **Way Back Home - Live Bidirectional Multi-Agent system** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-4/instructions |
+| 2026-08-28 | **Getting started with Hybrid Search in AlloyDB and Apache Solr** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-solr-fdw |
+| 2026-08-22 | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/speculation-rules |
 
 ---
-> **Navigation:** Prev: [google-developer-2026-09-part-34.md](./google-developer-2026-09-part-34.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md)
+> **Navigation:** Prev: [google-developer-2026-08-part-34.md](./google-developer-2026-08-part-34.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md)
 

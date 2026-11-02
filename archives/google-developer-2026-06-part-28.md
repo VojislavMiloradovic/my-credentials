@@ -1,7 +1,7 @@
 ---
 archive_platform: google-developer
 chunk_part: 28 of 37
-date_range: 2026-06-18 to 2026-06-20
+date_range: 2026-06-10 to 2026-06-20
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-28.md
 layer: L2_published
@@ -15,19 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-20 | **Build a Patent Search App with AlloyDB, Vector Search & Vertex AI!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/patent-search-alloydb-gemini |
-| 2026-06-20 | **Build a complete integration with Health Connect** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/health-connect |
-| 2026-06-20 | **Building Persistent AI Agents with ADK and CloudSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/persistent-adk-cloudsql |
-| 2026-06-20 | **Build QA Test Planner Agent using ADK, MCP, and Gemini 2.5 Flash with Thinking Mode** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/qa-test-planner-adk-mcp |
-| 2026-06-20 | **Build a handwritten digit classifier app with TensorFlow Lite** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/digit-classifier-tflite |
-| 2026-06-20 | **Build, train, and deploy an XGBoost model on Cloud AI Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/xgb-caip-e2e |
-| 2026-06-20 | **Build a handwritten digit classifier Android app with MediaPipe Tasks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mp-digit-classifier-android |
-| 2026-06-20 | **Build a Patent Search App with Spanner, Vector Search & Gemini 1.0 Pro!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/patent-search-spanner-gemini |
-| 2026-06-20 | **Buffer HTTP requests with Cloud Tasks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-easy-http-cloud-tasks |
-| 2026-06-20 | **🛡️ Build a Secure Agent with Model Armor and Identity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-customer-service-agent/instructions |
-| 2026-06-20 | **Build an appointment scheduler with Dialogflow** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/chatbots-dialogflow-appointment-scheduler |
-| 2026-06-20 | **Bot Management with Google Cloud Armor + reCAPTCHA** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-armor-recaptcha-bot-management |
-| 2026-06-20 | **Building Stateful and Personalized Agents with ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-memory/instructions |
 | 2026-06-20 | **Build an event-driven orchestration with Eventarc and Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-event-driven-orchestration |
 | 2026-06-20 | **Getting started with Spanner Vector Search** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/spanner-getting-started-vector-search |
 | 2026-06-20 | **Building Trusted AI Products with the PAIR Guidebook** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/pair-guidebook |
@@ -62,6 +49,19 @@ artifacts: complete, index
 | 2026-06-18 | **Build Rich Agentic Interfaces with ADK and A2UI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-gemini-a2ui |
 | 2026-06-18 | **Accelerating Development with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/genai-for-dev-antigravity-cli |
 | 2026-06-18 | **Google Developer Knowledge MCP server in Google Antigravity 2.0, IDE, and/or CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/developer-knowledge-mcp-antigravity |
+| 2026-06-18 | **Programmatic data quality with Knowledge Catalog and generative AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/programmatic-dq |
+| 2026-06-18 | **Connect and visualize all your data in Data Studio** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/community-connectors |
+| 2026-06-17 | **Hands-on with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/antigravity-cli-hands-on |
+| 2026-06-17 | **Vibecode and Secure an AI Agent Lifecycle with Antigravity and TDD** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-agentic-coding |
+| 2026-06-13 | **Vibecode an ADK 2.0 Ambient Agent with Antigravity and Agents CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vibecode-ambient-expense-agent |
+| 2026-06-13 | **Lab 1: Ingest and Govern Logistics Data** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab1 |
+| 2026-06-13 | **Lab 3: Uncovering Lost Cargo with BigQuery Graph and Conversational Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab3 |
+| 2026-06-13 | **Lab 2: Data Analysis & Multimodal Insights** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-roadshow-26/lab2 |
+| 2026-06-10 | **Serverless AI: EmbeddingGemma with Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/embeddinggemma-cloud-run |
+| 2026-06-10 | **Build a no-code app using the native AppSheet database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/appsheet-asdb |
+| 2026-06-10 | **Configure ABAP SDK authentication using tokens for SAP hosted on Compute Engine VM and execute Address validation API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/abap-sdk/auth-goog |
+| 2026-06-10 | **Migrating from Google App Engine Java app to Cloud Run with Jib** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-gae-java-migrate-jib |
+| 2026-06-10 | **Using External HTTP(s) Hybrid load balancer to reach a Network Endpoint Group** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-l7-hybridneg |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-27.md](./google-developer-2026-06-part-27.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-29.md](./google-developer-2026-06-part-29.md)
