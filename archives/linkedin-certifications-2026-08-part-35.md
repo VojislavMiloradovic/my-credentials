@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 35 of 43
 date_range: 2026-08 to 2026-08
-total_entries: 45
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-08-part-35.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,14 @@ artifacts: complete, index
 
 # LinkedIn Certifications -- Part 35
 
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-36.md](./linkedin-certifications-2026-10-part-36.md) | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-36.md](./linkedin-certifications-2026-09-part-36.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-08 | **AWS Knowledge: Amazon WorkSpaces Migrations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/0e88fcd8-a96b-4dbb-bfd6-edea7d8f3f31/linked_in_profile) |
+| 2026-08 | **Create and Manage Cloud Spanner Instances Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/22ddf09a-7e02-44c6-9a92-4c25ae5e05f0/linked_in_profile) |
+| 2026-08 | **Cloud Tech Pro - Email Archiving** | Acronis | [Verify Record](https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/linked_in_profile) |
+| 2026-08 | **Cloud Tech Professional EDR** | Acronis | [Verify Record](https://www.credly.com/badges/1bf4cc99-349a-43d4-a520-4fcda2a5df27/linked_in_profile) |
 | 2026-08 | **Maturing Threat-Informed Defense with M3TID** | AttackIQ | [Verify Record](https://www.credly.com/badges/2e8b7ceb-8d8c-4c3b-bf12-e183a5d4b47d/linked_in_profile) |
 | 2026-08 | **Unlocking the Power of CTI Blueprints** | AttackIQ | [Verify Record](https://www.credly.com/badges/4490aa99-d5e9-4a20-9d66-e996f670f34f/linked_in_profile) |
 | 2026-08 | **Cilium LoadBalancer IPAM and BGP Service Advertisement** | Isovalent | [Verify Record](https://www.credly.com/badges/d181f780-e6ee-4fef-8bd1-df291a355438/linked_in_profile) |
@@ -57,10 +61,7 @@ artifacts: complete, index
 | 2026-08 | **Creating and Delivering Presentations Nano Tips with Jessica Chen** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2ddcf5bde8b5a3139ae0c482634ea7fa1da7828b8c0239de0169aaaccc2328c7) |
 | 2026-08 | **Nano Tips for Communicating with Confidence with Selena Rezvani** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/ddb7db09fdedf02fa5c66d29d793773208a66f42c6b7314b1ec2fb57b946584f) |
 | 2026-08 | **Sharing Your Expertise Online Nano Tips with Kim Kaupe** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bde819042ebc39e9a21e6e8c5dc6c36253726c52679ec4e8146f7b6a92b485ec) |
-| 2026-08 | **Nano Tips for Professional Networking with AJ Eckstein** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2257545b759b92dcaf9baab5835c1ba048213a362021cb3623d37b812c992833) |
-| 2026-08 | **How to Run Efficient Hybrid Meetings Nano Tips with Lorraine K. Lee** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/dfa309162124860a55b838edda085ea669b53a564f29d29f8ffdb5e87322fc5b) |
-| 2026-08 | **Embracing Unexpected Change (with Audio Descriptions)** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/2cb61befdab7a85f1ee50cb31723e5f72ee1cfdd6f634a88d63284f3c7ba57c7) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-10-part-36.md](./linkedin-certifications-2026-10-part-36.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-09-part-36.md](./linkedin-certifications-2026-09-part-36.md)
 

@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
+| 2026-08 | **Nano Tips to Prepare for Public Speaking with Nausheen I. Chen** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/82735a90cef548ca06540c364605e9745f10a6d6231b90d2c14134d4c9de2b40) |
+| 2026-08 | **Nano Tips for Landing Your Dream Job with Austin Belcak** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/48845fd3dd9a6067db8073d5f8cd704e816dd6ce7d4b414576e965bcabd93beb) |
+| 2026-08 | **Nano Tips for Communicating with Courage at Work with Tatiana Kolovou** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/02b5769f123c412dddea10de4a96cfdc393f800213e7c5e568881ca14a073710) |
 | 2026-08 | **Agentless Threat Emulation with AttackIQ Flex v3** | AttackIQ | [Verify Record](https://www.credly.com/badges/063a5019-ef91-46ce-b3ad-6bd1e4bbe8a0/linked_in_profile) |
 | 2026-08 | **Job Hunting for College Grads** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bf149c3d0e5dcd670156b32ccc4be1e76ae69442aec1ac384bbe06b083350770) |
 | 2026-08 | **Nano Tips to Navigate Setbacks with Confidence with Dr. Gemma Leigh Roberts** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/770e8c7416081dc195487046c3a2669f7b5e30096bf4d9338125c426b19c0450) |
@@ -57,9 +60,6 @@ artifacts: complete, index
 | 2026-08 | **Cilium Multi Networking** | Isovalent | [Verify Record](https://www.credly.com/badges/b1b71f3f-33ae-4d2b-a02d-42a31937b2a1/linked_in_profile) |
 | 2026-08 | **B2B Sales Strategy: Avoid Prospect Stalls and Stops** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/bdcd1070dfaa28daec89f6999ec69fcb4694023b560e2ab81080850dbde2c001) |
 | 2026-08 | **Building Resilience as a Leader** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/402bf3c13e482ac2c90c94c383a49ae47d6748e2fa637175ccf949adca64530b) |
-| 2026-08 | **Mixtape: Learning Highlights on Personal Effectiveness** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/1a9c270f7119c3d9fdc404828845c68674106016ba3466cfe636facf492bad7b) |
-| 2026-08 | **Marketing on LinkedIn** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/b8a074c56f0aaf0fc4d41eaddb3f08763dd745f824d626acadb3648e6bc2a2c1) |
-| 2026-08 | **Social Media Marketing for Small Business** | LinkedIn | [Verify Record](https://www.linkedin.com/learning/certificates/fc47888bd5ca06001489afef0f5c5e1ae54b73a297cc1473dbdba0f69e8cdc7b) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-08-part-32.md](./linkedin-certifications-2026-08-part-32.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-08-part-34.md](./linkedin-certifications-2026-08-part-34.md)
