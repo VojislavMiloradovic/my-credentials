@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-02T23:28:53.748221+00:00",
+  "timestamp": "2026-11-03T04:55:17.121459+00:00",
   "summary": {
     "total": 95,
     "passed": 95,
@@ -83,19 +83,19 @@
       "latest_record_date_jsonld": null
     },
     "google-developer": {
-      "source_records": 1758,
-      "archive_complete_records": 1758,
+      "source_records": 1774,
+      "archive_complete_records": 1774,
       "index_total": 172,
       "readme_count": 172,
-      "jsonld_count": 1758,
+      "jsonld_count": 1774,
       "llms_txt_count": 172,
       "llms_full_count": 1,
       "retired_in_source": 15,
       "retired_in_archive": 15,
       "retired_in_jsonld": 15,
-      "latest_record_date_source": "2026-10-21T00:00:00",
-      "latest_record_date_archive": "2026-10-21T00:00:00",
-      "latest_record_date_jsonld": "2026-10-21T00:00:00"
+      "latest_record_date_source": "2026-11-02T00:00:00",
+      "latest_record_date_archive": "2026-11-02T00:00:00",
+      "latest_record_date_jsonld": "2026-11-02T00:00:00"
     }
   },
   "results": [
@@ -149,8 +149,8 @@
       "platform": "google-developer",
       "passed": true,
       "expected": "> 0",
-      "actual": 1758,
-      "message": "Source snapshot has 1758 records (15 retired)",
+      "actual": 1774,
+      "message": "Source snapshot has 1774 records (15 retired)",
       "severity": "warning"
     },
     {
@@ -203,8 +203,8 @@
       "platform": "google-developer",
       "passed": true,
       "expected": "> 0",
-      "actual": 1758,
-      "message": "Complete archive has 1758 records (15 retired)",
+      "actual": 1774,
+      "message": "Complete archive has 1774 records (15 retired)",
       "severity": "error"
     },
     {
@@ -365,8 +365,8 @@
       "platform": "google-developer",
       "passed": true,
       "expected": "> 0",
-      "actual": 1758,
-      "message": "JSON-LD has 1758 credentials (15 retired)",
+      "actual": 1774,
+      "message": "JSON-LD has 1774 credentials (15 retired)",
       "severity": "error"
     },
     {
@@ -805,45 +805,45 @@
       "check": "declared_transform_L0_raw_to_L1_normalized:milestones",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1758 (transform: extract_milestone_badges_dedupe)",
-      "actual": 1758,
-      "message": "Declared transform L0_raw -> L1_normalized:milestones (extract_milestone_badges_dedupe): 1758 -> 1758 [OK]",
+      "expected": "1774 (transform: extract_milestone_badges_dedupe)",
+      "actual": 1774,
+      "message": "Declared transform L0_raw -> L1_normalized:milestones (extract_milestone_badges_dedupe): 1774 -> 1774 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L0_raw_to_L1_normalized:micro_learnings",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1758 (transform: parse_mhtml_codelabs)",
-      "actual": 1758,
-      "message": "Declared transform L0_raw -> L1_normalized:micro_learnings (parse_mhtml_codelabs): 1758 -> 1758 [OK]",
+      "expected": "1774 (transform: parse_mhtml_codelabs)",
+      "actual": 1774,
+      "message": "Declared transform L0_raw -> L1_normalized:micro_learnings (parse_mhtml_codelabs): 1774 -> 1774 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published:complete",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1758 (transform: combine_streams)",
-      "actual": 1758,
-      "message": "Declared transform L1_normalized -> L2_published:complete (combine_streams): 1758 -> 1758 [OK]",
+      "expected": "1774 (transform: combine_streams)",
+      "actual": 1774,
+      "message": "Declared transform L1_normalized -> L2_published:complete (combine_streams): 1774 -> 1774 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published:index",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1758 (transform: split_streams)",
-      "actual": 1758,
-      "message": "Declared transform L1_normalized -> L2_published:index (split_streams): 1758 -> 1758 [OK]",
+      "expected": "1774 (transform: split_streams)",
+      "actual": 1774,
+      "message": "Declared transform L1_normalized -> L2_published:index (split_streams): 1774 -> 1774 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L3_display",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1758 (transform: count_streams_separately)",
+      "expected": "1774 (transform: count_streams_separately)",
       "actual": 172,
-      "message": "Declared transform L1_normalized -> L3_display (count_streams_separately): 1758 -> 172 [OK]",
+      "message": "Declared transform L1_normalized -> L3_display (count_streams_separately): 1774 -> 172 [OK]",
       "severity": "error"
     },
     {
@@ -1021,7 +1021,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-10-21 to 2026-10-21)",
+      "message": "Latest record dates span 0 days across artifacts (2026-11-02 to 2026-11-02)",
       "severity": "warning"
     }
   ]
