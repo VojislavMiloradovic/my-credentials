@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Skills Credentials
 chunk_part: 9 of 9
-date_range: 2026-09-08 to 2026-11-02
-total_entries: 32
+date_range: 2026-09-08 to 2026-11-04
+total_entries: 33
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-09.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-04 | [Arcade Simulator: Cloud Infrastructure Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29404510) | Google Cloud | Google Skill Badge |
 | 2026-11-02 | [Diwali in the Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29349189) | Google Cloud | Google Skill Badge |
 | 2026-11-01 | [Understand Your Google Cloud Costs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29320786) | Google Cloud | Google Skill Badge |
 | 2026-10-26 | [Analyze Speech and Language with Google APIs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29139278) | Google Cloud | Google Skill Badge |
