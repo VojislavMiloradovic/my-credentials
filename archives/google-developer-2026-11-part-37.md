@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
-chunk_part: 37 of 37
-date_range: 2026-10-08 to 2026-11-02
-total_entries: 43
+chunk_part: 37 of 38
+date_range: 2026-10-08 to 2026-11-04
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-11-part-37.md
 layer: L2_published
 transform: unknown
@@ -11,10 +11,12 @@ artifacts: complete, index
 
 # google-developer -- Part 37
 
-> **Navigation:** Prev: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md) | [Index](./google-developer-index.md) | Next: None | [Complete Archive](./google-developer-complete.md)
+> **Navigation:** Prev: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-11-part-38.md](./google-developer-2026-11-part-38.md) | [Complete Archive](./google-developer-complete.md)
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-11-04 | **In-warehouse tabular AI with BigQuery TabFM, autonomous embeddings, and filtered semantic search** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-processing-bigquery-tabfm-embeddings-hybrid-search |
+| 2026-11-03 | **Secure Your CI/CD Pipeline with CodeMender** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/secure-ci-cd-pipeline-with-codemender |
 | 2026-11-02 | **Alert testers about your new app releases with Firebase App Distribution iOS SDK - Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/appdistribution-ios |
 | 2026-11-02 | **Building AI Agents with ADK: Orchestrating Agent Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-orchestrating-agent-workflows |
 | 2026-11-02 | **Build an AI Agent that acts On-Behalf-Of the user with Agent Identity and Auth Manager** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-identity-auth-manager |
@@ -60,5 +62,5 @@ artifacts: complete, index
 | 2026-10-08 | **Build a Formula E Driver Performance Analyzer App with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/fe-antigravity-cli-cicd |
 
 ---
-> **Navigation:** Prev: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md) | [Index](./google-developer-index.md) | Next: None
+> **Navigation:** Prev: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-11-part-38.md](./google-developer-2026-11-part-38.md)
 

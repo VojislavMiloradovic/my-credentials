@@ -1,17 +1,24 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1774 records.
+This document represents a unified, verifiable list of all 1781 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-03T05:25:32.265134+00:00 -->
+<!-- retrieved_at: 2026-11-04T16:42:14.921826+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-11-04 | **BigQuery AI functions at scale: zero-shot forecasting and cost guardrails** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-processing-bigquery-ai-forecasting-finops-guardrails |
+| 2026-11-04 | **Sovereign multi-cloud lakehouse with Apache Iceberg REST catalog federation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-ingestion-sovereign-multicloud-iceberg-lakehouse |
+| 2026-11-04 | **Modern data science compute with Managed Service for Apache Spark and the Lightning Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-science-spark-lightning-engine-feature-engineering |
+| 2026-11-04 | **Get Started with Antigravity on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/get-started-with-antigravity-on-google-cloud |
+| 2026-11-04 | **Migrate Databricks and Snowflake workloads to BigQuery and Managed Service for Apache Spark** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-modernization-databricks-snowflake-migration |
+| 2026-11-04 | **In-warehouse tabular AI with BigQuery TabFM, autonomous embeddings, and filtered semantic search** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-processing-bigquery-tabfm-embeddings-hybrid-search |
+| 2026-11-03 | **Secure Your CI/CD Pipeline with CodeMender** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/secure-ci-cd-pipeline-with-codemender |
 | 2026-11-02 | **Alert testers about your new app releases with Firebase App Distribution iOS SDK - Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/appdistribution-ios |
 | 2026-11-02 | **Building AI Agents with ADK: Orchestrating Agent Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-orchestrating-agent-workflows |
 | 2026-11-02 | **Build an AI Agent that acts On-Behalf-Of the user with Agent Identity and Auth Manager** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-identity-auth-manager |

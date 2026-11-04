@@ -208,24 +208,24 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 172 |
-| **Total Codelabs & Learning Activities** | 1,724 |
+| **Total Codelabs & Learning Activities** | 1,731 |
 
 #### Latest Achievements
 
-Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-11-part-37.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-11-part-37.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
+Showing latest 10 merged activities. View full data via [Platform Archive Index](./archives/google-developer-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-index.md)), latest slice [Latest Slice](./archives/google-developer-2026-11-part-38.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-11-part-38.md)), or [Monolithic Complete File](./archives/google-developer-complete.md).
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| *2026-11-04* | **BigQuery AI functions at scale: zero-shot forecasting and cost guardrails** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-processing-bigquery-ai-forecasting-finops-guardrails |
+| *2026-11-04* | **Sovereign multi-cloud lakehouse with Apache Iceberg REST catalog federation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-ingestion-sovereign-multicloud-iceberg-lakehouse |
+| *2026-11-04* | **Modern data science compute with Managed Service for Apache Spark and the Lightning Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-science-spark-lightning-engine-feature-engineering |
+| *2026-11-04* | **Get Started with Antigravity on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/get-started-with-antigravity-on-google-cloud |
+| *2026-11-04* | **Migrate Databricks and Snowflake workloads to BigQuery and Managed Service for Apache Spark** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-modernization-databricks-snowflake-migration |
+| *2026-11-04* | **In-warehouse tabular AI with BigQuery TabFM, autonomous embeddings, and filtered semantic search** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-processing-bigquery-tabfm-embeddings-hybrid-search |
+| *2026-11-03* | **Secure Your CI/CD Pipeline with CodeMender** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/secure-ci-cd-pipeline-with-codemender |
 | *2026-11-02* | **Alert testers about your new app releases with Firebase App Distribution iOS SDK - Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/appdistribution-ios |
 | *2026-11-02* | **Building AI Agents with ADK: Orchestrating Agent Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-orchestrating-agent-workflows |
 | *2026-11-02* | **Build an AI Agent that acts On-Behalf-Of the user with Agent Identity and Auth Manager** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-identity-auth-manager |
-| *2026-11-02* | **Cloud NGFW Enterprise Codelab [w/ TLS Inspection]** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-ngfw-enterprise-tls |
-| *2026-11-02* | **Migrate from App Engine Task Queue pull tasks to Cloud Pub/Sub (Module 19)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-gae-python-migrate-19-pubsub |
-| *2026-11-02* | **Alert testers about your new app releases with Firebase App Distribution Android SDK - Codelab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/appdistribution-android |
-| *2026-11-02* | **Hybrid and Multi-VPC DNS Resolution with Cloud DNS Outbound Endpoints** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-dns-outbound-endpoints |
-| *2026-11-02* | **Validate Places API requests with Firebase AppCheck and reCAPTCHA** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/maps-platform/places-firebase-appcheck |
-| *2026-11-02* | **Closed-loop streaming CDC with Spanner, Dataflow, and BigQuery continuous queries** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-streaming-cdc-spanner-bigquery-continuous-queries |
-| *2026-11-02* | **Deploy a RAG AI Agent with Claude in Streamlit using Google ADK, Firestore, and Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/build-streamlit-rag-agent-claude-adk-cloud-run |
 <!-- GOOGLE_DEVELOPER_END -->
 
 
