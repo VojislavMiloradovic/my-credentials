@@ -64,8 +64,8 @@ INTERNAL_STATS = {
     "Course": 427,
     "Check": 2047,
     "Classroom": 0,
-    "Game": 13,
-    "Lab": 362,
+    "Game": 14,
+    "Lab": 377,
     "Lesson": 5112,
     "Path": 18,
 }
