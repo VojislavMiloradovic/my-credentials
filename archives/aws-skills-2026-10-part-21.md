@@ -11,7 +11,7 @@ artifacts: complete, index
 
 # AWS Skill Builder Credentials -- Part 21
 
-> **Navigation:** Prev: [aws-skills-2026-10-part-20.md](./aws-skills-2026-10-part-20.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-10-part-22.md](./aws-skills-2026-10-part-22.md) | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-10-part-20.md](./aws-skills-2026-10-part-20.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-11-part-22.md](./aws-skills-2026-11-part-22.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
@@ -49,6 +49,7 @@ artifacts: complete, index
 | 2026-10-19 | [Amazon Connect Outbound Communications Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-19 | [Cloud for CHROs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-19 | [Cloud for CIOs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-18 | [Implementing Defense-in-Depth Security for AWS CodeBuild Pipelines](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Amazon Connect - Infrastructure as Code Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Amazon Connect Conversational Interfaces Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Amazon Connect Customer Profiles Fundamentals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -69,8 +70,7 @@ artifacts: complete, index
 | 2026-10-18 | [Cloud for CEOs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Cloud for CFOs](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-18 | [Essential security controls to prevent unauthorized account removal in AWS Organizations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-10-18 | [Fully Automating your Kubernetes Clusters using Amazon EKS Auto Mode](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-10-part-20.md](./aws-skills-2026-10-part-20.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-10-part-22.md](./aws-skills-2026-10-part-22.md)
+> **Navigation:** Prev: [aws-skills-2026-10-part-20.md](./aws-skills-2026-10-part-20.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-11-part-22.md](./aws-skills-2026-11-part-22.md)
 

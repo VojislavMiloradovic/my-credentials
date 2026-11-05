@@ -462,6 +462,34 @@
       "reason": "Auto-retired: removed from source data on 2026-10-30",
       "retired_at": "2026-10-30",
       "title": "bd12c475d617f3d0"
+    },
+    {
+      "id": "81a3d915fd410e00",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-05",
+      "retired_at": "2026-11-05",
+      "title": "81a3d915fd410e00"
+    },
+    {
+      "id": "c98952e448334ed7",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-05",
+      "retired_at": "2026-11-05",
+      "title": "c98952e448334ed7"
+    },
+    {
+      "id": "ede11fe309720368",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-05",
+      "retired_at": "2026-11-05",
+      "title": "ede11fe309720368"
+    },
+    {
+      "id": "fb2ad352fa554966",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-05",
+      "retired_at": "2026-11-05",
+      "title": "fb2ad352fa554966"
     }
   ],
   "credly": [],
