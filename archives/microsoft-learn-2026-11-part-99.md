@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 99 of 99
 date_range: 2026-10-15 to 2026-11-06
-total_entries: 24
+total_entries: 26
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-99.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Assess the Business Central architecture** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/assess-business-central-architecture/) |
 | **Operate virtual machine workloads on Azure Local** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-virtual-machine-operations/) |
 | **Benchmark your code's performance** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/benchmark-your-code-performance/) |
 | **Deliver real-time AI experiences with Azure Web PubSub** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/real-time-ai-web-pubsub/) |
@@ -38,6 +39,7 @@ artifacts: complete, index
 | **Restrict unauthorized code execution with Code Integrity policies on Windows Server** | Modules | 2026-10-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/app-control-windows-server/) |
 | **Extend Dataverse with code and Azure compute** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-dataverse-code-azure/) |
 | **Get started with Microsoft Power Platform development** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-platform-development/) |
+| **Build professional Power Apps experiences** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-power-apps-experiences/) |
 | **Build reusable controls with Power Apps component framework** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component-framework-code-components/) |
 
 ---

@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 45 of 99
 date_range: 2026-02-11 to 2026-02-12
-total_entries: 51
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-45.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -65,7 +65,6 @@ artifacts: complete, index
 | **Get started with Power Apps component framework** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-apps-component-framework/) |
 | **Write your first query with Kusto Query Language** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-first-query-kusto-query-language/) |
 | **Introduction to Azure Data Explorer** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-data-explorer/) |
-| **Understand Microsoft Fabric IQ fundamentals** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-fabric-iq-fundamentals/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-44.md](./microsoft-learn-2026-02-part-44.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-46.md](./microsoft-learn-2026-02-part-46.md)

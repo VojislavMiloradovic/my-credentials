@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 98 of 99
 date_range: 2026-10-11 to 2026-10-15
-total_entries: 56
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-98.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Build professional Power Apps experiences** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-power-apps-experiences/) |
 | **Implement business logic with Microsoft Dataverse plug-ins** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dataverse-plug-ins/) |
 | **Diagnose advanced Microsoft Dataverse API failures** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/diagnose-dataverse-api-failures/) |
 | **Security campaigns and prevention-first strategy** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-campaign/) |
