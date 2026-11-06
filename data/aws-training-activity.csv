@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
-Generated on: 5. новембар 2026.
-Total rows: 1170
+Generated on: 6. новембар 2026.
+Total rows: 1173
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED] Advanced fine-tuning methods on Amazon SageMaker AI,Digital course,Retired,0,-,"September 6, 2026","September 6, 2026","September 6, 2026",1 hour 30 minutes,Advanced,English
@@ -186,6 +186,7 @@ Amazon Connect Outbound Communications Channel Configuration and Setup,Digital c
 Amazon Connect Outbound Communications Multi-Channel Campaign Design,Digital course,Completed,0,-,"August 9, 2026","August 9, 2026","August 9, 2026",45 minutes,Intermediate,English
 Amazon Connect Outbound Communications Performance Optimization and Analytics,Digital course,Completed,0,-,"August 8, 2026","August 8, 2026","August 8, 2026",45 minutes,Intermediate,English
 Amazon Connect Reporting & Analytics - Assessment,Digital course,Completed,96.66,-,"June 29, 2026","June 29, 2026","October 30, 2026",1 hour,Intermediate,English
+Amazon Connect Reporting & Analytics - Knowledge Badge Readiness Path,Learning plan,Completed,0,-,"November 6, 2026","November 6, 2026","November 6, 2026",6 hours,Intermediate,English
 Amazon Connect Routing Fundamentals,Digital course,Completed,0,-,"February 25, 2026","February 25, 2026","February 25, 2026",1 hour,Fundamental,English
 Amazon Connect Routing Intermediate,Digital course,Completed,0,-,"October 23, 2026","October 23, 2026","October 23, 2026",30 minutes,Intermediate,English
 Amazon Connect Voice Intermediate,Digital course,Completed,0,-,"August 15, 2026","August 15, 2026","August 15, 2026",1 hour 15 minutes,Intermediate,English
@@ -478,6 +479,7 @@ AWS IPv6 Fundamentals and VPC Connectivity,Digital course,Completed,0,-,"Februar
 AWS Lake Formation Getting Started,Digital course,Completed,0,-,"July 20, 2026","July 20, 2026","July 20, 2026",1 hour 30 minutes,Fundamental,English
 AWS Lambda Foundations,Digital course,Completed,0,-,"March 9, 2026","March 9, 2026","March 9, 2026",2 hours,Fundamental,English
 AWS Lambda Getting Started,Digital course,Completed,0,-,"March 12, 2026","March 12, 2026","March 12, 2026",1 hour,Fundamental,English
+AWS Mainframe Modernization Foundations Knowledge Badge Assessment,AWS Assessment,Completed,86.67,-,"November 6, 2026","November 6, 2026","November 6, 2026",0 minutes,Fundamental,English
 AWS Migration Evaluator Getting Started,Digital course,Completed,0,-,"July 14, 2026","July 14, 2026","July 14, 2026",45 minutes,Fundamental,English
 AWS Migration Hub Primer,Digital course,Completed,0,-,"August 12, 2026","August 12, 2026","August 12, 2026",1 hour 30 minutes,Intermediate,English
 AWS ML Engineer Associate Curriculum Overview,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",45 minutes,Advanced,English
@@ -999,6 +1001,7 @@ Mastering the AWS Marketplace for Independent Software Vendors (ISV),Digital cou
 Mastering the AWS Marketplace for System Integrators (SI),Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",30 minutes,Intermediate,English
 Media & Entertainment: Direct-to-Consumer and Broadcast Foundations Knowledge Badge Assessment,Digital course,Completed,88.33333333333333,-,"June 26, 2026","June 26, 2026","June 26, 2026",1 hour 30 minutes,Intermediate,English
 Media Glossary,Digital course,Completed,0,-,"March 11, 2026","March 11, 2026","March 11, 2026",30 minutes,Fundamental,English
+Microcredential Preview Experience,Microcredential,Completed,0,-,"November 6, 2026","November 6, 2026","November 6, 2026",30 minutes,Fundamental,English
 Microsoft on AWS - Migrate SQL Server Databases to Aurora,Digital course,Completed,0,-,"October 14, 2026","October 14, 2026","October 14, 2026",1 hour 10 minutes,Intermediate,English
 Migrate from Amazon Nova 1 to Amazon Nova 2 on Amazon Bedrock,Digital course,Completed,0,-,"October 10, 2026","October 10, 2026","October 10, 2026",45 minutes,Intermediate,English
 Migrate Oracle Materialized Views with AWS DMS and Fast Refresh,Digital course,Completed,0,-,"November 5, 2026","November 5, 2026","November 5, 2026",45 minutes,Advanced,English
