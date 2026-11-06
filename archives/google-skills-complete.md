@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 422 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-05T03:58:05.125541+00:00 -->
+<!-- retrieved_at: 2026-11-06T03:55:39.738032+00:00 -->
 
 ## Verified Records Archive
 
@@ -179,7 +179,7 @@ This document represents a unified, verifiable list of all 422 records.
 | 2026-05-01 | [AI-powered Database Management with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913792) | Google Cloud | Google Skill Badge |
 | 2026-05-01 | [Agentic Strategy: Discover, Design, and Prototype](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913646) | Google Cloud | Google Skill Badge |
 | 2026-05-01 | [Running Oracle Workloads on Google Cloud: Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913319) | Google Cloud | Google Skill Badge |
-| 2026-05-01 | [Add Agent Guardrails with Callbacks](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913217) | Google Cloud | Google Skill Badge |
+| 2026-05-01 | [[DEPRECATED] Add Agent Guardrails with Callbacks](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913217) | Google Cloud | Google Skill Badge |
 | 2026-05-01 | [AI Boost Bootcamp: How to Use Gemini at Work 101](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913042) | Google Cloud | Google Skill Badge |
 | 2026-05-01 | [Human-Centered AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23912864) | Google Cloud | Google Skill Badge |
 | 2026-04-29 | [Fundamentals of Google's Arm-based Axion Processors](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23881760) | Google Cloud | Google Skill Badge |

@@ -1,9 +1,9 @@
 ---
 archive_platform: Google Skills Credentials
 chunk_part: 7 of 9
-date_range: 2026-05-23 to 2026-08-03
+date_range: 2026-05-21 to 2026-07-29
 total_entries: 49
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-08-part-07.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-07-part-07.md
 layer: L2_published
 transform: 1:1_pass_through
 artifacts: complete, index
@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-08-03 | [Privileged Access with IAM](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26258669) | Google Cloud | Google Skill Badge |
 | 2026-07-29 | [Analyze Images with the Cloud Vision API](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26066863) | Google Cloud | Google Skill Badge |
 | 2026-07-29 | [Build Event-Driven Applications with Eventarc](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/26065872) | Google Cloud | Google Skill Badge |
 | 2026-07-26 | [Implement Sensitive Data Protection on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/25946097) | Google Cloud | Google Skill Badge |
@@ -64,6 +63,7 @@ artifacts: complete, index
 | 2026-05-24 | [App Building with AppSheet](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24390898) | Google Cloud | Google Skill Badge |
 | 2026-05-24 | [Analyze BigQuery Data in Connected Sheets](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24389719) | Google Cloud | Google Skill Badge |
 | 2026-05-23 | [Build Real World AI Applications with Gemini and Imagen](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24364563) | Google Cloud | Google Skill Badge |
+| 2026-05-21 | [Website Modernization with Generative AI on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24328413) | Google Cloud | Google Skill Badge |
 
 ---
 > **Navigation:** Prev: [google-skills-2026-05-part-06.md](./google-skills-2026-05-part-06.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-09-part-08.md](./google-skills-2026-09-part-08.md)

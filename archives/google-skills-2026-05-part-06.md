@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Skills Credentials
 chunk_part: 6 of 9
-date_range: 2026-04-26 to 2026-05-21
-total_entries: 48
+date_range: 2026-04-26 to 2026-05-19
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-05-part-06.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,11 +11,10 @@ artifacts: complete, index
 
 # Google Skills Credentials -- Part 06
 
-> **Navigation:** Prev: [google-skills-2026-04-part-05.md](./google-skills-2026-04-part-05.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-08-part-07.md](./google-skills-2026-08-part-07.md) | [Complete Archive](./google-skills-complete.md)
+> **Navigation:** Prev: [google-skills-2026-04-part-05.md](./google-skills-2026-04-part-05.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-07-part-07.md](./google-skills-2026-07-part-07.md) | [Complete Archive](./google-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-05-21 | [Website Modernization with Generative AI on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24328413) | Google Cloud | Google Skill Badge |
 | 2026-05-19 | [[DEPRECATED] Data Governance with Dataplex Universal Catalog](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24287792) | Google Cloud | Google Skill Badge |
 | 2026-05-18 | [Boost Productivity with Gemini in BigQuery](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24253675) | Google Cloud | Google Skill Badge |
 | 2026-05-18 | [Accelerate App Development with Gemini CLI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24251263) | Google Cloud | Google Skill Badge |
@@ -51,7 +50,7 @@ artifacts: complete, index
 | 2026-05-01 | [AI-powered Database Management with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913792) | Google Cloud | Google Skill Badge |
 | 2026-05-01 | [Agentic Strategy: Discover, Design, and Prototype](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913646) | Google Cloud | Google Skill Badge |
 | 2026-05-01 | [Running Oracle Workloads on Google Cloud: Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913319) | Google Cloud | Google Skill Badge |
-| 2026-05-01 | [Add Agent Guardrails with Callbacks](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913217) | Google Cloud | Google Skill Badge |
+| 2026-05-01 | [[DEPRECATED] Add Agent Guardrails with Callbacks](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913217) | Google Cloud | Google Skill Badge |
 | 2026-05-01 | [AI Boost Bootcamp: How to Use Gemini at Work 101](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23913042) | Google Cloud | Google Skill Badge |
 | 2026-05-01 | [Human-Centered AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23912864) | Google Cloud | Google Skill Badge |
 | 2026-04-29 | [Fundamentals of Google's Arm-based Axion Processors](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23881760) | Google Cloud | Google Skill Badge |
@@ -65,5 +64,5 @@ artifacts: complete, index
 | 2026-04-26 | [Liftoff with Google Antigravity: Build a Video Game with AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23816150) | Google Cloud | Google Skill Badge |
 
 ---
-> **Navigation:** Prev: [google-skills-2026-04-part-05.md](./google-skills-2026-04-part-05.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-08-part-07.md](./google-skills-2026-08-part-07.md)
+> **Navigation:** Prev: [google-skills-2026-04-part-05.md](./google-skills-2026-04-part-05.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-07-part-07.md](./google-skills-2026-07-part-07.md)
 
