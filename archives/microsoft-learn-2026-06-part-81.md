@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 81 of 99
-date_range: 2026-05-30 to 2026-06-02
+date_range: 2026-05-31 to 2026-06-02
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-81.md
 layer: L2_published
@@ -15,6 +15,11 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Implement and manage Microsoft Purview Data Loss Prevention** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-manage-dlp/) |
+| **Create and manage data loss prevention policies** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-create-manage-policies/) |
+| **Protect information in a Microsoft 365 Copilot environment using Microsoft Purview** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-microsoft-365-copilot-environment/) |
+| **Develop agents and applications using agentic programming tools** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-embed-custom-code-agents/) |
+| **Implement spec-driven development using the GitHub Spec Kit** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-enterprise-developers/) |
 | **Optimize vector search in Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-vector-search-azure-database-postgresql/) |
 | **Develop AI solutions with Azure Database for PostgreSQL** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-database-postgresql/) |
 | **Implement vector search with Azure Database for PostgreSQL** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-vector-search-azure-database-postgresql/) |
@@ -60,11 +65,6 @@ artifacts: complete, index
 | **Resolve GitHub issues using GitHub Copilot Agent** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/apl-2014-github-issues/) |
 | **Resolve GitHub issues using GitHub Copilot Agent** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/resolve-github-issues-github-copilot-agent/) |
 | **Resolve GitHub Secret Scanning alerts using GitHub Copilot Agent** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/apl-2015-github-secret-scanning/) |
-| **Resolve GitHub Secret Scanning alerts using GitHub Copilot Agent** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/resolve-github-secret-scanning-alerts-github-copilot-agent/) |
-| **Design and develop database solutions** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-develop-database-solutions/) |
-| **Implement programmability objects with SQL** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-programmability-objects/) |
-| **Configure GitHub Copilot instructions and create custom agents** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-customize-github-copilot-visual-studio-code/) |
-| **Explore SQL Server 2025 capabilities** | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-sql-server-capabilities/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-80.md](./microsoft-learn-2026-05-part-80.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md)

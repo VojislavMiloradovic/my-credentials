@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 78 of 99
-date_range: 2026-05-17 to 2026-05-20
+date_range: 2026-05-19 to 2026-05-20
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-78.md
 layer: L2_published
@@ -15,7 +15,12 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Develop a speech agent with the Azure Speech MCP server** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-speech-agent-speech-mcp/) |
+| **Configure AI-ready infrastructure with Microsoft Foundry** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ai-ready-infrastructure-microsoft-foundry/) |
+| **Leverage quality reporting tools in PowerScribe One** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-leverage-quality-reporting-tools/) |
+| **Configure chat and digital channels in Dynamics 365 Contact Center** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-chat-digital-channels-contact-center/) |
 | **Develop understanding with the Study and Learn Agent in the Microsoft 365 Copilot app** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-understanding-study-learn-agent-copilot-app/) |
+| **Manage and design with AI** | Learningpaths | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-design-ai/) |
 | **Introduction to Microsoft Surface Laptop for Business, 13-inch (1st Edition)** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-surface-laptop-13-1st-edition/) |
 | **Introduction to Azure Functions in IoT solutions** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-functions-iot/) |
 | **Discover faster insights with Improved Windows Search** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/improved-windows-search/) |
@@ -60,11 +65,6 @@ artifacts: complete, index
 | **Object detection on Edge devices with Live Video Analytics using YOLO model** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/object-detection-iot-edge-live-video-analytics/) |
 | **Review resident approved reports** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-review-drafts/) |
 | **Get started with PowerScribe One** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attending-get-started/) |
-| **Basic reporting in PowerScribe One for attendings** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attendings-basic-reporting/) |
-| **AutoText in daily reporting for attendings** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-autotext-daily-reporting/) |
-| **AutoText foundations** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attendings-autotext-foundations/) |
-| **Identify customer needs and explore relationships** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-customer-needs-explore-relationships/) |
-| **Set up and configure an Azure Databricks environment** | Learningpaths | 2026-05-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-set-up-configure-environment/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-77.md](./microsoft-learn-2026-05-part-77.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-79.md](./microsoft-learn-2026-05-part-79.md)

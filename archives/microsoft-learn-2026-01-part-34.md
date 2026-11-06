@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Use DAX in semantic models** | Learningpaths | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/dax-power-bi/) |
 | **Create DAX calculations in semantic models** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-create-calculations/) |
 | **Manage records and disposition with Microsoft Purview** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-manage-records/) |
 | **Orchestrate processes in Microsoft Fabric** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/orchestrate-processes-in-fabric/) |
@@ -68,6 +67,7 @@ artifacts: complete, index
 | **Learn how Microsoft supports data discovery, classification, and protection as part of a cybersecurity solution** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-identification-cybersecurity/) |
 | **Prevent data loss with Microsoft Purview** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-prevent-data-loss/) |
 | **Implement information protection and data loss prevention by using Microsoft Purview** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-information-protection-data-loss-prevention/) |
+| **Implement information protection and data loss prevention with Microsoft Purview** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-exercise-information-protection-data-loss-prevention/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-33.md](./microsoft-learn-2026-01-part-33.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-35.md](./microsoft-learn-2026-01-part-35.md)

@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Assess data security posture in Microsoft Purview** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-dspm-assess-data-security-posture/) |
+| **Understand security operations centers (SOCs) to manage cybersecurity** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-security-operations-centers-manage-cybersecurity/) |
+| **Build a cybersecurity career with SOC best practices** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cybersecurity-career-soc-best-practices/) |
+| **Analyze cybersecurity incidents with Security Copilot** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-cybersecurity-incidents-security-copilot/) |
 | **Introduction to Windows 365** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-windows-365/) |
 | **Optimize generative AI model performance with Microsoft Foundry** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-generative-ai-model-performance/) |
 | **Configure workload identities and permissions for AI environments** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-entra-ai-configure-workload-identities/) |
@@ -37,8 +41,8 @@ artifacts: complete, index
 | **Manage events in Fundraising and Engagement** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-events-fundraising-engagement/) |
 | **Moves management to raise major gifts with Fundraising and Engagement** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/moves-management/) |
 | **Set up insurances in Dynamics 365 Business Central** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-insurances/) |
-| **Extend Dynamics 365 Project Operations** | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-project-operations/) |
 | **Extend Universal Resource Scheduling with Dynamics 365 Project Operations** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-universal-resource-scheduling/) |
+| **Extend Dynamics 365 Project Operations** | Learningpaths | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-project-operations/) |
 | **Publish metrics data for audit disclosures using Compliance Manager** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-audit-disclosures/) |
 | **Manage healthcare data with Care Management in Microsoft for Healthcare** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-care-management/) |
 | **Convert prospects in Dynamics 365 Sales to customers in Dynamics 365 Supply Chain Management** | Modules | 2026-04-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/convert-prospects-sales-customers/) |
@@ -61,10 +65,6 @@ artifacts: complete, index
 | **Process gifts in Fundraising and Engagement** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-gifts/) |
 | **Manage designations and campaigns in Fundraising and Engagement** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/nonprofit-designations/) |
 | **Build and sell Microsoft Teams apps in Microsoft AppSource and the Microsoft Teams store** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/msteams-monetize-apps/) |
-| **Text Analytics for health overview** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-text-analytics/) |
-| **Integrate procurement between Dynamics 365 Supply Chain Management and Dynamics 365 Field Service** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/procurement-field-service-supply-chain-management/) |
-| **Manage and engage with volunteers in Microsoft for Nonprofits** | Learningpaths | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/volunteer-management-nonprofit/) |
-| **Onboard and approve volunteers with Volunteer Management** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/onboard-approve-volunteer-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-72.md](./microsoft-learn-2026-04-part-72.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-74.md](./microsoft-learn-2026-05-part-74.md)

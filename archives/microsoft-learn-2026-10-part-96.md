@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 96 of 99
-date_range: 2026-09-20 to 2026-10-02
+date_range: 2026-09-26 to 2026-10-02
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-96.md
 layer: L2_published
@@ -15,6 +15,12 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Use a Microsoft AI Code model for AI-assisted coding** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-ai-code/) |
+| **Prepare an enterprise governance strategy for AI agents** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/enterprise-ai-strategy/) |
+| **Analyze search results in mPower Clinical Analytics** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-analyze-search-results/) |
+| **Query data in Azure Cosmos DB for NoSQL** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/query-azure-cosmos-db-nosql/) |
+| **Implement Azure Cosmos DB operations with the SDK** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-cosmos-db-nosql-operations/) |
+| **Connect to Azure Cosmos DB with the SDK** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-azure-cosmos-db-nosql-sdk/) |
 | **Configure resources, throughput, and consistency** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-cosmos-db-resources-throughput-consistency/) |
 | **Use standard dashboards in mPower Clinical Analytics** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-use-standard-dashboards/) |
 | **Write reusable code in C#** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-reusable-code/) |
@@ -33,8 +39,8 @@ artifacts: complete, index
 | **Repeat actions with loops in C#** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-repeat-actions-loops/) |
 | **Ground agents in enterprise knowledge in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-agents-enterprise-knowledge-github-copilot/) |
 | **Add human-in-the-loop steps to workflows for Copilot Studio agents** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-human-loop-workflows-copilot-studio/) |
-| **Using AI to develop coaching materials** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-ai-to-develop-coaching-materials/) |
 | **AI for Job Coaches in Supported Employment** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-job-coaches-supported-employment/) |
+| **Using AI to develop coaching materials** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-ai-to-develop-coaching-materials/) |
 | **Supported employment values as the foundation for AI use** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/supported-employment-values-foundation-ai-use/) |
 | **Privacy, security, and responsible AI practices** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/privacy-security-responsible-ai-practices/) |
 | **Organize data with arrays and lists in C#** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-arrays-lists/) |
@@ -60,12 +66,6 @@ artifacts: complete, index
 | **Surface for Business Accreditation 2026-2027** | Learningpaths | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/surface-for-business-accreditation-2027/) |
 | **Enable productive work from anywhere with Surface Pro for Business, 12-inch (2nd Edition)** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-pro-12-inch-2nd-edition-2026-09/) |
 | **Deploy offline root and issuing Active Directory Certificate Services certification authorities** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-services-root-issuing-authority/) |
-| **Support mobile productivity with Surface Laptop for Business 13-inch** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-laptop-13-inch-business/) |
-| **Use Copilot wisely - balancing usage, cost, and value** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/balance-cost-usage-value-copilot/) |
-| **Active Directory Certificate Services roles and topology** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-services-roles-topology/) |
-| **Get started with Microsoft AI models in Foundry** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-ai-in-foundry/) |
-| **Accelerate development with GitHub Copilot Cloud Agent** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/) |
-| **GitHub Copilot Fundamentals Part 2 of 2** | Learningpaths | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-09-part-95.md](./microsoft-learn-2026-09-part-95.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-97.md](./microsoft-learn-2026-10-part-97.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 85 of 99
-date_range: 2026-06-13 to 2026-06-20
+date_range: 2026-06-16 to 2026-06-20
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-85.md
 layer: L2_published
@@ -15,7 +15,13 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Configure, deploy, and manage Teams devices** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-deploy-manage-teams-devices/) |
+| **Solution Architect series: Implement project governance for Power Platform and Dynamics 365** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-governannce/) |
+| **Design solutions for identity and access management** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solutions-identity-access-management/) |
+| **Solution architect series: Explore robotic process automation** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/robotic-process-automation/) |
+| **Configure and manage voice users** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-voice-users/) |
 | **Software Composition Analysis** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/software-composition-analysis/) |
+| **AZ-400: Implement security and validate code bases for compliance** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-implement-security-validate-code-bases-compliance/) |
 | **Implement Bicep** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-bicep/) |
 | **Integrate with Dataverse and Azure** | Learningpaths | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/integrate-dataverse-azure/) |
 | **Integrate Dataverse Azure solutions** | Modules | 2026-06-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-dataverse-azure-solutions/) |
@@ -61,12 +67,6 @@ artifacts: complete, index
 | **Create Azure Resources by using Azure Resource Manager templates** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-resources-using-azure-resource-manager-templates/) |
 | **Integrate with identity management systems** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-identity-management-systems/) |
 | **Create Azure Resources Using Azure CLI** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/) |
-| **Explore Power Automate architecture** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-automate-architecture/) |
-| **Automate inspection of health** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/) |
-| **Implement and monitor the integration of enterprise apps for SSO** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-monitor-integration-of-enterprise-apps-for-sso/) |
-| **Propose a solution as a Solution Architect for Microsoft Power Platform and Dynamics 365** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/propose-solution/) |
-| **Architect solutions for Dynamics 365 and Microsoft Power Platform** | Learningpaths | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/paths/become-solution-architect/) |
-| **Introduction to Zero Trust and best practice frameworks** | Modules | 2026-06-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-zero-trust-best-practice-frameworks/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-86.md](./microsoft-learn-2026-06-part-86.md)

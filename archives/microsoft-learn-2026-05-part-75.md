@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 75 of 99
-date_range: 2026-05-04 to 2026-05-08
+date_range: 2026-05-05 to 2026-05-08
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-75.md
 layer: L2_published
@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Integrate MCP Tools with Azure AI Agents** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-agent-to-mcp-tools/) |
+| **Develop computer vision solutions with Microsoft Foundry** | Learningpaths | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-computer-vision-with-foundry/) |
+| **Generate videos with Microsoft Foundry** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-video-with-foundry/) |
+| **Evaluate and optimize AI agents through structured experiments** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-optimize-agents/) |
 | **Discover Azure AI Agents with A2A** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-agents-with-a2a/) |
 | **Develop AI agents with Microsoft Foundry and Visual Studio Code** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-ai-agents-azure-vs-code/) |
 | **Create an Azure Content Understanding client application** | Modules | 2026-05-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-content-ai-api/) |
@@ -63,10 +67,6 @@ artifacts: complete, index
 | **Elevate Educator - Explorer (AI)** | Learningpaths | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/elevate-educator-explorer-ai/) |
 | **Build a reflective AI practice over time** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-reflective-ai-practice-over-time/) |
 | **Build with AI as a creative partner, developed in partnership with ISTE+ASCD** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-with-ai-creative-partner/) |
-| **Discover unprotected assets and vulnerabilities by using Microsoft Defender External Attack Surface Management** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-external-assets-vulnerabilities/) |
-| **Enable and configure workload protection plans in Microsoft Defender for Cloud** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-configure-workload-protection-plans/) |
-| **Create an ontology with Fabric IQ** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-ontology-with-fabric-iq/) |
-| **Get started with Fabric IQ** | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-fabric-iq/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-74.md](./microsoft-learn-2026-05-part-74.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-76.md](./microsoft-learn-2026-05-part-76.md)

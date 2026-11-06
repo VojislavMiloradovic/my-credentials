@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 90 of 99
-date_range: 2026-07-05 to 2026-07-09
+date_range: 2026-07-05 to 2026-07-11
 total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-90.md
 layer: L2_published
@@ -15,9 +15,15 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Mount Azure NetApp Files volumes** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/mount-azure-netapp-files-volumes/) |
+| **Describe the business value of Microsoft Power Platform** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-value-microsoft-power-platform/) |
+| **Understand Windows Server service accounts** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-windows-service-accounts/) |
+| **Introduction to small form factor deployments of Azure Local (preview)** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-small-form-factor/) |
+| **Secure multi-agent systems with Azure zero-trust architecture** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-secure-multi-agent-systems-azure-zero-trust/) |
+| **Deploy and govern enterprise agentic AI solutions on Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-3-deploy-govern-agentic-ai-solutions-azure/) |
 | **Scale responsible AI governance with Azure AI Content Safety and Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-scale-responsible-ai-governance-multi-agent/) |
-| **Monitor, evaluate, and operate multi-agent AI solutions in Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-4-monitor-evaluate-operate-multi-agent-ai-solutions-azure/) |
 | **Optimize multi-agent performance and cost in Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-optimize-multi-agent-performance-cost-azure/) |
+| **Monitor, evaluate, and operate multi-agent AI solutions in Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-4-monitor-evaluate-operate-multi-agent-ai-solutions-azure/) |
 | **Implement distributed observability for multi-agent solutions with OpenTelemetry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-distributed-observability-multi-agent-opentelemetry/) |
 | **Architect production-grade multi-agent AI solutions in Azure** | Learningpaths | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/aaai-1-architect-production-grade-multi-agent-ai-solutions/) |
 | **Implement advanced multi-agent orchestration patterns in Microsoft Foundry** | Modules | 2026-07-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-implement-multi-agent-orchestration-azure-ai-foundry/) |
@@ -56,12 +62,6 @@ artifacts: complete, index
 | **Integration and interoperability solution for healthcare and life sciences** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-interoperability/) |
 | **Build enterprise-grade tool ecosystems with MCP and Microsoft Foundry** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-build-enterprise-tool-ecosystems-mcp-azure/) |
 | **Apply task decomposition and agent collaboration strategies in Microsoft Foundry** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-apply-task-decomposition-multi-agent-azure/) |
-| **Extend the healthcare data model in Dataverse** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-extend-data-model/) |
-| **Static analyzers** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/static-analyzers/) |
-| **Deploy SAP on Azure** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-sap-azure/) |
-| **Implement high availability in SAP NetWeaver with AnyDB on Azure virtual machines** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ha-sap-netweaver-anydb/) |
-| **Clinical document structuring to FHIR** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-text-analytics-fhir/) |
-| **Examine backup security licensing and support considerations for SAP HANA on Azure (Large Instances)** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/backup-security-licensing-support-considerations-sap-hana-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-89.md](./microsoft-learn-2026-07-part-89.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-91.md](./microsoft-learn-2026-07-part-91.md)

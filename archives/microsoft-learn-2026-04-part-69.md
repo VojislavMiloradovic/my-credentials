@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 69 of 99
-date_range: 2026-04-18 to 2026-04-21
+date_range: 2026-04-19 to 2026-04-21
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-69.md
 layer: L2_published
@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Use cost accounting in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-cost-accounting-dynamics-365-business-central/) |
+| **Set up and work with Finance insights in Dynamics 365 Finance** | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/setup-work-finance-insights/) |
+| **Use customer payment predictions in Dynamics 365 Finance** | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-customer-payment-predictions-finance/) |
+| **Troubleshooting Surface Portal access issues** | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshooting-surface-portal-access/) |
 | **Prepare to deploy updates for Windows client and Microsoft 365 apps** | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-windows/) |
 | **Revenue and expense deferrals in Dynamics 365 Finance** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-expense-deferrals/) |
 | **Explore Microsoft Purview Message Encryption** | Modules | 2026-04-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-purview-message-encryption/) |
@@ -61,10 +65,6 @@ artifacts: complete, index
 | **Manage a company with multiple locations in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-multiple-locations/) |
 | **Transfer items in Dynamics 365 Business Central** | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-items/) |
 | **Set up and use the sales accelerator capabilities in Dynamics 365 Sales** | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/sales-accelerator/) |
-| **Set up Sales accelerator in Dynamics 365 Sales** | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-sales-accelerator/) |
-| **Get started with Service Management in Dynamics 365 Business Central** | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-service-management/) |
-| **Evaluate marketing initiatives with analytics in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-insights-marketing/) |
-| **Set up Warehouse management only mode in Dynamics 365 Supply Chain Management** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-warehouse-management-only-mode/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-68.md](./microsoft-learn-2026-04-part-68.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-70.md](./microsoft-learn-2026-04-part-70.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 65 of 99
-date_range: 2026-04-04 to 2026-04-07
+date_range: 2026-04-04 to 2026-04-08
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-65.md
 layer: L2_published
@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Develop a Role Center in Dynamics 365 Business Central** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-role-center/) |
+| **Process sales and purchases in foreign currencies in Dynamics 365 Business Central** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-foreign-currency-payments-dynamics-365-business-central/) |
+| **Manage Internet Information Services** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-internet-information-services/) |
+| **Secure K-12 school IT practices and systems with Microsoft tools** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-k-12-school-it-practices-systems-microsoft-tools/) |
 | **Work with assignment rules in Dynamics 365 Sales accelerator** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-sales-assignment-rules/) |
 | **Set up lean manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-lean-manufacturing-dyn365-supply-chain-mgmt/) |
 | **Set up onboarding experiences in Dynamics 365 Business Central** | Modules | 2026-04-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-onboarding-experiences/) |
@@ -59,10 +63,6 @@ artifacts: complete, index
 | **Universal Resource Scheduling in Microsoft Dynamics 365 Field Service** | Learningpaths | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/universal-resource-scheduling/) |
 | **Set up Finance insights in Dynamics 365 Finance** | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-finance-insights/) |
 | **Pick and ship items from the warehouse in Dynamics 365 Business Central** | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/pick-ship-items-warehouse/) |
-| **Pick and ship items in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/pick-ship-items-business-central/) |
-| **Ship cross-docked items in Dynamics 365 Business Central** | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/ship-cross-docked-items/) |
-| **Gain insights using Dynamics 365 Customer Insights - Data Preparation** | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-data-preparation/) |
-| **Perform a VAT rate change in Dynamics 365 Business Central** | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/rate-change-dynamics-365-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-64.md](./microsoft-learn-2026-04-part-64.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-66.md](./microsoft-learn-2026-04-part-66.md)

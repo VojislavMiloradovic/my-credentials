@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Process financial periodic activities in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-financial-periodic-activities-dynamics-365-business-central/) |
+| **Send finance charge memos to customers in Dynamics 365 Business Central** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/send-memos-dynamics-365-business-central/) |
+| **Process Intrastat in Dynamics 365 Business Central** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-intrastat-dynamics-365-business-central/) |
+| **Troubleshooting Windows Containers** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-windows-containers/) |
 | **Creating service orders and support requests in Surface portals** | Modules | 2026-04-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-portal-service-support/) |
 | **Manage projects in Dynamics 365 Customer Voice** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-projects-customer-voice/) |
 | **Replicate and monitor an Azure Cosmos DB for MongoDB account** | Modules | 2026-04-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/replicate-monitor-azure-cosmos-db-api-mongodb-account/) |
@@ -61,10 +65,6 @@ artifacts: complete, index
 | **Explore project WIP methods in Dynamics 365 Business Central** | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-job-wip-methods/) |
 | **Explore Surface cloud management scenarios** | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-surface-cloud-management-scenarios/) |
 | **Allocate costs in Dynamics 365 Business Central** | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/allocate-costs-dynamics-365-business-central/) |
-| **Use cost accounting in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-cost-accounting-dynamics-365-business-central/) |
-| **Set up and work with Finance insights in Dynamics 365 Finance** | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/setup-work-finance-insights/) |
-| **Use customer payment predictions in Dynamics 365 Finance** | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-customer-payment-predictions-finance/) |
-| **Troubleshooting Surface Portal access issues** | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshooting-surface-portal-access/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-69.md](./microsoft-learn-2026-04-part-69.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-71.md](./microsoft-learn-2026-04-part-71.md)

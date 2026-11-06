@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 63 of 99
-date_range: 2026-03-24 to 2026-03-30
+date_range: 2026-03-25 to 2026-03-30
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-03-part-63.md
 layer: L2_published
@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Manage external connections with Customer Insights - Data** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-third-party-connections/) |
+| **Implement CI/CD for IoT Edge** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cicd-iot-edge/) |
+| **Configure and manage procurement and vendors in Dynamics 365 Supply Chain Management** | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) |
+| **Work with intercompany trade in Dynamics 365 Supply Chain Management** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-intercompany-trade/) |
 | **Configure and manage sales, and customers in Dynamics 365 Supply Chain Management** | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-sales-customers-dyn365-supply-chain-mgmt/) |
 | **Transfer general ledger entries to cost accounting in Dynamics 365 Business Central** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-gl-entries-dynamics-365-business-central/) |
 | **Sync customers to Shopify and Dynamics 365 Business Central** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/synchronize-customers-shopify/) |
@@ -45,7 +49,6 @@ artifacts: complete, index
 | **Explore mission-driven AI examples for nonprofits** | Modules | 2026-03-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-mission-driven-ai-examples-nonprofits/) |
 | **Run SAP on the Microsoft Cloud** | Learningpaths | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/run-sap-microsoft-cloud/) |
 | **Explore Azure networking for SAP RISE** | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-networking-sap-rise/) |
-| **AZ-104: Manage identities and governance in Azure** | Learningpaths | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-104-manage-identities-governance/) |
 | **Azure Policy initiatives** | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/sovereignty-policy-initiatives/) |
 | **Describe Azure networking services** | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-azure-networking-services/) |
 | **Introduction to SQL Server 2025 data virtualization** | Modules | 2026-03-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/sql-server-data-virtualization/) |
@@ -63,9 +66,6 @@ artifacts: complete, index
 | **Predictions in Dynamics 365 Customer Insights - Data** | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/predictions-in-customer-insights-data/) |
 | **Set up your training environment** | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-setup-environment/) |
 | **Implement backup and restore for Azure Cosmos DB for NoSQL** | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-backup-restore-for-azure-cosmos-db-sql-api/) |
-| **Register and report consumption in Asset Management for Dynamics 365 Supply Chain Management** | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/register-report-consumption-asset-management/) |
-| **Get started with finance agents** | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-copilot-for-finance/) |
-| **Work with maintenance budgets in Asset Management for Dynamics 365 Supply Chain Management** | Modules | 2026-03-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/maintenance-budget-asset-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-62.md](./microsoft-learn-2026-03-part-62.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-64.md](./microsoft-learn-2026-04-part-64.md)

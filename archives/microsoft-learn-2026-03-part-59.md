@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 59 of 99
 date_range: 2026-03-12 to 2026-03-15
-total_entries: 49
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-03-part-59.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Set up cost and sales prices for time, expense, and materials in Dynamics 365 Project Operations** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-cost-sales-price/) |
+| **Extend Dynamics 365 Customer Service** | Learningpaths | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-customer-service/) |
 | **Create custom apps for Dynamics 365 Customer Service** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-apps-customer-service/) |
 | **Create fixed asset classes, subclasses, and locations in Dynamics 365 Business Central** | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-classes-subclasses-locations/) |
 | **Ingest DICOM data into healthcare data solutions in Microsoft Fabric** | Modules | 2026-03-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-dicom-ingestion/) |
@@ -61,9 +63,6 @@ artifacts: complete, index
 | **Introduction to Power Pages administration** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-admin-intro/) |
 | **Extend finance and operations apps** | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/extending-finance-operations/) |
 | **Extend elements in finance and operations apps** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-elements-finance-operations/) |
-| **Manage Microsoft Teams by using Windows PowerShell** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-teams-use-windows-powershell/) |
-| **Get started with Customer Service Insights** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-customer-service-insights/) |
-| **Work with Customer Service Insights** | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-customer-service-insights/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-58.md](./microsoft-learn-2026-03-part-58.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-60.md](./microsoft-learn-2026-03-part-60.md)

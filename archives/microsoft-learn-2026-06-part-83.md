@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 83 of 99
 date_range: 2026-06-07 to 2026-06-09
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-83.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,12 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **AZ-305: Design business continuity solutions** | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/) |
+| **Use imperative development techniques for canvas apps in Power Apps** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-imperative-dev-techniques-powerapps-canvas-app/) |
+| **Design data integration** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-integration/) |
+| **Design network solutions** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-network-solutions/) |
+| **Design an application architecture** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-application-architecture/) |
+| **Introduction to GitHub Actions** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-to-github-actions/) |
 | **Explore Azure Pipelines** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-pipelines/) |
 | **Plan to foster inner source** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-fostering-inner-source/) |
 | **AZ-400: Development for Enterprise DevOps** | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-work-git-for-enterprise-devops/) |
@@ -63,11 +69,6 @@ artifacts: complete, index
 | **Introduction to Copilot Spaces** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-spaces/) |
 | **Perform code maintenance tasks using GitHub Copilot Agent** | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/perform-code-maintenance-tasks-github-copilot-agent/) |
 | **Consolidate duplicate logic using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/consolidate-duplicate-logic-github-copilot-agent/) |
-| **Refactor large functions using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/refactor-large-functions-github-copilot/) |
-| **Simplify complex conditionals using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/simplify-complex-conditionals-github-copilot-agent/) |
-| **Improve code performance using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-code-performance-github-copilot-agent/) |
-| **Azure Devops to GitHub Enterprise Migrations Part III - Migration Testing and Production Migration** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-3/) |
-| **Azure Devops to GitHub Enterprise Migrations Part II - Source Environment Assessment and Target Environment Setup** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-2/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md)

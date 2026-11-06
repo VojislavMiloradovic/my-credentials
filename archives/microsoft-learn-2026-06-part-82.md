@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 82 of 99
-date_range: 2026-06-02 to 2026-06-06
+date_range: 2026-06-02 to 2026-06-07
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-06-part-82.md
 layer: L2_published
@@ -15,6 +15,11 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Refactor large functions using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/refactor-large-functions-github-copilot/) |
+| **Simplify complex conditionals using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/simplify-complex-conditionals-github-copilot-agent/) |
+| **Improve code performance using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-code-performance-github-copilot-agent/) |
+| **Azure Devops to GitHub Enterprise Migrations Part III - Migration Testing and Production Migration** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-3/) |
+| **Azure Devops to GitHub Enterprise Migrations Part II - Source Environment Assessment and Target Environment Setup** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-2/) |
 | **Azure DevOps to GitHub Enterprise Migrations Part IV - Post-Migration Stabilization, Enablement, and Operations** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/ado-github-migrations-four/) |
 | **Enhance AI solutions with Azure Managed Redis** | Learningpaths | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/enhance-ai-solutions-azure-managed-redis/) |
 | **Implement event messaging with Azure Managed Redis** | Modules | 2026-06-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-event-messaging-azure-managed-redis/) |
@@ -59,11 +64,6 @@ artifacts: complete, index
 | **Scale containers in Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-containers-azure-container-apps/) |
 | **Manage containers in Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-containers-azure-container-apps/) |
 | **Deploy containers to Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-containers-azure-container-apps/) |
-| **Implement and manage Microsoft Purview Data Loss Prevention** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-manage-dlp/) |
-| **Create and manage data loss prevention policies** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-create-manage-policies/) |
-| **Protect information in a Microsoft 365 Copilot environment using Microsoft Purview** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-microsoft-365-copilot-environment/) |
-| **Develop agents and applications using agentic programming tools** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-embed-custom-code-agents/) |
-| **Implement spec-driven development using the GitHub Spec Kit** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/spec-driven-development-github-spec-kit-enterprise-developers/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-81.md](./microsoft-learn-2026-06-part-81.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md)

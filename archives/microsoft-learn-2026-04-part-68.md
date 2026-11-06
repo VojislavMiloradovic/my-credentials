@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 68 of 99
-date_range: 2026-04-15 to 2026-04-18
+date_range: 2026-04-16 to 2026-04-19
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-68.md
 layer: L2_published
@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Set up Sales accelerator in Dynamics 365 Sales** | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-sales-accelerator/) |
+| **Get started with Service Management in Dynamics 365 Business Central** | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-service-management/) |
+| **Evaluate marketing initiatives with analytics in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-insights-marketing/) |
+| **Set up Warehouse management only mode in Dynamics 365 Supply Chain Management** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-warehouse-management-only-mode/) |
 | **Investigate threats using audit in Microsoft Defender XDR and Microsoft Purview (Premium)** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/investigate-threats-using-audit-in-microsoft-365-defender-microsoft-purview-premium/) |
 | **Work with Dynamics 365 Sales Insights** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/working-with-sales-insights/) |
 | **Working with Connected Field Service for Dynamics 365 and Azure IoT** | Learningpaths | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/working-with-connected-field-service-iot/) |
@@ -47,8 +51,8 @@ artifacts: complete, index
 | **Troubleshoot business continuity with Microsoft Azure** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-continuity/) |
 | **Intelligent budget proposal in Dynamics 365 Finance** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-budget-proposal-finance/) |
 | **Ensure app and website compatibility with Microsoft Edge** | Modules | 2026-04-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/ensure-app-website-compatibility-with-microsoft-edge/) |
-| **Create fixed asset and related records in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/fixed-asset-related-records/) |
 | **Create fixed assets in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-fixed-assets/) |
+| **Create fixed asset and related records in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/fixed-asset-related-records/) |
 | **Migrate to vCore-based Azure Cosmos DB for MongoDB** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-vcore-based-azure-cosmos-db-mongodb/) |
 | **Post sales and purchase invoices in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/post-sales-purchase-invoices-dynamics-365-business-central/) |
 | **Send and receive electronic documents in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/electronic-documents-dynamics-365-business-central/) |
@@ -59,10 +63,6 @@ artifacts: complete, index
 | **Intelligent cash flow in Dynamics 365 Finance** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-cash-flow-finance/) |
 | **Using IoT Central with Connected Field Service for Dynamics 365** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-iot-central-with-connected-field-service/) |
 | **Deliver remote desktops and apps with Azure Virtual Desktop** | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-wvd/) |
-| **Business continuity and disaster recovery for Azure Virtual Desktop** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-continuity-disaster-recovery-azure-virtual-desktop/) |
-| **Create a vendor invoice for lite deployment in Dynamics 365 Project Operations** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-lite-deployment/) |
-| **Set up and use features with lite deployment in Dynamics 365 Project Operations** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-features-lite-deployment-project-operations/) |
-| **Implement Azure Monitoring for SAP workloads on Azure VMs** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-monitoring-sap-workloads-azure-virtual-machines/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-67.md](./microsoft-learn-2026-04-part-67.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-69.md](./microsoft-learn-2026-04-part-69.md)

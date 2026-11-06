@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 94 of 99
-date_range: 2026-07-25 to 2026-08-08
-total_entries: 54
+date_range: 2026-07-28 to 2026-08-11
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-94.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,13 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Active Directory Domain Services authentication and Kerberos hardening** | Modules | 2026-08-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-authentication-kerberos/) |
+| **Ingest data into Customer Insights - Data** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-customer-insights/) |
+| **Get started with Dynamics 365 Customer Insights - Data** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-customer-data-platform/) |
+| **Write your first Python code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-first-python-code/) |
+| **Get Started with Python Programming: Part 1 - Fundamentals** | Learningpaths | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-python-fundamentals/) |
+| **Work with data in Python** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-data-python/) |
+| **What is Project Perception?** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-introduction/) |
 | **Install and configure Visual Studio Code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/install-configure-visual-studio-code-python/) |
 | **Add decision-making to your code** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-decision-making-python/) |
 | **Understand advanced Windows Firewall** | Modules | 2026-08-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-advanced-windows-firewall/) |
@@ -61,14 +68,6 @@ artifacts: complete, index
 | **Develop web parts with the SharePoint Framework** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-parts/) |
 | **Get started with the SharePoint Framework** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-get-started/) |
 | **Build applications on the cloud** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-build-apps-cloud/) |
-| **Develop a Site Reliability Engineering (SRE) strategy** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-develop-sre-strategy/) |
-| **Scale your cloud resources with elasticity** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-cloud-elasticity/) |
-| **Monitor cloud resources** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-monitor-cloud-resources/) |
-| **Develop an instrumentation strategy** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-develop-instrumentation-strategy/) |
-| **Protect information with Microsoft Purview information protection** | Modules | 2026-07-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-information-purview/) |
-| **Govern SharePoint and OneDrive for Microsoft 365 Copilot** | Modules | 2026-07-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-sharepoint-onedrive-copilot/) |
-| **Secure AI agents and workloads on Windows** | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-ai-agents-windows/) |
-| **Work on repeat** | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-on-repeat/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-95.md](./microsoft-learn-2026-09-part-95.md)

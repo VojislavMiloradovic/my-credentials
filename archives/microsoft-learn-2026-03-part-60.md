@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 60 of 99
-date_range: 2026-03-15 to 2026-03-17
-total_entries: 47
+date_range: 2026-03-15 to 2026-03-18
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-03-part-60.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Use Connected Customer Service with Dynamics 365** | Learningpaths | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-connected-customer-service/) |
+| **MD-015 Implement Windows 365 Cloud PCs** | Learningpaths | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-365-cloud-pcs/) |
+| **Explore Windows 365 Cloud PC management options** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-365-cloud-pc-management/) |
 | **Get started with Connected Customer Service for Dynamics 365 and Azure IoT** | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-connected-customer-service/) |
 | **Set up and use features for resource/non-stocked based scenarios in Dynamics 365 Project Operations** | Learningpaths | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-features-resource-non-stocked-project-operations/) |
 | **Revenue recognition in Dynamics 365 Project Operations** | Modules | 2026-03-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/revenue-recognition/) |
@@ -60,8 +63,6 @@ artifacts: complete, index
 | **Configure bookable resources in Dynamics 365 Field Service** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-bookable-resources-urs-dynamics-field-service/) |
 | **Set up versioned products in Dynamics 365 Supply Chain Management** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-versioned-products-engineering-change-management/) |
 | **Configure engineering change management for Dynamics 365 Supply Chain Management** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-engineering-change-management/) |
-| **Set up cost and sales prices for time, expense, and materials in Dynamics 365 Project Operations** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-cost-sales-price/) |
-| **Extend Dynamics 365 Customer Service** | Learningpaths | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-customer-service/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-59.md](./microsoft-learn-2026-03-part-59.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-61.md](./microsoft-learn-2026-03-part-61.md)

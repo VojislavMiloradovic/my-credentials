@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Manage Microsoft Teams by using Windows PowerShell** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-teams-use-windows-powershell/) |
+| **Get started with Customer Service Insights** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-customer-service-insights/) |
+| **Work with Customer Service Insights** | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-customer-service-insights/) |
 | **Secure SAP on Microsoft Cloud** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-sap-microsoft-cloud/) |
 | **Deploy and use CMS Claims data transformations** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-claims-transformations/) |
 | **Set up put-away templates in Dynamics 365 Business Central** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/put-away-templates/) |
@@ -63,9 +66,6 @@ artifacts: complete, index
 | **Learn about the data management foundation in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-management-foundation-business-central/) |
 | **Introduction to the basics of file management in Dynamics 365 Business Central** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-basics-file-management/) |
 | **Use system catalogs and system views in PostgreSQL** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-system-catalogs-system-views-postgresql/) |
-| **Work with Azure Boards for project management in Business Central** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-azure-boards/) |
-| **Design a data partitioning strategy** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-partitioning-strategy/) |
-| **Understand data protection and resiliency in Azure NetApp Files** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-data-protection/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-57.md](./microsoft-learn-2026-03-part-57.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-59.md](./microsoft-learn-2026-03-part-59.md)

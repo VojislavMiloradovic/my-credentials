@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Discover unprotected assets and vulnerabilities by using Microsoft Defender External Attack Surface Management** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-external-assets-vulnerabilities/) |
+| **Enable and configure workload protection plans in Microsoft Defender for Cloud** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-configure-workload-protection-plans/) |
+| **Create an ontology with Fabric IQ** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-ontology-with-fabric-iq/) |
+| **Get started with Fabric IQ** | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-fabric-iq/) |
 | **Design agent conversations and responses using topics in Microsoft Copilot Studio** | Learningpaths | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-agent-conversations-responses-topics-copilot-studio/) |
 | **Take action from agent conversations using topics and tools in Microsoft Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/take-action-agent-topics-tools-flows-copilot-studio/) |
 | **Generate AI-powered agent responses using generative answers in Microsoft Copilot Studio** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-ai-powered-responses-generative-answers-copilot-studio/) |
@@ -59,10 +63,6 @@ artifacts: complete, index
 | **Manage certificates and monitor Azure Key Vault** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-certificates-monitor-key-vault/) |
 | **Configure and secure Azure Key Vault** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-key-vault/) |
 | **Use GitHub Copilot plan mode for cloud operations tasks** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-plan-mode-cloud-ops/) |
-| **Assess data security posture in Microsoft Purview** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-dspm-assess-data-security-posture/) |
-| **Understand security operations centers (SOCs) to manage cybersecurity** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-security-operations-centers-manage-cybersecurity/) |
-| **Build a cybersecurity career with SOC best practices** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cybersecurity-career-soc-best-practices/) |
-| **Analyze cybersecurity incidents with Security Copilot** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-cybersecurity-incidents-security-copilot/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-73.md](./microsoft-learn-2026-04-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-75.md](./microsoft-learn-2026-05-part-75.md)

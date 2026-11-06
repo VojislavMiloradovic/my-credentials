@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 44 of 99
-date_range: 2026-02-09 to 2026-02-11
+date_range: 2026-02-09 to 2026-02-10
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-44.md
 layer: L2_published
@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Introduction to Azure Data Explorer** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-data-explorer/) |
-| **Understand Microsoft Fabric IQ fundamentals** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-fabric-iq-fundamentals/) |
 | **Evaluate performance improvements** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-performance-improvements/) |
 | **Implement Windows Server hybrid cloud management, monitoring, and security** | Learningpaths | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-hybrid-cloud-management-monitoring-security/) |
 | **Manage Azure updates** | Modules | 2026-02-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-updates/) |
@@ -65,6 +63,8 @@ artifacts: complete, index
 | **Migrate data to Business Central** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-data-dynamics-365-business-central/) |
 | **Migrate on-premises data to Dynamics 365 Business Central** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-intelligent-cloud-dynamics-365-business-central/) |
 | **Examine Microsoft Entra ID Protection** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-azure-identity-protection/) |
+| **Deploy and manage Azure IaaS Active Directory domain controllers in Azure** | Modules | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-manage-azure-iaas-active-directory-domain-controllers-azure/) |
+| **Implement Windows Server IaaS VM Identity** | Learningpaths | 2026-02-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-server-iaas-virtual-machine-identity/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-43.md](./microsoft-learn-2026-02-part-43.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-45.md](./microsoft-learn-2026-02-part-45.md)

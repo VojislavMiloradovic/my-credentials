@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 67 of 99
-date_range: 2026-04-11 to 2026-04-15
+date_range: 2026-04-12 to 2026-04-16
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-67.md
 layer: L2_published
@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Business continuity and disaster recovery for Azure Virtual Desktop** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-continuity-disaster-recovery-azure-virtual-desktop/) |
+| **Create a vendor invoice for lite deployment in Dynamics 365 Project Operations** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-lite-deployment/) |
+| **Set up and use features with lite deployment in Dynamics 365 Project Operations** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-features-lite-deployment-project-operations/) |
+| **Implement Azure Monitoring for SAP workloads on Azure VMs** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-azure-monitoring-sap-workloads-azure-virtual-machines/) |
 | **Configure fixed asset depreciations in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-fixed-asset-depreciations/) |
 | **Sync and fulfill Shopify sales orders in Dynamics 365 Business Central** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/sync-sales-orders-dynamics-365-business-central/) |
 | **Use the Shopify connector in Dynamics 365 Business Central** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-shopify-connector-dynamics-365-business-central/) |
@@ -59,10 +63,6 @@ artifacts: complete, index
 | **Set up routings in Dynamics 365 Business Central** | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-routings/) |
 | **Work with travel requisitions in Dynamics 365 Project Operations** | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-travel-requisitions/) |
 | **Manage Windows updates in the cloud** | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-windows-manage-cloud-device-updates/) |
-| **Advanced configuration for Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-advanced-configuration/) |
-| **Set up Dynamics 365 Customer Insights - Journeys and configure advanced settings** | Learningpaths | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-marketing/) |
-| **Build an end to end data governance and master data management stack with Microsoft Purview and CluedIn** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/building-end-to-end-data-governance-master-data-stack-with-microsoft-purview-cluedin/) |
-| **Create cost accounting master data in Dynamics 365 Business Central** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/master-data-dynamics-365-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-66.md](./microsoft-learn-2026-04-part-66.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-68.md](./microsoft-learn-2026-04-part-68.md)

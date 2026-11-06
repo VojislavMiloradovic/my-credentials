@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 72 of 99
-date_range: 2026-04-25 to 2026-04-28
+date_range: 2026-04-26 to 2026-04-28
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-04-part-72.md
 layer: L2_published
@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Text Analytics for health overview** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-text-analytics/) |
+| **Integrate procurement between Dynamics 365 Supply Chain Management and Dynamics 365 Field Service** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/procurement-field-service-supply-chain-management/) |
+| **Manage and engage with volunteers in Microsoft for Nonprofits** | Learningpaths | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/volunteer-management-nonprofit/) |
+| **Onboard and approve volunteers with Volunteer Management** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/onboard-approve-volunteer-management/) |
 | **Integrate Volunteer Management and Volunteer Engagement with Microsoft for Nonprofits** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-volunteer-management-engagement-cloud-nonprofit/) |
 | **Integrate and use Field Service with Dynamics 365 Business Central** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-field-service/) |
 | **Configure BOM costing and reporting in Dynamics 365 Supply Chain Management** | Modules | 2026-04-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-bill-material-costing-reporting/) |
@@ -61,10 +65,6 @@ artifacts: complete, index
 | **Azure AI Health Bot in Microsoft for Healthcare** | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-health-bot/) |
 | **Deploy Defender for IoT for OT monitoring** | Learningpaths | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/defender-iot-deploy-ot-monitoring/) |
 | **Fine-tune your Microsoft Defender for IoT OT sensor** | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-iot-fine-tune-deployment/) |
-| **Implement multi-session experiences in Dynamics 365 Customer Service** | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-multi-session-experiences/) |
-| **Get started with Volunteer Management and Volunteer Engagement** | Modules | 2026-04-26 | N/A |
-| **Challenge Project - Dynamics 365 Field Service** | Modules | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/challenge-project-d365-field-service/) |
-| **Building Open Source Software (OSS) Analytics Solutions with Azure HDInsight** | Learningpaths | 2026-04-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-oss-analytical-solutions-az-hdinsight/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-71.md](./microsoft-learn-2026-04-part-71.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-73.md](./microsoft-learn-2026-04-part-73.md)

@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Describe the business benefits of Azure** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-benefits-azure/) |
 | **Gaming accessibility fundamentals** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/gaming-accessibility-fundamentals/) |
 | **Gaming assistive technologies** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/gaming-assistive-technologies/) |
 | **Get tips and tricks for teaching SC-900: Microsoft Security, Compliance, and Identity Fundamentals** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-sc-900-security-compliance-identity-fundamentals/) |
@@ -66,6 +65,7 @@ artifacts: complete, index
 | **Identify key phrases with AI Builder** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-key-phrase-extraction/) |
 | **Detect objects with AI Builder** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-object-detection/) |
 | **Analyze the sentiment of text with AI Builder** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-sentiment-analysis/) |
+| **Identify the language of text with AI Builder** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-language-detection/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-31.md](./microsoft-learn-2026-01-part-31.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-33.md](./microsoft-learn-2026-01-part-33.md)

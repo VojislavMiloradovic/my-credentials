@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 92 of 99
-date_range: 2026-07-13 to 2026-07-17
-total_entries: 49
+date_range: 2026-07-14 to 2026-07-20
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-92.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,13 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Configure Dynamics 365 Sales for AI-powered selling** | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-sales-ai-selling/) |
+| **Get started with Dynamics 365 Sales** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/sales-get-started/) |
+| **Create powerful customer experiences for organizations with Dynamics 365 apps** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-powerful-customer-experiences-organizations/) |
+| **Secure Windows Server on-premises and hybrid infrastructures** | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-windows-server-premises-hybrid-infrastructures/) |
+| **Hardening Windows Server** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-windows-server/) |
+| **Plan an AI agent solution** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-design-ai-agent-solution/) |
+| **Choose tools and services for your agent on Microsoft's agent platform** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-solutions-microsoft-agent-platform/) |
 | **Customize a canvas app in Power Apps** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-apps-in-powerapps/) |
 | **Learn the basics of Power BI Desktop, Power Automate, and PowerApps** | Learningpaths | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-platform-introduction/) |
 | **Get started with Power Apps canvas apps** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-powerapps/) |
@@ -23,8 +30,8 @@ artifacts: complete, index
 | **Design a multi-domain Active Directory forest** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-domain-forest-trust/) |
 | **Get started with 5G on Surface for Business devices** | Modules | 2026-07-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-5g/) |
 | **Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-identity-lifecycle-workflows/) |
-| **Analyze requirements for AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
 | **Architect AI solutions for business productivity** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/) |
+| **Analyze requirements for AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
 | **Introduction to agentic AI business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-ai-business-solution-architecture/) |
 | **Manage testing AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-testing-ai-powered-business-solutions/) |
 | **Evaluate costs and benefits of AI solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-costs-benefits-ai-powered-business-solution/) |
@@ -59,11 +66,6 @@ artifacts: complete, index
 | **Describe Dynamics 365 Contact Center representative experience** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-representative-experience/) |
 | **Describe warehouse management in Dynamics 365 Supply Chain Management** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-warehouse-management-dynamics-365/) |
 | **Introduction to supply chain management in Dynamics 365** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-supply-chain-management-dynamics-365/) |
-| **Describe sales processes in Dynamics 365 Supply Chain Management** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sales-processes-dynamics-365-supply-chain-management/) |
-| **Describe inventory management in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-management-supply-chain-management/) |
-| **Describe inventory costing and master planning in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-costing-master-planning-dynamics-365-supply-chain-management/) |
-| **Describe core capabilities of Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-core-capabilities-supply-chain-management/) |
-| **Use Azure Databricks Genie in Microsoft Teams and Copilot Studio** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-azure-databricks-genie-teams-copilot-studio/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-91.md](./microsoft-learn-2026-07-part-91.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md)

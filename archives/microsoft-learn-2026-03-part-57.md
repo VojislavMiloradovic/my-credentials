@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 57 of 99
 date_range: 2026-03-07 to 2026-03-09
-total_entries: 47
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-03-part-57.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Work with Azure Boards for project management in Business Central** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-azure-boards/) |
+| **Design a data partitioning strategy** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-partitioning-strategy/) |
+| **Understand data protection and resiliency in Azure NetApp Files** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-data-protection/) |
 | **Implement a data engineering solution with Azure Databricks** | Learningpaths | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer/) |
 | **Perform incremental processing with spark structured streaming** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-incremental-processing-with-spark-structured-streaming/) |
 | **Implement integrated cache in Azure Cosmos DB for NoSQL** | Modules | 2026-03-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-integrated-cache/) |
@@ -60,8 +63,6 @@ artifacts: complete, index
 | **Sell items and services in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/sell-items-services-dynamics-365-business-central/) |
 | **Embed surveys in your website with Dynamics 365 Customer Voice** | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/embed-surveys/) |
 | **Validate and release product configuration models in Dynamics 365 Supply Chain Management** | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/validate-release-production-configuration/) |
-| **Set up Trade in Microsoft Dynamics 365 Business Central** | Modules | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/trade-set-up-dynamics-365-business-central/) |
-| **Get started with Trade in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-03-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/trade-get-started-dynamics-365-business-central/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-56.md](./microsoft-learn-2026-03-part-56.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-58.md](./microsoft-learn-2026-03-part-58.md)

@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 93 of 99
-date_range: 2026-07-20 to 2026-07-25
-total_entries: 52
+date_range: 2026-07-20 to 2026-07-28
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-93.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,14 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Develop a Site Reliability Engineering (SRE) strategy** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-develop-sre-strategy/) |
+| **Scale your cloud resources with elasticity** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-cloud-elasticity/) |
+| **Monitor cloud resources** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-monitor-cloud-resources/) |
+| **Develop an instrumentation strategy** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-develop-instrumentation-strategy/) |
+| **Protect information with Microsoft Purview information protection** | Modules | 2026-07-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-information-purview/) |
+| **Govern SharePoint and OneDrive for Microsoft 365 Copilot** | Modules | 2026-07-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-sharepoint-onedrive-copilot/) |
+| **Secure AI agents and workloads on Windows** | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-ai-agents-windows/) |
+| **Work on repeat** | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-on-repeat/) |
 | **Provision and govern identities in Microsoft Entra** | Modules | 2026-07-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/provision-govern-identities-entra/) |
 | **Manage application volume groups for Oracle in Azure NetApp Files** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-application-volume-groups-oracle-azure-netapp-files/) |
 | **Ensure availability and resilience in Power Platform** | Modules | 2026-07-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/ensure-availability-resilience/) |
@@ -60,13 +68,6 @@ artifacts: complete, index
 | **Generate and qualify leads using AI in Dynamics 365 Sales** | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/generate-qualify-leads-ai-sales/) |
 | **Engage with customers through text messages in Dynamics 365 Sales** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/engage-customers-text-messages/) |
 | **Set up and configure Dynamics 365 Sales** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-dynamics-365-sales/) |
-| **Configure Dynamics 365 Sales for AI-powered selling** | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-sales-ai-selling/) |
-| **Get started with Dynamics 365 Sales** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/sales-get-started/) |
-| **Create powerful customer experiences for organizations with Dynamics 365 apps** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-powerful-customer-experiences-organizations/) |
-| **Secure Windows Server on-premises and hybrid infrastructures** | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-windows-server-premises-hybrid-infrastructures/) |
-| **Hardening Windows Server** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-windows-server/) |
-| **Plan an AI agent solution** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-design-ai-agent-solution/) |
-| **Choose tools and services for your agent on Microsoft's agent platform** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-solutions-microsoft-agent-platform/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md)
