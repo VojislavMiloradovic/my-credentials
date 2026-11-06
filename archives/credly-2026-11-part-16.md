@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 16 of 16
-date_range: 2026-10-28 to 2026-11-05
-total_entries: 17
+date_range: 2026-10-28 to 2026-11-06
+total_entries: 18
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-06 | [AWS Knowledge: Mainframe Modernization Foundations - Training Badge](https://www.credly.com/badges/0459da93-1592-4f69-91c5-37d3b2ab08e0/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-05 | [Python Essentials 2](https://www.credly.com/badges/89464c34-269c-4b2d-a92a-b4a20a076a61/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-04 | [Automate Identity Security with Workflows](https://www.credly.com/badges/e3f88afb-4313-41b3-b1b5-2051ba3e662e/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Automate User Lifecycle Management with Workflows](https://www.credly.com/badges/08cb9221-e675-411c-9d0c-347d9ac42ad0/public_url) | Okta | Credly Verified Badge |
