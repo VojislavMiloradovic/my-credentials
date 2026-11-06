@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 813 records.
+This document represents a unified, verifiable list of all 814 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-05T04:41:15.681376+00:00 -->
+<!-- retrieved_at: 2026-11-06T04:40:54.228988+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-05 | [Python Essentials 2](https://www.credly.com/badges/89464c34-269c-4b2d-a92a-b4a20a076a61/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-04 | [Automate Identity Security with Workflows](https://www.credly.com/badges/e3f88afb-4313-41b3-b1b5-2051ba3e662e/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Automate User Lifecycle Management with Workflows](https://www.credly.com/badges/08cb9221-e675-411c-9d0c-347d9ac42ad0/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Evaluate the Business Impact of Phishing Resistance](https://www.credly.com/badges/62891241-bcce-4ffe-9448-42d910989ee0/public_url) | Okta | Credly Verified Badge |
