@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-11-06 04:40 UTC
+> **Last Generated:** 2026-11-06 13:57 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -110,8 +110,8 @@ Showing latest 10 of 422 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 1170
-**Total Verified Skills Mapped:** 1162
+**Total Portfolio Credentials:** 1173
+**Total Verified Skills Mapped:** 1165
 
 #### AWS Cloud Quest Summary
 
@@ -126,10 +126,13 @@ Showing latest 10 of 422 credentials. View full dataset via [Platform Archive In
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 1170 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-11-part-22.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-11-part-22.md)), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 1173 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-11-part-23.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-11-part-23.md)), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-06 | [Amazon Connect Reporting & Analytics - Knowledge Badge Readiness Path](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Learning plan |
+| 2026-11-06 | [AWS Mainframe Modernization Foundations Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Assessment |
+| 2026-11-06 | [Microcredential Preview Experience](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
 | 2026-11-05 | [Accelerating aircraft IFEC diagnostics with agentic AI on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-05 | [Addressing CLR assembly deprecation in Amazon RDS for SQL Server](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-05 | [Agent Evaluation Metric for multi-turn conversations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -137,9 +140,6 @@ Showing latest 10 of 1170 credentials. View full dataset via [Platform Archive I
 | 2026-11-05 | [Build multi-tenant agentic chat applications on enterprise data with Amazon Bedrock Managed Knowledge Base](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-05 | [Consistency is the new latency: AI at the data layer](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-05 | [Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-11-05 | [Cut Your LLM Costs and Latency up to 86% with Semantic Caching](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-11-05 | [Data Modeling for Amazon DocumentDB](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-11-05 | [Evaluate any agent framework with Amazon Bedrock AgentCore Evaluations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 <!-- AWS_SKILLS_END -->
 
 
@@ -253,18 +253,21 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 
 # Complete AWS Skill Builder Credentials Archive
 
-This document represents a unified, verifiable list of all 1170 records.
+This document represents a unified, verifiable list of all 1173 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-05T21:01:45.697202+00:00 -->
+<!-- retrieved_at: 2026-11-06T13:57:15.735620+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-06 | [Amazon Connect Reporting & Analytics - Knowledge Badge Readiness Path](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Learning plan |
+| 2026-11-06 | [AWS Mainframe Modernization Foundations Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Assessment |
+| 2026-11-06 | [Microcredential Preview Experience](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
 | 2026-11-05 | [Accelerating aircraft IFEC diagnostics with agentic AI on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-05 | [Addressing CLR assembly deprecation in Amazon RDS for SQL Server](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-05 | [Agent Evaluation Metric for multi-turn conversations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
