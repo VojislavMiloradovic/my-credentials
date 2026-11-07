@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 43 of 43
 date_range: 2026-10 to 2026-11
-total_entries: 46
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-43.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -34,6 +34,12 @@ artifacts: complete, index
 | 2026-11 | **Mastering SAP Data Architecture** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xefar-bydin-hymuf-vuvud-cihav) |
 | 2026-11 | **Developing Detailed Knowledge of SAP Business Data Cloud** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xidig-gogem-pybid-fitoh-titol) |
 | 2026-11 | **Introducing the Open Data Ecosystem for SAP Business Data Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xobeg-lisyd-sosaf-mimuv-pehin) |
+| 2026-11 | **Python Essentials 2** | Cisco | [Verify Record](https://www.credly.com/badges/89464c34-269c-4b2d-a92a-b4a20a076a61/linked_in_profile) |
+| 2026-11 | **AWS Knowledge: Mainframe Modernization Foundations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/0459da93-1592-4f69-91c5-37d3b2ab08e0/linked_in_profile) |
+| 2026-11 | **Exploring Company Administration Settings in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xavab-dikip-hered-ricem-memep) |
+| 2026-11 | **Exploring User Administration Settings in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xibot-kifyp-nyluh-cibys-gafas) |
+| 2026-11 | **Exploring Travel Administration and Data Retention Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xapyn-fanik-podur-karul-kubet) |
+| 2026-11 | **Managing Travel Policy Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylab-lopyc-ticen-lebol-habac) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |
