@@ -1,17 +1,18 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 422 records.
+This document represents a unified, verifiable list of all 423 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-07T03:30:17.512198+00:00 -->
+<!-- retrieved_at: 2026-11-07T15:50:41.079203+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-07 | [Arcade Voyage: Python Apps & Data Analytics](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29481815) | Google Cloud | Google Skill Badge |
 | 2026-11-04 | [Arcade Simulator: Cloud Infrastructure Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29404510) | Google Cloud | Google Skill Badge |
 | 2026-11-02 | [Diwali in the Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29349189) | Google Cloud | Google Skill Badge |
 | 2026-11-01 | [Understand Your Google Cloud Costs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29320786) | Google Cloud | Google Skill Badge |
