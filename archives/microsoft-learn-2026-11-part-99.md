@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 99 of 99
-date_range: 2026-10-15 to 2026-11-06
-total_entries: 26
+date_range: 2026-10-15 to 2026-11-07
+total_entries: 27
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-99.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Azure Local disconnected operations** | Modules | 2026-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-disconnected-operations/) |
 | **Assess the Business Central architecture** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/assess-business-central-architecture/) |
 | **Operate virtual machine workloads on Azure Local** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-virtual-machine-operations/) |
 | **Benchmark your code's performance** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/benchmark-your-code-performance/) |

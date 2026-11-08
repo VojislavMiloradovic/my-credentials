@@ -14,13 +14,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,299,275
+- **Total Experience Points (XP):** 6,300,975
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 4,094
+- **Badges Earned (Profile):** 4,095
 - **Trophies Earned (Profile):** 932
 - **Completed Learning Paths (Active Tracker):** 531
-- **Completed Modules (Active Tracker):** 2,814
-- **Completed Individual Units:** 37,404
+- **Completed Modules (Active Tracker):** 2,815
+- **Completed Individual Units:** 37,417
 
 ### Verifiable Applied Skills & Credentials
 - **Enhance Agents With Autonomous Capabilities** (Credential ID: `A2805BBD40427267` | Earned: 2026-10-31T02:40:58+00:00 | Status: Active)
@@ -39,10 +39,11 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 5,026 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-11-part-99.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-99.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 5,027 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-11-part-99.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-99.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Azure Local disconnected operations** | Modules | 2026-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-disconnected-operations/) |
 | **Assess the Business Central architecture** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/assess-business-central-architecture/) |
 | **Operate virtual machine workloads on Azure Local** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-virtual-machine-operations/) |
 | **Benchmark your code's performance** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/benchmark-your-code-performance/) |
@@ -52,7 +53,6 @@ Showing latest 10 of 5,026 achievements. View full dataset via [Platform Archive
 | **Turn business context into AI-powered action with Work IQ** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-business-context-ai-powered-action-work-iq/) |
 | **Azure Local storage architecture and maintenance** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-storage-architecture/) |
 | **Architect code specifications for AI** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/architecting-code-specifications-ai/) |
-| **Azure key and certificate management** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/sovereignty-key-management/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials
