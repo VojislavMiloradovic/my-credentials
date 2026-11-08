@@ -1,12 +1,12 @@
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 1991 records.
+This document represents a unified, verifiable list of all 1997 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-07T00:47:38.756556+00:00 -->
+<!-- retrieved_at: 2026-11-08T12:02:24.013841+00:00 -->
 
 ## Verified Records Archive
 
@@ -37,6 +37,12 @@ This document represents a unified, verifiable list of all 1991 records.
 | 2026-11 | **Exploring User Administration Settings in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xibot-kifyp-nyluh-cibys-gafas) |
 | 2026-11 | **Exploring Travel Administration and Data Retention Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xapyn-fanik-podur-karul-kubet) |
 | 2026-11 | **Managing Travel Policy Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylab-lopyc-ticen-lebol-habac) |
+| 2026-11 | **Arcade Voyage: Python Apps & Data Analytics** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29481815?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Arcade Adventure: Cloud Infrastructure & App Scale** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29487123?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Preparing for Next-Gen SAP Ariba Implementation** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesad-dikes-vepem-sedik-cosis) |
+| 2026-11 | **Configuring Data Management and Extensibility in Next-Gen SAP Ariba** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xepof-pireb-forub-mupob-silal) |
+| 2026-11 | **Realizing Next-Gen SAP Ariba: Integration and Architecture Decisions** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyvyh-hasub-topob-nulin-rocum) |
+| 2026-11 | **Deploying Next-Gen SAP Ariba: AI Capabilities, Transition Planning, and Licensing** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelom-gimef-pesyg-gyvud-tebys) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |

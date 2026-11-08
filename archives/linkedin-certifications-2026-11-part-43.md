@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 43 of 43
+chunk_part: 43 of 44
 date_range: 2026-10 to 2026-11
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-43.md
@@ -11,16 +11,10 @@ artifacts: complete, index
 
 # LinkedIn Certifications -- Part 43
 
-> **Navigation:** Prev: [linkedin-certifications-2026-10-part-42.md](./linkedin-certifications-2026-10-part-42.md) | [Index](./linkedin-certifications-index.md) | Next: None | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-10-part-42.md](./linkedin-certifications-2026-10-part-42.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-11-part-44.md](./linkedin-certifications-2026-11-part-44.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-11 | **Understand Your Google Cloud Costs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29320786?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-11 | **SQL and Relational Databases 101** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/b6c4f284b1e44b3e908099e266a202e3) |
-| 2026-11 | **Data Science Foundations - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/8b535dbd-76db-4713-9e2e-1137abe99da0/linked_in_profile) |
-| 2026-11 | **Build Your Own Chatbot - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/1275ae4d-5bdd-45c3-bdc5-4eef7b2ae86f/linked_in_profile) |
-| 2026-11 | **Diwali in the Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29349189?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-11 | **Arcade Simulator: Cloud Infrastructure Engineer** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29404510?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-11 | **Kong Insomnia for Developers** | Kong | [Verify Record](https://www.credly.com/badges/6cd29a72-4308-4e34-a4f6-48af1417eb01/linked_in_profile) |
 | 2026-11 | **Automate User Lifecycle Management with Workflows** | Okta | [Verify Record](https://www.credly.com/badges/08cb9221-e675-411c-9d0c-347d9ac42ad0/linked_in_profile) |
 | 2026-11 | **Automate Identity Security with Workflows** | Okta | [Verify Record](https://www.credly.com/badges/e3f88afb-4313-41b3-b1b5-2051ba3e662e/linked_in_profile) |
@@ -40,6 +34,12 @@ artifacts: complete, index
 | 2026-11 | **Exploring User Administration Settings in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xibot-kifyp-nyluh-cibys-gafas) |
 | 2026-11 | **Exploring Travel Administration and Data Retention Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xapyn-fanik-podur-karul-kubet) |
 | 2026-11 | **Managing Travel Policy Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylab-lopyc-ticen-lebol-habac) |
+| 2026-11 | **Arcade Voyage: Python Apps & Data Analytics** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29481815?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Arcade Adventure: Cloud Infrastructure & App Scale** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29487123?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Preparing for Next-Gen SAP Ariba Implementation** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesad-dikes-vepem-sedik-cosis) |
+| 2026-11 | **Configuring Data Management and Extensibility in Next-Gen SAP Ariba** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xepof-pireb-forub-mupob-silal) |
+| 2026-11 | **Realizing Next-Gen SAP Ariba: Integration and Architecture Decisions** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyvyh-hasub-topob-nulin-rocum) |
+| 2026-11 | **Deploying Next-Gen SAP Ariba: AI Capabilities, Transition Planning, and Licensing** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelom-gimef-pesyg-gyvud-tebys) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |
@@ -69,5 +69,5 @@ artifacts: complete, index
 | 2026-10 | **Digital Marketing Manager** | Demandbase | [Verify Record](https://www.credly.com/badges/a1013828-b7d8-48ae-90b6-ac121fd5d6c7/linked_in_profile) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-10-part-42.md](./linkedin-certifications-2026-10-part-42.md) | [Index](./linkedin-certifications-index.md) | Next: None
+> **Navigation:** Prev: [linkedin-certifications-2026-10-part-42.md](./linkedin-certifications-2026-10-part-42.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-11-part-44.md](./linkedin-certifications-2026-11-part-44.md)
 
