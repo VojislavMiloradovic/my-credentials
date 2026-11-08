@@ -1,17 +1,22 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1781 records.
+This document represents a unified, verifiable list of all 1786 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-07T04:43:24.878719+00:00 -->
+<!-- retrieved_at: 2026-11-08T00:36:11.420087+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-11-08 | **Untrusted by Default: Securing ADK Agents with MCP Toolbox and Model Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-least-privilege-model-armor |
+| 2026-11-08 | **Practical Harness Engineering with Google Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/harness-engineering-antigravity |
+| 2026-11-08 | **Building Secure & Agile ADK Agents with Secret Manager** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/secret-manager/secure-adk-agents-secret-manager |
+| 2026-11-08 | **Integrate Firebase with a Next.js app** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-nextjs |
+| 2026-11-08 | **Private Service Connect Interfaces with Stable IP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/psc-interface-stable-ip |
 | 2026-11-04 | **BigQuery AI functions at scale: zero-shot forecasting and cost guardrails** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-processing-bigquery-ai-forecasting-finops-guardrails |
 | 2026-11-04 | **Sovereign multi-cloud lakehouse with Apache Iceberg REST catalog federation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-ingestion-sovereign-multicloud-iceberg-lakehouse |
 | 2026-11-04 | **Modern data science compute with Managed Service for Apache Spark and the Lightning Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-science-spark-lightning-engine-feature-engineering |
@@ -37,7 +42,7 @@ This document represents a unified, verifiable list of all 1781 records.
 | 2026-10-26 | **Secure Workloads with GKE ClusterNetworkPolicy - AI Inference example (Gemma, TPU)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/inference-gke-clusternetworkpolicy |
 | 2026-10-26 | **Data Agents & GraphRAG On-Device with Spanner Omni** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/graph-rag-spanner-omni |
 | 2026-10-21 | **Evaluate agent skills using open source frameworks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/evaluate-agent-skills-using-open-source-frameworks |
-| 2026-10-21 | **VibeStudio — Multimodal Agentic Workflow with ADK, Haunted Edition** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vibe-studio-multimodal/instructions |
+| 2026-10-21 | **VibeStudio — Multimodal Agentic Workflow with ADK, Holiday Special** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vibe-studio-multimodal/instructions |
 | 2026-10-21 | **Build a Matter virtual device** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/matter-device-virtual |
 | 2026-10-21 | **Long-Running Agents with ADK 2 — triggers, resumable runs, workflows and a human in the loop** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/long-running-agents/instructions |
 | 2026-10-21 | **Agent Harness with the Google Cloud Developer Plugin and Workflow Skills: Migrating a Vibe-Coded App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agent-harness-developer-plugin |
@@ -144,7 +149,7 @@ This document represents a unified, verifiable list of all 1781 records.
 | 2026-08-31 | **Deploy an ADK agent to Agent Runtime using Agents CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/enterprise-cloud-scale-deploying-the-expense-agent-to-agent-runtime-on-google-cloud |
 | 2026-08-31 | **Firebase iOS codelab: FriendlyChat** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-ios-swift |
 | 2026-08-31 | **Agent Gateway ingress to Agent Runtime with Model Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-ingress-modar |
-| 2026-08-28 | **How to Deploy OpenClaw on Cloud Run Instances** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances |
+| 2026-08-28 | **How to Deploy OpenClaw on Cloud Run Instances with Terraform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances |
 | 2026-08-28 | **Way Back Home - Level 0: Identify Yourself** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-0/instructions |
 | 2026-08-28 | **Build Your First Database-Backed Web App with Google AI Studio and Cloud SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-ai-studio-csql |
 | 2026-08-28 | **Build a User-Authenticated AI Application with Custom Instructions on Google AI Studio & Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-ai-challenge |

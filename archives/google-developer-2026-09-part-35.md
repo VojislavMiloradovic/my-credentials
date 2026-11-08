@@ -51,7 +51,7 @@ artifacts: complete, index
 | 2026-08-31 | **Deploy an ADK agent to Agent Runtime using Agents CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/enterprise-cloud-scale-deploying-the-expense-agent-to-agent-runtime-on-google-cloud |
 | 2026-08-31 | **Firebase iOS codelab: FriendlyChat** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-ios-swift |
 | 2026-08-31 | **Agent Gateway ingress to Agent Runtime with Model Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-ingress-modar |
-| 2026-08-28 | **How to Deploy OpenClaw on Cloud Run Instances** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances |
+| 2026-08-28 | **How to Deploy OpenClaw on Cloud Run Instances with Terraform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/deploy-openclaw-cloud-run-instances |
 | 2026-08-28 | **Way Back Home - Level 0: Identify Yourself** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-0/instructions |
 | 2026-08-28 | **Build Your First Database-Backed Web App with Google AI Studio and Cloud SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-ai-studio-csql |
 | 2026-08-28 | **Build a User-Authenticated AI Application with Custom Instructions on Google AI Studio & Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-ai-challenge |
