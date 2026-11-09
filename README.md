@@ -142,15 +142,16 @@ Showing latest 10 of 1173 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 815
-**Total Verified Skills Mapped:** 2845
+**Total Portfolio Credentials:** 816
+**Total Verified Skills Mapped:** 2855
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 815 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 816 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-09 | [JavaScript Essentials 1](https://www.credly.com/badges/0a45cc34-3f5f-4ab2-97f3-8120faf6774f/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-06 | [AWS Knowledge: Mainframe Modernization Foundations - Training Badge](https://www.credly.com/badges/0459da93-1592-4f69-91c5-37d3b2ab08e0/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-05 | [Python Essentials 2](https://www.credly.com/badges/89464c34-269c-4b2d-a92a-b4a20a076a61/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-04 | [Automate Identity Security with Workflows](https://www.credly.com/badges/e3f88afb-4313-41b3-b1b5-2051ba3e662e/public_url) | Okta | Credly Verified Badge |
@@ -160,7 +161,6 @@ Showing latest 10 of 815 credentials. View full dataset via [Platform Archive In
 | 2026-11-04 | [Secure Enterprise AI Tools with Okta Agent Gateway](https://www.credly.com/badges/be836220-589c-4f7e-8056-7bb603f39aa2/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Secure Multi-Agent Workflows with Okta Agent to Agent](https://www.credly.com/badges/f93fc711-e173-4f7f-9d6c-da1833dc8ec2/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Workflows](https://www.credly.com/badges/3d20176d-d805-49f0-97b9-b288376231c1/public_url) | Okta | Credly Verified Badge |
-| 2026-11-02 | [Build Your Own Chatbot - Level 1](https://www.credly.com/badges/1275ae4d-5bdd-45c3-bdc5-4eef7b2ae86f/public_url) | IBM | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 815 records.
+This document represents a unified, verifiable list of all 816 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-09T04:03:20.401334+00:00 -->
+<!-- retrieved_at: 2026-11-09T20:32:40.720361+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-09 | [JavaScript Essentials 1](https://www.credly.com/badges/0a45cc34-3f5f-4ab2-97f3-8120faf6774f/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-06 | [AWS Knowledge: Mainframe Modernization Foundations - Training Badge](https://www.credly.com/badges/0459da93-1592-4f69-91c5-37d3b2ab08e0/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-05 | [Python Essentials 2](https://www.credly.com/badges/89464c34-269c-4b2d-a92a-b4a20a076a61/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-04 | [Automate Identity Security with Workflows](https://www.credly.com/badges/e3f88afb-4313-41b3-b1b5-2051ba3e662e/public_url) | Okta | Credly Verified Badge |
