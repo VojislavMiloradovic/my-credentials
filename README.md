@@ -14,13 +14,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,300,975
+- **Total Experience Points (XP):** 6,304,975
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 4,095
+- **Badges Earned (Profile):** 4,098
 - **Trophies Earned (Profile):** 932
 - **Completed Learning Paths (Active Tracker):** 531
-- **Completed Modules (Active Tracker):** 2,815
-- **Completed Individual Units:** 37,417
+- **Completed Modules (Active Tracker):** 2,818
+- **Completed Individual Units:** 37,445
 
 ### Verifiable Applied Skills & Credentials
 - **Enhance Agents With Autonomous Capabilities** (Credential ID: `A2805BBD40427267` | Earned: 2026-10-31T02:40:58+00:00 | Status: Active)
@@ -39,10 +39,13 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 5,027 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-11-part-99.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-99.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 5,030 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-11-part-99.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-99.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Get started with voice agents in Microsoft Foundry** | Modules | 2026-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-foundry-voice-agents/) |
+| **Audit AI-generated code** | Modules | 2026-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-ai-generated-python-code/) |
+| **Azure Local backup and disaster recovery** | Modules | 2026-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-backup-disaster-recovery/) |
 | **Azure Local disconnected operations** | Modules | 2026-11-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-disconnected-operations/) |
 | **Assess the Business Central architecture** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/assess-business-central-architecture/) |
 | **Operate virtual machine workloads on Azure Local** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-virtual-machine-operations/) |
@@ -50,9 +53,6 @@ Showing latest 10 of 5,027 achievements. View full dataset via [Platform Archive
 | **Deliver real-time AI experiences with Azure Web PubSub** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/real-time-ai-web-pubsub/) |
 | **Azure Local security and governance** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-security-governance/) |
 | **Deploy the Azure Local platform** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-platform-deployment/) |
-| **Turn business context into AI-powered action with Work IQ** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/turn-business-context-ai-powered-action-work-iq/) |
-| **Azure Local storage architecture and maintenance** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-storage-architecture/) |
-| **Architect code specifications for AI** | Modules | 2026-11-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/architecting-code-specifications-ai/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

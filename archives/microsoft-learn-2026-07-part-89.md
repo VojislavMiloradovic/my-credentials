@@ -43,8 +43,8 @@ artifacts: complete, index
 | **Continuously validate and test mission-critical workloads** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/continuous-validate-test-mission-critical-workloads/) |
 | **Explore Azure Center for SAP solutions** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-center-sap-solutions/) |
 | **Azure Stack Hub** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-stack-hub/) |
-| **Prepare to teach DP-100 Designing and Implementing a Data Science Solution on Azure** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-to-teach-dp-100-designing-implementing-data-science-solution-azure/) |
 | **Get tips and tricks for teaching DP-100: Designing and implementing a data science solution on Azure** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-for-teaching-dp-100-designing-implementing-data-science-solution/) |
+| **Prepare to teach DP-100 Designing and Implementing a Data Science Solution on Azure** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-to-teach-dp-100-designing-implementing-data-science-solution-azure/) |
 | **Manage SAP HANA on Azure (Large Instances)** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-sap-hana-azure-large-instances/) |
 | **Explore migration options for SAP on Azure** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-migration-options/) |
 | **Configure the Azure Enhanced Monitoring Extension for SAP** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-enhanced-monitoring-extension-for-sap/) |
@@ -62,7 +62,7 @@ artifacts: complete, index
 | **Begin your Microsoft Learn for Educators Journey** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/begin-your-microsoft-learn-educators-journey/) |
 | **Troubleshoot Apps and Channels** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-apps-channels/) |
 | **Troubleshoot file sharing** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-file-sharing/) |
-| **Troubleshoot authentication and access control issues in Microsoft Azure** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-authentication-access-control/) |
+| **Azure Support Engineer for Connectivity Specialty** | Learningpaths | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-support-engineer-for-connectivity-specialty/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-88.md](./microsoft-learn-2026-07-part-88.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-90.md](./microsoft-learn-2026-07-part-90.md)

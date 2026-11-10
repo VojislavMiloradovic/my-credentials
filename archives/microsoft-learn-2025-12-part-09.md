@@ -45,8 +45,8 @@ artifacts: complete, index
 | **Get started with AI-powered information extraction in Azure** | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-information-extraction/) |
 | **Describe Microsoft Security Copilot agents** | Modules | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-copilot-describe-agents/) |
 | **Enhance security operations by using Microsoft Security Copilot** | Learningpaths | 2025-11-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/security-copilot-and-ai/) |
-| **Guided project - Develop conditional branching and looping structures in C#** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-develop-conditional-branching-looping/) |
 | **Add logic to C# console applications (Get started with C#, Part 3)** | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-c-sharp-part-3/) |
+| **Guided project - Develop conditional branching and looping structures in C#** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-develop-conditional-branching-looping/) |
 | **Secure a Microsoft Fabric data warehouse** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/secure-data-warehouse-in-microsoft-fabric/) |
 | **Introduction to Azure Application Gateway** | Modules | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-application-gateway/) |
 | **GitHub Foundations Part 1 of 2** | Learningpaths | 2025-11-29 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-foundations/) |
