@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-11-10 17:48 UTC
+> **Last Generated:** 2026-11-10 17:51 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -150,25 +150,25 @@ Showing latest 10 of 1173 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 816
-**Total Verified Skills Mapped:** 2855
+**Total Portfolio Credentials:** 820
+**Total Verified Skills Mapped:** 2860
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 816 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 820 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-10 | [Big Data Foundations - Level 1](https://www.credly.com/badges/46977a61-55e8-476d-9d40-c5e18997590c/public_url) | IBM | Credly Verified Badge |
+| 2026-11-10 | [Hadoop Foundations - Level 1](https://www.credly.com/badges/eecc9bbc-a059-483c-99da-b38699f81145/public_url) | IBM | Credly Verified Badge |
+| 2026-11-10 | [R for Data Science](https://www.credly.com/badges/4ce2966c-1b55-4138-b6c6-233f5eaf72df/public_url) | IBM | Credly Verified Badge |
+| 2026-11-10 | [Statistics 101](https://www.credly.com/badges/c4b73295-1912-46f1-a2e8-1958338f0be4/public_url) | IBM | Credly Verified Badge |
 | 2026-11-09 | [JavaScript Essentials 1](https://www.credly.com/badges/0a45cc34-3f5f-4ab2-97f3-8120faf6774f/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-06 | [AWS Knowledge: Mainframe Modernization Foundations - Training Badge](https://www.credly.com/badges/0459da93-1592-4f69-91c5-37d3b2ab08e0/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-05 | [Python Essentials 2](https://www.credly.com/badges/89464c34-269c-4b2d-a92a-b4a20a076a61/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-04 | [Automate Identity Security with Workflows](https://www.credly.com/badges/e3f88afb-4313-41b3-b1b5-2051ba3e662e/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Automate User Lifecycle Management with Workflows](https://www.credly.com/badges/08cb9221-e675-411c-9d0c-347d9ac42ad0/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Evaluate the Business Impact of Phishing Resistance](https://www.credly.com/badges/62891241-bcce-4ffe-9448-42d910989ee0/public_url) | Okta | Credly Verified Badge |
-| 2026-11-04 | [Kong Insomnia for Developers](https://www.credly.com/badges/6cd29a72-4308-4e34-a4f6-48af1417eb01/public_url) | Kong | Credly Verified Badge |
-| 2026-11-04 | [Secure Enterprise AI Tools with Okta Agent Gateway](https://www.credly.com/badges/be836220-589c-4f7e-8056-7bb603f39aa2/public_url) | Okta | Credly Verified Badge |
-| 2026-11-04 | [Secure Multi-Agent Workflows with Okta Agent to Agent](https://www.credly.com/badges/f93fc711-e173-4f7f-9d6c-da1833dc8ec2/public_url) | Okta | Credly Verified Badge |
-| 2026-11-04 | [Workflows](https://www.credly.com/badges/3d20176d-d805-49f0-97b9-b288376231c1/public_url) | Okta | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -1449,18 +1449,22 @@ This document represents a unified, verifiable list of all 1173 records.
 
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 816 records.
+This document represents a unified, verifiable list of all 820 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-10T05:36:28.541565+00:00 -->
+<!-- retrieved_at: 2026-11-10T17:51:20.646957+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-10 | [Big Data Foundations - Level 1](https://www.credly.com/badges/46977a61-55e8-476d-9d40-c5e18997590c/public_url) | IBM | Credly Verified Badge |
+| 2026-11-10 | [Hadoop Foundations - Level 1](https://www.credly.com/badges/eecc9bbc-a059-483c-99da-b38699f81145/public_url) | IBM | Credly Verified Badge |
+| 2026-11-10 | [R for Data Science](https://www.credly.com/badges/4ce2966c-1b55-4138-b6c6-233f5eaf72df/public_url) | IBM | Credly Verified Badge |
+| 2026-11-10 | [Statistics 101](https://www.credly.com/badges/c4b73295-1912-46f1-a2e8-1958338f0be4/public_url) | IBM | Credly Verified Badge |
 | 2026-11-09 | [JavaScript Essentials 1](https://www.credly.com/badges/0a45cc34-3f5f-4ab2-97f3-8120faf6774f/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-06 | [AWS Knowledge: Mainframe Modernization Foundations - Training Badge](https://www.credly.com/badges/0459da93-1592-4f69-91c5-37d3b2ab08e0/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-05 | [Python Essentials 2](https://www.credly.com/badges/89464c34-269c-4b2d-a92a-b4a20a076a61/public_url) | Cisco | Credly Verified Badge |

@@ -1,17 +1,21 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 816 records.
+This document represents a unified, verifiable list of all 820 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-10T05:36:28.541565+00:00 -->
+<!-- retrieved_at: 2026-11-10T17:51:20.646957+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-10 | [Big Data Foundations - Level 1](https://www.credly.com/badges/46977a61-55e8-476d-9d40-c5e18997590c/public_url) | IBM | Credly Verified Badge |
+| 2026-11-10 | [Hadoop Foundations - Level 1](https://www.credly.com/badges/eecc9bbc-a059-483c-99da-b38699f81145/public_url) | IBM | Credly Verified Badge |
+| 2026-11-10 | [R for Data Science](https://www.credly.com/badges/4ce2966c-1b55-4138-b6c6-233f5eaf72df/public_url) | IBM | Credly Verified Badge |
+| 2026-11-10 | [Statistics 101](https://www.credly.com/badges/c4b73295-1912-46f1-a2e8-1958338f0be4/public_url) | IBM | Credly Verified Badge |
 | 2026-11-09 | [JavaScript Essentials 1](https://www.credly.com/badges/0a45cc34-3f5f-4ab2-97f3-8120faf6774f/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-06 | [AWS Knowledge: Mainframe Modernization Foundations - Training Badge](https://www.credly.com/badges/0459da93-1592-4f69-91c5-37d3b2ab08e0/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-05 | [Python Essentials 2](https://www.credly.com/badges/89464c34-269c-4b2d-a92a-b4a20a076a61/public_url) | Cisco | Credly Verified Badge |
