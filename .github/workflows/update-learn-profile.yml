@@ -20,7 +20,28 @@ permissions:
   contents: write
 
 jobs:
+  # Sanitize Microsoft Learn JSON before pipeline runs
+  sanitize-ms-learn:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.11"
+          cache-dependency-glob: "uv.lock"
+      - run: uv sync --frozen --all-extras
+      - name: Sanitize Microsoft Learn JSON
+        run: |
+          if [ -f "data/microsoft-learn.json" ]; then
+            uv run python sanitize_ms_export.py data/microsoft-learn.json
+          fi
+
   update-ms-learn:
+    needs: sanitize-ms-learn
     uses: ./.github/workflows/reusable-update.yml
     with:
       script_name: update_ms_learn.py

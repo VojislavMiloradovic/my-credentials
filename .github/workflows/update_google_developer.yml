@@ -15,8 +15,34 @@ concurrency:
   group: git-push-main
   cancel-in-progress: false
 
+permissions:
+  contents: write
+
 jobs:
+  # Sanitize Google Developer MHTML before pipeline runs
+  sanitize-gdev:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: astral-sh/setup-uv@v5
+        with:
+          python-version: "3.11"
+          cache-dependency-glob: "uv.lock"
+      - run: uv sync --frozen --all-extras
+      - name: Sanitize Google Developer MHTML
+        run: |
+          for f in data/*.mhtml; do
+            if [ -f "$f" ]; then
+              uv run python scripts/sanitize_gdev_mhtml.py "$f"
+            fi
+          done
+
   update-profile:
+    needs: sanitize-gdev
     uses: ./.github/workflows/reusable-update.yml
     with:
       script_name: update_google_developer.py

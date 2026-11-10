@@ -45,7 +45,16 @@ jobs:
             uv run python sanitize_ms_export.py data/microsoft-learn.json
           fi
 
-      # 3. Scan for exposed secrets (scans post-sanitization)
+      # 3. Sanitize Google Developer MHTML export files before Gitleaks runs
+      - name: Sanitize Google Developer MHTML
+        run: |
+          for f in data/*.mhtml; do
+            if [ -f "$f" ]; then
+              uv run python scripts/sanitize_gdev_mhtml.py "$f"
+            fi
+          done
+
+      # 4. Scan for exposed secrets (scans post-sanitization)
       - name: Gitleaks Secret Scan
         uses: gitleaks/gitleaks-action@v2
         env:
