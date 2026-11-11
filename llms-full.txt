@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-11-11 16:46 UTC
+> **Last Generated:** 2026-11-11 16:49 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -183,7 +183,7 @@ Showing latest 10 of 822 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 2,002 |
+| **Total External Certifications Verified** | 2,017 |
 
 #### Recent Certifications
 
@@ -4550,13 +4550,13 @@ This document represents a unified, verifiable list of all 424 records.
 
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 2002 records.
+This document represents a unified, verifiable list of all 2017 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-09T20:48:37.346302+00:00 -->
+<!-- retrieved_at: 2026-11-11T16:49:11.516941+00:00 -->
 
 ## Verified Records Archive
 
@@ -4598,6 +4598,21 @@ This document represents a unified, verifiable list of all 2002 records.
 | 2026-11 | **Exploring AI Capabilities in SAP LeanIX** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylyc-sydot-pimif-lumyt-vabyv) |
 | 2026-11 | **Driving Agentic Enterprise Architecture Leveraging the SAP LeanIX MCP Server** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiric-garac-nudyd-tybin-nafog) |
 | 2026-11 | **Governing AI with SAP LeanIX** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xahyg-vymut-mylak-pifot-pynoh) |
+| 2026-11 | **Big Data Foundations - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/46977a61-55e8-476d-9d40-c5e18997590c/linked_in_profile) |
+| 2026-11 | **Hadoop Foundations - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/eecc9bbc-a059-483c-99da-b38699f81145/linked_in_profile) |
+| 2026-11 | **R for Data Science** | IBM | [Verify Record](https://www.credly.com/badges/4ce2966c-1b55-4138-b6c6-233f5eaf72df/linked_in_profile) |
+| 2026-11 | **IBM Virtual Private Cloud** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/7449bfb8b6f94b868525177d09bfa302) |
+| 2026-11 | **Statistics 101** | IBM | [Verify Record](https://www.credly.com/badges/c4b73295-1912-46f1-a2e8-1958338f0be4/linked_in_profile) |
+| 2026-11 | **Getting Started with SAP Engagement Cloud - Emarsys Edition - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xotob-pasos-dynyt-vidys-dedag) |
+| 2026-11 | **Exploring SAP Customer Data Cloud Essentials - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiguc-nalic-poliv-denut-savyv) |
+| 2026-11 | **From Onboarding to Governance: Mastering SAP Customer Data Cloud for B2B - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xosih-pugip-bocus-geduc-tafit) |
+| 2026-11 | **Exploring SAP Customer Data Platform Essentials - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xotym-dikyg-gybyv-raleh-vinir) |
+| 2026-11 | **Kong Event Gateway Foundations** | Kong | [Verify Record](https://www.credly.com/badges/718d1bab-9ec1-43f1-8c0d-19f0c13e4131/linked_in_profile) |
+| 2026-11 | **Konnect Quick Launch on Kong** | Kong | [Verify Record](https://www.credly.com/badges/362a9daf-20fd-4611-bc4d-1c859f0902df/linked_in_profile) |
+| 2026-11 | **Exploring the Technical Essentials of SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xapuf-nosef-nopek-goful-komam) |
+| 2026-11 | **Expanding Upon Technical Essentials of SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylus-sehac-tahir-kohov-fihis) |
+| 2026-11 | **Mastering the Technical Essentials of SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomir-fosob-sovam-hyhom-satyc) |
+| 2026-11 | **Exploring SAP Platform Capabilities** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xekah-galut-dubof-cypab-lugon) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |
