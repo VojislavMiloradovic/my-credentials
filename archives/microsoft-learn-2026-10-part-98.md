@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Build reusable controls with Power Apps component framework** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component-framework-code-components/) |
 | **Implement business logic with Microsoft Dataverse plug-ins** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dataverse-plug-ins/) |
 | **Diagnose advanced Microsoft Dataverse API failures** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/diagnose-dataverse-api-failures/) |
 | **Security campaigns and prevention-first strategy** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-campaign/) |
@@ -59,8 +60,8 @@ artifacts: complete, index
 | **Distributed computing on the cloud: GraphLab** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-analytics-engines-graphlab/) |
 | **Distributed computing on the cloud: MapReduce** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-analytics-engines-mapreduce/) |
 | **What is distributed programming?** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-distributed-programming-introduction/) |
-| **Case studies: NoSQL databases and cloud object storage** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-case-study-nosql-databases/) |
 | **Cloud storage** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-cloud-computing-cloud-storage/) |
+| **Case studies: NoSQL databases and cloud object storage** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-case-study-nosql-databases/) |
 | **Case studies: Distributed file systems** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-case-study-distributed-file-systems/) |
 | **Cloud storage overview** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-cloud-storage/) |
 | **Cloud computing basics for developers** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-cloud-developer-basics/) |
@@ -69,7 +70,6 @@ artifacts: complete, index
 | **Datacenter trends in cloud computing** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-data-centers/) |
 | **Economics of cloud computing** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-cloud-economics/) |
 | **Foundations of cloud computing for developers** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-cloud-computing-overview/) |
-| **Storage and network virtualization** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-storage-network-virtualization/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-10-part-97.md](./microsoft-learn-2026-10-part-97.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-11-part-99.md](./microsoft-learn-2026-11-part-99.md)

@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Deploy offline root and issuing Active Directory Certificate Services certification authorities** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-services-root-issuing-authority/) |
 | **Support mobile productivity with Surface Laptop for Business 13-inch** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-laptop-13-inch-business/) |
 | **Use Copilot wisely - balancing usage, cost, and value** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/balance-cost-usage-value-copilot/) |
 | **Active Directory Certificate Services roles and topology** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-services-roles-topology/) |
@@ -65,7 +66,6 @@ artifacts: complete, index
 | **Organize data with collections** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/organize-data-with-collections-python/) |
 | **Advanced Active Directory back up and recovery** | Modules | 2026-08-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-backup-recovery/) |
 | **Introduction to Azure SRE Agent** | Modules | 2026-08-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-sre-agent/) |
-| **Understand how Project Perception coordinates security operations** | Modules | 2026-08-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-orientation/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-96.md](./microsoft-learn-2026-10-part-96.md)

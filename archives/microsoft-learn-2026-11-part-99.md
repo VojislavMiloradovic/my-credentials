@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 99 of 99
-date_range: 2026-10-15 to 2026-11-10
-total_entries: 30
+date_range: 2026-10-15 to 2026-11-11
+total_entries: 36
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-99.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,13 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Draft, analyze, and present with Microsoft 365 Copilot** | Learningpaths | 2026-11-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/draft-analyze-present-microsoft-365-copilot/) |
+| **Run end-to-end work in Microsoft Copilot** | Modules | 2026-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-end-to-end-work-copilot/) |
+| **Understand the shift to hybrid intelligence on Windows** | Modules | 2026-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-hybrid-intelligence/) |
+| **Get ready for Windows 11, version 26H2: What to evaluate before deployment** | Modules | 2026-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/windows-11-version-26h2/) |
+| **Create and refine ideas with Ink Canvas on Surface** | Modules | 2026-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-ink-canvas/) |
+| **Get started with Microsoft Sovereign Cloud** | Learningpaths | 2026-11-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-sovereignty/) |
+| **Introduction to digital sovereignty and Microsoft Sovereign Cloud** | Modules | 2026-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/sovereignty-overview/) |
 | **Get started with voice agents in Microsoft Foundry** | Modules | 2026-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-foundry-voice-agents/) |
 | **Audit AI-generated code** | Modules | 2026-11-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-ai-generated-python-code/) |
 | **Azure Local backup and disaster recovery** | Modules | 2026-11-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-backup-disaster-recovery/) |
@@ -44,7 +51,6 @@ artifacts: complete, index
 | **Extend Dataverse with code and Azure compute** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-dataverse-code-azure/) |
 | **Get started with Microsoft Power Platform development** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-platform-development/) |
 | **Build professional Power Apps experiences** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-power-apps-experiences/) |
-| **Build reusable controls with Power Apps component framework** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component-framework-code-components/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-10-part-98.md](./microsoft-learn-2026-10-part-98.md) | [Index](./microsoft-learn-index.md) | Next: None

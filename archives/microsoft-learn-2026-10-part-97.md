@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Storage and network virtualization** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-storage-network-virtualization/) |
 | **Virtualization - Sharing cloud resources** | Learningpaths | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/cmu-cloud-computing-how-cloud-works/) |
 | **Virtualize I/O** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-virtualize-input-output/) |
 | **Virtualize memory** | Modules | 2026-10-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-virtualize-memory/) |
@@ -65,7 +66,6 @@ artifacts: complete, index
 | **Design and manage Active Directory Certificate Services certificate templates** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-manage-certificate-templates/) |
 | **Build your first agent in Microsoft 365 Copilot Chat** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilot-agent/) |
 | **Perform advanced searches in mPower Clinical Analytics** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-perform-advanced-searches/) |
-| **Introduction to Microsoft AI models** | Learningpaths | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-ai/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-10-part-96.md](./microsoft-learn-2026-10-part-96.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-98.md](./microsoft-learn-2026-10-part-98.md)

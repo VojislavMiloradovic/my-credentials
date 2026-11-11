@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 94 of 99
-date_range: 2026-07-28 to 2026-08-11
+date_range: 2026-07-28 to 2026-08-15
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-94.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Understand how Project Perception coordinates security operations** | Modules | 2026-08-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/project-perception-agentic-security-orientation/) |
 | **Active Directory Domain Services authentication and Kerberos hardening** | Modules | 2026-08-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-authentication-kerberos/) |
 | **Ingest data into Customer Insights - Data** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/ingest-data-customer-insights/) |
 | **Get started with Dynamics 365 Customer Insights - Data** | Modules | 2026-08-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-customer-data-platform/) |
@@ -60,14 +61,13 @@ artifacts: complete, index
 | **Extend Microsoft SharePoint – Associate** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-sharepoint-associate/) |
 | **Deploy SharePoint Framework Components to Production** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-deployment/) |
 | **Use Microsoft Graph and non-Microsoft APIs** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-graph-3rd-party-apis/) |
-| **Create Adaptive Card Extensions (ACE) for Microsoft Viva Connections** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-adaptive-card-extension-card-types/) |
 | **Extend Microsoft Viva Connections** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-extend-viva-connections/) |
+| **Create Adaptive Card Extensions (ACE) for Microsoft Viva Connections** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-adaptive-card-extension-card-types/) |
 | **Extend the SharePoint user interface with SharePoint Framework extensions** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-extensions/) |
 | **Work with SharePoint Content using the SharePoint Framework** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-spcontent/) |
 | **Enable SharePoint Framework web part configuration with property panes** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-part-property-pane/) |
 | **Develop web parts with the SharePoint Framework** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-parts/) |
 | **Get started with the SharePoint Framework** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-get-started/) |
-| **Build applications on the cloud** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-build-apps-cloud/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-09-part-95.md](./microsoft-learn-2026-09-part-95.md)
