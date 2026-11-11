@@ -1,17 +1,19 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 820 records.
+This document represents a unified, verifiable list of all 822 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-11T04:09:03.737400+00:00 -->
+<!-- retrieved_at: 2026-11-11T16:28:53.895181+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-11 | [Kong Event Gateway Foundations](https://www.credly.com/badges/718d1bab-9ec1-43f1-8c0d-19f0c13e4131/public_url) | Kong | Credly Verified Badge |
+| 2026-11-11 | [Konnect Quick Launch on Kong](https://www.credly.com/badges/362a9daf-20fd-4611-bc4d-1c859f0902df/public_url) | Kong | Credly Verified Badge |
 | 2026-11-10 | [Big Data Foundations - Level 1](https://www.credly.com/badges/46977a61-55e8-476d-9d40-c5e18997590c/public_url) | IBM | Credly Verified Badge |
 | 2026-11-10 | [Hadoop Foundations - Level 1](https://www.credly.com/badges/eecc9bbc-a059-483c-99da-b38699f81145/public_url) | IBM | Credly Verified Badge |
 | 2026-11-10 | [R for Data Science](https://www.credly.com/badges/4ce2966c-1b55-4138-b6c6-233f5eaf72df/public_url) | IBM | Credly Verified Badge |
