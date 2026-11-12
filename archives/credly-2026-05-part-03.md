@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-17 | [Cybersecurity Fundamentals](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-05-17 | [Data Literacy Essentials](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31/public_url) | SAS | Credly Verified Badge |
 | 2026-05-17 | [Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity](https://www.credly.com/badges/50b5be88-f0a7-4bdf-b7eb-7a94d5d4714c/public_url) | Okta | Credly Verified Badge |
 | 2026-05-17 | [Introduction to Statistical Concepts](https://www.credly.com/badges/c503a241-0ce2-4131-878d-d2695680bde2/public_url) | SAS | Credly Verified Badge |
@@ -67,7 +68,6 @@ artifacts: complete, index
 | 2026-05-08 | [Okta for AI Agents](https://www.credly.com/badges/692470a1-f212-48bf-a7b7-79e824c6f06f/public_url) | Okta | Credly Verified Badge |
 | 2026-05-08 | [Secure Your AI Agents to Act on the Behalf of Users](https://www.credly.com/badges/18c0a300-025b-46de-9097-99133e15b871/public_url) | Okta | Credly Verified Badge |
 | 2026-05-08 | [Secure Your RAG Pipelines with Auth0 Fine-Grained Access](https://www.credly.com/badges/c734854a-173d-4bb7-a018-d72a9b2c9cf6/public_url) | Okta | Credly Verified Badge |
-| 2026-05-08 | [Securing AI Agents](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/public_url) | Okta | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-05-part-02.md](./credly-2026-05-part-02.md) | [Index](./credly-index.md) | Next: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md)

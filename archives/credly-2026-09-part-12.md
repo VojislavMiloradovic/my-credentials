@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-15 | [MSP Academy: Safe Communication Environment](https://www.credly.com/badges/5fe58d60-50f4-4d63-a36c-b3949a00999a/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Work Relationships](https://www.credly.com/badges/a8af127f-7f43-42eb-8dab-b5ded37fb76c/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-14 | [Private Marketplace Essentials](https://www.credly.com/badges/700a8c47-865a-4445-9ccd-8bcee41c5520/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-13 | [Optimizing Generative AI](https://www.credly.com/badges/e84dce14-33be-4673-973b-498fd69a1516/public_url) | Cisco | Credly Verified Badge |
@@ -68,7 +69,6 @@ artifacts: complete, index
 | 2026-08-29 | [SASE Business Impact and Strategy](https://www.credly.com/badges/87458b9d-8699-412d-b198-10f5f7366da9/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-29 | [Zero Trust Security Essentials](https://www.credly.com/badges/b666adab-35fe-4f0c-883d-9bb0939173a6/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [SASE Advanced Security](https://www.credly.com/badges/3a796ab4-659a-4141-a249-b6f94611201f/public_url) | Cato Networks | Credly Verified Badge |
-| 2026-08-28 | [SASE Deployment and Management](https://www.credly.com/badges/906c5b04-f903-46cb-805c-9b3f0729718f/public_url) | Cato Networks | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-08-part-11.md](./credly-2026-08-part-11.md) | [Index](./credly-index.md) | Next: [credly-2026-09-part-13.md](./credly-2026-09-part-13.md)

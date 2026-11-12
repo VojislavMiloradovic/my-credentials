@@ -492,7 +492,15 @@
       "title": "fb2ad352fa554966"
     }
   ],
-  "credly": [],
+  "credly": [
+    {
+      "id": "934b4141-bcf6-4834-a982-327f1ea3e893",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-12",
+      "retired_at": "2026-11-12",
+      "title": "934b4141-bcf6-4834-a982-327f1ea3e893"
+    }
+  ],
   "google-developer": [
     {
       "id": "https://codelabs.developers.google.com/alloydb-omni-vm-deployment",

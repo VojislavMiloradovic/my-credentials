@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 8 of 16
-date_range: 2026-07-02 to 2026-07-14
+date_range: 2026-07-02 to 2026-07-15
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-07-part-08.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-15 | [Strategic Cybersecurity Management](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-07-14 | [Acronis Cyber Protect – Endpoint Management Basics](https://www.credly.com/badges/e9ff04b3-1b9b-40be-a241-a663e3a6a251/public_url) | Acronis | Credly Verified Badge |
 | 2026-07-14 | [AWS Knowledge: AI Basics - Training Badge](https://www.credly.com/badges/fbb02508-656a-4241-b49c-182dcd8f43ee/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-07-14 | [FIPS Frontrunner](https://www.credly.com/badges/93ad4964-81b4-45ad-b613-688f0505a759/public_url) | Chainguard | Credly Verified Badge |
@@ -68,7 +69,6 @@ artifacts: complete, index
 | 2026-07-02 | [Cloud Sales Associate Advanced Management](https://www.credly.com/badges/7a16d6a7-7f4a-43e0-8ddb-fbcb300a8822/public_url) | Acronis | Credly Verified Badge |
 | 2026-07-02 | [Configure Database Integration for Okta Privileged Access](https://www.credly.com/badges/eb355e8c-609f-45e9-94dd-f86b7788027e/public_url) | Okta | Credly Verified Badge |
 | 2026-07-02 | [Manage Change and Scale Adoption](https://www.credly.com/badges/06895ebe-457b-40c8-8c8d-336b96da8ac4/public_url) | Celonis | Credly Verified Badge |
-| 2026-07-02 | [Process Automation Concepts](https://www.credly.com/badges/da7e7652-ed54-4938-b484-e509978ae444/public_url) | Celonis | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-07-part-07.md](./credly-2026-07-part-07.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-09.md](./credly-2026-07-part-09.md)

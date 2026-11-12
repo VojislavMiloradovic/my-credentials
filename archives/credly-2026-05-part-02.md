@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 2 of 16
-date_range: 2026-04-19 to 2026-05-06
+date_range: 2026-04-19 to 2026-05-08
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-05-part-02.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-08 | [Securing AI Agents](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/public_url) | Okta | Credly Verified Badge |
 | 2026-05-06 | [Agent Observability Metrics & Traces Learning Path](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url) | Datadog | Credly Verified Badge |
 | 2026-05-06 | [Agents & Agentic AI Fundamentals](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d/public_url) | Intel | Credly Verified Badge |
 | 2026-05-06 | [Applying SAP S/4HANA Product Engineering - Record of Achievement](https://www.credly.com/badges/9c1dab10-70e9-4bd3-b9fa-9f2eead26a00/public_url) | SAP | Credly Verified Badge |
@@ -64,7 +65,6 @@ artifacts: complete, index
 | 2026-04-20 | [Introduction to Greenhouse Gas Accounting for IT](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250/public_url) | Cisco | Credly Verified Badge |
 | 2026-04-20 | [Working with Invoice Pay in Concur Invoice Professional - Record of Achievement](https://www.credly.com/badges/6a8ba215-f454-4b26-91ef-5ff968b721f7/public_url) | SAP | Credly Verified Badge |
 | 2026-04-19 | [AI Fundamentals: Foundations for Understanding AI](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-04-19 | [AWS Knowledge: AWS Transform Fundamentals – Training Badge](https://www.credly.com/badges/54d81ecb-6fd5-4ff9-aba6-6acaa59cdcec/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-04-part-01.md](./credly-2026-04-part-01.md) | [Index](./credly-index.md) | Next: [credly-2026-05-part-03.md](./credly-2026-05-part-03.md)

@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-10 | [Harness Certified Infrastructure as Code Management Developer](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Resilience Testing Formerly Chaos Engineering Developer](https://www.credly.com/badges/ed311c10-6a4b-4dea-a7e5-a24b1bdde162/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Security Testing Orchestration Developer](https://www.credly.com/badges/455c75bc-68bd-455c-8162-9f22617ffed1/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B3E75DBC35A98214?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
@@ -69,7 +70,6 @@ artifacts: complete, index
 | 2026-09-30 | [Basis DSP Tactics](https://www.credly.com/badges/84fdc926-20d9-477f-b88e-9f372681a6b2/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-30 | [Basis Planner](https://www.credly.com/badges/b21ec6f2-c32f-4ef6-9536-19b8ba89a0b7/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-30 | [Collaboration & Communication](https://www.credly.com/badges/6016826a-ee02-4bd1-b2c6-ffcdb71616a8/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-30 | [Contextual Targeting: Strategies with Proximic by Comscore](https://www.credly.com/badges/678f7f02-73f8-4fb6-8c6e-ce8a77ebba5a/public_url) | Basis Technologies | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-09-part-13.md](./credly-2026-09-part-13.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md)

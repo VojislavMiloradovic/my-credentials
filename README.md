@@ -151,6 +151,7 @@ Showing latest 10 of 826 credentials. View full dataset via [Platform Archive In
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-12 | [Google Ads Search Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/6db41e0f-5f9c-4daf-be92-4ce5bcd12fdc) | Skillshop | Credly External Badge |
 | 2026-11-11 | [eBPF + Go Development](https://www.credly.com/badges/33ee45f9-9d54-45d5-acde-4dab793e0250/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-11 | [eBPF Kubernetes Monitoring](https://www.credly.com/badges/fc0c346e-d0ca-43c0-917c-b3bb31bee0cd/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-11 | [eBPF Networking](https://www.credly.com/badges/d47370ef-b31f-4330-b12a-53c239efaa66/public_url) | Isovalent | Credly Verified Badge |
@@ -160,7 +161,6 @@ Showing latest 10 of 826 credentials. View full dataset via [Platform Archive In
 | 2026-11-10 | [Big Data Foundations - Level 1](https://www.credly.com/badges/46977a61-55e8-476d-9d40-c5e18997590c/public_url) | IBM | Credly Verified Badge |
 | 2026-11-10 | [Hadoop Foundations - Level 1](https://www.credly.com/badges/eecc9bbc-a059-483c-99da-b38699f81145/public_url) | IBM | Credly Verified Badge |
 | 2026-11-10 | [R for Data Science](https://www.credly.com/badges/4ce2966c-1b55-4138-b6c6-233f5eaf72df/public_url) | IBM | Credly Verified Badge |
-| 2026-11-10 | [Statistics 101](https://www.credly.com/badges/c4b73295-1912-46f1-a2e8-1958338f0be4/public_url) | IBM | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

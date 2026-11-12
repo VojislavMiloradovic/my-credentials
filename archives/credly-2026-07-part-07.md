@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-02 | [Process Automation Concepts](https://www.credly.com/badges/da7e7652-ed54-4938-b484-e509978ae444/public_url) | Celonis | Credly Verified Badge |
 | 2026-07-02 | [Process Intelligence Audit Professional](https://www.credly.com/badges/f2f7155c-98d7-40ee-8c4d-6a6fd43667ab/public_url) | Celonis | Credly Verified Badge |
 | 2026-07-02 | [Use and Interpret Views](https://www.credly.com/badges/98c3a33b-f27a-4850-84b1-dd59f013f830/public_url) | Celonis | Credly Verified Badge |
 | 2026-07-01 | [Build Infrastructure with Terraform on Google Cloud Skill Badge](https://www.credly.com/badges/35059bf2-e867-46eb-95b6-5ef733207698/public_url) | Google Cloud | Credly Verified Badge |
@@ -67,7 +68,6 @@ artifacts: complete, index
 | 2026-06-21 | [The Basics of Google Cloud Compute Skill Badge](https://www.credly.com/badges/1add8a23-2f6c-4308-bcd7-39c83fcc42f6/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-06-20 | [AWS Knowledge: Amazon ECS - Training Badge](https://www.credly.com/badges/6b61161d-dd36-4991-b23a-8ec2b7c96368/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-06-20 | [Brand Your Okta Customer Identity Experience](https://www.credly.com/badges/ef277f59-d9a8-464c-88be-5e92dcb590a2/public_url) | Okta | Credly Verified Badge |
-| 2026-06-20 | [Implement B2C Self-Service Registration with Okta](https://www.credly.com/badges/50cbbb61-b545-4f07-b122-39494ae2b6f6/public_url) | Okta | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-08.md](./credly-2026-07-part-08.md)

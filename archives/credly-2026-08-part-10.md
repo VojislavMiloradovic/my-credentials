@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-10 | [Cloud Tech Professional EDR](https://www.credly.com/badges/1bf4cc99-349a-43d4-a520-4fcda2a5df27/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-10 | [Foundations: Kubernetes Networking & Cilium](https://www.credly.com/badges/eb7a1881-5a18-499b-9e7f-2b8a2613c283/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Golden Signals with Hubble and Grafana](https://www.credly.com/badges/adb39fe6-553a-4f2b-aed7-2748d666948f/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Maturing Threat-Informed Defense with M3TID](https://www.credly.com/badges/2e8b7ceb-8d8c-4c3b-bf12-e183a5d4b47d/public_url) | AttackIQ | Credly Verified Badge |
@@ -69,7 +70,6 @@ artifacts: complete, index
 | 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-07-29 | [AWS Educate Getting Started with Serverless - Training Badge](https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-07-29 | [Build Event-Driven Applications with Eventarc](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-07-29 | [Cloud Sales Professional MDR](https://www.credly.com/badges/6efa11ee-1073-454d-962f-8288a8b69bf7/public_url) | Acronis | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-07-part-09.md](./credly-2026-07-part-09.md) | [Index](./credly-index.md) | Next: [credly-2026-08-part-11.md](./credly-2026-08-part-11.md)

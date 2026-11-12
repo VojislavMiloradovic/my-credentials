@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 5 of 16
-date_range: 2026-05-30 to 2026-06-08
+date_range: 2026-05-31 to 2026-06-08
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-06-part-05.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-08 | [Creative Facilitation](https://www.credly.com/badges/6df66de9-9678-4f5a-bc36-1c4d7b220100/public_url) | Lucid Software | Credly Verified Badge |
 | 2026-06-08 | [Process Accelerator Badge](https://www.credly.com/badges/66e95c6f-7100-4007-ae22-1fc36a1d638d/public_url) | Lucid Software | Credly Verified Badge |
 | 2026-06-07 | [AWS Knowledge: File Storage - Training Badge](https://www.credly.com/badges/517a628a-d90a-48b8-858b-8c81048bbf5d/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-06-07 | [LFC102: Inclusive Open Source Community Orientation](https://www.credly.com/badges/eb937342-cd3c-4993-8e44-91f0bf12f83c/public_url) | The Linux Foundation | Credly Verified Badge |
@@ -67,7 +68,6 @@ artifacts: complete, index
 | 2026-05-31 | [Messaging](https://www.credly.com/badges/a65a8496-8f64-4d2c-b4c7-4a3d9b161301/public_url) | Zendesk | Credly Verified Badge |
 | 2026-05-31 | [Talk / voice](https://www.credly.com/badges/82c8ca9b-bbde-4b58-b8dc-57dc834fada4/public_url) | Zendesk | Credly Verified Badge |
 | 2026-05-31 | [Zendesk Knowledge](https://www.credly.com/badges/80fd12ea-5a76-4bf2-aab2-4c5ea7531b3a/public_url) | Zendesk | Credly Verified Badge |
-| 2026-05-30 | [Foundations of Insurance and the IFRS 17 Standard Knowledge Badge](https://www.credly.com/badges/0b8945bd-0f24-49bf-b36a-8b9c790b9002/public_url) | SAS | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md)

@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-29 | [Cloud Sales Professional MDR](https://www.credly.com/badges/6efa11ee-1073-454d-962f-8288a8b69bf7/public_url) | Acronis | Credly Verified Badge |
 | 2026-07-29 | [Cloud Sales Pro - Protected 365](https://www.credly.com/badges/da80423d-93c4-4353-949e-47fe38205bb8/public_url) | Acronis | Credly Verified Badge |
 | 2026-07-29 | [Countering Ransomware with MITRE ATT&CK](https://www.credly.com/badges/86ad39b3-0d3a-4939-b748-62169bb782d7/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-07-28 | [Optimizing and Maintaining MongoDB Cluster Reliability](https://www.credly.com/badges/ef5db49e-1ab5-4ea0-ba70-bf16383e600f/public_url) | MongoDB | Credly Verified Badge |
@@ -67,7 +68,6 @@ artifacts: complete, index
 | 2026-07-15 | [AWS Educate Getting Started with Storage - Training Badge](https://www.credly.com/badges/c0cd9a0e-d2c9-4c72-9e6f-87b5cedde8a7/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-07-15 | [Building AI-Powered Search with MongoDB Vector Search](https://www.credly.com/badges/106d3801-84c1-4057-8474-6450f2a84b33/public_url) | MongoDB | Credly Verified Badge |
 | 2026-07-15 | [Cloud Tech Professional Disaster Recovery](https://www.credly.com/badges/b1960c54-6ac1-4206-8631-f489b925b6eb/public_url) | Acronis | Credly Verified Badge |
-| 2026-07-15 | [Strategic Cybersecurity Management](https://www.credly.com/badges/e0cfb483-3bab-4f21-b48e-896e6e02a2de/public_url) | AttackIQ | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-07-part-08.md](./credly-2026-07-part-08.md) | [Index](./credly-index.md) | Next: [credly-2026-08-part-10.md](./credly-2026-08-part-10.md)

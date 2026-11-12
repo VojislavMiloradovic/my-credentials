@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-28 | [SASE Deployment and Management](https://www.credly.com/badges/906c5b04-f903-46cb-805c-9b3f0729718f/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [SSE Expert Certification](https://www.credly.com/badges/2d5a7b6b-db2d-4a99-814a-870cea7ec348/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [Cilium SCTP](https://www.credly.com/badges/93beb0d4-956a-4579-b936-626a9fd880d8/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-28 | [Cloud Computing Fundamentals](https://www.credly.com/badges/3372ff55-1a0f-4fd1-b85e-4642dae974c0/public_url) | IBM SkillsBuild | Credly Verified Badge |
@@ -70,7 +71,6 @@ artifacts: complete, index
 | 2026-08-10 | [Cilium LB-IPAM & L2](https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cilium LoadBalancer IPAM and BGP Service Advertisement](https://www.credly.com/badges/d181f780-e6ee-4fef-8bd1-df291a355438/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cloud Tech Pro - Email Archiving](https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/public_url) | Acronis | Credly Verified Badge |
-| 2026-08-10 | [Cloud Tech Professional EDR](https://www.credly.com/badges/1bf4cc99-349a-43d4-a520-4fcda2a5df27/public_url) | Acronis | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-08-part-10.md](./credly-2026-08-part-10.md) | [Index](./credly-index.md) | Next: [credly-2026-09-part-12.md](./credly-2026-09-part-12.md)

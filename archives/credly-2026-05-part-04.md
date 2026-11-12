@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 4 of 16
-date_range: 2026-05-17 to 2026-05-27
+date_range: 2026-05-19 to 2026-05-30
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-05-part-04.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-30 | [Foundations of Insurance and the IFRS 17 Standard Knowledge Badge](https://www.credly.com/badges/0b8945bd-0f24-49bf-b36a-8b9c790b9002/public_url) | SAS | Credly Verified Badge |
 | 2026-05-27 | [Architecture and Administration for SAS Workload Management on SAS Viya](https://www.credly.com/badges/8ab110d2-4f48-4270-a365-2d39a121015c/public_url) | SAS | Credly Verified Badge |
 | 2026-05-27 | [Deploying SAS Event Stream Processing on SAS Viya](https://www.credly.com/badges/23f9cee5-1e7b-4c04-9819-ca58eaa54c81/public_url) | SAS | Credly Verified Badge |
 | 2026-05-27 | [Deploying SAS Grid Manager for Platform](https://www.credly.com/badges/b96c02e5-ee74-4756-a24d-5109b66c2d93/public_url) | SAS | Credly Verified Badge |
@@ -68,7 +69,6 @@ artifacts: complete, index
 | 2026-05-19 | [Modern Data Science with SAS Viya Workbench: Unified Development with SAS, Python, and R](https://www.credly.com/badges/a0be387e-762c-4126-96bb-f1e42b60e922/public_url) | SAS | Credly Verified Badge |
 | 2026-05-19 | [SAS 9 Administration: Getting Started](https://www.credly.com/badges/db55699d-258e-4a61-870c-0d66d5f6166f/public_url) | SAS | Credly Verified Badge |
 | 2026-05-19 | [SAS Viya Overview](https://www.credly.com/badges/2fdf77a8-806b-4cf7-bbd3-a87225b74bac/public_url) | SAS | Credly Verified Badge |
-| 2026-05-17 | [Cybersecurity Fundamentals](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9/public_url) | IBM SkillsBuild | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-05-part-03.md](./credly-2026-05-part-03.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-05.md](./credly-2026-06-part-05.md)

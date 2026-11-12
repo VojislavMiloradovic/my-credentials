@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-28 | [Manage AI Agents Access to Resources](https://www.credly.com/badges/656a7c48-79f9-40ec-9e10-9078ace2e722/public_url) | Okta | Credly Verified Badge |
 | 2026-10-28 | [Streamline Identity Governance with Workflows](https://www.credly.com/badges/984861ae-3ade-45cf-bf5b-b7a99316dab6/public_url) | Okta | Credly Verified Badge |
 | 2026-10-27 | [Game-playing AI with Swift for TensorFlow](https://www.credly.com/badges/bba0e5ce-372f-4f04-8c7e-add137f1656b/public_url) | IBM | Credly Verified Badge |
 | 2026-10-27 | [Kong Gateway Operations for KIC](https://www.credly.com/badges/ea916ed5-cdde-4b4a-ae16-6b7a912566f0/public_url) | Kong | Credly Verified Badge |
@@ -65,7 +66,6 @@ artifacts: complete, index
 | 2026-10-10 | [Harness Certified Code Repository Developer](https://www.credly.com/badges/e7564671-e168-49e2-b28b-c2f2da887146/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Continuous Delivery & GitOps Developer](https://www.credly.com/badges/99b36a29-ec2a-4df6-bf2d-74fdad35e070/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Continuous Integration Developer](https://www.credly.com/badges/614739fa-4c01-45e3-afaa-32d3ed5e80c5/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-10 | [Harness Certified Infrastructure as Code Management Developer](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/public_url) | Harness Inc | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Index](./credly-index.md) | Next: [credly-2026-11-part-16.md](./credly-2026-11-part-16.md)

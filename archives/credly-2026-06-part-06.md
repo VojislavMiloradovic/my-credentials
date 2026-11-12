@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-20 | [Implement B2C Self-Service Registration with Okta](https://www.credly.com/badges/50cbbb61-b545-4f07-b122-39494ae2b6f6/public_url) | Okta | Credly Verified Badge |
 | 2026-06-20 | [M365 Basic Course](https://www.credly.com/badges/ddd3f99a-a3bd-44e6-8916-3b27b50cc8e4/public_url) | Acronis | Credly Verified Badge |
 | 2026-06-19 | [LFC120: Leading High-Performance Working Group Meetings](https://www.credly.com/badges/d1bc4d63-e2c5-4d32-b281-089f9b653a12/public_url) | The Linux Foundation | Credly Verified Badge |
 | 2026-06-19 | [LFD141: IT Specification Basics for New Developers](https://www.credly.com/badges/bbc99675-45d1-4af8-b9df-90f47260bd68/public_url) | The Linux Foundation | Credly Verified Badge |
@@ -65,7 +66,6 @@ artifacts: complete, index
 | 2026-06-08 | [LFS157: Introduction to Serverless on Kubernetes](https://www.credly.com/badges/b7b7ca0d-9eb3-42a1-9e11-70c2260d2b4e/public_url) | The Linux Foundation | Credly Verified Badge |
 | 2026-06-08 | [LFS182: Securing Your Software Supply Chain with Sigstore](https://www.credly.com/badges/78826580-a3a7-4213-be79-3233321f3d3e/public_url) | The Linux Foundation | Credly Verified Badge |
 | 2026-06-08 | [Cloud Accelerator Badge](https://www.credly.com/badges/a10ab236-0af0-45ad-a9f0-694426ba3f8d/public_url) | Lucid Software | Credly Verified Badge |
-| 2026-06-08 | [Creative Facilitation](https://www.credly.com/badges/6df66de9-9678-4f5a-bc36-1c4d7b220100/public_url) | Lucid Software | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-06-part-05.md](./credly-2026-06-part-05.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-07.md](./credly-2026-07-part-07.md)

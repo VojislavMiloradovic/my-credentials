@@ -6,12 +6,13 @@ This document represents a unified, verifiable list of all 826 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-12T05:20:52.209427+00:00 -->
+<!-- retrieved_at: 2026-11-12T21:58:56.522379+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-12 | [Google Ads Search Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/6db41e0f-5f9c-4daf-be92-4ce5bcd12fdc) | Skillshop | Credly External Badge |
 | 2026-11-11 | [eBPF + Go Development](https://www.credly.com/badges/33ee45f9-9d54-45d5-acde-4dab793e0250/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-11 | [eBPF Kubernetes Monitoring](https://www.credly.com/badges/fc0c346e-d0ca-43c0-917c-b3bb31bee0cd/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-11 | [eBPF Networking](https://www.credly.com/badges/d47370ef-b31f-4330-b12a-53c239efaa66/public_url) | Isovalent | Credly Verified Badge |
@@ -830,7 +831,6 @@ This document represents a unified, verifiable list of all 826 records.
 | 2026-03-16 | [Microsoft Applied Skills: Get started with cloud security and monitoring tasks](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/1EBB80C496C2DDF1?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-03-15 | [Google Ads Search Certification](https://api.accredible.com/v1/obi/badge_assertions/f0f3a46f-f6a1-4145-8fb5-2c2bb41a761f) | Skillshop | Credly External Badge |
 | 2026-03-15 | [Microsoft Applied Skills: Streamline business workflows with AI chat](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/CE7FBB459ADAB331?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
-| 2026-03-14 | [Microsoft Applied Skills: Create an AI agent](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/DC86763A7069ABBF?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-03-12 | [Google Analytics Certification](https://api.accredible.com/v1/obi/badge_assertions/c845a7b6-cef3-4e66-87e2-481771d889ed) | Skillshop | Credly External Badge |
 | 2026-02-07 | [Oracle Cloud Success Navigator Essentials](https://catalog-education.oracle.com/pls/certview/sharebadge?id=E11489205EF3BEE917EAFE29D12203DA2526C300DB291B1D3B7F3E1F84C70D87) | Oracle | Credly External Badge |
 | 2025-12-20 | [Implement Load Balancing on Compute Engine Skill Badge](https://www.credly.com/badges/a081bb3e-083d-4ccc-a074-c7b7e2d15a1b/public_url) | Google Cloud | Credly Verified Badge |

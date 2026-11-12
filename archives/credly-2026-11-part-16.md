@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 16 of 16
-date_range: 2026-10-28 to 2026-11-11
+date_range: 2026-10-28 to 2026-11-12
 total_entries: 29
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-12 | [Google Ads Search Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/6db41e0f-5f9c-4daf-be92-4ce5bcd12fdc) | Skillshop | Credly External Badge |
 | 2026-11-11 | [eBPF + Go Development](https://www.credly.com/badges/33ee45f9-9d54-45d5-acde-4dab793e0250/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-11 | [eBPF Kubernetes Monitoring](https://www.credly.com/badges/fc0c346e-d0ca-43c0-917c-b3bb31bee0cd/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-11 | [eBPF Networking](https://www.credly.com/badges/d47370ef-b31f-4330-b12a-53c239efaa66/public_url) | Isovalent | Credly Verified Badge |
@@ -43,7 +44,6 @@ artifacts: complete, index
 | 2026-10-28 | [Identity Governance](https://www.credly.com/badges/d7edb0d7-1935-4389-87dc-39b5f395f23e/public_url) | Okta | Credly Verified Badge |
 | 2026-10-28 | [Identity Governance Access Certifications](https://www.credly.com/badges/33ce5fd1-570d-42ff-bea6-32d007088ab1/public_url) | Okta | Credly Verified Badge |
 | 2026-10-28 | [Identity Governance Entitlement Management](https://www.credly.com/badges/e73184e8-22d6-4175-ab5d-3d53bbfb4a04/public_url) | Okta | Credly Verified Badge |
-| 2026-10-28 | [Manage AI Agents Access to Resources](https://www.credly.com/badges/656a7c48-79f9-40ec-9e10-9078ace2e722/public_url) | Okta | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md) | [Index](./credly-index.md) | Next: None
