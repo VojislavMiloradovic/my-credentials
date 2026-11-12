@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-10 | **Analyze and visualize credit card transaction data in Bigtable using BigQuery and Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigtable-cdc-looker-tutorial |
 | 2026-06-10 | **Query the Wikipedia dataset in BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-bigquery-wikipedia |
 | 2026-06-10 | **Ingest CSV data to BigQuery using Cloud Data Fusion - Batch ingestion** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/batch-csv-cdf-bq |
 | 2026-06-10 | **Getting started with App Engine (Python 3)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-app-engine-python3 |
@@ -31,7 +32,6 @@ artifacts: complete, index
 | 2026-06-10 | **Deploy ASP.NET Core app to Google Kubernetes Engine with Istio (Part 1)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-istio-aspnetcore-part1 |
 | 2026-06-10 | **Using BigQuery with Node.js** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-bigquery-nodejs |
 | 2026-06-10 | **Deploy ASP.NET Core app to Kubernetes on Google Kubernetes Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-kubernetes-aspnetcore |
-| 2026-06-10 | **Build an augmented reality (AR) app using the WebXR Device API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ar-with-webxr |
 | 2026-06-10 | **Cloud IDS** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-cloudids |
 | 2026-06-10 | **Understand fulfillment by integrating Dialogflow with Calendar** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/chatbots-dialogflow-fulfillment |
 | 2026-06-10 | **Visualizing your BigQuery Data in Data Studio** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/bigquery-data-studio |

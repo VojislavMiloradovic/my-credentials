@@ -208,7 +208,7 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 172 |
-| **Total Codelabs & Learning Activities** | 1,736 |
+| **Total Codelabs & Learning Activities** | 1,738 |
 
 #### Latest Achievements
 
@@ -216,6 +216,8 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| *2026-11-12* | **Build an augmented reality (AR) app using the WebXR Device API** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/ar-with-webxr |
+| *2026-11-12* | **Explore new and upcoming browser capabilities for your PWA: From Fugu With Love** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/project-fugu |
 | *2026-11-08* | **Untrusted by Default: Securing ADK Agents with MCP Toolbox and Model Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-least-privilege-model-armor |
 | *2026-11-08* | **Practical Harness Engineering with Google Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/harness-engineering-antigravity |
 | *2026-11-08* | **Building Secure & Agile ADK Agents with Secret Manager** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/secret-manager/secure-adk-agents-secret-manager |
@@ -224,8 +226,6 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 | *2026-11-04* | **BigQuery AI functions at scale: zero-shot forecasting and cost guardrails** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-processing-bigquery-ai-forecasting-finops-guardrails |
 | *2026-11-04* | **Sovereign multi-cloud lakehouse with Apache Iceberg REST catalog federation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-ingestion-sovereign-multicloud-iceberg-lakehouse |
 | *2026-11-04* | **Modern data science compute with Managed Service for Apache Spark and the Lightning Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-science-spark-lightning-engine-feature-engineering |
-| *2026-11-04* | **Get Started with Antigravity on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/get-started-with-antigravity-on-google-cloud |
-| *2026-11-04* | **Migrate Databricks and Snowflake workloads to BigQuery and Managed Service for Apache Spark** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-modernization-databricks-snowflake-migration |
 <!-- GOOGLE_DEVELOPER_END -->
 
 

@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-07-02 | **Android 11—Week 7—Developer tools** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week7-developer-tools |
 | 2026-07-02 | **Android 11 - Week 4 - Compatibility** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week4-compatibility |
 | 2026-07-02 | **Android 11—Week 11—Modern UI** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week11-modern-ui |
 | 2026-07-02 | **Android 11—Week 9—Large Screens** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week9-large-screens |
@@ -61,7 +62,6 @@ artifacts: complete, index
 | 2026-06-29 | **Visualize data on Google Maps Platform** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/maps-visualize-data |
 | 2026-06-29 | **Build maintainable and scalable web apps with Angular** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/maintainable-scalable-web-apps |
 | 2026-06-29 | **Improve your website's identity forms** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/web-identity-forms |
-| 2026-06-29 | **Build Actions for Google Assistant** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/aog-basics |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-31.md](./google-developer-2026-06-part-31.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-33.md](./google-developer-2026-07-part-33.md)

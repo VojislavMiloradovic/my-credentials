@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-10 | **Using External HTTP(s) Hybrid load balancer to reach a Network Endpoint Group** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-l7-hybridneg |
 | 2026-06-10 | **Getting started with Managed Active Directory** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-managed-ad |
 | 2026-06-10 | **Call Vertex AI LLM from your ABAP environment with ABAP SDK for Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/abap-sdk/vertex-ai-text-bison |
 | 2026-06-10 | **Create an AR game using Unity's AR Foundation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/arcore-unity-ar-foundation |
@@ -62,7 +63,6 @@ artifacts: complete, index
 | 2026-06-10 | **Google Pay API for React Native on Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/pay-react-native |
 | 2026-06-10 | **Instrument for better performance in your app in Go (part 2: profiler)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-profiler-go |
 | 2026-06-10 | **Introduction to Cloud Operations Suite** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-operations-handson-with-gcloud |
-| 2026-06-10 | **Analyze and visualize credit card transaction data in Bigtable using BigQuery and Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigtable-cdc-looker-tutorial |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-26.md](./google-developer-2026-06-part-26.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-28.md](./google-developer-2026-06-part-28.md)

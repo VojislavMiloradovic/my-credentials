@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
 chunk_part: 34 of 38
-date_range: 2026-07-21 to 2026-08-22
-total_entries: 46
+date_range: 2026-07-23 to 2026-08-28
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-08-part-34.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-08-28 | **Getting started with Hybrid Search in AlloyDB and Apache Solr** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-solr-fdw |
+| 2026-08-22 | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/speculation-rules |
 | 2026-08-22 | **Wrangling unstructured data with LLM-driven vector embedding** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-bookmark-agent-antigravity/instructions |
 | 2026-08-22 | **Getting started with vector embeddings in Cloud SQL for PostgreSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/csql-pg-ai-embedding |
 | 2026-08-22 | **Semantic Analysis in BigQuery with managed AI functions and SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-managed-ai-operators |
@@ -60,7 +62,6 @@ artifacts: complete, index
 | 2026-07-29 | **OSS Kubernetes on GCE with TPUs, DRA for TPU, DRANET (OSS) and Gemma 4** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/oss-kubernetes-tpus-dranet-gemma |
 | 2026-07-26 | **Going Multimodal with Agent Development Kit: Personal Expense Assistant with Gemini 2.5, Firestore and Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/personal-expense-assistant-multimodal-adk |
 | 2026-07-23 | **Level Up Your Game: Google Play Games Services Setup in Unity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/pgs-workshop-setup-unity |
-| 2026-07-21 | **Build and publish your first Android app with AI Studio** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-with-ai/build-and-publish-android-app-with-ai-studio |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-07-part-33.md](./google-developer-2026-07-part-33.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-09-part-35.md](./google-developer-2026-09-part-35.md)

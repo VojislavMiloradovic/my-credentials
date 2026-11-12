@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-22 | **Code Review and Security Analysis with Gemini CLI with Extensions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-cli-code-analysis |
 | 2026-06-22 | **Configure, implement, and verify Android App Links** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-app-links-introduction |
 | 2026-06-22 | **Continuous deployment to Google Kubernetes Engine (GKE) with Cloud Build** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-builder-gke-continuous-deploy |
 | 2026-06-22 | **Deploy ASP.NET Core app to Google Kubernetes Engine with Istio (Part 2)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-istio-aspnetcore-part2 |
@@ -62,7 +63,6 @@ artifacts: complete, index
 | 2026-06-20 | **🛡️ Build a Secure Agent with Model Armor and Identity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-customer-service-agent/instructions |
 | 2026-06-20 | **Build an appointment scheduler with Dialogflow** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/chatbots-dialogflow-appointment-scheduler |
 | 2026-06-20 | **Bot Management with Google Cloud Armor + reCAPTCHA** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-armor-recaptcha-bot-management |
-| 2026-06-20 | **Building Stateful and Personalized Agents with ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-memory/instructions |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-28.md](./google-developer-2026-06-part-28.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-30.md](./google-developer-2026-06-part-30.md)

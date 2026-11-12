@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 30 of 38
 date_range: 2026-06-22 to 2026-06-25
-total_entries: 47
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-30.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-25 | **Create AI evaluations** | Verified Google Developer learning activity. URL: https://developer.chrome.com/docs/ai/evals |
+| 2026-06-25 | **Implement Material Design with Material Components for Flutter** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/mdc-flutter |
 | 2026-06-25 | **Onboard Location** | Verified Google Developer learning activity. URL: https://developers.google.com/business-communications/business-messages/trainings/learning-pathways/onboard-location [WARN] *Content retired* |
 | 2026-06-25 | **Streetscape Geometry and Rooftop anchors** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/arcore-buildings-and-rooftops |
 | 2026-06-25 | **Bring Google's Places data into your Android app** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/places-android |
@@ -61,7 +63,6 @@ artifacts: complete, index
 | 2026-06-22 | **Way Back Home - Building an ADK Bi-Directional Streaming Agent** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-3/instructions |
 | 2026-06-22 | **Create passes on Android using the Google Wallet API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/add-to-wallet-android |
 | 2026-06-22 | **Cronet Basics** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/cronet |
-| 2026-06-22 | **Code Review and Security Analysis with Gemini CLI with Extensions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-cli-code-analysis |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-29.md](./google-developer-2026-06-part-29.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-31.md](./google-developer-2026-06-part-31.md)

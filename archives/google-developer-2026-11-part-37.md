@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 37 of 38
 date_range: 2026-10-08 to 2026-11-04
-total_entries: 45
+total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-11-part-37.md
 layer: L2_published
 transform: unknown
@@ -59,7 +59,6 @@ artifacts: complete, index
 | 2026-10-13 | **Build a Thread Network with Texas Instruments SimpleLink F3 and OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/ti-openthread-hardware |
 | 2026-10-08 | **Build & Deploy a Formula E AI Kiosk with Gemini Omni & Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/formula-e-genmedia-lab-codelab |
 | 2026-10-08 | **Build an Agentic Data Cloud System of Action with Spanner Graph, Borderless Lakehouse, GEV AI, Gemini Enterprise & Looker** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/beacon-disaster-readiness |
-| 2026-10-08 | **Build a Formula E Driver Performance Analyzer App with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/fe-antigravity-cli-cicd |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-11-part-38.md](./google-developer-2026-11-part-38.md)

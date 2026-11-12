@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-10-08 | **Build a Formula E Driver Performance Analyzer App with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/fe-antigravity-cli-cicd |
 | 2026-10-08 | **Advanced AI, Graph Analysis and Conversational Agents with BigQuery AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/advanced-bigquery-ai |
 | 2026-10-08 | **Deploy an agent and Agent Gateway with VPC Service Controls** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-vpcsc-codelab |
 | 2026-10-08 | **Gemini Enterprise with Agent Gateway all-traffic VPC egress and Cloud NAT static IP to external MCP server** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-ge-egress-vpc-all-traffic |
@@ -60,7 +61,6 @@ artifacts: complete, index
 | 2026-09-15 | **Rails 8 on Google Cloud: From Zero to AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/rails8-on-google-cloud |
 | 2026-09-15 | **Governing Autonomous AI Agents with Agent Gateway and Semantic Governance Policies** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/enterprise-agent-governance-sgp |
 | 2026-09-12 | **Add a user authentication flow to a Flutter app using FirebaseUI** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-auth-in-flutter-apps |
-| 2026-09-12 | **Introduction to Google's Antigravity – Build your own NUS shuttle bus timing web app and Telegram bot** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-nus-transit-hub-antigravity |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-09-part-35.md](./google-developer-2026-09-part-35.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-11-part-37.md](./google-developer-2026-11-part-37.md)

@@ -1,17 +1,19 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1786 records.
+This document represents a unified, verifiable list of all 1787 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-11T04:47:49.307701+00:00 -->
+<!-- retrieved_at: 2026-11-12T19:04:13.862959+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-11-12 | **Build an augmented reality (AR) app using the WebXR Device API** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/ar-with-webxr |
+| 2026-11-12 | **Explore new and upcoming browser capabilities for your PWA: From Fugu With Love** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/project-fugu |
 | 2026-11-08 | **Untrusted by Default: Securing ADK Agents with MCP Toolbox and Model Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-least-privilege-model-armor |
 | 2026-11-08 | **Practical Harness Engineering with Google Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/harness-engineering-antigravity |
 | 2026-11-08 | **Building Secure & Agile ADK Agents with Secret Manager** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/secret-manager/secure-adk-agents-secret-manager |
@@ -549,7 +551,6 @@ This document represents a unified, verifiable list of all 1786 records.
 | 2026-06-10 | **Deploy ASP.NET Core app to Google Kubernetes Engine with Istio (Part 1)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-istio-aspnetcore-part1 |
 | 2026-06-10 | **Using BigQuery with Node.js** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-bigquery-nodejs |
 | 2026-06-10 | **Deploy ASP.NET Core app to Kubernetes on Google Kubernetes Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-kubernetes-aspnetcore |
-| 2026-06-10 | **Build an augmented reality (AR) app using the WebXR Device API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ar-with-webxr |
 | 2026-06-10 | **Cloud IDS** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-cloudids |
 | 2026-06-10 | **Understand fulfillment by integrating Dialogflow with Calendar** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/chatbots-dialogflow-fulfillment |
 | 2026-06-10 | **Visualizing your BigQuery Data in Data Studio** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/bigquery-data-studio |

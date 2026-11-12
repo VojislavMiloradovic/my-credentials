@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
 chunk_part: 35 of 38
-date_range: 2026-08-22 to 2026-09-12
-total_entries: 47
+date_range: 2026-08-28 to 2026-09-12
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-09-part-35.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-09-12 | **Introduction to Google's Antigravity – Build your own NUS shuttle bus timing web app and Telegram bot** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-nus-transit-hub-antigravity |
 | 2026-09-12 | **Install and use Google Cloud Developer plugin in Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-dev-plugin-agy |
 | 2026-09-08 | **Vibetube Ads: Agentic Data Engineering** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vibetube-ads-agentic-data-engineering/instructions |
 | 2026-09-08 | **Advanced ADK Evaluation with LLM-as-a-Judge Method** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/advanced-adk-evaluation-with-llm-as-a-judge |
@@ -60,8 +61,6 @@ artifacts: complete, index
 | 2026-08-28 | **Find and fix application issues with Gemini Cloud Assist** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/gemini-cloud-assist-debug-database |
 | 2026-08-28 | **Google Workspace MCP servers with Antigravity in Gemini Enterprise** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-mcp-antigravity-ge |
 | 2026-08-28 | **Way Back Home - Live Bidirectional Multi-Agent system** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/way-back-home-level-4/instructions |
-| 2026-08-28 | **Getting started with Hybrid Search in AlloyDB and Apache Solr** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-solr-fdw |
-| 2026-08-22 | **Achieve instant navigations with the Speculation Rules API** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/speculation-rules |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-08-part-34.md](./google-developer-2026-08-part-34.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-10-part-36.md](./google-developer-2026-10-part-36.md)

@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-20 | **Building Stateful and Personalized Agents with ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/agent-memory/instructions |
 | 2026-06-20 | **Build an event-driven orchestration with Eventarc and Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-event-driven-orchestration |
 | 2026-06-20 | **Getting started with Spanner Vector Search** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/spanner-getting-started-vector-search |
 | 2026-06-20 | **Building Trusted AI Products with the PAIR Guidebook** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/pair-guidebook |
@@ -61,7 +62,6 @@ artifacts: complete, index
 | 2026-06-10 | **Build a no-code app using the native AppSheet database** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/appsheet-asdb |
 | 2026-06-10 | **Configure ABAP SDK authentication using tokens for SAP hosted on Compute Engine VM and execute Address validation API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/abap-sdk/auth-goog |
 | 2026-06-10 | **Migrating from Google App Engine Java app to Cloud Run with Jib** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-gae-java-migrate-jib |
-| 2026-06-10 | **Using External HTTP(s) Hybrid load balancer to reach a Network Endpoint Group** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudnet-l7-hybridneg |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-27.md](./google-developer-2026-06-part-27.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-29.md](./google-developer-2026-06-part-29.md)

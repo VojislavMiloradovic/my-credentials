@@ -1,8 +1,8 @@
 ---
 archive_platform: google-developer
 chunk_part: 31 of 38
-date_range: 2026-06-25 to 2026-06-29
-total_entries: 44
+date_range: 2026-06-27 to 2026-06-29
+total_entries: 43
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-31.md
 layer: L2_published
 transform: unknown
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-06-29 | **Build Actions for Google Assistant** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/aog-basics |
 | 2026-06-29 | **Preventing Violence Against Women Online - Google for Developers** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/womens-online-safety |
 | 2026-06-29 | **Get started with object detection in Android apps quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/tensorflow-serving/object-detection-in-android-apps |
 | 2026-06-29 | **Improve the user experience of an Android app** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/improve-user-experience |
@@ -57,8 +58,6 @@ artifacts: complete, index
 | 2026-06-27 | **Intro to Inference: How to Run AI Models on a GPU** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/ai-models-on-gpu-intro |
 | 2026-06-27 | **Get started with image product search** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/get-started-product-image-search/get-started-product-image-search |
 | 2026-06-27 | **Agent Gateway egress from Agent Runtime to Google MCP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agw-cuj-arun-egress-gmcp |
-| 2026-06-25 | **Create AI evaluations** | Verified Google Developer learning activity. URL: https://developer.chrome.com/docs/ai/evals |
-| 2026-06-25 | **Implement Material Design with Material Components for Flutter** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/mdc-flutter |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-30.md](./google-developer-2026-06-part-30.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-07-part-32.md](./google-developer-2026-07-part-32.md)

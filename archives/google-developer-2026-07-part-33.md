@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-07-21 | **Build and publish your first Android app with AI Studio** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/build-with-ai/build-and-publish-android-app-with-ai-studio |
 | 2026-07-21 | **Supercharge Code Quality: AI-Assisted Code Review with Antigravity CLI and SDK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agy-cli-sdk-code-review |
 | 2026-07-21 | **Build a Zero-Code Multi-Agent System with Agent Studio** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-agent-studio |
 | 2026-07-17 | **Plan and Build Apps with Conductor Plugin** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/conductor-plugin |
@@ -60,7 +61,6 @@ artifacts: complete, index
 | 2026-07-02 | **Android 11—Week 6—Jetpack** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week6-jetpack |
 | 2026-07-02 | **People and identity quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week1-people-identity/android-11-week-1 |
 | 2026-07-02 | **Android 11—Week 8—App distribution and monetization** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week8-app-distribution-monetization |
-| 2026-07-02 | **Android 11—Week 7—Developer tools** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week7-developer-tools |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-07-part-32.md](./google-developer-2026-07-part-32.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-08-part-34.md](./google-developer-2026-08-part-34.md)
