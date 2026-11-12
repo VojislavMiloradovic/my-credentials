@@ -61,11 +61,11 @@ HEADERS = {
 
 # Optional internal learning statistics manually editable by user
 INTERNAL_STATS = {
-    "Course": 427,
+    "Course": 428,
     "Check": 2047,
     "Classroom": 0,
-    "Game": 16,
-    "Lab": 393,
+    "Game": 17,
+    "Lab": 407,
     "Lesson": 5112,
     "Path": 18,
 }
