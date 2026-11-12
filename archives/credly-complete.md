@@ -1,17 +1,21 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 822 records.
+This document represents a unified, verifiable list of all 826 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-11T16:28:53.895181+00:00 -->
+<!-- retrieved_at: 2026-11-12T05:02:45.454591+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-11 | [eBPF + Go Development](https://www.credly.com/badges/33ee45f9-9d54-45d5-acde-4dab793e0250/public_url) | Isovalent | Credly Verified Badge |
+| 2026-11-11 | [eBPF Kubernetes Monitoring](https://www.credly.com/badges/fc0c346e-d0ca-43c0-917c-b3bb31bee0cd/public_url) | Isovalent | Credly Verified Badge |
+| 2026-11-11 | [eBPF Networking](https://www.credly.com/badges/d47370ef-b31f-4330-b12a-53c239efaa66/public_url) | Isovalent | Credly Verified Badge |
+| 2026-11-11 | [GitOps Platform Engineering with Cilium](https://www.credly.com/badges/b502e6fe-fa15-4e07-b898-e58c510cef18/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-11 | [Kong Event Gateway Foundations](https://www.credly.com/badges/718d1bab-9ec1-43f1-8c0d-19f0c13e4131/public_url) | Kong | Credly Verified Badge |
 | 2026-11-11 | [Konnect Quick Launch on Kong](https://www.credly.com/badges/362a9daf-20fd-4611-bc4d-1c859f0902df/public_url) | Kong | Credly Verified Badge |
 | 2026-11-10 | [Big Data Foundations - Level 1](https://www.credly.com/badges/46977a61-55e8-476d-9d40-c5e18997590c/public_url) | IBM | Credly Verified Badge |

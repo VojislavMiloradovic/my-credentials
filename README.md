@@ -142,25 +142,25 @@ Showing latest 10 of 1173 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 822
-**Total Verified Skills Mapped:** 2866
+**Total Portfolio Credentials:** 826
+**Total Verified Skills Mapped:** 2874
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 822 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 826 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-11 | [eBPF + Go Development](https://www.credly.com/badges/33ee45f9-9d54-45d5-acde-4dab793e0250/public_url) | Isovalent | Credly Verified Badge |
+| 2026-11-11 | [eBPF Kubernetes Monitoring](https://www.credly.com/badges/fc0c346e-d0ca-43c0-917c-b3bb31bee0cd/public_url) | Isovalent | Credly Verified Badge |
+| 2026-11-11 | [eBPF Networking](https://www.credly.com/badges/d47370ef-b31f-4330-b12a-53c239efaa66/public_url) | Isovalent | Credly Verified Badge |
+| 2026-11-11 | [GitOps Platform Engineering with Cilium](https://www.credly.com/badges/b502e6fe-fa15-4e07-b898-e58c510cef18/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-11 | [Kong Event Gateway Foundations](https://www.credly.com/badges/718d1bab-9ec1-43f1-8c0d-19f0c13e4131/public_url) | Kong | Credly Verified Badge |
 | 2026-11-11 | [Konnect Quick Launch on Kong](https://www.credly.com/badges/362a9daf-20fd-4611-bc4d-1c859f0902df/public_url) | Kong | Credly Verified Badge |
 | 2026-11-10 | [Big Data Foundations - Level 1](https://www.credly.com/badges/46977a61-55e8-476d-9d40-c5e18997590c/public_url) | IBM | Credly Verified Badge |
 | 2026-11-10 | [Hadoop Foundations - Level 1](https://www.credly.com/badges/eecc9bbc-a059-483c-99da-b38699f81145/public_url) | IBM | Credly Verified Badge |
 | 2026-11-10 | [R for Data Science](https://www.credly.com/badges/4ce2966c-1b55-4138-b6c6-233f5eaf72df/public_url) | IBM | Credly Verified Badge |
 | 2026-11-10 | [Statistics 101](https://www.credly.com/badges/c4b73295-1912-46f1-a2e8-1958338f0be4/public_url) | IBM | Credly Verified Badge |
-| 2026-11-09 | [JavaScript Essentials 1](https://www.credly.com/badges/0a45cc34-3f5f-4ab2-97f3-8120faf6774f/public_url) | Cisco | Credly Verified Badge |
-| 2026-11-06 | [AWS Knowledge: Mainframe Modernization Foundations - Training Badge](https://www.credly.com/badges/0459da93-1592-4f69-91c5-37d3b2ab08e0/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-11-05 | [Python Essentials 2](https://www.credly.com/badges/89464c34-269c-4b2d-a92a-b4a20a076a61/public_url) | Cisco | Credly Verified Badge |
-| 2026-11-04 | [Automate Identity Security with Workflows](https://www.credly.com/badges/e3f88afb-4313-41b3-b1b5-2051ba3e662e/public_url) | Okta | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
