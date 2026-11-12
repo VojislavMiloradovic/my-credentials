@@ -1,19 +1,25 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1787 records.
+This document represents a unified, verifiable list of all 1793 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-12T19:04:13.862959+00:00 -->
+<!-- retrieved_at: 2026-11-12T20:42:39.715708+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
 | 2026-11-12 | **Build an augmented reality (AR) app using the WebXR Device API** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/ar-with-webxr |
+| 2026-11-12 | **Build and Chaos-Test a Self-Healing Order Fulfillment Agent with ADK, Cloud Run, and Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/self-healing-order-agent-adk |
+| 2026-11-12 | **Secure AI Agent MCP Tools with Agent Gateway** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-mcp-tools-with-agent-gateway |
 | 2026-11-12 | **Explore new and upcoming browser capabilities for your PWA: From Fugu With Love** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/project-fugu |
+| 2026-11-12 | **Building AI Agents with ADK: Orchestrating Graph Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-graph-workflows |
+| 2026-11-12 | **Using Antigravity to Deploy App to Google Cloud with Google Cloud Developer Plugin** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/using-antigravity-to-deploy-app-to-google-cloud-with-google-cloud-developer-plug |
+| 2026-11-12 | **Defeat Prompt Injection with ADK 2 Graph Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ai-kopitiam-adk-graph-workflow |
+| 2026-11-12 | **Build a governed in-warehouse MLOps workflow with Colab Enterprise, BigQuery ML, and Vertex AI Model Registry** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-science-governed-warehouse-mlops-colab-vpcsc |
 | 2026-11-08 | **Untrusted by Default: Securing ADK Agents with MCP Toolbox and Model Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-least-privilege-model-armor |
 | 2026-11-08 | **Practical Harness Engineering with Google Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/harness-engineering-antigravity |
 | 2026-11-08 | **Building Secure & Agile ADK Agents with Secret Manager** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/secret-manager/secure-adk-agents-secret-manager |

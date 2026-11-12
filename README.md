@@ -208,7 +208,7 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 172 |
-| **Total Codelabs & Learning Activities** | 1,738 |
+| **Total Codelabs & Learning Activities** | 1,744 |
 
 #### Latest Achievements
 
@@ -217,15 +217,15 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
 | *2026-11-12* | **Build an augmented reality (AR) app using the WebXR Device API** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/ar-with-webxr |
+| *2026-11-12* | **Build and Chaos-Test a Self-Healing Order Fulfillment Agent with ADK, Cloud Run, and Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/self-healing-order-agent-adk |
+| *2026-11-12* | **Secure AI Agent MCP Tools with Agent Gateway** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-mcp-tools-with-agent-gateway |
 | *2026-11-12* | **Explore new and upcoming browser capabilities for your PWA: From Fugu With Love** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/project-fugu |
+| *2026-11-12* | **Building AI Agents with ADK: Orchestrating Graph Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-graph-workflows |
+| *2026-11-12* | **Using Antigravity to Deploy App to Google Cloud with Google Cloud Developer Plugin** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/using-antigravity-to-deploy-app-to-google-cloud-with-google-cloud-developer-plug |
+| *2026-11-12* | **Defeat Prompt Injection with ADK 2 Graph Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ai-kopitiam-adk-graph-workflow |
+| *2026-11-12* | **Build a governed in-warehouse MLOps workflow with Colab Enterprise, BigQuery ML, and Vertex AI Model Registry** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-science-governed-warehouse-mlops-colab-vpcsc |
 | *2026-11-08* | **Untrusted by Default: Securing ADK Agents with MCP Toolbox and Model Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-least-privilege-model-armor |
 | *2026-11-08* | **Practical Harness Engineering with Google Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/harness-engineering-antigravity |
-| *2026-11-08* | **Building Secure & Agile ADK Agents with Secret Manager** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/secret-manager/secure-adk-agents-secret-manager |
-| *2026-11-08* | **Integrate Firebase with a Next.js app** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-nextjs |
-| *2026-11-08* | **Private Service Connect Interfaces with Stable IP** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/psc-interface-stable-ip |
-| *2026-11-04* | **BigQuery AI functions at scale: zero-shot forecasting and cost guardrails** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-processing-bigquery-ai-forecasting-finops-guardrails |
-| *2026-11-04* | **Sovereign multi-cloud lakehouse with Apache Iceberg REST catalog federation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-ingestion-sovereign-multicloud-iceberg-lakehouse |
-| *2026-11-04* | **Modern data science compute with Managed Service for Apache Spark and the Lightning Engine** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-science-spark-lightning-engine-feature-engineering |
 <!-- GOOGLE_DEVELOPER_END -->
 
 
