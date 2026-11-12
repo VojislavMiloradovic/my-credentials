@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Skills Credentials
 chunk_part: 9 of 9
-date_range: 2026-09-08 to 2026-11-07
-total_entries: 36
+date_range: 2026-09-08 to 2026-11-12
+total_entries: 38
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-09.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-12 | [Logging and Monitoring in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29592041) | Google Cloud | Google Skill Badge |
+| 2026-11-12 | [Building Applications with Eventarc on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29588237) | Google Cloud | Google Skill Badge |
 | 2026-11-07 | [Arcade Adventure: Cloud Infrastructure & App Scale](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29487123) | Google Cloud | Google Skill Badge |
 | 2026-11-07 | [Arcade Voyage: Python Apps & Data Analytics](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29481815) | Google Cloud | Google Skill Badge |
 | 2026-11-04 | [Arcade Simulator: Cloud Infrastructure Engineer](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29404510) | Google Cloud | Google Skill Badge |
