@@ -62,8 +62,8 @@ Showing latest 10 of 5,036 achievements. View full dataset via [Platform Archive
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 426
-**Total Verified Skills Mapped:** 425
+**Total Portfolio Credentials:** 427
+**Total Verified Skills Mapped:** 426
 
 #### Google Skills Learning Statistics
 
@@ -71,18 +71,19 @@ Showing latest 10 of 5,036 achievements. View full dataset via [Platform Archive
 | :--- | :---: |
 | **Check** | 2,047 |
 | **Classroom** | 0 |
-| **Course** | 428 |
+| **Course** | 429 |
 | **Game** | 17 |
-| **Lab** | 407 |
-| **Lesson** | 5,112 |
+| **Lab** | 408 |
+| **Lesson** | 5,114 |
 | **Path** | 18 |
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 426 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-11-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 427 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-11-part-09.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-09.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-12 | [Service Orchestration and Choreography on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29599773) | Google Cloud | Google Skill Badge |
 | 2026-11-12 | [Logging and Monitoring in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29592041) | Google Cloud | Google Skill Badge |
 | 2026-11-12 | [Building Applications with Eventarc on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29588237) | Google Cloud | Google Skill Badge |
 | 2026-11-07 | [Arcade Adventure: Cloud Infrastructure & App Scale](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29487123) | Google Cloud | Google Skill Badge |
@@ -92,7 +93,6 @@ Showing latest 10 of 426 credentials. View full dataset via [Platform Archive In
 | 2026-11-01 | [Understand Your Google Cloud Costs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29320786) | Google Cloud | Google Skill Badge |
 | 2026-10-26 | [Analyze Speech and Language with Google APIs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29139278) | Google Cloud | Google Skill Badge |
 | 2026-10-26 | [Deploy Kubernetes Applications on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29137881) | Google Cloud | Google Skill Badge |
-| 2026-10-26 | [Arcade Adventure: Google Cloud ML APIs](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29137135) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials

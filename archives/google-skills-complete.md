@@ -1,17 +1,18 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 426 records.
+This document represents a unified, verifiable list of all 427 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-12T13:49:02.385252+00:00 -->
+<!-- retrieved_at: 2026-11-12T18:53:02.649109+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-12 | [Service Orchestration and Choreography on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29599773) | Google Cloud | Google Skill Badge |
 | 2026-11-12 | [Logging and Monitoring in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29592041) | Google Cloud | Google Skill Badge |
 | 2026-11-12 | [Building Applications with Eventarc on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29588237) | Google Cloud | Google Skill Badge |
 | 2026-11-07 | [Arcade Adventure: Cloud Infrastructure & App Scale](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29487123) | Google Cloud | Google Skill Badge |
