@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 827 records.
+This document represents a unified, verifiable list of all 828 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-13T04:35:10.891113+00:00 -->
+<!-- retrieved_at: 2026-11-13T15:00:12.855857+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-13 | [Cilium cert-manager](https://www.credly.com/badges/6e26f822-df42-40b7-8a7c-9a1def7e9124/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-12 | [MCP on Kubernetes](https://www.credly.com/badges/9a3691c9-f7f4-4816-9c34-24610d36acdb/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-12 | [Google Ads Search Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/6db41e0f-5f9c-4daf-be92-4ce5bcd12fdc) | Skillshop | Credly External Badge |
 | 2026-11-11 | [eBPF + Go Development](https://www.credly.com/badges/33ee45f9-9d54-45d5-acde-4dab793e0250/public_url) | Isovalent | Credly Verified Badge |
