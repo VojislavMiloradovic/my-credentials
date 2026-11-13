@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 826 records.
+This document represents a unified, verifiable list of all 827 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-12T21:58:56.522379+00:00 -->
+<!-- retrieved_at: 2026-11-13T03:08:33.095342+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-12 | [MCP on Kubernetes](https://www.credly.com/badges/9a3691c9-f7f4-4816-9c34-24610d36acdb/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-12 | [Google Ads Search Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/6db41e0f-5f9c-4daf-be92-4ce5bcd12fdc) | Skillshop | Credly External Badge |
 | 2026-11-11 | [eBPF + Go Development](https://www.credly.com/badges/33ee45f9-9d54-45d5-acde-4dab793e0250/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-11 | [eBPF Kubernetes Monitoring](https://www.credly.com/badges/fc0c346e-d0ca-43c0-917c-b3bb31bee0cd/public_url) | Isovalent | Credly Verified Badge |
