@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 828 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-13T15:00:12.855857+00:00 -->
+<!-- retrieved_at: 2026-11-14T04:30:53.716939+00:00 -->
 
 ## Verified Records Archive
 
