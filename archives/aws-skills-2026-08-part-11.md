@@ -41,7 +41,7 @@ artifacts: complete, index
 | 2026-08-11 | [Unlocking Telecom Innovation with AWS: NFVI, CNFI, and Generative AI Use Cases](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-09 | [Accelerate foundation model development with one-click observability in Amazon SageMaker HyperPod](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-09 | [Adaptive sampling with AWS X-Ray to capture critical spans](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-09 | [AI-DLC Foundations: Workflow and Collaboration](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-09 | [AI Driven Development Lifecycle Foundations: Workflow and Collaboration](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-09 | [Amazon Connect Customer AI Supervisor Capabilities](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-09 | [Amazon Connect Outbound Communications Multi-Channel Campaign Design](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-09 | [Amazon WorkSpaces Migrations Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -54,7 +54,7 @@ artifacts: complete, index
 | 2026-08-09 | [Migrating to Amazon MQ for RabbitMQ](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-09 | [MVCC in PostgreSQL and Vacuum Internals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-09 | [Prompting Amazon Nova 2 for content moderation](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-08-08 | [AI-DLC Foundations: Operations Deep Dive](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-08-08 | [AI Driven Development Lifecycle Foundations: Operations Deep Dive](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [Amazon Connect Analytics Reporting and Visualizations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [Amazon Connect Conversational Interfaces Intermediate](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-08-08 | [Amazon Connect Outbound Communications Channel Configuration and Setup](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |

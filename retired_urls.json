@@ -536,6 +536,27 @@
       "title": "Data for SaaS - Season 1",
       "retirement_source": "source_csv",
       "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "36a0d5357bd967c6",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-14",
+      "retired_at": "2026-11-14",
+      "title": "36a0d5357bd967c6"
+    },
+    {
+      "id": "96499f4a0e4fc4e0",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-14",
+      "retired_at": "2026-11-14",
+      "title": "96499f4a0e4fc4e0"
+    },
+    {
+      "id": "9d1a85fd20b61183",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-14",
+      "retired_at": "2026-11-14",
+      "title": "9d1a85fd20b61183"
     }
   ],
   "credly": [

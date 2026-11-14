@@ -30,7 +30,7 @@ artifacts: complete, index
 | 2026-07-28 | [Referencing Your Own Secrets in Amazon Bedrock AgentCore Identity](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-27 | [A leader's guide to accelerating large-scale migration - AWS re:Invent 2025](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-27 | [Amazon Quick for Operations Professionals](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-07-25 | [AI-DLC Foundations: Evolution](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-07-25 | [AI Driven Development Lifecycle Foundations: Evolution](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-25 | [Amazon Connect Outbound Communications Advanced Campaign Management](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-25 | [Automated Security Response in AWS: Disabling Compromised Active Directory Users](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-07-25 | [Cloud Financial Management: FinOps for GenAI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
