@@ -490,6 +490,52 @@
       "reason": "Auto-retired: removed from source data on 2026-11-05",
       "retired_at": "2026-11-05",
       "title": "fb2ad352fa554966"
+    },
+    {
+      "id": "16ecec0afb5a5baf",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-14",
+      "retired_at": "2026-11-14",
+      "title": "16ecec0afb5a5baf"
+    },
+    {
+      "id": "6f847be5eb553539",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-14",
+      "retired_at": "2026-11-14",
+      "title": "6f847be5eb553539"
+    },
+    {
+      "id": "743f636a60af6299",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-14",
+      "retired_at": "2026-11-14",
+      "title": "743f636a60af6299"
+    },
+    {
+      "id": "c7d9ca998131893e",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-14",
+      "retired_at": "2026-11-14",
+      "title": "c7d9ca998131893e"
+    },
+    {
+      "id": "b29ab9972dcc93be",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-09-21",
+      "title": "Audio tokenization layer behind Speech AI: Deploy and compare neural codecs on Amazon SageMaker AI",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "eb7a2352e63e2584",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-08-24",
+      "title": "Data for SaaS - Season 1",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
     }
   ],
   "credly": [
