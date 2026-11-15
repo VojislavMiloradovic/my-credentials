@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-11-15 06:35 UTC
+> **Last Generated:** 2026-11-15 21:57 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -22,13 +22,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,334,825
+- **Total Experience Points (XP):** 6,335,225
 - **Current Learning Level:** Level 20
 - **Badges Earned (Profile):** 4,120
 - **Trophies Earned (Profile):** 934
 - **Completed Learning Paths (Active Tracker):** 532
 - **Completed Modules (Active Tracker):** 2,839
-- **Completed Individual Units:** 37,651
+- **Completed Individual Units:** 37,655
 
 ### Verifiable Applied Skills & Credentials
 - **Enhance Agents With Autonomous Capabilities** (Credential ID: `A2805BBD40427267` | Earned: 2026-10-31T02:40:58+00:00 | Status: Active)
@@ -6682,7 +6682,7 @@ This document represents a unified, verifiable list of all 5054 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-15T06:34:56.973442+00:00 -->
+<!-- retrieved_at: 2026-11-15T21:57:42.930433+00:00 -->
 
 ## Verified Records Archive
 

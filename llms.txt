@@ -1,10 +1,10 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-11-15 06:34 UTC
+> **Last Generated:** 2026-11-15 21:57 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
-- **Microsoft Learn**: 37,651 completed units | 5,054 total achievements | 6,334,825 XP
+- **Microsoft Learn**: 37,655 completed units | 5,054 total achievements | 6,335,225 XP
 - **Google Cloud Skills**: 427 badges
 - **AWS Skill Builder**: 1,211 completed courses/activities
 - **Credly**: 829 credentials

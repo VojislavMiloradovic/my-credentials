@@ -14,13 +14,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,334,825
+- **Total Experience Points (XP):** 6,335,225
 - **Current Learning Level:** Level 20
 - **Badges Earned (Profile):** 4,120
 - **Trophies Earned (Profile):** 934
 - **Completed Learning Paths (Active Tracker):** 532
 - **Completed Modules (Active Tracker):** 2,839
-- **Completed Individual Units:** 37,651
+- **Completed Individual Units:** 37,655
 
 ### Verifiable Applied Skills & Credentials
 - **Enhance Agents With Autonomous Capabilities** (Credential ID: `A2805BBD40427267` | Earned: 2026-10-31T02:40:58+00:00 | Status: Active)
