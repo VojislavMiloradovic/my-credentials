@@ -1,12 +1,12 @@
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 2032 records.
+This document represents a unified, verifiable list of all 2048 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-12T20:29:21.571089+00:00 -->
+<!-- retrieved_at: 2026-11-15T06:09:41.343006+00:00 -->
 
 ## Verified Records Archive
 
@@ -78,6 +78,22 @@ This document represents a unified, verifiable list of all 2032 records.
 | 2026-11 | **Mastering Customer Conversations about the Deal Qualification Assistant** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xepec-fegom-rasel-tebum-hyrik) |
 | 2026-11 | **Business Processes in SAP S/4HANA Sourcing and Procurement - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xigor-dimof-padok-bidyg-lecud) |
 | 2026-11 | **Inventory Management in SAP Cloud ERP - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiril-segic-kedid-votog-nivop) |
+| 2026-11 | **Google Ads Search Certification (2026)** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/6db41e0f-5f9c-4daf-be92-4ce5bcd12fdc) |
+| 2026-11 | **MCP on Kubernetes** | Isovalent | [Verify Record](https://www.credly.com/badges/9a3691c9-f7f4-4816-9c34-24610d36acdb/linked_in_profile) |
+| 2026-11 | **Exploring Foundations of Physical Inventory in SAP S/4HANA Cloud Private Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xaren-typor-sotah-dymor-duhyv) |
+| 2026-11 | **Exploring Foundations of Logistics Invoice Verification in SAP S/4HANA Cloud Private Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xeguv-hulyg-tovat-cyder-mugar) |
+| 2026-11 | **Sourcing in SAP S4HANA - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xusas-cocen-pefug-rymid-fotap) |
+| 2026-11 | **Exploring Operational Procurement in SAP S/4HANA - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelid-dinas-tokef-nicyk-licir) |
+| 2026-11 | **Cilium cert-manager** | Isovalent | [Verify Record](https://www.credly.com/badges/6e26f822-df42-40b7-8a7c-9a1def7e9124/linked_in_profile) |
+| 2026-11 | **Consumption-based Planning and Forecasting in SAP Cloud ERP - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xekoh-pymyp-nacyl-cimim-hyfyf) |
+| 2026-11 | **Exploring Cross-Functional Customizing in SAP S/4HANA Cloud Private Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xycyb-lesup-varyb-bylur-binid) |
+| 2026-11 | **SAP S/4HANA Contract Management - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xamib-sumop-vulyb-cupec-hetov) |
+| 2026-11 | **Analyzing Manufacturing Data in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xugyb-mahyt-tovim-kylig-pogus) |
+| 2026-11 | **AWS Knowledge: Media & Entertainment Content Production Foundations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/a251d4bc-b116-48a1-af17-032e78d3d939/linked_in_profile) |
+| 2026-11 | **Executing Processes for Discrete Industries in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xoloc-nirop-mycut-bysys-symum) |
+| 2026-11 | **Executing Processes for Process Industries in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xebil-tylev-boref-malyd-rovol) |
+| 2026-11 | **Configuring SAP Digital Manufacturing for Execution: Basic Data and Configuration - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xafen-kanet-beciv-virom-duhin) |
+| 2026-11 | **Exploring Customization in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xunop-rycul-necum-gided-pokyr) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |

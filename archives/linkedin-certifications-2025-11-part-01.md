@@ -1,6 +1,6 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 1 of 44
+chunk_part: 1 of 45
 date_range: 2025-09 to 2025-11
 total_entries: 39
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2025-11-part-01.md
