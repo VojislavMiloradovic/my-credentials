@@ -142,15 +142,16 @@ Showing latest 10 of 1200 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 828
-**Total Verified Skills Mapped:** 2876
+**Total Portfolio Credentials:** 829
+**Total Verified Skills Mapped:** 2879
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 828 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 829 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-14 | [AWS Knowledge: Media & Entertainment Content Production Foundations - Training Badge](https://www.credly.com/badges/a251d4bc-b116-48a1-af17-032e78d3d939/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-13 | [Cilium cert-manager](https://www.credly.com/badges/6e26f822-df42-40b7-8a7c-9a1def7e9124/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-12 | [MCP on Kubernetes](https://www.credly.com/badges/9a3691c9-f7f4-4816-9c34-24610d36acdb/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-12 | [Google Ads Search Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/6db41e0f-5f9c-4daf-be92-4ce5bcd12fdc) | Skillshop | Credly External Badge |
@@ -160,7 +161,6 @@ Showing latest 10 of 828 credentials. View full dataset via [Platform Archive In
 | 2026-11-11 | [GitOps Platform Engineering with Cilium](https://www.credly.com/badges/b502e6fe-fa15-4e07-b898-e58c510cef18/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-11 | [Kong Event Gateway Foundations](https://www.credly.com/badges/718d1bab-9ec1-43f1-8c0d-19f0c13e4131/public_url) | Kong | Credly Verified Badge |
 | 2026-11-11 | [Konnect Quick Launch on Kong](https://www.credly.com/badges/362a9daf-20fd-4611-bc4d-1c859f0902df/public_url) | Kong | Credly Verified Badge |
-| 2026-11-10 | [Big Data Foundations - Level 1](https://www.credly.com/badges/46977a61-55e8-476d-9d40-c5e18997590c/public_url) | IBM | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

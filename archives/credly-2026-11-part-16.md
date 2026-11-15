@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 16 of 16
-date_range: 2026-10-28 to 2026-11-13
-total_entries: 31
+date_range: 2026-10-28 to 2026-11-14
+total_entries: 32
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-14 | [AWS Knowledge: Media & Entertainment Content Production Foundations - Training Badge](https://www.credly.com/badges/a251d4bc-b116-48a1-af17-032e78d3d939/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-13 | [Cilium cert-manager](https://www.credly.com/badges/6e26f822-df42-40b7-8a7c-9a1def7e9124/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-12 | [MCP on Kubernetes](https://www.credly.com/badges/9a3691c9-f7f4-4816-9c34-24610d36acdb/public_url) | Isovalent | Credly Verified Badge |
 | 2026-11-12 | [Google Ads Search Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/6db41e0f-5f9c-4daf-be92-4ce5bcd12fdc) | Skillshop | Credly External Badge |
