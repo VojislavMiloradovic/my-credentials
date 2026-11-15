@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 94 of 99
+chunk_part: 94 of 100
 date_range: 2026-07-28 to 2026-08-15
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-08-part-94.md
@@ -61,8 +61,8 @@ artifacts: complete, index
 | **Extend Microsoft SharePoint – Associate** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-sharepoint-associate/) |
 | **Deploy SharePoint Framework Components to Production** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-deployment/) |
 | **Use Microsoft Graph and non-Microsoft APIs** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-graph-3rd-party-apis/) |
-| **Extend Microsoft Viva Connections** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-extend-viva-connections/) |
 | **Create Adaptive Card Extensions (ACE) for Microsoft Viva Connections** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-adaptive-card-extension-card-types/) |
+| **Extend Microsoft Viva Connections** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-extend-viva-connections/) |
 | **Extend the SharePoint user interface with SharePoint Framework extensions** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-extensions/) |
 | **Work with SharePoint Content using the SharePoint Framework** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-spcontent/) |
 | **Enable SharePoint Framework web part configuration with property panes** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-web-part-property-pane/) |

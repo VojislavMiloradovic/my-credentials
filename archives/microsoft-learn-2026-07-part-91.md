@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 91 of 99
+chunk_part: 91 of 100
 date_range: 2026-07-11 to 2026-07-14
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-91.md
@@ -15,7 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Introduction to supply chain management in Dynamics 365** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-supply-chain-management-dynamics-365/) |
+| **Describe warehouse management in Dynamics 365 Supply Chain Management** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-warehouse-management-dynamics-365/) |
 | **Describe sales processes in Dynamics 365 Supply Chain Management** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-sales-processes-dynamics-365-supply-chain-management/) |
 | **Describe inventory management in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-management-supply-chain-management/) |
 | **Describe inventory costing and master planning in Dynamics 365 Supply Chain Management** | Modules | 2026-07-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-inventory-costing-master-planning-dynamics-365-supply-chain-management/) |

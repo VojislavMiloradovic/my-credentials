@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 40 of 99
-date_range: 2026-02-02 to 2026-02-04
+chunk_part: 40 of 100
+date_range: 2026-02-01 to 2026-02-04
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-40.md
 layer: L2_published
@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Use administration options for Dataverse** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-admin-options-cds/) |
-| **Work with data in Microsoft Sentinel using Kusto Query Language** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-data-kusto-query-language/) |
 | **Plan and implement security for public access to Azure resources** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-public-access-azure-resources/) |
 | **Assess SQL Server databases for migration to Azure SQL** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/assess-sql-server-databases-for-migration-to-azure-sql/) |
 | **Discover Azure message queues** | Modules | 2026-02-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-azure-message-queue/) |
@@ -27,8 +25,8 @@ artifacts: complete, index
 | **Monitor Windows Server IaaS Virtual Machines and hybrid instances** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-windows-server-iaas-virtual-machines-hybrid-instances/) |
 | **Plan and implement security for storage** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-storage/) |
 | **Plan and implement security for Azure SQL Database and Azure SQL Managed Instance** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/security-azure-sql-database-azure-sql-managed-instance/) |
-| **AZ-700 Design and Implement Microsoft Azure Network Solutions** | Learningpaths | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-implement-microsoft-azure-networking-solutions-az-700/) |
 | **Design and implement network security** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-network-security-monitoring/) |
+| **AZ-700 Design and Implement Microsoft Azure Network Solutions** | Learningpaths | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-implement-microsoft-azure-networking-solutions-az-700/) |
 | **Understand the command syntax in Windows PowerShell** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-command-syntax-windows-powershell/) |
 | **Design and implement private access to Azure Services** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-private-access-to-azure-services/) |
 | **Load balance non-HTTP(S) traffic in Azure** | Modules | 2026-02-03 | [Verify](https://learn.microsoft.com/en-us/training/modules/load-balancing-non-https-traffic-azure/) |
@@ -48,8 +46,8 @@ artifacts: complete, index
 | **Work with data source limits (delegation limits) in a Power Apps canvas app** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-data-source-limits-powerapps-canvas-app/) |
 | **Connect Azure assets to Microsoft Defender for Cloud** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-azure-assets-to-azure-defender/) |
 | **Build multi-table statements using KQL** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-multi-table-statements-kusto-query-language/) |
-| **Independent learning with math tools in OneNote** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/independent-learning-math-tools-onenote/) |
 | **OneNote for educators** | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/onenote-teacher-academy/) |
+| **Independent learning with math tools in OneNote** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/independent-learning-math-tools-onenote/) |
 | **Understand Windows Server IaaS Virtual Machine cost management** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-windows-server-iaas-vm-cost-management/) |
 | **Introduction to Azure database administration** | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-to-azure-database-administration/) |
 | **Prepare to maintain SQL Server-based databases on Azure** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/prepare-to-maintain-sql-databases-azure/) |
@@ -63,10 +61,12 @@ artifacts: complete, index
 | **Implement Windows Server File Server high availability** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-file-server-high-availability/) |
 | **Use Dataverse choice columns with formulas** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/choice-columns-formulas/) |
 | **Configure and manage Hyper-V** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-hyper-v/) |
-| **Explore Microsoft Intune Suite** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-intune-suite/) |
 | **MD-102 Deploy using cloud based tools** | Learningpaths | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-cloud-based-tools/) |
+| **Explore Microsoft Intune Suite** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-intune-suite/) |
 | **Perform custom updates in a Power Apps canvas app** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-custom-updates-powerapps-canvas-app/) |
 | **Deploy IaaS solutions with Azure SQL** | Modules | 2026-02-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-iaas-solutions-with-azure-sql/) |
+| **Deploy Microsoft 365 Apps for enterprise** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-365-apps-enterprise/) |
+| **Deploy using the Microsoft Deployment Toolkit** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-deployment-toolkit/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-39.md](./microsoft-learn-2026-02-part-39.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-41.md](./microsoft-learn-2026-02-part-41.md)

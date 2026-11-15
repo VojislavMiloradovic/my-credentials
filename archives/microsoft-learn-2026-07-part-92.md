@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 92 of 99
+chunk_part: 92 of 100
 date_range: 2026-07-14 to 2026-07-20
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-07-part-92.md
@@ -31,8 +31,8 @@ artifacts: complete, index
 | **Design a multi-domain Active Directory forest** | Modules | 2026-07-17 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-multi-domain-forest-trust/) |
 | **Get started with 5G on Surface for Business devices** | Modules | 2026-07-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-5g/) |
 | **Automate identity lifecycle using Lifecycle Workflows in Microsoft Entra** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-identity-lifecycle-workflows/) |
-| **Analyze requirements for AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
 | **Architect AI solutions for business productivity** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-agentic-ai-business-solutions/) |
+| **Analyze requirements for AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-requirements-ai-powered-business-solutions/) |
 | **Introduction to agentic AI business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-agentic-ai-business-solution-architecture/) |
 | **Manage testing AI-powered business solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-testing-ai-powered-business-solutions/) |
 | **Evaluate costs and benefits of AI solutions** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-costs-benefits-ai-powered-business-solution/) |
@@ -65,7 +65,7 @@ artifacts: complete, index
 | **Describe work allocation capabilities** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-work-allocation-capabilities/) |
 | **Describe Dynamics 365 Contact Center supervisor experience** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-supervisor-experience/) |
 | **Describe Dynamics 365 Contact Center representative experience** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-dynamics-365-contact-center-representative-experience/) |
-| **Describe warehouse management in Dynamics 365 Supply Chain Management** | Modules | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-warehouse-management-dynamics-365/) |
+| **Introduction to supply chain management in Dynamics 365** | Learningpaths | 2026-07-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-supply-chain-management-dynamics-365/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-91.md](./microsoft-learn-2026-07-part-91.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-93.md](./microsoft-learn-2026-07-part-93.md)

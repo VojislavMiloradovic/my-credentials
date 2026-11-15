@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 33 of 99
+chunk_part: 33 of 100
 date_range: 2026-01-15 to 2026-01-18
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-33.md
@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Implement information protection and data loss prevention with Microsoft Purview** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-exercise-information-protection-data-loss-prevention/) |
 | **Enhance Power BI report designs for the user experience** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/) |
 | **Apply sensitivity labels for data protection** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-manage-sensitivity-labels/) |
 | **MD-102 Explore endpoint management** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-endpoint-management/) |
@@ -69,6 +68,7 @@ artifacts: complete, index
 | **Extend Microsoft 365 Copilot in .NET** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-m365-extensibility/) |
 | **Get started with Microsoft 365 Copilot extensibility** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-extensibility-intro/) |
 | **Get to know Microsoft Azure cloud platform: An overview for business professionals** | Learningpaths | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-know-microsoft-azure-cloud-platform-business-professionals/) |
+| **Describe the business benefits of Azure** | Modules | 2026-01-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-benefits-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-32.md](./microsoft-learn-2026-01-part-32.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-34.md](./microsoft-learn-2026-01-part-34.md)

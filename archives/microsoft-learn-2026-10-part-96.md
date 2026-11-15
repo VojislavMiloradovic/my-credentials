@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 96 of 99
+chunk_part: 96 of 100
 date_range: 2026-09-26 to 2026-10-02
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-96.md
@@ -40,8 +40,8 @@ artifacts: complete, index
 | **Repeat actions with loops in C#** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-repeat-actions-loops/) |
 | **Ground agents in enterprise knowledge in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-agents-enterprise-knowledge-github-copilot/) |
 | **Add human-in-the-loop steps to workflows for Copilot Studio agents** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-human-loop-workflows-copilot-studio/) |
-| **Using AI to develop coaching materials** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-ai-to-develop-coaching-materials/) |
 | **AI for Job Coaches in Supported Employment** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-job-coaches-supported-employment/) |
+| **Using AI to develop coaching materials** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-ai-to-develop-coaching-materials/) |
 | **Supported employment values as the foundation for AI use** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/supported-employment-values-foundation-ai-use/) |
 | **Privacy, security, and responsible AI practices** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/privacy-security-responsible-ai-practices/) |
 | **Organize data with arrays and lists in C#** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-arrays-lists/) |

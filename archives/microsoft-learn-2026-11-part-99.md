@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 99 of 99
-date_range: 2026-10-15 to 2026-11-11
-total_entries: 36
+chunk_part: 99 of 100
+date_range: 2026-10-15 to 2026-11-15
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-99.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,27 @@ artifacts: complete, index
 
 # microsoft-learn -- Part 99
 
-> **Navigation:** Prev: [microsoft-learn-2026-10-part-98.md](./microsoft-learn-2026-10-part-98.md) | [Index](./microsoft-learn-index.md) | Next: None | [Complete Archive](./microsoft-learn-complete.md)
+> **Navigation:** Prev: [microsoft-learn-2026-10-part-98.md](./microsoft-learn-2026-10-part-98.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-11-part-100.md](./microsoft-learn-2026-11-part-100.md) | [Complete Archive](./microsoft-learn-complete.md)
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Understand Network ATC on Windows Server 2025** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-network-atc-windows-server/) |
+| **Manage and analyze Business Central telemetry** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-analyze-telemetry/) |
+| **Implement essential Business Central development standards** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-essential-development-standards/) |
+| **Implement Business Central APIs by using AL** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-programming-interfaces/) |
+| **Extend Business Central by using AL** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-using-application-language/) |
+| **Customize the Business Central UI and implement onboarding** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-interface-implement-onboarding/) |
+| **Access external REST services from Business Central** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/access-external-rest-services/) |
+| **Create, debug, and deploy a Business Central extension** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-debug-deploy-business-central-extension/) |
+| **Create and manage queries in Business Central** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-queries/) |
+| **Analyze Business Central apps** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-business-central-apps/) |
+| **Configure and manage a Business Central development environment** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-business-central-development-environment/) |
+| **Build and extend Business Central tables and pages** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-extend-business-central-tables-pages/) |
+| **Govern and protect local AI agents** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-protect-local-ai-agents/) |
+| **Evaluate application security risks with Codename MDASH** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-application-security-risks-with-codename-mdash/) |
+| **Understand AI spend and measure value in Microsoft 365** | Learningpaths | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/understand-ai-spend-measure-value/) |
+| **Understand and plan the economics of usage-based AI** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-economics-usage-based-ai/) |
+| **Control usage-based AI consumption and spending** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-usage-based-ai-consumption-spending/) |
 | **Draft, analyze, and present with Microsoft 365 Copilot** | Learningpaths | 2026-11-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/draft-analyze-present-microsoft-365-copilot/) |
 | **Run end-to-end work in Microsoft Copilot** | Modules | 2026-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-end-to-end-work-copilot/) |
 | **Understand the shift to hybrid intelligence on Windows** | Modules | 2026-11-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-hybrid-intelligence/) |
@@ -53,5 +70,5 @@ artifacts: complete, index
 | **Build professional Power Apps experiences** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-power-apps-experiences/) |
 
 ---
-> **Navigation:** Prev: [microsoft-learn-2026-10-part-98.md](./microsoft-learn-2026-10-part-98.md) | [Index](./microsoft-learn-index.md) | Next: None
+> **Navigation:** Prev: [microsoft-learn-2026-10-part-98.md](./microsoft-learn-2026-10-part-98.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-11-part-100.md](./microsoft-learn-2026-11-part-100.md)
 

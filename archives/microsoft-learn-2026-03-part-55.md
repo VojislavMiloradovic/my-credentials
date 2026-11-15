@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 55 of 99
+chunk_part: 55 of 100
 date_range: 2026-03-04 to 2026-03-05
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-03-part-55.md
@@ -20,8 +20,8 @@ artifacts: complete, index
 | **Use the payment reconciliation journal in Dynamics 365 Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-journals-dynamics-365-business-central/) |
 | **Use functions and modules in Windows PowerShell scripts** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-functions-modules-windows-powershell-scripts/) |
 | **Select, sort, and measure objects using the pipeline** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/select-sort-measure-objects-use-pipeline/) |
-| **Process customer and vendor payments in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) |
 | **Use checks to pay vendors in Dynamics 365 Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-checks-dynamics-365-business-central/) |
+| **Process customer and vendor payments in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/process-customer-vendor-payments-dynamics-365-business-central/) |
 | **Manage returns to vendors in Dynamics 365 Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-vendor-returns-dynamics-365-business-central/) |
 | **Configure Microsoft Dynamics 365 Field Service** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-configure-microsoft-dynamics-365-for-field-service/) |
 | **Extend declarative agents with prompt tools in Copilot Studio** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-declarative-agents-prompt-actions-copilot-studio/) |
@@ -44,8 +44,8 @@ artifacts: complete, index
 | **Use Power Automate with Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-power-automate/) |
 | **Develop using Power Apps and Power Automate for Dynamics 365 Business Central** | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/power-apps-power-automate-business-central/) |
 | **Work with the API in Dynamics 365 Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-api/) |
-| **Apply Networking concepts to Windows containers running on Azure Kubernetes Service (AKS) and AKS Hybrid** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-networking-concepts-to-windows-containers/) |
 | **Deploy, manage, and monitor Windows containers on Azure Kubernetes Service** | Learningpaths | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-monitor-wincontainers-aks/) |
+| **Apply Networking concepts to Windows containers running on Azure Kubernetes Service (AKS) and AKS Hybrid** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-networking-concepts-to-windows-containers/) |
 | **Configure financial reports in Dynamics 365 Business Central** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-financial-reports-dynamics-365-business-central/) |
 | **Create emails in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/marketing-emails-texts-push/) |
 | **Work smarter with Copilot across your Microsoft 365 apps** | Modules | 2026-03-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-office-applications/) |

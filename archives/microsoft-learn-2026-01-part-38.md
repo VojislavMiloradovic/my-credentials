@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 38 of 99
+chunk_part: 38 of 100
 date_range: 2026-01-27 to 2026-01-31
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-38.md
@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Manage Azure Virtual Desktop** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-virtual-desktop/) |
-| **Implement DNS for Windows Server IaaS VMs** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dns-for-windows-server-iaas-virtual-machines/) |
 | **Manage Microsoft Defender for Endpoint** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-defender-endpoint/) |
 | **Enable organizational access** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/organizational-access/) |
 | **Implement Windows Server DNS** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-dns/) |
@@ -36,8 +34,8 @@ artifacts: complete, index
 | **Create a canvas app in Power Apps** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-powerapps/) |
 | **Navigation in a canvas app in Power Apps** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/navigation-canvas-app/) |
 | **Generate inventory and compliance reports** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/inventory-complinace-reports/) |
-| **Connect to other data in a Power Apps canvas app** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-to-other-data-in-powerapps-canvas-app/) |
 | **Get started using Dataverse** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-cds/) |
+| **Connect to other data in a Power Apps canvas app** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-to-other-data-in-powerapps-canvas-app/) |
 | **Explore Azure Databricks** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-azure-databricks/) |
 | **Develop generative AI apps with Azure OpenAI and Semantic Kernel** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-agents-azure-open-ai-semantic-kernel-sdk/) |
 | **Build your kernel** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-your-kernel/) |
@@ -69,6 +67,8 @@ artifacts: complete, index
 | **Customize Windows Server IaaS Virtual Machine images** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-windows-server-iaas-virtual-machine-images/) |
 | **Just Enough Administration in Windows Server** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/just-enough-administration-windows-server/) |
 | **Improve business performance with AI Builder** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/improve-business-performance-ai-builder/) |
+| **Use AI Builder in Power Automate** | Modules | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-builder-power-automate/) |
+| **Automate a business process using Power Automate** | Learningpaths | 2026-01-27 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-process-power-automate/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-37.md](./microsoft-learn-2026-01-part-37.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-39.md](./microsoft-learn-2026-02-part-39.md)

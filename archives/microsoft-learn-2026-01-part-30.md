@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 30 of 99
+chunk_part: 30 of 100
 date_range: 2026-01-06 to 2026-01-10
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-30.md
@@ -15,11 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Create a personalized savings plan to work toward a financial goal** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-personalized-savings-plan/) |
 | **Understand Azure NetApp Files essentials** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-essentials/) |
 | **Understand how Azure NetApp Files provides volumes as a service** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-netapp-files-volumes-service/) |
-| **Student and school success - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/student-school-success-education-transformation-framework/) |
 | **Education Transformation Framework** | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/education-transformation-framework/) |
+| **Student and school success - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/student-school-success-education-transformation-framework/) |
 | **Teaching and learning - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/teaching-learning-education-transformation-framework/) |
 | **Leadership and policy - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/leadership-policy-education-transformation-framework/) |
 | **Intelligent environments - Education Transformation Framework** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-environments-education-transformation-framework/) |
@@ -67,6 +66,7 @@ artifacts: complete, index
 | **Introduction to machine learning operations (MLOps)** | Learningpaths | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-machine-learn-operations/) |
 | **Automate machine learning workflows** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-machine-learning-workflows/) |
 | **Introduction to DevOps principles for machine learning** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-development-operations-principles-for-machine-learn/) |
+| **Source control for machine learning projects** | Modules | 2026-01-06 | [Verify](https://learn.microsoft.com/en-us/training/modules/source-control-for-machine-learning-projects/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-29.md](./microsoft-learn-2026-01-part-29.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-31.md](./microsoft-learn-2026-01-part-31.md)

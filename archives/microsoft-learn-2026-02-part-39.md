@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 39 of 99
+chunk_part: 39 of 100
 date_range: 2026-01-31 to 2026-02-01
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-39.md
@@ -15,11 +15,9 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Deploy Microsoft 365 Apps for enterprise** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-365-apps-enterprise/) |
-| **Deploy using the Microsoft Deployment Toolkit** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-deployment-toolkit/) |
 | **Manage GitHub Actions in the enterprise** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-github-actions-enterprise/) |
-| **Microsoft Azure Well-Architected Framework - Reliability** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/) |
 | **Build great solutions with the Microsoft Azure Well-Architected Framework** | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-well-architected-framework/) |
+| **Microsoft Azure Well-Architected Framework - Reliability** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-reliability/) |
 | **Search and investigate with Microsoft Purview Audit** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-audit-search-investigate/) |
 | **Mitigate threats using Microsoft Defender for Endpoint** | Learningpaths | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-mitigate-threats-using-microsoft-defender-for-endpoint/) |
 | **Perform evidence and entities investigations using Microsoft Defender for Endpoint** | Modules | 2026-02-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/perform-evidence-entities-investigations-microsoft-defender-for-endpoint/) |
@@ -56,8 +54,8 @@ artifacts: complete, index
 | **Windows Server file servers and storage management** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/windows-server-file-servers-storage-management/) |
 | **Implement Storage Spaces and Storage Spaces Direct** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-storage-spaces-storage-spaces-direct/) |
 | **Microsoft Azure Well-Architected Framework - Performance Efficiency** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-well-architected-performance-efficiency/) |
-| **Implement user authentication and authorization** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-authentication-authorization/) |
 | **Explore the Microsoft identity platform** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-microsoft-identity-platform/) |
+| **Implement user authentication and authorization** | Learningpaths | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-204-implement-authentication-authorization/) |
 | **Implement endpoint data loss prevention (DLP) with Microsoft Purview** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-implement-endpoint-dlp/) |
 | **Deploy using Microsoft Configuration Manager** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-microsoft-configuration-manager/) |
 | **Implement Windows Server iSCSI** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-windows-server-iscsi/) |
@@ -66,6 +64,8 @@ artifacts: complete, index
 | **Implement hybrid backup and recovery with Windows Server IaaS** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hybrid-backup-recovery-windows-server-iaas/) |
 | **Explore Azure Event Hubs** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-event-hubs/) |
 | **Design and implement hybrid networking** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-hybrid-networking/) |
+| **Manage Azure Virtual Desktop** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-virtual-desktop/) |
+| **Implement DNS for Windows Server IaaS VMs** | Modules | 2026-01-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-dns-for-windows-server-iaas-virtual-machines/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-38.md](./microsoft-learn-2026-01-part-38.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-40.md](./microsoft-learn-2026-02-part-40.md)

@@ -1,6 +1,6 @@
 ---
 archive_platform: microsoft-learn
-chunk_part: 31 of 99
+chunk_part: 31 of 100
 date_range: 2026-01-10 to 2026-01-12
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-31.md
@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Identify the language of text with AI Builder** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder-language-detection/) |
 | **Explore quantum superposition with Q#** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-superposition/) |
 | **Create Power Platform solutions with AI and Copilot** | Learningpaths | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-solutions/) |
 | **Build a Power Pages website for a real estate solution with Copilot in Power Pages** | Modules | 2026-01-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-website-real-estate-power-pages-copilot/) |
@@ -68,6 +67,7 @@ artifacts: complete, index
 | **Choose a budgeting tool that fits your preferences and financial goals** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-budgeting-tool/) |
 | **Introduction to budgeting for students** | Learningpaths | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-budgeting-for-students/) |
 | **Introduction to budgeting for students** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-budgeting-for-students/) |
+| **Create a personalized savings plan to work toward a financial goal** | Modules | 2026-01-10 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-personalized-savings-plan/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-01-part-30.md](./microsoft-learn-2026-01-part-30.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-32.md](./microsoft-learn-2026-01-part-32.md)
