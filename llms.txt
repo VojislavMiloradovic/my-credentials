@@ -1,6 +1,6 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-11-17 05:29 UTC
+> **Last Generated:** 2026-11-17 06:01 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
@@ -34,7 +34,7 @@ Use these index files to navigate chunked historical records without exceeding c
 For tools with large context windows, complete datasets are available:
 
 - [Aws Skills Complete](./archives/aws-skills-complete.md) (210.87 KB, 57,247 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-complete.md
-- [Credly Complete](./archives/credly-complete.md) (144.74 KB, 54,404 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-complete.md
+- [Credly Complete](./archives/credly-complete.md) (144.75 KB, 54,406 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-complete.md
 - [Google Developer Complete](./archives/google-developer-complete.md) (345.32 KB, 88,236 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
 - [Google Skills Complete](./archives/google-skills-complete.md) (81.85 KB, 27,631 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-complete.md
 - [Linkedin Certifications Complete](./archives/linkedin-certifications-complete.md) (407.71 KB, 143,379 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md

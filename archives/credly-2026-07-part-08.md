@@ -24,9 +24,9 @@ artifacts: complete, index
 | 2026-07-13 | [Introduction To FIN6 Emulation Plans](https://www.credly.com/badges/5f450636-c464-4b68-8bb8-3dadf9ef77b3/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-07-13 | [MongoDB Basics for Students](https://www.credly.com/badges/d1bad48d-237a-4939-ae0f-3d4e3fca7386/public_url) | MongoDB | Credly Verified Badge |
 | 2026-07-13 | [OPSWAT Introduction to Critical Infrastructure Protection (ICIP)](https://www.credly.com/badges/0a4d5c94-1c92-4035-a997-a6b86369a0f8/public_url) | OPSWAT | Credly Verified Badge |
-| 2026-07-12 | [Acronis Cyber Frame Basic](https://www.credly.com/badges/82c5caa9-aa5c-4d6b-ae63-fb14b8b8dd4a/public_url) | Acronis | Credly Verified Badge |
 | 2026-07-12 | [Acronis Cyber Protect – Backup and Recovery Basics](https://www.credly.com/badges/6fb18152-a9ab-41af-9013-ed28413e1c46/public_url) | Acronis | Credly Verified Badge |
 | 2026-07-12 | [AWS Educate Machine Learning Foundations - Training Badge](https://www.credly.com/badges/fabe8a28-df63-4218-8d33-551e91c305bb/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-07-12 | [Essentials - Acronis Cyber Frame](https://www.credly.com/badges/82c5caa9-aa5c-4d6b-ae63-fb14b8b8dd4a/public_url) | Acronis | Credly Verified Badge |
 | 2026-07-11 | [AI Agent Builder](https://www.credly.com/badges/fee7b9ad-5767-4aa5-add5-8805f835bd06/public_url) | Make | Credly Verified Badge |
 | 2026-07-11 | [AI Automation Explorer](https://www.credly.com/badges/99c4064f-40d2-4f1b-8378-0d00d4c74be8/public_url) | Make | Credly Verified Badge |
 | 2026-07-11 | [AWS Educate Introduction to Cloud 101 - Training Badge](https://www.credly.com/badges/d4422463-a5e9-4133-ac19-c9af85817a0b/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
