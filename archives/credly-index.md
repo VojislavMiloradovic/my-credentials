@@ -7,7 +7,7 @@
 <!-- artifacts: complete, index -->
 
 
-<!-- retrieved_at: 2026-11-17T06:01:47.950643+00:00 -->
+<!-- retrieved_at: 2026-11-17T13:26:00.170036+00:00 -->
 
 
 
@@ -15,21 +15,21 @@ This directory provides chunked, AI-readable historical records for Credly Verif
 
 ## Archive Overview
 
-- **Total Records Archived:** 830
-- **Monolithic File Size:** ~144.75 KB (54,406 tokens)
+- **Total Records Archived:** 831
+- **Monolithic File Size:** ~144.9 KB (54,470 tokens)
 - **Total Chunk Parts:** 16 chunk(s)
 
 ### Monolithic Archive (Complete)
 
 | File Name | Size (KB) | Tokens | Recommended For | Direct Raw URL |
 | :--- | :---: | :---: | :--- | :--- |
-| [`credly-complete.md`](./credly-complete.md) | 144.75 KB | 54,406 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-complete.md) |
+| [`credly-complete.md`](./credly-complete.md) | 144.9 KB | 54,470 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-complete.md) |
 
 ### Chunked Archive Parts (~10 KB Slices)
 
 | Part | File Name | Date Range | Entries | Size (KB) | Tokens | Direct Raw URL |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| Part 16 | [`credly-2026-11-part-16.md`](./credly-2026-11-part-16.md) | `2026-10-28 to 2026-11-15` | 33 | 6.26 KB | 2,362 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md) |
+| Part 16 | [`credly-2026-11-part-16.md`](./credly-2026-11-part-16.md) | `2026-10-28 to 2026-11-17` | 34 | 6.41 KB | 2,426 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md) |
 | Part 15 | [`credly-2026-10-part-15.md`](./credly-2026-10-part-15.md) | `2026-10-10 to 2026-10-28` | 51 | 10.08 KB | 3,627 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md) |
 | Part 14 | [`credly-2026-10-part-14.md`](./credly-2026-10-part-14.md) | `2026-09-30 to 2026-10-10` | 55 | 10.15 KB | 3,757 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md) |
 | Part 13 | [`credly-2026-09-part-13.md`](./credly-2026-09-part-13.md) | `2026-09-15 to 2026-09-30` | 55 | 10.17 KB | 3,915 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-13.md) |

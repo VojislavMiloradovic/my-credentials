@@ -1,17 +1,18 @@
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 830 records.
+This document represents a unified, verifiable list of all 831 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-17T06:01:47.950643+00:00 -->
+<!-- retrieved_at: 2026-11-17T13:26:00.170036+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-17 | [JavaScript Essentials 2](https://www.credly.com/badges/dfca582f-3b9e-48e7-85d4-24980e1a20c0/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-15 | [Endpoint Security](https://www.credly.com/badges/469763de-eaf6-4bd8-8808-726f866f80d4/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-14 | [AWS Knowledge: Media & Entertainment Content Production Foundations - Training Badge](https://www.credly.com/badges/a251d4bc-b116-48a1-af17-032e78d3d939/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-13 | [Cilium cert-manager](https://www.credly.com/badges/6e26f822-df42-40b7-8a7c-9a1def7e9124/public_url) | Isovalent | Credly Verified Badge |
