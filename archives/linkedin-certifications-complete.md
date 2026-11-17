@@ -1,12 +1,12 @@
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 2048 records.
+This document represents a unified, verifiable list of all 2064 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-15T06:09:41.343006+00:00 -->
+<!-- retrieved_at: 2026-11-17T14:40:29.449944+00:00 -->
 
 ## Verified Records Archive
 
@@ -94,6 +94,22 @@ This document represents a unified, verifiable list of all 2048 records.
 | 2026-11 | **Executing Processes for Process Industries in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xebil-tylev-boref-malyd-rovol) |
 | 2026-11 | **Configuring SAP Digital Manufacturing for Execution: Basic Data and Configuration - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xafen-kanet-beciv-virom-duhin) |
 | 2026-11 | **Exploring Customization in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xunop-rycul-necum-gided-pokyr) |
+| 2026-11 | **Endpoint Security** | Cisco | [Verify Record](https://www.credly.com/badges/469763de-eaf6-4bd8-8808-726f866f80d4/linked_in_profile) |
+| 2026-11 | **Configuring Machine Integration in SAP Digital Manufacturing** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xagem-vedum-cumak-komiv-gypuc) |
+| 2026-11 | **Executing Production Processes in the S.Factory - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelov-pavav-nybir-hodad-tagup) |
+| 2026-11 | **Discovering the Basics of SAP Global Trade Services - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xocut-bigac-dycor-gefog-sysaf) |
+| 2026-11 | **Configuring and Using Classifications for International Trade - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomic-rusyr-sytud-savuh-lyret) |
+| 2026-11 | **JavaScript Essentials 2** | Cisco | [Verify Record](https://www.credly.com/badges/dfca582f-3b9e-48e7-85d4-24980e1a20c0/linked_in_profile) |
+| 2026-11 | **SAP Ariba Procurement Overview - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesam-rokoh-revuh-sacic-hobiv) |
+| 2026-11 | **Managing Purchase Orders in SAP Ariba Buying and Invoicing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xydor-gunor-sunem-kemog-necig) |
+| 2026-11 | **SAP Ariba Procurement Reports - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylyd-movum-vosen-ruhut-simym) |
+| 2026-11 | **Invoice Creation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelyg-sybih-kyvut-necug-begef) |
+| 2026-11 | **Invoice Reconciliation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xugoh-fydon-dubun-kipyr-rugeh) |
+| 2026-11 | **Advanced Purchasing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xadym-fomir-nyguc-pebyc-vycab) |
+| 2026-11 | **Contract Compliance Release - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xebyc-gobyl-tucif-tihyt-nidul) |
+| 2026-11 | **Contract Compliance No Release - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xifog-nicit-dahyd-sohip-hoter) |
+| 2026-11 | **SAP Ariba Procurement: Configuring Receiving - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xipuf-tytos-rykis-tipir-pypuh) |
+| 2026-11 | **SAP Ariba Procurement: Implementation Consulting and Configuration - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xatug-relar-mycur-vopob-botyh) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |
