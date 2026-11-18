@@ -635,7 +635,7 @@ def auto_retire_removed_items(
                 if record_id:
                     records_by_id[record_id] = record
 
-# Match removed_ids by looking up in records_by_id or baseline_index fingerprint
+            # Match removed_ids by looking up in records_by_id or baseline_index fingerprint
             if baseline_index or records_by_id:
                 for removed_id in removed_ids:
                     # 1. Try direct lookup by ID in validation records first
@@ -646,7 +646,7 @@ def auto_retire_removed_items(
                     # 2. Try looking up via baseline fingerprint URL if available
                     fp = baseline_index.get(removed_id) if baseline_index else None
                     fp_url = getattr(fp, "url", None) if fp else None
-                    
+
                     if fp_url and fp_url in records_by_url:
                         removed_records[removed_id] = records_by_url[fp_url]
                     else:
