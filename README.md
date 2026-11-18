@@ -208,7 +208,7 @@ Showing latest 10 items. View the full dataset via [Platform Archive Index](./ar
 | Metric | Count |
 | :--- | :--- |
 | **Total Milestones & Milestone Badges** | 172 |
-| **Total Codelabs & Learning Activities** | 1,744 |
+| **Total Codelabs & Learning Activities** | 1,763 |
 
 #### Latest Achievements
 
@@ -216,16 +216,16 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| *2026-11-12* | **Build an augmented reality (AR) app using the WebXR Device API** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/ar-with-webxr |
-| *2026-11-12* | **Build and Chaos-Test a Self-Healing Order Fulfillment Agent with ADK, Cloud Run, and Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/self-healing-order-agent-adk |
-| *2026-11-12* | **Secure AI Agent MCP Tools with Agent Gateway** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-mcp-tools-with-agent-gateway |
-| *2026-11-12* | **Explore new and upcoming browser capabilities for your PWA: From Fugu With Love** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/project-fugu |
-| *2026-11-12* | **Building AI Agents with ADK: Orchestrating Graph Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-graph-workflows |
-| *2026-11-12* | **Using Antigravity to Deploy App to Google Cloud with Google Cloud Developer Plugin** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/using-antigravity-to-deploy-app-to-google-cloud-with-google-cloud-developer-plug |
-| *2026-11-12* | **Defeat Prompt Injection with ADK 2 Graph Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ai-kopitiam-adk-graph-workflow |
-| *2026-11-12* | **Build a governed in-warehouse MLOps workflow with Colab Enterprise, BigQuery ML, and Vertex AI Model Registry** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/data-cloud-solutions/data-science-governed-warehouse-mlops-colab-vpcsc |
-| *2026-11-08* | **Untrusted by Default: Securing ADK Agents with MCP Toolbox and Model Armor** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-least-privilege-model-armor |
-| *2026-11-08* | **Practical Harness Engineering with Google Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/harness-engineering-antigravity |
+| *2026-11-18* | **Build an integration with an AI agent and Application Integration agent skills** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/application-integration/build-integration-ai-agent-skills |
+| *2026-11-18* | **Debugging Matter Integrations** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/debugging-matter |
+| *2026-11-18* | **Create a scripted automation** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/create-a-scripted-automation |
+| *2026-11-18* | **Build an Android App for Matter** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/matter-sample-app |
+| *2026-11-18* | **Build a mobile app using the Home APIs on iOS** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/home-apis-ios-build-mobile-app |
+| *2026-11-18* | **Getting started with Discriminative models (Jev/Gemini Decisions)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/discriminative-models |
+| *2026-11-18* | **Getting Started with the Gemini Decisions API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/getting-started-with-gemini-decisions-api |
+| *2026-11-18* | **Deploy, Contain, Observe: Least-Privilege ADK Agents on Agent Runtime, from Sandbox to Trace** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-agent-runtime-least-privilege |
+| *2026-11-18* | **Progressive Web Apps: Going Offline** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa1-going_offline |
+| *2026-11-18* | **Secure Vibe-Coded Applications with CodeMender and Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-vibe-coding-with-codemender |
 <!-- GOOGLE_DEVELOPER_END -->
 
 

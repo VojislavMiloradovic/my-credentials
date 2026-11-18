@@ -728,6 +728,14 @@
       "reason": "Auto-retired: removed from source data on 2026-10-04",
       "retired_at": "2026-10-04",
       "title": "Gemini Api Extensions Web"
+    },
+    {
+      "id": "Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI",
+      "match_type": "url",
+      "url": "https://codelabs.developers.google.com/devsite/codelabs/sg-rush-hour-agent-platform-with-agy",
+      "reason": "Auto-retired: removed from source data on 2026-11-18",
+      "retired_at": "2026-11-18",
+      "title": "Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI"
     }
   ],
   "test-platform": [

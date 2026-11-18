@@ -1,17 +1,36 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1793 records.
+This document represents a unified, verifiable list of all 1812 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-17T06:38:04.963676+00:00 -->
+<!-- retrieved_at: 2026-11-18T20:20:10.123036+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
+| 2026-11-18 | **Build an integration with an AI agent and Application Integration agent skills** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/application-integration/build-integration-ai-agent-skills |
+| 2026-11-18 | **Debugging Matter Integrations** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/debugging-matter |
+| 2026-11-18 | **Create a scripted automation** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/create-a-scripted-automation |
+| 2026-11-18 | **Build an Android App for Matter** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/matter-sample-app |
+| 2026-11-18 | **Build a mobile app using the Home APIs on iOS** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/home-apis-ios-build-mobile-app |
+| 2026-11-18 | **Getting started with Discriminative models (Jev/Gemini Decisions)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/discriminative-models |
+| 2026-11-18 | **Getting Started with the Gemini Decisions API** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/getting-started-with-gemini-decisions-api |
+| 2026-11-18 | **Deploy, Contain, Observe: Least-Privilege ADK Agents on Agent Runtime, from Sandbox to Trace** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/adk-agent-runtime-least-privilege |
+| 2026-11-18 | **Progressive Web Apps: Going Offline** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training/pwa1-going_offline |
+| 2026-11-18 | **Secure Vibe-Coded Applications with CodeMender and Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-vibe-coding-with-codemender |
+| 2026-11-18 | **Serve Open Models on Cloud Run with vLLM and Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/serve-open-models-cloud-run-antigravity |
+| 2026-11-18 | **Migrate from Aerospike to Bigtable with minimal downtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cbt-for-aerospike |
+| 2026-11-18 | **Building Agentic Healthcare: Orchestrating MedGemma and Gemini with the ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentic-healthcare-medgemma-gemini-adk |
+| 2026-11-18 | **CodeMender Skills & Hooks for Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/code-mender-skills-hooks |
+| 2026-11-18 | **Implement CameraStream with WebRTC** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/smarthome-webrtc |
+| 2026-11-18 | **Simplify Cloud Run service-to-service authentication with Express Link** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-express-link |
+| 2026-11-18 | **Connect Java Applications to AlloyDB for PostgreSQL with IAM Authentication** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/java-alloydb-connectivity |
+| 2026-11-18 | **How to measure your product quality on the Google Home Vitals dashboard** | Verified Google Developer learning activity. URL: https://developers.home.google.com/codelabs/home-vitals |
+| 2026-11-18 | **End-to-End Agentic Security Workflow with CodeMender** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/code-mender-dev-workflow |
 | 2026-11-12 | **Build an augmented reality (AR) app using the WebXR Device API** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/ar-with-webxr |
 | 2026-11-12 | **Build and Chaos-Test a Self-Healing Order Fulfillment Agent with ADK, Cloud Run, and Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/self-healing-order-agent-adk |
 | 2026-11-12 | **Secure AI Agent MCP Tools with Agent Gateway** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-mcp-tools-with-agent-gateway |
@@ -177,7 +196,7 @@ This document represents a unified, verifiable list of all 1793 records.
 | 2026-08-22 | **Serving AVIF Images** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/avif |
 | 2026-08-22 | **Analyze and enrich enterprise data with generative AI and SQL in BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-generative-ai-intro |
 | 2026-08-22 | **Fraud Detection Pipeline with Data Agent Kit and Antigravity IDE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dak-data-science-antigravity-ide |
-| 2026-08-22 | **Progressive Web Apps: Going Offline** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training |
+| 2026-08-22 | **Pwa Training** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training |
 | 2026-08-22 | **Control a PLAYBULB Candle with Web Bluetooth** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/candle-bluetooth |
 | 2026-08-22 | **How to execute Python and Node.js in a Cloud Run Sandbox** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/execute-nodejs-python-in-cloud-run-sandbox |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/basic-otel-plugin-grpc-python |
@@ -192,7 +211,7 @@ This document represents a unified, verifiable list of all 1793 records.
 | 2026-08-13 | **Build, Secure, and Deploy an MCP Server on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-mcp-server-gcp |
 | 2026-08-10 | **Google Workspace MCP server connectors in Gemini Enterprise apps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-ge |
 | 2026-08-07 | **Developing with OpenThread APIs** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-apis |
-| 2026-08-07 | **Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/sg-rush-hour-agent-platform-with-agy |
+| 2026-08-07 | **Build, Scale, and Govern Agents on Google Cloud with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/sg-rush-hour-agent-platform-with-agy [WARN] *Content retired* |
 | 2026-08-07 | **Build a Thread Network with the B91 Development Board and OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/telink-openthread-hardware |
 | 2026-08-07 | **Six Recipes for Reaching Near-100% Accurate Text-to-SQL in AlloyDB - codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-nla |
 | 2026-08-07 | **Simulate Thread Networks using OTNS** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-network-simulator |

@@ -26,7 +26,7 @@ artifacts: complete, index
 | 2026-08-22 | **Serving AVIF Images** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/avif |
 | 2026-08-22 | **Analyze and enrich enterprise data with generative AI and SQL in BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-generative-ai-intro |
 | 2026-08-22 | **Fraud Detection Pipeline with Data Agent Kit and Antigravity IDE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dak-data-science-antigravity-ide |
-| 2026-08-22 | **Progressive Web Apps: Going Offline** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training |
+| 2026-08-22 | **Pwa Training** | Verified Google Developer learning activity. URL: https://web.dev/codelabs/pwa-training |
 | 2026-08-22 | **Control a PLAYBULB Candle with Web Bluetooth** | Verified Google Developer learning activity. URL: https://developer.chrome.com/codelabs/candle-bluetooth |
 | 2026-08-22 | **How to execute Python and Node.js in a Cloud Run Sandbox** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/execute-nodejs-python-in-cloud-run-sandbox |
 | 2026-08-17 | **Setup Basic OpenTelemetry Plugin in gRPC Python** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/grpc/basic-otel-plugin-grpc-python |
@@ -41,7 +41,7 @@ artifacts: complete, index
 | 2026-08-13 | **Build, Secure, and Deploy an MCP Server on Google Cloud** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-mcp-server-gcp |
 | 2026-08-10 | **Google Workspace MCP server connectors in Gemini Enterprise apps** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/google-workspace-ge |
 | 2026-08-07 | **Developing with OpenThread APIs** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-apis |
-| 2026-08-07 | **Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/sg-rush-hour-agent-platform-with-agy |
+| 2026-08-07 | **Build, Scale, and Govern Agents on Google Cloud with Antigravity CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/sg-rush-hour-agent-platform-with-agy [WARN] *Content retired* |
 | 2026-08-07 | **Build a Thread Network with the B91 Development Board and OpenThread** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/telink-openthread-hardware |
 | 2026-08-07 | **Six Recipes for Reaching Near-100% Accurate Text-to-SQL in AlloyDB - codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/alloydb-ai-nla |
 | 2026-08-07 | **Simulate Thread Networks using OTNS** | Verified Google Developer learning activity. URL: https://openthread.io/codelabs/openthread-network-simulator |
