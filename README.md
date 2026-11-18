@@ -62,27 +62,28 @@ Showing latest 10 of 5,054 achievements. View full dataset via [Platform Archive
 
 **Public Profile:** [Verify Google Skills Profile](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b)
 
-**Total Portfolio Credentials:** 444
-**Total Verified Skills Mapped:** 443
+**Total Portfolio Credentials:** 445
+**Total Verified Skills Mapped:** 444
 
 #### Google Skills Learning Statistics
 
 | Metric | Count |
 | :--- | :---: |
-| **Check** | 2,047 |
+| **Check** | 2,969 |
 | **Classroom** | 0 |
-| **Course** | 429 |
+| **Course** | 452 |
 | **Game** | 17 |
-| **Lab** | 408 |
+| **Lab** | 410 |
 | **Lesson** | 5,114 |
 | **Path** | 18 |
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 444 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-11-part-10.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-10.md)), or [Monolithic File](./archives/google-skills-complete.md).
+Showing latest 10 of 445 credentials. View full dataset via [Platform Archive Index](./archives/google-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-index.md)), latest slice [Latest Slice](./archives/google-skills-2026-11-part-10.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-10.md)), or [Monolithic File](./archives/google-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-18 | [Google Cloud Architecture: Design Principles](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29734400) | Google Cloud | Google Skill Badge |
 | 2026-11-17 | [Draft NDA Documents with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714329) | Google Cloud | Google Skill Badge |
 | 2026-11-17 | [Use Gemini to Redact Legal Documents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714245) | Google Cloud | Google Skill Badge |
 | 2026-11-17 | [Use Gemini for Legal Data and DSAR Responses](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714214) | Google Cloud | Google Skill Badge |
@@ -92,7 +93,6 @@ Showing latest 10 of 444 credentials. View full dataset via [Platform Archive In
 | 2026-11-17 | [Accelerate Agent Development with Antigravity and Agents CLI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712979) | Google Cloud | Google Skill Badge |
 | 2026-11-17 | [Evaluate Generative and Agentic Systems](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712906) | Google Cloud | Google Skill Badge |
 | 2026-11-17 | [Build a Certification Study Guide: PAA Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712830) | Google Cloud | Google Skill Badge |
-| 2026-11-17 | [Network Architecture Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712772) | Google Cloud | Google Skill Badge |
 <!-- GOOGLE_SKILLS_END -->
 
 ## Amazon Web Services Credentials
