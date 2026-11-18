@@ -1,17 +1,19 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 442 records.
+This document represents a unified, verifiable list of all 444 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-18T02:20:18.189637+00:00 -->
+<!-- retrieved_at: 2026-11-18T03:51:26.611448+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-17 | [Draft NDA Documents with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714329) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Use Gemini to Redact Legal Documents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714245) | Google Cloud | Google Skill Badge |
 | 2026-11-17 | [Use Gemini for Legal Data and DSAR Responses](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714214) | Google Cloud | Google Skill Badge |
 | 2026-11-17 | [Use Gemini for Legal Regulatory Horizon Scanning](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714184) | Google Cloud | Google Skill Badge |
 | 2026-11-17 | [Agentic Engineering: Build and Ship](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714099) | Google Cloud | Google Skill Badge |
