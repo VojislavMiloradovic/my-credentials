@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 44 of 45
+chunk_part: 44 of 46
 date_range: 2026-11 to 2026-11
-total_entries: 53
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-44.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,44 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-11 | **Exploring Company Administration Settings in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xavab-dikip-hered-ricem-memep) |
-| 2026-11 | **Exploring User Administration Settings in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xibot-kifyp-nyluh-cibys-gafas) |
-| 2026-11 | **Exploring Travel Administration and Data Retention Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xapyn-fanik-podur-karul-kubet) |
-| 2026-11 | **Managing Travel Policy Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylab-lopyc-ticen-lebol-habac) |
-| 2026-11 | **Arcade Voyage: Python Apps & Data Analytics** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29481815?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-11 | **Arcade Adventure: Cloud Infrastructure & App Scale** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29487123?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-11 | **Preparing for Next-Gen SAP Ariba Implementation** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesad-dikes-vepem-sedik-cosis) |
-| 2026-11 | **Configuring Data Management and Extensibility in Next-Gen SAP Ariba** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xepof-pireb-forub-mupob-silal) |
-| 2026-11 | **Realizing Next-Gen SAP Ariba: Integration and Architecture Decisions** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyvyh-hasub-topob-nulin-rocum) |
-| 2026-11 | **Deploying Next-Gen SAP Ariba: AI Capabilities, Transition Planning, and Licensing** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelom-gimef-pesyg-gyvud-tebys) |
-| 2026-11 | **JavaScript Essentials 1** | Cisco | [Verify Record](https://www.credly.com/badges/0a45cc34-3f5f-4ab2-97f3-8120faf6774f/linked_in_profile) |
-| 2026-11 | **Getting Started with Terraform on SAP BTP - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xivyg-hekif-nimed-casif-vohis) |
-| 2026-11 | **Exploring AI Capabilities in SAP LeanIX** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylyc-sydot-pimif-lumyt-vabyv) |
-| 2026-11 | **Driving Agentic Enterprise Architecture Leveraging the SAP LeanIX MCP Server** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiric-garac-nudyd-tybin-nafog) |
-| 2026-11 | **Governing AI with SAP LeanIX** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xahyg-vymut-mylak-pifot-pynoh) |
-| 2026-11 | **Big Data Foundations - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/46977a61-55e8-476d-9d40-c5e18997590c/linked_in_profile) |
-| 2026-11 | **Hadoop Foundations - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/eecc9bbc-a059-483c-99da-b38699f81145/linked_in_profile) |
-| 2026-11 | **R for Data Science** | IBM | [Verify Record](https://www.credly.com/badges/4ce2966c-1b55-4138-b6c6-233f5eaf72df/linked_in_profile) |
-| 2026-11 | **IBM Virtual Private Cloud** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/7449bfb8b6f94b868525177d09bfa302) |
-| 2026-11 | **Statistics 101** | IBM | [Verify Record](https://www.credly.com/badges/c4b73295-1912-46f1-a2e8-1958338f0be4/linked_in_profile) |
-| 2026-11 | **Getting Started with SAP Engagement Cloud - Emarsys Edition - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xotob-pasos-dynyt-vidys-dedag) |
-| 2026-11 | **Exploring SAP Customer Data Cloud Essentials - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiguc-nalic-poliv-denut-savyv) |
-| 2026-11 | **From Onboarding to Governance: Mastering SAP Customer Data Cloud for B2B - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xosih-pugip-bocus-geduc-tafit) |
-| 2026-11 | **Exploring SAP Customer Data Platform Essentials - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xotym-dikyg-gybyv-raleh-vinir) |
-| 2026-11 | **Kong Event Gateway Foundations** | Kong | [Verify Record](https://www.credly.com/badges/718d1bab-9ec1-43f1-8c0d-19f0c13e4131/linked_in_profile) |
-| 2026-11 | **Konnect Quick Launch on Kong** | Kong | [Verify Record](https://www.credly.com/badges/362a9daf-20fd-4611-bc4d-1c859f0902df/linked_in_profile) |
-| 2026-11 | **Exploring the Technical Essentials of SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xapuf-nosef-nopek-goful-komam) |
-| 2026-11 | **Expanding Upon Technical Essentials of SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylus-sehac-tahir-kohov-fihis) |
-| 2026-11 | **Mastering the Technical Essentials of SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomir-fosob-sovam-hyhom-satyc) |
-| 2026-11 | **Exploring SAP Platform Capabilities** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xekah-galut-dubof-cypab-lugon) |
-| 2026-11 | **eBPF Networking** | Isovalent | [Verify Record](https://www.credly.com/badges/d47370ef-b31f-4330-b12a-53c239efaa66/linked_in_profile) |
-| 2026-11 | **eBPF Kubernetes Monitoring** | Isovalent | [Verify Record](https://www.credly.com/badges/fc0c346e-d0ca-43c0-917c-b3bb31bee0cd/linked_in_profile) |
-| 2026-11 | **eBPF + Go Development** | Isovalent | [Verify Record](https://www.credly.com/badges/33ee45f9-9d54-45d5-acde-4dab793e0250/linked_in_profile) |
-| 2026-11 | **GitOps Platform Engineering with Cilium** | Isovalent | [Verify Record](https://www.credly.com/badges/b502e6fe-fa15-4e07-b898-e58c510cef18/linked_in_profile) |
-| 2026-11 | **SAP Integration Suite Overview** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xemod-gicih-vonag-mykym-ronef) |
-| 2026-11 | **Developing with SAP Build Process Automation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xonac-pitas-nyrah-limom-hidas) |
-| 2026-11 | **Designing SAP Build Work Zone for Superior Efficiency - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xagup-kirap-kysip-cysec-tarah) |
-| 2026-11 | **Getting Started with Joule Studio, classic edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xudum-hyhuk-parul-nicyp-lefyd) |
 | 2026-11 | **Building Applications with Eventarc on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29588237?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-11 | **Logging and Monitoring in Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29592041?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-11 | **Service Orchestration and Choreography on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29599773?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -68,6 +30,39 @@ artifacts: complete, index
 | 2026-11 | **Exploring Operational Procurement in SAP S/4HANA - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelid-dinas-tokef-nicyk-licir) |
 | 2026-11 | **Cilium cert-manager** | Isovalent | [Verify Record](https://www.credly.com/badges/6e26f822-df42-40b7-8a7c-9a1def7e9124/linked_in_profile) |
 | 2026-11 | **Consumption-based Planning and Forecasting in SAP Cloud ERP - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xekoh-pymyp-nacyl-cimim-hyfyf) |
+| 2026-11 | **Exploring Cross-Functional Customizing in SAP S/4HANA Cloud Private Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xycyb-lesup-varyb-bylur-binid) |
+| 2026-11 | **SAP S/4HANA Contract Management - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xamib-sumop-vulyb-cupec-hetov) |
+| 2026-11 | **Analyzing Manufacturing Data in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xugyb-mahyt-tovim-kylig-pogus) |
+| 2026-11 | **AWS Knowledge: Media & Entertainment Content Production Foundations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/a251d4bc-b116-48a1-af17-032e78d3d939/linked_in_profile) |
+| 2026-11 | **Executing Processes for Discrete Industries in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xoloc-nirop-mycut-bysys-symum) |
+| 2026-11 | **Executing Processes for Process Industries in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xebil-tylev-boref-malyd-rovol) |
+| 2026-11 | **Configuring SAP Digital Manufacturing for Execution: Basic Data and Configuration - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xafen-kanet-beciv-virom-duhin) |
+| 2026-11 | **Exploring Customization in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xunop-rycul-necum-gided-pokyr) |
+| 2026-11 | **Endpoint Security** | Cisco | [Verify Record](https://www.credly.com/badges/469763de-eaf6-4bd8-8808-726f866f80d4/linked_in_profile) |
+| 2026-11 | **Configuring Machine Integration in SAP Digital Manufacturing** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xagem-vedum-cumak-komiv-gypuc) |
+| 2026-11 | **Executing Production Processes in the S.Factory - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelov-pavav-nybir-hodad-tagup) |
+| 2026-11 | **Discovering the Basics of SAP Global Trade Services - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xocut-bigac-dycor-gefog-sysaf) |
+| 2026-11 | **Configuring and Using Classifications for International Trade - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomic-rusyr-sytud-savuh-lyret) |
+| 2026-11 | **JavaScript Essentials 2** | Cisco | [Verify Record](https://www.credly.com/badges/dfca582f-3b9e-48e7-85d4-24980e1a20c0/linked_in_profile) |
+| 2026-11 | **SAP Ariba Procurement Overview - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesam-rokoh-revuh-sacic-hobiv) |
+| 2026-11 | **Managing Purchase Orders in SAP Ariba Buying and Invoicing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xydor-gunor-sunem-kemog-necig) |
+| 2026-11 | **SAP Ariba Procurement Reports - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylyd-movum-vosen-ruhut-simym) |
+| 2026-11 | **Invoice Creation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelyg-sybih-kyvut-necug-begef) |
+| 2026-11 | **Invoice Reconciliation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xugoh-fydon-dubun-kipyr-rugeh) |
+| 2026-11 | **Advanced Purchasing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xadym-fomir-nyguc-pebyc-vycab) |
+| 2026-11 | **Contract Compliance Release - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xebyc-gobyl-tucif-tihyt-nidul) |
+| 2026-11 | **Contract Compliance No Release - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xifog-nicit-dahyd-sohip-hoter) |
+| 2026-11 | **SAP Ariba Procurement: Configuring Receiving - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xipuf-tytos-rykis-tipir-pypuh) |
+| 2026-11 | **SAP Ariba Procurement: Implementation Consulting and Configuration - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xatug-relar-mycur-vopob-botyh) |
+| 2026-11 | **Elevate Financial Advisor Insights with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712439?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Use Gemini for Financial Portfolio Resilience** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712470?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Accelerate Bond Issuance with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712493?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Uncover Credit Market Opportunities with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712514?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Contract Review and Playbook Creation with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712563?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Architect Multi-Tier Agent Memory: Short-Term Memory** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712658?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **TPU Deep Dive** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712721?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Network Architecture Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712772?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Build a Certification Study Guide: PAA Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712830?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-11-part-43.md](./linkedin-certifications-2026-11-part-43.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-11-part-45.md](./linkedin-certifications-2026-11-part-45.md)

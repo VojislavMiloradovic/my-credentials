@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-11-18 20:20 UTC
+> **Last Generated:** 2026-11-18 22:10 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -183,11 +183,11 @@ Showing latest 10 of 831 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 2,064 |
+| **Total External Certifications Verified** | 2,094 |
 
 #### Recent Certifications
 
-Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-11-part-45.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-45.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
+Showing latest 10 items. View the full dataset via [Platform Archive Index](./archives/linkedin-certifications-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-index.md)), latest slice [Latest Slice](./archives/linkedin-certifications-2026-11-part-46.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-46.md)), or [Monolithic Complete File](./archives/linkedin-certifications-complete.md).
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
@@ -4644,13 +4644,13 @@ This document represents a unified, verifiable list of all 445 records.
 
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 2064 records.
+This document represents a unified, verifiable list of all 2094 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-17T14:40:29.449944+00:00 -->
+<!-- retrieved_at: 2026-11-18T22:10:30.459712+00:00 -->
 
 ## Verified Records Archive
 
@@ -4754,6 +4754,36 @@ This document represents a unified, verifiable list of all 2064 records.
 | 2026-11 | **Contract Compliance No Release - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xifog-nicit-dahyd-sohip-hoter) |
 | 2026-11 | **SAP Ariba Procurement: Configuring Receiving - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xipuf-tytos-rykis-tipir-pypuh) |
 | 2026-11 | **SAP Ariba Procurement: Implementation Consulting and Configuration - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xatug-relar-mycur-vopob-botyh) |
+| 2026-11 | **Elevate Financial Advisor Insights with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712439?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Use Gemini for Financial Portfolio Resilience** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712470?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Accelerate Bond Issuance with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712493?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Uncover Credit Market Opportunities with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712514?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Contract Review and Playbook Creation with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712563?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Architect Multi-Tier Agent Memory: Short-Term Memory** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712658?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **TPU Deep Dive** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712721?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Network Architecture Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712772?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Build a Certification Study Guide: PAA Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712830?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Evaluate Generative and Agentic Systems** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712906?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Accelerate Agent Development with Antigravity and Agents CLI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712979?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Customer Experience Agent Studio: Design and Test Solutions** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29713164?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Agentic Engineering: Build and Ship** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714099?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Use Gemini for Legal Regulatory Horizon Scanning** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714184?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Use Gemini for Legal Data and DSAR Responses** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714214?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Use Gemini to Redact Legal Documents** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714245?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Draft NDA Documents with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714329?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Google Cloud Architecture: Design Principles** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29734400?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Exploring SAP Business AI Platform Architecture** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xopos-pagom-hyvas-nocok-taduk) |
+| 2026-11 | **Introducing the Architectural Methodologies** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xagod-kyfen-gudet-luguf-mesim) |
+| 2026-11 | **Exploring End-to-End Business Processes in SAP** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xabut-vykeg-batin-cered-dutob) |
+| 2026-11 | **SAP Ariba Contracts Overview - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xigyk-nanit-kidop-roham-masit) |
+| 2026-11 | **Contract Workspace Creation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xocuc-redif-volim-dakap-nopit) |
+| 2026-11 | **Contract Amendments - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiner-cerut-fadus-cyvef-balec) |
+| 2026-11 | **Managing the Clause Library - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xufyk-hukyl-hemas-gimuv-cubyb) |
+| 2026-11 | **SAP Ariba Running Reports - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xypuf-lypuh-monev-bifas-terup) |
+| 2026-11 | **Managing Project Templates - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xabyr-sybyg-fipod-cyfed-telel) |
+| 2026-11 | **Administering Contract Workspace Templates in SAP Ariba Contracts** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyfen-kosit-gifod-fokip-namob) |
+| 2026-11 | **Configuring a New Realm in the SAP Source to Contract Suite - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuded-gosav-lefip-pufeh-ryluv) |
+| 2026-11 | **Uploading Legacy Contracts in SAP Ariba Contracts** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xybob-hosug-biryr-ravob-sopun) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |
