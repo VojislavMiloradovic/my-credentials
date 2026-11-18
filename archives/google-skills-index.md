@@ -7,7 +7,7 @@
 <!-- artifacts: complete, index -->
 
 
-<!-- retrieved_at: 2026-11-17T05:29:12.719082+00:00 -->
+<!-- retrieved_at: 2026-11-18T02:20:18.189637+00:00 -->
 
 
 
@@ -15,21 +15,22 @@ This directory provides chunked, AI-readable historical records for Google Skill
 
 ## Archive Overview
 
-- **Total Records Archived:** 427
-- **Monolithic File Size:** ~81.85 KB (27,631 tokens)
-- **Total Chunk Parts:** 9 chunk(s)
+- **Total Records Archived:** 442
+- **Monolithic File Size:** ~84.71 KB (28,591 tokens)
+- **Total Chunk Parts:** 10 chunk(s)
 
 ### Monolithic Archive (Complete)
 
 | File Name | Size (KB) | Tokens | Recommended For | Direct Raw URL |
 | :--- | :---: | :---: | :--- | :--- |
-| [`google-skills-complete.md`](./google-skills-complete.md) | 81.85 KB | 27,631 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-complete.md) |
+| [`google-skills-complete.md`](./google-skills-complete.md) | 84.71 KB | 28,591 | Large Context Windows (>100k tokens) | [Raw Link](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-complete.md) |
 
 ### Chunked Archive Parts (~10 KB Slices)
 
 | Part | File Name | Date Range | Entries | Size (KB) | Tokens | Direct Raw URL |
 | :---: | :--- | :---: | :---: | :---: | :---: | :--- |
-| Part 09 | [`google-skills-2026-11-part-09.md`](./google-skills-2026-11-part-09.md) | `2026-09-08 to 2026-11-12` | 39 | 8.27 KB | 2,743 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-09.md) |
+| Part 10 | [`google-skills-2026-11-part-10.md`](./google-skills-2026-11-part-10.md) | `2026-11-17 to 2026-11-17` | 6 | 1.96 KB | 637 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-10.md) |
+| Part 09 | [`google-skills-2026-11-part-09.md`](./google-skills-2026-11-part-09.md) | `2026-09-08 to 2026-11-17` | 48 | 10.09 KB | 3,369 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-09.md) |
 | Part 08 | [`google-skills-2026-09-part-08.md`](./google-skills-2026-09-part-08.md) | `2026-08-03 to 2026-09-08` | 49 | 10.21 KB | 3,477 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-09-part-08.md) |
 | Part 07 | [`google-skills-2026-07-part-07.md`](./google-skills-2026-07-part-07.md) | `2026-05-21 to 2026-07-29` | 49 | 10.21 KB | 3,418 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-07-part-07.md) |
 | Part 06 | [`google-skills-2026-05-part-06.md`](./google-skills-2026-05-part-06.md) | `2026-04-26 to 2026-05-19` | 47 | 10.04 KB | 3,394 | [Raw URL](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-05-part-06.md) |

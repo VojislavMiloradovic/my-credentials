@@ -1,17 +1,32 @@
 # Complete Google Skills Credentials Archive
 
-This document represents a unified, verifiable list of all 427 records.
+This document represents a unified, verifiable list of all 442 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-17T05:29:12.719082+00:00 -->
+<!-- retrieved_at: 2026-11-18T02:20:18.189637+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-17 | [Use Gemini for Legal Data and DSAR Responses](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714214) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Use Gemini for Legal Regulatory Horizon Scanning](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714184) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Agentic Engineering: Build and Ship](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714099) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Customer Experience Agent Studio: Design and Test Solutions](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29713164) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Accelerate Agent Development with Antigravity and Agents CLI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712979) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Evaluate Generative and Agentic Systems](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712906) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Build a Certification Study Guide: PAA Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712830) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Network Architecture Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712772) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [TPU Deep Dive](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712721) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Architect Multi-Tier Agent Memory: Short-Term Memory](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712658) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Contract Review and Playbook Creation with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712563) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Uncover Credit Market Opportunities with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712514) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Accelerate Bond Issuance with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712493) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Use Gemini for Financial Portfolio Resilience](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712470) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Elevate Financial Advisor Insights with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712439) | Google Cloud | Google Skill Badge |
 | 2026-11-12 | [Service Orchestration and Choreography on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29599773) | Google Cloud | Google Skill Badge |
 | 2026-11-12 | [Logging and Monitoring in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29592041) | Google Cloud | Google Skill Badge |
 | 2026-11-12 | [Building Applications with Eventarc on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29588237) | Google Cloud | Google Skill Badge |

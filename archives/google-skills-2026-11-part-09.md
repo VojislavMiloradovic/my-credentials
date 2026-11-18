@@ -1,8 +1,8 @@
 ---
 archive_platform: Google Skills Credentials
-chunk_part: 9 of 9
-date_range: 2026-09-08 to 2026-11-12
-total_entries: 39
+chunk_part: 9 of 10
+date_range: 2026-09-08 to 2026-11-17
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-2026-11-part-09.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,19 @@ artifacts: complete, index
 
 # Google Skills Credentials -- Part 09
 
-> **Navigation:** Prev: [google-skills-2026-09-part-08.md](./google-skills-2026-09-part-08.md) | [Index](./google-skills-index.md) | Next: None | [Complete Archive](./google-skills-complete.md)
+> **Navigation:** Prev: [google-skills-2026-09-part-08.md](./google-skills-2026-09-part-08.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-11-part-10.md](./google-skills-2026-11-part-10.md) | [Complete Archive](./google-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-17 | [Build a Certification Study Guide: PAA Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712830) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Network Architecture Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712772) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [TPU Deep Dive](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712721) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Architect Multi-Tier Agent Memory: Short-Term Memory](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712658) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Contract Review and Playbook Creation with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712563) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Uncover Credit Market Opportunities with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712514) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Accelerate Bond Issuance with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712493) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Use Gemini for Financial Portfolio Resilience](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712470) | Google Cloud | Google Skill Badge |
+| 2026-11-17 | [Elevate Financial Advisor Insights with Gemini](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712439) | Google Cloud | Google Skill Badge |
 | 2026-11-12 | [Service Orchestration and Choreography on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29599773) | Google Cloud | Google Skill Badge |
 | 2026-11-12 | [Logging and Monitoring in Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29592041) | Google Cloud | Google Skill Badge |
 | 2026-11-12 | [Building Applications with Eventarc on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29588237) | Google Cloud | Google Skill Badge |
@@ -56,5 +65,5 @@ artifacts: complete, index
 | 2026-09-08 | [Create a Secure Data Lake on Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27753711) | Google Cloud | Google Skill Badge |
 
 ---
-> **Navigation:** Prev: [google-skills-2026-09-part-08.md](./google-skills-2026-09-part-08.md) | [Index](./google-skills-index.md) | Next: None
+> **Navigation:** Prev: [google-skills-2026-09-part-08.md](./google-skills-2026-09-part-08.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-11-part-10.md](./google-skills-2026-11-part-10.md)
 
