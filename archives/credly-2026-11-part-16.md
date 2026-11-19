@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 16 of 16
-date_range: 2026-10-28 to 2026-11-17
-total_entries: 34
+date_range: 2026-10-28 to 2026-11-19
+total_entries: 37
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-19 | [Foundations of Operationalizing MITRE ATT&CK v19](https://www.credly.com/badges/1245c60e-42b0-4fdc-ad0d-ecde9d536533/public_url) | AttackIQ | Credly Verified Badge |
+| 2026-11-19 | [Machine Learning with R - Level 1](https://www.credly.com/badges/361457ce-ff68-4bc2-8e6d-91471a2e9766/public_url) | IBM | Credly Verified Badge |
+| 2026-11-19 | [Robots are coming! Build IoT apps with Watson AI, Swift, and Node-RED](https://www.credly.com/badges/c583539f-5469-47aa-b0ef-d6596b2264be/public_url) | IBM | Credly Verified Badge |
 | 2026-11-17 | [JavaScript Essentials 2](https://www.credly.com/badges/dfca582f-3b9e-48e7-85d4-24980e1a20c0/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-15 | [Endpoint Security](https://www.credly.com/badges/469763de-eaf6-4bd8-8808-726f866f80d4/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-14 | [AWS Knowledge: Media & Entertainment Content Production Foundations - Training Badge](https://www.credly.com/badges/a251d4bc-b116-48a1-af17-032e78d3d939/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
