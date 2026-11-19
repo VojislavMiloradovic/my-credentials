@@ -1,12 +1,12 @@
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 2094 records.
+This document represents a unified, verifiable list of all 2114 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-18T22:10:30.459712+00:00 -->
+<!-- retrieved_at: 2026-11-19T22:38:27.640204+00:00 -->
 
 ## Verified Records Archive
 
@@ -140,6 +140,26 @@ This document represents a unified, verifiable list of all 2094 records.
 | 2026-11 | **Administering Contract Workspace Templates in SAP Ariba Contracts** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyfen-kosit-gifod-fokip-namob) |
 | 2026-11 | **Configuring a New Realm in the SAP Source to Contract Suite - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuded-gosav-lefip-pufeh-ryluv) |
 | 2026-11 | **Uploading Legacy Contracts in SAP Ariba Contracts** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xybob-hosug-biryr-ravob-sopun) |
+| 2026-11 | **Robots are coming! Build IoT apps with Watson AI, Swift, and Node-RED** | IBM | [Verify Record](https://www.credly.com/badges/c583539f-5469-47aa-b0ef-d6596b2264be/linked_in_profile) |
+| 2026-11 | **NoSQL and DBaaS 101** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/7f785006dbfb4c4f964f569df77cd467) |
+| 2026-11 | **Foundations of Operationalizing MITRE ATT&CK v19** | AttackIQ | [Verify Record](https://www.credly.com/badges/1245c60e-42b0-4fdc-ad0d-ecde9d536533/linked_in_profile) |
+| 2026-11 | **Machine Learning - Dimensionality Reduction** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/d6c5db3bcb82493cbf1168189ccf8135) |
+| 2026-11 | **Machine Learning with R - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/361457ce-ff68-4bc2-8e6d-91471a2e9766/linked_in_profile) |
+| 2026-11 | **Onboarding Customers to SAP Integrated Product Development on SAP BTP** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xenyl-ciher-bocuf-rosud-pepim) |
+| 2026-11 | **Gaining insights into SAP's Product Lifecycle Management Strategy** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xonep-nevof-verak-tigyv-hecer) |
+| 2026-11 | **Exploring Roles and Authorizations in SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuhas-pymif-cokik-lodar-hisod) |
+| 2026-11 | **Collaborating with Suppliers and Business Partners with SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xibuh-ponaf-buseh-lavem-rinit) |
+| 2026-11 | **Integrating Product Data (CAD) into SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xakes-dopap-fobyp-lofas-kyfon) |
+| 2026-11 | **Engineering Product Structure and Handover with SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xysiv-bykyb-mobaf-pypoc-mosog) |
+| 2026-11 | **Visualizing Products and Assets with SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyfap-bocen-lefys-copyp-nyvod) |
+| 2026-11 | **Managing Product and Packaging Specifications with SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xofac-lesem-vifid-nyhon-cufem) |
+| 2026-11 | **Streamlining Requirements using the Requirements Valuation Cockpit by CENIT** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xukap-fomyc-seret-pyluf-mokel) |
+| 2026-11 | **Kong Mesh Operations** | Kong | [Verify Record](https://www.credly.com/badges/2a3a540c-ef49-4159-ad09-2e5518599187/linked_in_profile) |
+| 2026-11 | **AI Gateway Operations** | Kong | [Verify Record](https://www.credly.com/badges/813eaae2-1e92-4ba7-a880-f6912360a5d4/linked_in_profile) |
+| 2026-11 | **Implementing SAP Field Service Management - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xopop-ticub-rycyd-setub-rotot) |
+| 2026-11 | **Managing SAP Field Service Management - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xidet-kitas-dices-vefev-fufac) |
+| 2026-11 | **SAP BTP Fundamentals - Level 1: Foundations for Next-Gen Procurement Consultants - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xytik-tylyl-curod-lofof-bomef) |
+| 2026-11 | **Mastering SAP BTP for Next-Gen SAP Ariba Procurement Consultants** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xedyt-rekyd-lylet-nahod-nakev) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |

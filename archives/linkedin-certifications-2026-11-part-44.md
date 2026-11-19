@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 44 of 46
 date_range: 2026-11 to 2026-11
-total_entries: 48
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-44.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,24 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-11 | **Building Applications with Eventarc on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29588237?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-11 | **Logging and Monitoring in Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29592041?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-11 | **Service Orchestration and Choreography on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29599773?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-11 | **Introducing SAP Business AI Platform** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xikyb-mosos-hutov-gomel-vusad) |
-| 2026-11 | **Mastering Customer Conversations about the Deal Qualification Assistant** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xepec-fegom-rasel-tebum-hyrik) |
-| 2026-11 | **Business Processes in SAP S/4HANA Sourcing and Procurement - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xigor-dimof-padok-bidyg-lecud) |
-| 2026-11 | **Inventory Management in SAP Cloud ERP - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiril-segic-kedid-votog-nivop) |
-| 2026-11 | **Google Ads Search Certification (2026)** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/6db41e0f-5f9c-4daf-be92-4ce5bcd12fdc) |
-| 2026-11 | **MCP on Kubernetes** | Isovalent | [Verify Record](https://www.credly.com/badges/9a3691c9-f7f4-4816-9c34-24610d36acdb/linked_in_profile) |
-| 2026-11 | **Exploring Foundations of Physical Inventory in SAP S/4HANA Cloud Private Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xaren-typor-sotah-dymor-duhyv) |
-| 2026-11 | **Exploring Foundations of Logistics Invoice Verification in SAP S/4HANA Cloud Private Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xeguv-hulyg-tovat-cyder-mugar) |
-| 2026-11 | **Sourcing in SAP S4HANA - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xusas-cocen-pefug-rymid-fotap) |
-| 2026-11 | **Exploring Operational Procurement in SAP S/4HANA - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelid-dinas-tokef-nicyk-licir) |
-| 2026-11 | **Cilium cert-manager** | Isovalent | [Verify Record](https://www.credly.com/badges/6e26f822-df42-40b7-8a7c-9a1def7e9124/linked_in_profile) |
-| 2026-11 | **Consumption-based Planning and Forecasting in SAP Cloud ERP - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xekoh-pymyp-nacyl-cimim-hyfyf) |
-| 2026-11 | **Exploring Cross-Functional Customizing in SAP S/4HANA Cloud Private Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xycyb-lesup-varyb-bylur-binid) |
-| 2026-11 | **SAP S/4HANA Contract Management - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xamib-sumop-vulyb-cupec-hetov) |
-| 2026-11 | **Analyzing Manufacturing Data in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xugyb-mahyt-tovim-kylig-pogus) |
 | 2026-11 | **AWS Knowledge: Media & Entertainment Content Production Foundations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/a251d4bc-b116-48a1-af17-032e78d3d939/linked_in_profile) |
 | 2026-11 | **Executing Processes for Discrete Industries in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xoloc-nirop-mycut-bysys-symum) |
 | 2026-11 | **Executing Processes for Process Industries in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xebil-tylev-boref-malyd-rovol) |
@@ -63,6 +45,22 @@ artifacts: complete, index
 | 2026-11 | **TPU Deep Dive** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712721?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-11 | **Network Architecture Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712772?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-11 | **Build a Certification Study Guide: PAA Exam Prep** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712830?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Evaluate Generative and Agentic Systems** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712906?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Accelerate Agent Development with Antigravity and Agents CLI** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712979?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Customer Experience Agent Studio: Design and Test Solutions** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29713164?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Agentic Engineering: Build and Ship** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714099?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Use Gemini for Legal Regulatory Horizon Scanning** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714184?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Use Gemini for Legal Data and DSAR Responses** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714214?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Use Gemini to Redact Legal Documents** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714245?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Draft NDA Documents with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29714329?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Google Cloud Architecture: Design Principles** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29734400?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Exploring SAP Business AI Platform Architecture** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xopos-pagom-hyvas-nocok-taduk) |
+| 2026-11 | **Introducing the Architectural Methodologies** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xagod-kyfen-gudet-luguf-mesim) |
+| 2026-11 | **Exploring End-to-End Business Processes in SAP** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xabut-vykeg-batin-cered-dutob) |
+| 2026-11 | **SAP Ariba Contracts Overview - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xigyk-nanit-kidop-roham-masit) |
+| 2026-11 | **Contract Workspace Creation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xocuc-redif-volim-dakap-nopit) |
+| 2026-11 | **Contract Amendments - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiner-cerut-fadus-cyvef-balec) |
+| 2026-11 | **Managing the Clause Library - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xufyk-hukyl-hemas-gimuv-cubyb) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-11-part-43.md](./linkedin-certifications-2026-11-part-43.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-11-part-45.md](./linkedin-certifications-2026-11-part-45.md)
