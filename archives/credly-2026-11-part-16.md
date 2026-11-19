@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 16 of 16
 date_range: 2026-10-28 to 2026-11-19
-total_entries: 37
+total_entries: 39
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,7 +15,9 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-19 | [AI Gateway Operations](https://www.credly.com/badges/813eaae2-1e92-4ba7-a880-f6912360a5d4/public_url) | Kong | Credly Verified Badge |
 | 2026-11-19 | [Foundations of Operationalizing MITRE ATT&CK v19](https://www.credly.com/badges/1245c60e-42b0-4fdc-ad0d-ecde9d536533/public_url) | AttackIQ | Credly Verified Badge |
+| 2026-11-19 | [Kong Mesh Operations](https://www.credly.com/badges/2a3a540c-ef49-4159-ad09-2e5518599187/public_url) | Kong | Credly Verified Badge |
 | 2026-11-19 | [Machine Learning with R - Level 1](https://www.credly.com/badges/361457ce-ff68-4bc2-8e6d-91471a2e9766/public_url) | IBM | Credly Verified Badge |
 | 2026-11-19 | [Robots are coming! Build IoT apps with Watson AI, Swift, and Node-RED](https://www.credly.com/badges/c583539f-5469-47aa-b0ef-d6596b2264be/public_url) | IBM | Credly Verified Badge |
 | 2026-11-17 | [JavaScript Essentials 2](https://www.credly.com/badges/dfca582f-3b9e-48e7-85d4-24980e1a20c0/public_url) | Cisco | Credly Verified Badge |
