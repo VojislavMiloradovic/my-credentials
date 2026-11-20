@@ -573,6 +573,13 @@
       "reason": "Auto-retired: removed from source data on 2026-11-12",
       "retired_at": "2026-11-12",
       "title": "934b4141-bcf6-4834-a982-327f1ea3e893"
+    },
+    {
+      "id": "6efa11ee-1073-454d-962f-8288a8b69bf7",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-20",
+      "retired_at": "2026-11-20",
+      "title": "6efa11ee-1073-454d-962f-8288a8b69bf7"
     }
   ],
   "google-developer": [

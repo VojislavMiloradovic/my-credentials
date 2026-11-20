@@ -142,25 +142,25 @@ Showing latest 10 of 1211 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 836
-**Total Verified Skills Mapped:** 2922
+**Total Portfolio Credentials:** 843
+**Total Verified Skills Mapped:** 2943
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 836 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 843 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-20 | [Cloud Sales Professional MDR](https://www.credly.com/badges/938528c2-8698-487b-aa5c-bfaa151233f4/public_url) | Acronis | Credly Verified Badge |
+| 2026-11-20 | [MSP Academy: Expert Communicator](https://www.credly.com/badges/65a0022d-4b3b-4d75-8d59-b47f00f0a6a4/public_url) | Acronis | Credly Verified Badge |
+| 2026-11-20 | [Technical Presales Pro - Acronis Cyber Frame](https://www.credly.com/badges/1aaf0f97-d167-4a4f-9735-27cc75df553e/public_url) | Acronis | Credly Verified Badge |
+| 2026-11-19 | [Agentic AI: Concepts and Governance](https://www.credly.com/badges/193f1186-8b2b-41d9-9379-00622b1c5a2e/public_url) | SAS | Credly Verified Badge |
+| 2026-11-19 | [Foundations of Clinical Trials Programming Knowledge Badge](https://www.credly.com/badges/e08b522c-b39f-4ac9-9e9e-290c3535144d/public_url) | SAS | Credly Verified Badge |
+| 2026-11-19 | [Introduction to SAS Clinical Acceleration Repository](https://www.credly.com/badges/b65fb09a-9674-46c7-8076-aaf9b4c47b3a/public_url) | SAS | Credly Verified Badge |
+| 2026-11-19 | [SAS Viya: Cloud Data Exchange](https://www.credly.com/badges/ff7bdecc-168a-43c1-ad9a-e8e33154ee49/public_url) | SAS | Credly Verified Badge |
+| 2026-11-19 | [Using SAS® Viya® Copilot in SAS® Visual Analytics](https://www.credly.com/badges/97b14b77-ff9f-40dc-a7ad-4ce81794ffd3/public_url) | SAS | Credly Verified Badge |
 | 2026-11-19 | [AI Gateway Operations](https://www.credly.com/badges/813eaae2-1e92-4ba7-a880-f6912360a5d4/public_url) | Kong | Credly Verified Badge |
 | 2026-11-19 | [Foundations of Operationalizing MITRE ATT&CK v19](https://www.credly.com/badges/1245c60e-42b0-4fdc-ad0d-ecde9d536533/public_url) | AttackIQ | Credly Verified Badge |
-| 2026-11-19 | [Kong Mesh Operations](https://www.credly.com/badges/2a3a540c-ef49-4159-ad09-2e5518599187/public_url) | Kong | Credly Verified Badge |
-| 2026-11-19 | [Machine Learning with R - Level 1](https://www.credly.com/badges/361457ce-ff68-4bc2-8e6d-91471a2e9766/public_url) | IBM | Credly Verified Badge |
-| 2026-11-19 | [Robots are coming! Build IoT apps with Watson AI, Swift, and Node-RED](https://www.credly.com/badges/c583539f-5469-47aa-b0ef-d6596b2264be/public_url) | IBM | Credly Verified Badge |
-| 2026-11-17 | [JavaScript Essentials 2](https://www.credly.com/badges/dfca582f-3b9e-48e7-85d4-24980e1a20c0/public_url) | Cisco | Credly Verified Badge |
-| 2026-11-15 | [Endpoint Security](https://www.credly.com/badges/469763de-eaf6-4bd8-8808-726f866f80d4/public_url) | Cisco | Credly Verified Badge |
-| 2026-11-14 | [AWS Knowledge: Media & Entertainment Content Production Foundations - Training Badge](https://www.credly.com/badges/a251d4bc-b116-48a1-af17-032e78d3d939/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-11-13 | [Cilium cert-manager](https://www.credly.com/badges/6e26f822-df42-40b7-8a7c-9a1def7e9124/public_url) | Isovalent | Credly Verified Badge |
-| 2026-11-12 | [MCP on Kubernetes](https://www.credly.com/badges/9a3691c9-f7f4-4816-9c34-24610d36acdb/public_url) | Isovalent | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-30 | [Collaboration & Communication](https://www.credly.com/badges/6016826a-ee02-4bd1-b2c6-ffcdb71616a8/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-30 | [Contextual Targeting: Strategies with Proximic by Comscore](https://www.credly.com/badges/678f7f02-73f8-4fb6-8c6e-ce8a77ebba5a/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-29 | [Basis Onboarding](https://www.credly.com/badges/4d87c182-6dbd-4c85-9563-ce1d26c2cdbe/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-29 | [Political Advertising Essentials](https://www.credly.com/badges/f0e35276-14b5-4cbc-a8f9-b4748865f5de/public_url) | Basis Technologies | Credly Verified Badge |
@@ -69,7 +70,6 @@ artifacts: complete, index
 | 2026-09-15 | [MSP Academy: Navigating the landscape](https://www.credly.com/badges/0d4baaa2-327f-4d35-8433-ff620be4e4ca/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Negotiation Skills](https://www.credly.com/badges/9102e834-a385-41ab-b4e2-c18d3480e53b/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Preventing Ransomware](https://www.credly.com/badges/4c84adbc-8a45-4aa1-85f0-188d005693f7/public_url) | Acronis | Credly Verified Badge |
-| 2026-09-15 | [MSP Academy: Remote Desktop and Monitoring](https://www.credly.com/badges/f6754ded-9d6e-4f42-8c59-25a15c1f69f3/public_url) | Acronis | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-09-part-12.md](./credly-2026-09-part-12.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md)

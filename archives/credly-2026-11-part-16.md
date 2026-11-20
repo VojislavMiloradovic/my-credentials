@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 16 of 16
-date_range: 2026-10-28 to 2026-11-19
-total_entries: 39
+date_range: 2026-10-28 to 2026-11-20
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,14 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-20 | [Cloud Sales Professional MDR](https://www.credly.com/badges/938528c2-8698-487b-aa5c-bfaa151233f4/public_url) | Acronis | Credly Verified Badge |
+| 2026-11-20 | [MSP Academy: Expert Communicator](https://www.credly.com/badges/65a0022d-4b3b-4d75-8d59-b47f00f0a6a4/public_url) | Acronis | Credly Verified Badge |
+| 2026-11-20 | [Technical Presales Pro - Acronis Cyber Frame](https://www.credly.com/badges/1aaf0f97-d167-4a4f-9735-27cc75df553e/public_url) | Acronis | Credly Verified Badge |
+| 2026-11-19 | [Agentic AI: Concepts and Governance](https://www.credly.com/badges/193f1186-8b2b-41d9-9379-00622b1c5a2e/public_url) | SAS | Credly Verified Badge |
+| 2026-11-19 | [Foundations of Clinical Trials Programming Knowledge Badge](https://www.credly.com/badges/e08b522c-b39f-4ac9-9e9e-290c3535144d/public_url) | SAS | Credly Verified Badge |
+| 2026-11-19 | [Introduction to SAS Clinical Acceleration Repository](https://www.credly.com/badges/b65fb09a-9674-46c7-8076-aaf9b4c47b3a/public_url) | SAS | Credly Verified Badge |
+| 2026-11-19 | [SAS Viya: Cloud Data Exchange](https://www.credly.com/badges/ff7bdecc-168a-43c1-ad9a-e8e33154ee49/public_url) | SAS | Credly Verified Badge |
+| 2026-11-19 | [Using SAS® Viya® Copilot in SAS® Visual Analytics](https://www.credly.com/badges/97b14b77-ff9f-40dc-a7ad-4ce81794ffd3/public_url) | SAS | Credly Verified Badge |
 | 2026-11-19 | [AI Gateway Operations](https://www.credly.com/badges/813eaae2-1e92-4ba7-a880-f6912360a5d4/public_url) | Kong | Credly Verified Badge |
 | 2026-11-19 | [Foundations of Operationalizing MITRE ATT&CK v19](https://www.credly.com/badges/1245c60e-42b0-4fdc-ad0d-ecde9d536533/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-11-19 | [Kong Mesh Operations](https://www.credly.com/badges/2a3a540c-ef49-4159-ad09-2e5518599187/public_url) | Kong | Credly Verified Badge |
@@ -53,7 +61,6 @@ artifacts: complete, index
 | 2026-10-28 | [Discover and Register AI Agents](https://www.credly.com/badges/cb8dd3b8-f179-45bc-b1b5-729751855746/public_url) | Okta | Credly Verified Badge |
 | 2026-10-28 | [Identity Governance](https://www.credly.com/badges/d7edb0d7-1935-4389-87dc-39b5f395f23e/public_url) | Okta | Credly Verified Badge |
 | 2026-10-28 | [Identity Governance Access Certifications](https://www.credly.com/badges/33ce5fd1-570d-42ff-bea6-32d007088ab1/public_url) | Okta | Credly Verified Badge |
-| 2026-10-28 | [Identity Governance Entitlement Management](https://www.credly.com/badges/e73184e8-22d6-4175-ab5d-3d53bbfb4a04/public_url) | Okta | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md) | [Index](./credly-index.md) | Next: None
