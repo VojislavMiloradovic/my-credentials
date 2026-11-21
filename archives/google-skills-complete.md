@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 445 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-20T04:39:01.665445+00:00 -->
+<!-- retrieved_at: 2026-11-21T04:32:39.067214+00:00 -->
 
 ## Verified Records Archive
 
@@ -167,7 +167,7 @@ This document represents a unified, verifiable list of all 445 records.
 | 2026-05-24 | [Analyze BigQuery Data in Connected Sheets](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24389719) | Google Cloud | Google Skill Badge |
 | 2026-05-23 | [Build Real World AI Applications with Gemini and Imagen](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24364563) | Google Cloud | Google Skill Badge |
 | 2026-05-21 | [Website Modernization with Generative AI on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24328413) | Google Cloud | Google Skill Badge |
-| 2026-05-19 | [[DEPRECATED] Data Governance with Dataplex Universal Catalog](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24287792) | Google Cloud | Google Skill Badge |
+| 2026-05-19 | [Data Governance with Dataplex Universal Catalog](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24287792) | Google Cloud | Google Skill Badge |
 | 2026-05-18 | [Boost Productivity with Gemini in BigQuery](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24253675) | Google Cloud | Google Skill Badge |
 | 2026-05-18 | [Accelerate App Development with Gemini CLI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24251263) | Google Cloud | Google Skill Badge |
 | 2026-05-15 | [Working with Notebooks in Vertex AI](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/24198950) | Google Cloud | Google Skill Badge |

@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-17 | [Evaluate Generative and Agentic Systems](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712906) | Google Cloud | Google Skill Badge |
 | 2026-11-17 | [Build a Certification Study Guide: PAA Exam Prep](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712830) | Google Cloud | Google Skill Badge |
 | 2026-11-17 | [Network Architecture Fundamentals](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712772) | Google Cloud | Google Skill Badge |
 | 2026-11-17 | [TPU Deep Dive](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712721) | Google Cloud | Google Skill Badge |
@@ -62,7 +63,6 @@ artifacts: complete, index
 | 2026-09-22 | [Security Best Practices in Google Cloud: Compute](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28198520) | Google Cloud | Google Skill Badge |
 | 2026-09-11 | [Develop Serverless Applications on Cloud Run](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27888161) | Google Cloud | Google Skill Badge |
 | 2026-09-08 | [Arcade Trail: Data Engineering and Security](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27755292) | Google Cloud | Google Skill Badge |
-| 2026-09-08 | [Create a Secure Data Lake on Cloud Storage](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/27753711) | Google Cloud | Google Skill Badge |
 
 ---
 > **Navigation:** Prev: [google-skills-2026-09-part-08.md](./google-skills-2026-09-part-08.md) | [Index](./google-skills-index.md) | Next: [google-skills-2026-11-part-10.md](./google-skills-2026-11-part-10.md)
