@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 1812 records.
 <!-- transform: unknown -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-19T05:58:49.108882+00:00 -->
+<!-- retrieved_at: 2026-11-21T05:42:29.701254+00:00 -->
 
 ## Verified Records Archive
 
