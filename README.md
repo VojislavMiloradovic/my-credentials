@@ -102,8 +102,8 @@ Showing latest 10 of 445 credentials. View full dataset via [Platform Archive In
 
 **Public Profile:** [Verify AWS Skill Builder Profile](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 1211
-**Total Verified Skills Mapped:** 1203
+**Total Portfolio Credentials:** 1233
+**Total Verified Skills Mapped:** 1225
 
 #### AWS Cloud Quest Summary
 
@@ -118,20 +118,20 @@ Showing latest 10 of 445 credentials. View full dataset via [Platform Archive In
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 1211 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-11-part-23.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-11-part-23.md)), or [Monolithic File](./archives/aws-skills-complete.md).
+Showing latest 10 of 1233 credentials. View full dataset via [Platform Archive Index](./archives/aws-skills-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-index.md)), latest slice [Latest Slice](./archives/aws-skills-2026-11-part-24.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-11-part-24.md)), or [Monolithic File](./archives/aws-skills-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-11-15 | [AWS for Media & Entertainment Content Production Concepts and Roles](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-11-15 | [AWS for Media & Entertainment Content Production Learning Plan Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-11-15 | [AWS for Media & Entertainment Content Production Storage Essentials](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
-| 2026-11-15 | [Exam Prep Overview: AWS Certified AI Business Strategist (AIB-C01 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
-| 2026-11-15 | [Exam Prep Overview: AWS Certified AI Practitioner  (AIF-C01 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
-| 2026-11-15 | [Exam Prep Overview: AWS Certified Cloud Practitioner (CLF-C02 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
-| 2026-11-15 | [Exam Prep Overview: AWS Certified CloudOps Engineer - Associate (SOA-C03 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
-| 2026-11-15 | [Exam Prep Overview: AWS Certified Data Engineer - Associate (DEA-C01 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
-| 2026-11-15 | [Exam Prep Overview: AWS Certified Developer - Associate (DVA-C03 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
-| 2026-11-15 | [Exam Prep Overview: AWS Certified Machine Learning Engineer - Associate (MLA-C02 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
+| 2026-11-22 | [Automated agent evaluation with Amazon Bedrock AgentCore and GitHub Actions](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-11-22 | [Build a healthcare appointment agent with Amazon Nova 2 Sonic](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-11-22 | [Build generative UI for AI agents on Amazon Bedrock AgentCore with the AG-UI protocol](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-11-22 | [Deploy a multimodal WhatsApp ordering assistant with Amazon Bedrock AgentCore](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-11-22 | [Designing lifecycle policies for AgentCore memory](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-11-22 | [Domain 1 Review: AWS Certified Solutions Architect - Professional (SAP-C03 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
+| 2026-11-22 | [Domain 2 Review: AWS Certified Developer - Associate (DVA-C03 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
+| 2026-11-22 | [Domain 2 Review: AWS Certified Solutions Architect - Professional (SAP-C03 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
+| 2026-11-22 | [Domain 3 Review: AWS Certified Developer - Associate (DVA-C03 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
+| 2026-11-22 | [Domain 3 Review: AWS Certified Solutions Architect - Professional (SAP-C03 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
 <!-- AWS_SKILLS_END -->
 
 

@@ -1,7 +1,7 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 22 of 23
-date_range: 2026-10-29 to 2026-11-06
+chunk_part: 22 of 24
+date_range: 2026-10-29 to 2026-11-05
 total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-11-part-22.md
 layer: L2_published
@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
-| 2026-11-06 | [Microcredential Preview Experience](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
-| 2026-11-05 | [Accelerating aircraft IFEC diagnostics with agentic AI on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-05 | [Addressing CLR assembly deprecation in Amazon RDS for SQL Server](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-05 | [Agent Evaluation Metric for multi-turn conversations](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-05 | [Audio tokenization layer behind Speech AI: Deploy and compare neural codecs on Amazon SageMaker AI](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -64,6 +62,8 @@ artifacts: complete, index
 | 2026-10-29 | [Deploy OpenTelemetry Gateway on AWS: Monitoring Your Observability Pipeline](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-29 | [Extend your data perimeter to the AWS Management Console with Private Access](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-10-29 | [GPU Cost Attribution in Amazon EKS Using Amazon Managed Service for Prometheus, Amazon Managed Grafana, and OpenTelemetry](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [How TReNDS automates root-cause analysis with Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-10-29 | [Managing identity source transition for AWS IAM Identity Center](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
 > **Navigation:** Prev: [aws-skills-2026-10-part-21.md](./aws-skills-2026-10-part-21.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-11-part-23.md](./aws-skills-2026-11-part-23.md)

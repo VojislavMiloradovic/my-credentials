@@ -564,6 +564,130 @@
       "reason": "Auto-retired: removed from source data on 2026-11-15",
       "retired_at": "2026-11-15",
       "title": "89a89580b1e1a30f"
+    },
+    {
+      "id": "2b15dd5a5d33438f",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-22",
+      "retired_at": "2026-11-22",
+      "title": "2b15dd5a5d33438f"
+    },
+    {
+      "id": "3baaeaa609e3d77b",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-22",
+      "retired_at": "2026-11-22",
+      "title": "3baaeaa609e3d77b"
+    },
+    {
+      "id": "42277f754005397f",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-22",
+      "retired_at": "2026-11-22",
+      "title": "42277f754005397f"
+    },
+    {
+      "id": "5a8d3b1641141181",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-22",
+      "retired_at": "2026-11-22",
+      "title": "5a8d3b1641141181"
+    },
+    {
+      "id": "7d2b97949825122b",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-22",
+      "retired_at": "2026-11-22",
+      "title": "7d2b97949825122b"
+    },
+    {
+      "id": "82a212d18655cd7a",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-22",
+      "retired_at": "2026-11-22",
+      "title": "82a212d18655cd7a"
+    },
+    {
+      "id": "a96341b28930558f",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-22",
+      "retired_at": "2026-11-22",
+      "title": "a96341b28930558f"
+    },
+    {
+      "id": "bb310584b286d435",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-22",
+      "retired_at": "2026-11-22",
+      "title": "bb310584b286d435"
+    },
+    {
+      "id": "d9d828a3f231c389",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-22",
+      "retired_at": "2026-11-22",
+      "title": "d9d828a3f231c389"
+    },
+    {
+      "id": "e2c6097648b426fa",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-22",
+      "retired_at": "2026-11-22",
+      "title": "e2c6097648b426fa"
+    },
+    {
+      "id": "d4f958da6580f69b",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-01-11",
+      "title": " AWS Command Line Interface (CLI) Basics",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "8055b6460348f736",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-08-25",
+      "title": "Build an AI-Powered Equipment Repair Assistant Using Amazon Bedrock AgentCore",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "87d0e5e4cd2c0b51",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-08-02",
+      "title": "Building web search-enabled agents with Strands and Exa",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "849052088894027a",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-10-10",
+      "title": "Introducing container caching in Amazon SageMaker AI for faster model scaling",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "190c286e44280515",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-10-10",
+      "title": "Investigating Service Issues with Amazon CloudWatch Application Signals Custom Metrics",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "5a1f3c7a8fd433ff",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": "2026-09-30",
+      "title": "Simplifying Prometheus metrics collection across your AWS infrastructure",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
     }
   ],
   "credly": [

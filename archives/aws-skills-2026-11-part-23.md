@@ -1,8 +1,8 @@
 ---
 archive_platform: AWS Skill Builder Credentials
-chunk_part: 23 of 23
-date_range: 2026-11-06 to 2026-11-15
-total_entries: 39
+chunk_part: 23 of 24
+date_range: 2026-11-05 to 2026-11-22
+total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/aws-skills-2026-11-part-23.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,19 @@ artifacts: complete, index
 
 # AWS Skill Builder Credentials -- Part 23
 
-> **Navigation:** Prev: [aws-skills-2026-11-part-22.md](./aws-skills-2026-11-part-22.md) | [Index](./aws-skills-index.md) | Next: None | [Complete Archive](./aws-skills-complete.md)
+> **Navigation:** Prev: [aws-skills-2026-11-part-22.md](./aws-skills-2026-11-part-22.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-11-part-24.md](./aws-skills-2026-11-part-24.md) | [Complete Archive](./aws-skills-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-22 | [Domain 5 Review: AWS Certified Solutions Architect - Professional (SAP-C03 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
+| 2026-11-22 | [Dynamic Image Transformation for Amazon CloudFront](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-11-22 | [Exam Prep Summary: AWS Certified Developer - Associate (DVA-C03 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
+| 2026-11-22 | [Exam Prep Summary: AWS Certified Solutions Architect - Professional (SAP-C03 - English)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Certification Exam Preparation |
+| 2026-11-22 | [Forensic container checkpointing on Amazon Elastic Kubernetes Service (Amazon EKS)](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-11-22 | [Incident response guide for AWS CloudTrail investigations – Part 2](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-11-22 | [Manage agents, tools and skills at scale with AWS Agent Registry](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-11-22 | [Mutual TLS and SSL certificate authentication for Amazon MQ for RabbitMQ](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
+| 2026-11-22 | [OAuth 2.0, LDAP, and HTTP auth for Amazon MQ for RabbitMQ](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-15 | [AWS for Media & Entertainment Content Production Concepts and Roles](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-15 | [AWS for Media & Entertainment Content Production Learning Plan Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-15 | [AWS for Media & Entertainment Content Production Storage Essentials](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
@@ -54,7 +63,9 @@ artifacts: complete, index
 | 2026-11-13 | [Use open weight models as your AI coding agent with Amazon Bedrock](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 | 2026-11-06 | [Amazon Connect Reporting & Analytics - Knowledge Badge Readiness Path](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Learning plan |
 | 2026-11-06 | [AWS Mainframe Modernization Foundations Knowledge Badge Assessment](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | AWS Assessment |
+| 2026-11-06 | [Microcredential Preview Experience](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Microcredential |
+| 2026-11-05 | [Accelerating aircraft IFEC diagnostics with agentic AI on AWS](https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic) | Amazon Web Services | Digital course |
 
 ---
-> **Navigation:** Prev: [aws-skills-2026-11-part-22.md](./aws-skills-2026-11-part-22.md) | [Index](./aws-skills-index.md) | Next: None
+> **Navigation:** Prev: [aws-skills-2026-11-part-22.md](./aws-skills-2026-11-part-22.md) | [Index](./aws-skills-index.md) | Next: [aws-skills-2026-11-part-24.md](./aws-skills-2026-11-part-24.md)
 
