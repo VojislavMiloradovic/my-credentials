@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 44 of 46
 date_range: 2026-11 to 2026-11
-total_entries: 46
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-44.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,19 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-11 | **AWS Knowledge: Media & Entertainment Content Production Foundations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/a251d4bc-b116-48a1-af17-032e78d3d939/linked_in_profile) |
-| 2026-11 | **Executing Processes for Discrete Industries in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xoloc-nirop-mycut-bysys-symum) |
-| 2026-11 | **Executing Processes for Process Industries in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xebil-tylev-boref-malyd-rovol) |
-| 2026-11 | **Configuring SAP Digital Manufacturing for Execution: Basic Data and Configuration - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xafen-kanet-beciv-virom-duhin) |
-| 2026-11 | **Exploring Customization in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xunop-rycul-necum-gided-pokyr) |
-| 2026-11 | **Endpoint Security** | Cisco | [Verify Record](https://www.credly.com/badges/469763de-eaf6-4bd8-8808-726f866f80d4/linked_in_profile) |
-| 2026-11 | **Configuring Machine Integration in SAP Digital Manufacturing** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xagem-vedum-cumak-komiv-gypuc) |
-| 2026-11 | **Executing Production Processes in the S.Factory - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelov-pavav-nybir-hodad-tagup) |
-| 2026-11 | **Discovering the Basics of SAP Global Trade Services - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xocut-bigac-dycor-gefog-sysaf) |
-| 2026-11 | **Configuring and Using Classifications for International Trade - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomic-rusyr-sytud-savuh-lyret) |
-| 2026-11 | **JavaScript Essentials 2** | Cisco | [Verify Record](https://www.credly.com/badges/dfca582f-3b9e-48e7-85d4-24980e1a20c0/linked_in_profile) |
-| 2026-11 | **SAP Ariba Procurement Overview - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesam-rokoh-revuh-sacic-hobiv) |
-| 2026-11 | **Managing Purchase Orders in SAP Ariba Buying and Invoicing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xydor-gunor-sunem-kemog-necig) |
 | 2026-11 | **SAP Ariba Procurement Reports - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylyd-movum-vosen-ruhut-simym) |
 | 2026-11 | **Invoice Creation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelyg-sybih-kyvut-necug-begef) |
 | 2026-11 | **Invoice Reconciliation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xugoh-fydon-dubun-kipyr-rugeh) |
@@ -61,6 +48,20 @@ artifacts: complete, index
 | 2026-11 | **Contract Workspace Creation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xocuc-redif-volim-dakap-nopit) |
 | 2026-11 | **Contract Amendments - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiner-cerut-fadus-cyvef-balec) |
 | 2026-11 | **Managing the Clause Library - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xufyk-hukyl-hemas-gimuv-cubyb) |
+| 2026-11 | **SAP Ariba Running Reports - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xypuf-lypuh-monev-bifas-terup) |
+| 2026-11 | **Managing Project Templates - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xabyr-sybyg-fipod-cyfed-telel) |
+| 2026-11 | **Administering Contract Workspace Templates in SAP Ariba Contracts** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyfen-kosit-gifod-fokip-namob) |
+| 2026-11 | **Configuring a New Realm in the SAP Source to Contract Suite - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuded-gosav-lefip-pufeh-ryluv) |
+| 2026-11 | **Uploading Legacy Contracts in SAP Ariba Contracts** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xybob-hosug-biryr-ravob-sopun) |
+| 2026-11 | **Robots are coming! Build IoT apps with Watson AI, Swift, and Node-RED** | IBM | [Verify Record](https://www.credly.com/badges/c583539f-5469-47aa-b0ef-d6596b2264be/linked_in_profile) |
+| 2026-11 | **NoSQL and DBaaS 101** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/7f785006dbfb4c4f964f569df77cd467) |
+| 2026-11 | **Foundations of Operationalizing MITRE ATT&CK v19** | AttackIQ | [Verify Record](https://www.credly.com/badges/1245c60e-42b0-4fdc-ad0d-ecde9d536533/linked_in_profile) |
+| 2026-11 | **Machine Learning - Dimensionality Reduction** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/d6c5db3bcb82493cbf1168189ccf8135) |
+| 2026-11 | **Machine Learning with R - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/361457ce-ff68-4bc2-8e6d-91471a2e9766/linked_in_profile) |
+| 2026-11 | **Onboarding Customers to SAP Integrated Product Development on SAP BTP** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xenyl-ciher-bocuf-rosud-pepim) |
+| 2026-11 | **Gaining insights into SAP's Product Lifecycle Management Strategy** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xonep-nevof-verak-tigyv-hecer) |
+| 2026-11 | **Exploring Roles and Authorizations in SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuhas-pymif-cokik-lodar-hisod) |
+| 2026-11 | **Collaborating with Suppliers and Business Partners with SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xibuh-ponaf-buseh-lavem-rinit) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-11-part-43.md](./linkedin-certifications-2026-11-part-43.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-11-part-45.md](./linkedin-certifications-2026-11-part-45.md)

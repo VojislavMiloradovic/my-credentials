@@ -175,7 +175,7 @@ Showing latest 10 of 843 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 2,114 |
+| **Total External Certifications Verified** | 2,128 |
 
 #### Recent Certifications
 

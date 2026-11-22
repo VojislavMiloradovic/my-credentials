@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 45 of 46
 date_range: 2026-11 to 2026-11
-total_entries: 53
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-45.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,20 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-11 | **Managing Travel Policy Features in new Concur Travel** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylab-lopyc-ticen-lebol-habac) |
-| 2026-11 | **Arcade Voyage: Python Apps & Data Analytics** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29481815?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-11 | **Arcade Adventure: Cloud Infrastructure & App Scale** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29487123?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-11 | **Preparing for Next-Gen SAP Ariba Implementation** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesad-dikes-vepem-sedik-cosis) |
-| 2026-11 | **Configuring Data Management and Extensibility in Next-Gen SAP Ariba** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xepof-pireb-forub-mupob-silal) |
-| 2026-11 | **Realizing Next-Gen SAP Ariba: Integration and Architecture Decisions** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyvyh-hasub-topob-nulin-rocum) |
-| 2026-11 | **Deploying Next-Gen SAP Ariba: AI Capabilities, Transition Planning, and Licensing** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelom-gimef-pesyg-gyvud-tebys) |
-| 2026-11 | **JavaScript Essentials 1** | Cisco | [Verify Record](https://www.credly.com/badges/0a45cc34-3f5f-4ab2-97f3-8120faf6774f/linked_in_profile) |
-| 2026-11 | **Getting Started with Terraform on SAP BTP - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xivyg-hekif-nimed-casif-vohis) |
-| 2026-11 | **Exploring AI Capabilities in SAP LeanIX** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylyc-sydot-pimif-lumyt-vabyv) |
-| 2026-11 | **Driving Agentic Enterprise Architecture Leveraging the SAP LeanIX MCP Server** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiric-garac-nudyd-tybin-nafog) |
-| 2026-11 | **Governing AI with SAP LeanIX** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xahyg-vymut-mylak-pifot-pynoh) |
-| 2026-11 | **Big Data Foundations - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/46977a61-55e8-476d-9d40-c5e18997590c/linked_in_profile) |
-| 2026-11 | **Hadoop Foundations - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/eecc9bbc-a059-483c-99da-b38699f81145/linked_in_profile) |
 | 2026-11 | **R for Data Science** | IBM | [Verify Record](https://www.credly.com/badges/4ce2966c-1b55-4138-b6c6-233f5eaf72df/linked_in_profile) |
 | 2026-11 | **IBM Virtual Private Cloud** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/7449bfb8b6f94b868525177d09bfa302) |
 | 2026-11 | **Statistics 101** | IBM | [Verify Record](https://www.credly.com/badges/c4b73295-1912-46f1-a2e8-1958338f0be4/linked_in_profile) |
@@ -68,6 +54,19 @@ artifacts: complete, index
 | 2026-11 | **Exploring Cross-Functional Customizing in SAP S/4HANA Cloud Private Edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xycyb-lesup-varyb-bylur-binid) |
 | 2026-11 | **SAP S/4HANA Contract Management - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xamib-sumop-vulyb-cupec-hetov) |
 | 2026-11 | **Analyzing Manufacturing Data in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xugyb-mahyt-tovim-kylig-pogus) |
+| 2026-11 | **AWS Knowledge: Media & Entertainment Content Production Foundations - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/a251d4bc-b116-48a1-af17-032e78d3d939/linked_in_profile) |
+| 2026-11 | **Executing Processes for Discrete Industries in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xoloc-nirop-mycut-bysys-symum) |
+| 2026-11 | **Executing Processes for Process Industries in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xebil-tylev-boref-malyd-rovol) |
+| 2026-11 | **Configuring SAP Digital Manufacturing for Execution: Basic Data and Configuration - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xafen-kanet-beciv-virom-duhin) |
+| 2026-11 | **Exploring Customization in SAP Digital Manufacturing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xunop-rycul-necum-gided-pokyr) |
+| 2026-11 | **Endpoint Security** | Cisco | [Verify Record](https://www.credly.com/badges/469763de-eaf6-4bd8-8808-726f866f80d4/linked_in_profile) |
+| 2026-11 | **Configuring Machine Integration in SAP Digital Manufacturing** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xagem-vedum-cumak-komiv-gypuc) |
+| 2026-11 | **Executing Production Processes in the S.Factory - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelov-pavav-nybir-hodad-tagup) |
+| 2026-11 | **Discovering the Basics of SAP Global Trade Services - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xocut-bigac-dycor-gefog-sysaf) |
+| 2026-11 | **Configuring and Using Classifications for International Trade - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomic-rusyr-sytud-savuh-lyret) |
+| 2026-11 | **JavaScript Essentials 2** | Cisco | [Verify Record](https://www.credly.com/badges/dfca582f-3b9e-48e7-85d4-24980e1a20c0/linked_in_profile) |
+| 2026-11 | **SAP Ariba Procurement Overview - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesam-rokoh-revuh-sacic-hobiv) |
+| 2026-11 | **Managing Purchase Orders in SAP Ariba Buying and Invoicing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xydor-gunor-sunem-kemog-necig) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-11-part-44.md](./linkedin-certifications-2026-11-part-44.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-11-part-46.md](./linkedin-certifications-2026-11-part-46.md)

@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-11-21 05:42 UTC
+> **Last Generated:** 2026-11-22 01:08 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -183,7 +183,7 @@ Showing latest 10 of 843 credentials. View full dataset via [Platform Archive In
 
 | Metric | Count |
 | :--- | :--- |
-| **Total External Certifications Verified** | 2,114 |
+| **Total External Certifications Verified** | 2,128 |
 
 #### Recent Certifications
 
@@ -4656,13 +4656,13 @@ This document represents a unified, verifiable list of all 445 records.
 
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 2114 records.
+This document represents a unified, verifiable list of all 2128 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-19T22:38:27.640204+00:00 -->
+<!-- retrieved_at: 2026-11-22T01:08:35.841399+00:00 -->
 
 ## Verified Records Archive
 
@@ -4816,6 +4816,20 @@ This document represents a unified, verifiable list of all 2114 records.
 | 2026-11 | **Managing SAP Field Service Management - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xidet-kitas-dices-vefev-fufac) |
 | 2026-11 | **SAP BTP Fundamentals - Level 1: Foundations for Next-Gen Procurement Consultants - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xytik-tylyl-curod-lofof-bomef) |
 | 2026-11 | **Mastering SAP BTP for Next-Gen SAP Ariba Procurement Consultants** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xedyt-rekyd-lylet-nahod-nakev) |
+| 2026-11 | **MSP Academy: Expert Communicator** | Acronis | [Verify Record](https://www.credly.com/badges/65a0022d-4b3b-4d75-8d59-b47f00f0a6a4/linked_in_profile) |
+| 2026-11 | **Technical Presales Pro - Acronis Cyber Frame** | Acronis | [Verify Record](https://www.credly.com/badges/1aaf0f97-d167-4a4f-9735-27cc75df553e/linked_in_profile) |
+| 2026-11 | **Cloud Sales Professional MDR** | Acronis | [Verify Record](https://www.credly.com/badges/938528c2-8698-487b-aa5c-bfaa151233f4/linked_in_profile) |
+| 2026-11 | **Foundations of Clinical Trials Programming Knowledge Badge** | SAS | [Verify Record](https://www.credly.com/badges/e08b522c-b39f-4ac9-9e9e-290c3535144d/linked_in_profile) |
+| 2026-11 | **Agentic AI: Concepts and Governance** | SAS | [Verify Record](https://www.credly.com/badges/193f1186-8b2b-41d9-9379-00622b1c5a2e/linked_in_profile) |
+| 2026-11 | **Using SAS® Viya® Copilot in SAS® Visual Analytics** | SAS | [Verify Record](https://www.credly.com/badges/97b14b77-ff9f-40dc-a7ad-4ce81794ffd3/linked_in_profile) |
+| 2026-11 | **Introduction to SAS Clinical Acceleration Repository** | SAS | [Verify Record](https://www.credly.com/badges/b65fb09a-9674-46c7-8076-aaf9b4c47b3a/linked_in_profile) |
+| 2026-11 | **SAS Viya: Cloud Data Exchange** | SAS | [Verify Record](https://www.credly.com/badges/ff7bdecc-168a-43c1-ad9a-e8e33154ee49/linked_in_profile) |
+| 2026-11 | **SAP BTP Fundamentals - Level 2: Administration, Security, Extensibility** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuris-mamar-reder-pemoc-lygot) |
+| 2026-11 | **SAP BTP Fundamentals - Level 3: Advanced Services, Integration** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xidud-sibil-vodut-cilob-vurig) |
+| 2026-11 | **SAP Build Work Zone - Implementation and Administration** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xicyv-nakis-cecem-gudup-suruv) |
+| 2026-11 | **Applying SAP S/4HANA Product Engineering** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xaryv-kygih-berec-cisyc-takym) |
+| 2026-11 | **Experiencing SAP AI** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xepop-melyt-fekab-rocys-bateb) |
+| 2026-11 | **Boosting AI-driven Business Transformation with Joule Agents - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xivug-pekut-hidat-vaguf-nevid) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |
