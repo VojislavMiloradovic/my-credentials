@@ -21,7 +21,7 @@ class TestPyProjectToml:
         assert "build-system" in data
         assert "project" in data
         assert data["project"]["name"] == "my-credentials"
-        assert data["project"]["requires-python"] == ">=3.11,<3.12"
+        assert data["project"]["requires-python"] == ">=3.11.5,<3.12"
 
     def test_pyproject_toml_has_dependencies(self):
         """Should have required dependencies."""
