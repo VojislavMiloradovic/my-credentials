@@ -1,0 +1,88 @@
+name: Update Dependencies
+
+on:
+  workflow_dispatch:
+    inputs:
+      packages:
+        description: "Space-separated packages to upgrade (or 'all')"
+        required: true
+        default: "certifi urllib3 soupsieve pytest"
+      pytest_spec:
+        description: "New pytest constraint in pyproject.toml (leave blank to keep current)"
+        required: false
+        default: "pytest==9.2.0"
+
+permissions:
+  contents: write
+
+jobs:
+  update-deps:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: "0.12.3"
+          python-version: "3.11"
+
+      - name: Update pyproject.toml & config test if needed
+        run: |
+          python -c '
+          import pathlib, re
+
+          pyproject = pathlib.Path("pyproject.toml")
+          text = pyproject.read_text(encoding="utf-8")
+          text = text.replace("requires-python = \">=3.11,<3.12\"", "requires-python = \">=3.11.5,<3.12\"")
+
+          pytest_spec = "${{ inputs.pytest_spec }}".strip()
+          if pytest_spec:
+              text, n = re.subn(r"\"pytest[^\"]*\"", f"\"{pytest_spec}\"", text, count=1)
+              if n == 0:
+                  raise SystemExit("Could not find pytest dependency in pyproject.toml")
+          pyproject.write_text(text, encoding="utf-8")
+
+          cfg_test = pathlib.Path("tests/test_config_validation.py")
+          cfg_text = cfg_test.read_text(encoding="utf-8")
+          cfg_test.write_text(cfg_text.replace(">=3.11,<3.12", ">=3.11.5,<3.12"), encoding="utf-8")
+          '
+
+      - name: Upgrade lockfile
+        run: |
+          if [ "${{ inputs.packages }}" = "all" ]; then
+            uv lock --upgrade
+          else
+            ARGS=""
+            for pkg in ${{ inputs.packages }}; do
+              ARGS="$ARGS --upgrade-package $pkg"
+            done
+            uv lock $ARGS
+          fi
+
+      - name: Re-export requirements.txt
+        run: uv export --frozen --all-extras --no-hashes --no-header --no-emit-project --no-annotate -o requirements.txt
+
+      - name: Verify frozen sync, lint, types, and tests
+        run: |
+          uv sync --frozen --all-extras
+          uv run ruff check .
+          uv run ruff format --check .
+          uv run mypy tests/ --ignore-missing-imports
+          uv run pytest -n auto -v
+
+      - name: Push update branch
+        run: |
+          BRANCH="chore/mitigate-dependabot"
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          if git diff --quiet; then
+            echo "No dependency changes detected."
+            exit 0
+          fi
+          git checkout -B "$BRANCH"
+          git add pyproject.toml tests/test_config_validation.py uv.lock requirements.txt
+          git commit -m "chore(deps): mitigate dependabot alerts"
+          git push --force origin "$BRANCH"
