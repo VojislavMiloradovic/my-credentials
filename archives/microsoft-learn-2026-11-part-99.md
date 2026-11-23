@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Plan integrated security operations using ISOC in Microsoft Defender** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-integrated-security-operations-microsoft-defender/) |
 | **Understand Network ATC on Windows Server 2025** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-network-atc-windows-server/) |
 | **Manage and analyze Business Central telemetry** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-analyze-telemetry/) |
 | **Implement essential Business Central development standards** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-essential-development-standards/) |
@@ -29,7 +30,6 @@ artifacts: complete, index
 | **Build and extend Business Central tables and pages** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-extend-business-central-tables-pages/) |
 | **Govern and protect local AI agents** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/govern-protect-local-ai-agents/) |
 | **Evaluate application security risks with Codename MDASH** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-application-security-risks-with-codename-mdash/) |
-| **Understand AI spend and measure value in Microsoft 365** | Learningpaths | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/understand-ai-spend-measure-value/) |
 | **Understand and plan the economics of usage-based AI** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-economics-usage-based-ai/) |
 | **Control usage-based AI consumption and spending** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/control-usage-based-ai-consumption-spending/) |
 | **Draft, analyze, and present with Microsoft 365 Copilot** | Learningpaths | 2026-11-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/draft-analyze-present-microsoft-365-copilot/) |
@@ -67,7 +67,7 @@ artifacts: complete, index
 | **Restrict unauthorized code execution with Code Integrity policies on Windows Server** | Modules | 2026-10-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/app-control-windows-server/) |
 | **Extend Dataverse with code and Azure compute** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-dataverse-code-azure/) |
 | **Get started with Microsoft Power Platform development** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-platform-development/) |
-| **Build professional Power Apps experiences** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-power-apps-experiences/) |
+| **Build reusable controls with Power Apps component framework** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component-framework-code-components/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-10-part-98.md](./microsoft-learn-2026-10-part-98.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-11-part-100.md](./microsoft-learn-2026-11-part-100.md)

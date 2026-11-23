@@ -14,13 +14,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,335,225
+- **Total Experience Points (XP):** 6,347,725
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 4,120
+- **Badges Earned (Profile):** 4,129
 - **Trophies Earned (Profile):** 934
 - **Completed Learning Paths (Active Tracker):** 532
-- **Completed Modules (Active Tracker):** 2,839
-- **Completed Individual Units:** 37,655
+- **Completed Modules (Active Tracker):** 2,848
+- **Completed Individual Units:** 37,744
 
 ### Verifiable Applied Skills & Credentials
 - **Enhance Agents With Autonomous Capabilities** (Credential ID: `A2805BBD40427267` | Earned: 2026-10-31T02:40:58+00:00 | Status: Active)
@@ -39,20 +39,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 5,054 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-11-part-100.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-100.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 5,063 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-11-part-100.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-100.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Plan integrated security operations using ISOC in Microsoft Defender** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-integrated-security-operations-microsoft-defender/) |
-| **Understand Network ATC on Windows Server 2025** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-network-atc-windows-server/) |
-| **Manage and analyze Business Central telemetry** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-analyze-telemetry/) |
-| **Implement essential Business Central development standards** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-essential-development-standards/) |
-| **Implement Business Central APIs by using AL** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-application-programming-interfaces/) |
-| **Extend Business Central by using AL** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-using-application-language/) |
-| **Customize the Business Central UI and implement onboarding** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/customize-interface-implement-onboarding/) |
-| **Access external REST services from Business Central** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/access-external-rest-services/) |
-| **Create, debug, and deploy a Business Central extension** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-debug-deploy-business-central-extension/) |
-| **Create and manage queries in Business Central** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-manage-queries/) |
+| **Run and supervise sessions in Microsoft Perception** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/perception-agentic-security-run-supervise-sessions/) |
+| **Azure virtual machine backup and recoverability** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-backup-recoverability/) |
+| **Welcome to Dragon Copilot for radiologists** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-radiologists-welcome/) |
+| **Configure and validate agents in Microsoft Perception** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/perception-agentic-security-configure-validate-agents/) |
+| **Optimize business value of usage-based AI** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-business-value-usage-based-ai/) |
+| **Understand AI spend and measure value in Microsoft 365** | Learningpaths | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/understand-ai-spend-measure-value/) |
+| **Investigate detected threats and plan a response in Microsoft Perception** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/perception-agentic-security-investigate-plan-response/) |
+| **Analyze AI spend and value with Agent 365 Business Analytics** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-ai-spend-value-agent-365-business-analytics/) |
+| **Azure virtual machine rightsizing** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-capacity-cost-optimization/) |
+| **Identify Azure virtual machine performance bottlenecks** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-compute-disk-performance/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

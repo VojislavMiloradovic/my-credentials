@@ -1,8 +1,8 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 100 of 100
-date_range: 2026-11-15 to 2026-11-15
-total_entries: 1
+date_range: 2026-11-23 to 2026-11-23
+total_entries: 10
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-100.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,7 +15,16 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Plan integrated security operations using ISOC in Microsoft Defender** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-integrated-security-operations-microsoft-defender/) |
+| **Run and supervise sessions in Microsoft Perception** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/perception-agentic-security-run-supervise-sessions/) |
+| **Azure virtual machine backup and recoverability** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-backup-recoverability/) |
+| **Welcome to Dragon Copilot for radiologists** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-radiologists-welcome/) |
+| **Configure and validate agents in Microsoft Perception** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/perception-agentic-security-configure-validate-agents/) |
+| **Optimize business value of usage-based AI** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-business-value-usage-based-ai/) |
+| **Understand AI spend and measure value in Microsoft 365** | Learningpaths | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/understand-ai-spend-measure-value/) |
+| **Investigate detected threats and plan a response in Microsoft Perception** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/perception-agentic-security-investigate-plan-response/) |
+| **Analyze AI spend and value with Agent 365 Business Analytics** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-ai-spend-value-agent-365-business-analytics/) |
+| **Azure virtual machine rightsizing** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-capacity-cost-optimization/) |
+| **Identify Azure virtual machine performance bottlenecks** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-compute-disk-performance/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-11-part-99.md](./microsoft-learn-2026-11-part-99.md) | [Index](./microsoft-learn-index.md) | Next: None
