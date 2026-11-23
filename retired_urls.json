@@ -688,6 +688,34 @@
       "title": "Simplifying Prometheus metrics collection across your AWS infrastructure",
       "retirement_source": "source_csv",
       "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "28ffcec485c42eb0",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-23",
+      "retired_at": "2026-11-23",
+      "title": "28ffcec485c42eb0"
+    },
+    {
+      "id": "5dfb6c9add943715",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-23",
+      "retired_at": "2026-11-23",
+      "title": "5dfb6c9add943715"
+    },
+    {
+      "id": "e0a89e8dd55c3ceb",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-23",
+      "retired_at": "2026-11-23",
+      "title": "e0a89e8dd55c3ceb"
+    },
+    {
+      "id": "f97a77e99b37afbe",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-23",
+      "retired_at": "2026-11-23",
+      "title": "f97a77e99b37afbe"
     }
   ],
   "credly": [
