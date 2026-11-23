@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 16 of 16
-date_range: 2026-10-28 to 2026-11-20
-total_entries: 46
+date_range: 2026-10-28 to 2026-11-23
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-23 | [C++ Essentials 1](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/public_url) | Cisco | Credly Verified Badge |
+| 2026-11-23 | [Digital Safety and Security Awareness](https://www.credly.com/badges/8321a421-1066-4a4b-b151-a5d5de345a46/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-20 | [Cloud Sales Professional MDR](https://www.credly.com/badges/938528c2-8698-487b-aa5c-bfaa151233f4/public_url) | Acronis | Credly Verified Badge |
 | 2026-11-20 | [MSP Academy: Expert Communicator](https://www.credly.com/badges/65a0022d-4b3b-4d75-8d59-b47f00f0a6a4/public_url) | Acronis | Credly Verified Badge |
 | 2026-11-20 | [Technical Presales Pro - Acronis Cyber Frame](https://www.credly.com/badges/1aaf0f97-d167-4a4f-9735-27cc75df553e/public_url) | Acronis | Credly Verified Badge |

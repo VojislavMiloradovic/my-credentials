@@ -142,15 +142,17 @@ Showing latest 10 of 1244 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 843
-**Total Verified Skills Mapped:** 2943
+**Total Portfolio Credentials:** 845
+**Total Verified Skills Mapped:** 2965
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 843 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 845 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-23 | [C++ Essentials 1](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/public_url) | Cisco | Credly Verified Badge |
+| 2026-11-23 | [Digital Safety and Security Awareness](https://www.credly.com/badges/8321a421-1066-4a4b-b151-a5d5de345a46/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-20 | [Cloud Sales Professional MDR](https://www.credly.com/badges/938528c2-8698-487b-aa5c-bfaa151233f4/public_url) | Acronis | Credly Verified Badge |
 | 2026-11-20 | [MSP Academy: Expert Communicator](https://www.credly.com/badges/65a0022d-4b3b-4d75-8d59-b47f00f0a6a4/public_url) | Acronis | Credly Verified Badge |
 | 2026-11-20 | [Technical Presales Pro - Acronis Cyber Frame](https://www.credly.com/badges/1aaf0f97-d167-4a4f-9735-27cc75df553e/public_url) | Acronis | Credly Verified Badge |
@@ -159,8 +161,6 @@ Showing latest 10 of 843 credentials. View full dataset via [Platform Archive In
 | 2026-11-19 | [Introduction to SAS Clinical Acceleration Repository](https://www.credly.com/badges/b65fb09a-9674-46c7-8076-aaf9b4c47b3a/public_url) | SAS | Credly Verified Badge |
 | 2026-11-19 | [SAS Viya: Cloud Data Exchange](https://www.credly.com/badges/ff7bdecc-168a-43c1-ad9a-e8e33154ee49/public_url) | SAS | Credly Verified Badge |
 | 2026-11-19 | [Using SAS® Viya® Copilot in SAS® Visual Analytics](https://www.credly.com/badges/97b14b77-ff9f-40dc-a7ad-4ce81794ffd3/public_url) | SAS | Credly Verified Badge |
-| 2026-11-19 | [AI Gateway Operations](https://www.credly.com/badges/813eaae2-1e92-4ba7-a880-f6912360a5d4/public_url) | Kong | Credly Verified Badge |
-| 2026-11-19 | [Foundations of Operationalizing MITRE ATT&CK v19](https://www.credly.com/badges/1245c60e-42b0-4fdc-ad0d-ecde9d536533/public_url) | AttackIQ | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
