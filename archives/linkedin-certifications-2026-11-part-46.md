@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 46 of 46
 date_range: 2026-11 to 2026-11
-total_entries: 38
+total_entries: 43
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-46.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -53,6 +53,11 @@ artifacts: complete, index
 | 2026-11 | **Governing AI with SAP LeanIX** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xahyg-vymut-mylak-pifot-pynoh) |
 | 2026-11 | **Big Data Foundations - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/46977a61-55e8-476d-9d40-c5e18997590c/linked_in_profile) |
 | 2026-11 | **Hadoop Foundations - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/eecc9bbc-a059-483c-99da-b38699f81145/linked_in_profile) |
+| 2026-11 | **R for Data Science** | IBM | [Verify Record](https://www.credly.com/badges/4ce2966c-1b55-4138-b6c6-233f5eaf72df/linked_in_profile) |
+| 2026-11 | **IBM Virtual Private Cloud** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/7449bfb8b6f94b868525177d09bfa302) |
+| 2026-11 | **Statistics 101** | IBM | [Verify Record](https://www.credly.com/badges/c4b73295-1912-46f1-a2e8-1958338f0be4/linked_in_profile) |
+| 2026-11 | **Getting Started with SAP Engagement Cloud - Emarsys Edition - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xotob-pasos-dynyt-vidys-dedag) |
+| 2026-11 | **Exploring SAP Customer Data Cloud Essentials - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiguc-nalic-poliv-denut-savyv) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-11-part-45.md](./linkedin-certifications-2026-11-part-45.md) | [Index](./linkedin-certifications-index.md) | Next: None

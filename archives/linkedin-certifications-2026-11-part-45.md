@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 45 of 46
 date_range: 2026-11 to 2026-11
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-45.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,11 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-11 | **R for Data Science** | IBM | [Verify Record](https://www.credly.com/badges/4ce2966c-1b55-4138-b6c6-233f5eaf72df/linked_in_profile) |
-| 2026-11 | **IBM Virtual Private Cloud** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/7449bfb8b6f94b868525177d09bfa302) |
-| 2026-11 | **Statistics 101** | IBM | [Verify Record](https://www.credly.com/badges/c4b73295-1912-46f1-a2e8-1958338f0be4/linked_in_profile) |
-| 2026-11 | **Getting Started with SAP Engagement Cloud - Emarsys Edition - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xotob-pasos-dynyt-vidys-dedag) |
-| 2026-11 | **Exploring SAP Customer Data Cloud Essentials - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xiguc-nalic-poliv-denut-savyv) |
 | 2026-11 | **From Onboarding to Governance: Mastering SAP Customer Data Cloud for B2B - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xosih-pugip-bocus-geduc-tafit) |
 | 2026-11 | **Exploring SAP Customer Data Platform Essentials - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xotym-dikyg-gybyv-raleh-vinir) |
 | 2026-11 | **Kong Event Gateway Foundations** | Kong | [Verify Record](https://www.credly.com/badges/718d1bab-9ec1-43f1-8c0d-19f0c13e4131/linked_in_profile) |
@@ -67,6 +62,12 @@ artifacts: complete, index
 | 2026-11 | **JavaScript Essentials 2** | Cisco | [Verify Record](https://www.credly.com/badges/dfca582f-3b9e-48e7-85d4-24980e1a20c0/linked_in_profile) |
 | 2026-11 | **SAP Ariba Procurement Overview - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xesam-rokoh-revuh-sacic-hobiv) |
 | 2026-11 | **Managing Purchase Orders in SAP Ariba Buying and Invoicing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xydor-gunor-sunem-kemog-necig) |
+| 2026-11 | **SAP Ariba Procurement Reports - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylyd-movum-vosen-ruhut-simym) |
+| 2026-11 | **Invoice Creation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelyg-sybih-kyvut-necug-begef) |
+| 2026-11 | **Invoice Reconciliation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xugoh-fydon-dubun-kipyr-rugeh) |
+| 2026-11 | **Advanced Purchasing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xadym-fomir-nyguc-pebyc-vycab) |
+| 2026-11 | **Contract Compliance Release - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xebyc-gobyl-tucif-tihyt-nidul) |
+| 2026-11 | **Contract Compliance No Release - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xifog-nicit-dahyd-sohip-hoter) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-11-part-44.md](./linkedin-certifications-2026-11-part-44.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-11-part-46.md](./linkedin-certifications-2026-11-part-46.md)

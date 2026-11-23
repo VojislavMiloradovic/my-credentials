@@ -1,12 +1,12 @@
 # Complete LinkedIn Certifications Archive
 
-This document represents a unified, verifiable list of all 2128 records.
+This document represents a unified, verifiable list of all 2134 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-22T01:08:35.841399+00:00 -->
+<!-- retrieved_at: 2026-11-23T14:51:53.641814+00:00 -->
 
 ## Verified Records Archive
 
@@ -174,6 +174,12 @@ This document represents a unified, verifiable list of all 2128 records.
 | 2026-11 | **Applying SAP S/4HANA Product Engineering** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xaryv-kygih-berec-cisyc-takym) |
 | 2026-11 | **Experiencing SAP AI** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xepop-melyt-fekab-rocys-bateb) |
 | 2026-11 | **Boosting AI-driven Business Transformation with Joule Agents - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xivug-pekut-hidat-vaguf-nevid) |
+| 2026-11 | **C++ Essentials 1** | Cisco | [Verify Record](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/linked_in_profile) |
+| 2026-11 | **Digital Safety and Security Awareness** | Cisco | [Verify Record](https://www.credly.com/badges/8321a421-1066-4a4b-b151-a5d5de345a46/linked_in_profile) |
+| 2026-11 | **Developing with SAP Customer Data Platform - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuhog-lydov-himab-byket-pocov) |
+| 2026-11 | **Applying SAP S/4HANA Quality Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xolyh-gedis-tinyh-gibed-menyt) |
+| 2026-11 | **Implementing SAP S/4HANA Quality Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xykad-pylov-veveh-kupys-nidob) |
+| 2026-11 | **Performing Quality Management in Procurement** | SAP | [Verify Record](https://badger.learning.sap.com/verify/ximes-pimol-mokeh-medev-gyvag) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |

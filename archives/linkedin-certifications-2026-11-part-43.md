@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 43 of 46
 date_range: 2026-10 to 2026-11
-total_entries: 52
+total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-43.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,11 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-11 | **Integrating Product Data (CAD) into SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xakes-dopap-fobyp-lofas-kyfon) |
-| 2026-11 | **Engineering Product Structure and Handover with SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xysiv-bykyb-mobaf-pypoc-mosog) |
-| 2026-11 | **Visualizing Products and Assets with SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyfap-bocen-lefys-copyp-nyvod) |
-| 2026-11 | **Managing Product and Packaging Specifications with SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xofac-lesem-vifid-nyhon-cufem) |
-| 2026-11 | **Streamlining Requirements using the Requirements Valuation Cockpit by CENIT** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xukap-fomyc-seret-pyluf-mokel) |
 | 2026-11 | **Kong Mesh Operations** | Kong | [Verify Record](https://www.credly.com/badges/2a3a540c-ef49-4159-ad09-2e5518599187/linked_in_profile) |
 | 2026-11 | **AI Gateway Operations** | Kong | [Verify Record](https://www.credly.com/badges/813eaae2-1e92-4ba7-a880-f6912360a5d4/linked_in_profile) |
 | 2026-11 | **Implementing SAP Field Service Management - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xopop-ticub-rycyd-setub-rotot) |
@@ -40,6 +35,12 @@ artifacts: complete, index
 | 2026-11 | **Applying SAP S/4HANA Product Engineering** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xaryv-kygih-berec-cisyc-takym) |
 | 2026-11 | **Experiencing SAP AI** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xepop-melyt-fekab-rocys-bateb) |
 | 2026-11 | **Boosting AI-driven Business Transformation with Joule Agents - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xivug-pekut-hidat-vaguf-nevid) |
+| 2026-11 | **C++ Essentials 1** | Cisco | [Verify Record](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/linked_in_profile) |
+| 2026-11 | **Digital Safety and Security Awareness** | Cisco | [Verify Record](https://www.credly.com/badges/8321a421-1066-4a4b-b151-a5d5de345a46/linked_in_profile) |
+| 2026-11 | **Developing with SAP Customer Data Platform - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuhog-lydov-himab-byket-pocov) |
+| 2026-11 | **Applying SAP S/4HANA Quality Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xolyh-gedis-tinyh-gibed-menyt) |
+| 2026-11 | **Implementing SAP S/4HANA Quality Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xykad-pylov-veveh-kupys-nidob) |
+| 2026-11 | **Performing Quality Management in Procurement** | SAP | [Verify Record](https://badger.learning.sap.com/verify/ximes-pimol-mokeh-medev-gyvag) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |

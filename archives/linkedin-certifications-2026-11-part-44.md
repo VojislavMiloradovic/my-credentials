@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 44 of 46
 date_range: 2026-11 to 2026-11
-total_entries: 47
+total_entries: 46
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-44.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,12 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-11 | **SAP Ariba Procurement Reports - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylyd-movum-vosen-ruhut-simym) |
-| 2026-11 | **Invoice Creation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelyg-sybih-kyvut-necug-begef) |
-| 2026-11 | **Invoice Reconciliation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xugoh-fydon-dubun-kipyr-rugeh) |
-| 2026-11 | **Advanced Purchasing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xadym-fomir-nyguc-pebyc-vycab) |
-| 2026-11 | **Contract Compliance Release - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xebyc-gobyl-tucif-tihyt-nidul) |
-| 2026-11 | **Contract Compliance No Release - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xifog-nicit-dahyd-sohip-hoter) |
 | 2026-11 | **SAP Ariba Procurement: Configuring Receiving - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xipuf-tytos-rykis-tipir-pypuh) |
 | 2026-11 | **SAP Ariba Procurement: Implementation Consulting and Configuration - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xatug-relar-mycur-vopob-botyh) |
 | 2026-11 | **Elevate Financial Advisor Insights with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712439?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
@@ -62,6 +56,11 @@ artifacts: complete, index
 | 2026-11 | **Gaining insights into SAP's Product Lifecycle Management Strategy** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xonep-nevof-verak-tigyv-hecer) |
 | 2026-11 | **Exploring Roles and Authorizations in SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuhas-pymif-cokik-lodar-hisod) |
 | 2026-11 | **Collaborating with Suppliers and Business Partners with SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xibuh-ponaf-buseh-lavem-rinit) |
+| 2026-11 | **Integrating Product Data (CAD) into SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xakes-dopap-fobyp-lofas-kyfon) |
+| 2026-11 | **Engineering Product Structure and Handover with SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xysiv-bykyb-mobaf-pypoc-mosog) |
+| 2026-11 | **Visualizing Products and Assets with SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyfap-bocen-lefys-copyp-nyvod) |
+| 2026-11 | **Managing Product and Packaging Specifications with SAP Integrated Product Development** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xofac-lesem-vifid-nyhon-cufem) |
+| 2026-11 | **Streamlining Requirements using the Requirements Valuation Cockpit by CENIT** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xukap-fomyc-seret-pyluf-mokel) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-11-part-43.md](./linkedin-certifications-2026-11-part-43.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-11-part-45.md](./linkedin-certifications-2026-11-part-45.md)
