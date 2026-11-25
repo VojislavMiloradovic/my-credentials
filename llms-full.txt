@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-11-25 23:42 UTC
+> **Last Generated:** 2026-11-25 23:45 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -150,15 +150,16 @@ Showing latest 10 of 1247 credentials. View full dataset via [Platform Archive I
 
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
-**Total Portfolio Credentials:** 845
-**Total Verified Skills Mapped:** 2965
+**Total Portfolio Credentials:** 846
+**Total Verified Skills Mapped:** 2966
 
 #### Latest Earned Credentials
 
-Showing latest 10 of 845 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
+Showing latest 10 of 846 credentials. View full dataset via [Platform Archive Index](./archives/credly-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-index.md)), latest slice [Latest Slice](./archives/credly-2026-11-part-16.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md)), or [Monolithic File](./archives/credly-complete.md).
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-25 | [AWS Knowledge: Amazon WorkSpaces Operations at Scale - Training Badge](https://www.credly.com/badges/6629cd5b-ff2d-4fda-bea0-55ca9a4f0b54/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-23 | [C++ Essentials 1](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-23 | [Digital Safety and Security Awareness](https://www.credly.com/badges/8321a421-1066-4a4b-b151-a5d5de345a46/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-20 | [Cloud Sales Professional MDR](https://www.credly.com/badges/938528c2-8698-487b-aa5c-bfaa151233f4/public_url) | Acronis | Credly Verified Badge |
@@ -168,7 +169,6 @@ Showing latest 10 of 845 credentials. View full dataset via [Platform Archive In
 | 2026-11-19 | [Foundations of Clinical Trials Programming Knowledge Badge](https://www.credly.com/badges/e08b522c-b39f-4ac9-9e9e-290c3535144d/public_url) | SAS | Credly Verified Badge |
 | 2026-11-19 | [Introduction to SAS Clinical Acceleration Repository](https://www.credly.com/badges/b65fb09a-9674-46c7-8076-aaf9b4c47b3a/public_url) | SAS | Credly Verified Badge |
 | 2026-11-19 | [SAS Viya: Cloud Data Exchange](https://www.credly.com/badges/ff7bdecc-168a-43c1-ad9a-e8e33154ee49/public_url) | SAS | Credly Verified Badge |
-| 2026-11-19 | [Using SAS® Viya® Copilot in SAS® Visual Analytics](https://www.credly.com/badges/97b14b77-ff9f-40dc-a7ad-4ce81794ffd3/public_url) | SAS | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
@@ -1523,18 +1523,19 @@ This document represents a unified, verifiable list of all 1247 records.
 
 # Complete Credly Verified Credentials Archive
 
-This document represents a unified, verifiable list of all 845 records.
+This document represents a unified, verifiable list of all 846 records.
 
 <!-- layer: L2_published -->
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-25T06:30:22.455644+00:00 -->
+<!-- retrieved_at: 2026-11-25T23:45:39.546764+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-25 | [AWS Knowledge: Amazon WorkSpaces Operations at Scale - Training Badge](https://www.credly.com/badges/6629cd5b-ff2d-4fda-bea0-55ca9a4f0b54/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-23 | [C++ Essentials 1](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-23 | [Digital Safety and Security Awareness](https://www.credly.com/badges/8321a421-1066-4a4b-b151-a5d5de345a46/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-20 | [Cloud Sales Professional MDR](https://www.credly.com/badges/938528c2-8698-487b-aa5c-bfaa151233f4/public_url) | Acronis | Credly Verified Badge |
