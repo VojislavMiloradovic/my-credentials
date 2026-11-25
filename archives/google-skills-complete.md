@@ -6,7 +6,7 @@ This document represents a unified, verifiable list of all 445 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-24T07:20:56.000068+00:00 -->
+<!-- retrieved_at: 2026-11-25T05:52:58.581957+00:00 -->
 
 ## Verified Records Archive
 
@@ -238,7 +238,7 @@ This document represents a unified, verifiable list of all 445 records.
 | 2026-04-12 | [GKE Routing and IP Address Management](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23561908) | Google Cloud | Google Skill Badge |
 | 2026-04-11 | [Deploy Your First Agent](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548435) | Google Cloud | Google Skill Badge |
 | 2026-04-11 | [[DEPRECATED] Orchestrate Complex Multi-Agent Workflows](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548307) | Google Cloud | Google Skill Badge |
-| 2026-04-11 | [Coordinate Multiple Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548231) | Google Cloud | Google Skill Badge |
+| 2026-04-11 | [[DEPRECATED] Coordinate Multiple Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548231) | Google Cloud | Google Skill Badge |
 | 2026-04-11 | [Introduction to GKE Networking](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23548146) | Google Cloud | Google Skill Badge |
 | 2026-04-10 | [Network Observability on Google Cloud](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23537866) | Google Cloud | Google Skill Badge |
 | 2026-04-10 | [Agent Assist and its Gen AI Capabilities](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23537711) | Google Cloud | Google Skill Badge |
