@@ -1,6 +1,6 @@
 ﻿Complete Training Activity List
-Generated on: 23. новембар 2026.
-Total rows: 1244
+Generated on: 26. новембар 2026.
+Total rows: 1247
 
 Title,Type,Status,Highest Score,Assigned on,Enrolled on,Started on,Completed on,Duration,Level,Language
 [RETIRED]  AWS Command Line Interface (CLI) Basics,Digital course,Retired,0,-,"January 11, 2026","January 11, 2026","January 11, 2026",7 minutes,Fundamental,English
@@ -329,6 +329,7 @@ Amazon WorkSpaces Migrations Knowledge Badge Assessment,Digital course,Completed
 Amazon WorkSpaces Migrations Knowledge Badge Readiness Path,Learning plan,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",6 hours 30 minutes,Intermediate,English
 Amazon WorkSpaces Migrations — Additional Partner Offerings on WorkSpaces Core,Digital course,Completed,0,-,"June 24, 2026","June 24, 2026","June 24, 2026",1 hour,Intermediate,English
 Amazon WorkSpaces Migrations — Citrix on WorkSpaces Core,Digital course,Completed,0,-,"August 29, 2026","August 29, 2026","August 29, 2026",1 hour,Advanced,English
+Amazon WorkSpaces Operations at Scale Knowledge Badge Assessment,AWS Assessment,Completed,100,-,"November 26, 2026","November 26, 2026","November 26, 2026",0 minutes,Intermediate,English
 Amazon WorkSpaces Primer,Digital course,Completed,100,-,"August 12, 2026","August 12, 2026","August 12, 2026",1 hour 20 minutes,Intermediate,English
 An Executive's Guide to Generative AI Success,Digital course,Completed,0,-,"March 21, 2026","March 21, 2026","March 21, 2026",1 hour 30 minutes,Fundamental,English
 Analyzing Claude Code usage with CloudWatch and OpenTelemetry,Digital course,Completed,0,-,"August 25, 2026","August 25, 2026","August 25, 2026",45 minutes,Advanced,English
@@ -498,6 +499,7 @@ AWS Lake Formation Getting Started,Digital course,Completed,0,-,"July 20, 2026",
 AWS Lambda Foundations,Digital course,Completed,0,-,"March 9, 2026","March 9, 2026","March 9, 2026",2 hours,Fundamental,English
 AWS Lambda Function Security & Defense in Depth,Digital course,Completed,0,-,"November 14, 2026","November 14, 2026","November 14, 2026",20 minutes,Intermediate,English
 AWS Lambda Getting Started,Digital course,Completed,0,-,"March 12, 2026","March 12, 2026","March 12, 2026",1 hour,Fundamental,English
+AWS Mainframe Modernization Foundations - Knowledge Badge Readiness Path,Learning plan,Completed,0,-,"November 26, 2026","November 26, 2026","November 26, 2026",5 hours 45 minutes,Fundamental,English
 AWS Mainframe Modernization Foundations Knowledge Badge Assessment,AWS Assessment,Completed,86.67,-,"November 6, 2026","November 6, 2026","November 6, 2026",0 minutes,Fundamental,English
 AWS Migration Evaluator Getting Started,Digital course,Completed,0,-,"July 14, 2026","July 14, 2026","July 14, 2026",45 minutes,Fundamental,English
 AWS Migration Hub Primer,Digital course,Completed,0,-,"August 12, 2026","August 12, 2026","August 12, 2026",1 hour 30 minutes,Intermediate,English
@@ -585,8 +587,8 @@ AWS Transform for .NET Getting Started,Digital course,Completed,0,-,"February 25
 AWS Transform for mainframe - Beyond the Basics,Digital course,Completed,0,-,"October 18, 2026","October 18, 2026","October 18, 2026",1 hour 30 minutes,Intermediate,English
 AWS Transform for mainframe Fundamentals,Digital course,Completed,0,-,"February 10, 2026","February 10, 2026","February 10, 2026",45 minutes,Fundamental,English
 AWS Transform for VMware Getting Started,Digital course,Completed,0,-,"March 27, 2026","March 27, 2026","March 27, 2026",1 hour,Fundamental,English
+AWS Transform Fundamentals - Knowledge Badge Readiness Path,Learning plan,Completed,0,-,"April 19, 2026","April 19, 2026","April 19, 2026",6 hours 30 minutes,Fundamental,English
 AWS Transform Fundamentals Knowledge Badge Assessment,AWS Assessment,Completed,95,-,"April 19, 2026","April 19, 2026","April 19, 2026",1 hour,Fundamental,English
-AWS Transform Knowledge Badge Readiness Path,Learning plan,Completed,0,-,"April 19, 2026","April 19, 2026","April 19, 2026",6 hours 40 minutes,Fundamental,English
 AWS Transform MGN Getting Started,Digital course,Completed,0,-,"February 9, 2026","February 9, 2026","February 9, 2026",45 minutes,Fundamental,English
 AWS Transit Gateway - Troubleshooting,Digital course,Completed,0,-,"July 30, 2026","July 30, 2026","July 30, 2026",1 hour,Intermediate,English
 AWS Transit Gateway Getting Started,Digital course,Completed,0,-,"September 13, 2026","September 13, 2026","September 13, 2026",1 hour,Fundamental,English
@@ -684,7 +686,7 @@ Choosing Serverless Containers for .NET,Digital course,Completed,0,-,"March 5, 2
 Choosing your AWS identity service,Digital course,Completed,0,-,"October 2, 2026","October 2, 2026","October 2, 2026",1 hour,Fundamental,English
 Cloud Audit Academy - Cloud Agnostic,Digital course,Completed,6,-,"July 24, 2026","July 24, 2026","July 24, 2026",3 hours,Fundamental,English
 Cloud Audit Academy for Federal and DoD Workloads in AWS – Interactive Walkthroughs,Digital course,Completed,0,-,"September 10, 2026","September 10, 2026","September 10, 2026",3 hours,Advanced,English
-Cloud Essentials - Knowledge Badge Readiness Path  (includes Labs),Learning plan,Completed,0,-,"April 15, 2026","April 15, 2026","April 15, 2026",21 hours 55 minutes,Fundamental,English
+Cloud Essentials - Knowledge Badge Readiness Path  (includes Labs),Learning plan,Completed,0,-,"April 15, 2026","April 15, 2026","April 15, 2026",22 hours 10 minutes,Fundamental,English
 Cloud Essentials for Business Leaders - Education,Digital course,Completed,0,-,"October 18, 2026","October 18, 2026","October 18, 2026",1 hour,Fundamental,English
 Cloud Essentials for Business Leaders – Healthcare and Life Sciences,Digital course,Completed,0,-,"March 21, 2026","March 21, 2026","March 21, 2026",1 hour 30 minutes,Fundamental,English
 Cloud Essentials Knowledge Badge Assessment,Digital course,Completed,91.2280701754386,-,"April 15, 2026","April 15, 2026","April 15, 2026",1 hour 30 minutes,Fundamental,English
@@ -720,6 +722,7 @@ Control where your AI agents can browse with Chrome enterprise policies on Amazo
 Cost Optimization Solutions for FinOps (Part 1),Digital course,Completed,0,-,"October 14, 2026","October 14, 2026","October 14, 2026",1 hour,Fundamental,English
 Cost Optimization Solutions for FinOps (Part 2),Digital course,Completed,0,-,"March 4, 2026","March 4, 2026","March 4, 2026",1 hour,Intermediate,English
 Cost-effective multilingual audio transcription at scale with Parakeet-TDT and AWS Batch,Digital course,Completed,0,-,"October 5, 2026","October 5, 2026","October 5, 2026",45 minutes,Fundamental,English
+"Create streaming video with captions, subtitles, and audio tracks using AWS AI services",Digital course,Completed,100,-,"November 26, 2026","November 26, 2026","November 26, 2026",30 minutes,Intermediate,English
 Custom reward functions for multi-turn reinforcement learning with Amazon Nova Forge,Digital course,Completed,0,-,"November 5, 2026","November 5, 2026","November 5, 2026",45 minutes,Advanced,English
 Customization in Amazon Q Developer,Digital course,Completed,0,-,"April 25, 2026","April 25, 2026","April 25, 2026",30 minutes,Fundamental,English
 Customizing and Evaluating LLMs Using Amazon SageMaker JumpStart,Digital course,Completed,0,-,"September 10, 2026","September 10, 2026","September 10, 2026",4 hours,Advanced,English
