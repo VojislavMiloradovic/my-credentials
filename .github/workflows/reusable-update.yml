@@ -23,6 +23,11 @@ on:
         required: false
         type: string
         description: "Platform name for targeted validation (e.g., microsoft-learn)"
+      pre_script:
+        required: false
+        type: string
+        description: "Optional pre-processing/sanitization script and args to run before scraping"
+        default: ""
       artifact_paths:
         required: false
         type: string
@@ -76,6 +81,9 @@ jobs:
                   sys.exit(1)
           print(f'✅ Pre-flight: Validated syntax for {len(json_files)} JSON file(s).')
           "
+      - name: Run Pre-Processing / Sanitization Script
+        if: ${{ inputs.pre_script != '' }}
+        run: uv run python ${{ inputs.pre_script }}
 
       - name: Execute Scraper Script
         env:
@@ -136,7 +144,7 @@ jobs:
           # layer_manifest.py, models/, scripts/, dataset_layers.yaml, pyproject.toml, uv.lock
           rsync -aq --exclude='.git' --exclude='__pycache__' --exclude='.pytest_cache' \
             --exclude='for_validation' --exclude='archives' --exclude='validation_reports' \
-            --exclude='data/*.json' --exclude='*.md' --exclude='credentials.jsonld' \
+            --exclude='data/*.json' --exclude='data/*.mhtml*' --exclude='*.md' --exclude='credentials.jsonld' \
             --exclude='llms.txt' --exclude='llms-full.txt' \
             . "$TEST_WORKSPACE/"
           
