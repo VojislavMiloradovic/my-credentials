@@ -15,10 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-02 | **Update your app to use a spam filtering Machine Learning model** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-nlp-update-app |
-| 2026-06-02 | **Get started with the Scene Semantics and Geospatial Depth APIs in ARCore** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/arcore-scene-semantics-geospatial-depth |
-| 2026-06-02 | **Detect objects in images with ML Kit: Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mlkit-android-odt |
-| 2026-06-02 | **Build and launch a Spring Boot Java app from Cloud Shell** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-springboot-cloudshell |
 | 2026-06-02 | **Build a word puzzle with Flutter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter-word-puzzle |
 | 2026-06-02 | **Google Pay API for Web 101: Basics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gpay-web-101 |
 | 2026-06-02 | **Get started with object detection** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/get-started-object-detection/get-started-object-detection |
@@ -62,6 +58,10 @@ artifacts: complete, index
 | 2026-05-30 | **Create a custom object detection web app with MediaPipe** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mp-object-detection-web |
 | 2026-05-30 | **Understanding Skaffold** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/understanding-skaffold |
 | 2026-05-30 | **Vertex AI Pipelines PSC Interface Explicit Proxy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/pipelines-psc-interface-proxy |
+| 2026-05-30 | **Vertex AI: Training and serving a custom model** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex_custom_training_prediction |
+| 2026-05-30 | **Releasing with Cloud Deploy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/releasing-with-cloud-deploy |
+| 2026-05-30 | **Search for and select Google APIs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/search-for-and-select-google-apis |
+| 2026-05-30 | **Use Coral Edge TPUs to run TFlite models in Node with TensorFlow.js** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tensorflowjs-coral-tflite-node |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-12.md](./google-developer-2026-05-part-12.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-14.md](./google-developer-2026-06-part-14.md)

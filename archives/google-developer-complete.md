@@ -1,12 +1,12 @@
 # Complete google-developer Archive
 
-This document represents a unified, verifiable list of all 1812 records.
+This document represents a unified, verifiable list of all 1788 records.
 
 <!-- layer: L2_published -->
 <!-- transform: unknown -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-26T19:23:09.200352+00:00 -->
+<!-- retrieved_at: 2026-11-26T20:21:20.430749+00:00 -->
 
 ## Verified Records Archive
 
@@ -267,38 +267,30 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-07-02 | **Build with Google Maps Platform and AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/build-with-google-maps-platform-and-ai |
 | 2026-07-02 | **Build web apps backed by Cloud Firestore** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-firestore |
 | 2026-07-02 | **Misadventures in Kubernetes: The Kinda Hard Way** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/misadventures-in-kubernetes |
-| 2026-07-02 | **Lesson 12: Repository pattern and WorkManager** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-development-with-kotlin-12 |
 | 2026-07-02 | **Learn to program neural networks with TensorFlow** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/tensorflow/tensorflow-for-developers |
 | 2026-07-02 | **Build a custom, responsive chatbot in Google Cloud** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/custom-responsive-chatbots |
-| 2026-07-02 | **Android 11 - Week 2 - Machine Learning** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week2-machine-learning |
-| 2026-07-02 | **Android 11 - Week 3 - Privacy, Trust and Security** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week3-privacy-trust-security |
+| 2026-07-02 | **Android Week2 Machine Learning** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week2-machine-learning [WARN] *Content retired* |
+| 2026-07-02 | **Android Week3 Privacy Trust Security** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week3-privacy-trust-security [WARN] *Content retired* |
 | 2026-07-02 | **Create No Code Agent using Agent Platform Agent Builder** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/create-no-code-agent-using-agent-platform-agent-builder |
-| 2026-07-02 | **Languages quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week5-languages/android-11-week-5 |
-| 2026-07-02 | **Android 11—Week 9—TV** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week9-android-tv |
-| 2026-07-02 | **Android 11—Week 6—Jetpack** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week6-jetpack |
-| 2026-07-02 | **People and identity quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week1-people-identity/android-11-week-1 |
-| 2026-07-02 | **Android 11—Week 8—App distribution and monetization** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week8-app-distribution-monetization |
-| 2026-07-02 | **Android 11—Week 7—Developer tools** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week7-developer-tools |
-| 2026-07-02 | **Android 11 - Week 4 - Compatibility** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week4-compatibility |
-| 2026-07-02 | **Android 11—Week 11—Modern UI** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week11-modern-ui |
-| 2026-07-02 | **Android 11—Week 9—Large Screens** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week9-large-screens |
-| 2026-07-02 | **Android 11—Week 10—Games and media** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week10-games-and-media |
+| 2026-07-02 | **Android Week9 Android Tv** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week9-android-tv [WARN] *Content retired* |
+| 2026-07-02 | **Android Week6 Jetpack** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week6-jetpack [WARN] *Content retired* |
+| 2026-07-02 | **Android Week8 App Distribution Monetization** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week8-app-distribution-monetization [WARN] *Content retired* |
+| 2026-07-02 | **Android Week7 Developer Tools** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week7-developer-tools [WARN] *Content retired* |
+| 2026-07-02 | **Android Week4 Compatibility** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week4-compatibility [WARN] *Content retired* |
+| 2026-07-02 | **Android Week11 Modern UI** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week11-modern-ui [WARN] *Content retired* |
+| 2026-07-02 | **Android Week9 Large Screens** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week9-large-screens [WARN] *Content retired* |
+| 2026-07-02 | **Android Week10 Games And Media** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-week10-games-and-media [WARN] *Content retired* |
 | 2026-07-02 | **Google Pay quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/google-pay/google_pay |
 | 2026-07-02 | **Launch your portfolio website with AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/launch-your-portfolio-website-with-ai |
 | 2026-07-02 | **Develop locally with Firebase** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/firebase/learn/pathways/firebase-emulators |
 | 2026-06-30 | **Introduction to SQL** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-6-pathway-1 |
 | 2026-06-30 | **Schedule tasks with WorkManager** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-7-pathway-1 |
 | 2026-06-30 | **Navigation in Jetpack Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-4-pathway-2 |
-| 2026-06-30 | **Lesson 4: Build your first Android app** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-development-with-kotlin-4 |
-| 2026-06-30 | **Lesson 9: App architecture (persistence)** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-development-with-kotlin-9 |
 | 2026-06-30 | **Modern Android App Architecture** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-architecture |
 | 2026-06-30 | **Get started with audio classification** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/get-started-audio-classification |
-| 2026-06-30 | **Lesson 2: Functions** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-development-with-kotlin-2 |
 | 2026-06-30 | **Adapt for different screen sizes** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-4-pathway-3 |
 | 2026-06-30 | **Introduction to programming in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-1-pathway-1 |
 | 2026-06-30 | **Add a button to an app** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-2-pathway-2 |
-| 2026-06-30 | **Lesson 5: Layouts** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-development-with-kotlin-5 |
-| 2026-06-30 | **Lesson 11: Connect to the internet** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-development-with-kotlin-11 |
 | 2026-06-30 | **Lesson 1.1 - Get started** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-development-kotlin-1.1 |
 | 2026-06-30 | **Get started with comment-spam detection** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/get-started-text-classification-web |
 | 2026-06-30 | **How to do local testing of an ADK agent that writes to a Google Sheet before deploying to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/local-testing-cloud-run-google-sheets-adk-agent |
@@ -456,7 +448,7 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-06-20 | **Build a complete integration with Health Connect** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/health-connect |
 | 2026-06-20 | **Building Persistent AI Agents with ADK and CloudSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/persistent-adk-cloudsql |
 | 2026-06-20 | **Build QA Test Planner Agent using ADK, MCP, and Gemini 2.5 Flash with Thinking Mode** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/qa-test-planner-adk-mcp |
-| 2026-06-20 | **Build a handwritten digit classifier app with TensorFlow Lite** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/digit-classifier-tflite |
+| 2026-06-20 | **Digit Classifier Tflite** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/digit-classifier-tflite [WARN] *Content retired* |
 | 2026-06-20 | **Build, train, and deploy an XGBoost model on Cloud AI Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/xgb-caip-e2e |
 | 2026-06-20 | **Build a handwritten digit classifier Android app with MediaPipe Tasks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mp-digit-classifier-android |
 | 2026-06-20 | **Build a Patent Search App with Spanner, Vector Search & Gemini 1.0 Pro!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/patent-search-spanner-gemini |
@@ -744,14 +736,12 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-06-09 | **Ingest FHIR (Fast Healthcare Interoperability Resources) to BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/fhir-to-bq |
 | 2026-06-07 | **Build Multimodal Apps and Custom Managed Agents with the Gemini Interactions Java SDK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-interactions-java-sdk |
 | 2026-06-07 | **Controlling media through MediaSession** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/supporting-mediasession |
-| 2026-06-07 | **App Distribution and Monetization quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week8-app-distribution-monetization/android-11-week-8 |
-| 2026-06-07 | **Apply Material Design to Android apps in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/mdc-kotlin |
+| 2026-06-07 | **Mdc Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/mdc-kotlin [WARN] *Content retired* |
 | 2026-06-07 | **Deploy a basic "Google Translate" Express.js app on App Engine, Cloud Functions, and Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-nebulous-serverless-nodejs |
 | 2026-06-07 | **LiteRT CLI 101: Streamline your Edge AI Workflows** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/litert-cli/101 |
 | 2026-06-07 | **Lab: Service Extensions on Media CDN** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/service-extensions-mediacdn |
 | 2026-06-07 | **Movie Rating prediction with Vertex AI AutoML** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/moviescore-prediction-vertexai |
 | 2026-06-07 | **Cloud Spanner: Create a gaming leaderboard with Java** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spanner-leaderboard-java |
-| 2026-06-07 | **Android developer tools quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week7-developer-tools/android-11-week-7 |
 | 2026-06-07 | **Hello Cloud Run with C#** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run-hello-csharp |
 | 2026-06-07 | **Cast-enable an Android TV app** | Verified Google Developer learning activity. URL: https://developers.google.com/cast/codelabs/cast-connect-atv |
 | 2026-06-07 | **Vertex AI: Use autopackaging to fine tune Bert with Hugging Face on Vertex AI Training** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-training-autopkg |
@@ -762,12 +752,10 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-06-07 | **Vertex AI: Multi-Worker Training and Transfer Learning with TensorFlow** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex_multiworker_training |
 | 2026-06-07 | **Build a Smart Shopping Assistant with AlloyDB and Vertex AI Agent Builder - Part 1** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-shop-agent-alloydb |
 | 2026-06-07 | **TensorFlow.js: Make your own "Teachable Machine" using transfer learning with TensorFlow.js** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tensorflowjs-transfer-learning-teachable-machine |
-| 2026-06-07 | **Android 11—Week 10—Games and media quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week10-games-and-media/android-11-week-10 |
 | 2026-06-07 | **How to Transact Digital Assets with Multi-Party Computation and Confidential Space** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/confidential-space-mpc |
 | 2026-06-07 | **Optimizing the price of retail products** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/retail-price-optimization |
 | 2026-06-07 | **Prototype to Production: Distributed training on Vertex AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-p2p-distributed |
 | 2026-06-07 | **Reverse ETL from Snowflake to Spanner using CSV** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/snowflake-csv-spanner |
-| 2026-06-07 | **Android Jetpack quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week6-jetpack/android-11-week-6 |
 | 2026-06-07 | **MDC-102 Android: Material Structure and Layout (Kotlin)** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/mdc-102-kotlin |
 | 2026-06-07 | **Raise engagement on Android TV by integrating with the Play Next row** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/tv-watch-next |
 | 2026-06-07 | **Build a fast checkout experience on the web with Google Pay** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/pay-web-checkout |
@@ -777,7 +765,6 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-06-07 | **Secure Serverless Application with Identity Aware Proxy (IAP)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/secure-serverless-application-with-identity-aware-proxy |
 | 2026-06-07 | **Build Agentic AI Applications in Java with LangChain4j and Google GenAI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/langchain4j-google-genai-agents |
 | 2026-06-07 | **(Deprecated) People: Conversations and Bubbles** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-people |
-| 2026-06-07 | **Android 11—Week 9—Large screens quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week9-large-screens/android-11-week-9-2 |
 | 2026-06-07 | **Quality Controlled RAG with AlloyDB's latest Vector Search Features!** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/patent-search-rag-recall |
 | 2026-06-07 | **Code Lab: NCC VPC as a Spoke** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ncc-vpc-as-spoke |
 | 2026-06-07 | **Vertex AI Vision Motion Filter** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-ai-vision-motion-filter |
@@ -787,15 +774,12 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-06-07 | **Pic-a-daily: Lab 5—Cleanup after image deletion** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-picadaily-lab5 |
 | 2026-06-07 | **Visualizing dynamic color in your app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/visualize-dynamic-color |
 | 2026-06-07 | **Build an animated responsive app layout with Material 3** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter-animated-responsive-layout |
-| 2026-06-07 | **Privacy and security quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week3-privacy-trust-security/android-11-week-3 |
 | 2026-06-07 | **Build a Fast Checkout Experience on Android with Google Pay** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/pay-android-checkout |
 | 2026-06-07 | **Prototype to Production: Training custom models with Vertex AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-p2p-training |
 | 2026-06-07 | **Build a custom, responsive chatbot on Google Cloud quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/custom-responsive-chatbots/chatbot-201 |
-| 2026-06-07 | **Compatibility quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week4-compatibility/android-11-week-4 |
 | 2026-06-07 | **Movie Rating Prediction with BQML using SQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/moviescore-prediction-bqmlsql |
 | 2026-06-07 | **Codelab - Build a contextual Yoga Poses recommender app with Firestore, Vector Search, Langchain and Gemini (Python version)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/yoga-pose-firestore-vectorsearch-python |
 | 2026-06-07 | **Build a Q&A App with Multi-Modal RAG using Gemini Pro** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/multimodal-rag-gemini |
-| 2026-06-07 | **Machine learning quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week2-machine-learning/android-11-week-2 |
 | 2026-06-07 | **Use convolutional neural networks (CNNs) with large datasets to avoid overfitting** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/tensorflow-6-largecnns |
 | 2026-06-07 | **Triggering Event Processing from Cloud Storage using Eventarc and Cloud Run functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/triggering-cloud-functions-from-cloud-storage |
 | 2026-06-07 | **Build a frontend Django client for a Dialogflow app** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/chatbots-dialogflow-django-frontend |
@@ -837,8 +821,6 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-06-07 | **End-to-End Migration: CloudSQL Database to Cloud Spanner (GoogleSQL)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloudsql-to-spanner-migration |
 | 2026-06-07 | **Get started with scroll-driven animations in CSS** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/scroll-driven-animations |
 | 2026-06-07 | **Deploy a full stack Angular application to Cloud Run with Firestore using the Node.js Admin SDK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-application-with-database/firestore-angular |
-| 2026-06-07 | **Android 11—Week 9—TV quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week9-android-tv/android-11-week-9-1 |
-| 2026-06-06 | **Lesson 10: Advanced RecyclerView use cases** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-10/android-development-with-kotlin-10 |
 | 2026-06-06 | **Create your first Android app** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-first-app |
 | 2026-06-06 | **TensorFlow.js: Build a comment spam detection system** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/tensorflowjs-comment-spam-detection |
 | 2026-06-06 | **Create an Art Space app** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-art-space |
@@ -862,9 +844,7 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-06-06 | **Use nullability in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-nullability |
 | 2026-06-06 | **More Kotlin fundamentals** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-3-pathway-1/android-basics-compose-unit-3-pathway-1 |
 | 2026-06-06 | **Practice: Build a grid** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-grid |
-| 2026-06-06 | **Lesson 13: App UI design** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-13/android-development-with-kotlin-13 |
 | 2026-06-06 | **Store and access data using keys with DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-6-pathway-3/android-basics-compose-unit-6-pathway-3 |
-| 2026-06-06 | **Lesson 1: Kotlin basics** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-1/android-development-with-kotlin-1 |
 | 2026-06-06 | **Create a basic app for audio classification** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/tflite-audio-classification-basic-android |
 | 2026-06-06 | **Higher-order functions with collections** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-higher-order-functions |
 | 2026-06-06 | **Write unit tests for ViewModel** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-test-viewmodel |
@@ -873,15 +853,12 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-06-06 | **Test the Cupcake App** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-test-cupcake |
 | 2026-06-06 | **Use Room for data persistence** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/pathways/android-basics-compose-unit-6-pathway-2 |
 | 2026-06-06 | **Introduction to Coroutines in Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-coroutines-android-studio |
-| 2026-06-06 | **Run your first app on the Android Emulator** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-emulator |
-| 2026-06-06 | **Lesson 6: App navigation** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-6/android-development-with-kotlin-6 |
+| 2026-06-06 | **Basic Android Kotlin Compose Emulator** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-emulator [WARN] *Content retired* |
 | 2026-06-06 | **Accessibility, testing, and performance** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/jetpack-compose-for-android-developers-4/jetpack-compose-for-android-developers-4 |
-| 2026-06-06 | **Lesson 8: App architecture (UI layer)** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-8/android-development-with-kotlin-8 |
 | 2026-06-06 | **Save preferences locally with DataStore** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-datastore |
-| 2026-06-06 | **Lesson 7: Activity and fragment lifecycles** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-7/android-development-with-kotlin-7 |
 | 2026-06-06 | **Functions** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-development-kotlin-2.1 |
 | 2026-06-06 | **Build a simple app with text composables** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-text-composables |
-| 2026-06-06 | **How to connect your Android device** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-connect-device |
+| 2026-06-06 | **Basic Android Kotlin Compose Connect Device** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-connect-device [WARN] *Content retired* |
 | 2026-06-06 | **(Deprecated) Build an app that runs on a work profile** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/work-profile-apps |
 | 2026-06-06 | **Calculate a custom tip** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-calculate-tip |
 | 2026-06-06 | **Persist data with Room** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-persisting-data-room |
@@ -892,8 +869,7 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-06-06 | **Build a scrollable list** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-3-pathway-2/android-basics-compose-unit-3-pathway-2 |
 | 2026-06-06 | **Project: Create a My City app** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-my-city |
 | 2026-06-06 | **Practice: Add a ViewModel to Dessert Clicker** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-practice-viewmodel |
-| 2026-06-06 | **Android 11—Week 11—Modern UI quiz** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-week11-modern-ui/android-11-week-11-1 |
-| 2026-06-06 | **Download and install Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio |
+| 2026-06-06 | **Basic Android Kotlin Compose Install Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio [WARN] *Content retired* |
 | 2026-06-06 | **Go further with audio classification** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/go-further-audio-classification/go-further-audio-classification |
 | 2026-06-06 | **ViewModel and State in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-viewmodel-and-state |
 | 2026-06-06 | **Practice Problems: Kotlin Basics** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-intro-kotlin-practice-problems |
@@ -901,7 +877,6 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-06-06 | **Intro to Programming** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-basics-compose-unit-1-pathway-1/android-basics-compose-unit-1-pathway-1 |
 | 2026-06-06 | **Use function types and lambda expressions in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-function-types-and-lambda |
 | 2026-06-06 | **Generics, objects, and extensions** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-generics |
-| 2026-06-06 | **Lesson 3: Classes and Objects** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/android-development-with-kotlin-3/android-development-with-kotlin-3 |
 | 2026-06-06 | **Use the debugger in Android Studio** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-intro-debugger |
 | 2026-06-06 | **Using Classes and Objects in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-development-kotlin-3.1 |
 | 2026-06-06 | **Your first program in Kotlin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-first-program |
@@ -1102,7 +1077,7 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-06-05 | **Protect yourself from online harassment** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/protect-yourself-from-online-harassment |
 | 2026-06-05 | **Call Vision API Product Search backend on Android** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/product-search-vision-api-android |
 | 2026-06-05 | **Build Actions for Google Assistant using Actions Builder (Level 1)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/actions-builder-1 |
-| 2026-06-05 | **Building watch faces for Wear OS** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/watch-face-format |
+| 2026-06-05 | **Watch Face Format** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/watch-face-format [WARN] *Content retired* |
 | 2026-06-05 | **Activity embedding** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/activity-embedding/activity-embedding |
 | 2026-06-05 | **Implement passkeys with form autofill in a web app** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/passkey-form-autofill |
 | 2026-06-05 | **View Interoperability in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-view-interop |
@@ -1693,7 +1668,7 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-05-20 | **Add Compose to a View-based app** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-training-compose-add-compose-to-a-view-based-app |
 | 2026-05-20 | **AlloyDB Quick Setup Lab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/easy-alloydb-setup |
 | 2026-05-20 | **Automatically Deploy Generative AI Go Web Application from Version Control to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-from-github/gen-ai-go |
-| 2026-05-20 | **Before you begin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-before-you-begin |
+| 2026-05-20 | **Basic Android Kotlin Compose Before You Begin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-before-you-begin |
 | 2026-05-20 | **Agentverse - The Summoner's Concord - Architecting Multi-Agent Systems** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentverse-architect/instructions |
 | 2026-05-20 | **BigQuery Performance Test Codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/bigquery-smoke-test-workshop |
 | 2026-05-20 | **AdMob+Firebase 101 Unity: Setup & Analytics Basics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/admob-firebase-codelabs-101-unity |
@@ -1764,6 +1739,7 @@ This document represents a unified, verifiable list of all 1812 records.
 | 2026-05-20 | **Artifact Registry Deep Dive** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/artifact-registry-deepdive |
 | 2026-05-20 | **Automatically Deploy Generative AI Python Web Application from Version Control to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-from-github/gen-ai-python |
 | 2026-05-20 | **Basic layouts in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/jetpack-compose-layouts |
+| 2026-05-20 | **Before you begin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-compose-training-before-you-begin |
 | 2026-05-20 | **Automatically Deploy Generative AI Go with Genkit Web Application from Version Control to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-from-github/genkit-go |
 | 2026-05-20 | **Advanced WorkManager** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-adv-workmanager |
 | 2026-05-20 | **Adding a Home Screen widget to your Flutter App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/flutter-home-screen-widgets |

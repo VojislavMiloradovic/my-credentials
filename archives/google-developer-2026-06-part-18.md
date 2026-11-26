@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 18 of 38
 date_range: 2026-06-05 to 2026-06-05
-total_entries: 67
+total_entries: 68
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-18.md
 layer: L2_published
 transform: unknown
@@ -15,10 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-05 | **Jetpack Compose For Android Developers 1** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 1). |
-| 2026-06-05 | **Android Basics Compose Unit 5 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 5 pathway 1). |
-| 2026-06-05 | **Accelerated Machine Learning With Google Cloud And Nvidia** | Official Google Developer platform achievement (Learning Pathway: accelerated machine learning with google cloud and nvidia). |
-| 2026-06-05 | **Learn Html** | Official Google Developer platform achievement (Learning Pathway: learn html). |
 | 2026-06-05 | **Get Started Object Detection** | Official Google Developer platform achievement (Learning Pathway: get started object detection). |
 | 2026-06-05 | **Jetpack Compose For Android Developers 3** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 3). |
 | 2026-06-05 | **Speed Up Data Analytics Gpus** | Official Google Developer platform achievement (Learning Pathway: speed up data analytics GPUs). |
@@ -82,6 +78,11 @@ artifacts: complete, index
 | 2026-06-05 | **Going Further Audio Classification** | Official Google Developer platform achievement (Learning Pathway: going further audio classification). |
 | 2026-06-05 | **Android Development With Kotlin 1** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 1). |
 | 2026-06-05 | **Android Basics Compose Unit 1 Pathway 3** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 1 pathway 3). |
+| 2026-06-05 | **Firebase Studio** | Official Google Developer platform achievement (Community: firebase studio). |
+| 2026-06-05 | **Learn Performance** | Official Google Developer platform achievement (Learning Pathway: learn performance). |
+| 2026-06-05 | **Learn Testing** | Official Google Developer platform achievement (Learning Pathway: learn testing). |
+| 2026-06-05 | **Improve User Experience** | Official Google Developer platform achievement (Learning Pathway: improve user experience). |
+| 2026-06-05 | **Material Design Web** | Official Google Developer platform achievement (Learning Pathway: material design web). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-19.md](./google-developer-2026-06-part-19.md)

@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-05-20 | **Bookshelf Analytics: Use Gemini to build SQL applications with BigQuery and Generative AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bookshelf-duetai-bq-sql |
 | 2026-05-20 | **Add Firebase Phone Number Verification to your Android app** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/firebase-pnv-android |
 | 2026-05-20 | **Apache Spark and Jupyter Notebooks on Managed Service for Apache Spark** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/spark-jupyter-dataproc |
 | 2026-05-20 | **Adaptive apps** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/codelab-adaptive-apps |
@@ -51,6 +50,7 @@ artifacts: complete, index
 | 2026-05-20 | **Artifact Registry Deep Dive** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/artifact-registry-deepdive |
 | 2026-05-20 | **Automatically Deploy Generative AI Python Web Application from Version Control to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-from-github/gen-ai-python |
 | 2026-05-20 | **Basic layouts in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/jetpack-compose-layouts |
+| 2026-05-20 | **Before you begin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-compose-training-before-you-begin |
 | 2026-05-20 | **Automatically Deploy Generative AI Go with Genkit Web Application from Version Control to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-from-github/genkit-go |
 | 2026-05-20 | **Advanced WorkManager** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/android-adv-workmanager |
 | 2026-05-20 | **Adding a Home Screen widget to your Flutter App** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/flutter-home-screen-widgets |

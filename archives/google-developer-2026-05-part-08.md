@@ -15,10 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-05-24 | **Explicit Chaining of GCP L7 Load Balancers with PSC** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/l7lb-chain-psc |
-| 2026-05-24 | **How to create a Private Services Connect for CloudSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/psc-cloud-sql |
-| 2026-05-24 | **Private Service Connect Interface Managed Services** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/psc-interface-mgd-service |
-| 2026-05-24 | **Serverless MEAN Stack Application on MongoDB Atlas and Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mean-cloudrun-app |
 | 2026-05-24 | **Deploy Multihost TPU vLLM Inferencing with Ray on GKE** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/aiinfra-learning-pod/screen2-advanced-inferencing-part-1 |
 | 2026-05-24 | **Migrating to Jetpack Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/jetpack-compose-migration |
 | 2026-05-24 | **Managed Service for Apache Spark** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dataproc-serverless |
@@ -62,6 +58,10 @@ artifacts: complete, index
 | 2026-05-24 | **Introduction to Compose for TV** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/compose-for-tv-introduction |
 | 2026-05-24 | **Secure shared data in use with Confidential Space** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/confidential-space |
 | 2026-05-24 | **Integrating Magento with Cloud Spanner** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/magento-cloud-spanner |
+| 2026-05-24 | **Jetpack Compose Navigation** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/jetpack-compose-navigation |
+| 2026-05-24 | **Simple Animation with Jetpack Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-woof-animation |
+| 2026-05-24 | **Microservice Rainbow Rumpus** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/rainbowrumpus |
+| 2026-05-24 | **Build and test a parked app for Android Automotive OS** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/build-a-parked-app |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-07.md](./google-developer-2026-05-part-07.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-09.md](./google-developer-2026-05-part-09.md)

@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 7 of 38
 date_range: 2026-05-23 to 2026-05-24
-total_entries: 46
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-07.md
 layer: L2_published
 transform: unknown
@@ -15,10 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-05-24 | **Jetpack Compose Navigation** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/jetpack-compose-navigation |
-| 2026-05-24 | **Simple Animation with Jetpack Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-woof-animation |
-| 2026-05-24 | **Microservice Rainbow Rumpus** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/rainbowrumpus |
-| 2026-05-24 | **Build and test a parked app for Android Automotive OS** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/build-a-parked-app |
 | 2026-05-24 | **State in Jetpack Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/jetpack-compose-state |
 | 2026-05-24 | **Gating Deployments with Binary Auth** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gating-deployments-with-binary-auth |
 | 2026-05-24 | **Hello Cloud Run with Python (FastAPI)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-run/cloud-run-hello-fastapi |
@@ -61,6 +57,9 @@ artifacts: complete, index
 | 2026-05-23 | **Codelab: Cloud Run Day 2025 - Setup** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-run-day-2025-setup |
 | 2026-05-23 | **Building Agents with Retrieval-Augmented Generation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/7-advanced-agent-capabilities/building-agents-with-retrieval-augmented-generation |
 | 2026-05-23 | **Build Multi-Agent Systems with ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/3-developing-agents/build-a-multi-agent-system-with-adk |
+| 2026-05-23 | **Build and Evaluate BigQuery Agents using Agent Development Kit (ADK) and GenAI Eval Service** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-adk-eval |
+| 2026-05-23 | **How to Build an MCP Server with Gemini CLI and Go** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-gemini-cli-mcp-go |
+| 2026-05-23 | **Fine-tune Gemini on Gemini Enterprise Agent Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/9-ai-finetuning/finetune-gemini-vertex-ai |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-06.md](./google-developer-2026-05-part-06.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-08.md](./google-developer-2026-05-part-08.md)

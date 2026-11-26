@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 3 of 38
 date_range: 2026-05-20 to 2026-05-20
-total_entries: 48
+total_entries: 47
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-03.md
 layer: L2_published
 transform: unknown
@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-05-20 | **Approximate location** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/approximate-location |
-| 2026-05-20 | **Agents CLI in Agent Platform: From Development to Production** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agents-cli-agent-platform/agents-cli-agent-platform |
 | 2026-05-20 | **Activity Recognition Transition API Codelab** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/activity-recognition-transition |
 | 2026-05-20 | **Anthos Service Mesh Workshop: Lab Guide - Japanese** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/anthos-service-mesh-workshop-jp |
 | 2026-05-20 | **Apply responsible AI principles when building remote sensing datasets, such as Dynamic World** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/apply-responsible-ai-practices-for-ml-derived-datasets |
@@ -28,7 +26,7 @@ artifacts: complete, index
 | 2026-05-20 | **Add Compose to a View-based app** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-training-compose-add-compose-to-a-view-based-app |
 | 2026-05-20 | **AlloyDB Quick Setup Lab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/easy-alloydb-setup |
 | 2026-05-20 | **Automatically Deploy Generative AI Go Web Application from Version Control to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-from-github/gen-ai-go |
-| 2026-05-20 | **Before you begin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-before-you-begin |
+| 2026-05-20 | **Basic Android Kotlin Compose Before You Begin** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-before-you-begin |
 | 2026-05-20 | **Agentverse - The Summoner's Concord - Architecting Multi-Agent Systems** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentverse-architect/instructions |
 | 2026-05-20 | **BigQuery Performance Test Codelab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/bigquery-smoke-test-workshop |
 | 2026-05-20 | **AdMob+Firebase 101 Unity: Setup & Analytics Basics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/admob-firebase-codelabs-101-unity |
@@ -63,6 +61,7 @@ artifacts: complete, index
 | 2026-05-20 | **Agentverse - The Scholar's Grimoire - Building Knowledge Engines with RAG** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agentverse-dataengineer/instructions |
 | 2026-05-20 | **Add Play Integrity to your Android application** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/add-play-integrity |
 | 2026-05-20 | **Automatically Deploy Generative AI Svelte Web Application from Version Control to Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/deploy-from-github/gen-ai-svelte |
+| 2026-05-20 | **Bookshelf Analytics: Use Gemini to build SQL applications with BigQuery and Generative AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bookshelf-duetai-bq-sql |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-02.md](./google-developer-2026-05-part-02.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-04.md](./google-developer-2026-05-part-04.md)

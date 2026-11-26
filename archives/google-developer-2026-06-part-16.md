@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 16 of 38
 date_range: 2026-06-05 to 2026-06-05
-total_entries: 58
+total_entries: 57
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-16.md
 layer: L2_published
 transform: unknown
@@ -15,11 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-05 | **Maintainable Scalable Web Apps** | Official Google Developer platform achievement (Learning Pathway: maintainable scalable web apps). |
-| 2026-06-05 | **Created Profile** | Official Google Developer platform achievement (Learning Pathway: created profile). |
-| 2026-06-05 | **Web Apps With Firebase** | Official Google Developer platform achievement (Learning Pathway: web apps with firebase). |
-| 2026-06-05 | **Get Started Image Product Search** | Official Google Developer platform achievement (Learning Pathway: get started image product search). |
-| 2026-06-05 | **Android 11 Week 1** | Official Google Developer platform achievement (Learning Pathway: android 11 week 1). |
 | 2026-06-05 | **Ai Gemini Getting Started Web** | Official Google Developer platform achievement (Learning Pathway: ai gemini getting started web). |
 | 2026-06-05 | **Ai Gemini Images** | Official Google Developer platform achievement (Learning Pathway: ai gemini images). |
 | 2026-06-05 | **Android Development With Kotlin 3** | Official Google Developer platform achievement (Learning Pathway: android development with kotlin 3). |
@@ -49,7 +44,7 @@ artifacts: complete, index
 | 2026-06-05 | **Protect yourself from online harassment** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/protect-yourself-from-online-harassment |
 | 2026-06-05 | **Call Vision API Product Search backend on Android** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/product-search-vision-api-android |
 | 2026-06-05 | **Build Actions for Google Assistant using Actions Builder (Level 1)** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/actions-builder-1 |
-| 2026-06-05 | **Building watch faces for Wear OS** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/watch-face-format |
+| 2026-06-05 | **Watch Face Format** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/watch-face-format [WARN] *Content retired* |
 | 2026-06-05 | **Activity embedding** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/activity-embedding/activity-embedding |
 | 2026-06-05 | **Implement passkeys with form autofill in a web app** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/passkey-form-autofill |
 | 2026-06-05 | **View Interoperability in Compose** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/basic-android-kotlin-compose-view-interop |
@@ -73,6 +68,10 @@ artifacts: complete, index
 | 2026-06-05 | **Visualize data with Google Maps Platform and deck.gl** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/maps-platform/maps-deck-gl |
 | 2026-06-05 | **Improve the user experience of your Android app** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/improve-user-experience/improve-user-experience |
 | 2026-06-05 | **Compose essentials** | Verified Google Developer learning activity. URL: https://developer.android.com/courses/quizzes/jetpack-compose-for-android-developers-1/jetpack-compose-for-android-developers-1 |
+| 2026-06-05 | **Module 4: Audit** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/data-cards-audit |
+| 2026-06-05 | **Module 1: Ask** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/data-cards-ask |
+| 2026-06-05 | **Create your first Tile in Wear OS** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/wear-tiles |
+| 2026-06-05 | **Create a custom text-classification model with TensorFlow Lite Model Maker** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/classify-text-update-tensorflow-serving |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-15.md](./google-developer-2026-06-part-15.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-17.md](./google-developer-2026-06-part-17.md)

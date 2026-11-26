@@ -15,10 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-05-27 | **Serverless Web APIs Workshop** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/serverless-web-apis |
-| 2026-05-27 | **How to use Baseline in your project** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/use-baseline-in-your-project |
-| 2026-05-27 | **Looker PSC Southbound HTTPS Internet NEG Gitlab Self-Managed** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/looker-psc-internet-neg-https-gitlab-on-prem |
-| 2026-05-27 | **Learn how to invoke authenticated Cloud Functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/how-to-invoke-authenticated-cloud-function |
 | 2026-05-27 | **Use Pulumi on Google Cloud with YAML** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/use-pulumi-on-google-cloud-yaml |
 | 2026-05-27 | **Create a video scene-by-scene image description service using Cloud Run, Video Intelligence API, and Vertex AI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/how-to-create-cloud-run-service-for-describing-scenes-in-a-video |
 | 2026-05-27 | **Looker PSC Northbound Regional Internal L7 ALB** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/looker-psc-internal-northbound-l7 |
@@ -60,6 +56,10 @@ artifacts: complete, index
 | 2026-05-26 | **MDC-101 Web: Material Components (MDC) Basics (Web)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mdc-101-web |
 | 2026-05-26 | **Using Google Gemini File Search Tool for RAG** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gemini-file-search-for-rag |
 | 2026-05-26 | **Ingest CSV (Comma-separated values) data to BigQuery using Cloud Data Fusion - Real time ingestion** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/real-time-csv-cdf-bq |
+| 2026-05-26 | **Measure performance with web-vitals.js, Google Analytics and BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/web-vitals-google-analytics-bigquery |
+| 2026-05-26 | **How to Use Cloud Run with Gemini Function Calling** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/how-to-cloud-run-gemini-function-calling |
+| 2026-05-26 | **Reverse ETL from Databricks to Spanner using CSV** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/databricks-csv-spanner |
+| 2026-05-26 | **Dependency management with Artifact Registry** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dependency-management-artifact-registry |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-10.md](./google-developer-2026-05-part-10.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-12.md](./google-developer-2026-05-part-12.md)

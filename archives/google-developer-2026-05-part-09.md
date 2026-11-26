@@ -15,10 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-05-26 | **Learn to prototype Responsible AI with the PAIR Guidebook and MakerSuite** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/makersuite-responsible-ai |
-| 2026-05-26 | **Getting started with Spanner Graph** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/spanner-graph-getting-started |
-| 2026-05-26 | **Update your app to support future predictive back gesture** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/handling-gesture-back-navigation |
-| 2026-05-26 | **How to configure a Cloud Run service to access an internal Cloud Run service using direct VPC egress** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/how-to-configure-cloud-run-service-direct-vpc-egress |
 | 2026-05-26 | **Create Spark ML models with Managed Service for Apache Spark** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/dataproc-spark-ml |
 | 2026-05-26 | **Connecting to Private CloudSQL from Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/connecting-to-private-cloudsql-from-cloud-run |
 | 2026-05-26 | **Build a Story Component with lit-element** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/lit-story-viewer |
@@ -61,6 +57,10 @@ artifacts: complete, index
 | 2026-05-24 | **Developing with Cloud Code** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/developing-with-cloud-code |
 | 2026-05-24 | **VPC Service Controls - BigQuery Protection Codelab I** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/vpc-sc-bigquery |
 | 2026-05-24 | **Deploy an Auto-Scaling HPC Cluster with Slurm** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/hpc-slurm-on-gcp |
+| 2026-05-24 | **Explicit Chaining of GCP L7 Load Balancers with PSC** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/l7lb-chain-psc |
+| 2026-05-24 | **How to create a Private Services Connect for CloudSQL** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/psc-cloud-sql |
+| 2026-05-24 | **Private Service Connect Interface Managed Services** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/psc-interface-mgd-service |
+| 2026-05-24 | **Serverless MEAN Stack Application on MongoDB Atlas and Cloud Run** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/mean-cloudrun-app |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-08.md](./google-developer-2026-05-part-08.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-10.md](./google-developer-2026-05-part-10.md)

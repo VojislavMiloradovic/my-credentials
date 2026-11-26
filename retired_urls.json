@@ -902,6 +902,334 @@
       "reason": "Auto-retired: removed from source data on 2026-11-18",
       "retired_at": "2026-11-18",
       "title": "Build, Scale, and Govern Agents on Gemini Enterprise Agent Platform with Antigravity CLI"
+    },
+    {
+      "id": "Android 11 - Week 2 - Machine Learning",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-week2-machine-learning",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11 - Week 2 - Machine Learning"
+    },
+    {
+      "id": "Android 11 - Week 3 - Privacy, Trust and Security",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-week3-privacy-trust-security",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11 - Week 3 - Privacy, Trust and Security"
+    },
+    {
+      "id": "Android 11 - Week 4 - Compatibility",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-week4-compatibility",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11 - Week 4 - Compatibility"
+    },
+    {
+      "id": "Android 11—Week 10—Games and media",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-week10-games-and-media",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11—Week 10—Games and media"
+    },
+    {
+      "id": "Android 11—Week 10—Games and media quiz",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-week10-games-and-media/android-11-week-10",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11—Week 10—Games and media quiz"
+    },
+    {
+      "id": "Android 11—Week 11—Modern UI",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-week11-modern-ui",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11—Week 11—Modern UI"
+    },
+    {
+      "id": "Android 11—Week 11—Modern UI quiz",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-week11-modern-ui/android-11-week-11-1",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11—Week 11—Modern UI quiz"
+    },
+    {
+      "id": "Android 11—Week 6—Jetpack",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-week6-jetpack",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11—Week 6—Jetpack"
+    },
+    {
+      "id": "Android 11—Week 7—Developer tools",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-week7-developer-tools",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11—Week 7—Developer tools"
+    },
+    {
+      "id": "Android 11—Week 8—App distribution and monetization",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-week8-app-distribution-monetization",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11—Week 8—App distribution and monetization"
+    },
+    {
+      "id": "Android 11—Week 9—Large Screens",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-week9-large-screens",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11—Week 9—Large Screens"
+    },
+    {
+      "id": "Android 11—Week 9—Large screens quiz",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-week9-large-screens/android-11-week-9-2",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11—Week 9—Large screens quiz"
+    },
+    {
+      "id": "Android 11—Week 9—TV",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-week9-android-tv",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11—Week 9—TV"
+    },
+    {
+      "id": "Android 11—Week 9—TV quiz",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-week9-android-tv/android-11-week-9-1",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android 11—Week 9—TV quiz"
+    },
+    {
+      "id": "Android Jetpack quiz",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-week6-jetpack/android-11-week-6",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android Jetpack quiz"
+    },
+    {
+      "id": "Android developer tools quiz",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-week7-developer-tools/android-11-week-7",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Android developer tools quiz"
+    },
+    {
+      "id": "App Distribution and Monetization quiz",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-week8-app-distribution-monetization/android-11-week-8",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "App Distribution and Monetization quiz"
+    },
+    {
+      "id": "Apply Material Design to Android apps in Kotlin",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/mdc-kotlin",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Apply Material Design to Android apps in Kotlin"
+    },
+    {
+      "id": "Build a handwritten digit classifier app with TensorFlow Lite",
+      "match_type": "url",
+      "url": "https://developer.android.com/codelabs/digit-classifier-tflite",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Build a handwritten digit classifier app with TensorFlow Lite"
+    },
+    {
+      "id": "Building watch faces for Wear OS",
+      "match_type": "url",
+      "url": "https://developer.android.com/codelabs/watch-face-format",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Building watch faces for Wear OS"
+    },
+    {
+      "id": "Compatibility quiz",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-week4-compatibility/android-11-week-4",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Compatibility quiz"
+    },
+    {
+      "id": "Download and install Android Studio",
+      "match_type": "url",
+      "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-install-android-studio",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Download and install Android Studio"
+    },
+    {
+      "id": "How to connect your Android device",
+      "match_type": "url",
+      "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-connect-device",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "How to connect your Android device"
+    },
+    {
+      "id": "Languages quiz",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-week5-languages/android-11-week-5",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Languages quiz"
+    },
+    {
+      "id": "Lesson 10: Advanced RecyclerView use cases",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-development-with-kotlin-10",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 10: Advanced RecyclerView use cases"
+    },
+    {
+      "id": "Lesson 11: Connect to the internet",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-development-with-kotlin-11/android-development-with-kotlin-11",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 11: Connect to the internet"
+    },
+    {
+      "id": "Lesson 12: Repository pattern and WorkManager",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-development-with-kotlin-12/android-development-with-kotlin-12",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 12: Repository pattern and WorkManager"
+    },
+    {
+      "id": "Lesson 13: App UI design",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-development-with-kotlin-13",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 13: App UI design"
+    },
+    {
+      "id": "Lesson 1: Kotlin basics",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-development-with-kotlin-1",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 1: Kotlin basics"
+    },
+    {
+      "id": "Lesson 2: Functions",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-development-with-kotlin-2/android-development-with-kotlin-2",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 2: Functions"
+    },
+    {
+      "id": "Lesson 3: Classes and Objects",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-development-with-kotlin-3",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 3: Classes and Objects"
+    },
+    {
+      "id": "Lesson 4: Build your first Android app",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-development-with-kotlin-4/android-development-with-kotlin-4",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 4: Build your first Android app"
+    },
+    {
+      "id": "Lesson 5: Layouts",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-development-with-kotlin-5/android-development-with-kotlin-5",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 5: Layouts"
+    },
+    {
+      "id": "Lesson 6: App navigation",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-development-with-kotlin-6",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 6: App navigation"
+    },
+    {
+      "id": "Lesson 7: Activity and fragment lifecycles",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-development-with-kotlin-7",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 7: Activity and fragment lifecycles"
+    },
+    {
+      "id": "Lesson 8: App architecture (UI layer)",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/pathways/android-development-with-kotlin-8",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 8: App architecture (UI layer)"
+    },
+    {
+      "id": "Lesson 9: App architecture (persistence)",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-development-with-kotlin-9/android-development-with-kotlin-9",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Lesson 9: App architecture (persistence)"
+    },
+    {
+      "id": "Machine learning quiz",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-week2-machine-learning/android-11-week-2",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Machine learning quiz"
+    },
+    {
+      "id": "People and identity quiz",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-week1-people-identity/android-11-week-1",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "People and identity quiz"
+    },
+    {
+      "id": "Privacy and security quiz",
+      "match_type": "url",
+      "url": "https://developer.android.com/courses/quizzes/android-week3-privacy-trust-security/android-11-week-3",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Privacy and security quiz"
+    },
+    {
+      "id": "Run your first app on the Android Emulator",
+      "match_type": "url",
+      "url": "https://developer.android.com/codelabs/basic-android-kotlin-compose-emulator",
+      "reason": "Auto-retired: removed from source data on 2026-11-26",
+      "retired_at": "2026-11-26",
+      "title": "Run your first app on the Android Emulator"
     }
   ],
   "test-platform": [

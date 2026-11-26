@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-05-21 | **Build a Travel Agent using MCP Toolbox for Databases and Agent Development Kit (ADK)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/travel-agent-mcp-toolbox-adk |
-| 2026-05-21 | **MCP Toolbox for Databases: Making BigQuery datasets available to MCP clients** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mcp-toolbox-bigquery-dataset |
 | 2026-05-21 | **Codelab - Building GraphRAG Agents with ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/neo4j-adk-graphrag-agents |
 | 2026-05-21 | **Hackathon Challenge Lab** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/hackathon-challenge-lab |
 | 2026-05-21 | **Deploy Apps quickly with Application Design Center** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/adc-apps |
@@ -62,6 +60,8 @@ artifacts: complete, index
 | 2026-05-21 | **From vibe checks to data-driven Agent Evaluation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-roadshow/2-evaluating-multi-agent-systems/evaluating-multi-agent-systems |
 | 2026-05-21 | **Supply Chain Traceability with BigQuery Graph** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/supplychaingraph |
 | 2026-05-21 | **Build an Event-Driven Data Agent with BigQuery and ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-adk-event-driven-agents |
+| 2026-05-21 | **Build Customer 360 recommendation applications with BigQuery Graph** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/c360-bigquery-graph |
+| 2026-05-21 | **Learn Android XR Fundamentals: Part 1 - Spaces and Spatial Panels** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/xr-fundamentals-part-1 |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-04.md](./google-developer-2026-05-part-04.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-06.md](./google-developer-2026-05-part-06.md)

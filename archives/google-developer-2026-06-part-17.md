@@ -15,11 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-05 | **Firebase Studio** | Official Google Developer platform achievement (Community: firebase studio). |
-| 2026-06-05 | **Learn Performance** | Official Google Developer platform achievement (Learning Pathway: learn performance). |
-| 2026-06-05 | **Learn Testing** | Official Google Developer platform achievement (Learning Pathway: learn testing). |
-| 2026-06-05 | **Improve User Experience** | Official Google Developer platform achievement (Learning Pathway: improve user experience). |
-| 2026-06-05 | **Material Design Web** | Official Google Developer platform achievement (Learning Pathway: material design web). |
 | 2026-06-05 | **Get Started Text Classification Web** | Official Google Developer platform achievement (Learning Pathway: get started text classification web). |
 | 2026-06-05 | **Add Firebase To Flutter** | Official Google Developer platform achievement (Learning Pathway: add_firebase_to_flutter). |
 | 2026-06-05 | **Llm On Android** | Official Google Developer platform achievement (Learning Pathway: llm on android). |
@@ -82,6 +77,11 @@ artifacts: complete, index
 | 2026-06-05 | **Android Basics Compose Unit 2 Pathway 3** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 2 pathway 3). |
 | 2026-06-05 | **Android Basics Compose Unit 7 Pathway 1** | Official Google Developer platform achievement (Learning Pathway: android basics compose unit 7 pathway 1). |
 | 2026-06-05 | **Jetpack Compose For Android Developers 5** | Official Google Developer platform achievement (Learning Pathway: jetpack compose for android developers 5). |
+| 2026-06-05 | **Maintainable Scalable Web Apps** | Official Google Developer platform achievement (Learning Pathway: maintainable scalable web apps). |
+| 2026-06-05 | **Created Profile** | Official Google Developer platform achievement (Learning Pathway: created profile). |
+| 2026-06-05 | **Web Apps With Firebase** | Official Google Developer platform achievement (Learning Pathway: web apps with firebase). |
+| 2026-06-05 | **Get Started Image Product Search** | Official Google Developer platform achievement (Learning Pathway: get started image product search). |
+| 2026-06-05 | **Android 11 Week 1** | Official Google Developer platform achievement (Learning Pathway: android 11 week 1). |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-16.md](./google-developer-2026-06-part-16.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-18.md](./google-developer-2026-06-part-18.md)

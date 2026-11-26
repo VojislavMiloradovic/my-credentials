@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 6 of 38
 date_range: 2026-05-21 to 2026-05-23
-total_entries: 46
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-05-part-06.md
 layer: L2_published
 transform: unknown
@@ -15,9 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-05-23 | **Build and Evaluate BigQuery Agents using Agent Development Kit (ADK) and GenAI Eval Service** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/bigquery-adk-eval |
-| 2026-05-23 | **How to Build an MCP Server with Gemini CLI and Go** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/cloud-gemini-cli-mcp-go |
-| 2026-05-23 | **Fine-tune Gemini on Gemini Enterprise Agent Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/9-ai-finetuning/finetune-gemini-vertex-ai |
 | 2026-05-23 | **Scale Reinforcement Learning with GKE and Managed Lustre** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/rl-gke-lustre |
 | 2026-05-23 | **Evaluating Single LLM Outputs With Vertex AI Evaluation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/production-ready-ai-with-gc/6-ai-evaluation/evaluating-single-llm-outputs-with-vertex-ai-evaluation |
 | 2026-05-23 | **Scale Distributed Data Processing with GKE to build a Knowledge Graph in BigQuery** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/gke/ai-toolkit-lab-3 |
@@ -61,6 +58,8 @@ artifacts: complete, index
 | 2026-05-21 | **Integrate Gemini Enterprise Agents with Google Workspace** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/ge-gws-agents |
 | 2026-05-21 | **Building AI Agents with ADK: The Foundation** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/build-agents-with-adk-foundation |
 | 2026-05-21 | **Deploy an Application with Gemini CLI and CI/CD Skills** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/cicd-skills |
+| 2026-05-21 | **Build a Travel Agent using MCP Toolbox for Databases and Agent Development Kit (ADK)** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/travel-agent-mcp-toolbox-adk |
+| 2026-05-21 | **MCP Toolbox for Databases: Making BigQuery datasets available to MCP clients** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mcp-toolbox-bigquery-dataset |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-05.md](./google-developer-2026-05-part-05.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-07.md](./google-developer-2026-05-part-07.md)

@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 14 of 38
 date_range: 2026-06-02 to 2026-06-03
-total_entries: 44
+total_entries: 45
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-14.md
 layer: L2_published
 transform: unknown
@@ -15,9 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-03 | **Quiz: Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/firebase-mfa-security-rules |
-| 2026-06-03 | **Test Your App With Firebase And Continuous Integration** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-continuous-integration/test-your-app-with-firebase-and-continuous-integration |
-| 2026-06-03 | **Protect your app from abuse with App Check quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-app-check/protect-your-app-from-abuse-with-app-check |
 | 2026-06-03 | **Migrate existing apps to Room KMP** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/kmp-migrate-room |
 | 2026-06-03 | **Revision 2025 Q4: Learn how to simplify auth journeys using Credential Manager API in your Android app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/credential-manager-api-for-android |
 | 2026-06-03 | **Instrument your Unity game with Firebase Remote Config** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/instrument-your-game-with-firebase-remote-config |
@@ -59,6 +56,10 @@ artifacts: complete, index
 | 2026-06-02 | **Distributed tracing with Spring Cloud Sleuth and Cloud Trace** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-spring-cloud-gcp-trace |
 | 2026-06-02 | **Build, containerize, and deploy Spring Boot apps on Google Cloud quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/java-cloud-fundamentals/build-containerize-deploy-spring-boot-apps-on-google-cloud |
 | 2026-06-02 | **Your first Flutter app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/flutter-codelab-first |
+| 2026-06-02 | **Update your app to use a spam filtering Machine Learning model** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tflite-nlp-update-app |
+| 2026-06-02 | **Get started with the Scene Semantics and Geospatial Depth APIs in ARCore** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/arcore-scene-semantics-geospatial-depth |
+| 2026-06-02 | **Detect objects in images with ML Kit: Android** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/mlkit-android-odt |
+| 2026-06-02 | **Build and launch a Spring Boot Java app from Cloud Shell** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/cloud-springboot-cloudshell |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-13.md](./google-developer-2026-06-part-13.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-15.md](./google-developer-2026-06-part-15.md)

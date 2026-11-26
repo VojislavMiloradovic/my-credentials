@@ -15,10 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-05-30 | **Vertex AI: Training and serving a custom model** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex_custom_training_prediction |
-| 2026-05-30 | **Releasing with Cloud Deploy** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/releasing-with-cloud-deploy |
-| 2026-05-30 | **Search for and select Google APIs** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/search-for-and-select-google-apis |
-| 2026-05-30 | **Use Coral Edge TPUs to run TFlite models in Node with TensorFlow.js** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/tensorflowjs-coral-tflite-node |
 | 2026-05-30 | **Your first WebGPU app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/your-first-webgpu-app |
 | 2026-05-30 | **Running custom model training on Vertex Pipelines** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/vertex-pipelines-custom-model |
 | 2026-05-30 | **Build a Smart Shopping Assistant with AlloyDB and Vertex AI Agent Builder - Part 2** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/smart-shop-agent-vertexai |
@@ -63,6 +59,10 @@ artifacts: complete, index
 | 2026-05-27 | **Training and hyperparameter tuning a PyTorch model on Cloud AI Platform** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/training-tuning-caip |
 | 2026-05-27 | **Embed Looker with Conversational Analytics** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/looker-embedded-conversational-analytics |
 | 2026-05-27 | **Serverless Data Transformation with Apache Spark in BigQuery Studio Notebooks** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/devsite/codelabs/serverless-data-transformation-spark-bigquery-studio |
+| 2026-05-27 | **Serverless Web APIs Workshop** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/serverless-web-apis |
+| 2026-05-27 | **How to use Baseline in your project** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/use-baseline-in-your-project |
+| 2026-05-27 | **Looker PSC Southbound HTTPS Internet NEG Gitlab Self-Managed** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/looker-psc-internet-neg-https-gitlab-on-prem |
+| 2026-05-27 | **Learn how to invoke authenticated Cloud Functions** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/how-to-invoke-authenticated-cloud-function |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-11.md](./google-developer-2026-05-part-11.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-13.md](./google-developer-2026-06-part-13.md)

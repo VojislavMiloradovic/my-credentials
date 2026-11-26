@@ -15,8 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-05-21 | **Build Customer 360 recommendation applications with BigQuery Graph** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/c360-bigquery-graph |
-| 2026-05-21 | **Learn Android XR Fundamentals: Part 1 - Spaces and Spatial Panels** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/xr-fundamentals-part-1 |
 | 2026-05-21 | **🪐 Build & Ship an AI App with Antigravity** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/coding-jam/instructions |
 | 2026-05-21 | **Building a Governed Iceberg Lakehouse with Google Cloud Lakehouse and Knowledge Catalog** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/governed-lakehouse-compute-delegation |
 | 2026-05-21 | **Build a Multi-agent App with MCP Toolbox for AlloyDB & ADK** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/multi-agent-app-toolbox-adk |
@@ -61,6 +59,8 @@ artifacts: complete, index
 | 2026-05-21 | **Stateful Data Science Agent on Agent Runtime** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/next26/adk-deploy-scale |
 | 2026-05-21 | **Platform Engineering AI with GKE and Gemini CLI** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/gke/platform-engineering-ai-tools |
 | 2026-05-20 | **Add Sign in with Google to an iOS app** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/codelabs/sign-in-with-google-ios |
+| 2026-05-20 | **Approximate location** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/approximate-location |
+| 2026-05-20 | **Agents CLI in Agent Platform: From Development to Production** | Verified Google Developer learning activity. URL: https://codelabs.developers.google.com/agents-cli-agent-platform/agents-cli-agent-platform |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-05-part-03.md](./google-developer-2026-05-part-03.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-05-part-05.md](./google-developer-2026-05-part-05.md)

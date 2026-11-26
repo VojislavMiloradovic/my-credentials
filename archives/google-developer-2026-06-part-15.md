@@ -2,7 +2,7 @@
 archive_platform: google-developer
 chunk_part: 15 of 38
 date_range: 2026-06-03 to 2026-06-05
-total_entries: 45
+total_entries: 44
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-2026-06-part-15.md
 layer: L2_published
 transform: unknown
@@ -15,10 +15,6 @@ artifacts: complete, index
 
 | Date Earned | Title | Description |
 | :---: | :--- | :--- |
-| 2026-06-05 | **Module 4: Audit** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/data-cards-audit |
-| 2026-06-05 | **Module 1: Ask** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/data-cards-ask |
-| 2026-06-05 | **Create your first Tile in Wear OS** | Verified Google Developer learning activity. URL: https://developer.android.com/codelabs/wear-tiles |
-| 2026-06-05 | **Create a custom text-classification model with TensorFlow Lite Model Maker** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/classify-text-update-tensorflow-serving |
 | 2026-06-05 | **Follow Material Design guidelines for Android apps in Java** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/mdc-java |
 | 2026-06-05 | **Module 3: Answer** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/data-cards-answer |
 | 2026-06-05 | **Create an iOS app to predict values** | Verified Google Developer learning activity. URL: https://developers.google.com/codelabs/regression-tensorflow-serving |
@@ -60,6 +56,9 @@ artifacts: complete, index
 | 2026-06-03 | **Use Remote Config to update your Unity game without a release quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-remote-config/use-remote-config-to-update-game-without-a-release |
 | 2026-06-03 | **CI With Testlab** | Verified Google Developer learning activity. URL: https://firebase.google.com/codelabs/ci-with-testlab |
 | 2026-06-03 | **Creating a multiplayer crossword with Gemini, Flutter, and Firebase** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/pathways/developers/learn/pathways/solution-crossword |
+| 2026-06-03 | **Quiz: Use MFA, blocking functions, and cross-service Security Rules** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/developers/learn/pathways/quizzes/firebase-mfa-security-rules |
+| 2026-06-03 | **Test Your App With Firebase And Continuous Integration** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-continuous-integration/test-your-app-with-firebase-and-continuous-integration |
+| 2026-06-03 | **Protect your app from abuse with App Check quiz** | Verified Google Developer learning activity. URL: https://me.developers.google.com/learning/quizzes/firebase/learn/quizzes/firebase-app-check/protect-your-app-from-abuse-with-app-check |
 
 ---
 > **Navigation:** Prev: [google-developer-2026-06-part-14.md](./google-developer-2026-06-part-14.md) | [Index](./google-developer-index.md) | Next: [google-developer-2026-06-part-16.md](./google-developer-2026-06-part-16.md)
