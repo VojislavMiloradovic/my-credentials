@@ -343,7 +343,7 @@ class GoogleDeveloperBadgeModel(ProvenanceBase):
     def validate_date(cls, val: Any) -> str:
         return normalize_date_string(val)
 
-    
+
 # ==============================================================================
 # LOSS GUARD & ANOMALY PROTECTIONS (module-level for backward compat)
 # ==============================================================================
