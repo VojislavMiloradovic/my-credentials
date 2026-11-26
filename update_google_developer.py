@@ -343,21 +343,7 @@ class GoogleDeveloperBadgeModel(ProvenanceBase):
     def validate_date(cls, val: Any) -> str:
         return normalize_date_string(val)
 
-    @field_validator("verification_status", mode="before")
-    @classmethod
-    def compute_verification_status(cls, val: Any, info) -> VerificationStatus:
-        """Auto-compute verification status from record state."""
-        if isinstance(val, VerificationStatus):
-            return val
-        retired_val = info.data.get("retired", False)
-        url_val = info.data.get("url") or info.data.get("verify_url")
-        if retired_val:
-            return VerificationStatus.RETIRED
-        if url_val:
-            return VerificationStatus.VERIFIED
-        return VerificationStatus.UNKNOWN
-
-
+    
 # ==============================================================================
 # LOSS GUARD & ANOMALY PROTECTIONS (module-level for backward compat)
 # ==============================================================================
