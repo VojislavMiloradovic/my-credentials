@@ -1,7 +1,5 @@
 name: Security & Repository Health Checks
 
-name: Security & Repository Health Checks
-
 on:
   push:
     branches: [ main ]
