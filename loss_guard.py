@@ -203,6 +203,8 @@ def compute_content_hash(record: dict, id_field: str, platform: str = "") -> str
         "retrieved_at",
         "last_verified_at",
         "verification_status",
+        "evidence_level",
+        "verification_url_kind",
         "source_hash",
         "retrieval_method",
     }
@@ -803,6 +805,8 @@ def mark_retired(
 
         if is_retired:
             item[retired_field] = True
+            if "verification_status" in item:
+                item["verification_status"] = "retired"
             if matched_rule:
                 if matched_rule.get("reason"):
                     item["retirement_reason"] = matched_rule["reason"]
