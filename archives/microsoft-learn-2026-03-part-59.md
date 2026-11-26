@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Configure engineering change management for Dynamics 365 Supply Chain Management** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-engineering-change-management/) |
 | **Set up cost and sales prices for time, expense, and materials in Dynamics 365 Project Operations** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-cost-sales-price/) |
 | **Extend Dynamics 365 Customer Service** | Learningpaths | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-customer-service/) |
 | **Create custom apps for Dynamics 365 Customer Service** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/custom-apps-customer-service/) |
@@ -62,7 +63,6 @@ artifacts: complete, index
 | **Deploy and use SDOH datasets transformations for analytics** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-sdoh-transformations/) |
 | **Introduction to Power Pages administration** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-pages-admin-intro/) |
 | **Extend finance and operations apps** | Learningpaths | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/extending-finance-operations/) |
-| **Extend elements in finance and operations apps** | Modules | 2026-03-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-elements-finance-operations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-58.md](./microsoft-learn-2026-03-part-58.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-60.md](./microsoft-learn-2026-03-part-60.md)

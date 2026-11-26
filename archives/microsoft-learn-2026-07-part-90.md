@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Work smarter with Copilot prompts for marketing professionals** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-smarter-copilot-marketing/) |
 | **Mount Azure NetApp Files volumes** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/mount-azure-netapp-files-volumes/) |
 | **Describe the business value of Microsoft Power Platform** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-business-value-microsoft-power-platform/) |
 | **Understand Windows Server service accounts** | Modules | 2026-07-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-windows-service-accounts/) |
@@ -61,7 +62,6 @@ artifacts: complete, index
 | **Explore advanced integration and interoperability in Microsoft for Healthcare** | Learningpaths | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/healthcare-advanced-integration-interoperability/) |
 | **Integration and interoperability solution for healthcare and life sciences** | Modules | 2026-07-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-interoperability/) |
 | **Build enterprise-grade tool ecosystems with MCP and Microsoft Foundry** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-build-enterprise-tool-ecosystems-mcp-azure/) |
-| **Apply task decomposition and agent collaboration strategies in Microsoft Foundry** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-apply-task-decomposition-multi-agent-azure/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-89.md](./microsoft-learn-2026-07-part-89.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-91.md](./microsoft-learn-2026-07-part-91.md)

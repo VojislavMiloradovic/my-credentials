@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **AZ-305: Design business continuity solutions** | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/) |
 | **Design a solution for backup and disaster recovery** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-solution-for-backup-disaster-recovery/) |
 | **Use imperative development techniques for canvas apps in Power Apps** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-imperative-dev-techniques-powerapps-canvas-app/) |
 | **Design data integration** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-integration/) |
@@ -68,7 +69,6 @@ artifacts: complete, index
 | **GitHub Copilot Fundamentals Part 1 of 2** | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot/) |
 | **Introduction to Copilot Spaces** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-spaces/) |
 | **Perform code maintenance tasks using GitHub Copilot Agent** | Learningpaths | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/perform-code-maintenance-tasks-github-copilot-agent/) |
-| **Consolidate duplicate logic using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/consolidate-duplicate-logic-github-copilot-agent/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-84.md](./microsoft-learn-2026-06-part-84.md)

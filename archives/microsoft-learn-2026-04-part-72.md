@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Build and sell Microsoft Teams apps in Microsoft AppSource and the Microsoft Teams store** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/msteams-monetize-apps/) |
 | **Text Analytics for health overview** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-text-analytics/) |
 | **Integrate procurement between Dynamics 365 Supply Chain Management and Dynamics 365 Field Service** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/procurement-field-service-supply-chain-management/) |
 | **Manage and engage with volunteers in Microsoft for Nonprofits** | Learningpaths | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/volunteer-management-nonprofit/) |
@@ -64,7 +65,6 @@ artifacts: complete, index
 | **Analyze performance indicators for Azure Blob Storage** | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-azure-blob-storage-performance-indicators/) |
 | **Azure AI Health Bot in Microsoft for Healthcare** | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-health-bot/) |
 | **Deploy Defender for IoT for OT monitoring** | Learningpaths | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/defender-iot-deploy-ot-monitoring/) |
-| **Fine-tune your Microsoft Defender for IoT OT sensor** | Modules | 2026-04-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/defender-iot-fine-tune-deployment/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-71.md](./microsoft-learn-2026-04-part-71.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-73.md](./microsoft-learn-2026-04-part-73.md)

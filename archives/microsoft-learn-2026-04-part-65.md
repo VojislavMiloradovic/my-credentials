@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Tailor roles and design the UI for Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/tailor-roles-design-ui/) |
 | **Develop a Role Center in Dynamics 365 Business Central** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-role-center/) |
 | **Process sales and purchases in foreign currencies in Dynamics 365 Business Central** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-foreign-currency-payments-dynamics-365-business-central/) |
 | **Manage Internet Information Services** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-internet-information-services/) |
@@ -62,7 +63,6 @@ artifacts: complete, index
 | **Use Resource Scheduling Optimization for Dynamics 365 Field Service** | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/leveraging-resource-scheduling-optimization/) |
 | **Universal Resource Scheduling in Microsoft Dynamics 365 Field Service** | Learningpaths | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/universal-resource-scheduling/) |
 | **Set up Finance insights in Dynamics 365 Finance** | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-finance-insights/) |
-| **Pick and ship items from the warehouse in Dynamics 365 Business Central** | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/pick-ship-items-warehouse/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-64.md](./microsoft-learn-2026-04-part-64.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-66.md](./microsoft-learn-2026-04-part-66.md)

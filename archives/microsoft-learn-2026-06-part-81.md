@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Deploy containers to Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-containers-azure-container-apps/) |
 | **Implement and manage Microsoft Purview Data Loss Prevention** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-manage-dlp/) |
 | **Create and manage data loss prevention policies** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-create-manage-policies/) |
 | **Protect information in a Microsoft 365 Copilot environment using Microsoft Purview** | Learningpaths | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-microsoft-365-copilot-environment/) |
@@ -30,8 +31,8 @@ artifacts: complete, index
 | **Implement Microsoft Defender for Endpoint using Microsoft Intune** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-defender-endpoint-intune/) |
 | **Manage AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-ai-ready-infrastructure/) |
 | **Manage monitoring for AI-Ready Infrastructure** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-monitoring-ai-ready-infrastructure/) |
-| **Apply governance controls to AI-ready workloads** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
 | **Govern AI-ready infrastructure** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/govern-ai-ready-infrastructure/) |
+| **Apply governance controls to AI-ready workloads** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/apply-governance-controls-ai-ready-workloads/) |
 | **Develop AI solutions with Azure Cosmos DB for NoSQL** | Learningpaths | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-ai-solutions-azure-cosmos-db/) |
 | **Build queries for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-query-azure-cosmos-db/) |
 | **Optimize query performance for Azure Cosmos DB for NoSQL** | Modules | 2026-06-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-query-performance-azure-cosmos-db/) |
@@ -64,7 +65,6 @@ artifacts: complete, index
 | **Analyze app telemetry with logs and metrics** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-telemetry-logs-metrics/) |
 | **Resolve GitHub issues using GitHub Copilot Agent** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/apl-2014-github-issues/) |
 | **Resolve GitHub issues using GitHub Copilot Agent** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/resolve-github-issues-github-copilot-agent/) |
-| **Resolve GitHub Secret Scanning alerts using GitHub Copilot Agent** | Learningpaths | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/paths/apl-2015-github-secret-scanning/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-80.md](./microsoft-learn-2026-05-part-80.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-82.md](./microsoft-learn-2026-06-part-82.md)

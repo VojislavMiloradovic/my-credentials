@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Create Azure Resources Using Azure CLI** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-azure-resources-by-using-azure-cli/) |
 | **Explore Power Automate architecture** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-automate-architecture/) |
 | **Automate inspection of health** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/automate-inspection-health/) |
 | **Implement and monitor the integration of enterprise apps for SSO** | Modules | 2026-06-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-monitor-integration-of-enterprise-apps-for-sso/) |
@@ -65,7 +66,6 @@ artifacts: complete, index
 | **Design a data storage solution for non-relational data** | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-data-storage-solution-for-non-relational-data/) |
 | **Implement initial configuration of Microsoft Entra ID** | Modules | 2026-06-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-initial-configuration-of-azure-active-directory/) |
 | **Design authentication and authorization solutions** | Modules | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-authentication-authorization-solutions/) |
-| **AZ-305: Design business continuity solutions** | Learningpaths | 2026-06-09 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-business-continuity-solutions/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-85.md](./microsoft-learn-2026-06-part-85.md)

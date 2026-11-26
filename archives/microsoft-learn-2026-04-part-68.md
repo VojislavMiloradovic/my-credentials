@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Set up and use the sales accelerator capabilities in Dynamics 365 Sales** | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/sales-accelerator/) |
 | **Set up Sales accelerator in Dynamics 365 Sales** | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-sales-accelerator/) |
 | **Get started with Service Management in Dynamics 365 Business Central** | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-service-management/) |
 | **Evaluate marketing initiatives with analytics in Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-insights-marketing/) |
@@ -62,7 +63,6 @@ artifacts: complete, index
 | **Receive and put away inventory items in Dynamics 365 Business Central** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/receive-put-away-items/) |
 | **Intelligent cash flow in Dynamics 365 Finance** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/intelligent-cash-flow-finance/) |
 | **Using IoT Central with Connected Field Service for Dynamics 365** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-iot-central-with-connected-field-service/) |
-| **Deliver remote desktops and apps with Azure Virtual Desktop** | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-wvd/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-67.md](./microsoft-learn-2026-04-part-67.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-69.md](./microsoft-learn-2026-04-part-69.md)

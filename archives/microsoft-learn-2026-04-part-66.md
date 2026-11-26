@@ -15,12 +15,13 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Manage Windows updates in the cloud** | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-windows-manage-cloud-device-updates/) |
 | **Advanced configuration for Dynamics 365 Customer Insights - Journeys** | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-advanced-configuration/) |
 | **Set up Dynamics 365 Customer Insights - Journeys and configure advanced settings** | Learningpaths | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-with-marketing/) |
 | **Build an end to end data governance and master data management stack with Microsoft Purview and CluedIn** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/building-end-to-end-data-governance-master-data-stack-with-microsoft-purview-cluedin/) |
 | **Create cost accounting master data in Dynamics 365 Business Central** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/master-data-dynamics-365-business-central/) |
-| **Set up pipeline environments in Microsoft Power Platform** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-pipeline-environments/) |
 | **Simplify Microsoft Power Platform deployments by using pipelines** | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/simplify-power-platform-deployments/) |
+| **Set up pipeline environments in Microsoft Power Platform** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-pipeline-environments/) |
 | **Create resources in Dynamics 365 Business Central** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-resources/) |
 | **Unlock customer intent with Dynamics 365 Customer Insights - Data** | Learningpaths | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-customer-insights/) |
 | **Configure and administer Customer Insights - Data** | Modules | 2026-04-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/administer-customer-data-platform/) |
@@ -52,8 +53,8 @@ artifacts: complete, index
 | **Work with master data in Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-master-data-business-central/) |
 | **Create accessible web apps by using ASP.NET Core** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/aspnet-core-accessibility/) |
 | **Process foreign currency payments in Dynamics 365 Business Central** | Modules | 2026-04-09 | [Verify](https://learn.microsoft.com/en-us/training/modules/foreign-currencies-dynamics-365-business-central/) |
-| **Implement and manage data privacy with Microsoft Priva** | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/priva-data-privacy-solutions/) |
 | **Manage Microsoft Priva Subject Rights Requests** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/priva-subject-rights-requests/) |
+| **Implement and manage data privacy with Microsoft Priva** | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/priva-data-privacy-solutions/) |
 | **Boost K-12 school cybersecurity leadership with Microsoft tools** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/boost-school-cybersecurity-leadership-microsoft-tools/) |
 | **Troubleshoot connectivity issues with virtual machines in Microsoft Azure** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-connectivity-issues-virtual-machines-azure/) |
 | **Create and process fixed kanbans in Dynamics 365 Supply Chain Management** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-process-fixed-kanbans-dyn365-supply-chain-mgmt/) |
@@ -61,7 +62,6 @@ artifacts: complete, index
 | **Use dimensions in your financial reports in Dynamics 365 Business Central** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/dimensions-financial-reports-dynamics-365-business-central/) |
 | **Set up a waste sustainability solution by using Microsoft Sustainability Manager** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-waste-solution/) |
 | **Connect educators and learners with Canvas and Microsoft 365** | Modules | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-faculty-learners-canvas-microsoft-365/) |
-| **Tailor roles and design the UI for Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/tailor-roles-design-ui/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-65.md](./microsoft-learn-2026-04-part-65.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-67.md](./microsoft-learn-2026-04-part-67.md)

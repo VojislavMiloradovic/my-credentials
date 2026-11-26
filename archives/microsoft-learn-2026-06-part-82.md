@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Consolidate duplicate logic using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/consolidate-duplicate-logic-github-copilot-agent/) |
 | **Refactor large functions using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/refactor-large-functions-github-copilot/) |
 | **Simplify complex conditionals using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/simplify-complex-conditionals-github-copilot-agent/) |
 | **Improve code performance using GitHub Copilot Agent** | Modules | 2026-06-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/improve-code-performance-github-copilot-agent/) |
@@ -63,7 +64,6 @@ artifacts: complete, index
 | **Deploy containers to Azure App Service** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-containers-azure-app-service/) |
 | **Scale containers in Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/scale-containers-azure-container-apps/) |
 | **Manage containers in Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-containers-azure-container-apps/) |
-| **Deploy containers to Azure Container Apps** | Modules | 2026-06-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-containers-azure-container-apps/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-06-part-81.md](./microsoft-learn-2026-06-part-81.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-83.md](./microsoft-learn-2026-06-part-83.md)

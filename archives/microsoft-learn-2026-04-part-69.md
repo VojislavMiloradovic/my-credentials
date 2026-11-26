@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Allocate costs in Dynamics 365 Business Central** | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/allocate-costs-dynamics-365-business-central/) |
 | **Use cost accounting in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-cost-accounting-dynamics-365-business-central/) |
 | **Set up and work with Finance insights in Dynamics 365 Finance** | Learningpaths | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/setup-work-finance-insights/) |
 | **Use customer payment predictions in Dynamics 365 Finance** | Modules | 2026-04-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-customer-payment-predictions-finance/) |
@@ -64,7 +65,6 @@ artifacts: complete, index
 | **Create and manage journeys with Dynamics 365 Customer Insights** | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/create-manage-journeys-dynamics-365-customer-insights/) |
 | **Manage a company with multiple locations in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-multiple-locations/) |
 | **Transfer items in Dynamics 365 Business Central** | Modules | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/transfer-items/) |
-| **Set up and use the sales accelerator capabilities in Dynamics 365 Sales** | Learningpaths | 2026-04-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/sales-accelerator/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-68.md](./microsoft-learn-2026-04-part-68.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-70.md](./microsoft-learn-2026-04-part-70.md)

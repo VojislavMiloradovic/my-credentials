@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Pick and ship items from the warehouse in Dynamics 365 Business Central** | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/pick-ship-items-warehouse/) |
 | **Pick and ship items in Microsoft Dynamics 365 Business Central** | Learningpaths | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/paths/pick-ship-items-business-central/) |
 | **Ship cross-docked items in Dynamics 365 Business Central** | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/ship-cross-docked-items/) |
 | **Gain insights using Dynamics 365 Customer Insights - Data Preparation** | Modules | 2026-04-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-data-preparation/) |
@@ -62,7 +63,6 @@ artifacts: complete, index
 | **Create journals for projects in Dynamics 365 Business Central** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-journals-for-jobs/) |
 | **Develop data-driven applications by using Azure SQL Database** | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/develop-data-driven-app-sql-db/) |
 | **Develop a data API for Azure SQL Database** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-data-api-azure-sql-database/) |
-| **Set up maintenance requests in Asset Management for Dynamics 365 Supply Chain Management** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-maintenance-asset-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-63.md](./microsoft-learn-2026-03-part-63.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-65.md](./microsoft-learn-2026-04-part-65.md)

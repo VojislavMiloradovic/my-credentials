@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Apply task decomposition and agent collaboration strategies in Microsoft Foundry** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/aaai-apply-task-decomposition-multi-agent-azure/) |
 | **Extend the healthcare data model in Dataverse** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/healthcare-extend-data-model/) |
 | **Static analyzers** | Modules | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/static-analyzers/) |
 | **Deploy SAP on Azure** | Learningpaths | 2026-07-05 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-sap-azure/) |
@@ -62,7 +63,6 @@ artifacts: complete, index
 | **Begin your Microsoft Learn for Educators Journey** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/begin-your-microsoft-learn-educators-journey/) |
 | **Troubleshoot Apps and Channels** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-apps-channels/) |
 | **Troubleshoot file sharing** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-file-sharing/) |
-| **Troubleshoot authentication and access control issues in Microsoft Azure** | Modules | 2026-07-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-authentication-access-control/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-88.md](./microsoft-learn-2026-07-part-88.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-07-part-90.md](./microsoft-learn-2026-07-part-90.md)

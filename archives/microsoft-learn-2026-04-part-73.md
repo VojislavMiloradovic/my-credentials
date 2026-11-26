@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Use GitHub Copilot plan mode for cloud operations tasks** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-plan-mode-cloud-ops/) |
 | **Assess data security posture in Microsoft Purview** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-dspm-assess-data-security-posture/) |
 | **Understand security operations centers (SOCs) to manage cybersecurity** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-security-operations-centers-manage-cybersecurity/) |
 | **Build a cybersecurity career with SOC best practices** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-cybersecurity-career-soc-best-practices/) |
@@ -64,7 +65,6 @@ artifacts: complete, index
 | **Introduction to integrating Dynamics 365 Sales with Dynamics 365 Business Central** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sales-business-central/) |
 | **Process gifts in Fundraising and Engagement** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-gifts/) |
 | **Manage designations and campaigns in Fundraising and Engagement** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/nonprofit-designations/) |
-| **Build and sell Microsoft Teams apps in Microsoft AppSource and the Microsoft Teams store** | Modules | 2026-04-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/msteams-monetize-apps/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-72.md](./microsoft-learn-2026-04-part-72.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-74.md](./microsoft-learn-2026-05-part-74.md)

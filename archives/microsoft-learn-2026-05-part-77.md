@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Get started with PowerScribe One** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attending-get-started/) |
 | **Basic reporting in PowerScribe One for attendings** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attendings-basic-reporting/) |
 | **AutoText in daily reporting for attendings** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-autotext-daily-reporting/) |
 | **AutoText foundations** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-attendings-autotext-foundations/) |
@@ -65,7 +66,6 @@ artifacts: complete, index
 | **Configure Dynamics 365 Contact Center core capabilities** | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-core-capabilities-contact-center/) |
 | **Configure AI agents and Copilot in Dynamics 365 Contact Center** | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-copilot-contact-center/) |
 | **Implement security controls for Azure Kubernetes Service** | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-kubernetes/) |
-| **Implement security controls for Azure Container Registry, Container Instances, and Container Apps** | Modules | 2026-05-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-security-controls-containers/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-76.md](./microsoft-learn-2026-05-part-76.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-78.md](./microsoft-learn-2026-05-part-78.md)

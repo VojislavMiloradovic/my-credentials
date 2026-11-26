@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Draft impactful documents using AI** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/draft-impactful-documents-using-ai/) |
 | **Introduction to Microsoft Learn for Educators program** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-microsoft-learn-educators-program/) |
 | **Configure and manage shared folders** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-shared-folders/) |
 | **Microsoft Learn for Educators Course Preparation** | Modules | 2025-12-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-learn-educators-course-preparation/) |
@@ -67,6 +66,7 @@ artifacts: complete, index
 | **Describe the general ledger in Dynamics 365 Finance** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-general-ledger-dynamics-365/) |
 | **Support social and emotional learning with Microsoft tools** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/support-social-emotional-learning/) |
 | **Get started with AI Builder** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-builder/) |
+| **Get started with Dynamics 365 Customer Service** | Modules | 2025-12-22 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-dynamics-365-for-customer-service/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-19.md](./microsoft-learn-2025-12-part-19.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-21.md](./microsoft-learn-2025-12-part-21.md)

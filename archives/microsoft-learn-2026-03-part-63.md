@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Set up maintenance requests in Asset Management for Dynamics 365 Supply Chain Management** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/setup-maintenance-asset-management/) |
 | **Manage external connections with Customer Insights - Data** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-third-party-connections/) |
 | **Implement CI/CD for IoT Edge** | Modules | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cicd-iot-edge/) |
 | **Configure and manage procurement and vendors in Dynamics 365 Supply Chain Management** | Learningpaths | 2026-03-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-manage-procurement-vendors-dyn365-supply-chain-mgmt/) |
@@ -65,7 +66,6 @@ artifacts: complete, index
 | **Implement and manage Microsoft Purview Privacy Risk Management** | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/priva-privacy-risk-management/) |
 | **Predictions in Dynamics 365 Customer Insights - Data** | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/predictions-in-customer-insights-data/) |
 | **Set up your training environment** | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/sustainability-setup-environment/) |
-| **Implement backup and restore for Azure Cosmos DB for NoSQL** | Modules | 2026-03-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-backup-restore-for-azure-cosmos-db-sql-api/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-62.md](./microsoft-learn-2026-03-part-62.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-64.md](./microsoft-learn-2026-04-part-64.md)

@@ -14,13 +14,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,347,725
+- **Total Experience Points (XP):** 6,378,875
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 4,129
-- **Trophies Earned (Profile):** 934
-- **Completed Learning Paths (Active Tracker):** 532
-- **Completed Modules (Active Tracker):** 2,848
-- **Completed Individual Units:** 37,744
+- **Badges Earned (Profile):** 4,150
+- **Trophies Earned (Profile):** 936
+- **Completed Learning Paths (Active Tracker):** 534
+- **Completed Modules (Active Tracker):** 2,863
+- **Completed Individual Units:** 37,954
 
 ### Verifiable Applied Skills & Credentials
 - **Enhance Agents With Autonomous Capabilities** (Credential ID: `A2805BBD40427267` | Earned: 2026-10-31T02:40:58+00:00 | Status: Active)
@@ -39,20 +39,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 5,063 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-11-part-100.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-100.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 5,086 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-11-part-100.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-100.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Run and supervise sessions in Microsoft Perception** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/perception-agentic-security-run-supervise-sessions/) |
-| **Azure virtual machine backup and recoverability** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-backup-recoverability/) |
-| **Welcome to Dragon Copilot for radiologists** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/dragon-radiologists-welcome/) |
-| **Configure and validate agents in Microsoft Perception** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/perception-agentic-security-configure-validate-agents/) |
-| **Optimize business value of usage-based AI** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-business-value-usage-based-ai/) |
-| **Understand AI spend and measure value in Microsoft 365** | Learningpaths | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/paths/understand-ai-spend-measure-value/) |
-| **Investigate detected threats and plan a response in Microsoft Perception** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/perception-agentic-security-investigate-plan-response/) |
-| **Analyze AI spend and value with Agent 365 Business Analytics** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-ai-spend-value-agent-365-business-analytics/) |
-| **Azure virtual machine rightsizing** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-capacity-cost-optimization/) |
-| **Identify Azure virtual machine performance bottlenecks** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-compute-disk-performance/) |
+| **Build and ship data-driven apps using Fabric Apps** | Learningpaths | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-ship-data-driven-apps-fabric-apps/) |
+| **Release, share, and monitor Fabric apps across environments** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/release-operate-fabric-apps-environments/) |
+| **Evaluate Fabric Apps by deploying a first app to Microsoft Fabric** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-fabric-apps-deploy-first-app/) |
+| **Design and evolve app data models using Fabric Apps** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-evolve-app-data-models-fabric-apps/) |
+| **Build data-driven app features using the Fabric Apps SDK** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-data-driven-features-fabric-apps-sdk/) |
+| **Build and review Fabric apps using AI coding agents** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-review-fabric-apps-ai-coding-agents/) |
+| **Diagnose incidents on Azure virtual machines** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-incident-diagnosis/) |
+| **Diagnose and support Surface devices with Surface Repair Tool** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-repair-tool/) |
+| **Integrate existing Fabric data using Fabric Apps connectors** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-fabric-data-fabric-apps-connectors/) |
+| **Add secure server-side logic using Fabric Apps Functions** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-server-side-logic-fabric-apps-functions/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

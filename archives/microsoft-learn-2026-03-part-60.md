@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Register and manage devices with Connected Customer Service for Dynamics 365 and Azure IoT** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/connected-customer-service-devices/) |
 | **Use Connected Customer Service with Dynamics 365** | Learningpaths | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/use-connected-customer-service/) |
 | **MD-015 Implement Windows 365 Cloud PCs** | Learningpaths | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-windows-365-cloud-pcs/) |
 | **Explore Windows 365 Cloud PC management options** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-windows-365-cloud-pc-management/) |
@@ -62,7 +63,6 @@ artifacts: complete, index
 | **Warehouse management mobile device configuration using Dynamics 365 Supply Chain Management** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/warehouse-mobile-configuration-supply-chain-management/) |
 | **Configure bookable resources in Dynamics 365 Field Service** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-bookable-resources-urs-dynamics-field-service/) |
 | **Set up versioned products in Dynamics 365 Supply Chain Management** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-versioned-products-engineering-change-management/) |
-| **Configure engineering change management for Dynamics 365 Supply Chain Management** | Modules | 2026-03-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-engineering-change-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-59.md](./microsoft-learn-2026-03-part-59.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-61.md](./microsoft-learn-2026-03-part-61.md)

@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Deliver remote desktops and apps with Azure Virtual Desktop** | Learningpaths | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/paths/m365-wvd/) |
 | **Business continuity and disaster recovery for Azure Virtual Desktop** | Modules | 2026-04-16 | [Verify](https://learn.microsoft.com/en-us/training/modules/business-continuity-disaster-recovery-azure-virtual-desktop/) |
 | **Create a vendor invoice for lite deployment in Dynamics 365 Project Operations** | Modules | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-vendor-invoice-lite-deployment/) |
 | **Set up and use features with lite deployment in Dynamics 365 Project Operations** | Learningpaths | 2026-04-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-use-features-lite-deployment-project-operations/) |
@@ -62,7 +63,6 @@ artifacts: complete, index
 | **Download and upload files in an ASP.NET Core app with Microsoft Graph** | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/msgraph-dotnet-core-manage-files/) |
 | **Set up routings in Dynamics 365 Business Central** | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-routings/) |
 | **Work with travel requisitions in Dynamics 365 Project Operations** | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-travel-requisitions/) |
-| **Manage Windows updates in the cloud** | Modules | 2026-04-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-windows-manage-cloud-device-updates/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-66.md](./microsoft-learn-2026-04-part-66.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-04-part-68.md](./microsoft-learn-2026-04-part-68.md)

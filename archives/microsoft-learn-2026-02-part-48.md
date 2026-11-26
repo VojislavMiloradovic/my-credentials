@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Use Adaptive Cards to show data in API plugins for declarative agents** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/copilot-declarative-agent-action-api-plugin-adaptive-cards-vsc/) |
 | **Introduction to developing with finance and operations apps** | Learningpaths | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-develop-finance-operations/) |
 | **Explore the test framework and tools in finance and operations apps** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-test-framework-tools-finance-operations/) |
 | **Explore reporting tools in finance and operations apps** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-reporting-tools-finance-operations/) |
@@ -64,7 +65,6 @@ artifacts: complete, index
 | **Create products and product masters in Dynamics 365 Supply Chain Management** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-products-product-masters-dyn365-supply-chain-mgmt/) |
 | **Enhance service representative productivity and personalization in Customer Service Hub** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/agent-productivity/) |
 | **Configure and manage Azure Database for PostgreSQL** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-manage-postgresql/) |
-| **Active Directory Domain Services migration** | Modules | 2026-02-13 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-domain-services-migration/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-47.md](./microsoft-learn-2026-02-part-47.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-49.md](./microsoft-learn-2026-02-part-49.md)

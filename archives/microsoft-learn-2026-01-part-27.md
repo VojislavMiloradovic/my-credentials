@@ -15,7 +15,6 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Petabyte-scale ingestion with Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/petabyte-scale-ingestion-azure-data-factory/) |
 | **Perform code-free transformation at scale with Azure Data Factory or Azure Synapse Pipeline** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/code-free-transformation-scale/) |
 | **Get started with process mining in Power Automate** | Learningpaths | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/introduction-process-advisor/) |
 | **Create Power BI reports with Power Automate Process Mining** | Modules | 2026-01-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-reports-process-mining/) |
@@ -69,6 +68,7 @@ artifacts: complete, index
 | **Understand Microsoft Online Services resiliency and continuity** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-resiliency-continuity/) |
 | **Understand Microsoft 365 vulnerability management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-vulnerability-management/) |
 | **Understand Microsoft 365 audit logging and monitoring** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-logging-monitoring/) |
+| **Understand Microsoft 365 identity and access management** | Modules | 2025-12-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/audit-identity-access-management/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-26.md](./microsoft-learn-2025-12-part-26.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-01-part-28.md](./microsoft-learn-2026-01-part-28.md)

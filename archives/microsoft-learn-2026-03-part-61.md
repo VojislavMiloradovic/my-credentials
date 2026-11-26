@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Set up Microsoft Dynamics 365 Business Central for reporting** | Learningpaths | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/paths/setup-reporting-dynamics-365-business-central/) |
 | **Use skill-based routing in Dynamics 365 Customer Service** | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-skill-based-routing/) |
 | **Work with source control using Git in Visual Studio Code for Business Central** | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-source-control-git/) |
 | **Use preventive and reactive maintenance in Asset Management for Dynamics 365 Supply Chain Management** | Modules | 2026-03-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/preventive-reactive-asset-management/) |
@@ -61,7 +62,6 @@ artifacts: complete, index
 | **Configure process manufacturing in Dynamics 365 Supply Chain Management** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-use-process-manufacturing-dyn365-supply-chain-mgmt/) |
 | **Set up project delivery management for stocked scenarios in Dynamics 365 Project Operations** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-project-delivery-management/) |
 | **Set up Master Planning in Dynamics 365 Supply Chain Management** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/set-up-master-planning/) |
-| **Register and manage devices with Connected Customer Service for Dynamics 365 and Azure IoT** | Modules | 2026-03-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/connected-customer-service-devices/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-03-part-60.md](./microsoft-learn-2026-03-part-60.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-62.md](./microsoft-learn-2026-03-part-62.md)

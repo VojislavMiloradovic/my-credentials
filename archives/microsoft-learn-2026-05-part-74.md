@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 74 of 100
-date_range: 2026-04-30 to 2026-05-04
+date_range: 2026-04-30 to 2026-05-05
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-74.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Build with AI as a creative partner, developed in partnership with ISTE+ASCD** | Modules | 2026-05-05 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-with-ai-creative-partner/) |
 | **Discover unprotected assets and vulnerabilities by using Microsoft Defender External Attack Surface Management** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/discover-external-assets-vulnerabilities/) |
 | **Enable and configure workload protection plans in Microsoft Defender for Cloud** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/enable-configure-workload-protection-plans/) |
 | **Create an ontology with Fabric IQ** | Modules | 2026-05-04 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-ontology-with-fabric-iq/) |
@@ -62,7 +63,6 @@ artifacts: complete, index
 | **Manage keys and secrets in Azure Key Vault** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-keys-secrets-key-vault/) |
 | **Manage certificates and monitor Azure Key Vault** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-certificates-monitor-key-vault/) |
 | **Configure and secure Azure Key Vault** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-secure-key-vault/) |
-| **Use GitHub Copilot plan mode for cloud operations tasks** | Modules | 2026-04-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-plan-mode-cloud-ops/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-04-part-73.md](./microsoft-learn-2026-04-part-73.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-75.md](./microsoft-learn-2026-05-part-75.md)
