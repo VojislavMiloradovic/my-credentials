@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-26T00:39:47.733716+00:00",
+  "timestamp": "2026-11-26T19:21:11.315409+00:00",
   "summary": {
     "total": 95,
     "passed": 95,
@@ -8,19 +8,19 @@
   },
   "platforms": {
     "microsoft-learn": {
-      "source_records": 5609,
-      "archive_complete_records": 5063,
-      "index_total": 5063,
-      "readme_count": 37744,
-      "jsonld_count": 5063,
-      "llms_txt_count": 37744,
+      "source_records": 5634,
+      "archive_complete_records": 5086,
+      "index_total": 5086,
+      "readme_count": 37954,
+      "jsonld_count": 5086,
+      "llms_txt_count": 37954,
       "llms_full_count": 1,
       "retired_in_source": 2,
       "retired_in_archive": 1,
       "retired_in_jsonld": 1,
       "latest_record_date_source": null,
-      "latest_record_date_archive": "2026-11-23T00:00:00",
-      "latest_record_date_jsonld": "2026-11-23T00:00:00"
+      "latest_record_date_archive": "2026-11-26T00:00:00",
+      "latest_record_date_jsonld": "2026-11-26T00:00:00"
     },
     "google-skills": {
       "source_records": 445,
@@ -104,8 +104,8 @@
       "platform": "microsoft-learn",
       "passed": true,
       "expected": "> 0",
-      "actual": 5609,
-      "message": "Source snapshot has 5609 records (2 retired)",
+      "actual": 5634,
+      "message": "Source snapshot has 5634 records (2 retired)",
       "severity": "warning"
     },
     {
@@ -158,8 +158,8 @@
       "platform": "microsoft-learn",
       "passed": true,
       "expected": "> 0",
-      "actual": 5063,
-      "message": "Complete archive has 5063 records (1 retired)",
+      "actual": 5086,
+      "message": "Complete archive has 5086 records (1 retired)",
       "severity": "error"
     },
     {
@@ -212,8 +212,8 @@
       "platform": "microsoft-learn",
       "passed": true,
       "expected": "> 0",
-      "actual": 5063,
-      "message": "Index reports 5063 total records",
+      "actual": 5086,
+      "message": "Index reports 5086 total records",
       "severity": "error"
     },
     {
@@ -266,8 +266,8 @@
       "platform": "microsoft-learn",
       "passed": true,
       "expected": "> 0",
-      "actual": 37744,
-      "message": "README reports 37744 records",
+      "actual": 37954,
+      "message": "README reports 37954 records",
       "severity": "error"
     },
     {
@@ -320,8 +320,8 @@
       "platform": "microsoft-learn",
       "passed": true,
       "expected": "> 0",
-      "actual": 5063,
-      "message": "JSON-LD has 5063 credentials (1 retired)",
+      "actual": 5086,
+      "message": "JSON-LD has 5086 credentials (1 retired)",
       "severity": "error"
     },
     {
@@ -374,8 +374,8 @@
       "platform": "microsoft-learn",
       "passed": true,
       "expected": "> 0",
-      "actual": 37744,
-      "message": "llms.txt reports 37744 records",
+      "actual": 37954,
+      "message": "llms.txt reports 37954 records",
       "severity": "error"
     },
     {
@@ -481,45 +481,45 @@
       "check": "count_consistency_complete_vs_index",
       "platform": "microsoft-learn",
       "passed": true,
-      "expected": 5063,
-      "actual": 5063,
-      "message": "complete vs index (L2_published, 1:1_pass_through): complete=5063 vs index=5063 [OK]",
+      "expected": 5086,
+      "actual": 5086,
+      "message": "complete vs index (L2_published, 1:1_pass_through): complete=5086 vs index=5086 [OK]",
       "severity": "error"
     },
     {
       "check": "count_consistency_readme_vs_llms_txt",
       "platform": "microsoft-learn",
       "passed": true,
-      "expected": 37744,
-      "actual": 37744,
-      "message": "readme vs llms_txt (L3_display, compute_display_metrics): readme=37744 vs llms_txt=37744 [OK]",
+      "expected": 37954,
+      "actual": 37954,
+      "message": "readme vs llms_txt (L3_display, compute_display_metrics): readme=37954 vs llms_txt=37954 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L0_raw_to_L1_normalized",
       "platform": "microsoft-learn",
       "passed": true,
-      "expected": "5609 (transform: extract_achievements_dedupe_by_id)",
-      "actual": 5063,
-      "message": "Declared transform L0_raw -> L1_normalized (extract_achievements_dedupe_by_id): 5609 -> 5063 [OK]",
+      "expected": "5634 (transform: extract_achievements_dedupe_by_id)",
+      "actual": 5086,
+      "message": "Declared transform L0_raw -> L1_normalized (extract_achievements_dedupe_by_id): 5634 -> 5086 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published",
       "platform": "microsoft-learn",
       "passed": true,
-      "expected": "5063 (transform: 1:1_pass_through)",
-      "actual": 5063,
-      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 5063 -> 5063 [OK]",
+      "expected": "5086 (transform: 1:1_pass_through)",
+      "actual": 5086,
+      "message": "Declared transform L1_normalized -> L2_published (1:1_pass_through): 5086 -> 5086 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L3_display",
       "platform": "microsoft-learn",
       "passed": true,
-      "expected": "5063 (transform: compute_display_metrics)",
-      "actual": 37744,
-      "message": "Declared transform L1_normalized -> L3_display (compute_display_metrics): 5063 -> 37744 [OK]",
+      "expected": "5086 (transform: compute_display_metrics)",
+      "actual": 37954,
+      "message": "Declared transform L1_normalized -> L3_display (compute_display_metrics): 5086 -> 37954 [OK]",
       "severity": "error"
     },
     {
@@ -985,7 +985,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-11-23 to 2026-11-23)",
+      "message": "Latest record dates span 0 days across artifacts (2026-11-26 to 2026-11-26)",
       "severity": "warning"
     },
     {
