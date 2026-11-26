@@ -234,20 +234,6 @@ class MSAchievementModel(ProvenanceBase):
             return "module"
         return val.strip()
 
-    @field_validator("verification_status", mode="before")
-    @classmethod
-    def compute_verification_status(cls, val: Any, info) -> VerificationStatus:
-        """Auto-compute verification status from record state."""
-        if isinstance(val, VerificationStatus):
-            return val
-        retired_val = info.data.get("retired", False)
-        url_val = info.data.get("url") or info.data.get("verify_url")
-        if retired_val:
-            return VerificationStatus.RETIRED
-        if url_val:
-            return VerificationStatus.VERIFIED
-        return VerificationStatus.UNKNOWN
-
     model_config = ConfigDict(
         json_encoders={
             datetime: lambda v: v.isoformat() if v else None,
@@ -295,22 +281,6 @@ class MSVerifiableCredentialModel(ProvenanceBase):
     @classmethod
     def validate_awarded_on(cls, val: Any) -> str:
         return clean_iso_date(val)
-
-    @field_validator("verification_status", mode="before")
-    @classmethod
-    def compute_verification_status(cls, val: Any, info) -> VerificationStatus:
-        """Auto-compute verification status from record state."""
-        if isinstance(val, VerificationStatus):
-            return val
-        retired_val = info.data.get("retired", False)
-        status_val = info.data.get("credentialStatus", "")
-        if retired_val:
-            return VerificationStatus.RETIRED
-        if status_val and status_val.lower() in ("active", "valid", "verified"):
-            return VerificationStatus.VERIFIED
-        if status_val and status_val.lower() in ("expired", "revoked"):
-            return VerificationStatus.EXPIRED
-        return VerificationStatus.UNKNOWN
 
     model_config = ConfigDict(
         json_encoders={
@@ -639,6 +609,8 @@ class MicrosoftLearnPipeline(PipelineBase):
                     and not ach.get("retired", False)
                 ):
                     ach["retired"] = True
+                    if "verification_status" in ach:
+                        ach["verification_status"] = "retired"
                     ach_marked += 1
                     self.logger.info(
                         f"[LABEL]  Propagated retired to achievement: {ach.get('title') or ach.get('id')}"
