@@ -15,12 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-11 | **Kong Mesh Operations** | Kong | [Verify Record](https://www.credly.com/badges/2a3a540c-ef49-4159-ad09-2e5518599187/linked_in_profile) |
-| 2026-11 | **AI Gateway Operations** | Kong | [Verify Record](https://www.credly.com/badges/813eaae2-1e92-4ba7-a880-f6912360a5d4/linked_in_profile) |
-| 2026-11 | **Implementing SAP Field Service Management - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xopop-ticub-rycyd-setub-rotot) |
-| 2026-11 | **Managing SAP Field Service Management - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xidet-kitas-dices-vefev-fufac) |
-| 2026-11 | **SAP BTP Fundamentals - Level 1: Foundations for Next-Gen Procurement Consultants - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xytik-tylyl-curod-lofof-bomef) |
-| 2026-11 | **Mastering SAP BTP for Next-Gen SAP Ariba Procurement Consultants** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xedyt-rekyd-lylet-nahod-nakev) |
 | 2026-11 | **MSP Academy: Expert Communicator** | Acronis | [Verify Record](https://www.credly.com/badges/65a0022d-4b3b-4d75-8d59-b47f00f0a6a4/linked_in_profile) |
 | 2026-11 | **Technical Presales Pro - Acronis Cyber Frame** | Acronis | [Verify Record](https://www.credly.com/badges/1aaf0f97-d167-4a4f-9735-27cc75df553e/linked_in_profile) |
 | 2026-11 | **Cloud Sales Professional MDR** | Acronis | [Verify Record](https://www.credly.com/badges/938528c2-8698-487b-aa5c-bfaa151233f4/linked_in_profile) |
@@ -41,6 +35,12 @@ artifacts: complete, index
 | 2026-11 | **Applying SAP S/4HANA Quality Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xolyh-gedis-tinyh-gibed-menyt) |
 | 2026-11 | **Implementing SAP S/4HANA Quality Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xykad-pylov-veveh-kupys-nidob) |
 | 2026-11 | **Performing Quality Management in Procurement** | SAP | [Verify Record](https://badger.learning.sap.com/verify/ximes-pimol-mokeh-medev-gyvag) |
+| 2026-11 | **AWS Knowledge: Amazon WorkSpaces Operations at Scale - Training Badge** | Amazon Web Services (AWS) | [Verify Record](https://www.credly.com/badges/6629cd5b-ff2d-4fda-bea0-55ca9a4f0b54/linked_in_profile) |
+| 2026-11 | **Performing Quality Management at Goods Receipt and during Goods Movement** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xybis-susuc-mogys-mecil-fubab) |
+| 2026-11 | **Performing Quality Management in Sales and Distribution** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xupuk-gutyn-hisuc-tiduc-muvaf) |
+| 2026-11 | **Performing Quality Management in Production** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xoluc-hynug-gekas-risum-sydeb) |
+| 2026-11 | **Performing Quality Management in Production using inspection points and samples** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylak-hecat-povup-nasef-rihuk) |
+| 2026-11 | **Positioning SAP Taulia Working Capital Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelev-cunih-ferok-tucak-rahyb) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |

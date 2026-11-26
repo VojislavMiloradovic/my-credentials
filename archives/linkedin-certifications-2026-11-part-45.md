@@ -2,7 +2,7 @@
 archive_platform: LinkedIn Certifications
 chunk_part: 45 of 46
 date_range: 2026-11 to 2026-11
-total_entries: 53
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-45.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,13 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-11 | **From Onboarding to Governance: Mastering SAP Customer Data Cloud for B2B - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xosih-pugip-bocus-geduc-tafit) |
-| 2026-11 | **Exploring SAP Customer Data Platform Essentials - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xotym-dikyg-gybyv-raleh-vinir) |
-| 2026-11 | **Kong Event Gateway Foundations** | Kong | [Verify Record](https://www.credly.com/badges/718d1bab-9ec1-43f1-8c0d-19f0c13e4131/linked_in_profile) |
-| 2026-11 | **Konnect Quick Launch on Kong** | Kong | [Verify Record](https://www.credly.com/badges/362a9daf-20fd-4611-bc4d-1c859f0902df/linked_in_profile) |
-| 2026-11 | **Exploring the Technical Essentials of SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xapuf-nosef-nopek-goful-komam) |
-| 2026-11 | **Expanding Upon Technical Essentials of SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylus-sehac-tahir-kohov-fihis) |
-| 2026-11 | **Mastering the Technical Essentials of SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomir-fosob-sovam-hyhom-satyc) |
 | 2026-11 | **Exploring SAP Platform Capabilities** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xekah-galut-dubof-cypab-lugon) |
 | 2026-11 | **eBPF Networking** | Isovalent | [Verify Record](https://www.credly.com/badges/d47370ef-b31f-4330-b12a-53c239efaa66/linked_in_profile) |
 | 2026-11 | **eBPF Kubernetes Monitoring** | Isovalent | [Verify Record](https://www.credly.com/badges/fc0c346e-d0ca-43c0-917c-b3bb31bee0cd/linked_in_profile) |
@@ -68,6 +61,11 @@ artifacts: complete, index
 | 2026-11 | **Advanced Purchasing - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xadym-fomir-nyguc-pebyc-vycab) |
 | 2026-11 | **Contract Compliance Release - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xebyc-gobyl-tucif-tihyt-nidul) |
 | 2026-11 | **Contract Compliance No Release - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xifog-nicit-dahyd-sohip-hoter) |
+| 2026-11 | **SAP Ariba Procurement: Configuring Receiving - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xipuf-tytos-rykis-tipir-pypuh) |
+| 2026-11 | **SAP Ariba Procurement: Implementation Consulting and Configuration - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xatug-relar-mycur-vopob-botyh) |
+| 2026-11 | **Elevate Financial Advisor Insights with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712439?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Use Gemini for Financial Portfolio Resilience** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712470?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Accelerate Bond Issuance with Gemini** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29712493?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
 > **Navigation:** Prev: [linkedin-certifications-2026-11-part-44.md](./linkedin-certifications-2026-11-part-44.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-11-part-46.md](./linkedin-certifications-2026-11-part-46.md)
