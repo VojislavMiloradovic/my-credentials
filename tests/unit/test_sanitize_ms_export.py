@@ -251,6 +251,8 @@ class TestConstants:
         for pattern, replacement in INLINE_SCRUB_PATTERNS:
             assert hasattr(pattern, "sub")  # compiled regex
             assert isinstance(replacement, str)
+
+
 class TestMsExportRegressionFixes:
     """Tests for sourceUid preservation, exact PII keys, email scrubbing, and section pruning."""
 
