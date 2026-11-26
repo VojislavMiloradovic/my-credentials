@@ -1,7 +1,7 @@
 """
-Sanitizes Microsoft Learn JSON exports by redacting temporary lab secrets,
-VM credentials, Azure storage keys, SAS tokens, and connection strings
-found in PowerShell execution logs (e.g., scriptResult fields) before Gitleaks runs.
+Sanitizes Microsoft Learn JSON exports by pruning unused PII/lab sections and
+redacting temporary lab secrets, VM credentials, Azure storage keys, SAS tokens,
+emails, and user IDs before committing or processing.
 """
 
 import json
@@ -9,7 +9,7 @@ import re
 import sys
 from pathlib import Path
 
-# Common field names associated with credentials/tokens
+# Substring-matched field names associated with credentials/tokens
 SENSITIVE_JSON_KEYS = {
     "password",
     "secret",
@@ -24,18 +24,41 @@ SENSITIVE_JSON_KEYS = {
     "clientsecret",
     "labpassword",
     "vmpassword",
-    # Microsoft Learn specific PII fields
+}
+
+# Exact normalized field names for PII / internal account identifiers
+# (kept separate from substring matching so words like "android" or "voicemail"
+# or catalog slugs like "sourceUid" are never falsely redacted)
+EXACT_SENSITIVE_JSON_KEYS = {
     "userid",
-    "user_id",
+    "docsid",
     "email",
-    "sourceuid",
     "userprincipalname",
     "upn",
     "mail",
     "objectid",
-    "object_id",
     "principalname",
+    "legalname",
+    "sharingid",
+    "tenantid",
+    "oid",
 }
+
+# Top-level Microsoft Learn export sections that are unused by update_ms_learn.py
+# and contain account PII or temporary lab execution output.
+UNNEEDED_MS_EXPORT_SECTIONS = {
+    "TechProfile",
+    "SkillAssessment",
+    "LearnCompanion",
+    "Q&A",
+    "NextSteps",
+    "Assessments",
+    "Attachments",
+    "Certifications",
+    "Lists",
+}
+
+MS_EXPORT_CORE_SECTIONS = {"Progress", "XP", "VerifiableCredentials"}
 
 # Regex patterns for inline string replacement (e.g., inside scriptResult text)
 INLINE_SCRUB_PATTERNS = [
@@ -66,11 +89,18 @@ INLINE_SCRUB_PATTERNS = [
         ),
         "[REDACTED_PRIVATE_KEY]",
     ),
+    # Email addresses embedded in text fields
+    (
+        re.compile(r"\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b"),
+        "[EMAIL_REDACTED]",
+    ),
 ]
 
 
 def is_sensitive_key(key: str) -> bool:
     normalized = key.lower().replace("_", "").replace("-", "")
+    if normalized in EXACT_SENSITIVE_JSON_KEYS:
+        return True
     return any(sens in normalized for sens in SENSITIVE_JSON_KEYS)
 
 
@@ -81,12 +111,25 @@ def scrub_text(text: str) -> str:
     return text
 
 
+def prune_unneeded_ms_sections(data: dict) -> dict:
+    """Drop unused PII/lab top-level sections when given a Microsoft Learn export."""
+    keys = set(data.keys())
+    has_ms_export_shape = bool(keys & MS_EXPORT_CORE_SECTIONS) and bool(
+        keys & UNNEEDED_MS_EXPORT_SECTIONS
+    )
+    if not has_ms_export_shape:
+        return data
+    return {k: v for k, v in data.items() if k not in UNNEEDED_MS_EXPORT_SECTIONS}
+
+
 def sanitize_node(val):
     """Recursively sanitize a JSON-serializable value."""
     if isinstance(val, str):
         return scrub_text(val)
     elif isinstance(val, dict):
-        # Special handling for VerifiableCredentials.userCredentials
+        # Special handling for VerifiableCredentials.userCredentials:
+        # keep sourceUid (catalog slug used for public display & retired matching),
+        # while redacting account/user identifiers.
         if "userCredentials" in val and isinstance(val["userCredentials"], list):
             sanitized = {}
             for k, v in val.items():
@@ -94,18 +137,7 @@ def sanitize_node(val):
                     sanitized[k] = [
                         {
                             k2: "[REDACTED]"
-                            if k2.lower()
-                            in (
-                                "userid",
-                                "email",
-                                "sourceuid",
-                                "userprincipalname",
-                                "upn",
-                                "mail",
-                                "objectid",
-                                "object_id",
-                                "principalname",
-                            )
+                            if is_sensitive_key(k2)
                             else sanitize_node(v2)
                             for k2, v2 in cred.items()
                         }
@@ -117,7 +149,6 @@ def sanitize_node(val):
                     sanitized[k] = sanitize_node(v)
             return sanitized
         else:
-            # Regular dict handling - redact sensitive keys
             sanitized_dict = {}
             for k, v in val.items():
                 if is_sensitive_key(k):
@@ -128,7 +159,6 @@ def sanitize_node(val):
     elif isinstance(val, list):
         return [sanitize_node(item) for item in val]
     else:
-        # Return other types (int, float, bool, None, etc.) unchanged
         return val
 
 
@@ -141,6 +171,9 @@ def process_file(file_path: Path):
     with open(file_path, "r", encoding="utf-8") as f:
         data = json.load(f)
 
+    if isinstance(data, dict):
+        data = prune_unneeded_ms_sections(data)
+
     sanitized_data = sanitize_node(data)
 
     with open(file_path, "w", encoding="utf-8") as f:
@@ -151,7 +184,7 @@ def process_file(file_path: Path):
 
 if __name__ == "__main__":
     if len(sys.argv) < 2:
-        print("Usage: python scripts/sanitize_ms_export.py <path-to-json>")
+        print("Usage: python sanitize_ms_export.py <path-to-json>")
         sys.exit(1)
 
     process_file(Path(sys.argv[1]))
