@@ -193,20 +193,6 @@ class CredlyBadgeItemModel(ProvenanceBase):
             return [val.strip()]
         return []
 
-    @field_validator("verification_status", mode="before")
-    @classmethod
-    def compute_verification_status(cls, val: Any, info) -> VerificationStatus:
-        """Auto-compute verification status from record state."""
-        if isinstance(val, VerificationStatus):
-            return val
-        retired_val = info.data.get("retired", False)
-        url_val = info.data.get("verify_url") or info.data.get("url")
-        if retired_val:
-            return VerificationStatus.RETIRED
-        if url_val:
-            return VerificationStatus.VERIFIED
-        return VerificationStatus.UNKNOWN
-
     model_config = ConfigDict(
         json_encoders={
             datetime: lambda v: v.isoformat() if v else None,
