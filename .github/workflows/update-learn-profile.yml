@@ -8,7 +8,7 @@ on:
   schedule:
     # Every 29 days to keep fixtures fresh (90-day threshold with margin)
     # Runs even if no new source data - loss_guard updates baseline timestamp
-    # If pipeline is broken, fixtures go stale after 90 days → test suite fails
+    # If pipeline is broken, fixtures go stale after 90 days -> test suite fails
     - cron: '0 6 */29 * *'
 
 # Enforce sequential workflow execution to prevent git push collisions
@@ -20,30 +20,11 @@ permissions:
   contents: write
 
 jobs:
-  # Sanitize Microsoft Learn JSON before pipeline runs
-  sanitize-ms-learn:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: astral-sh/setup-uv@v5
-        with:
-          python-version: "3.11"
-          cache-dependency-glob: "uv.lock"
-      - run: uv sync --frozen --all-extras
-      - name: Sanitize Microsoft Learn JSON
-        run: |
-          if [ -f "data/microsoft-learn.json" ]; then
-            uv run python sanitize_ms_export.py data/microsoft-learn.json
-          fi
-
   update-ms-learn:
-    needs: sanitize-ms-learn
     uses: ./.github/workflows/reusable-update.yml
     with:
+      pre_script: "sanitize_ms_export.py data/microsoft-learn.json"
       script_name: update_ms_learn.py
       commit_message: "chore(ms-learn): auto-update Microsoft Learn profile, json-ld, and llms.txt"
       platform: microsoft-learn
+      artifact_paths: '["data/microsoft-learn.json", "for_validation/", "archives/", "README.md", "credentials.jsonld", "llms.txt", "llms-full.txt", "validation_reports/", "retired_urls.json"]'
