@@ -9,6 +9,7 @@ import jsonschema
 
 # Layer manifest integration
 from layer_manifest import get_platforms_with_l2_artifact
+from models.provenance import VerificationUrlKind, classify_credential_evidence
 
 ARCHIVE_DIR = "archives"
 README_PATH = "README.md"
@@ -55,6 +56,53 @@ JSONLD_SCHEMA = {
                                 "required": ["@type", "name"],
                             },
                             "issuer": {"type": "string"},
+                            "url": {"type": ["string", "null"]},
+                            "platform": {"type": "string"},
+                            "sourcePlatform": {"type": "string"},
+                            "retrievalMethod": {
+                                "type": "string",
+                                "enum": [
+                                    "api",
+                                    "scrape",
+                                    "export",
+                                    "manual",
+                                    "unknown",
+                                ],
+                            },
+                            "retrievedAt": {"type": "string"},
+                            "verificationStatus": {
+                                "type": "string",
+                                "enum": [
+                                    "verified",
+                                    "unverified",
+                                    "retired",
+                                    "expired",
+                                    "unknown",
+                                ],
+                            },
+                            "evidenceLevel": {
+                                "type": "string",
+                                "enum": [
+                                    "issuer_credential",
+                                    "issuer_profile",
+                                    "platform_activity",
+                                    "self_reported",
+                                ],
+                            },
+                            "verificationUrlKind": {
+                                "type": "string",
+                                "enum": [
+                                    "credential_assertion",
+                                    "profile_page",
+                                    "catalog_page",
+                                    "none",
+                                ],
+                            },
+                            "sourceRecordId": {"type": ["string", "null"]},
+                            "sourceUrl": {"type": ["string", "null"]},
+                            "verifyUrl": {"type": ["string", "null"]},
+                            "lastVerifiedAt": {"type": ["string", "null"]},
+                            "sourceHash": {"type": ["string", "null"]},
                         },
                         "required": ["@type", "name", "recognizedBy"],
                     },
@@ -70,7 +118,7 @@ JSONLD_SCHEMA = {
 def clean_str(s):
     if not s:
         return ""
-    return re.sub(r"[\*\_`]", "", str(s)).strip()
+    return re.sub(r"[\*\_`]", "", str(s).replace("\\|", "|")).strip()
 
 
 def parse_retired_marker(col: str) -> tuple[bool, str | None, str | None, str | None]:
@@ -174,7 +222,7 @@ def extract_table_data_rows(lines: list[str]) -> list[tuple[list[str], list[str]
                     if separator_re.match(row_line):
                         i += 1
                         continue
-                    cols = [c.strip() for c in row_line.split("|")[1:-1]]
+                    cols = [c.strip() for c in re.split(r"(?<!\\)\|", row_line)[1:-1]]
                     if cols:
                         data_rows.append((header_cols, cols))
                     i += 1
@@ -256,15 +304,26 @@ def parse_archive_monoliths():
                 if img_match and not image_url:
                     image_url = img_match.group(1)
 
-                link_match = re.search(r"\[([^\]]+)\]\((https?://[^\)]+)\)", col)
-                if link_match:
+                found_markdown_link = False
+                for link_match in re.finditer(
+                    r"(?<!!)\[((?:[^\[\]]|\[[^\]]*\])+)\]\((https?://[^\s\)]+)\)",
+                    col,
+                ):
+                    found_markdown_link = True
+                    link_label = link_match.group(1)
+                    link_href = link_match.group(2)
                     if not url:
-                        url = link_match.group(2)
-                    if not title and "Verify" not in link_match.group(1):
-                        title = clean_str(link_match.group(1))
+                        url = link_href
+                    if not title and "Verify" not in link_label:
+                        title = clean_str(link_label)
                     # Extract verify_url from "Verify" links
-                    if "Verify" in link_match.group(1) and not verify_url:
-                        verify_url = link_match.group(2)
+                    if "Verify" in link_label and not verify_url:
+                        verify_url = link_href
+
+                if not found_markdown_link:
+                    plain_url_match = re.search(r"\bURL:\s*(https?://[^\s\)\*]+)", col)
+                    if plain_url_match and not url:
+                        url = plain_url_match.group(1).rstrip(".,;")
 
                 bold_match = re.search(r"\*\*([^*]+)\*\*", col)
                 if bold_match and not title and "title" in col_header:
@@ -438,17 +497,28 @@ def parse_archive_monoliths():
                     c_obj["retrievedAt"] = platform_retrieved_at
                 else:
                     c_obj["retrievedAt"] = datetime.now(UTC).isoformat()
-                c_obj["verificationStatus"] = (
-                    "verified"
-                    if (url or verify_url)
-                    else ("retired" if retired else "unknown")
+                verification_status, evidence_level, url_kind = (
+                    classify_credential_evidence(
+                        platform_key,
+                        defaults["retrievalMethod"],
+                        url=url or None,
+                        verify_url=verify_url or None,
+                        retired=retired,
+                    )
                 )
+                c_obj["verificationStatus"] = verification_status.value
+                c_obj["evidenceLevel"] = evidence_level.value
+                c_obj["verificationUrlKind"] = url_kind.value
 
-                # These fields are not currently stored in archive, use defaults
+                # Provenance URL & identifier fields
+                raw_source_url = url or verify_url or None
                 c_obj["sourceRecordId"] = cred_id if cred_id else None
-                c_obj["sourceUrl"] = url if url else None
+                c_obj["sourceUrl"] = raw_source_url
                 c_obj["verifyUrl"] = (
-                    verify_url if verify_url else (url if url else None)
+                    (verify_url or url)
+                    if url_kind == VerificationUrlKind.CREDENTIAL_ASSERTION
+                    and (verify_url or url)
+                    else None
                 )
                 c_obj["lastVerifiedAt"] = None
                 c_obj["sourceHash"] = None
