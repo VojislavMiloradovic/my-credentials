@@ -175,3 +175,28 @@ class TestWorkflowSanitizationBoundary:
         content = wf_path.read_text(encoding="utf-8")
         assert "sanitize_ms_export.py" not in content
         assert "sanitize_gdev_mhtml.py" not in content
+        data = yaml.safe_load(content)
+        # Note: PyYAML parses bare `on:` as boolean True
+        on_section = data.get("on") or data.get(True)
+        paths_ignore = on_section["push"]["paths-ignore"]
+        assert "data/microsoft-learn.json" in paths_ignore
+        assert "data/*.mhtml" in paths_ignore
+
+    def test_reusable_update_scans_after_sanitization(self):
+        wf_path = (
+            Path(__file__).parent.parent.parent
+            / ".github"
+            / "workflows"
+            / "reusable-update.yml"
+        )
+        if not wf_path.exists():
+            return
+        data = yaml.safe_load(wf_path.read_text(encoding="utf-8"))
+        steps = data["jobs"]["update-credentials"]["steps"]
+        step_names = [s.get("name", "") for s in steps]
+        pre_idx = step_names.index("Run Pre-Processing / Sanitization Script")
+        scan_idx = step_names.index("Post-Sanitization Secret Scan (Gitleaks)")
+        exec_idx = step_names.index("Execute Scraper Script")
+        assert pre_idx < scan_idx < exec_idx
+        assert "gitleaks" in steps[scan_idx]["run"]
+        assert "dir ." in steps[scan_idx]["run"]
