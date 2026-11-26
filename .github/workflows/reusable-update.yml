@@ -85,6 +85,14 @@ jobs:
         if: ${{ inputs.pre_script != '' }}
         run: uv run python ${{ inputs.pre_script }}
 
+      - name: Post-Sanitization Secret Scan (Gitleaks)
+        if: ${{ inputs.pre_script != '' }}
+        run: |
+          set -euo pipefail
+          GITLEAKS_VERSION="8.24.3"
+          curl -fsSL "https://github.com/gitleaks/gitleaks/releases/download/v${GITLEAKS_VERSION}/gitleaks_${GITLEAKS_VERSION}_linux_x64.tar.gz" | tar -xz -C "${{ runner.temp }}" gitleaks
+          "${{ runner.temp }}/gitleaks" dir . --config .gitleaks.toml --redact --no-banner --verbose
+
       - name: Execute Scraper Script
         env:
           GOOGLE_PROFILE_ID: ${{ inputs.profile_id_value }}
