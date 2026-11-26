@@ -5,11 +5,11 @@ on:
     paths:
       - 'data/google_learnings.txt'
       - 'data/*.mhtml'
+  workflow_dispatch:
   schedule:
     # Every 2 days (frequent due to codelab changes)
     # Runs at 00:00 UTC - different time from 29-day jobs (06:00+) to avoid concurrency
     - cron: '0 0 */2 * *'
-  workflow_dispatch:
 
 concurrency:
   group: git-push-main
@@ -19,34 +19,13 @@ permissions:
   contents: write
 
 jobs:
-  # Sanitize Google Developer MHTML before pipeline runs
-  sanitize-gdev:
-    runs-on: ubuntu-latest
-    timeout-minutes: 5
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-          token: ${{ secrets.GITHUB_TOKEN }}
-      - uses: astral-sh/setup-uv@v5
-        with:
-          python-version: "3.11"
-          cache-dependency-glob: "uv.lock"
-      - run: uv sync --frozen --all-extras
-      - name: Sanitize Google Developer MHTML
-        run: |
-          for f in data/*.mhtml; do
-            if [ -f "$f" ]; then
-              uv run python scripts/sanitize_gdev_mhtml.py "$f"
-            fi
-          done
-
   update-profile:
-    needs: sanitize-gdev
     uses: ./.github/workflows/reusable-update.yml
     with:
+      pre_script: "scripts/sanitize_gdev_mhtml.py data/"
       script_name: update_google_developer.py
       commit_message: "chore(google-dev): auto-update Google Developer profile, json-ld, and llms.txt"
       platform: google-developer
+      artifact_paths: '["data/", "for_validation/", "archives/", "README.md", "credentials.jsonld", "llms.txt", "llms-full.txt", "validation_reports/", "retired_urls.json"]'
     permissions:
       contents: write
