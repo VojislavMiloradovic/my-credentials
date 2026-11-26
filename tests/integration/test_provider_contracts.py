@@ -580,11 +580,13 @@ class TestMicrosoftLearnContracts:
             # Provenance field VALUES
             assert cred["sourcePlatform"] == "microsoft-learn"
             assert cred["retrievalMethod"] == "export"
-            assert cred["verificationStatus"] == "verified"  # Has URL
+            assert cred["verificationStatus"] == "unverified"
+            assert cred["evidenceLevel"] == "platform_activity"
+            assert cred["verificationUrlKind"] == "catalog_page"
             # sourceRecordId is extracted from "Credential ID: `...`" pattern
             # Our test data doesn't have that, so it may be None
             assert cred["sourceUrl"] is not None
-            assert cred["verifyUrl"] is not None
+            assert cred["verifyUrl"] is None
             assert "retrievedAt" in cred
             assert cred["lastVerifiedAt"] is None
             assert cred["sourceHash"] is None
@@ -905,20 +907,62 @@ class TestCrossPlatformProvenanceConsistency:
     """Tests that provenance fields are consistent across all platforms."""
 
     @pytest.mark.parametrize(
-        "platform_key,expected_retrieval_method",
+        "platform_key,expected_retrieval_method,expected_status,expected_evidence,expected_url_kind",
         [
-            ("google-developer", "api"),
-            ("google-skills", "api"),
-            ("microsoft-learn", "export"),
-            ("credly", "api"),
-            ("linkedin-certifications", "export"),
-            ("aws-skills", "export"),
+            (
+                "google-developer",
+                "api",
+                "unverified",
+                "platform_activity",
+                "catalog_page",
+            ),
+            (
+                "google-skills",
+                "api",
+                "verified",
+                "issuer_credential",
+                "credential_assertion",
+            ),
+            (
+                "microsoft-learn",
+                "export",
+                "unverified",
+                "platform_activity",
+                "catalog_page",
+            ),
+            (
+                "credly",
+                "api",
+                "verified",
+                "issuer_credential",
+                "credential_assertion",
+            ),
+            (
+                "linkedin-certifications",
+                "export",
+                "unverified",
+                "self_reported",
+                "catalog_page",
+            ),
+            (
+                "aws-skills",
+                "export",
+                "unverified",
+                "issuer_profile",
+                "profile_page",
+            ),
         ],
     )
     def test_provenance_retrieval_method_per_platform(
-        self, platform_key, expected_retrieval_method, temp_dir
+        self,
+        platform_key,
+        expected_retrieval_method,
+        expected_status,
+        expected_evidence,
+        expected_url_kind,
+        temp_dir,
     ):
-        """Each platform has correct retrievalMethod in JSON-LD."""
+        """Each platform has correct retrievalMethod and evidence-aware classification in JSON-LD."""
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
 
@@ -940,20 +984,15 @@ class TestCrossPlatformProvenanceConsistency:
         cred = platform_creds[0]
         assert cred["sourcePlatform"] == platform_key
         assert cred["retrievalMethod"] == expected_retrieval_method
-        assert cred["verificationStatus"] == "verified"
+        assert cred["verificationStatus"] == expected_status
+        assert cred["evidenceLevel"] == expected_evidence
+        assert cred["verificationUrlKind"] == expected_url_kind
 
     def test_provenance_verification_status_retired(self, temp_dir):
-        """Retired credentials get verificationStatus = 'retired' ONLY when no URL exists.
-
-        Current parser behavior: if URL exists, verificationStatus='verified' even if retired.
-        Only when no URL and retired=True -> verificationStatus='retired'.
-        """
+        """Retired credentials get verificationStatus = 'retired' even when a URL is present."""
         archives_dir = temp_dir / "archives"
         archives_dir.mkdir()
 
-        # The parser detects "Content retired" in the table cell
-        # But if URL exists, verificationStatus='verified' takes precedence
-        # Use ASCII-only marker to avoid encoding issues
         complete_md = """# Complete Test Archive
 
 | Date Earned | Credential Name | Verification Link |
@@ -967,8 +1006,7 @@ class TestCrossPlatformProvenanceConsistency:
 
         cred = credentials[0]
         assert cred["credentialStatus"] == "Retired"
-        # Current behavior: URL exists -> verified (retired only applies when no URL)
-        assert cred["verificationStatus"] == "verified"
+        assert cred["verificationStatus"] == "retired"
 
     def test_provenance_verification_status_no_url(self, temp_dir):
         """Credentials without URL get verificationStatus = 'unknown' (or 'retired')."""
@@ -988,6 +1026,8 @@ class TestCrossPlatformProvenanceConsistency:
 
         cred = credentials[0]
         assert cred["verificationStatus"] == "unknown"
+        assert cred["evidenceLevel"] == "self_reported"
+        assert cred["verificationUrlKind"] == "none"
 
     def test_provenance_source_record_id_from_credential_id(self, temp_dir):
         """sourceRecordId extracted from Credential ID in archive."""
@@ -1173,7 +1213,8 @@ class TestFullPipelineContract:
             assert "verify_url" in ach
             assert ach["source_platform"] == "microsoft-learn"
             assert ach["retrieval_method"] == "export"
-            assert ach["verification_status"] in ("verified", "retired", "unknown")
+            assert ach["verification_status"] in ("unverified", "retired", "unknown")
+            assert ach["evidence_level"] in ("platform_activity", "self_reported")
 
         # L2: Archive files created
         assert (archives_dir / "microsoft-learn-complete.md").exists()
