@@ -15,9 +15,10 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Create a canvas app based on Business Central data** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-canvas-app/) |
 | **Inspections in Dynamics 365 Field Service** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/inspections/) |
-| **Prepare the environment for a Microsoft Teams deployment** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-environment-for-microsoft-teams-deployment/) |
 | **Plan and configure network settings for Microsoft Teams** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-configure-network-settings-for-microsoft-teams/) |
+| **Prepare the environment for a Microsoft Teams deployment** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/prepare-environment-for-microsoft-teams-deployment/) |
 | **Implement device profiles** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-device-profiles/) |
 | **MD-101 Configure user and device profiles** | Learningpaths | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/paths/configure-user-device-profiles/) |
 | **Work with tables in Dynamics 365 Business Central** | Modules | 2026-03-01 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-tables/) |
@@ -36,8 +37,8 @@ artifacts: complete, index
 | **Manage Microsoft Defender for Endpoint** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-microsoft-defender-endpoint/) |
 | **Fine-tune language models with Azure Databricks** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/fine-tune-azure-databricks/) |
 | **Configure Azure Cosmos DB for NoSQL** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-azure-cosmos-db-sql-api/) |
-| **Connect and engage with customers with Omnichannel for Dynamics 365 Customer Service** | Learningpaths | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-customer-service-omnichannel/) |
 | **Get started with Omnichannel for Customer Service** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/getting-started-omnichannel/) |
+| **Connect and engage with customers with Omnichannel for Dynamics 365 Customer Service** | Learningpaths | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/work-customer-service-omnichannel/) |
 | **Create custom procedures in Dynamics 365 Business Central** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-custom-functions/) |
 | **Enter payments in the cash receipt journal and the payment journal in Dynamics 365 Business Central** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/enter-payments-dynamics-365-business-central/) |
 | **Build journeys with Dynamics 365 Customer Insights - Journeys** | Modules | 2026-02-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-journeys-marketing/) |
@@ -67,7 +68,6 @@ artifacts: complete, index
 | **Explore Desktop Analytics** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-desktop-analytics/) |
 | **Get started with computer vision in Azure** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-vision-azure/) |
 | **Understand hybrid data platform on SQL Server 2025** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-hybrid-data-platform-sql-server/) |
-| **Get started with AI-powered information extraction in Azure** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-51.md](./microsoft-learn-2026-02-part-51.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-53.md](./microsoft-learn-2026-03-part-53.md)

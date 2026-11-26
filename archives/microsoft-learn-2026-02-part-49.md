@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Work with data management in finance and operations apps** | Modules | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-data-management-finance-operations/) |
 | **Implement compliance for Microsoft Teams** | Modules | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-compliance-for-microsoft-teams/) |
 | **Get started with text analysis in Azure** | Modules | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-text-analysis-azure/) |
 | **Introduction to Azure Copilot agents** | Modules | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-azure-copilot-agents/) |
@@ -36,8 +37,8 @@ artifacts: complete, index
 | **Explore data integration concepts in finance and operations apps** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/integration-patterns-finance-operations/) |
 | **Help service reps be more productive in Dynamics 365 Customer Service** | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/agents-help-customer-service/) |
 | **Create smart assist solutions in Contact Center for Dynamics 365 Customer Service** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-smart-assist-omnichannel/) |
-| **Implement IP Address Management** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ip-address-management/) |
 | **Implement and operate an on-premises and hybrid networking infrastructure** | Learningpaths | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-operate-premises-hybrid/) |
+| **Implement IP Address Management** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-ip-address-management/) |
 | **Protect, monitor, and tune a migrated database** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/protect-monitor-tuning-migrated-database/) |
 | **Configure monitoring for virtual machines** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-monitoring-virtual-machines/) |
 | **Work with codeunits in Dynamics 365 Business Central** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-codeunits/) |
@@ -62,7 +63,6 @@ artifacts: complete, index
 | **Implement hybrid network infrastructure** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-hybrid-network-infrastructure/) |
 | **Add reports to Tell Me and substitute a report in Dynamics 365 Business Central** | Modules | 2026-02-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-reports-tell-me/) |
 | **Guided Project - Create document process model and email approval with AI Builder and Power Automate** | Modules | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-document-process-model-email-approval-ai-builder/) |
-| **Implement AI models with Microsoft Power Platform AI Builder** | Learningpaths | 2026-02-14 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-ai-models-microsoft-power-platform-ai-builder/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-48.md](./microsoft-learn-2026-02-part-48.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-50.md](./microsoft-learn-2026-02-part-50.md)

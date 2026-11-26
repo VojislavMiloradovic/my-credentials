@@ -15,14 +15,15 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Get started with language models in Azure Databricks** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-language-models-databricks/) |
 | **Review responsible AI principles for language models in Azure Databricks** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/responsible-language-models-azure-databricks/) |
 | **Work with scripting constructs in Windows PowerShell** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-script-constructs-windows-powershell/) |
 | **Set up and use Intelligent OCR for vendor invoices in Dynamics 365 Finance** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/ocr-vendor-invoices-finance/) |
-| **Deploy and manage Azure Arc-enabled Servers** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-azure-arc-enabled-servers/) |
 | **Guided exercise - Manage on-premises Windows servers by using Azure Arc** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-exercise-manage-on-premises-azure-arc/) |
+| **Deploy and manage Azure Arc-enabled Servers** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-manage-azure-arc-enabled-servers/) |
 | **Perform a bank reconciliation in Dynamics 365 Business Central** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/bank-reconciliation-dynamics-365-business-central/) |
-| **Monitor and maintain an Azure Virtual Desktop infrastructure** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-maintain-azure-virtual-desktop-infrastructure/) |
 | **Monitor and manage performance and health** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-manage-performance-health/) |
+| **Monitor and maintain an Azure Virtual Desktop infrastructure** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/monitor-maintain-azure-virtual-desktop-infrastructure/) |
 | **Manage sales prices in Dynamics 365 Business Central** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-sales-prices-dynamics-365-business-central/) |
 | **Set up Apple Message for Business and Google Business Messages as channels in Dynamics 365 Customer Service** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-apple-message-business-google-business-messages/) |
 | **Work with reports in Dynamics 365 Business Central** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-with-reports/) |
@@ -64,7 +65,6 @@ artifacts: complete, index
 | **Extend and modify an existing table in Dynamics 365 Business Central** | Modules | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/extend-modify-existing-table/) |
 | **Configure BitLocker disk encryption for Windows IaaS Virtual Machines** | Modules | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-bitlocker-disk-encryption-windows-iaas-virtual-machines/) |
 | **Updates and upgrades for finance and operations apps** | Modules | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/upgrades-updates-finance-operations-apps/) |
-| **Work with data management in finance and operations apps** | Modules | 2026-02-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-data-management-finance-operations/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-49.md](./microsoft-learn-2026-02-part-49.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-51.md](./microsoft-learn-2026-02-part-51.md)

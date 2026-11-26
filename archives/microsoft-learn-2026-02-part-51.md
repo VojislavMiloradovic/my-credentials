@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 51 of 100
-date_range: 2026-02-25 to 2026-02-26
+date_range: 2026-02-25 to 2026-02-27
 total_entries: 50
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-02-part-51.md
 layer: L2_published
@@ -15,13 +15,14 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Get started with AI-powered information extraction in Azure** | Modules | 2026-02-27 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-information-extraction/) |
 | **Process purchase order invoices in Dynamics 365 Finance** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/purchase-order-invoices-finance/) |
 | **Generate inventory and compliance reports** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/generate-inventory-compliance-reports/) |
 | **Train a machine learning model in Azure Databricks** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/machine-learning-azure-databricks/) |
 | **Evaluate language models with Azure Databricks** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-language-models-azure-databricks/) |
 | **Implement streaming architecture patterns with Delta Live Tables** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-streaming-architecture-patterns-with-delta-live-tables/) |
-| **Guided Project – Deploy and configure Azure Monitor** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-deploy-configure-azure-monitor/) |
 | **Deploy and configure Azure Monitor** | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/deploy-configure-azure-monitor/) |
+| **Guided Project – Deploy and configure Azure Monitor** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/guided-project-deploy-configure-azure-monitor/) |
 | **Monitor device profiles** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/monitor-device-profiles/) |
 | **Optimize performance with Spark and Delta Live Tables** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-performance-with-spark-and-delta-live-tables/) |
 | **Introduction to tools for declarative agents in Copilot Studio** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-copilot-studio-actions/) |
@@ -46,8 +47,8 @@ artifacts: complete, index
 | **Troubleshoot audio, video, and client issues** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-audio-video-client-issues/) |
 | **Work with environments in GitHub Actions** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/work-environments-github-actions/) |
 | **Deploy social messaging channels in Omnichannel for Dynamics 365 Customer Service** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/social-channels/) |
-| **Migrate servers and workloads in on-premises and hybrid environments** | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-servers-workloads-premises-hybrid-environments/) |
 | **Migrate Windows Server roles** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/migrate-windows-server-roles/) |
+| **Migrate servers and workloads in on-premises and hybrid environments** | Learningpaths | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/migrate-servers-workloads-premises-hybrid-environments/) |
 | **Deploy an SMS channel in Omnichannel for Dynamics 365 Customer Service** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/sms-channels/) |
 | **Use Microsoft 365 services with model-driven apps and Microsoft Dataverse** | Modules | 2026-02-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-services-model-driven-apps/) |
 | **Guided project - Build auto suggest engine with Copilot** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-auto-suggest-engine-copilot/) |
@@ -64,7 +65,6 @@ artifacts: complete, index
 | **Automate database tasks for Azure SQL** | Learningpaths | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/automate-tasks-sql-server/) |
 | **Deploy new devices** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-new-devices/) |
 | **Process sales orders with Dynamics 365 Sales** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/process-sales-orders-dynamics-365-sales/) |
-| **Get started with language models in Azure Databricks** | Modules | 2026-02-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-language-models-databricks/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-50.md](./microsoft-learn-2026-02-part-50.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-03-part-52.md](./microsoft-learn-2026-03-part-52.md)

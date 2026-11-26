@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 34 of 100
 date_range: 2026-01-18 to 2026-01-20
-total_entries: 53
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-01-part-34.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Manage meetings and events experiences** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-meetings-virtual-events-experiences/) |
+| **Configure BYOD spaces and bookable desks** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-byod-spaces-bookable-desks/) |
 | **Use DAX in semantic models** | Learningpaths | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/dax-power-bi/) |
 | **Create DAX calculations in semantic models** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-create-calculations/) |
 | **Manage records and disposition with Microsoft Purview** | Modules | 2026-01-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-manage-records/) |
@@ -49,8 +51,8 @@ artifacts: complete, index
 | **Govern and protect sensitive information in the age of AI** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-protect-govern-ai/) |
 | **Explore PostgreSQL architecture** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-postgresql-architecture/) |
 | **Create and manage Insider Risk Management policies** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-create-manage-insider-risk-policy/) |
-| **Manage and secure Power BI** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-secure-power-bi/) |
 | **Create dashboards in Power BI** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/) |
+| **Manage and secure Power BI** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-secure-power-bi/) |
 | **Choose a content distribution method** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/choose-content-distribution-method/) |
 | **Manage semantic models in Power BI** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-datasets-power-bi/) |
 | **Manage workspaces in Power BI service** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-workspaces-power-bi-service/) |
@@ -66,7 +68,6 @@ artifacts: complete, index
 | **Identify and mitigate AI data security risks** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-identify-mitigate-ai-risks/) |
 | **Scope report design requirements** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-requirements/) |
 | **Learn how Microsoft supports data discovery, classification, and protection as part of a cybersecurity solution** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/data-identification-cybersecurity/) |
-| **Implement information protection and data loss prevention by using Microsoft Purview** | Learningpaths | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/paths/purview-implement-information-protection-data-loss-prevention/) |
 | **Prevent data loss with Microsoft Purview** | Modules | 2026-01-18 | [Verify](https://learn.microsoft.com/en-us/training/modules/m365-compliance-information-prevent-data-loss/) |
 
 ---

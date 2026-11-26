@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Create a multimodal analysis solution with Azure Content Understanding** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/analyze-content-ai/) |
 | **Get tips and tricks for teaching MB-910: Microsoft Dynamics 365 Fundamentals (CRM)** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-tips-tricks-teach-mb-910-dynamics-365-fundamentals/) |
 | **Estimate physical resource requirements for quantum algorithms with the Azure Quantum Resource Estimator** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/estimate-resources-quantum-algorithms/) |
 | **Describe shared features in finance and operations apps** | Modules | 2025-12-21 | [Verify](https://learn.microsoft.com/en-us/training/modules/describe-shared-features/) |
@@ -66,7 +67,6 @@ artifacts: complete, index
 | **Share a cloud flow with Power Automate** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/share-cloud-flow/) |
 | **Build a mobile-optimized app from Power Apps** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-mobile-optimized/) |
 | **Upload your project by using GitHub best practices** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/upload-project-github/) |
-| **Adjust process behavior using conditional actions with Power Automate for desktop** | Modules | 2025-12-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/pad-conditionals/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2025-12-part-17.md](./microsoft-learn-2025-12-part-17.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2025-12-part-19.md](./microsoft-learn-2025-12-part-19.md)

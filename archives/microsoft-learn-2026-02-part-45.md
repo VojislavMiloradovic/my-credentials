@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Manage users and implement security in Dynamics 365 Business Central** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/users-security-dynamics-365-business-central/) |
+| **Create and configure a Log Analytics workspace** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-configure-log-analytics-workspace/) |
 | **Perform basic Azure Management Tasks (Security and Monitoring)** | Learningpaths | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/paths/perform-basic-azure-management-tasks/) |
 | **Solution architect series: Model data for Power Platform solutions** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/data-modeling/) |
 | **Get started with AI in Azure** | Modules | 2026-02-12 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-with-ai-in-azure/) |
@@ -63,8 +65,6 @@ artifacts: complete, index
 | **Integrate Dynamics 365 Business Central with Outlook** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/email-integration-dynamics-365-business-central/) |
 | **Prepare to migrate VMware resources to Azure by deploying Azure VMware Solution** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/deploy-azure-vmware-solution/) |
 | **Build basic code components with the Power Apps Component Framework** | Learningpaths | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-basic-code-components-power-apps-component-framework/) |
-| **Get started with Power Apps component framework** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-apps-component-framework/) |
-| **Write your first query with Kusto Query Language** | Modules | 2026-02-11 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-first-query-kusto-query-language/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-44.md](./microsoft-learn-2026-02-part-44.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-46.md](./microsoft-learn-2026-02-part-46.md)

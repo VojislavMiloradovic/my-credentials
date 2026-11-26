@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **GitHub administration for enterprise support and adoption** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-administration-for-enterprise-support-adoption/) |
+| **Find commands and Get-Help in Windows PowerShell** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/find-commands-get-help-windows-powershell/) |
 | **Get started with Windows PowerShell** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/get-started-windows-powershell/) |
 | **MS-102 Manage your security services in Microsoft Defender XDR** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-security-services-microsoft-365-defender/) |
 | **Manage Safe Links** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-safe-links-microsoft-365/) |
@@ -32,8 +34,8 @@ artifacts: complete, index
 | **Explore sensitivity labels** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-sensitivity-labels-microsoft-365/) |
 | **Create and define calculation or rollup columns in Dataverse** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-define-calculation-rollup-fields/) |
 | **Enhance your email protection using Microsoft Defender for Office 365** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/examine-microsoft-defender-office-365/) |
-| **Build and deploy applications to Azure by using GitHub Actions** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-actions-cd/) |
 | **Manage source control** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-manage-source-control/) |
+| **Build and deploy applications to Azure by using GitHub Actions** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-actions-cd/) |
 | **Automate your workflow with GitHub Actions Part 1 of 2** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/github-actions/) |
 | **Connect logs to Microsoft Sentinel** | Learningpaths | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/paths/sc-200-connect-logs-to-azure-sentinel/) |
 | **Connect data to Microsoft Sentinel using data connectors** | Modules | 2026-02-08 | [Verify](https://learn.microsoft.com/en-us/training/modules/connect-data-to-azure-sentinel-with-data-connectors/) |
@@ -42,8 +44,8 @@ artifacts: complete, index
 | **Build and optimize cloud flows in Power Automate** | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-optimize-cloud-flows-power-automate/) |
 | **Troubleshoot slow-running flows in Power Automate** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/troubleshoot-slow-flows/) |
 | **Build and store container images with Azure Container Registry** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-and-store-container-images/) |
-| **Architect modern applications in Azure** | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-modern-apps/) |
 | **Administer containers in Azure** | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/administer-containers-in-azure/) |
+| **Architect modern applications in Azure** | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/architect-modern-apps/) |
 | **Threat response with Microsoft Sentinel playbooks** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/threat-response-sentinel-playbooks/) |
 | **Plan and implement advanced security for compute** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/advanced-security-compute/) |
 | **Protect compute, storage, and databases** | Learningpaths | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-compute-storage-databases/) |
@@ -66,8 +68,6 @@ artifacts: complete, index
 | **Use Search jobs in Microsoft Sentinel** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-search-jobs-microsoft-sentinel/) |
 | **Manage data with Delta Lake** | Modules | 2026-02-07 | N/A |
 | **Overview of HTTP connectors in Power Automate** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/http-connectors/) |
-| **Implement and manage Active Directory Certificate Services** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-manage-active-directory-certificate-services/) |
-| **Investigate and respond to Microsoft Purview Data Loss Prevention alerts** | Modules | 2026-02-07 | [Verify](https://learn.microsoft.com/en-us/training/modules/purview-data-loss-prevention-alerts/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-02-part-41.md](./microsoft-learn-2026-02-part-41.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-02-part-43.md](./microsoft-learn-2026-02-part-43.md)
