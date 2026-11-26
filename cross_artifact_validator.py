@@ -198,6 +198,8 @@ class PlatformCounts:
     provenance_retrieval_method: str | None = None
     provenance_retrieved_at: str | None = None
     provenance_verification_status: str | None = None
+    provenance_evidence_level: str | None = None
+    provenance_verification_url_kind: str | None = None
     provenance_source_record_id: str | None = None
     provenance_source_url: str | None = None
     provenance_verify_url: str | None = None
@@ -688,18 +690,14 @@ class CrossArtifactValidator:
         self, platform_key: str, credentials: list[dict], counts: PlatformCounts
     ) -> None:
         """Validate provenance metadata in JSON-LD credentials."""
-        # Check that provenance fields are present
+        # Check that required non-nullable provenance fields are present
         required_provenance_fields = [
             "sourcePlatform",
             "retrievalMethod",
             "retrievedAt",
             "verificationStatus",
-            "sourceRecordId",
-            "sourceUrl",
-            "verifyUrl",
-            "lastVerifiedAt",
-            "sourceHash",
-            "retrievalMethod",
+            "evidenceLevel",
+            "verificationUrlKind",
         ]
 
         missing_fields = 0
@@ -780,6 +778,55 @@ class CrossArtifactValidator:
                 )
             )
 
+        # Validate evidenceLevel and verificationUrlKind
+        valid_evidence_levels = [
+            "issuer_credential",
+            "issuer_profile",
+            "platform_activity",
+            "self_reported",
+        ]
+        invalid_evidence_level = sum(
+            1
+            for cred in credentials
+            if cred.get("evidenceLevel") not in valid_evidence_levels
+        )
+        if invalid_evidence_level > 0:
+            self.add_result(
+                ValidationResult(
+                    check_name="jsonld_provenance_evidence_level",
+                    platform=platform_key,
+                    passed=False,
+                    expected=f"evidenceLevel in {valid_evidence_levels}",
+                    actual=f"{invalid_evidence_level} invalid",
+                    message=f"JSON-LD invalid evidenceLevel: {invalid_evidence_level} credentials",
+                    severity="warning",
+                )
+            )
+
+        valid_url_kinds = [
+            "credential_assertion",
+            "profile_page",
+            "catalog_page",
+            "none",
+        ]
+        invalid_url_kind = sum(
+            1
+            for cred in credentials
+            if cred.get("verificationUrlKind") not in valid_url_kinds
+        )
+        if invalid_url_kind > 0:
+            self.add_result(
+                ValidationResult(
+                    check_name="jsonld_provenance_verification_url_kind",
+                    platform=platform_key,
+                    passed=False,
+                    expected=f"verificationUrlKind in {valid_url_kinds}",
+                    actual=f"{invalid_url_kind} invalid",
+                    message=f"JSON-LD invalid verificationUrlKind: {invalid_url_kind} credentials",
+                    severity="warning",
+                )
+            )
+
         # Validate retirement metadata fields
         self._validate_retirement_metadata(platform_key, credentials)
 
@@ -796,11 +843,12 @@ class CrossArtifactValidator:
         ]
         if platform_credentials:
             cred = platform_credentials[0]
-            cred = platform_credentials[0]
             counts.provenance_source_platform = cred.get("sourcePlatform")
             counts.provenance_retrieval_method = cred.get("retrievalMethod")
             counts.provenance_retrieved_at = cred.get("retrievedAt")
             counts.provenance_verification_status = cred.get("verificationStatus")
+            counts.provenance_evidence_level = cred.get("evidenceLevel")
+            counts.provenance_verification_url_kind = cred.get("verificationUrlKind")
             counts.provenance_source_record_id = cred.get("sourceRecordId")
             counts.provenance_source_url = cred.get("sourceUrl")
             counts.provenance_verify_url = cred.get("verifyUrl")
@@ -828,7 +876,9 @@ class CrossArtifactValidator:
         valid_sources = {"source_csv", "registry", "auto"}
 
         for cred in platform_credentials:
-            if not cred.get("retired", False):
+            if not (
+                cred.get("retired", False) or cred.get("credentialStatus") == "Retired"
+            ):
                 continue
 
             # Validate retirement_source
