@@ -46,7 +46,7 @@ artifacts: complete, index
 | 2026-04-10 | [Architect Gemini Enterprise for Customer Experience](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23537383) | Google Cloud | Google Skill Badge |
 | 2026-04-09 | [Create Your First Gemini Enterprise Application](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23515615) | Google Cloud | Google Skill Badge |
 | 2026-04-09 | [Enterprise Agents and Use Cases](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23515527) | Google Cloud | Google Skill Badge |
-| 2026-04-09 | [Introduction to AI Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23515484) | Google Cloud | Google Skill Badge |
+| 2026-04-09 | [[DEPRECATED] Introduction to AI Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23515484) | Google Cloud | Google Skill Badge |
 | 2026-04-08 | [Manage Agent Memory and State](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23498280) | Google Cloud | Google Skill Badge |
 | 2026-04-08 | [Add Agent Capabilities With Tools](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23498188) | Google Cloud | Google Skill Badge |
 | 2026-04-08 | [Build Agents with Agent Development Kit (ADK)](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23497985) | Google Cloud | Google Skill Badge |

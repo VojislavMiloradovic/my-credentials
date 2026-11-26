@@ -2,7 +2,7 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-11-26 00:39 UTC
+> **Last Generated:** 2026-11-26 05:43 UTC
 
 --- BEGIN FILE: README.md ---
 
@@ -4233,7 +4233,7 @@ This document represents a unified, verifiable list of all 445 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-25T05:52:58.581957+00:00 -->
+<!-- retrieved_at: 2026-11-26T05:43:44.008971+00:00 -->
 
 ## Verified Records Archive
 
@@ -4472,7 +4472,7 @@ This document represents a unified, verifiable list of all 445 records.
 | 2026-04-10 | [Architect Gemini Enterprise for Customer Experience](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23537383) | Google Cloud | Google Skill Badge |
 | 2026-04-09 | [Create Your First Gemini Enterprise Application](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23515615) | Google Cloud | Google Skill Badge |
 | 2026-04-09 | [Enterprise Agents and Use Cases](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23515527) | Google Cloud | Google Skill Badge |
-| 2026-04-09 | [Introduction to AI Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23515484) | Google Cloud | Google Skill Badge |
+| 2026-04-09 | [[DEPRECATED] Introduction to AI Agents](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23515484) | Google Cloud | Google Skill Badge |
 | 2026-04-08 | [Manage Agent Memory and State](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23498280) | Google Cloud | Google Skill Badge |
 | 2026-04-08 | [Add Agent Capabilities With Tools](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23498188) | Google Cloud | Google Skill Badge |
 | 2026-04-08 | [Build Agents with Agent Development Kit (ADK)](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/23497985) | Google Cloud | Google Skill Badge |
