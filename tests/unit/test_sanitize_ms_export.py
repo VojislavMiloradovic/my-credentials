@@ -251,3 +251,99 @@ class TestConstants:
         for pattern, replacement in INLINE_SCRUB_PATTERNS:
             assert hasattr(pattern, "sub")  # compiled regex
             assert isinstance(replacement, str)
+class TestMsExportRegressionFixes:
+    """Tests for sourceUid preservation, exact PII keys, email scrubbing, and section pruning."""
+
+    def test_preserves_source_uid_and_avoids_oid_false_positives(self):
+        """sourceUid and unrelated keys containing 'oid' or 'mail' substrings should not be redacted."""
+        assert is_sensitive_key("sourceUid") is False
+        assert is_sensitive_key("androidVersion") is False
+        assert is_sensitive_key("voidReason") is False
+        assert is_sensitive_key("userId") is True
+        assert is_sensitive_key("docsId") is True
+        assert is_sensitive_key("oid") is True
+        assert is_sensitive_key("upn") is True
+        assert is_sensitive_key("email") is True
+
+    def test_preserves_source_uid_in_user_credentials(self):
+        """VerifiableCredentials.userCredentials should preserve sourceUid while redacting userId."""
+        data = {
+            "VerifiableCredentials": {
+                "docsId": "user-docs-123",
+                "userCredentials": [
+                    {
+                        "credentialId": "CRED001",
+                        "userId": "user-guid-123",
+                        "sourceUid": "applied-skill.enhance-agents",
+                        "awardedOn": "2026-10-31",
+                        "credentialStatus": "Active",
+                    }
+                ],
+            }
+        }
+        result = sanitize_node(data)
+        cred = result["VerifiableCredentials"]["userCredentials"][0]
+        assert result["VerifiableCredentials"]["docsId"] == "[REDACTED]"
+        assert cred["userId"] == "[REDACTED]"
+        assert cred["sourceUid"] == "applied-skill.enhance-agents"
+        assert cred["credentialId"] == "CRED001"
+
+    def test_scrub_text_redacts_emails(self):
+        """Embedded email addresses should be redacted."""
+        result = scrub_text("Contact: user.name+tag@example.com for details")
+        assert "user.name+tag@example.com" not in result
+        assert "[EMAIL_REDACTED]" in result
+
+    def test_process_file_prunes_unneeded_ms_sections(self, temp_dir):
+        """process_file should drop TechProfile, SkillAssessment, etc. from MS Learn exports."""
+        export_file = temp_dir / "microsoft-learn.json"
+        raw_export = {
+            "Progress": {"completedLearningItems": [], "learningPathPasses": []},
+            "XP": {
+                "xp": {"docsId": "secret-docs-id", "totalXp": 1000},
+                "achievements": [],
+            },
+            "VerifiableCredentials": {
+                "docsId": "secret-docs-id",
+                "userCredentials": [
+                    {
+                        "credentialId": "CRED001",
+                        "userId": "secret-user-id",
+                        "sourceUid": "applied-skill.abc",
+                    }
+                ],
+            },
+            "TechProfile": {
+                "email": "private@example.com",
+                "upn": "private@example.com",
+            },
+            "SkillAssessment": {"labSessions": [{"labUrl": "https://lab.example"}]},
+            "Q&A": {"questions": []},
+            "LearnCompanion": {"conversations": []},
+            "NextSteps": {"enrollments": []},
+        }
+        export_file.write_text(json.dumps(raw_export, indent=2), encoding="utf-8")
+
+        process_file(export_file)
+        cleaned = json.loads(export_file.read_text(encoding="utf-8"))
+
+        assert "Progress" in cleaned
+        assert "XP" in cleaned
+        assert "VerifiableCredentials" in cleaned
+        for removed in (
+            "TechProfile",
+            "SkillAssessment",
+            "Q&A",
+            "LearnCompanion",
+            "NextSteps",
+        ):
+            assert removed not in cleaned
+        assert cleaned["XP"]["xp"]["docsId"] == "[REDACTED]"
+        assert (
+            cleaned["VerifiableCredentials"]["userCredentials"][0]["userId"]
+            == "[REDACTED]"
+        )
+        assert (
+            cleaned["VerifiableCredentials"]["userCredentials"][0]["sourceUid"]
+            == "applied-skill.abc"
+        )
