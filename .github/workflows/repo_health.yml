@@ -1,12 +1,16 @@
 name: Security & Repository Health Checks
 
+name: Security & Repository Health Checks
+
 on:
   push:
     branches: [ main ]
+    paths-ignore:
+      - 'data/microsoft-learn.json'
+      - 'data/*.mhtml'
   pull_request:
     branches: [ main ]
   workflow_dispatch:
-
 # Queue health checks sequentially with sync workflows
 concurrency:
   group: git-push-main
