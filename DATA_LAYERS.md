@@ -57,7 +57,7 @@ Platform-specific normalization:
 ### L2_published - Archives & Linked Data
 - **Archive files**: `{platform}-complete.md` (all records), `{platform}-index.md` (summary)
 - **Google Developer**: Additional `{platform}-codelabs-complete.md`, `{platform}-local-learnings-complete.md`
-- **Cross-platform**: `credentials.jsonld` (Schema.org linked data)
+- **Cross-platform**: `credentials.jsonld` (Schema.org linked data enriched with evidence-aware provenance and TTL-cached assertion verification from `data/active_verifications.json`)
 
 ### L3_display - Display Metrics
 - **README.md**: Human-readable summary with metrics tables
@@ -163,6 +163,21 @@ The following fields are now included in the JSON-LD output for retired credenti
 - `"registry"` - Retirement from retired_urls.json registry
 - `"auto"` - Auto-detected removal from source data
 
+### Evidence-Aware Provenance & Active Verification
+
+Records in `credentials.jsonld` carry standardized provenance classification metadata (`models/provenance.py`), optionally elevated by active HTTP assertion checks (`verify_assertions.py`):
+
+| Field | Type | Values / Format | Description |
+|-------|------|-----------------|-------------|
+| `evidenceLevel` | string | `"issuer_credential"`, `"issuer_profile"`, `"platform_activity"`, `"self_reported"` | Strength and origin of evidence backing the credential |
+| `verificationUrlKind` | string | `"credential_assertion"`, `"profile_page"`, `"catalog_page"`, `"none"` | Semantic role of the attached verification URL |
+| `verificationStatus` | string | `"verified"`, `"unverified"`, `"retired"`, `"expired"`, `"unknown"` | Pragmatic status (retirement/expiration take strict precedence) |
+| `lastVerifiedAt` | string \| null | ISO-8601 UTC timestamp or `null` | Last time an independent assertion endpoint returned `2xx` |
+
+- **Cache File (`data/active_verifications.json`)**: Maps assertion URLs (`evidenceLevel == "issuer_credential"` and `verificationUrlKind == "credential_assertion"`) to `{ "last_verified_at", "http_status", "alive", "method" }` using a 30-day default TTL.
+- **JSON-LD Integration (`generate_jsonld.py`)**: Reads `data/active_verifications.json` on regeneration; when a non-retired, non-expired `credential_assertion` URL has `alive: true` within the 30-day TTL, `generate_jsonld.py` populates `lastVerifiedAt` and elevates `verificationStatus` to `"verified"`.
+- **Scheduled Probing (`.github/workflows/verify_assertions.yml`)**: Runs weekly (Sundays `03:00 UTC`) with rate-limited async `HEAD` probes (falling back to `GET` on `{400, 403, 405, 501}`), then regenerates `credentials.jsonld` and runs strict cross-artifact validation.
+
 ## Manifest Schema
 
 ```yaml
@@ -250,6 +265,7 @@ def main():
 
 ### Cross-Platform
 - `credentials.jsonld` - Schema.org `ItemList` with `EducationalOccupationalCredential`
+- `data/active_verifications.json` - Persistent 30-day TTL cache of HTTP assertion probe results
 - `README.md` - Human-readable dashboard
 - `llms.txt` - LLM index with archive links
 - `llms-full.txt` - Consolidated context
