@@ -53,9 +53,11 @@ tests/
 │   ├── test_run_link_checker_extended.py
 │   ├── test_sanitize_gdev_mhtml.py
 │   ├── test_sanitize_ms_export.py
+│   ├── test_transactional_publication.py
 │   ├── test_validate_manifest.py
 │   ├── test_validation_summary.py
-│   └── test_verify_assertions.py
+│   ├── test_verify_assertions.py
+│   └── test_workflow_security.py
 └── integration/                # Integration tests for pipelines
     ├── test_archive_parsing.py
     ├── test_aws_skills_pipeline.py
@@ -446,3 +448,18 @@ uv run pytest tests/unit/test_provenance_classification.py tests/unit/test_verif
 # Dry-run assertion verification against local credentials.jsonld (no network writes to cache)
 uv run python verify_assertions.py --limit 10 --dry-run
 ```
+
+## Testing Transactional Publication & Recovery
+
+`tests/unit/test_transactional_publication.py` verifies fail-fast publication gates and `PublicationTransaction` rollback in `pipeline_base.py`, `archiver.py`, `scripts/sync_fixtures.py`, and provider pipelines (`update_*.py`):
+
+- **Atomic Writes**: Validates `archiver.atomic_write_text`, `archiver.safe_write_file`, `_atomic_write_json`, and `scripts/sync_fixtures._atomic_copy_file` write via same-directory temporary files + `os.replace`, preserving original targets if replacement fails.
+- **Snapshot/Rollback**: Simulates failures in `persist_validation`, `generate_archive`, `update_readme`, `generate_baselines`, and `sync_fixtures`, asserting that pre-run validation JSON, archives (including cleaned orphaned chunks), `README.md`, baselines (`for_validation/*-baseline.json`), and synced fixtures are restored and baselines never advance on error.
+- **CI Workspace vs Repo Semantics**: Confirms `scripts/sync_fixtures.py` skips gracefully when `for_validation/` is absent (CI targeted test workspaces) while raising `FileNotFoundError` / `ValueError` / `OSError` in full checkouts.
+- **Baseline Corruption Recovery**: If locally committed `for_validation/*-baseline.json` files become corrupted, temporarily commenting out checks in `.github/workflows/*.yml` and running the GitHub workflow remains supported—clean workflow runs pass `PublicationTransaction` and overwrite the corrupted baseline atomically.
+
+```bash
+# Run transactional publication and workflow security unit tests
+uv run pytest tests/unit/test_transactional_publication.py tests/unit/test_workflow_security.py -v
+```
+
