@@ -13,7 +13,9 @@ NOTE: Does NOT sync main validation files (they contain production data).
 Test fixtures in tests/fixtures/ must remain small, controlled test data.
 """
 
+import os
 import shutil
+import tempfile
 from pathlib import Path
 
 # Mapping: platform -> list of (source_file, destination_file)
@@ -66,6 +68,29 @@ FIXTURE_MAP = {
 }
 
 
+def _atomic_copy_file(src_path: Path, dst_path: Path) -> None:
+    """Atomically copy src_path to dst_path via a same-directory temp file."""
+    dst_path.parent.mkdir(parents=True, exist_ok=True)
+    tmp_path: Path | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            dir=dst_path.parent,
+            prefix=f".{dst_path.name}.",
+            suffix=".tmp",
+            delete=False,
+        ) as tmp_file:
+            tmp_path = Path(tmp_file.name)
+        shutil.copy2(src_path, tmp_path)
+        os.replace(tmp_path, dst_path)
+        tmp_path = None
+    finally:
+        if tmp_path is not None and tmp_path.exists():
+            try:
+                tmp_path.unlink()
+            except OSError:
+                pass
+
+
 def sync_fixtures(platform: str, verbose: bool = True) -> int:
     """
     Sync baseline files from for_validation to tests/fixtures for a platform.
@@ -76,11 +101,18 @@ def sync_fixtures(platform: str, verbose: bool = True) -> int:
 
     Returns:
         Number of files synced
+
+    Raises:
+        ValueError: If platform is not registered in FIXTURE_MAP
+        FileNotFoundError: If for_validation/ exists yet an expected baseline is missing
+        OSError: If copying fails
     """
     if platform not in FIXTURE_MAP:
-        if verbose:
-            print(f"  [SYNC] Unknown platform: {platform}")
-        return 0
+        raise ValueError(f"Unknown platform for fixture sync: {platform}")
+
+    # CI targeted test workspaces rsync repo files with --exclude='for_validation'.
+    # Skip gracefully only when the entire for_validation directory is absent.
+    validation_root_exists = Path("for_validation").exists()
 
     synced = 0
     for src, dst in FIXTURE_MAP[platform]:
@@ -88,12 +120,15 @@ def sync_fixtures(platform: str, verbose: bool = True) -> int:
         dst_path = Path(dst)
 
         if not src_path.exists():
+            if validation_root_exists:
+                raise FileNotFoundError(
+                    f"Expected baseline source not found for fixture sync: {src}"
+                )
             if verbose:
-                print(f"  [SYNC] Source not found: {src}")
+                print(f"  [SYNC] Source not found (for_validation absent): {src}")
             continue
 
-        dst_path.parent.mkdir(parents=True, exist_ok=True)
-        shutil.copy2(src_path, dst_path)
+        _atomic_copy_file(src_path, dst_path)
 
         if verbose:
             print(f"  [SYNC] {src} -> {dst}")
