@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-15 | [MSP Academy: Marketing Your MSP](https://www.credly.com/badges/f5ae66ba-d6bf-4db5-bf50-95a1dac4f80f/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: MDR Basics](https://www.credly.com/badges/2e504ab8-0ffe-4d22-9600-da1db92856a8/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Microsoft 365](https://www.credly.com/badges/b3af2b8c-426e-4959-8b23-459d9a62c832/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Microsoft 365 Integration and Optimization](https://www.credly.com/badges/79099641-89c2-4c50-b8cf-f7ded86d3cf5/public_url) | Acronis | Credly Verified Badge |
@@ -68,7 +69,6 @@ artifacts: complete, index
 | 2026-08-31 | [MSP Academy: Cyber Scripting](https://www.credly.com/badges/08f1b56f-b3eb-41af-9553-5cc25976d29e/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-31 | [MSP Academy: Disaster Recovery](https://www.credly.com/badges/4aae4192-7870-4fbc-8644-06db35ece843/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-31 | [MSP Academy: Maximizing Your Business Efficiency](https://www.credly.com/badges/8b9124df-62b5-4111-8029-b4fd9b558ea4/public_url) | Acronis | Credly Verified Badge |
-| 2026-08-31 | [Share Data Using Google Data Cloud Skill Badge](https://www.credly.com/badges/35d9f8d7-dc3e-4f66-9ec8-d83eeb50882f/public_url) | Google Cloud | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-08-part-11.md](./credly-2026-08-part-11.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-13.md](./credly-2026-10-part-13.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 9 of 16
-date_range: 2026-07-17 to 2026-07-30
+date_range: 2026-07-19 to 2026-07-30
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-07-part-09.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-30 | [MongoDB Encryption at Rest with BYOK](https://www.credly.com/badges/ea5fdc47-7f57-42a4-9829-eb7c40b0b729/public_url) | MongoDB | Credly Verified Badge |
 | 2026-07-30 | [Securing MongoDB Atlas Networking](https://www.credly.com/badges/74ba326f-caa2-44b0-a4b2-dd055799bebf/public_url) | MongoDB | Credly Verified Badge |
 | 2026-07-30 | [Securing MongoDB Self-Managed Networking](https://www.credly.com/badges/0f2ed21a-e251-4566-ac7e-bf989559785b/public_url) | MongoDB | Credly Verified Badge |
 | 2026-07-30 | [Threat-Informed Architecture](https://www.credly.com/badges/2e682aba-ad5e-4f85-9f0e-87f0a4a1c5d1/public_url) | AttackIQ | Credly Verified Badge |
@@ -67,7 +68,6 @@ artifacts: complete, index
 | 2026-07-19 | [Foundations of AI Security](https://www.credly.com/badges/fa327098-5494-4463-84bc-6429f541bf76/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-07-19 | [Introduction to EASY Framework for Threat Intelligence](https://www.credly.com/badges/351d4db6-cd03-429e-a629-0765c3c78ba0/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-07-19 | [Secure Software Delivery Skill Badge](https://www.credly.com/badges/2cf13bdf-9555-4bac-a807-2f80b52ddb56/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-07-17 | [BDR Basic Course](https://www.credly.com/badges/eecab10e-35f3-446c-9503-a4b15c76acf8/public_url) | Acronis | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-07-part-08.md](./credly-2026-07-part-08.md) | [Index](./credly-index.md) | Next: [credly-2026-08-part-10.md](./credly-2026-08-part-10.md)

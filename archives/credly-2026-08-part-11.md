@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 11 of 16
-date_range: 2026-08-12 to 2026-08-30
+date_range: 2026-08-14 to 2026-08-31
 total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-31 | [Share Data Using Google Data Cloud Skill Badge](https://www.credly.com/badges/35d9f8d7-dc3e-4f66-9ec8-d83eeb50882f/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-30 | [Implement CI/CD Pipelines on Google Cloud Skill Badge](https://www.credly.com/badges/a15b509b-48e1-47dc-96f7-6e36d36e0412/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-30 | [Manage Kubernetes in Google Cloud Skill Badge](https://www.credly.com/badges/28a8c491-f478-4684-96b4-9bac1b172a39/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-08-30 | [Artificial Intelligence Fundamentals](https://www.credly.com/badges/aac932d8-d7d0-4966-a8a3-eca0e69f795e/public_url) | IBM SkillsBuild | Credly Verified Badge |
@@ -70,7 +71,6 @@ artifacts: complete, index
 | 2026-08-14 | [Foundations of CTEM](https://www.credly.com/badges/1a9fd111-6d83-418c-9603-ec8af02aacaf/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-08-14 | [Tetragon Security Visibility](https://www.credly.com/badges/8f8c28a6-bdbe-4bb7-a37f-e40d7693a64c/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-14 | [Tetragon TLS Visibility](https://www.credly.com/badges/a3d9f055-17d1-479b-ad6c-730a71fdd982/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-12 | [AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge](https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-08-part-10.md](./credly-2026-08-part-10.md) | [Index](./credly-index.md) | Next: [credly-2026-09-part-12.md](./credly-2026-09-part-12.md)

@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 14 of 16
-date_range: 2026-10-01 to 2026-10-11
+date_range: 2026-10-01 to 2026-10-13
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md
 layer: L2_published
@@ -11,10 +11,12 @@ artifacts: complete, index
 
 # Credly Verified Credentials -- Part 14
 
-> **Navigation:** Prev: [credly-2026-10-part-13.md](./credly-2026-10-part-13.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md) | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-10-part-13.md](./credly-2026-10-part-13.md) | [Index](./credly-index.md) | Next: [credly-2026-11-part-15.md](./credly-2026-11-part-15.md) | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-13 | [Machine Learning for Data Science Projects](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-10-13 | [User Experience Design Fundamentals](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-11 | [AWS Knowledge: Amazon Connect Developer - Training Badge](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-11 | [Microsoft Applied Skills: Integrate model context protocol tools with agents in Microsoft Foundry](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/D296FE0D58F3B6D0?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-10 | [Harness Certified Code Repository Developer](https://www.credly.com/badges/e7564671-e168-49e2-b28b-c2f2da887146/public_url) | Harness Inc | Credly Verified Badge |
@@ -47,7 +49,6 @@ artifacts: complete, index
 | 2026-10-07 | [Implement DevOps Workflows in Google Cloud Skill Badge](https://www.credly.com/badges/6cd6bbb4-b1d6-4edf-8add-2523026f6915/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-07 | [Set Up a Google Cloud Network Skill Badge](https://www.credly.com/badges/981311c0-3ff9-4b0b-8491-79f928f8349f/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-06 | [Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/15F428743381AFA9?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
-| 2026-10-06 | [Microsoft Applied Skills: Get started developing agents in Microsoft Foundry](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/9DB8E4A68E66793?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-05 | [AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-05 | [Kong Gateway Foundations](https://www.credly.com/badges/0af05791-af55-4214-b9ee-f2ce15d2a35c/public_url) | Kong | Credly Verified Badge |
 | 2026-10-04 | [Account Executive](https://www.credly.com/badges/bf5a7533-622c-47c4-af61-137588647308/public_url) | Demandbase | Credly Verified Badge |
@@ -68,8 +69,7 @@ artifacts: complete, index
 | 2026-10-01 | [AI Efficiencies and Governance](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-01 | [Basis Automate+](https://www.credly.com/badges/4cca84af-5946-435a-a853-e89ea3c9181b/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-10-01 | [Basis Connect+](https://www.credly.com/badges/5d229e20-bae1-4dee-89b8-3c2b0afbbd7b/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-10-01 | [Basis Reporting](https://www.credly.com/badges/eb14d86e-db4b-4a3f-bfd5-5b672f60e3bd/public_url) | Basis Technologies | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-10-part-13.md](./credly-2026-10-part-13.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md)
+> **Navigation:** Prev: [credly-2026-10-part-13.md](./credly-2026-10-part-13.md) | [Index](./credly-index.md) | Next: [credly-2026-11-part-15.md](./credly-2026-11-part-15.md)
 

@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-05 | [Sustainability Base Camper](https://www.credly.com/badges/4675aa36-2855-4b8c-8f21-eab4d065685e/public_url) | Celonis | Credly Verified Badge |
 | 2026-07-05 | [Sustainability Business Bootcamper](https://www.credly.com/badges/fd237169-9b1c-4d4a-83fb-62c33551b563/public_url) | Celonis | Credly Verified Badge |
 | 2026-07-03 | [Mitigate Threats and Vulnerabilities with Security Command Center Skill Badge](https://www.credly.com/badges/0daa2483-3793-42a7-afb0-4d338d3725bc/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-07-02 | [AWS SimuLearn - AI Practitioner - Training Badge](https://www.credly.com/badges/bf88d187-0e8f-44cc-bec9-7e9e69115951/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
@@ -67,7 +68,6 @@ artifacts: complete, index
 | 2026-06-22 | [AWS Knowledge: AI Driven Development Lifecycle Foundations – Training Badge](https://www.credly.com/badges/f1880883-9103-4d1b-8857-012568263bb3/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-06-22 | [Intro to Acronis Cyber Protect](https://www.credly.com/badges/95c18649-2dd7-44ca-bddc-7285bb443923/public_url) | Acronis | Credly Verified Badge |
 | 2026-06-21 | [LFD123: Open Source RT-Thread RTOS on RISC-V](https://www.credly.com/badges/2482190c-9a4b-4272-a75a-9e758f185c23/public_url) | The Linux Foundation | Credly Verified Badge |
-| 2026-06-21 | [LFD140: GitHub for Open Standards Development](https://www.credly.com/badges/3d6db85f-b193-4d6c-9431-9c78f1f8e253/public_url) | The Linux Foundation | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-08.md](./credly-2026-07-part-08.md)

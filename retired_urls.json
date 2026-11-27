@@ -767,6 +767,20 @@
       "reason": "Auto-retired: removed from source data on 2026-11-27",
       "retired_at": "2026-11-27",
       "title": "f8cba5d0-02d9-4dcc-b3d2-c7a2aa6ba989"
+    },
+    {
+      "id": "01f8e7a7-1f3d-4450-bad8-ada70921f60a",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-27",
+      "retired_at": "2026-11-27",
+      "title": "01f8e7a7-1f3d-4450-bad8-ada70921f60a"
+    },
+    {
+      "id": "0798db5e-8759-4719-861b-65b9f5e26eda",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-27",
+      "retired_at": "2026-11-27",
+      "title": "0798db5e-8759-4719-861b-65b9f5e26eda"
     }
   ],
   "google-developer": [

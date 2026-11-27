@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 10 of 16
-date_range: 2026-07-30 to 2026-08-11
+date_range: 2026-07-30 to 2026-08-12
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-10.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-12 | [AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge](https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-08-11 | [Cilium IPv6 Networking and Observability](https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-11 | [Hubble Flow Visibility](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-11 | [Isovalent Lab Champion (20 labs)](https://www.credly.com/badges/7a58705a-96a4-4712-b069-428537781baf/public_url) | Isovalent | Credly Verified Badge |
@@ -69,7 +70,6 @@ artifacts: complete, index
 | 2026-08-01 | [Safeguarding the Supply Chain](https://www.credly.com/badges/296701d5-4c19-4756-85a3-19048ec7f448/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-07-30 | [Building an App with Code Agents and MongoDB](https://www.credly.com/badges/e69b5623-374c-482a-b29f-6cee2c6714d1/public_url) | MongoDB | Credly Verified Badge |
 | 2026-07-30 | [Deploying and Evaluating GenAI Apps with MongoDB](https://www.credly.com/badges/2efe33a4-f77e-4714-a1b1-c8c46e72bd69/public_url) | MongoDB | Credly Verified Badge |
-| 2026-07-30 | [MongoDB Encryption at Rest with BYOK](https://www.credly.com/badges/ea5fdc47-7f57-42a4-9829-eb7c40b0b729/public_url) | MongoDB | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-07-part-09.md](./credly-2026-07-part-09.md) | [Index](./credly-index.md) | Next: [credly-2026-08-part-11.md](./credly-2026-08-part-11.md)

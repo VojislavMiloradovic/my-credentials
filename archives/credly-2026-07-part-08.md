@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-17 | [BDR Basic Course](https://www.credly.com/badges/eecab10e-35f3-446c-9503-a4b15c76acf8/public_url) | Acronis | Credly Verified Badge |
 | 2026-07-17 | [Building RAG Apps Using MongoDB](https://www.credly.com/badges/647d5577-f948-4a84-9093-7b511bca6ecb/public_url) | MongoDB | Credly Verified Badge |
 | 2026-07-17 | [Top ATT&CK Techniques](https://www.credly.com/badges/61cec03c-1282-4a54-b48f-2c31d5a043f1/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-07-16 | [Build a Data Mesh with Dataplex Skill Badge](https://www.credly.com/badges/68710fa4-e750-49a8-b542-5ed9e47c7e7b/public_url) | Google Cloud | Credly Verified Badge |
@@ -68,7 +69,6 @@ artifacts: complete, index
 | 2026-07-05 | [Demystify Auth0 Logout Scenarios](https://www.credly.com/badges/98e6a761-4875-466d-8218-81e537a38249/public_url) | Okta | Credly Verified Badge |
 | 2026-07-05 | [Implement Object-Centric Process Mining](https://www.credly.com/badges/1d75263d-60bb-4d7a-9889-fdd2e0e73363/public_url) | Celonis | Credly Verified Badge |
 | 2026-07-05 | [Model in Process Designer](https://www.credly.com/badges/5acece33-4aa8-462f-ad36-1a76aef6fc8a/public_url) | Celonis | Credly Verified Badge |
-| 2026-07-05 | [Sustainability Base Camper](https://www.credly.com/badges/4675aa36-2855-4b8c-8f21-eab4d065685e/public_url) | Celonis | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-07-part-07.md](./credly-2026-07-part-07.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-09.md](./credly-2026-07-part-09.md)

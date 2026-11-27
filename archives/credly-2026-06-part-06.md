@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 16
-date_range: 2026-06-08 to 2026-06-21
+date_range: 2026-06-09 to 2026-06-21
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-06-part-06.md
 layer: L2_published
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-21 | [LFD140: GitHub for Open Standards Development](https://www.credly.com/badges/3d6db85f-b193-4d6c-9431-9c78f1f8e253/public_url) | The Linux Foundation | Credly Verified Badge |
 | 2026-06-21 | [LFEL1004: Authentication & Authorization for Web/API](https://www.credly.com/badges/697a5045-42c3-4df6-be0a-660972953e02/public_url) | The Linux Foundation | Credly Verified Badge |
 | 2026-06-21 | [LFS184: Introduction to JavaScript Security](https://www.credly.com/badges/adbfc39b-1a5a-4225-80bc-0ee44b06bcd5/public_url) | The Linux Foundation | Credly Verified Badge |
 | 2026-06-21 | [Use APIs to Work with Cloud Storage Skill Badge](https://www.credly.com/badges/3a261bec-3e3f-41ca-b362-3eaf9f06bd90/public_url) | Google Cloud | Credly Verified Badge |
@@ -65,7 +66,6 @@ artifacts: complete, index
 | 2026-06-09 | [AWS Knowledge: Object Storage - Training Badge](https://www.credly.com/badges/a8254829-cc58-43f8-aa2f-910c836df8a8/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-06-09 | [Cloud Tech Fundamentals](https://www.credly.com/badges/3c5fdd0e-66a5-436b-bdeb-4f3da1702089/public_url) | Acronis | Credly Verified Badge |
 | 2026-06-09 | [Verified Lucid Admin](https://www.credly.com/badges/81693063-e75b-457f-90c9-ae13044ef9e1/public_url) | Lucid Software | Credly Verified Badge |
-| 2026-06-08 | [LFC193: Introduction to Open Source Licensing Compliance Management](https://www.credly.com/badges/ee58bb5f-4568-48b1-a075-98982a829a7a/public_url) | The Linux Foundation | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-06-part-05.md](./credly-2026-06-part-05.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-07.md](./credly-2026-07-part-07.md)

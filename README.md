@@ -143,7 +143,7 @@ Showing latest 10 of 1247 credentials. View full dataset via [Platform Archive I
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
 **Total Portfolio Credentials:** 846
-**Total Verified Skills Mapped:** 2971
+**Total Verified Skills Mapped:** 2975
 
 #### Latest Earned Credentials
 
@@ -151,6 +151,8 @@ Showing latest 10 of 846 credentials. View full dataset via [Platform Archive In
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-27 | [Grow Your Monetization with Google Ad Manager](https://www.credential.net/0ac62d3d-c98d-421a-9865-88b141305660) | Skillshop | Credly External Badge |
+| 2026-11-27 | [Search Ads 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/339d7cc4-4f60-4e8d-9d50-c97d6cf17f77) | Skillshop | Credly External Badge |
 | 2026-11-26 | [Campaign manager 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/ab09b555-47f4-4d26-9197-e1c6e2113de6) | Skillshop | Credly External Badge |
 | 2026-11-26 | [Display & Video 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/22d872d3-a573-4ca0-b4d4-02aab9193c4a) | Skillshop | Credly External Badge |
 | 2026-11-26 | [Google Ads Video Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/25cff18e-4dc3-4d65-aaf5-335992a6d29b) | Skillshop | Credly External Badge |
@@ -159,8 +161,6 @@ Showing latest 10 of 846 credentials. View full dataset via [Platform Archive In
 | 2026-11-23 | [C++ Essentials 1](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-23 | [Digital Safety and Security Awareness](https://www.credly.com/badges/8321a421-1066-4a4b-b151-a5d5de345a46/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-20 | [Cloud Sales Professional MDR](https://www.credly.com/badges/938528c2-8698-487b-aa5c-bfaa151233f4/public_url) | Acronis | Credly Verified Badge |
-| 2026-11-20 | [MSP Academy: Expert Communicator](https://www.credly.com/badges/65a0022d-4b3b-4d75-8d59-b47f00f0a6a4/public_url) | Acronis | Credly Verified Badge |
-| 2026-11-20 | [Technical Presales Pro - Acronis Cyber Frame](https://www.credly.com/badges/1aaf0f97-d167-4a4f-9735-27cc75df553e/public_url) | Acronis | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

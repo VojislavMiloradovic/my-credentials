@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-01 | [Basis Reporting](https://www.credly.com/badges/eb14d86e-db4b-4a3f-bfd5-5b672f60e3bd/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-10-01 | [Enterprise AI Business Solutions](https://www.credly.com/badges/8022d661-c083-40c9-9ab7-acd251698a1f/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-01 | [Programmatic Sales Essentials](https://www.credly.com/badges/7895fbdf-6d83-4d71-95d3-6938d0ad96fb/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-10-01 | [Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/public_url) | Google Cloud | Credly Verified Badge |
@@ -68,7 +69,6 @@ artifacts: complete, index
 | 2026-09-15 | [MSP Academy: How to Grow Your MSP faster with Louis Gudema](https://www.credly.com/badges/557ca514-6013-4f4a-a3e2-42f2e9c4fe26/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Increasing MSPs efficiency through AI](https://www.credly.com/badges/affc63c0-9270-4cc9-82dd-c4c7965688a7/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Marketing Practitioner](https://www.credly.com/badges/8b3a5e36-fd36-4358-b111-35b5bc0f791c/public_url) | Acronis | Credly Verified Badge |
-| 2026-09-15 | [MSP Academy: Marketing Your MSP](https://www.credly.com/badges/f5ae66ba-d6bf-4db5-bf50-95a1dac4f80f/public_url) | Acronis | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-09-part-12.md](./credly-2026-09-part-12.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md)

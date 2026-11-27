@@ -1,9 +1,9 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 4 of 16
-date_range: 2026-05-19 to 2026-05-31
+date_range: 2026-05-19 to 2026-06-01
 total_entries: 55
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-05-part-04.md
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-06-part-04.md
 layer: L2_published
 transform: 1:1_pass_through
 artifacts: complete, index
@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-01 | [Session and Token Management Best Practices](https://www.credly.com/badges/a52cf3d1-10a0-48ca-8a19-bb2d0ee5a1ca/public_url) | Okta | Credly Verified Badge |
 | 2026-05-31 | [Product Analytics Certification](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16/public_url) | Pendo | Credly Verified Badge |
 | 2026-05-31 | [Product Discovery Certification](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145/public_url) | Pendo | Credly Verified Badge |
 | 2026-05-31 | [Product-led Certification](https://www.credly.com/badges/4813afed-be74-43f4-a69e-9a6482970fa2/public_url) | Pendo | Credly Verified Badge |
@@ -69,7 +70,6 @@ artifacts: complete, index
 | 2026-05-19 | [Discovering the Basics of SAP S/4HANA Portfolio and Project Management - Record of Achievement](https://www.credly.com/badges/d3c10832-4cf4-4d04-939b-bbcc1dcc9f1e/public_url) | SAP | Credly Verified Badge |
 | 2026-05-19 | [GenAI - Client to Cloud Fundamentals](https://www.credly.com/badges/bbd4f4ac-6aba-480f-b77c-9b8f79b65bdd/public_url) | Intel | Credly Verified Badge |
 | 2026-05-19 | [Getting Started with SAS and Kubernetes](https://www.credly.com/badges/1a509b1d-9a06-410c-8916-eac5b639fe28/public_url) | SAS | Credly Verified Badge |
-| 2026-05-19 | [Introduction to Authentication Protocols](https://www.credly.com/badges/843836d7-d464-422e-bb40-5d76c77c3bde/public_url) | SAS | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-05-part-03.md](./credly-2026-05-part-03.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-05.md](./credly-2026-06-part-05.md)

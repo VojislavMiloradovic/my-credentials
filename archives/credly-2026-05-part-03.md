@@ -11,10 +11,11 @@ artifacts: complete, index
 
 # Credly Verified Credentials -- Part 03
 
-> **Navigation:** Prev: [credly-2026-05-part-02.md](./credly-2026-05-part-02.md) | [Index](./credly-index.md) | Next: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md) | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-05-part-02.md](./credly-2026-05-part-02.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-04.md](./credly-2026-06-part-04.md) | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-19 | [Introduction to Authentication Protocols](https://www.credly.com/badges/843836d7-d464-422e-bb40-5d76c77c3bde/public_url) | SAS | Credly Verified Badge |
 | 2026-05-19 | [Introduction to Web Design](https://www.credly.com/badges/3fc971ca-8531-4e28-b6f8-6eecdf8354b3/public_url) | SAS | Credly Verified Badge |
 | 2026-05-19 | [Mastering AML Compliance: Safeguarding the Financial Sector](https://www.credly.com/badges/dc24612b-9d31-4ece-b66a-7198e4b05f76/public_url) | SAS | Credly Verified Badge |
 | 2026-05-19 | [Mastering Financial Fraud Prevention: Safeguarding Assets & Integrity](https://www.credly.com/badges/24877ce6-89fc-430e-b0bd-cc255519b9b3/public_url) | SAS | Credly Verified Badge |
@@ -67,8 +68,7 @@ artifacts: complete, index
 | 2026-05-09 | [Site Reliability Engineer Learning Path](https://www.credly.com/badges/82670fe2-987b-43c4-8023-09500fa4696b/public_url) | Datadog | Credly Verified Badge |
 | 2026-05-08 | [Cloud Security Engineer - Cloud SIEM Learning Path](https://www.credly.com/badges/577f478c-820f-4968-b0d8-4442919eb244/public_url) | Datadog | Credly Verified Badge |
 | 2026-05-08 | [Cloud Security Engineer Learning Path](https://www.credly.com/badges/85e91ec4-bba7-40fb-bc78-ab15fc5c4c1f/public_url) | Datadog | Credly Verified Badge |
-| 2026-05-08 | [Log Configuration & Processing Learning Path](https://www.credly.com/badges/e1e5c2fb-df56-4426-b482-94ee2d79e9e0/public_url) | Datadog | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-05-part-02.md](./credly-2026-05-part-02.md) | [Index](./credly-index.md) | Next: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md)
+> **Navigation:** Prev: [credly-2026-05-part-02.md](./credly-2026-05-part-02.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-04.md](./credly-2026-06-part-04.md)
 

@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 16 of 16
-date_range: 2026-11-02 to 2026-11-26
+date_range: 2026-11-04 to 2026-11-27
 total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md
 layer: L2_published
@@ -11,10 +11,12 @@ artifacts: complete, index
 
 # Credly Verified Credentials -- Part 16
 
-> **Navigation:** Prev: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md) | [Index](./credly-index.md) | Next: None | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-11-part-15.md](./credly-2026-11-part-15.md) | [Index](./credly-index.md) | Next: None | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-27 | [Grow Your Monetization with Google Ad Manager](https://www.credential.net/0ac62d3d-c98d-421a-9865-88b141305660) | Skillshop | Credly External Badge |
+| 2026-11-27 | [Search Ads 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/339d7cc4-4f60-4e8d-9d50-c97d6cf17f77) | Skillshop | Credly External Badge |
 | 2026-11-26 | [Campaign manager 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/ab09b555-47f4-4d26-9197-e1c6e2113de6) | Skillshop | Credly External Badge |
 | 2026-11-26 | [Display & Video 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/22d872d3-a573-4ca0-b4d4-02aab9193c4a) | Skillshop | Credly External Badge |
 | 2026-11-26 | [Google Ads Video Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/25cff18e-4dc3-4d65-aaf5-335992a6d29b) | Skillshop | Credly External Badge |
@@ -61,9 +63,7 @@ artifacts: complete, index
 | 2026-11-04 | [Secure Enterprise AI Tools with Okta Agent Gateway](https://www.credly.com/badges/be836220-589c-4f7e-8056-7bb603f39aa2/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Secure Multi-Agent Workflows with Okta Agent to Agent](https://www.credly.com/badges/f93fc711-e173-4f7f-9d6c-da1833dc8ec2/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Workflows](https://www.credly.com/badges/3d20176d-d805-49f0-97b9-b288376231c1/public_url) | Okta | Credly Verified Badge |
-| 2026-11-02 | [Build Your Own Chatbot - Level 1](https://www.credly.com/badges/1275ae4d-5bdd-45c3-bdc5-4eef7b2ae86f/public_url) | IBM | Credly Verified Badge |
-| 2026-11-02 | [Data Science Foundations - Level 1](https://www.credly.com/badges/8b535dbd-76db-4713-9e2e-1137abe99da0/public_url) | IBM | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md) | [Index](./credly-index.md) | Next: None
+> **Navigation:** Prev: [credly-2026-11-part-15.md](./credly-2026-11-part-15.md) | [Index](./credly-index.md) | Next: None
 

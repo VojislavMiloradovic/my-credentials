@@ -11,10 +11,11 @@ artifacts: complete, index
 
 # Credly Verified Credentials -- Part 05
 
-> **Navigation:** Prev: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md) | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-06-part-04.md](./credly-2026-06-part-04.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md) | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-08 | [LFC193: Introduction to Open Source Licensing Compliance Management](https://www.credly.com/badges/ee58bb5f-4568-48b1-a075-98982a829a7a/public_url) | The Linux Foundation | Credly Verified Badge |
 | 2026-06-08 | [LFD103: A Beginner's Guide to Linux Kernel Development](https://www.credly.com/badges/014a781e-7a70-47a0-b79d-c6080bbef63d/public_url) | The Linux Foundation | Credly Verified Badge |
 | 2026-06-08 | [LFD121: Developing Secure Software](https://www.credly.com/badges/21cf0189-83ae-4159-abd9-f2eecf3bd6a9/public_url) | The Linux Foundation | Credly Verified Badge |
 | 2026-06-08 | [LFD125: Security for Software Development Managers](https://www.credly.com/badges/c0a1f565-7255-4a8b-8a99-c447b22e0023/public_url) | The Linux Foundation | Credly Verified Badge |
@@ -66,8 +67,7 @@ artifacts: complete, index
 | 2026-06-01 | [Deploying SAS Viya from a Mirrored Registry](https://www.credly.com/badges/da51d4a3-2800-400d-a88d-d189bf53cc7e/public_url) | SAS | Credly Verified Badge |
 | 2026-06-01 | [Manual SAS Viya Deployment](https://www.credly.com/badges/0a5e2982-bdb6-498f-8ec6-979b3c0db919/public_url) | SAS | Credly Verified Badge |
 | 2026-06-01 | [Post-Deployment Steps for SAS Viya](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc/public_url) | SAS | Credly Verified Badge |
-| 2026-06-01 | [Session and Token Management Best Practices](https://www.credly.com/badges/a52cf3d1-10a0-48ca-8a19-bb2d0ee5a1ca/public_url) | Okta | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md)
+> **Navigation:** Prev: [credly-2026-06-part-04.md](./credly-2026-06-part-04.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md)
 
