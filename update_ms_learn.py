@@ -803,35 +803,35 @@ class MicrosoftLearnPipeline(PipelineBase):
         latest_slice = ""  # Will be updated by archiver
         readme_lines = self.build_readme_lines(records, latest_slice)
 
-        # Persist validation data
-        self.persist_validation(records)
+        # Transactional publication phase: any failure rolls back all
+        # generated artifacts and prevents baselines from advancing.
+        with self._publication_transaction():
+            # Persist validation data
+            self.persist_validation(records)
 
-        # Generate archive with readme_lines (archiver updates README internally)
-        latest_slice = self.generate_archive(formatted_rows, readme_lines)
+            # Generate archive with readme_lines (archiver updates README internally)
+            latest_slice = self.generate_archive(formatted_rows, readme_lines)
 
-        # Update README with latest_slice links (archiver already did this, but do it again for slice links)
-        # Replace placeholder slice links in readme_lines
-        if latest_slice:
-            LATEST_SLICE_NORMAL = "./archives/" + latest_slice
-            LATEST_SLICE_RAW = f"https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/{latest_slice}"
-            for i, line in enumerate(readme_lines):
-                if "{LATEST_SLICE_NORMAL}" in line:
-                    readme_lines[i] = line.replace(
-                        "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
-                    )
-                    readme_lines[i] = readme_lines[i].replace(
-                        "{LATEST_SLICE_RAW}", LATEST_SLICE_RAW
-                    )
-                    break
-            self.update_readme(readme_lines, latest_slice)
+            # Update README with latest_slice links
+            if latest_slice:
+                LATEST_SLICE_NORMAL = "./archives/" + latest_slice
+                LATEST_SLICE_RAW = f"https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/{latest_slice}"
+                for i, line in enumerate(readme_lines):
+                    if "{LATEST_SLICE_NORMAL}" in line:
+                        readme_lines[i] = line.replace(
+                            "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
+                        )
+                        readme_lines[i] = readme_lines[i].replace(
+                            "{LATEST_SLICE_RAW}", LATEST_SLICE_RAW
+                        )
+                        break
+                self.update_readme(readme_lines, latest_slice)
 
-        # Sync fixtures for test consistency
-        self.sync_fixtures()
+            # Generate baseline AFTER publication succeeds, BEFORE syncing fixtures
+            self.generate_baselines(records)
 
-        # Generate baseline (all local generation complete)
-        from loss_guard import generate_provider_baseline
-
-        generate_provider_baseline(records, self.PLATFORM_NAME)
+            # Sync fixtures (now copies the NEW baseline file)
+            self.sync_fixtures()
 
         self.logger.info(
             f"[DONE] {self.PLATFORM_DISPLAY_NAME} pipeline complete ({len(records)} items archived)."
@@ -839,7 +839,7 @@ class MicrosoftLearnPipeline(PipelineBase):
 
     def generate_archive(self, formatted_rows, readme_lines):
         """Override to use module-level generate_platform_archive for test compatibility."""
-        return generate_platform_archive(
+        latest_slice = generate_platform_archive(
             platform_prefix=self.PLATFORM_PREFIX,
             platform_name=self.PLATFORM_DISPLAY_NAME,
             table_headers=self.TABLE_HEADERS,
@@ -848,10 +848,15 @@ class MicrosoftLearnPipeline(PipelineBase):
             readme_lines=readme_lines,
             marker_start=self.MARKER_START,
             marker_end=self.MARKER_END,
-            archive_dir=self.ARCHIVE_DIR,
-            readme_path=self.README_PATH,
+            archive_dir=self._effective_archive_dir(),
+            readme_path=self._effective_readme_path(),
             retrieved_at=datetime.now(UTC).isoformat(),
         )
+        if formatted_rows and not latest_slice:
+            raise RuntimeError(
+                f"Archive generation returned no latest slice for {self.PLATFORM_NAME}"
+            )
+        return latest_slice
 
 
 # Module-level main function for backward compat
@@ -866,12 +871,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-    # Sync fixtures for test consistency
-    try:
-        from scripts.sync_fixtures import sync_fixtures
-
-        sync_fixtures("microsoft-learn")
-    except Exception as e:
-        logging.getLogger("ms_learn_updater").warning(
-            f"[WARN] Fixture sync failed (non-fatal): {e}"
-        )
