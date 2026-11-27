@@ -90,6 +90,12 @@ class TestCliSmoke:
 
         assert hasattr(build_exclude, "normalize_url")
 
+    def test_verify_assertions_imports(self):
+        """verify_assertions.py should import without errors."""
+        import verify_assertions
+
+        assert hasattr(verify_assertions, "main")
+
     def test_main_functions_callable(self, mock_loss_guard):
         """All main functions should be callable (with mocked dependencies)."""
         from unittest.mock import patch
@@ -183,6 +189,7 @@ class TestScriptHelp:
             "generate_llms_full",
             "sanitize_ms_export",
             "build_exclude",
+            "verify_assertions",
         ]
 
         for script_name in scripts:
