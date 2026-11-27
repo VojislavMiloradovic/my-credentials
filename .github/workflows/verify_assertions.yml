@@ -1,0 +1,88 @@
+name: Verify Credential Assertions
+
+on:
+  schedule:
+    - cron: '0 3 * * 0' # Every Sunday at 03:00 UTC (staggered after link_checker)
+  workflow_dispatch:
+    inputs:
+      ttl_days:
+        description: "Cache TTL in days before re-checking an assertion URL"
+        required: false
+        default: "30"
+        type: string
+      limit:
+        description: "Optional cap on number of stale URLs to probe in this run"
+        required: false
+        default: ""
+        type: string
+      force:
+        description: "Ignore TTL and re-probe all credential assertion URLs"
+        required: false
+        default: false
+        type: boolean
+
+concurrency:
+  group: git-push-main
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  verify-assertions:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+
+    steps:
+      - name: Checkout Repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+
+      - name: Install uv
+        uses: astral-sh/setup-uv@v5
+        with:
+          version: '0.12.3'
+
+      - name: Install Dependencies
+        run: uv sync --frozen --all-extras
+
+      - name: Probe Credential Assertion URLs
+        run: |
+          ARGS=("--ttl-days" "${{ inputs.ttl_days || '30' }}")
+          if [ -n "${{ inputs.limit }}" ]; then
+            ARGS+=("--limit" "${{ inputs.limit }}")
+          fi
+          if [ "${{ inputs.force }}" = "true" ]; then
+            ARGS+=("--force")
+          fi
+          uv run python verify_assertions.py "${ARGS[@]}"
+
+      - name: Regenerate JSON-LD Linked Data
+        run: uv run python generate_jsonld.py
+
+      - name: Run Cross-Artifact Validation (Strict Mode)
+        run: |
+          mkdir -p validation_reports
+          uv run python cross_artifact_validator.py --mode strict --report /tmp/ca_verify_report.json
+
+      - name: Commit and Push Verification Results
+        run: |
+          set -euo pipefail
+          git config --local user.name "github-actions[bot]"
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+
+          if git diff --quiet data/active_verifications.json credentials.jsonld && [ -z "$(git ls-files --others --exclude-standard data/active_verifications.json)" ]; then
+            echo "No assertion verification updates to commit."
+            exit 0
+          fi
+
+          git add data/active_verifications.json credentials.jsonld
+          git commit -m "chore(verify): update active assertion verifications and json-ld"
+          git pull --rebase origin main
+          git push
