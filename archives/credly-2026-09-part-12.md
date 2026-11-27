@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 12 of 16
-date_range: 2026-08-29 to 2026-09-15
+date_range: 2026-08-31 to 2026-09-15
 total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-12.md
 layer: L2_published
@@ -11,10 +11,16 @@ artifacts: complete, index
 
 # Credly Verified Credentials -- Part 12
 
-> **Navigation:** Prev: [credly-2026-08-part-11.md](./credly-2026-08-part-11.md) | [Index](./credly-index.md) | Next: [credly-2026-09-part-13.md](./credly-2026-09-part-13.md) | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-08-part-11.md](./credly-2026-08-part-11.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-13.md](./credly-2026-10-part-13.md) | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-09-15 | [MSP Academy: MDR Basics](https://www.credly.com/badges/2e504ab8-0ffe-4d22-9600-da1db92856a8/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [MSP Academy: Microsoft 365](https://www.credly.com/badges/b3af2b8c-426e-4959-8b23-459d9a62c832/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [MSP Academy: Microsoft 365 Integration and Optimization](https://www.credly.com/badges/79099641-89c2-4c50-b8cf-f7ded86d3cf5/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [MSP Academy: Navigating the landscape](https://www.credly.com/badges/0d4baaa2-327f-4d35-8433-ff620be4e4ca/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [MSP Academy: Negotiation Skills](https://www.credly.com/badges/9102e834-a385-41ab-b4e2-c18d3480e53b/public_url) | Acronis | Credly Verified Badge |
+| 2026-09-15 | [MSP Academy: Preventing Ransomware](https://www.credly.com/badges/4c84adbc-8a45-4aa1-85f0-188d005693f7/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Remote Desktop and Monitoring](https://www.credly.com/badges/f6754ded-9d6e-4f42-8c59-25a15c1f69f3/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Safe Communication Environment](https://www.credly.com/badges/5fe58d60-50f4-4d63-a36c-b3949a00999a/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Work Relationships](https://www.credly.com/badges/a8af127f-7f43-42eb-8dab-b5ded37fb76c/public_url) | Acronis | Credly Verified Badge |
@@ -63,13 +69,7 @@ artifacts: complete, index
 | 2026-08-31 | [MSP Academy: Disaster Recovery](https://www.credly.com/badges/4aae4192-7870-4fbc-8644-06db35ece843/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-31 | [MSP Academy: Maximizing Your Business Efficiency](https://www.credly.com/badges/8b9124df-62b5-4111-8029-b4fd9b558ea4/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-31 | [Share Data Using Google Data Cloud Skill Badge](https://www.credly.com/badges/35d9f8d7-dc3e-4f66-9ec8-d83eeb50882f/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-08-30 | [Implement CI/CD Pipelines on Google Cloud Skill Badge](https://www.credly.com/badges/a15b509b-48e1-47dc-96f7-6e36d36e0412/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-08-30 | [Manage Kubernetes in Google Cloud Skill Badge](https://www.credly.com/badges/28a8c491-f478-4684-96b4-9bac1b172a39/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-08-30 | [Artificial Intelligence Fundamentals](https://www.credly.com/badges/aac932d8-d7d0-4966-a8a3-eca0e69f795e/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-08-30 | [Data Fundamentals](https://www.credly.com/badges/48961c89-7ace-474a-9a78-34e0b63722d5/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-08-29 | [SASE Business Impact and Strategy](https://www.credly.com/badges/87458b9d-8699-412d-b198-10f5f7366da9/public_url) | Cato Networks | Credly Verified Badge |
-| 2026-08-29 | [Zero Trust Security Essentials](https://www.credly.com/badges/b666adab-35fe-4f0c-883d-9bb0939173a6/public_url) | Cato Networks | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-08-part-11.md](./credly-2026-08-part-11.md) | [Index](./credly-index.md) | Next: [credly-2026-09-part-13.md](./credly-2026-09-part-13.md)
+> **Navigation:** Prev: [credly-2026-08-part-11.md](./credly-2026-08-part-11.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-13.md](./credly-2026-10-part-13.md)
 

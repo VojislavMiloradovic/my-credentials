@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 10 of 16
-date_range: 2026-07-29 to 2026-08-10
+date_range: 2026-07-30 to 2026-08-11
 total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-10.md
 layer: L2_published
@@ -15,6 +15,12 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-11 | [Cilium IPv6 Networking and Observability](https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-11 | [Hubble Flow Visibility](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-11 | [Isovalent Lab Champion (20 labs)](https://www.credly.com/badges/7a58705a-96a4-4712-b069-428537781baf/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-10 | [Cilium Advanced Gateway API Use Cases](https://www.credly.com/badges/d6d77359-05d8-4db0-8a5c-3944635c5684/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-10 | [Cilium LB-IPAM & L2](https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/public_url) | Isovalent | Credly Verified Badge |
+| 2026-08-10 | [Cilium LoadBalancer IPAM and BGP Service Advertisement](https://www.credly.com/badges/d181f780-e6ee-4fef-8bd1-df291a355438/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-10 | [Cloud Tech Pro - Email Archiving](https://www.credly.com/badges/816e8e98-e6f1-4a8a-b807-6829223cd453/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-10 | [Cloud Tech Professional EDR](https://www.credly.com/badges/1bf4cc99-349a-43d4-a520-4fcda2a5df27/public_url) | Acronis | Credly Verified Badge |
 | 2026-08-10 | [Foundations: Kubernetes Networking & Cilium](https://www.credly.com/badges/eb7a1881-5a18-499b-9e7f-2b8a2613c283/public_url) | Isovalent | Credly Verified Badge |
@@ -64,12 +70,6 @@ artifacts: complete, index
 | 2026-07-30 | [Building an App with Code Agents and MongoDB](https://www.credly.com/badges/e69b5623-374c-482a-b29f-6cee2c6714d1/public_url) | MongoDB | Credly Verified Badge |
 | 2026-07-30 | [Deploying and Evaluating GenAI Apps with MongoDB](https://www.credly.com/badges/2efe33a4-f77e-4714-a1b1-c8c46e72bd69/public_url) | MongoDB | Credly Verified Badge |
 | 2026-07-30 | [MongoDB Encryption at Rest with BYOK](https://www.credly.com/badges/ea5fdc47-7f57-42a4-9829-eb7c40b0b729/public_url) | MongoDB | Credly Verified Badge |
-| 2026-07-30 | [Securing MongoDB Atlas Networking](https://www.credly.com/badges/74ba326f-caa2-44b0-a4b2-dd055799bebf/public_url) | MongoDB | Credly Verified Badge |
-| 2026-07-30 | [Securing MongoDB Self-Managed Networking](https://www.credly.com/badges/0f2ed21a-e251-4566-ac7e-bf989559785b/public_url) | MongoDB | Credly Verified Badge |
-| 2026-07-30 | [Threat-Informed Architecture](https://www.credly.com/badges/2e682aba-ad5e-4f85-9f0e-87f0a4a1c5d1/public_url) | AttackIQ | Credly Verified Badge |
-| 2026-07-30 | [Vector Search Performance](https://www.credly.com/badges/a89e8a08-ff7d-433a-9131-a8e2d464db34/public_url) | MongoDB | Credly Verified Badge |
-| 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-07-29 | [AWS Educate Getting Started with Serverless - Training Badge](https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-07-part-09.md](./credly-2026-07-part-09.md) | [Index](./credly-index.md) | Next: [credly-2026-08-part-11.md](./credly-2026-08-part-11.md)

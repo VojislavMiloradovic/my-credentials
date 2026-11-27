@@ -143,7 +143,7 @@ Showing latest 10 of 1247 credentials. View full dataset via [Platform Archive I
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
 **Total Portfolio Credentials:** 846
-**Total Verified Skills Mapped:** 2966
+**Total Verified Skills Mapped:** 2971
 
 #### Latest Earned Credentials
 
@@ -151,16 +151,16 @@ Showing latest 10 of 846 credentials. View full dataset via [Platform Archive In
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-26 | [Campaign manager 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/ab09b555-47f4-4d26-9197-e1c6e2113de6) | Skillshop | Credly External Badge |
+| 2026-11-26 | [Display & Video 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/22d872d3-a573-4ca0-b4d4-02aab9193c4a) | Skillshop | Credly External Badge |
+| 2026-11-26 | [Google Ads Video Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/25cff18e-4dc3-4d65-aaf5-335992a6d29b) | Skillshop | Credly External Badge |
+| 2026-11-26 | [Google Analytics Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/3bf1b44f-8517-4b7d-a69b-19ee58b0d370) | Skillshop | Credly External Badge |
 | 2026-11-25 | [AWS Knowledge: Amazon WorkSpaces Operations at Scale - Training Badge](https://www.credly.com/badges/6629cd5b-ff2d-4fda-bea0-55ca9a4f0b54/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-23 | [C++ Essentials 1](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-23 | [Digital Safety and Security Awareness](https://www.credly.com/badges/8321a421-1066-4a4b-b151-a5d5de345a46/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-20 | [Cloud Sales Professional MDR](https://www.credly.com/badges/938528c2-8698-487b-aa5c-bfaa151233f4/public_url) | Acronis | Credly Verified Badge |
 | 2026-11-20 | [MSP Academy: Expert Communicator](https://www.credly.com/badges/65a0022d-4b3b-4d75-8d59-b47f00f0a6a4/public_url) | Acronis | Credly Verified Badge |
 | 2026-11-20 | [Technical Presales Pro - Acronis Cyber Frame](https://www.credly.com/badges/1aaf0f97-d167-4a4f-9735-27cc75df553e/public_url) | Acronis | Credly Verified Badge |
-| 2026-11-19 | [Agentic AI: Concepts and Governance](https://www.credly.com/badges/193f1186-8b2b-41d9-9379-00622b1c5a2e/public_url) | SAS | Credly Verified Badge |
-| 2026-11-19 | [Foundations of Clinical Trials Programming Knowledge Badge](https://www.credly.com/badges/e08b522c-b39f-4ac9-9e9e-290c3535144d/public_url) | SAS | Credly Verified Badge |
-| 2026-11-19 | [Introduction to SAS Clinical Acceleration Repository](https://www.credly.com/badges/b65fb09a-9674-46c7-8076-aaf9b4c47b3a/public_url) | SAS | Credly Verified Badge |
-| 2026-11-19 | [SAS Viya: Cloud Data Exchange](https://www.credly.com/badges/ff7bdecc-168a-43c1-ad9a-e8e33154ee49/public_url) | SAS | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

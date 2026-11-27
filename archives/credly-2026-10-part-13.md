@@ -1,9 +1,9 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 13 of 16
-date_range: 2026-09-15 to 2026-09-30
-total_entries: 55
-raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-09-part-13.md
+date_range: 2026-09-15 to 2026-10-01
+total_entries: 54
+raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-13.md
 layer: L2_published
 transform: 1:1_pass_through
 artifacts: complete, index
@@ -15,6 +15,11 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-01 | [Enterprise AI Business Solutions](https://www.credly.com/badges/8022d661-c083-40c9-9ab7-acd251698a1f/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-10-01 | [Programmatic Sales Essentials](https://www.credly.com/badges/7895fbdf-6d83-4d71-95d3-6938d0ad96fb/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-10-01 | [Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-09-30 | [Basis DSP Tactics](https://www.credly.com/badges/84fdc926-20d9-477f-b88e-9f372681a6b2/public_url) | Basis Technologies | Credly Verified Badge |
+| 2026-09-30 | [Basis Planner](https://www.credly.com/badges/b21ec6f2-c32f-4ef6-9536-19b8ba89a0b7/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-30 | [Collaboration & Communication](https://www.credly.com/badges/6016826a-ee02-4bd1-b2c6-ffcdb71616a8/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-30 | [Contextual Targeting: Strategies with Proximic by Comscore](https://www.credly.com/badges/678f7f02-73f8-4fb6-8c6e-ce8a77ebba5a/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-09-29 | [Basis Onboarding](https://www.credly.com/badges/4d87c182-6dbd-4c85-9563-ce1d26c2cdbe/public_url) | Basis Technologies | Credly Verified Badge |
@@ -64,12 +69,6 @@ artifacts: complete, index
 | 2026-09-15 | [MSP Academy: Increasing MSPs efficiency through AI](https://www.credly.com/badges/affc63c0-9270-4cc9-82dd-c4c7965688a7/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Marketing Practitioner](https://www.credly.com/badges/8b3a5e36-fd36-4358-b111-35b5bc0f791c/public_url) | Acronis | Credly Verified Badge |
 | 2026-09-15 | [MSP Academy: Marketing Your MSP](https://www.credly.com/badges/f5ae66ba-d6bf-4db5-bf50-95a1dac4f80f/public_url) | Acronis | Credly Verified Badge |
-| 2026-09-15 | [MSP Academy: MDR Basics](https://www.credly.com/badges/2e504ab8-0ffe-4d22-9600-da1db92856a8/public_url) | Acronis | Credly Verified Badge |
-| 2026-09-15 | [MSP Academy: Microsoft 365](https://www.credly.com/badges/b3af2b8c-426e-4959-8b23-459d9a62c832/public_url) | Acronis | Credly Verified Badge |
-| 2026-09-15 | [MSP Academy: Microsoft 365 Integration and Optimization](https://www.credly.com/badges/79099641-89c2-4c50-b8cf-f7ded86d3cf5/public_url) | Acronis | Credly Verified Badge |
-| 2026-09-15 | [MSP Academy: Navigating the landscape](https://www.credly.com/badges/0d4baaa2-327f-4d35-8433-ff620be4e4ca/public_url) | Acronis | Credly Verified Badge |
-| 2026-09-15 | [MSP Academy: Negotiation Skills](https://www.credly.com/badges/9102e834-a385-41ab-b4e2-c18d3480e53b/public_url) | Acronis | Credly Verified Badge |
-| 2026-09-15 | [MSP Academy: Preventing Ransomware](https://www.credly.com/badges/4c84adbc-8a45-4aa1-85f0-188d005693f7/public_url) | Acronis | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-09-part-12.md](./credly-2026-09-part-12.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md)

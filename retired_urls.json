@@ -739,6 +739,34 @@
       "reason": "Auto-retired: removed from source data on 2026-11-20",
       "retired_at": "2026-11-20",
       "title": "6efa11ee-1073-454d-962f-8288a8b69bf7"
+    },
+    {
+      "id": "196240f1-dcb7-4939-bbbb-0438d313b173",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-27",
+      "retired_at": "2026-11-27",
+      "title": "196240f1-dcb7-4939-bbbb-0438d313b173"
+    },
+    {
+      "id": "28825145-668c-4dfd-af0c-7723fb77576e",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-27",
+      "retired_at": "2026-11-27",
+      "title": "28825145-668c-4dfd-af0c-7723fb77576e"
+    },
+    {
+      "id": "f5b2a49a-c5f3-477c-9559-aae528f15eeb",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-27",
+      "retired_at": "2026-11-27",
+      "title": "f5b2a49a-c5f3-477c-9559-aae528f15eeb"
+    },
+    {
+      "id": "f8cba5d0-02d9-4dcc-b3d2-c7a2aa6ba989",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-27",
+      "retired_at": "2026-11-27",
+      "title": "f8cba5d0-02d9-4dcc-b3d2-c7a2aa6ba989"
     }
   ],
   "google-developer": [

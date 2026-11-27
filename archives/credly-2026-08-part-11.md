@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 11 of 16
-date_range: 2026-08-10 to 2026-08-28
+date_range: 2026-08-12 to 2026-08-30
 total_entries: 56
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-08-part-11.md
 layer: L2_published
@@ -15,6 +15,12 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-08-30 | [Implement CI/CD Pipelines on Google Cloud Skill Badge](https://www.credly.com/badges/a15b509b-48e1-47dc-96f7-6e36d36e0412/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-30 | [Manage Kubernetes in Google Cloud Skill Badge](https://www.credly.com/badges/28a8c491-f478-4684-96b4-9bac1b172a39/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-08-30 | [Artificial Intelligence Fundamentals](https://www.credly.com/badges/aac932d8-d7d0-4966-a8a3-eca0e69f795e/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-08-30 | [Data Fundamentals](https://www.credly.com/badges/48961c89-7ace-474a-9a78-34e0b63722d5/public_url) | IBM SkillsBuild | Credly Verified Badge |
+| 2026-08-29 | [SASE Business Impact and Strategy](https://www.credly.com/badges/87458b9d-8699-412d-b198-10f5f7366da9/public_url) | Cato Networks | Credly Verified Badge |
+| 2026-08-29 | [Zero Trust Security Essentials](https://www.credly.com/badges/b666adab-35fe-4f0c-883d-9bb0939173a6/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [SASE Advanced Security](https://www.credly.com/badges/3a796ab4-659a-4141-a249-b6f94611201f/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [SASE Deployment and Management](https://www.credly.com/badges/906c5b04-f903-46cb-805c-9b3f0729718f/public_url) | Cato Networks | Credly Verified Badge |
 | 2026-08-28 | [SSE Expert Certification](https://www.credly.com/badges/2d5a7b6b-db2d-4a99-814a-870cea7ec348/public_url) | Cato Networks | Credly Verified Badge |
@@ -65,12 +71,6 @@ artifacts: complete, index
 | 2026-08-14 | [Tetragon Security Visibility](https://www.credly.com/badges/8f8c28a6-bdbe-4bb7-a37f-e40d7693a64c/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-14 | [Tetragon TLS Visibility](https://www.credly.com/badges/a3d9f055-17d1-479b-ad6c-730a71fdd982/public_url) | Isovalent | Credly Verified Badge |
 | 2026-08-12 | [AWS Knowledge: Advanced PostgreSQL for Amazon Aurora and Amazon RDS - Training Badge](https://www.credly.com/badges/b32b2957-f77b-433b-856d-de55f074cb96/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-08-11 | [Cilium IPv6 Networking and Observability](https://www.credly.com/badges/1d8d163d-0ff3-48b9-aceb-32cdb2a7fe72/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-11 | [Hubble Flow Visibility](https://www.credly.com/badges/21161b72-f505-4efd-a622-087b882810c3/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-11 | [Isovalent Lab Champion (20 labs)](https://www.credly.com/badges/7a58705a-96a4-4712-b069-428537781baf/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-10 | [Cilium Advanced Gateway API Use Cases](https://www.credly.com/badges/d6d77359-05d8-4db0-8a5c-3944635c5684/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-10 | [Cilium LB-IPAM & L2](https://www.credly.com/badges/7083b54b-a4c1-4c38-a0f0-c8487d5b6794/public_url) | Isovalent | Credly Verified Badge |
-| 2026-08-10 | [Cilium LoadBalancer IPAM and BGP Service Advertisement](https://www.credly.com/badges/d181f780-e6ee-4fef-8bd1-df291a355438/public_url) | Isovalent | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-08-part-10.md](./credly-2026-08-part-10.md) | [Index](./credly-index.md) | Next: [credly-2026-09-part-12.md](./credly-2026-09-part-12.md)

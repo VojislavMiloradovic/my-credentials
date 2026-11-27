@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 5 of 16
-date_range: 2026-05-31 to 2026-06-08
-total_entries: 53
+date_range: 2026-06-01 to 2026-06-08
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-06-part-05.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,12 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-08 | [LFD103: A Beginner's Guide to Linux Kernel Development](https://www.credly.com/badges/014a781e-7a70-47a0-b79d-c6080bbef63d/public_url) | The Linux Foundation | Credly Verified Badge |
+| 2026-06-08 | [LFD121: Developing Secure Software](https://www.credly.com/badges/21cf0189-83ae-4159-abd9-f2eecf3bd6a9/public_url) | The Linux Foundation | Credly Verified Badge |
+| 2026-06-08 | [LFD125: Security for Software Development Managers](https://www.credly.com/badges/c0a1f565-7255-4a8b-8a99-c447b22e0023/public_url) | The Linux Foundation | Credly Verified Badge |
+| 2026-06-08 | [LFS157: Introduction to Serverless on Kubernetes](https://www.credly.com/badges/b7b7ca0d-9eb3-42a1-9e11-70c2260d2b4e/public_url) | The Linux Foundation | Credly Verified Badge |
+| 2026-06-08 | [LFS182: Securing Your Software Supply Chain with Sigstore](https://www.credly.com/badges/78826580-a3a7-4213-be79-3233321f3d3e/public_url) | The Linux Foundation | Credly Verified Badge |
+| 2026-06-08 | [Cloud Accelerator Badge](https://www.credly.com/badges/a10ab236-0af0-45ad-a9f0-694426ba3f8d/public_url) | Lucid Software | Credly Verified Badge |
 | 2026-06-08 | [Creative Facilitation](https://www.credly.com/badges/6df66de9-9678-4f5a-bc36-1c4d7b220100/public_url) | Lucid Software | Credly Verified Badge |
 | 2026-06-08 | [Process Accelerator Badge](https://www.credly.com/badges/66e95c6f-7100-4007-ae22-1fc36a1d638d/public_url) | Lucid Software | Credly Verified Badge |
 | 2026-06-07 | [AWS Knowledge: File Storage - Training Badge](https://www.credly.com/badges/517a628a-d90a-48b8-858b-8c81048bbf5d/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
@@ -61,13 +67,6 @@ artifacts: complete, index
 | 2026-06-01 | [Manual SAS Viya Deployment](https://www.credly.com/badges/0a5e2982-bdb6-498f-8ec6-979b3c0db919/public_url) | SAS | Credly Verified Badge |
 | 2026-06-01 | [Post-Deployment Steps for SAS Viya](https://www.credly.com/badges/bbb58e7e-7844-4128-99e3-1dbf678dcccc/public_url) | SAS | Credly Verified Badge |
 | 2026-06-01 | [Session and Token Management Best Practices](https://www.credly.com/badges/a52cf3d1-10a0-48ca-8a19-bb2d0ee5a1ca/public_url) | Okta | Credly Verified Badge |
-| 2026-05-31 | [Product Analytics Certification](https://www.credly.com/badges/383af23e-ddf1-4106-9b5d-3fde0bacdf16/public_url) | Pendo | Credly Verified Badge |
-| 2026-05-31 | [Product Discovery Certification](https://www.credly.com/badges/7f76121b-ff69-474a-a1ad-09e88993b145/public_url) | Pendo | Credly Verified Badge |
-| 2026-05-31 | [Product-led Certification](https://www.credly.com/badges/4813afed-be74-43f4-a69e-9a6482970fa2/public_url) | Pendo | Credly Verified Badge |
-| 2026-05-31 | [Explore / analytics](https://www.credly.com/badges/bad7e351-594a-4376-9e73-28c1ad57817b/public_url) | Zendesk | Credly Verified Badge |
-| 2026-05-31 | [Messaging](https://www.credly.com/badges/a65a8496-8f64-4d2c-b4c7-4a3d9b161301/public_url) | Zendesk | Credly Verified Badge |
-| 2026-05-31 | [Talk / voice](https://www.credly.com/badges/82c8ca9b-bbde-4b58-b8dc-57dc834fada4/public_url) | Zendesk | Credly Verified Badge |
-| 2026-05-31 | [Zendesk Knowledge](https://www.credly.com/badges/80fd12ea-5a76-4bf2-aab2-4c5ea7531b3a/public_url) | Zendesk | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md) | [Index](./credly-index.md) | Next: [credly-2026-06-part-06.md](./credly-2026-06-part-06.md)

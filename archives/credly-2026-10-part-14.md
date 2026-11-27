@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 14 of 16
-date_range: 2026-09-30 to 2026-10-10
-total_entries: 55
+date_range: 2026-10-01 to 2026-10-11
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,10 +11,14 @@ artifacts: complete, index
 
 # Credly Verified Credentials -- Part 14
 
-> **Navigation:** Prev: [credly-2026-09-part-13.md](./credly-2026-09-part-13.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md) | [Complete Archive](./credly-complete.md)
+> **Navigation:** Prev: [credly-2026-10-part-13.md](./credly-2026-10-part-13.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md) | [Complete Archive](./credly-complete.md)
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-11 | [AWS Knowledge: Amazon Connect Developer - Training Badge](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-10-11 | [Microsoft Applied Skills: Integrate model context protocol tools with agents in Microsoft Foundry](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/D296FE0D58F3B6D0?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
+| 2026-10-10 | [Harness Certified Code Repository Developer](https://www.credly.com/badges/e7564671-e168-49e2-b28b-c2f2da887146/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-10 | [Harness Certified Continuous Delivery & GitOps Developer](https://www.credly.com/badges/99b36a29-ec2a-4df6-bf2d-74fdad35e070/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Continuous Integration Developer](https://www.credly.com/badges/614739fa-4c01-45e3-afaa-32d3ed5e80c5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Infrastructure as Code Management Developer](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Resilience Testing Formerly Chaos Engineering Developer](https://www.credly.com/badges/ed311c10-6a4b-4dea-a7e5-a24b1bdde162/public_url) | Harness Inc | Credly Verified Badge |
@@ -65,12 +69,7 @@ artifacts: complete, index
 | 2026-10-01 | [Basis Automate+](https://www.credly.com/badges/4cca84af-5946-435a-a853-e89ea3c9181b/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-10-01 | [Basis Connect+](https://www.credly.com/badges/5d229e20-bae1-4dee-89b8-3c2b0afbbd7b/public_url) | Basis Technologies | Credly Verified Badge |
 | 2026-10-01 | [Basis Reporting](https://www.credly.com/badges/eb14d86e-db4b-4a3f-bfd5-5b672f60e3bd/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-10-01 | [Enterprise AI Business Solutions](https://www.credly.com/badges/8022d661-c083-40c9-9ab7-acd251698a1f/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-10-01 | [Programmatic Sales Essentials](https://www.credly.com/badges/7895fbdf-6d83-4d71-95d3-6938d0ad96fb/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-10-01 | [Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-09-30 | [Basis DSP Tactics](https://www.credly.com/badges/84fdc926-20d9-477f-b88e-9f372681a6b2/public_url) | Basis Technologies | Credly Verified Badge |
-| 2026-09-30 | [Basis Planner](https://www.credly.com/badges/b21ec6f2-c32f-4ef6-9536-19b8ba89a0b7/public_url) | Basis Technologies | Credly Verified Badge |
 
 ---
-> **Navigation:** Prev: [credly-2026-09-part-13.md](./credly-2026-09-part-13.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md)
+> **Navigation:** Prev: [credly-2026-10-part-13.md](./credly-2026-10-part-13.md) | [Index](./credly-index.md) | Next: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md)
 

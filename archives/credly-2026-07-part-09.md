@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 9 of 16
-date_range: 2026-07-15 to 2026-07-29
+date_range: 2026-07-17 to 2026-07-30
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-07-part-09.md
 layer: L2_published
@@ -15,6 +15,12 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-07-30 | [Securing MongoDB Atlas Networking](https://www.credly.com/badges/74ba326f-caa2-44b0-a4b2-dd055799bebf/public_url) | MongoDB | Credly Verified Badge |
+| 2026-07-30 | [Securing MongoDB Self-Managed Networking](https://www.credly.com/badges/0f2ed21a-e251-4566-ac7e-bf989559785b/public_url) | MongoDB | Credly Verified Badge |
+| 2026-07-30 | [Threat-Informed Architecture](https://www.credly.com/badges/2e682aba-ad5e-4f85-9f0e-87f0a4a1c5d1/public_url) | AttackIQ | Credly Verified Badge |
+| 2026-07-30 | [Vector Search Performance](https://www.credly.com/badges/a89e8a08-ff7d-433a-9131-a8e2d464db34/public_url) | MongoDB | Credly Verified Badge |
+| 2026-07-29 | [Analyze Images with the Cloud Vision API Skill Badge](https://www.credly.com/badges/b62903c7-d4c2-4f7e-85d6-e7fc5a62e5be/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-07-29 | [AWS Educate Getting Started with Serverless - Training Badge](https://www.credly.com/badges/01fefe26-9f1d-4c80-848a-4af9b193b111/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-07-29 | [Build Event-Driven Applications with Eventarc](https://www.credly.com/badges/e1dd5a4c-f4c8-4e1e-bb3d-6e7f00ca530e/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-07-29 | [Cloud Sales Pro - Protected 365](https://www.credly.com/badges/da80423d-93c4-4353-949e-47fe38205bb8/public_url) | Acronis | Credly Verified Badge |
 | 2026-07-29 | [Countering Ransomware with MITRE ATT&CK](https://www.credly.com/badges/86ad39b3-0d3a-4939-b748-62169bb782d7/public_url) | AttackIQ | Credly Verified Badge |
@@ -62,12 +68,6 @@ artifacts: complete, index
 | 2026-07-19 | [Introduction to EASY Framework for Threat Intelligence](https://www.credly.com/badges/351d4db6-cd03-429e-a629-0765c3c78ba0/public_url) | AttackIQ | Credly Verified Badge |
 | 2026-07-19 | [Secure Software Delivery Skill Badge](https://www.credly.com/badges/2cf13bdf-9555-4bac-a807-2f80b52ddb56/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-07-17 | [BDR Basic Course](https://www.credly.com/badges/eecab10e-35f3-446c-9503-a4b15c76acf8/public_url) | Acronis | Credly Verified Badge |
-| 2026-07-17 | [Building RAG Apps Using MongoDB](https://www.credly.com/badges/647d5577-f948-4a84-9093-7b511bca6ecb/public_url) | MongoDB | Credly Verified Badge |
-| 2026-07-17 | [Top ATT&CK Techniques](https://www.credly.com/badges/61cec03c-1282-4a54-b48f-2c31d5a043f1/public_url) | AttackIQ | Credly Verified Badge |
-| 2026-07-16 | [Build a Data Mesh with Dataplex Skill Badge](https://www.credly.com/badges/68710fa4-e750-49a8-b542-5ed9e47c7e7b/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-07-15 | [AWS Educate Getting Started with Storage - Training Badge](https://www.credly.com/badges/c0cd9a0e-d2c9-4c72-9e6f-87b5cedde8a7/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-07-15 | [Building AI-Powered Search with MongoDB Vector Search](https://www.credly.com/badges/106d3801-84c1-4057-8474-6450f2a84b33/public_url) | MongoDB | Credly Verified Badge |
-| 2026-07-15 | [Cloud Tech Professional Disaster Recovery](https://www.credly.com/badges/b1960c54-6ac1-4206-8631-f489b925b6eb/public_url) | Acronis | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-07-part-08.md](./credly-2026-07-part-08.md) | [Index](./credly-index.md) | Next: [credly-2026-08-part-10.md](./credly-2026-08-part-10.md)

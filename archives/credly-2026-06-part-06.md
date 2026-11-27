@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 6 of 16
-date_range: 2026-06-08 to 2026-06-20
+date_range: 2026-06-08 to 2026-06-21
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-06-part-06.md
 layer: L2_published
@@ -15,6 +15,12 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-06-21 | [LFEL1004: Authentication & Authorization for Web/API](https://www.credly.com/badges/697a5045-42c3-4df6-be0a-660972953e02/public_url) | The Linux Foundation | Credly Verified Badge |
+| 2026-06-21 | [LFS184: Introduction to JavaScript Security](https://www.credly.com/badges/adbfc39b-1a5a-4225-80bc-0ee44b06bcd5/public_url) | The Linux Foundation | Credly Verified Badge |
+| 2026-06-21 | [Use APIs to Work with Cloud Storage Skill Badge](https://www.credly.com/badges/3a261bec-3e3f-41ca-b362-3eaf9f06bd90/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-06-21 | [The Basics of Google Cloud Compute Skill Badge](https://www.credly.com/badges/1add8a23-2f6c-4308-bcd7-39c83fcc42f6/public_url) | Google Cloud | Credly Verified Badge |
+| 2026-06-20 | [AWS Knowledge: Amazon ECS - Training Badge](https://www.credly.com/badges/6b61161d-dd36-4991-b23a-8ec2b7c96368/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-06-20 | [Brand Your Okta Customer Identity Experience](https://www.credly.com/badges/ef277f59-d9a8-464c-88be-5e92dcb590a2/public_url) | Okta | Credly Verified Badge |
 | 2026-06-20 | [Implement B2C Self-Service Registration with Okta](https://www.credly.com/badges/50cbbb61-b545-4f07-b122-39494ae2b6f6/public_url) | Okta | Credly Verified Badge |
 | 2026-06-20 | [M365 Basic Course](https://www.credly.com/badges/ddd3f99a-a3bd-44e6-8916-3b27b50cc8e4/public_url) | Acronis | Credly Verified Badge |
 | 2026-06-19 | [LFC120: Leading High-Performance Working Group Meetings](https://www.credly.com/badges/d1bc4d63-e2c5-4d32-b281-089f9b653a12/public_url) | The Linux Foundation | Credly Verified Badge |
@@ -60,12 +66,6 @@ artifacts: complete, index
 | 2026-06-09 | [Cloud Tech Fundamentals](https://www.credly.com/badges/3c5fdd0e-66a5-436b-bdeb-4f3da1702089/public_url) | Acronis | Credly Verified Badge |
 | 2026-06-09 | [Verified Lucid Admin](https://www.credly.com/badges/81693063-e75b-457f-90c9-ae13044ef9e1/public_url) | Lucid Software | Credly Verified Badge |
 | 2026-06-08 | [LFC193: Introduction to Open Source Licensing Compliance Management](https://www.credly.com/badges/ee58bb5f-4568-48b1-a075-98982a829a7a/public_url) | The Linux Foundation | Credly Verified Badge |
-| 2026-06-08 | [LFD103: A Beginner's Guide to Linux Kernel Development](https://www.credly.com/badges/014a781e-7a70-47a0-b79d-c6080bbef63d/public_url) | The Linux Foundation | Credly Verified Badge |
-| 2026-06-08 | [LFD121: Developing Secure Software](https://www.credly.com/badges/21cf0189-83ae-4159-abd9-f2eecf3bd6a9/public_url) | The Linux Foundation | Credly Verified Badge |
-| 2026-06-08 | [LFD125: Security for Software Development Managers](https://www.credly.com/badges/c0a1f565-7255-4a8b-8a99-c447b22e0023/public_url) | The Linux Foundation | Credly Verified Badge |
-| 2026-06-08 | [LFS157: Introduction to Serverless on Kubernetes](https://www.credly.com/badges/b7b7ca0d-9eb3-42a1-9e11-70c2260d2b4e/public_url) | The Linux Foundation | Credly Verified Badge |
-| 2026-06-08 | [LFS182: Securing Your Software Supply Chain with Sigstore](https://www.credly.com/badges/78826580-a3a7-4213-be79-3233321f3d3e/public_url) | The Linux Foundation | Credly Verified Badge |
-| 2026-06-08 | [Cloud Accelerator Badge](https://www.credly.com/badges/a10ab236-0af0-45ad-a9f0-694426ba3f8d/public_url) | Lucid Software | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-06-part-05.md](./credly-2026-06-part-05.md) | [Index](./credly-index.md) | Next: [credly-2026-07-part-07.md](./credly-2026-07-part-07.md)

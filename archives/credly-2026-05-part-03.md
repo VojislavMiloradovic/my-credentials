@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 3 of 16
-date_range: 2026-05-08 to 2026-05-17
+date_range: 2026-05-08 to 2026-05-19
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-05-part-03.md
 layer: L2_published
@@ -15,6 +15,12 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-19 | [Introduction to Web Design](https://www.credly.com/badges/3fc971ca-8531-4e28-b6f8-6eecdf8354b3/public_url) | SAS | Credly Verified Badge |
+| 2026-05-19 | [Mastering AML Compliance: Safeguarding the Financial Sector](https://www.credly.com/badges/dc24612b-9d31-4ece-b66a-7198e4b05f76/public_url) | SAS | Credly Verified Badge |
+| 2026-05-19 | [Mastering Financial Fraud Prevention: Safeguarding Assets & Integrity](https://www.credly.com/badges/24877ce6-89fc-430e-b0bd-cc255519b9b3/public_url) | SAS | Credly Verified Badge |
+| 2026-05-19 | [Modern Data Science with SAS Viya Workbench: Unified Development with SAS, Python, and R](https://www.credly.com/badges/a0be387e-762c-4126-96bb-f1e42b60e922/public_url) | SAS | Credly Verified Badge |
+| 2026-05-19 | [SAS 9 Administration: Getting Started](https://www.credly.com/badges/db55699d-258e-4a61-870c-0d66d5f6166f/public_url) | SAS | Credly Verified Badge |
+| 2026-05-19 | [SAS Viya Overview](https://www.credly.com/badges/2fdf77a8-806b-4cf7-bbd3-a87225b74bac/public_url) | SAS | Credly Verified Badge |
 | 2026-05-17 | [Cybersecurity Fundamentals](https://www.credly.com/badges/07b5c2dc-a9ed-433c-bc25-63c34d575fa9/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-05-17 | [Data Literacy Essentials](https://www.credly.com/badges/19d5ef73-f045-4218-a0f9-288f5e318b31/public_url) | SAS | Credly Verified Badge |
 | 2026-05-17 | [Enable Financial-Grade Identity™ with Auth0 Highly Regulated Identity](https://www.credly.com/badges/50b5be88-f0a7-4bdf-b7eb-7a94d5d4714c/public_url) | Okta | Credly Verified Badge |
@@ -62,12 +68,6 @@ artifacts: complete, index
 | 2026-05-08 | [Cloud Security Engineer - Cloud SIEM Learning Path](https://www.credly.com/badges/577f478c-820f-4968-b0d8-4442919eb244/public_url) | Datadog | Credly Verified Badge |
 | 2026-05-08 | [Cloud Security Engineer Learning Path](https://www.credly.com/badges/85e91ec4-bba7-40fb-bc78-ab15fc5c4c1f/public_url) | Datadog | Credly Verified Badge |
 | 2026-05-08 | [Log Configuration & Processing Learning Path](https://www.credly.com/badges/e1e5c2fb-df56-4426-b482-94ee2d79e9e0/public_url) | Datadog | Credly Verified Badge |
-| 2026-05-08 | [Log Management Fundamentals](https://www.credly.com/badges/bb1f9ed7-1194-4b2f-98ec-3919dfccd7df/public_url) | Datadog | Credly Verified Badge |
-| 2026-05-08 | [Log Querying & Analytics Learning Path](https://www.credly.com/badges/a621b498-451c-4f52-ab24-2af344bc773d/public_url) | Datadog | Credly Verified Badge |
-| 2026-05-08 | [Managing Company Administration in Legacy Concur Travel - Record of Achievement](https://www.credly.com/badges/ec23d781-1dce-4c64-9a2c-1199a7650f19/public_url) | SAP | Credly Verified Badge |
-| 2026-05-08 | [Okta for AI Agents](https://www.credly.com/badges/692470a1-f212-48bf-a7b7-79e824c6f06f/public_url) | Okta | Credly Verified Badge |
-| 2026-05-08 | [Secure Your AI Agents to Act on the Behalf of Users](https://www.credly.com/badges/18c0a300-025b-46de-9097-99133e15b871/public_url) | Okta | Credly Verified Badge |
-| 2026-05-08 | [Secure Your RAG Pipelines with Auth0 Fine-Grained Access](https://www.credly.com/badges/c734854a-173d-4bb7-a018-d72a9b2c9cf6/public_url) | Okta | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-05-part-02.md](./credly-2026-05-part-02.md) | [Index](./credly-index.md) | Next: [credly-2026-05-part-04.md](./credly-2026-05-part-04.md)

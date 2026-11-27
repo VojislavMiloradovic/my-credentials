@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 15 of 16
-date_range: 2026-10-10 to 2026-10-28
-total_entries: 51
+date_range: 2026-10-13 to 2026-10-31
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-15.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,11 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-31 | [Microsoft Applied Skills: Enhance agents with autonomous capabilities](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/A2805BBD40427267?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
+| 2026-10-30 | [AWS Knowledge: Amazon Connect Reporting & Analytics - Training Badge](https://www.credly.com/badges/95f30003-6293-417a-89d3-8b2f8c8db025/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
+| 2026-10-28 | [Discover and Register AI Agents](https://www.credly.com/badges/cb8dd3b8-f179-45bc-b1b5-729751855746/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Identity Governance](https://www.credly.com/badges/d7edb0d7-1935-4389-87dc-39b5f395f23e/public_url) | Okta | Credly Verified Badge |
+| 2026-10-28 | [Identity Governance Access Certifications](https://www.credly.com/badges/33ce5fd1-570d-42ff-bea6-32d007088ab1/public_url) | Okta | Credly Verified Badge |
 | 2026-10-28 | [Identity Governance Entitlement Management](https://www.credly.com/badges/e73184e8-22d6-4175-ab5d-3d53bbfb4a04/public_url) | Okta | Credly Verified Badge |
 | 2026-10-28 | [Manage AI Agents Access to Resources](https://www.credly.com/badges/656a7c48-79f9-40ec-9e10-9078ace2e722/public_url) | Okta | Credly Verified Badge |
 | 2026-10-28 | [Streamline Identity Governance with Workflows](https://www.credly.com/badges/984861ae-3ade-45cf-bf5b-b7a99316dab6/public_url) | Okta | Credly Verified Badge |
@@ -62,10 +67,6 @@ artifacts: complete, index
 | 2026-10-13 | [Kong Gateway Operations](https://www.credly.com/badges/ec9b0dd2-a167-4d92-87af-2a5e6e2df6d6/public_url) | Kong | Credly Verified Badge |
 | 2026-10-13 | [Machine Learning for Data Science Projects](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-13 | [User Experience Design Fundamentals](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-10-11 | [AWS Knowledge: Amazon Connect Developer - Training Badge](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-10-11 | [Microsoft Applied Skills: Integrate model context protocol tools with agents in Microsoft Foundry](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/D296FE0D58F3B6D0?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
-| 2026-10-10 | [Harness Certified Code Repository Developer](https://www.credly.com/badges/e7564671-e168-49e2-b28b-c2f2da887146/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-10 | [Harness Certified Continuous Delivery & GitOps Developer](https://www.credly.com/badges/99b36a29-ec2a-4df6-bf2d-74fdad35e070/public_url) | Harness Inc | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Index](./credly-index.md) | Next: [credly-2026-11-part-16.md](./credly-2026-11-part-16.md)

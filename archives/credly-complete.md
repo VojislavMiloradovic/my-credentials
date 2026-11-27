@@ -6,12 +6,16 @@ This document represents a unified, verifiable list of all 846 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-26T21:38:18.055571+00:00 -->
+<!-- retrieved_at: 2026-11-27T00:21:40.814036+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-26 | [Campaign manager 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/ab09b555-47f4-4d26-9197-e1c6e2113de6) | Skillshop | Credly External Badge |
+| 2026-11-26 | [Display & Video 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/22d872d3-a573-4ca0-b4d4-02aab9193c4a) | Skillshop | Credly External Badge |
+| 2026-11-26 | [Google Ads Video Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/25cff18e-4dc3-4d65-aaf5-335992a6d29b) | Skillshop | Credly External Badge |
+| 2026-11-26 | [Google Analytics Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/3bf1b44f-8517-4b7d-a69b-19ee58b0d370) | Skillshop | Credly External Badge |
 | 2026-11-25 | [AWS Knowledge: Amazon WorkSpaces Operations at Scale - Training Badge](https://www.credly.com/badges/6629cd5b-ff2d-4fda-bea0-55ca9a4f0b54/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-23 | [C++ Essentials 1](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-23 | [Digital Safety and Security Awareness](https://www.credly.com/badges/8321a421-1066-4a4b-b151-a5d5de345a46/public_url) | Cisco | Credly Verified Badge |
@@ -843,14 +847,10 @@ This document represents a unified, verifiable list of all 846 records.
 | 2026-03-25 | [Microsoft Applied Skills: Generate reports with AI research agents](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/ABC20116B56C7F9F?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-03-24 | [Search Ads 360 Certification Exam](https://api.accredible.com/v1/obi/badge_assertions/5b477ad2-43c6-4789-af30-137f9f87f4c6) | Skillshop | Credly External Badge |
 | 2026-03-23 | [Google Ads Apps Certification](https://api.accredible.com/v1/obi/badge_assertions/2d3974a2-6a69-4b66-8886-350d7b1626d5) | Skillshop | Credly External Badge |
-| 2026-03-21 | [Microsoft Applied Skills: Get started with identities and access using Microsoft Entra](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/27BB90F5B956E0C8?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-03-20 | [Google Ads Measurement Certification](https://api.accredible.com/v1/obi/badge_assertions/3eec0163-8804-4d17-bde0-d08e6c76d74c) | Skillshop | Credly External Badge |
-| 2026-03-18 | [Microsoft Applied Skills: Get started with Azure management tasks](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B7C5DF765FB52CEA?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-03-17 | [AI-Powered Shopping ads Certification](https://api.accredible.com/v1/obi/badge_assertions/09192bf8-4cca-4947-86c8-58a0b29d6511) | Skillshop | Credly External Badge |
 | 2026-03-16 | [AI-Powered Performance Ads Certification](https://api.accredible.com/v1/obi/badge_assertions/1583f933-2a97-47bc-b442-8ad614e6982d) | Skillshop | Credly External Badge |
-| 2026-03-16 | [Microsoft Applied Skills: Get started with cloud security and monitoring tasks](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/1EBB80C496C2DDF1?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-03-15 | [Google Ads Search Certification](https://api.accredible.com/v1/obi/badge_assertions/f0f3a46f-f6a1-4145-8fb5-2c2bb41a761f) | Skillshop | Credly External Badge |
-| 2026-03-15 | [Microsoft Applied Skills: Streamline business workflows with AI chat](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/CE7FBB459ADAB331?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-03-12 | [Google Analytics Certification](https://api.accredible.com/v1/obi/badge_assertions/c845a7b6-cef3-4e66-87e2-481771d889ed) | Skillshop | Credly External Badge |
 | 2026-02-07 | [Oracle Cloud Success Navigator Essentials](https://catalog-education.oracle.com/pls/certview/sharebadge?id=E11489205EF3BEE917EAFE29D12203DA2526C300DB291B1D3B7F3E1F84C70D87) | Oracle | Credly External Badge |
 | 2025-12-20 | [Implement Load Balancing on Compute Engine Skill Badge](https://www.credly.com/badges/a081bb3e-083d-4ccc-a074-c7b7e2d15a1b/public_url) | Google Cloud | Credly Verified Badge |

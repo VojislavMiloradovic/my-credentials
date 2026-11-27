@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 2 of 16
-date_range: 2026-04-19 to 2026-05-08
-total_entries: 50
+date_range: 2026-04-21 to 2026-05-08
+total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-05-part-02.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,12 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-05-08 | [Log Management Fundamentals](https://www.credly.com/badges/bb1f9ed7-1194-4b2f-98ec-3919dfccd7df/public_url) | Datadog | Credly Verified Badge |
+| 2026-05-08 | [Log Querying & Analytics Learning Path](https://www.credly.com/badges/a621b498-451c-4f52-ab24-2af344bc773d/public_url) | Datadog | Credly Verified Badge |
+| 2026-05-08 | [Managing Company Administration in Legacy Concur Travel - Record of Achievement](https://www.credly.com/badges/ec23d781-1dce-4c64-9a2c-1199a7650f19/public_url) | SAP | Credly Verified Badge |
+| 2026-05-08 | [Okta for AI Agents](https://www.credly.com/badges/692470a1-f212-48bf-a7b7-79e824c6f06f/public_url) | Okta | Credly Verified Badge |
+| 2026-05-08 | [Secure Your AI Agents to Act on the Behalf of Users](https://www.credly.com/badges/18c0a300-025b-46de-9097-99133e15b871/public_url) | Okta | Credly Verified Badge |
+| 2026-05-08 | [Secure Your RAG Pipelines with Auth0 Fine-Grained Access](https://www.credly.com/badges/c734854a-173d-4bb7-a018-d72a9b2c9cf6/public_url) | Okta | Credly Verified Badge |
 | 2026-05-08 | [Securing AI Agents](https://www.credly.com/badges/a8a1be1c-dbe7-41d6-b6ee-e7fb18112fe0/public_url) | Okta | Credly Verified Badge |
 | 2026-05-06 | [Agent Observability Metrics & Traces Learning Path](https://www.credly.com/badges/b3b2f64b-ab63-44f6-b6c3-228ce710bcd5/public_url) | Datadog | Credly Verified Badge |
 | 2026-05-06 | [Agents & Agentic AI Fundamentals](https://www.credly.com/badges/65342bd4-19df-45dc-9b32-f68a21c5be0d/public_url) | Intel | Credly Verified Badge |
@@ -60,11 +66,6 @@ artifacts: complete, index
 | 2026-04-21 | [Linux Unhatched](https://www.credly.com/badges/4c3ee7b3-330b-437b-8e6a-91d96bca1b45/public_url) | Cisco | Credly Verified Badge |
 | 2026-04-21 | [Transition from SAP Solution Manager to SAP Cloud ALM - Record of Achievement](https://www.credly.com/badges/e95d01e6-d813-4038-bc38-8e396c4b88bc/public_url) | SAP | Credly Verified Badge |
 | 2026-04-21 | [Google Ads Creative Certification](https://api.accredible.com/v1/obi/badge_assertions/72c8a75b-85e1-4619-b34b-61adaa5a68c9) | Skillshop | Credly External Badge |
-| 2026-04-20 | [AWS Knowledge: Amazon Connect Fundamentals - Training Badge](https://www.credly.com/badges/cb6a4e9e-b375-4e40-bf27-7f3d4ad252d5/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-04-20 | [Explore Emerging Tech](https://www.credly.com/badges/67d065a9-5177-45e1-b94d-72bc4b493ca0/public_url) | IBM SkillsBuild | Credly Verified Badge |
-| 2026-04-20 | [Introduction to Greenhouse Gas Accounting for IT](https://www.credly.com/badges/1b2c72f1-8e6b-4d6a-8e87-4c3a404a6250/public_url) | Cisco | Credly Verified Badge |
-| 2026-04-20 | [Working with Invoice Pay in Concur Invoice Professional - Record of Achievement](https://www.credly.com/badges/6a8ba215-f454-4b26-91ef-5ff968b721f7/public_url) | SAP | Credly Verified Badge |
-| 2026-04-19 | [AI Fundamentals: Foundations for Understanding AI](https://www.credly.com/badges/2a493aff-eb08-4456-8683-8b9d1d7c5eef/public_url) | IBM SkillsBuild | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-04-part-01.md](./credly-2026-04-part-01.md) | [Index](./credly-index.md) | Next: [credly-2026-05-part-03.md](./credly-2026-05-part-03.md)

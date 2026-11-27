@@ -1,8 +1,8 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 16 of 16
-date_range: 2026-10-28 to 2026-11-25
-total_entries: 49
+date_range: 2026-11-02 to 2026-11-26
+total_entries: 48
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-16.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,10 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-26 | [Campaign manager 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/ab09b555-47f4-4d26-9197-e1c6e2113de6) | Skillshop | Credly External Badge |
+| 2026-11-26 | [Display & Video 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/22d872d3-a573-4ca0-b4d4-02aab9193c4a) | Skillshop | Credly External Badge |
+| 2026-11-26 | [Google Ads Video Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/25cff18e-4dc3-4d65-aaf5-335992a6d29b) | Skillshop | Credly External Badge |
+| 2026-11-26 | [Google Analytics Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/3bf1b44f-8517-4b7d-a69b-19ee58b0d370) | Skillshop | Credly External Badge |
 | 2026-11-25 | [AWS Knowledge: Amazon WorkSpaces Operations at Scale - Training Badge](https://www.credly.com/badges/6629cd5b-ff2d-4fda-bea0-55ca9a4f0b54/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-23 | [C++ Essentials 1](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/public_url) | Cisco | Credly Verified Badge |
 | 2026-11-23 | [Digital Safety and Security Awareness](https://www.credly.com/badges/8321a421-1066-4a4b-b151-a5d5de345a46/public_url) | Cisco | Credly Verified Badge |
@@ -59,11 +63,6 @@ artifacts: complete, index
 | 2026-11-04 | [Workflows](https://www.credly.com/badges/3d20176d-d805-49f0-97b9-b288376231c1/public_url) | Okta | Credly Verified Badge |
 | 2026-11-02 | [Build Your Own Chatbot - Level 1](https://www.credly.com/badges/1275ae4d-5bdd-45c3-bdc5-4eef7b2ae86f/public_url) | IBM | Credly Verified Badge |
 | 2026-11-02 | [Data Science Foundations - Level 1](https://www.credly.com/badges/8b535dbd-76db-4713-9e2e-1137abe99da0/public_url) | IBM | Credly Verified Badge |
-| 2026-10-31 | [Microsoft Applied Skills: Enhance agents with autonomous capabilities](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/A2805BBD40427267?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
-| 2026-10-30 | [AWS Knowledge: Amazon Connect Reporting & Analytics - Training Badge](https://www.credly.com/badges/95f30003-6293-417a-89d3-8b2f8c8db025/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-10-28 | [Discover and Register AI Agents](https://www.credly.com/badges/cb8dd3b8-f179-45bc-b1b5-729751855746/public_url) | Okta | Credly Verified Badge |
-| 2026-10-28 | [Identity Governance](https://www.credly.com/badges/d7edb0d7-1935-4389-87dc-39b5f395f23e/public_url) | Okta | Credly Verified Badge |
-| 2026-10-28 | [Identity Governance Access Certifications](https://www.credly.com/badges/33ce5fd1-570d-42ff-bea6-32d007088ab1/public_url) | Okta | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-10-part-15.md](./credly-2026-10-part-15.md) | [Index](./credly-index.md) | Next: None
