@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 43 of 46
+chunk_part: 43 of 47
 date_range: 2026-10 to 2026-11
-total_entries: 53
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-43.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,18 +15,6 @@ artifacts: complete, index
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-11 | **MSP Academy: Expert Communicator** | Acronis | [Verify Record](https://www.credly.com/badges/65a0022d-4b3b-4d75-8d59-b47f00f0a6a4/linked_in_profile) |
-| 2026-11 | **Technical Presales Pro - Acronis Cyber Frame** | Acronis | [Verify Record](https://www.credly.com/badges/1aaf0f97-d167-4a4f-9735-27cc75df553e/linked_in_profile) |
-| 2026-11 | **Cloud Sales Professional MDR** | Acronis | [Verify Record](https://www.credly.com/badges/938528c2-8698-487b-aa5c-bfaa151233f4/linked_in_profile) |
-| 2026-11 | **Foundations of Clinical Trials Programming Knowledge Badge** | SAS | [Verify Record](https://www.credly.com/badges/e08b522c-b39f-4ac9-9e9e-290c3535144d/linked_in_profile) |
-| 2026-11 | **Agentic AI: Concepts and Governance** | SAS | [Verify Record](https://www.credly.com/badges/193f1186-8b2b-41d9-9379-00622b1c5a2e/linked_in_profile) |
-| 2026-11 | **Using SAS® Viya® Copilot in SAS® Visual Analytics** | SAS | [Verify Record](https://www.credly.com/badges/97b14b77-ff9f-40dc-a7ad-4ce81794ffd3/linked_in_profile) |
-| 2026-11 | **Introduction to SAS Clinical Acceleration Repository** | SAS | [Verify Record](https://www.credly.com/badges/b65fb09a-9674-46c7-8076-aaf9b4c47b3a/linked_in_profile) |
-| 2026-11 | **SAS Viya: Cloud Data Exchange** | SAS | [Verify Record](https://www.credly.com/badges/ff7bdecc-168a-43c1-ad9a-e8e33154ee49/linked_in_profile) |
-| 2026-11 | **SAP BTP Fundamentals - Level 2: Administration, Security, Extensibility** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuris-mamar-reder-pemoc-lygot) |
-| 2026-11 | **SAP BTP Fundamentals - Level 3: Advanced Services, Integration** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xidud-sibil-vodut-cilob-vurig) |
-| 2026-11 | **SAP Build Work Zone - Implementation and Administration** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xicyv-nakis-cecem-gudup-suruv) |
-| 2026-11 | **Applying SAP S/4HANA Product Engineering** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xaryv-kygih-berec-cisyc-takym) |
 | 2026-11 | **Experiencing SAP AI** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xepop-melyt-fekab-rocys-bateb) |
 | 2026-11 | **Boosting AI-driven Business Transformation with Joule Agents - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xivug-pekut-hidat-vaguf-nevid) |
 | 2026-11 | **C++ Essentials 1** | Cisco | [Verify Record](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/linked_in_profile) |
@@ -41,6 +29,17 @@ artifacts: complete, index
 | 2026-11 | **Performing Quality Management in Production** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xoluc-hynug-gekas-risum-sydeb) |
 | 2026-11 | **Performing Quality Management in Production using inspection points and samples** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylak-hecat-povup-nasef-rihuk) |
 | 2026-11 | **Positioning SAP Taulia Working Capital Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xelev-cunih-ferok-tucak-rahyb) |
+| 2026-11 | **Google Ads Video Certification (2026)** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/25cff18e-4dc3-4d65-aaf5-335992a6d29b) |
+| 2026-11 | **Campaign manager 360 Certification (2026)** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/ab09b555-47f4-4d26-9197-e1c6e2113de6) |
+| 2026-11 | **Display & Video 360 Certification (2026)** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/22d872d3-a573-4ca0-b4d4-02aab9193c4a) |
+| 2026-11 | **Google Analytics Certification (2026)** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/3bf1b44f-8517-4b7d-a69b-19ee58b0d370) |
+| 2026-11 | **Mastering SAP Customer Identity and Access Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xupir-hicem-focis-rymos-retuf) |
+| 2026-11 | **Mastering SAP Customer Data Cloud Authentication Methods** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xuvov-cufol-mypim-puhag-hivul) |
+| 2026-11 | **Getting Started with SAP Enterprise Consent and Preference** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomem-savar-tubah-nydyl-carah) |
+| 2026-11 | **Developing with SAP Customer Identity and Access Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xohoc-pegik-cutun-perib-bados) |
+| 2026-11 | **Positioning Solutions for Planning in SAP Supply Chain Management** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xyron-fylib-nutin-vorer-deryg) |
+| 2026-11 | **Search Ads 360 Certification (2026)** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/339d7cc4-4f60-4e8d-9d50-c97d6cf17f77) |
+| 2026-11 | **Grow Your Monetization with Google Ad Manager** | Google Digital Academy (Skillshop) | [Verify Record](https://skillshop.credential.net/0ac62d3d-c98d-421a-9865-88b141305660) |
 | 2026-10 | **Store, Process, and Manage Data on Google Cloud - Command Line Skill Badge** | Google | [Verify Record](https://www.credly.com/badges/2a078194-1314-4aa9-8bf7-4cd16dfba18c/linked_in_profile) |
 | 2026-10 | **Google Cloud VMware Engine Fundamentals** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/28588789?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 | 2026-10 | **AI Efficiencies and Governance** | IBM | [Verify Record](https://www.credly.com/badges/ce9972ff-0858-463a-82b5-1dc3d2913242/linked_in_profile) |

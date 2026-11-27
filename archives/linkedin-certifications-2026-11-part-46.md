@@ -1,8 +1,8 @@
 ---
 archive_platform: LinkedIn Certifications
-chunk_part: 46 of 46
+chunk_part: 46 of 47
 date_range: 2026-11 to 2026-11
-total_entries: 50
+total_entries: 54
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-2026-11-part-46.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -11,17 +11,10 @@ artifacts: complete, index
 
 # LinkedIn Certifications -- Part 46
 
-> **Navigation:** Prev: [linkedin-certifications-2026-11-part-45.md](./linkedin-certifications-2026-11-part-45.md) | [Index](./linkedin-certifications-index.md) | Next: None | [Complete Archive](./linkedin-certifications-complete.md)
+> **Navigation:** Prev: [linkedin-certifications-2026-11-part-45.md](./linkedin-certifications-2026-11-part-45.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-11-part-47.md](./linkedin-certifications-2026-11-part-47.md) | [Complete Archive](./linkedin-certifications-complete.md)
 
 | Date Completed | Certification Title | Issuing Authority | Verification Reference |
 | :---: | :--- | :--- | :--- |
-| 2026-11 | **Understand Your Google Cloud Costs** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29320786?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-11 | **SQL and Relational Databases 101** | Cognitive Class | [Verify Record](https://courses.cognitiveclass.ai/certificates/b6c4f284b1e44b3e908099e266a202e3) |
-| 2026-11 | **Data Science Foundations - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/8b535dbd-76db-4713-9e2e-1137abe99da0/linked_in_profile) |
-| 2026-11 | **Build Your Own Chatbot - Level 1** | IBM | [Verify Record](https://www.credly.com/badges/1275ae4d-5bdd-45c3-bdc5-4eef7b2ae86f/linked_in_profile) |
-| 2026-11 | **Diwali in the Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29349189?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-11 | **Arcade Simulator: Cloud Infrastructure Engineer** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29404510?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
-| 2026-11 | **Kong Insomnia for Developers** | Kong | [Verify Record](https://www.credly.com/badges/6cd29a72-4308-4e34-a4f6-48af1417eb01/linked_in_profile) |
 | 2026-11 | **Automate User Lifecycle Management with Workflows** | Okta | [Verify Record](https://www.credly.com/badges/08cb9221-e675-411c-9d0c-347d9ac42ad0/linked_in_profile) |
 | 2026-11 | **Automate Identity Security with Workflows** | Okta | [Verify Record](https://www.credly.com/badges/e3f88afb-4313-41b3-b1b5-2051ba3e662e/linked_in_profile) |
 | 2026-11 | **Workflows** | Okta | [Verify Record](https://www.credly.com/badges/3d20176d-d805-49f0-97b9-b288376231c1/linked_in_profile) |
@@ -65,7 +58,18 @@ artifacts: complete, index
 | 2026-11 | **Exploring the Technical Essentials of SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xapuf-nosef-nopek-goful-komam) |
 | 2026-11 | **Expanding Upon Technical Essentials of SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xylus-sehac-tahir-kohov-fihis) |
 | 2026-11 | **Mastering the Technical Essentials of SAP Commerce Cloud - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xomir-fosob-sovam-hyhom-satyc) |
+| 2026-11 | **Exploring SAP Platform Capabilities** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xekah-galut-dubof-cypab-lugon) |
+| 2026-11 | **eBPF Networking** | Isovalent | [Verify Record](https://www.credly.com/badges/d47370ef-b31f-4330-b12a-53c239efaa66/linked_in_profile) |
+| 2026-11 | **eBPF Kubernetes Monitoring** | Isovalent | [Verify Record](https://www.credly.com/badges/fc0c346e-d0ca-43c0-917c-b3bb31bee0cd/linked_in_profile) |
+| 2026-11 | **eBPF + Go Development** | Isovalent | [Verify Record](https://www.credly.com/badges/33ee45f9-9d54-45d5-acde-4dab793e0250/linked_in_profile) |
+| 2026-11 | **GitOps Platform Engineering with Cilium** | Isovalent | [Verify Record](https://www.credly.com/badges/b502e6fe-fa15-4e07-b898-e58c510cef18/linked_in_profile) |
+| 2026-11 | **SAP Integration Suite Overview** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xemod-gicih-vonag-mykym-ronef) |
+| 2026-11 | **Developing with SAP Build Process Automation - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xonac-pitas-nyrah-limom-hidas) |
+| 2026-11 | **Designing SAP Build Work Zone for Superior Efficiency - Course Completion** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xagup-kirap-kysip-cysec-tarah) |
+| 2026-11 | **Getting Started with Joule Studio, classic edition** | SAP | [Verify Record](https://badger.learning.sap.com/verify/xudum-hyhuk-parul-nicyp-lefyd) |
+| 2026-11 | **Building Applications with Eventarc on Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29588237?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
+| 2026-11 | **Logging and Monitoring in Google Cloud** | Google | [Verify Record](https://www.skills.google/public_profiles/2011cb91-6066-4d7f-bbec-644b1530829b/badges/29592041?utm_medium=social&utm_source=linkedin&utm_campaign=ql-social-share) |
 
 ---
-> **Navigation:** Prev: [linkedin-certifications-2026-11-part-45.md](./linkedin-certifications-2026-11-part-45.md) | [Index](./linkedin-certifications-index.md) | Next: None
+> **Navigation:** Prev: [linkedin-certifications-2026-11-part-45.md](./linkedin-certifications-2026-11-part-45.md) | [Index](./linkedin-certifications-index.md) | Next: [linkedin-certifications-2026-11-part-47.md](./linkedin-certifications-2026-11-part-47.md)
 
