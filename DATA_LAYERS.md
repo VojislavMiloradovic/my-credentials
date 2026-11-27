@@ -83,6 +83,14 @@ The `cross_artifact_validator.py` validates that record counts flow correctly ac
 | L2 → L3 | `compute_display_metrics` | L3 derived from L0/L1 |
 | L2 → L3 | `count_streams_separately` | L3 = sum(L2 streams) |
 
+### Transactional Publication Boundary
+
+All six `update_*.py` pipelines wrap their publication phase (`persist_validation`, `generate_archive`, `update_readme`, `generate_baselines`, `sync_fixtures`) inside `PublicationTransaction` (`pipeline_base.py`):
+
+- **Atomic Writes**: Validation JSONs, archive markdown files, `README.md`, baselines, and synced fixtures are written via same-directory temporary files and `os.replace`.
+- **Fail-Fast & Rollback**: Publication steps raise on error rather than emitting non-fatal warnings; any failure rolls back validation files, archives (including deleted orphaned chunks), `README.md`, baselines, and fixtures so baselines never advance after an incomplete publish.
+- **Workflow Recovery Compatibility**: Temporarily disabling checks in `.github/workflows/*.yml` to regenerate clean `for_validation/*-baseline.json` files after local corruption remains unaffected.
+
 ## Content Fingerprint Schema Architecture
 
 ### Overview
