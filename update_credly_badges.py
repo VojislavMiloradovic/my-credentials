@@ -753,12 +753,7 @@ class CredlyPipeline(PipelineBase):
         validation_file = self.OUTPUT_FILE
 
         payload = self.get_validation_payload(records)
-        try:
-            with open(validation_file, "w", encoding="utf-8") as f:
-                json.dump(payload, f, indent=2, ensure_ascii=False)
-            self.logger.info(f"[SAVE] Full data persisted: '{validation_file}'")
-        except Exception as e:
-            self.logger.warning(f"[WARN] Could not persist validation data: {e}")
+        self._write_validation_payload(validation_file, payload, ensure_ascii=False)
 
 
 # Module-level main function for backward compat
