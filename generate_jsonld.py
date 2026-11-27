@@ -9,11 +9,28 @@ import jsonschema
 
 # Layer manifest integration
 from layer_manifest import get_platforms_with_l2_artifact
-from models.provenance import VerificationUrlKind, classify_credential_evidence
+from models.provenance import (
+    EvidenceLevel,
+    VerificationStatus,
+    VerificationUrlKind,
+    classify_credential_evidence,
+)
+from verify_assertions import (
+    CACHE_PATH as DEFAULT_ACTIVE_VERIFICATIONS_PATH,
+)
+from verify_assertions import (
+    DEFAULT_TTL_DAYS as DEFAULT_ACTIVE_VERIFICATION_TTL_DAYS,
+)
+from verify_assertions import (
+    is_verified_and_fresh,
+    load_active_verifications,
+)
 
 ARCHIVE_DIR = "archives"
 README_PATH = "README.md"
 JSONLD_PATH = "credentials.jsonld"
+ACTIVE_VERIFICATIONS_PATH = DEFAULT_ACTIVE_VERIFICATIONS_PATH
+ACTIVE_VERIFICATION_TTL_DAYS = DEFAULT_ACTIVE_VERIFICATION_TTL_DAYS
 
 MARKER_START = "<!-- JSONLD_START -->"
 MARKER_END = "<!-- JSONLD_END -->"
@@ -258,6 +275,7 @@ def parse_archive_monoliths():
         pass
 
     print(f"Found {len(platform_keys)} platform(s) with L2_published jsonld artifact:")
+    active_verifications = load_active_verifications(ACTIVE_VERIFICATIONS_PATH)
 
     for platform_key in platform_keys:
         # Construct the monolith filename from platform prefix
@@ -506,21 +524,38 @@ def parse_archive_monoliths():
                         retired=retired,
                     )
                 )
-                c_obj["verificationStatus"] = verification_status.value
-                c_obj["evidenceLevel"] = evidence_level.value
-                c_obj["verificationUrlKind"] = url_kind.value
-
                 # Provenance URL & identifier fields
                 raw_source_url = url or verify_url or None
-                c_obj["sourceRecordId"] = cred_id if cred_id else None
-                c_obj["sourceUrl"] = raw_source_url
-                c_obj["verifyUrl"] = (
+                verify_url_val = (
                     (verify_url or url)
                     if url_kind == VerificationUrlKind.CREDENTIAL_ASSERTION
                     and (verify_url or url)
                     else None
                 )
-                c_obj["lastVerifiedAt"] = None
+                last_verified_at = None
+                if (
+                    evidence_level == EvidenceLevel.ISSUER_CREDENTIAL
+                    and url_kind == VerificationUrlKind.CREDENTIAL_ASSERTION
+                    and verify_url_val
+                ):
+                    cache_entry = active_verifications.get(verify_url_val)
+                    if is_verified_and_fresh(
+                        cache_entry, ttl_days=ACTIVE_VERIFICATION_TTL_DAYS
+                    ):
+                        last_verified_at = cache_entry.get("last_verified_at")
+                        if (
+                            not retired
+                            and verification_status != VerificationStatus.EXPIRED
+                        ):
+                            verification_status = VerificationStatus.VERIFIED
+
+                c_obj["verificationStatus"] = verification_status.value
+                c_obj["evidenceLevel"] = evidence_level.value
+                c_obj["verificationUrlKind"] = url_kind.value
+                c_obj["sourceRecordId"] = cred_id if cred_id else None
+                c_obj["sourceUrl"] = raw_source_url
+                c_obj["verifyUrl"] = verify_url_val
+                c_obj["lastVerifiedAt"] = last_verified_at
                 c_obj["sourceHash"] = None
 
                 credentials.append(c_obj)
