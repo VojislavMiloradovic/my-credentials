@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-26T20:21:23.879828+00:00",
+  "timestamp": "2026-11-27T06:12:23.989947+00:00",
   "summary": {
     "total": 95,
     "passed": 95,
@@ -63,9 +63,9 @@
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
-      "latest_record_date_source": "2026-11-25T00:00:00",
-      "latest_record_date_archive": "2026-11-25T00:00:00",
-      "latest_record_date_jsonld": "2026-11-25T00:00:00"
+      "latest_record_date_source": "2026-11-26T00:00:00",
+      "latest_record_date_archive": "2026-11-26T00:00:00",
+      "latest_record_date_jsonld": "2026-11-26T00:00:00"
     },
     "linkedin-certifications": {
       "source_records": 2140,
@@ -1012,7 +1012,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-11-25 to 2026-11-25)",
+      "message": "Latest record dates span 0 days across artifacts (2026-11-26 to 2026-11-26)",
       "severity": "warning"
     },
     {
