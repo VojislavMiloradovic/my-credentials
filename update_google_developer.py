@@ -1064,70 +1064,62 @@ class GoogleDeveloperPipeline(PipelineBase):
         return records
 
     def update_readme(self, readme_lines: list[str], latest_slice: str) -> None:
-        """Override to also update the stats table in the index file."""
+        """Override to also update the stats table in README and the index file."""
         # Call parent update_readme
         super().update_readme(readme_lines, latest_slice)
 
-        # Update README stats table (the Platform Progress section)
-        try:
-            from archiver import update_readme_stats
+        from archiver import safe_write_file, update_readme_stats
 
-            update_readme_stats(
-                platform_key="google-developer",
-                total_count=len(self._public_badges) + len(self._detailed_learnings),
-                public_badges=len(self._public_badges),
-                detailed_learnings=len(self._detailed_learnings),
-            )
-            self.logger.info("[STATS] README updated with Google Developer stats")
-        except Exception as e:
-            self.logger.warning(f"[WARN] Could not update README stats: {e}")
+        # Update README stats table (the Platform Progress section)
+        update_readme_stats(
+            platform_key="google-developer",
+            total_count=len(self._public_badges) + len(self._detailed_learnings),
+            public_badges=len(self._public_badges),
+            detailed_learnings=len(self._detailed_learnings),
+            readme_path=self._effective_readme_path(),
+        )
+        self.logger.info("[STATS] README updated with Google Developer stats")
 
         # Update index file with two-category breakdown
         index_file_path = os.path.join(
-            self.ARCHIVE_DIR, f"{self.PLATFORM_PREFIX}-index.md"
+            self._effective_archive_dir(), f"{self.PLATFORM_PREFIX}-index.md"
         )
         if os.path.exists(index_file_path):
-            try:
-                with open(index_file_path, "r", encoding="utf-8") as f:
-                    index_content = f.read()
+            with open(index_file_path, "r", encoding="utf-8") as f:
+                index_content = f.read()
 
-                total_public = len(self._public_badges)
-                total_detailed = len(self._detailed_learnings)
+            total_public = len(self._public_badges)
+            total_detailed = len(self._detailed_learnings)
 
-                breakdown_text = (
-                    f"- **Total Public Badges:** {total_public:,}\n"
-                    f"- **Total Detailed Activities:** {total_detailed:,}"
+            breakdown_text = (
+                f"- **Total Public Badges:** {total_public:,}\n"
+                f"- **Total Detailed Activities:** {total_detailed:,}"
+            )
+
+            if "Total Public Badges" not in index_content:
+                old_overview_pattern = r"(- \*\*Total Records Archived:\*\* [\d,]+)"
+                index_content = re.sub(
+                    old_overview_pattern,
+                    rf"\1\n{breakdown_text}",
+                    index_content,
+                    count=1,
+                )
+            else:
+                index_content = re.sub(
+                    r"- \*\*Total Public Badges:\*\* [\d,]+",
+                    f"- **Total Public Badges:** {total_public:,}",
+                    index_content,
+                )
+                index_content = re.sub(
+                    r"- \*\*Total Detailed Activities:\*\* [\d,]+",
+                    f"- **Total Detailed Activities:** {total_detailed:,}",
+                    index_content,
                 )
 
-                if "Total Public Badges" not in index_content:
-                    old_overview_pattern = r"(- \*\*Total Records Archived:\*\* [\d,]+)"
-                    index_content = re.sub(
-                        old_overview_pattern,
-                        rf"\1\n{breakdown_text}",
-                        index_content,
-                        count=1,
-                    )
-                else:
-                    index_content = re.sub(
-                        r"- \*\*Total Public Badges:\*\* [\d,]+",
-                        f"- **Total Public Badges:** {total_public:,}",
-                        index_content,
-                    )
-                    index_content = re.sub(
-                        r"- \*\*Total Detailed Activities:\*\* [\d,]+",
-                        f"- **Total Detailed Activities:** {total_detailed:,}",
-                        index_content,
-                    )
-
-                with open(index_file_path, "w", encoding="utf-8") as f:
-                    f.write(index_content)
-                self.logger.info(
-                    f"[OK] Updated category breakdown metrics in {index_file_path}"
-                )
-            except Exception as e:
-                self.logger.warning(
-                    f"[WARN] Failed to update overview in {index_file_path}: {e}"
-                )
+            safe_write_file(index_file_path, index_content)
+            self.logger.info(
+                f"[OK] Updated category breakdown metrics in {index_file_path}"
+            )
 
 
 # Module-level main function for backward compat
