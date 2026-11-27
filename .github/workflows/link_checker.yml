@@ -19,12 +19,12 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout Repository
-        uses: actions/checkout@v4
+        uses: actions/checkout@11d5960a326750d5838078e36cf38b85af677262 # v4.4.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Restore Lychee Cache
-        uses: actions/cache@v4
+        uses: actions/cache@0057852bfaa89a56745cba8c7296529d2fc39830 # v4.3.0
         with:
           path: .lycheecache
           key: lychee-${{ runner.os }}-${{ github.sha }}
@@ -32,12 +32,12 @@ jobs:
             lychee-${{ runner.os }}-
 
       - name: Setup Python
-        uses: actions/setup-python@v5
+        uses: actions/setup-python@a26af69be951a213d495a4c3e4e4022e16d87065 # v5.6.0
         with:
           python-version: '3.11'
 
       - name: Install uv
-        uses: astral-sh/setup-uv@v5
+        uses: astral-sh/setup-uv@d4b2f3b6ecc6e67c4457f6d3e41ec42d3d0fcb86 # v5.4.2
         with:
           version: '0.12.3'
 
@@ -46,10 +46,17 @@ jobs:
 
       - name: Install lychee
         run: |
-          # Install lychee from pre-built binary
+          set -euo pipefail
+          # Install lychee from pre-built binary with SHA-256 verification
           LYCHEE_VERSION="0.15.0"
-          curl -L "https://github.com/lycheeverse/lychee/releases/download/v${LYCHEE_VERSION}/lychee-v${LYCHEE_VERSION}-x86_64-unknown-linux-musl.tar.gz" | tar -xz
-          sudo mv lychee /usr/local/bin/
+          LYCHEE_SHA256="58813e400b06e1d36df090a1673269d4187d8206fdc6826f75578b273759a65f"
+          LYCHEE_TARBALL="${{ runner.temp }}/lychee-v${LYCHEE_VERSION}-x86_64-unknown-linux-musl.tar.gz"
+          curl -fsSL "https://github.com/lycheeverse/lychee/releases/download/v${LYCHEE_VERSION}/lychee-v${LYCHEE_VERSION}-x86_64-unknown-linux-musl.tar.gz" -o "${LYCHEE_TARBALL}"
+          echo "${LYCHEE_SHA256}  ${LYCHEE_TARBALL}" | sha256sum -c -
+          tar -xzf "${LYCHEE_TARBALL}" -C "${{ runner.temp }}" lychee
+          rm -f "${LYCHEE_TARBALL}"
+          sudo install -m 0755 "${{ runner.temp }}/lychee" /usr/local/bin/lychee
+          rm -f "${{ runner.temp }}/lychee"
           lychee --version
 
       - name: Build .lycheeignore
