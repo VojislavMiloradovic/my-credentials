@@ -6,29 +6,237 @@ Encapsulates common pipeline orchestration logic to eliminate duplication across
 import json
 import logging
 import os
+import shutil
 import sys
+import tempfile
+from contextlib import contextmanager
 from datetime import UTC, datetime
-from typing import Any, ClassVar
+from typing import Any, ClassVar, Self
 
 # Import shared orchestration functions from loss_guard
+import loss_guard
 from loss_guard import (
-    generate_provider_baseline,
     load_retired_rules,
     run_provider_loss_guards,
 )
-from scripts.sync_fixtures import sync_fixtures
+from scripts.sync_fixtures import FIXTURE_MAP, sync_fixtures
 
 # Try to import archiver
 try:
     from archiver import (
         RAW_BASE_DEFAULT,
+        atomic_write_text,
         generate_platform_archive,
         safe_write_file,
     )
 except ImportError:
+    atomic_write_text = None
     generate_platform_archive = None
-    safe_write_file = lambda filepath, new_content: False
+    safe_write_file = None
     RAW_BASE_DEFAULT = "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
+
+
+def _atomic_write_json(
+    filepath: str,
+    payload: dict[str, Any],
+    *,
+    ensure_ascii: bool = False,
+) -> None:
+    """Atomically write JSON payload to filepath via temp file + os.replace."""
+    serialized = json.dumps(payload, indent=2, ensure_ascii=ensure_ascii)
+    if atomic_write_text is not None:
+        atomic_write_text(filepath, serialized, encoding="utf-8", newline=None)
+        return
+
+    parent_dir = os.path.dirname(filepath) or "."
+    os.makedirs(parent_dir, exist_ok=True)
+    tmp_path: str | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            encoding="utf-8",
+            dir=parent_dir,
+            prefix=f".{os.path.basename(filepath)}.",
+            suffix=".tmp",
+            delete=False,
+        ) as tmp_file:
+            tmp_path = tmp_file.name
+            tmp_file.write(serialized)
+            tmp_file.flush()
+        os.replace(tmp_path, filepath)
+        tmp_path = None
+    finally:
+        if tmp_path and os.path.exists(tmp_path):
+            try:
+                os.remove(tmp_path)
+            except OSError:
+                pass
+
+
+def _atomic_copy_restore(src_path: str, dst_path: str) -> None:
+    """Atomically restore a snapshotted file back to dst_path."""
+    parent_dir = os.path.dirname(dst_path) or "."
+    os.makedirs(parent_dir, exist_ok=True)
+    tmp_path: str | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            dir=parent_dir,
+            prefix=f".{os.path.basename(dst_path)}.",
+            suffix=".restore.tmp",
+            delete=False,
+        ) as tmp_file:
+            tmp_path = tmp_file.name
+        shutil.copy2(src_path, tmp_path)
+        try:
+            os.replace(tmp_path, dst_path)
+        except OSError:
+            if os.name != "nt" or not os.path.exists(dst_path):
+                raise
+            backup_path = f"{dst_path}.bak"
+            os.replace(dst_path, backup_path)
+            try:
+                os.replace(tmp_path, dst_path)
+            except OSError:
+                if not os.path.exists(dst_path) and os.path.exists(backup_path):
+                    os.replace(backup_path, dst_path)
+                raise
+            if os.path.exists(backup_path):
+                try:
+                    os.remove(backup_path)
+                except OSError:
+                    pass
+        tmp_path = None
+    finally:
+        if tmp_path and os.path.exists(tmp_path):
+            try:
+                os.remove(tmp_path)
+            except OSError:
+                pass
+
+
+class PublicationTransaction:
+    """Snapshot/rollback transaction guarding the publication phase.
+
+    Snapshots platform-scoped validation files, baselines, archives, README, and
+    synced test fixtures before publication mutations begin. Any exception during
+    publication rolls back all tracked artifacts to their pre-run state so local
+    or CI failures never leave partial state or advance baselines.
+    """
+
+    def __init__(
+        self,
+        *,
+        tracked_files: list[str],
+        tracked_dir_prefixes: list[tuple[str, tuple[str, ...]]],
+        logger: logging.Logger,
+    ) -> None:
+        self.tracked_files = [
+            os.path.abspath(p) for p in dict.fromkeys(tracked_files) if p
+        ]
+        self.tracked_dir_prefixes: list[tuple[str, tuple[str, ...]]] = []
+        seen_dirs: dict[str, set[str]] = {}
+        for dir_path, prefixes in tracked_dir_prefixes:
+            if not dir_path:
+                continue
+            abs_dir = os.path.abspath(dir_path)
+            seen_dirs.setdefault(abs_dir, set()).update(prefixes)
+        for abs_dir, prefix_set in seen_dirs.items():
+            self.tracked_dir_prefixes.append((abs_dir, tuple(sorted(prefix_set))))
+
+        self.logger = logger
+        self._backup_dir: tempfile.TemporaryDirectory[str] | None = None
+        self._file_snapshots: dict[str, tuple[bool, str | None]] = {}
+        self._dir_existed: dict[str, bool] = {}
+        self._dir_snapshots: dict[tuple[str, str], str] = {}
+
+    def __enter__(self) -> Self:
+        self._backup_dir = tempfile.TemporaryDirectory(prefix="pub_tx_")
+        counter = 0
+
+        for abs_path in self.tracked_files:
+            if os.path.isfile(abs_path):
+                backup_path = os.path.join(self._backup_dir.name, f"file_{counter}")
+                counter += 1
+                shutil.copy2(abs_path, backup_path)
+                self._file_snapshots[abs_path] = (True, backup_path)
+            else:
+                self._file_snapshots[abs_path] = (False, None)
+
+        for abs_dir, prefixes in self.tracked_dir_prefixes:
+            dir_exists = os.path.isdir(abs_dir)
+            self._dir_existed[abs_dir] = dir_exists
+            if not dir_exists:
+                continue
+            for entry in os.listdir(abs_dir):
+                if any(entry.startswith(prefix) for prefix in prefixes):
+                    full_path = os.path.join(abs_dir, entry)
+                    if os.path.isfile(full_path):
+                        backup_path = os.path.join(
+                            self._backup_dir.name, f"dir_{counter}"
+                        )
+                        counter += 1
+                        shutil.copy2(full_path, backup_path)
+                        self._dir_snapshots[(abs_dir, entry)] = backup_path
+
+        return self
+
+    def rollback(self) -> None:
+        """Restore all pre-run files and remove files newly created in the transaction."""
+        self.logger.error(
+            "[ROLLBACK] Publication failed; restoring pre-run validation, archive, README, baseline, and fixture state."
+        )
+
+        # 1. Remove newly created directory-matched files and restore snapshotted ones
+        for abs_dir, prefixes in self.tracked_dir_prefixes:
+            if os.path.isdir(abs_dir):
+                for entry in os.listdir(abs_dir):
+                    if any(entry.startswith(prefix) for prefix in prefixes):
+                        full_path = os.path.join(abs_dir, entry)
+                        if (
+                            abs_dir,
+                            entry,
+                        ) not in self._dir_snapshots and os.path.isfile(full_path):
+                            try:
+                                os.remove(full_path)
+                            except OSError as e:
+                                self.logger.warning(
+                                    f"[ROLLBACK] Could not remove new file '{full_path}': {e}"
+                                )
+
+        for (abs_dir, entry), backup_path in self._dir_snapshots.items():
+            target_path = os.path.join(abs_dir, entry)
+            _atomic_copy_restore(backup_path, target_path)
+
+        for abs_dir, _ in self.tracked_dir_prefixes:
+            if not self._dir_existed.get(abs_dir, True) and os.path.isdir(abs_dir):
+                try:
+                    if not os.listdir(abs_dir):
+                        os.rmdir(abs_dir)
+                except OSError:
+                    pass
+
+        # 2. Restore or delete individually tracked files
+        for abs_path, (existed, backup_path) in self._file_snapshots.items():
+            if existed and backup_path is not None:
+                _atomic_copy_restore(backup_path, abs_path)
+            elif not existed and os.path.exists(abs_path):
+                try:
+                    os.remove(abs_path)
+                except OSError as e:
+                    self.logger.warning(
+                        f"[ROLLBACK] Could not remove new file '{abs_path}': {e}"
+                    )
+
+    def __exit__(self, exc_type, exc_val, exc_tb) -> bool:
+        try:
+            if exc_type is not None:
+                self.rollback()
+        finally:
+            if self._backup_dir is not None:
+                self._backup_dir.cleanup()
+                self._backup_dir = None
+        return False
+
 
 # Layer manifest integration
 _LAYER_MANIFEST = None
@@ -234,19 +442,87 @@ class PipelineBase:
         return records
 
     # === Core pipeline flow (final - don't override) ===
+    def _resolve_runtime_path(self, attr_name: str, default_value: str) -> str:
+        """Resolve path attributes dynamically, respecting test module patches."""
+        if attr_name in self.__dict__:
+            return str(self.__dict__[attr_name])
+        current_val = getattr(self, attr_name)
+        if current_val != default_value:
+            return str(current_val)
+        module = sys.modules.get(self.__class__.__module__)
+        if module and hasattr(module, attr_name):
+            mod_val = getattr(module, attr_name)
+            if mod_val:
+                return str(mod_val)
+        return str(current_val)
+
+    def _effective_validation_dir(self) -> str:
+        return self._resolve_runtime_path("VALIDATION_DIR", "for_validation")
+
+    def _effective_archive_dir(self) -> str:
+        return self._resolve_runtime_path("ARCHIVE_DIR", "archives")
+
+    def _effective_readme_path(self) -> str:
+        return self._resolve_runtime_path("README_PATH", "README.md")
+
+    def _write_validation_payload(
+        self,
+        validation_file: str,
+        payload: dict[str, Any],
+        *,
+        ensure_ascii: bool = False,
+    ) -> None:
+        """Atomically persist validation JSON and raise on failure."""
+        _atomic_write_json(validation_file, payload, ensure_ascii=ensure_ascii)
+        self.logger.info(f"[SAVE] Full data persisted: '{validation_file}'")
+
+    @contextmanager
+    def _publication_transaction(self):
+        """Wrap publication mutations in an atomic snapshot/rollback transaction."""
+        validation_dir = self._effective_validation_dir()
+        archive_dir = self._effective_archive_dir()
+        readme_path = self._effective_readme_path()
+
+        tracked_files = [readme_path]
+        output_file = getattr(self, "OUTPUT_FILE", None)
+        if output_file:
+            tracked_files.append(str(output_file))
+        for _, dst in FIXTURE_MAP.get(self.PLATFORM_NAME, []):
+            tracked_files.append(dst)
+
+        prefixes = tuple(dict.fromkeys([self.PLATFORM_NAME, self.PLATFORM_PREFIX]))
+        tracked_dir_prefixes: list[tuple[str, tuple[str, ...]]] = [
+            (validation_dir, prefixes),
+            (loss_guard.VALIDATION_DIR, prefixes),
+            (archive_dir, (f"{self.PLATFORM_PREFIX}-",)),
+        ]
+
+        with PublicationTransaction(
+            tracked_files=tracked_files,
+            tracked_dir_prefixes=tracked_dir_prefixes,
+            logger=self.logger,
+        ):
+            yield
+
     def generate_baselines(self, records: list[dict]) -> None:
         """Generate baseline fingerprints for loss guard validation.
 
         Override for multi-stream providers (e.g., google-developer).
+        Raises RuntimeError if saving any baseline fails.
         """
         if self.STREAMS:
             from loss_guard import generate_all_provider_baselines
 
-            generate_all_provider_baselines(records, self.PLATFORM_NAME)
+            results = generate_all_provider_baselines(records, self.PLATFORM_NAME)
+            if not results or not all(results.values()):
+                raise RuntimeError(
+                    f"Failed to save one or more stream baselines for {self.PLATFORM_NAME}: {results}"
+                )
         else:
-            from loss_guard import generate_provider_baseline
+            from loss_guard import generate_provider_baseline as _gen_baseline
 
-            generate_provider_baseline(records, self.PLATFORM_NAME)
+            if not _gen_baseline(records, self.PLATFORM_NAME):
+                raise RuntimeError(f"Failed to save baseline for {self.PLATFORM_NAME}")
 
     @property
     def INPUT_JSON_PATH(self) -> str:
@@ -316,45 +592,46 @@ class PipelineBase:
         # 4. Post-guard hook (retired marking)
         records = self.post_loss_guard(records)
 
-        # 5. Persist validation data
-        self.persist_validation(records)
+        # 5-13. Transactional publication phase: any failure rolls back all
+        # generated artifacts and prevents baselines from advancing.
+        # GitHub baseline recovery workflows (temporarily commenting out CI checks
+        # to regenerate corrupted baselines) continue to work because the gate
+        # only rejects failed publication steps, not clean regenerations.
+        with self._publication_transaction():
+            # 5. Persist validation data
+            self.persist_validation(records)
 
-        # 6. Sort for archive (newest first)
-        records.sort(key=self._sort_key, reverse=True)
+            # 6. Sort for archive (newest first)
+            records.sort(key=self._sort_key, reverse=True)
 
-        # 7. Format for archive
-        formatted_rows = [self.format_for_archive(r) for r in records]
+            # 7. Format for archive
+            formatted_rows = [self.format_for_archive(r) for r in records]
 
-        # 8. Build README lines with placeholder slice (will be replaced after archive generation)
-        readme_lines = self.build_readme_lines(records, "")
+            # 8. Build README lines with placeholder slice (will be replaced after archive generation)
+            readme_lines = self.build_readme_lines(records, "")
 
-        # 9. Generate archive with README lines (archiver writes README with placeholders)
-        latest_slice = self.generate_archive(formatted_rows, readme_lines)
+            # 9. Generate archive with README lines (archiver writes README with placeholders)
+            latest_slice = self.generate_archive(formatted_rows, readme_lines)
 
-        # 10. Replace placeholder slice links in readme_lines with actual latest_slice
-        if latest_slice:
-            LATEST_SLICE_NORMAL = "./archives/" + latest_slice
-            LATEST_SLICE_RAW = RAW_BASE_DEFAULT + "/" + latest_slice
-            for i, line in enumerate(readme_lines):
-                if "{LATEST_SLICE_NORMAL}" in line:
-                    readme_lines[i] = line.replace(
-                        "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
-                    ).replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
-                    break
+            # 10. Replace placeholder slice links in readme_lines with actual latest_slice
+            if latest_slice:
+                LATEST_SLICE_NORMAL = "./archives/" + latest_slice
+                LATEST_SLICE_RAW = RAW_BASE_DEFAULT + "/" + latest_slice
+                for i, line in enumerate(readme_lines):
+                    if "{LATEST_SLICE_NORMAL}" in line:
+                        readme_lines[i] = line.replace(
+                            "{LATEST_SLICE_NORMAL}", LATEST_SLICE_NORMAL
+                        ).replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
+                        break
 
-        # 11. Update README with resolved slice links
-        self.update_readme(readme_lines, latest_slice)
+            # 11. Update README with resolved slice links
+            self.update_readme(readme_lines, latest_slice)
 
-        # 12. Generate baseline (all local generation complete)
-        if self.STREAMS:
-            from loss_guard import generate_all_provider_baselines
+            # 12. Generate baseline (all local generation complete)
+            self.generate_baselines(records)
 
-            generate_all_provider_baselines(records, self.PLATFORM_NAME)
-        else:
-            generate_provider_baseline(records, self.PLATFORM_NAME)
-
-        # 13. Sync fixtures (now copies the NEW baseline files)
-        self.sync_fixtures()
+            # 13. Sync fixtures (now copies the NEW baseline files)
+            self.sync_fixtures()
 
         self.logger.info(
             f"[DONE] {self.PLATFORM_DISPLAY_NAME} pipeline complete ({len(records)} combined items)."
@@ -389,50 +666,44 @@ class PipelineBase:
                     f"Contamination detected: {len(records)} records < {min_expected} minimum "
                     f"for {self.PLATFORM_NAME}. Check for test data leakage."
                 )
-        os.makedirs(self.VALIDATION_DIR, exist_ok=True)
-        validation_file = os.path.join(
-            self.VALIDATION_DIR, f"{self.PLATFORM_NAME}.json"
-        )
+        validation_dir = self._effective_validation_dir()
+        os.makedirs(validation_dir, exist_ok=True)
+        validation_file = os.path.join(validation_dir, f"{self.PLATFORM_NAME}.json")
 
         payload = self.get_validation_payload(records)
-        try:
-            with open(validation_file, "w", encoding="utf-8") as f:
-                json.dump(payload, f, indent=2, ensure_ascii=False)
-            self.logger.info(f"[SAVE] Full data persisted: '{validation_file}'")
-        except Exception as e:
-            self.logger.warning(f"[WARN] Could not persist validation data: {e}")
+        self._write_validation_payload(validation_file, payload, ensure_ascii=False)
 
     def generate_archive(self, formatted_rows, readme_lines):
         """Generate markdown archive via archiver module."""
         if not generate_platform_archive:
-            self.logger.warning(
-                "[WARN] Archiver module not available. Skipping markdown generation."
+            raise RuntimeError(
+                "Archiver module not available; cannot generate markdown archives."
             )
-            return None
 
-        try:
-            retrieved_at = datetime.now(UTC).isoformat()
-            latest_slice = generate_platform_archive(
-                platform_prefix=self.PLATFORM_PREFIX,
-                platform_name=self.PLATFORM_DISPLAY_NAME,
-                table_headers=self.TABLE_HEADERS,
-                table_alignments=self.TABLE_ALIGNMENTS,
-                formatted_rows=formatted_rows,
-                readme_lines=readme_lines,
-                marker_start=self.MARKER_START,
-                marker_end=self.MARKER_END,
-                archive_dir=self.ARCHIVE_DIR,
-                readme_path=self.README_PATH,
-                retrieved_at=retrieved_at,
+        retrieved_at = datetime.now(UTC).isoformat()
+        latest_slice = generate_platform_archive(
+            platform_prefix=self.PLATFORM_PREFIX,
+            platform_name=self.PLATFORM_DISPLAY_NAME,
+            table_headers=self.TABLE_HEADERS,
+            table_alignments=self.TABLE_ALIGNMENTS,
+            formatted_rows=formatted_rows,
+            readme_lines=readme_lines,
+            marker_start=self.MARKER_START,
+            marker_end=self.MARKER_END,
+            archive_dir=self._effective_archive_dir(),
+            readme_path=self._effective_readme_path(),
+            retrieved_at=retrieved_at,
+        )
+        if formatted_rows and not latest_slice:
+            raise RuntimeError(
+                f"Archive generation returned no latest slice for {self.PLATFORM_NAME}"
             )
-            return latest_slice
-        except Exception as e:
-            self.logger.warning(f"[WARN] Archive generation failed: {e}")
-            return None
+        return latest_slice
 
     def update_readme(self, readme_lines: list[str], latest_slice: str):
         """Update README.md with generated content."""
-        if not os.path.exists(self.README_PATH):
+        readme_path = self._effective_readme_path()
+        if not os.path.exists(readme_path):
             return
 
         # Replace slice placeholders
@@ -449,36 +720,23 @@ class PipelineBase:
                 ).replace("{LATEST_SLICE_RAW}", LATEST_SLICE_RAW)
                 break
 
-        try:
-            with open(self.README_PATH, "r", encoding="utf-8") as f:
-                readme_content = f.read()
+        with open(readme_path, "r", encoding="utf-8") as f:
+            readme_content = f.read()
 
-            if (
-                self.MARKER_START in readme_content
-                and self.MARKER_END in readme_content
-            ):
-                before = readme_content.split(self.MARKER_START)[0]
-                after = readme_content.split(self.MARKER_END)[1]
-                new_block = "\n".join(readme_lines) + "\n"
-                new_content = (
-                    before
-                    + self.MARKER_START
-                    + "\n"
-                    + new_block
-                    + self.MARKER_END
-                    + after
-                )
-                if safe_write_file:
-                    safe_write_file(self.README_PATH, new_content)
-        except Exception as e:
-            self.logger.warning(f"[WARN] README update failed: {e}")
+        if self.MARKER_START in readme_content and self.MARKER_END in readme_content:
+            before = readme_content.split(self.MARKER_START)[0]
+            after = readme_content.split(self.MARKER_END)[1]
+            new_block = "\n".join(readme_lines) + "\n"
+            new_content = (
+                before + self.MARKER_START + "\n" + new_block + self.MARKER_END + after
+            )
+            if not safe_write_file:
+                raise RuntimeError("archiver.safe_write_file is unavailable")
+            safe_write_file(readme_path, new_content)
 
     def sync_fixtures(self):
-        """Sync baseline files to test fixtures."""
-        try:
-            sync_fixtures(self.PLATFORM_NAME)
-        except Exception as e:
-            self.logger.warning(f"[WARN] Fixture sync failed (non-fatal): {e}")
+        """Sync baseline files to test fixtures (strict fail-fast)."""
+        sync_fixtures(self.PLATFORM_NAME)
 
 
 if __name__ == "__main__":
