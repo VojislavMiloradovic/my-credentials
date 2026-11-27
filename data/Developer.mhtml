@@ -1,9 +1,9 @@
 Content-Type: multipart/related; type="text/html";
- boundary="===============1723553877303867644=="
+ boundary="===============7027420668125458521=="
 MIME-Version: 1.0
 Subject: Google Developer Profile Learnings (Sanitized)
 
---===============1723553877303867644==
+--===============7027420668125458521==
 Content-Type: text/html; charset="utf-8"
 MIME-Version: 1.0
 Content-Transfer-Encoding: quoted-printable
@@ -11,6 +11,7 @@ Content-Location:
  https://me.developers.google.com/badges/recognitions/learnings
 
 <!DOCTYPE html>
+
 <html dir=3D"ltr" lang=3D"en"><head><meta content=3D"text/html; charset=3Du=
 tf-8" http-equiv=3D"Content-Type"/><link href=3D"cid:[CID_REDACTED]@mhtml.b=
 link" rel=3D"stylesheet" type=3D"text/css"/><link href=3D"cid:[CID_REDACTED=
@@ -11798,4 +11799,4 @@ abel=3D"grammarly-integration" class=3D"grammarly-desktop-integration" data=
 -content=3D'{"mode":"full","isActive":true,"isUserDisabled":false}' role=3D=
 "group" tabindex=3D"-1"></div></template></grammarly-desktop-integration></=
 html>
---===============1723553877303867644==--
+--===============7027420668125458521==--
