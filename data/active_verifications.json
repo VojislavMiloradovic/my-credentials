@@ -65,6 +65,12 @@
     "alive": true,
     "method": "HEAD"
   },
+  "https://api.accredible.com/v1/obi/badge_assertions/339d7cc4-4f60-4e8d-9d50-c97d6cf17f77": {
+    "last_verified_at": "2026-11-27T14:29:20.501524+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
   "https://api.accredible.com/v1/obi/badge_assertions/3bf1b44f-8517-4b7d-a69b-19ee58b0d370": {
     "last_verified_at": "2026-11-27T11:25:32.659792+00:00",
     "http_status": 200,
@@ -665,6 +671,12 @@
     "alive": true,
     "method": "HEAD"
   },
+  "https://badger.learning.sap.com/verify/xohoc-pegik-cutun-perib-bados": {
+    "last_verified_at": "2026-11-27T14:29:21.489279+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
   "https://badger.learning.sap.com/verify/xohym-budyd-fuhan-fyvog-kilur": {
     "last_verified_at": "2026-11-27T11:32:10.290790+00:00",
     "http_status": 200,
@@ -709,6 +721,12 @@
   },
   "https://badger.learning.sap.com/verify/xolyh-gedis-tinyh-gibed-menyt": {
     "last_verified_at": "2026-11-27T11:29:19.910869+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
+  "https://badger.learning.sap.com/verify/xomem-savar-tubah-nydyl-carah": {
+    "last_verified_at": "2026-11-27T14:29:21.238797+00:00",
     "http_status": 200,
     "alive": true,
     "method": "HEAD"
@@ -887,6 +905,12 @@
     "alive": true,
     "method": "HEAD"
   },
+  "https://badger.learning.sap.com/verify/xupir-hicem-focis-rymos-retuf": {
+    "last_verified_at": "2026-11-27T14:29:20.502846+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
   "https://badger.learning.sap.com/verify/xupuk-gutyn-hisuc-tiduc-muvaf": {
     "last_verified_at": "2026-11-27T11:29:20.913155+00:00",
     "http_status": 200,
@@ -919,6 +943,12 @@
   },
   "https://badger.learning.sap.com/verify/xutup-cafoc-delit-hosut-cepot": {
     "last_verified_at": "2026-11-27T11:32:31.261617+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
+  "https://badger.learning.sap.com/verify/xuvov-cufol-mypim-puhag-hivul": {
+    "last_verified_at": "2026-11-27T14:29:20.753200+00:00",
     "http_status": 200,
     "alive": true,
     "method": "HEAD"
@@ -1069,6 +1099,12 @@
   },
   "https://badger.learning.sap.com/verify/xyrid-noran-dumaf-lumaf-batih": {
     "last_verified_at": "2026-11-27T11:29:32.486164+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
+  "https://badger.learning.sap.com/verify/xyron-fylib-nutin-vorer-deryg": {
+    "last_verified_at": "2026-11-27T14:29:21.740029+00:00",
     "http_status": 200,
     "alive": true,
     "method": "HEAD"
@@ -1427,14 +1463,32 @@
     "alive": true,
     "method": "HEAD"
   },
+  "https://skillshop.credential.net/0ac62d3d-c98d-421a-9865-88b141305660": {
+    "last_verified_at": "2026-11-27T14:29:21.755523+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
   "https://skillshop.credential.net/1583f933-2a97-47bc-b442-8ad614e6982d": {
     "last_verified_at": "2026-11-27T11:32:56.171514+00:00",
     "http_status": 200,
     "alive": true,
     "method": "HEAD"
   },
+  "https://skillshop.credential.net/22d872d3-a573-4ca0-b4d4-02aab9193c4a": {
+    "last_verified_at": "2026-11-27T14:29:21.003408+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
   "https://skillshop.credential.net/2359f6e3-1f9d-486a-a89f-f60927b57349": {
     "last_verified_at": "2026-11-27T11:32:36.333663+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
+  "https://skillshop.credential.net/25cff18e-4dc3-4d65-aaf5-335992a6d29b": {
+    "last_verified_at": "2026-11-27T14:29:20.502187+00:00",
     "http_status": 200,
     "alive": true,
     "method": "HEAD"
@@ -1447,6 +1501,18 @@
   },
   "https://skillshop.credential.net/2d3974a2-6a69-4b66-8886-350d7b1626d5": {
     "last_verified_at": "2026-11-27T11:32:56.922362+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
+  "https://skillshop.credential.net/339d7cc4-4f60-4e8d-9d50-c97d6cf17f77": {
+    "last_verified_at": "2026-11-27T14:29:21.504791+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
+  "https://skillshop.credential.net/3bf1b44f-8517-4b7d-a69b-19ee58b0d370": {
+    "last_verified_at": "2026-11-27T14:29:21.254194+00:00",
     "http_status": 200,
     "alive": true,
     "method": "HEAD"
@@ -1483,6 +1549,12 @@
   },
   "https://skillshop.credential.net/aaa06037-984b-436d-a969-138478771e90": {
     "last_verified_at": "2026-11-27T11:32:33.826820+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
+  "https://skillshop.credential.net/ab09b555-47f4-4d26-9197-e1c6e2113de6": {
+    "last_verified_at": "2026-11-27T14:29:20.752592+00:00",
     "http_status": 200,
     "alive": true,
     "method": "HEAD"
@@ -1651,6 +1723,12 @@
   },
   "https://www.credential.net/022f81a0-1eaf-4b48-a864-6e459662f0fd": {
     "last_verified_at": "2026-11-27T11:25:58.891042+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
+  "https://www.credential.net/0ac62d3d-c98d-421a-9865-88b141305660": {
+    "last_verified_at": "2026-11-27T14:29:20.500671+00:00",
     "http_status": 200,
     "alive": true,
     "method": "HEAD"
