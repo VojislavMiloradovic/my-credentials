@@ -689,14 +689,7 @@ class LinkedInCertPipeline(PipelineBase):
             "total_count": len(records),
             "certifications": records,
         }
-        try:
-            with open(validation_file, "w", encoding="utf-8") as f:
-                json.dump(payload, f, indent=2, ensure_ascii=True)
-            self.logger.info(
-                f"[SAVE] Full data persisted: '{validation_file}' ({len(records)} certifications)"
-            )
-        except Exception as e:
-            self.logger.warning(f"[WARN] Could not persist full data: {e}")
+        self._write_validation_payload(validation_file, payload, ensure_ascii=True)
 
 
 # Module-level main function for backward compat
