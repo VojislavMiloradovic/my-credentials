@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-26T20:05:49.405108+00:00",
+  "timestamp": "2026-11-27T05:38:25.809993+00:00",
   "summary": {
     "total": 95,
     "passed": 95,
@@ -63,9 +63,9 @@
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
-      "latest_record_date_source": "2026-11-25T00:00:00",
-      "latest_record_date_archive": "2026-11-25T00:00:00",
-      "latest_record_date_jsonld": "2026-11-25T00:00:00"
+      "latest_record_date_source": "2026-11-26T00:00:00",
+      "latest_record_date_archive": "2026-11-26T00:00:00",
+      "latest_record_date_jsonld": "2026-11-26T00:00:00"
     },
     "linkedin-certifications": {
       "source_records": 2140,
@@ -83,16 +83,16 @@
       "latest_record_date_jsonld": null
     },
     "google-developer": {
-      "source_records": 1812,
-      "archive_complete_records": 1812,
+      "source_records": 1788,
+      "archive_complete_records": 1788,
       "index_total": 172,
       "readme_count": 172,
-      "jsonld_count": 1812,
+      "jsonld_count": 1788,
       "llms_txt_count": 172,
       "llms_full_count": 1,
-      "retired_in_source": 16,
-      "retired_in_archive": 16,
-      "retired_in_jsonld": 16,
+      "retired_in_source": 32,
+      "retired_in_archive": 32,
+      "retired_in_jsonld": 32,
       "latest_record_date_source": "2026-11-18T00:00:00",
       "latest_record_date_archive": "2026-11-18T00:00:00",
       "latest_record_date_jsonld": "2026-11-18T00:00:00"
@@ -149,8 +149,8 @@
       "platform": "google-developer",
       "passed": true,
       "expected": "> 0",
-      "actual": 1812,
-      "message": "Source snapshot has 1812 records (16 retired)",
+      "actual": 1788,
+      "message": "Source snapshot has 1788 records (32 retired)",
       "severity": "warning"
     },
     {
@@ -203,8 +203,8 @@
       "platform": "google-developer",
       "passed": true,
       "expected": "> 0",
-      "actual": 1812,
-      "message": "Complete archive has 1812 records (16 retired)",
+      "actual": 1788,
+      "message": "Complete archive has 1788 records (32 retired)",
       "severity": "error"
     },
     {
@@ -365,8 +365,8 @@
       "platform": "google-developer",
       "passed": true,
       "expected": "> 0",
-      "actual": 1812,
-      "message": "JSON-LD has 1812 credentials (16 retired)",
+      "actual": 1788,
+      "message": "JSON-LD has 1788 credentials (32 retired)",
       "severity": "error"
     },
     {
@@ -805,45 +805,45 @@
       "check": "declared_transform_L0_raw_to_L1_normalized:milestones",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1812 (transform: extract_milestone_badges_dedupe)",
-      "actual": 1812,
-      "message": "Declared transform L0_raw -> L1_normalized:milestones (extract_milestone_badges_dedupe): 1812 -> 1812 [OK]",
+      "expected": "1788 (transform: extract_milestone_badges_dedupe)",
+      "actual": 1788,
+      "message": "Declared transform L0_raw -> L1_normalized:milestones (extract_milestone_badges_dedupe): 1788 -> 1788 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L0_raw_to_L1_normalized:micro_learnings",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1812 (transform: parse_mhtml_codelabs)",
-      "actual": 1812,
-      "message": "Declared transform L0_raw -> L1_normalized:micro_learnings (parse_mhtml_codelabs): 1812 -> 1812 [OK]",
+      "expected": "1788 (transform: parse_mhtml_codelabs)",
+      "actual": 1788,
+      "message": "Declared transform L0_raw -> L1_normalized:micro_learnings (parse_mhtml_codelabs): 1788 -> 1788 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published:complete",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1812 (transform: combine_streams)",
-      "actual": 1812,
-      "message": "Declared transform L1_normalized -> L2_published:complete (combine_streams): 1812 -> 1812 [OK]",
+      "expected": "1788 (transform: combine_streams)",
+      "actual": 1788,
+      "message": "Declared transform L1_normalized -> L2_published:complete (combine_streams): 1788 -> 1788 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L2_published:index",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1812 (transform: split_streams)",
-      "actual": 1812,
-      "message": "Declared transform L1_normalized -> L2_published:index (split_streams): 1812 -> 1812 [OK]",
+      "expected": "1788 (transform: split_streams)",
+      "actual": 1788,
+      "message": "Declared transform L1_normalized -> L2_published:index (split_streams): 1788 -> 1788 [OK]",
       "severity": "error"
     },
     {
       "check": "declared_transform_L1_normalized_to_L3_display",
       "platform": "google-developer",
       "passed": true,
-      "expected": "1812 (transform: count_streams_separately)",
+      "expected": "1788 (transform: count_streams_separately)",
       "actual": 172,
-      "message": "Declared transform L1_normalized -> L3_display (count_streams_separately): 1812 -> 172 [OK]",
+      "message": "Declared transform L1_normalized -> L3_display (count_streams_separately): 1788 -> 172 [OK]",
       "severity": "error"
     },
     {
@@ -859,9 +859,9 @@
       "check": "retired_consistency_archive_vs_jsonld",
       "platform": "google-developer",
       "passed": true,
-      "expected": 16,
-      "actual": 16,
-      "message": "Retired count: archive=16 vs jsonld=16 [OK]",
+      "expected": 32,
+      "actual": 32,
+      "message": "Retired count: archive=32 vs jsonld=32 [OK]",
       "severity": "warning"
     },
     {
@@ -1012,7 +1012,7 @@
       "passed": true,
       "expected": "within 30 days",
       "actual": "0 days",
-      "message": "Latest record dates span 0 days across artifacts (2026-11-25 to 2026-11-25)",
+      "message": "Latest record dates span 0 days across artifacts (2026-11-26 to 2026-11-26)",
       "severity": "warning"
     },
     {
