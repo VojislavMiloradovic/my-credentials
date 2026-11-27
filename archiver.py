@@ -1,6 +1,7 @@
 import glob
 import os
 import re
+import tempfile
 from datetime import UTC, datetime
 
 import tiktoken
@@ -54,10 +55,66 @@ def find_latest_slice(archive_dir: str, platform_prefix: str) -> str | None:
     return os.path.basename(latest)
 
 
-def safe_write_file(filepath: str, new_content: str) -> bool:
-    """Writes content to filepath only if content has changed.
+def atomic_write_text(
+    filepath: str,
+    content: str,
+    *,
+    encoding: str = "utf-8",
+    newline: str | None = "\n",
+) -> None:
+    """Atomically write text to filepath via same-directory temp file + os.replace."""
+    parent_dir = os.path.dirname(filepath) or "."
+    os.makedirs(parent_dir, exist_ok=True)
+    tmp_path: str | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            encoding=encoding,
+            newline=newline,
+            dir=parent_dir,
+            prefix=f".{os.path.basename(filepath)}.",
+            suffix=".tmp",
+            delete=False,
+        ) as tmp_file:
+            tmp_path = tmp_file.name
+            tmp_file.write(content)
+            tmp_file.flush()
+            try:
+                os.fsync(tmp_file.fileno())
+            except OSError:
+                pass
+        try:
+            os.replace(tmp_path, filepath)
+        except OSError:
+            if os.name != "nt" or not os.path.exists(filepath):
+                raise
+            # Windows fallback: stage existing target aside so it is restored if replace fails
+            backup_path = f"{filepath}.bak"
+            os.replace(filepath, backup_path)
+            try:
+                os.replace(tmp_path, filepath)
+            except OSError:
+                if not os.path.exists(filepath) and os.path.exists(backup_path):
+                    os.replace(backup_path, filepath)
+                raise
+            if os.path.exists(backup_path):
+                try:
+                    os.remove(backup_path)
+                except OSError:
+                    pass
+        tmp_path = None
+    finally:
+        if tmp_path and os.path.exists(tmp_path):
+            try:
+                os.remove(tmp_path)
+            except OSError:
+                pass
 
-    Prevents unnecessary mtime updates and git diff noise.
+
+def safe_write_file(filepath: str, new_content: str) -> bool:
+    """Atomically writes content to filepath only if content has changed.
+
+    Prevents unnecessary mtime updates, git diff noise, and partial writes.
     Returns True if file was written/updated, False if skipped.
     """
     if os.path.exists(filepath):
@@ -65,12 +122,10 @@ def safe_write_file(filepath: str, new_content: str) -> bool:
             with open(filepath, "r", encoding="utf-8") as f:
                 if f.read() == new_content:
                     return False
-        except Exception:
+        except (OSError, UnicodeDecodeError):
             pass
 
-    os.makedirs(os.path.dirname(filepath) or ".", exist_ok=True)
-    with open(filepath, "w", encoding="utf-8", newline="\n") as f:
-        f.write(new_content)
+    atomic_write_text(filepath, new_content, encoding="utf-8", newline="\n")
     return True
 
 
@@ -407,6 +462,8 @@ def generate_platform_archive(
 
     # Return latest slice filename for README links
     latest_slice = find_latest_slice(archive_dir, platform_prefix)
+    if not latest_slice and chunk_filenames:
+        latest_slice = chunk_filenames[-1]
     if latest_slice:
         _safe_print(f"  Latest slice: {latest_slice}")
     return latest_slice
@@ -428,40 +485,36 @@ def update_readme_stats(
     if not os.path.exists(readme_path):
         return False
 
-    try:
-        with open(readme_path, "r", encoding="utf-8") as f:
-            content = f.read()
+    with open(readme_path, "r", encoding="utf-8") as f:
+        content = f.read()
 
-        marker_start = "<!-- GOOGLE_DEVELOPER_START -->"
-        marker_end = "<!-- GOOGLE_DEVELOPER_END -->"
+    marker_start = "<!-- GOOGLE_DEVELOPER_START -->"
+    marker_end = "<!-- GOOGLE_DEVELOPER_END -->"
 
-        if marker_start not in content or marker_end not in content:
-            return False
-
-        before = content.split(marker_start)[0]
-        after = content.split(marker_end)[1]
-        middle = content.split(marker_start)[1].split(marker_end)[0]
-
-        lines = middle.split("\n")
-        updated = False
-        for i, line in enumerate(lines):
-            if "Total Milestones & Milestone Badges" in line and "|" in line:
-                lines[i] = (
-                    f"| **Total Milestones & Milestone Badges** | {public_badges:,} |"
-                )
-                updated = True
-            if "Total Codelabs & Learning Activities" in line and "|" in line:
-                lines[i] = (
-                    f"| **Total Codelabs & Learning Activities** | {detailed_learnings:,} |"
-                )
-                updated = True
-
-        if updated:
-            new_middle = "\n".join(lines)
-            new_content = f"{before}{marker_start}{new_middle}{marker_end}{after}"
-            return safe_write_file(readme_path, new_content)
-
+    if marker_start not in content or marker_end not in content:
         return False
-    except Exception as e:
-        print(f"[WARNING] update_readme_stats failed: {e}")
-        return False
+
+    before = content.split(marker_start)[0]
+    after = content.split(marker_end)[1]
+    middle = content.split(marker_start)[1].split(marker_end)[0]
+
+    lines = middle.split("\n")
+    updated = False
+    for i, line in enumerate(lines):
+        if "Total Milestones & Milestone Badges" in line and "|" in line:
+            lines[i] = (
+                f"| **Total Milestones & Milestone Badges** | {public_badges:,} |"
+            )
+            updated = True
+        if "Total Codelabs & Learning Activities" in line and "|" in line:
+            lines[i] = (
+                f"| **Total Codelabs & Learning Activities** | {detailed_learnings:,} |"
+            )
+            updated = True
+
+    if updated:
+        new_middle = "\n".join(lines)
+        new_content = f"{before}{marker_start}{new_middle}{marker_end}{after}"
+        return safe_write_file(readme_path, new_content)
+
+    return False
