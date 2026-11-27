@@ -42,21 +42,31 @@ tests/
 ├── unit/                       # Unit tests for core modules
 │   ├── test_archiver.py
 │   ├── test_build_exclude.py
+│   ├── test_cross_artifact_validator.py
+│   ├── test_cross_artifact_validator_additional.py
 │   ├── test_date_normalization.py
 │   ├── test_loss_guard.py
+│   ├── test_provenance_classification.py
 │   ├── test_pydantic_models.py
 │   ├── test_retired_handling.py
-│   └── test_sanitize_ms_export.py
+│   ├── test_run_link_checker.py
+│   ├── test_run_link_checker_extended.py
+│   ├── test_sanitize_gdev_mhtml.py
+│   ├── test_sanitize_ms_export.py
+│   ├── test_validate_manifest.py
+│   ├── test_validation_summary.py
+│   └── test_verify_assertions.py
 └── integration/                # Integration tests for pipelines
+    ├── test_archive_parsing.py
     ├── test_aws_skills_pipeline.py
     ├── test_credly_pipeline.py
     ├── test_google_developer_pipeline.py
     ├── test_google_skills_pipeline.py
     ├── test_jsonld_generation.py
-    ├── test_llms_generation.py
     ├── test_linkedin_pipeline.py
+    ├── test_llms_generation.py
     ├── test_microsoft_learn_pipeline.py
-    └── test_archive_parsing.py
+    └── test_provider_contracts.py
 ```
 
 ## Fixture Management
@@ -226,9 +236,9 @@ Available builders:
 
 ### Test Isolation
 
-- Each test gets fresh `tmp_path` directory
-- HTTP mocks are per-test via `responses` library
-- Time is frozen to `2024-06-15 12:00:00 UTC` via `freezegun`
+- Each test gets a fresh `tmp_path` directory
+- HTTP mocks are per-test via `responses` (or `MagicMock` on `urllib3.PoolManager` for `verify_assertions.py`)
+- Time is frozen to `2024-06-15 12:00:00 UTC` via `freezegun` (`freeze_time_now` autouse fixture in `tests/conftest.py`). Note: because frozen `time.monotonic()` prevents standard `asyncio.sleep()` from advancing, `verify_assertions.DomainRateLimiter` uses `await asyncio.to_thread(time.sleep, ...)` so async throttling tests can patch `verify_assertions.time.sleep` without hanging
 - Shared modules mocked via `monkeypatch` in fixtures
 
 ## Testing Fingerprint Schemas
@@ -300,14 +310,6 @@ uv run python cross_artifact_validator.py --mode strict
 # Check specific platform
 uv run python cross_artifact_validator.py --mode strict 2>&1 | grep -E "PASS|FAIL.*google-developer"
 ```
-
-### Test Isolation
-
-- Each test gets fresh `tmp_path` directory
-- HTTP mocks are per-test via `responses` library
-- Time is frozen to `2024-06-15 12:00:00 UTC` via `freezegun`
-- Shared modules mocked via `monkeypatch` in 
-
 ## Testing Retirement Metadata Fields
 
 ### Test Coverage for Retirement Metadata
@@ -333,7 +335,9 @@ When adding tests for new retirement metadata fields:
      "retirement_reason": "Source CSV Status=Retired",
      "retired_at": "2026-09-06"
    }
+   ```
 
+```bash
 # Run JSON-LD generation tests
 uv run pytest tests/integration/test_jsonld_generation.py -v
 
@@ -342,6 +346,7 @@ uv run pytest tests/unit/test_retired_handling.py -v
 
 # Run provider contract tests
 uv run pytest tests/integration/test_provider_contracts.py -v
+```
 
 
 ### AWS Skills Retirement Handling Tests (`TestAwsSkillsRetirementHandling`)
@@ -411,4 +416,33 @@ uv run pytest tests/integration/test_aws_skills_pipeline.py::TestAwsSkillsRetire
 
 # Run specific test
 uv run pytest tests/integration/test_aws_skills_pipeline.py::TestAwsSkillsRetirementHandling::test_sync_retired_to_registry_adds_new_entries -v
+```
+
+## Testing Evidence-Aware Provenance & Active Assertion Verification
+
+### Provenance Classification (`tests/unit/test_provenance_classification.py`)
+
+Validates pragmatic evidence classification across `models/provenance.py`, Pydantic models, `generate_jsonld.py`, and `cross_artifact_validator.py`:
+
+- **Evidence & URL Taxonomy**: Verifies `EvidenceLevel` (`issuer_credential`, `issuer_profile`, `platform_activity`, `self_reported`) and `VerificationUrlKind` (`credential_assertion`, `profile_page`, `catalog_page`, `none`) across all 6 platforms and external issuer patterns (Credly, SAP Badger, Skilljar, Accredible, Microsoft Learn Share API, Google Cloud Skills, Cognitive Class, NVIDIA, OPSWAT, Oracle, Tigera).
+- **Precedence Rules**: Ensures `retired=True` always yields `"retired"`, `expired`/`revoked` yields `"expired"`, scraped/API assertions start `"verified"`, unprobed exported assertions (e.g., LinkedIn external certs) start `"unverified"`, and unbacked records are `"unknown"`.
+- **Archive Parser Edge Cases**: Covers deprecated `[Title][[Title](url)]` nested brackets, escaped `\|` table pipes, and plain-text Google Developer URLs.
+
+### Lightweight HTTP Assertion Prober (`tests/unit/test_verify_assertions.py`)
+
+Validates `verify_assertions.py`, the `data/active_verifications.json` TTL cache, and `generate_jsonld.py` integration without making live network calls:
+
+| Test Class | Coverage |
+|---|---|
+| `TestExtractAssertionUrls` | Filters `credentials.jsonld` strictly to `evidenceLevel == "issuer_credential"` and `verificationUrlKind == "credential_assertion"`, deduplicates, ignores non-HTTP(S) or malformed entries |
+| `TestCacheFreshnessAndPersistence` | 30-day TTL boundary checks (`is_cache_entry_fresh`, `is_verified_and_fresh`), UTC/`Z` timestamp parsing, corrupt/missing cache handling, and atomic cache persistence |
+| `TestHttpProbing` | `urllib3.PoolManager` mocks for `HEAD` 200, `HEAD` -> `GET` fallback on `{400, 403, 405, 501}`, 404/network failure recording (`alive: false`), `--retry-failed`, `--limit`, and `DomainRateLimiter` throttling |
+| `TestCliAndJsonLdIntegration` | End-to-end `run_verification` + CLI `main`, and verification that `generate_jsonld.py` elevates non-retired/non-expired `credential_assertion` records to `"verified"` with `lastVerifiedAt` only when `alive == True` within the 30-day TTL |
+
+```bash
+# Run provenance and active verification unit tests (< 2s)
+uv run pytest tests/unit/test_provenance_classification.py tests/unit/test_verify_assertions.py -v
+
+# Dry-run assertion verification against local credentials.jsonld (no network writes to cache)
+uv run python verify_assertions.py --limit 10 --dry-run
 ```
