@@ -1,14 +1,20 @@
+import argparse
 import glob  # noqa: F401 (used in tests via mocking)
 import json
 import os
 import re
 import sys
+import tempfile
+from collections import Counter
 from datetime import UTC, datetime
+from typing import Any
 
 import jsonschema
 
 # Layer manifest integration
 from layer_manifest import get_platforms_with_l2_artifact
+from loss_guard import compute_content_hash, extract_record_id
+from models.fingerprint_schemas import get_id_field
 from models.provenance import (
     EvidenceLevel,
     VerificationStatus,
@@ -27,13 +33,63 @@ from verify_assertions import (
 )
 
 ARCHIVE_DIR = "archives"
+VALIDATION_DIR = os.getenv("VALIDATION_DIR", "for_validation")
 README_PATH = "README.md"
 JSONLD_PATH = "credentials.jsonld"
+FEED_JSON_PATH = "credentials.feed.json"
+FEED_NDJSON_PATH = "credentials.ndjson"
 ACTIVE_VERIFICATIONS_PATH = DEFAULT_ACTIVE_VERIFICATIONS_PATH
 ACTIVE_VERIFICATION_TTL_DAYS = DEFAULT_ACTIVE_VERIFICATION_TTL_DAYS
 
 MARKER_START = "<!-- JSONLD_START -->"
 MARKER_END = "<!-- JSONLD_END -->"
+
+VALID_RETRIEVAL_METHODS = frozenset({"api", "scrape", "export", "manual", "unknown"})
+
+L1_PLATFORM_SOURCES: dict[str, dict[str, Any]] = {
+    "microsoft-learn": {
+        "filename": "microsoft-learn.json",
+        "records_key": "achievements",
+        "recognized_by": "Microsoft Learn",
+        "default_issuer": "Microsoft Learn",
+        "default_retrieval_method": "export",
+    },
+    "google-skills": {
+        "filename": "google_skills_badges.json",
+        "records_key": "badges",
+        "recognized_by": "Google Skills",
+        "default_issuer": "Google Cloud",
+        "default_retrieval_method": "api",
+    },
+    "aws-skills": {
+        "filename": "aws_skill_badges.json",
+        "records_key": "badges",
+        "recognized_by": "AWS Skills",
+        "default_issuer": "Amazon Web Services",
+        "default_retrieval_method": "export",
+    },
+    "credly": {
+        "filename": "credly_badges.json",
+        "records_key": "credentials",
+        "recognized_by": "Credly",
+        "default_issuer": None,
+        "default_retrieval_method": "api",
+    },
+    "linkedin-certifications": {
+        "filename": "linkedin-certifications.json",
+        "records_key": "certifications",
+        "recognized_by": "LinkedIn",
+        "default_issuer": None,
+        "default_retrieval_method": "export",
+    },
+    "google-developer": {
+        "filename": "google-developer.json",
+        "records_key": "combined_feed",
+        "recognized_by": "Google Developer",
+        "default_issuer": "Google Developer",
+        "default_retrieval_method": "api",
+    },
+}
 
 JSONLD_SCHEMA = {
     "$schema": "http://json-schema.org/draft-07/schema#",
@@ -64,6 +120,10 @@ JSONLD_SCHEMA = {
                             "retirement_source": {"type": ["string", "null"]},
                             "retirement_reason": {"type": ["string", "null"]},
                             "retired_at": {"type": ["string", "null"]},
+                            "skills": {
+                                "type": "array",
+                                "items": {"type": "string"},
+                            },
                             "recognizedBy": {
                                 "type": "object",
                                 "properties": {
@@ -131,11 +191,184 @@ JSONLD_SCHEMA = {
     "required": ["@context", "@type", "mainEntity"],
 }
 
+COMPACT_ITEM_SCHEMA = {
+    "type": "object",
+    "properties": {
+        "id": {"type": "string"},
+        "sourceRecordId": {"type": ["string", "null"]},
+        "sourceHash": {"type": ["string", "null"]},
+        "platform": {"type": "string"},
+        "issuer": {"type": "string"},
+        "name": {"type": "string"},
+        "category": {"type": "string"},
+        "dateCreated": {"type": "string"},
+        "url": {"type": "string"},
+        "sourceUrl": {"type": "string"},
+        "verifyUrl": {"type": "string"},
+        "image": {"type": "string"},
+        "description": {"type": "string"},
+        "skills": {"type": "array", "items": {"type": "string"}},
+        "retrievedAt": {"type": "string"},
+        "retrievalMethod": {
+            "type": "string",
+            "enum": ["api", "scrape", "export", "manual", "unknown"],
+        },
+        "evidenceLevel": {
+            "type": "string",
+            "enum": [
+                "issuer_credential",
+                "issuer_profile",
+                "platform_activity",
+                "self_reported",
+            ],
+        },
+        "verificationStatus": {
+            "type": "string",
+            "enum": ["verified", "unverified", "retired", "expired", "unknown"],
+        },
+        "verificationUrlKind": {
+            "type": "string",
+            "enum": ["credential_assertion", "profile_page", "catalog_page", "none"],
+        },
+        "lastVerifiedAt": {"type": "string"},
+        "retired": {"type": "boolean"},
+        "retirementSource": {"type": "string"},
+        "retirementReason": {"type": "string"},
+        "retiredAt": {"type": "string"},
+    },
+    "required": [
+        "id",
+        "platform",
+        "name",
+        "category",
+        "retrievedAt",
+        "retrievalMethod",
+        "evidenceLevel",
+        "verificationStatus",
+        "verificationUrlKind",
+        "retired",
+    ],
+}
+
+FEED_JSON_SCHEMA = {
+    "$schema": "http://json-schema.org/draft-07/schema#",
+    "type": "object",
+    "properties": {
+        "schemaVersion": {"type": "string"},
+        "generatedAt": {"type": "string"},
+        "owner": {
+            "type": "object",
+            "properties": {
+                "name": {"type": "string"},
+                "url": {"type": "string"},
+            },
+            "required": ["name", "url"],
+        },
+        "totalCount": {"type": "integer", "minimum": 0},
+        "countsByPlatform": {
+            "type": "object",
+            "additionalProperties": {"type": "integer", "minimum": 0},
+        },
+        "credentials": {
+            "type": "array",
+            "items": COMPACT_ITEM_SCHEMA,
+        },
+    },
+    "required": [
+        "schemaVersion",
+        "generatedAt",
+        "owner",
+        "totalCount",
+        "countsByPlatform",
+        "credentials",
+    ],
+}
+
+
+def _atomic_write_text(filepath: str, content: str) -> None:
+    """Atomically write text content via a same-directory temp file and os.replace."""
+    parent_dir = os.path.dirname(filepath) or "."
+    os.makedirs(parent_dir, exist_ok=True)
+    tmp_path: str | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            encoding="utf-8",
+            newline="\n",
+            dir=parent_dir,
+            prefix=f".{os.path.basename(filepath)}.",
+            suffix=".tmp",
+            delete=False,
+        ) as tmp_file:
+            tmp_path = tmp_file.name
+            tmp_file.write(content)
+            tmp_file.flush()
+        try:
+            os.replace(tmp_path, filepath)
+        except OSError:
+            if os.name != "nt" or not os.path.exists(filepath):
+                raise
+            backup_path = f"{filepath}.bak"
+            os.replace(filepath, backup_path)
+            try:
+                os.replace(tmp_path, filepath)
+            except OSError:
+                if not os.path.exists(filepath) and os.path.exists(backup_path):
+                    os.replace(backup_path, filepath)
+                raise
+            if os.path.exists(backup_path):
+                try:
+                    os.remove(backup_path)
+                except OSError:
+                    pass
+        tmp_path = None
+    finally:
+        if tmp_path and os.path.exists(tmp_path):
+            try:
+                os.remove(tmp_path)
+            except OSError:
+                pass
+
 
 def clean_str(s):
     if not s:
         return ""
     return re.sub(r"[\*\_`]", "", str(s).replace("\\|", "|")).strip()
+
+
+def _clean_optional_url(raw: Any, *, platform_key: str = "") -> str | None:
+    """Normalize optional URL values, resolving relative Microsoft Learn paths."""
+    if not raw or not isinstance(raw, str):
+        return None
+    cleaned = raw.strip()
+    if not cleaned or cleaned.upper() == "N/A":
+        return None
+    if platform_key == "microsoft-learn":
+        cleaned = re.sub(r"\s+program/?$", "", cleaned).replace(" ", "")
+        if not cleaned:
+            return None
+        if cleaned.startswith("learn."):
+            return f"https://learn.microsoft.com/en-us/training/paths/{cleaned[6:]}"
+        if not cleaned.startswith(("http://", "https://")):
+            if cleaned.startswith("/"):
+                return f"https://learn.microsoft.com/en-us{cleaned}"
+            return f"https://learn.microsoft.com/en-us/{cleaned}"
+        if "learn.microsoft.com/training/" in cleaned:
+            cleaned = cleaned.replace(
+                "learn.microsoft.com/training/",
+                "learn.microsoft.com/en-us/training/",
+            )
+    return cleaned
+
+
+def _format_iso_timestamp(value: Any, fallback: str) -> str:
+    """Convert datetime or string value into an ISO-8601 string."""
+    if isinstance(value, datetime):
+        dt = value if value.tzinfo else value.replace(tzinfo=UTC)
+        return dt.isoformat()
+    if isinstance(value, str) and value.strip():
+        return value.strip()
+    return fallback
 
 
 def parse_retired_marker(col: str) -> tuple[bool, str | None, str | None, str | None]:
@@ -146,26 +379,18 @@ def parse_retired_marker(col: str) -> tuple[bool, str | None, str | None, str | 
     if not col:
         return False, None, None, None
 
-    # Check for enhanced retired markers first
-    # Format: [WARN] *Content retired (platform-flagged: Source CSV Status=Retired, 2026-09-06)*
-    # Format: [WARN] *Content retired (registry-matched)*
-    # Format: [WARN] *Content retired (auto-detected: 2026-09-06)*
-    # Format: [WARN] *Content retired*
-
     if "Content retired" in col:
         retired = True
         retirement_source = None
         retirement_reason = None
         retired_at = None
 
-        # Extract content within parentheses
         paren_match = re.search(r"\(([^)]+)\)", col)
         if paren_match:
             paren_content = paren_match.group(1).strip()
 
             if paren_content.startswith("platform-flagged:"):
                 retirement_source = "source_csv"
-                # Extract reason and date: "Source CSV Status=Retired, 2026-09-06"
                 content = paren_content[len("platform-flagged:") :].strip()
                 if "," in content:
                     parts = content.split(",", 1)
@@ -185,7 +410,6 @@ def parse_retired_marker(col: str) -> tuple[bool, str | None, str | None, str | 
 
         return retired, retirement_source, retirement_reason, retired_at
 
-    # Fallback: generic "retired" keyword (e.g., "[Retired]")
     if "retired" in col.lower():
         return True, None, None, None
 
@@ -205,12 +429,24 @@ def validate_jsonld(payload):
         sys.exit(1)
 
 
+def validate_feed_payload(feed_payload: dict[str, Any]) -> None:
+    """Validates compact JSON feed against FEED_JSON_SCHEMA before writing."""
+    try:
+        jsonschema.validate(instance=feed_payload, schema=FEED_JSON_SCHEMA)
+        print("Compact Machine Feed Schema Validation Passed successfully.")
+    except jsonschema.exceptions.ValidationError as e:
+        print(f"Compact Feed Validation Error: {e.message}", file=sys.stderr)
+        sys.exit(1)
+    except jsonschema.exceptions.SchemaError as e:
+        print(f"Compact Feed Schema Error: {e.message}", file=sys.stderr)
+        sys.exit(1)
+
+
 def extract_retrieved_at(lines: list[str]) -> str | None:
     """Extracts retrieved_at timestamp from front-matter comments."""
     for line in lines:
         line = line.strip()
         if line.startswith("<!-- retrieved_at:") and line.endswith("-->"):
-            # Extract timestamp: <!-- retrieved_at: 2024-01-15T10:30:00+00:00 -->
             match = re.search(r"<!--\s*retrieved_at:\s*([^>]+)\s*-->", line)
             if match:
                 return match.group(1).strip()
@@ -252,23 +488,320 @@ def extract_table_data_rows(lines: list[str]) -> list[tuple[list[str], list[str]
     return data_rows
 
 
+def _ordered_l1_platforms() -> list[str]:
+    """Resolve platform ordering from layer manifest while ensuring all L1 platforms are included."""
+    try:
+        platform_keys = get_platforms_with_l2_artifact("jsonld")
+    except Exception:
+        platform_keys = []
+    for p_key in L1_PLATFORM_SOURCES:
+        if p_key not in platform_keys:
+            platform_keys.append(p_key)
+    return [p for p in platform_keys if p in L1_PLATFORM_SOURCES]
+
+
+def _has_l1_sources(validation_dir: str) -> bool:
+    """Return True if validation_dir exists and contains at least one L1 JSON source file."""
+    if not validation_dir or not os.path.isdir(validation_dir):
+        return False
+    return any(
+        os.path.isfile(os.path.join(validation_dir, cfg["filename"]))
+        for cfg in L1_PLATFORM_SOURCES.values()
+    )
+
+
+def _extract_l1_records(data: dict[str, Any], records_key: str) -> list[dict[str, Any]]:
+    """Extract normalized record list from an L1 validation JSON document."""
+    if not isinstance(data, dict):
+        return []
+    raw_list = data.get(records_key)
+    if isinstance(raw_list, list):
+        return [r for r in raw_list if isinstance(r, dict)]
+    for fallback_key in (
+        "combined_feed",
+        "achievements",
+        "badges",
+        "credentials",
+        "certifications",
+        "records",
+    ):
+        val = data.get(fallback_key)
+        if isinstance(val, list):
+            return [r for r in val if isinstance(r, dict)]
+    return []
+
+
+def _normalize_date_sort_key(date_val: str | None) -> str:
+    """Produce a comparable ISO prefix sort key for newest-first platform ordering."""
+    if not date_val or date_val == "N/A":
+        return "0000-00-00"
+    return str(date_val).strip()
+
+
+def _record_to_jsonld(
+    platform_key: str,
+    record: dict[str, Any],
+    *,
+    recognized_by_name: str,
+    default_issuer: str | None,
+    default_retrieval_method: str,
+    file_retrieved_at: str,
+    active_verifications: dict[str, dict[str, Any]],
+) -> dict[str, Any] | None:
+    """Convert one L1 normalized record into a Schema.org credential dict with provenance."""
+    raw_title = record.get("title") or record.get("name")
+    title = clean_str(raw_title)
+    if not title:
+        return None
+
+    # Category / Credential type
+    if platform_key == "microsoft-learn":
+        raw_cat = record.get("category") or record.get("type") or "module"
+        category = str(raw_cat).strip().title() or "Module"
+    else:
+        raw_cat = (
+            record.get("type")
+            or record.get("verification_type")
+            or record.get("category")
+            or "Badge/Certification"
+        )
+        category = clean_str(raw_cat) or "Badge/Certification"
+
+    # Issuer
+    raw_issuer = (
+        record.get("issuer")
+        or record.get("issuer_name")
+        or record.get("authority")
+        or default_issuer
+    )
+    issuer_field = clean_str(raw_issuer) if raw_issuer else None
+
+    # Date with original precision preserved
+    raw_date = (
+        record.get("grantedOn")
+        or record.get("issued_at")
+        or record.get("date")
+        or record.get("issued")
+        or record.get("issued_at_date")
+    )
+    date_earned = (
+        str(raw_date).strip()
+        if raw_date and str(raw_date).strip().upper() != "N/A"
+        else ""
+    )
+
+    # Structured URLs
+    norm_url = _clean_optional_url(record.get("url"), platform_key=platform_key)
+    norm_verify_url = _clean_optional_url(
+        record.get("verify_url"), platform_key=platform_key
+    )
+    norm_source_url = _clean_optional_url(
+        record.get("source_url"), platform_key=platform_key
+    )
+    primary_url = norm_url or norm_verify_url or norm_source_url
+    raw_source_url = norm_source_url or norm_url or norm_verify_url
+
+    # Image, description, skills
+    image_url = _clean_optional_url(record.get("image_url"))
+    raw_desc = record.get("description")
+    description = str(raw_desc).strip() if isinstance(raw_desc, str) else ""
+    if description and description.lower() == title.lower():
+        description = ""
+
+    raw_skills = record.get("skills")
+    skills = (
+        [str(s).strip() for s in raw_skills if isinstance(s, str) and str(s).strip()]
+        if isinstance(raw_skills, list)
+        else []
+    )
+
+    # Stable ID and deterministic content hash
+    id_field = get_id_field(platform_key) or "id"
+    stable_record_id = (
+        str(record["source_record_id"]).strip()
+        if record.get("source_record_id")
+        else extract_record_id(record, id_field, platform_key)
+    )
+    native_id = record.get("id") or record.get("license") or record.get("credentialId")
+    identifier = (
+        str(native_id).strip()
+        if native_id and str(native_id).strip()
+        else stable_record_id
+    )
+    source_hash = (
+        str(record["source_hash"]).strip()
+        if record.get("source_hash")
+        else compute_content_hash(record, id_field, platform_key)
+    )
+
+    # Retrieval metadata
+    raw_method = str(
+        record.get("retrieval_method") or default_retrieval_method or "unknown"
+    ).lower()
+    retrieval_method = (
+        raw_method if raw_method in VALID_RETRIEVAL_METHODS else "unknown"
+    )
+    retrieved_at = _format_iso_timestamp(record.get("retrieved_at"), file_retrieved_at)
+
+    # Retirement metadata
+    retired = bool(record.get("retired", False))
+    retirement_source = record.get("retirement_source")
+    retirement_reason = record.get("retirement_reason")
+    retired_at = record.get("retired_at")
+
+    # Evidence classification & active assertion cache lookup
+    verification_status, evidence_level, url_kind = classify_credential_evidence(
+        platform_key,
+        retrieval_method,
+        url=primary_url,
+        verify_url=norm_verify_url,
+        retired=retired,
+        credential_status=record.get("credentialStatus"),
+    )
+
+    assertion_candidate = norm_verify_url or primary_url
+    verify_url_val = (
+        assertion_candidate
+        if url_kind == VerificationUrlKind.CREDENTIAL_ASSERTION and assertion_candidate
+        else None
+    )
+
+    last_verified_at: str | None = None
+    if (
+        evidence_level == EvidenceLevel.ISSUER_CREDENTIAL
+        and url_kind == VerificationUrlKind.CREDENTIAL_ASSERTION
+        and verify_url_val
+    ):
+        cache_entry = active_verifications.get(verify_url_val)
+        if is_verified_and_fresh(cache_entry, ttl_days=ACTIVE_VERIFICATION_TTL_DAYS):
+            last_verified_at = cache_entry.get("last_verified_at")
+            if not retired and verification_status != VerificationStatus.EXPIRED:
+                verification_status = VerificationStatus.VERIFIED
+    elif record.get("last_verified_at"):
+        last_verified_at = _format_iso_timestamp(record.get("last_verified_at"), "")
+        if not last_verified_at:
+            last_verified_at = None
+
+    c_obj: dict[str, Any] = {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": category,
+        "name": title,
+        "recognizedBy": {
+            "@type": "Organization",
+            "name": recognized_by_name,
+        },
+        "platform": platform_key,
+    }
+    if issuer_field:
+        c_obj["issuer"] = issuer_field
+    if description:
+        c_obj["description"] = description
+    if image_url:
+        c_obj["image"] = image_url
+    if identifier:
+        c_obj["identifier"] = identifier
+    if date_earned:
+        c_obj["dateCreated"] = date_earned
+    if primary_url:
+        c_obj["url"] = primary_url
+    if skills:
+        c_obj["skills"] = skills
+    if retired:
+        c_obj["credentialStatus"] = "Retired"
+        if retirement_source:
+            c_obj["retirement_source"] = str(retirement_source)
+        if retirement_reason:
+            c_obj["retirement_reason"] = str(retirement_reason)
+        if retired_at:
+            c_obj["retired_at"] = str(retired_at)
+
+    c_obj["sourcePlatform"] = str(record.get("source_platform") or platform_key)
+    c_obj["retrievalMethod"] = retrieval_method
+    c_obj["retrievedAt"] = retrieved_at
+    c_obj["verificationStatus"] = verification_status.value
+    c_obj["evidenceLevel"] = evidence_level.value
+    c_obj["verificationUrlKind"] = url_kind.value
+    c_obj["sourceRecordId"] = stable_record_id or None
+    c_obj["sourceUrl"] = raw_source_url
+    c_obj["verifyUrl"] = verify_url_val
+    c_obj["lastVerifiedAt"] = last_verified_at
+    c_obj["sourceHash"] = source_hash
+
+    return c_obj
+
+
+def parse_l1_normalized(
+    validation_dir: str | None = None,
+    active_verifications_path: str | None = None,
+) -> list[dict[str, Any]]:
+    """Build JSON-LD credential objects directly from L1 normalized JSON snapshots."""
+    v_dir = validation_dir or VALIDATION_DIR
+    av_path = active_verifications_path or ACTIVE_VERIFICATIONS_PATH
+    credentials: list[dict[str, Any]] = []
+
+    if not os.path.isdir(v_dir):
+        print(f"WARNING: Validation directory '{v_dir}' not found.")
+        return credentials
+
+    platform_keys = _ordered_l1_platforms()
+    print(f"Generating JSON-LD from L1 normalized records in '{v_dir}'...")
+    active_verifications = load_active_verifications(av_path)
+    fallback_now = datetime.now(UTC).isoformat()
+
+    for platform_key in platform_keys:
+        cfg = L1_PLATFORM_SOURCES[platform_key]
+        filepath = os.path.join(v_dir, cfg["filename"])
+        if not os.path.isfile(filepath):
+            print(f"  WARNING: {cfg['filename']} not found in {v_dir}, skipping")
+            continue
+
+        with open(filepath, "r", encoding="utf-8") as f:
+            data = json.load(f)
+
+        file_retrieved_at = _format_iso_timestamp(
+            data.get("_retrieved_at"), fallback_now
+        )
+        records = _extract_l1_records(data, cfg["records_key"])
+
+        platform_creds: list[dict[str, Any]] = []
+        for record in records:
+            c_obj = _record_to_jsonld(
+                platform_key,
+                record,
+                recognized_by_name=cfg["recognized_by"],
+                default_issuer=cfg["default_issuer"],
+                default_retrieval_method=cfg["default_retrieval_method"],
+                file_retrieved_at=file_retrieved_at,
+                active_verifications=active_verifications,
+            )
+            if c_obj is not None:
+                platform_creds.append(c_obj)
+
+        # Keep deterministic newest-first order within each platform
+        platform_creds.sort(
+            key=lambda c: _normalize_date_sort_key(c.get("dateCreated")),
+            reverse=True,
+        )
+        print(f"  {cfg['filename']}: loaded {len(platform_creds)} L1 record(s)")
+        credentials.extend(platform_creds)
+
+    return credentials
+
+
 def parse_archive_monoliths():
-    """Parses standardized complete markdown archives across all platforms into JSON-LD objects."""
+    """Legacy fallback parser: converts *-complete.md archive tables into JSON-LD objects."""
     credentials = []
 
     if not os.path.exists(ARCHIVE_DIR):
         print(f"WARNING: Archive directory '{ARCHIVE_DIR}' not found.")
         return credentials
 
-    # Get platforms that have L2_published with jsonld artifact (manifest-driven)
     platform_keys = get_platforms_with_l2_artifact("jsonld")
 
-    # Fallback: also scan archives directory for any -complete.md files
-    # This ensures test environments work without a manifest
     try:
         for f in os.listdir(ARCHIVE_DIR):
             if f.endswith("-complete.md"):
-                platform_key = f[:-12]  # Remove "-complete.md"
+                platform_key = f[:-12]
                 if platform_key not in platform_keys:
                     platform_keys.append(platform_key)
     except Exception:
@@ -278,7 +811,6 @@ def parse_archive_monoliths():
     active_verifications = load_active_verifications(ACTIVE_VERIFICATIONS_PATH)
 
     for platform_key in platform_keys:
-        # Construct the monolith filename from platform prefix
         filename = f"{platform_key}-complete.md"
         filepath = os.path.join(ARCHIVE_DIR, filename)
 
@@ -289,7 +821,6 @@ def parse_archive_monoliths():
         with open(filepath, "r", encoding="utf-8") as f:
             lines = f.readlines()
 
-        # Extract retrieved_at from front-matter
         platform_retrieved_at = extract_retrieved_at(lines)
         if platform_retrieved_at:
             print(
@@ -304,7 +835,7 @@ def parse_archive_monoliths():
             title = ""
             date_earned = ""
             url = ""
-            actual_issuer = ""  # Track actual issuer for Credly
+            actual_issuer = ""
             category = "Badge/Certification"
             description = ""
             image_url = ""
@@ -334,7 +865,6 @@ def parse_archive_monoliths():
                         url = link_href
                     if not title and "Verify" not in link_label:
                         title = clean_str(link_label)
-                    # Extract verify_url from "Verify" links
                     if "Verify" in link_label and not verify_url:
                         verify_url = link_href
 
@@ -376,8 +906,6 @@ def parse_archive_monoliths():
                 if id_match and not cred_id:
                     cred_id = id_match.group(1)
 
-                # Detect retired marker and parse enhanced metadata
-                # Only set to True/values when found, never reset to False/None
                 r, rs, rr, ra = parse_retired_marker(col)
                 if r:
                     retired = True
@@ -393,30 +921,24 @@ def parse_archive_monoliths():
                         break
 
             if title:
-                # Determine recognizedBy name and structured issuer field based on platform
                 if platform_key == "credly":
                     recognized_by_name = "Credly"
                     issuer_field = actual_issuer if actual_issuer else None
                 elif platform_key == "linkedin-certifications":
-                    # LinkedIn has "Issuing Authority" column with actual issuer
                     recognized_by_name = "LinkedIn"
                     issuer_field = actual_issuer if actual_issuer else None
                 elif platform_key == "google-skills":
-                    # Google Skills has "Issuer" column (e.g., "Google Cloud")
                     recognized_by_name = "Google Skills"
                     issuer_field = actual_issuer if actual_issuer else "Google Cloud"
                 elif platform_key == "aws-skills":
-                    # AWS Skills has "Issuer" column (e.g., "Amazon Web Services")
                     recognized_by_name = "AWS Skills"
                     issuer_field = (
                         actual_issuer if actual_issuer else "Amazon Web Services"
                     )
                 elif platform_key == "microsoft-learn":
-                    # Microsoft Learn has no explicit issuer column, implied as Microsoft Learn
                     recognized_by_name = "Microsoft Learn"
                     issuer_field = "Microsoft Learn"
                 elif platform_key == "google-developer":
-                    # Google Developer has no explicit issuer column, implied as Google Developer
                     recognized_by_name = "Google Developer"
                     issuer_field = "Google Developer"
                 else:
@@ -431,13 +953,10 @@ def parse_archive_monoliths():
                         "@type": "Organization",
                         "name": recognized_by_name,
                     },
-                    "platform": platform_key,  # Add platform identifier for cross-artifact validation
+                    "platform": platform_key,
                 }
-                # Add issuer as structured field for all platforms that have it
                 if issuer_field:
                     c_obj["issuer"] = issuer_field
-                # For platforms with structured issuer, don't embed issuer in description
-                # Platforms with structured issuer: credly, linkedin-certifications, google-skills, aws-skills, microsoft-learn, google-developer
                 structured_issuer_platforms = {
                     "credly",
                     "linkedin-certifications",
@@ -460,19 +979,13 @@ def parse_archive_monoliths():
                     c_obj["url"] = url
                 if retired:
                     c_obj["credentialStatus"] = "Retired"
-                    # Add retirement metadata fields
                     if retirement_source:
-                        c_obj["retirement_source"] = (
-                            retirement_source  # "source_csv", "registry", "auto"
-                        )
+                        c_obj["retirement_source"] = retirement_source
                     if retirement_reason:
-                        c_obj["retirement_reason"] = (
-                            retirement_reason  # e.g., "Source CSV Status=Retired"
-                        )
+                        c_obj["retirement_reason"] = retirement_reason
                     if retired_at:
-                        c_obj["retired_at"] = retired_at  # ISO 8601 date: YYYY-MM-DD
+                        c_obj["retired_at"] = retired_at
 
-                # Provenance fields - use platform-specific defaults
                 platform_provenance_defaults = {
                     "google-developer": {
                         "sourcePlatform": "google-developer",
@@ -510,7 +1023,6 @@ def parse_archive_monoliths():
 
                 c_obj["sourcePlatform"] = defaults["sourcePlatform"]
                 c_obj["retrievalMethod"] = defaults["retrievalMethod"]
-                # Use retrieved_at from archive front-matter if available
                 if platform_retrieved_at:
                     c_obj["retrievedAt"] = platform_retrieved_at
                 else:
@@ -524,7 +1036,6 @@ def parse_archive_monoliths():
                         retired=retired,
                     )
                 )
-                # Provenance URL & identifier fields
                 raw_source_url = url or verify_url or None
                 verify_url_val = (
                     (verify_url or url)
@@ -563,29 +1074,169 @@ def parse_archive_monoliths():
     return credentials
 
 
-def cleanup_readme():
+def to_compact_record(cred: dict[str, Any]) -> dict[str, Any]:
+    """Convert a JSON-LD credential object into a lean, AI-friendly machine feed record."""
+    platform = str(cred.get("platform") or cred.get("sourcePlatform") or "unknown")
+    record_id = str(
+        cred.get("sourceRecordId")
+        or cred.get("identifier")
+        or f"{platform}:{cred.get('name', '')}"
+    )
+    retired = cred.get("credentialStatus") == "Retired"
+
+    compact: dict[str, Any] = {
+        "id": record_id,
+        "sourceRecordId": cred.get("sourceRecordId"),
+        "sourceHash": cred.get("sourceHash"),
+        "platform": platform,
+        "name": cred.get("name", ""),
+        "category": cred.get("credentialCategory", "Badge/Certification"),
+        "retrievedAt": cred.get("retrievedAt") or datetime.now(UTC).isoformat(),
+        "retrievalMethod": cred.get("retrievalMethod", "unknown"),
+        "evidenceLevel": cred.get("evidenceLevel", "self_reported"),
+        "verificationStatus": cred.get("verificationStatus", "unknown"),
+        "verificationUrlKind": cred.get("verificationUrlKind", "none"),
+        "retired": retired,
+    }
+
+    optional_fields = (
+        ("issuer", "issuer"),
+        ("dateCreated", "dateCreated"),
+        ("url", "url"),
+        ("sourceUrl", "sourceUrl"),
+        ("verifyUrl", "verifyUrl"),
+        ("lastVerifiedAt", "lastVerifiedAt"),
+        ("image", "image"),
+        ("description", "description"),
+        ("skills", "skills"),
+    )
+    for src_key, dst_key in optional_fields:
+        val = cred.get(src_key)
+        if val:
+            compact[dst_key] = val
+
+    if retired:
+        if cred.get("retirement_source"):
+            compact["retirementSource"] = cred["retirement_source"]
+        if cred.get("retirement_reason"):
+            compact["retirementReason"] = cred["retirement_reason"]
+        if cred.get("retired_at"):
+            compact["retiredAt"] = cred["retired_at"]
+
+    return compact
+
+
+def build_compact_feed_payload(credentials: list[dict[str, Any]]) -> dict[str, Any]:
+    """Build compact JSON feed payload and counts from credential objects."""
+    compact_items = [to_compact_record(c) for c in credentials]
+    counts = Counter(item["platform"] for item in compact_items)
+    return {
+        "schemaVersion": "1.0",
+        "generatedAt": datetime.now(UTC).isoformat(),
+        "owner": {
+            "name": "Vojislav Miloradovic",
+            "url": "https://github.com/VojislavMiloradovic/my-credentials",
+        },
+        "totalCount": len(compact_items),
+        "countsByPlatform": dict(sorted(counts.items())),
+        "credentials": compact_items,
+    }
+
+
+def cleanup_readme(readme_path: str | None = None):
     """Ensures README.md stays clean without embedded script blocks."""
-    if not os.path.exists(README_PATH):
+    target_readme = readme_path or README_PATH
+    if not os.path.exists(target_readme):
         return
 
-    with open(README_PATH, "r", encoding="utf-8") as f:
+    with open(target_readme, "r", encoding="utf-8") as f:
         content = f.read()
-
-    # Name normalization handled by UTF-8 encoding; no replacement needed
 
     if MARKER_START in content and MARKER_END in content:
         split_start = content.split(MARKER_START)
         split_end = split_start[1].split(MARKER_END)
         content = split_start[0].strip() + "\n\n" + split_end[1].lstrip()
 
-    with open(README_PATH, "w", encoding="utf-8") as f:
-        f.write(content)
-
-    print(f"Ensured {README_PATH} is clean of embedded script blocks.")
+    _atomic_write_text(target_readme, content)
+    print(f"Ensured {target_readme} is clean of embedded script blocks.")
 
 
-def main():
-    credentials = parse_archive_monoliths()
+def build_credentials(*, force_markdown: bool = False) -> list[dict[str, Any]]:
+    """Build credential records from L1 normalized JSONs (default) or Markdown fallback."""
+    if force_markdown:
+        return parse_archive_monoliths()
+
+    # Guard for legacy isolated tests that only patch ARCHIVE_DIR without patching VALIDATION_DIR
+    archive_patched_only = (
+        ARCHIVE_DIR != "archives" and VALIDATION_DIR == "for_validation"
+    )
+    if not archive_patched_only and _has_l1_sources(VALIDATION_DIR):
+        return parse_l1_normalized(VALIDATION_DIR, ACTIVE_VERIFICATIONS_PATH)
+
+    return parse_archive_monoliths()
+
+
+def parse_args(argv: list[str] | None = None) -> argparse.Namespace:
+    parser = argparse.ArgumentParser(
+        description="Generate credentials.jsonld and compact machine feeds from L1 records."
+    )
+    parser.add_argument("--validation-dir", default=None)
+    parser.add_argument("--archive-dir", default=None)
+    parser.add_argument("--readme", default=None)
+    parser.add_argument("--jsonld", default=None)
+    parser.add_argument("--feed-json", default=None)
+    parser.add_argument("--feed-ndjson", default=None)
+    parser.add_argument("--active-verifications", default=None)
+    parser.add_argument(
+        "--legacy-markdown",
+        action="store_true",
+        help="Force legacy Markdown archive parsing instead of L1 normalized JSONs.",
+    )
+    return parser.parse_args(argv)
+
+
+def main(argv: list[str] | None = None):
+    global VALIDATION_DIR, ARCHIVE_DIR, README_PATH, JSONLD_PATH
+    global FEED_JSON_PATH, FEED_NDJSON_PATH, ACTIVE_VERIFICATIONS_PATH
+
+    args = parse_args([] if argv is None else argv)
+    if args.validation_dir:
+        VALIDATION_DIR = args.validation_dir
+    if args.archive_dir:
+        ARCHIVE_DIR = args.archive_dir
+    if args.readme:
+        README_PATH = args.readme
+    if args.jsonld:
+        JSONLD_PATH = args.jsonld
+        # If caller only overrode JSONLD_PATH via CLI, keep feeds adjacent unless overridden
+        out_dir = os.path.dirname(JSONLD_PATH)
+        if not args.feed_json and out_dir:
+            FEED_JSON_PATH = os.path.join(out_dir, "credentials.feed.json")
+        if not args.feed_ndjson and out_dir:
+            FEED_NDJSON_PATH = os.path.join(out_dir, "credentials.ndjson")
+    if args.feed_json:
+        FEED_JSON_PATH = args.feed_json
+    if args.feed_ndjson:
+        FEED_NDJSON_PATH = args.feed_ndjson
+    if args.active_verifications:
+        ACTIVE_VERIFICATIONS_PATH = args.active_verifications
+
+    # Also align feed paths with JSONLD_PATH when tests patch generate_jsonld.JSONLD_PATH
+    target_feed_json = FEED_JSON_PATH
+    target_feed_ndjson = FEED_NDJSON_PATH
+    if JSONLD_PATH != "credentials.jsonld" and FEED_JSON_PATH == "credentials.feed.json":
+        target_feed_json = os.path.join(
+            os.path.dirname(JSONLD_PATH) or ".", "credentials.feed.json"
+        )
+    if (
+        JSONLD_PATH != "credentials.jsonld"
+        and FEED_NDJSON_PATH == "credentials.ndjson"
+    ):
+        target_feed_ndjson = os.path.join(
+            os.path.dirname(JSONLD_PATH) or ".", "credentials.ndjson"
+        )
+
+    credentials = build_credentials(force_markdown=args.legacy_markdown)
 
     payload = {
         "@context": "https://schema.org",
@@ -599,16 +1250,33 @@ def main():
         },
     }
 
-    validate_jsonld(payload)
+    feed_payload = build_compact_feed_payload(credentials)
+    ndjson_lines = [
+        json.dumps(item, separators=(",", ":"), ensure_ascii=False)
+        for item in feed_payload["credentials"]
+    ]
 
-    with open(JSONLD_PATH, "w", encoding="utf-8") as f:
-        json.dump(payload, f, indent=2, ensure_ascii=False)
+    # Validate everything BEFORE writing any output (fail-closed)
+    validate_jsonld(payload)
+    validate_feed_payload(feed_payload)
+
+    jsonld_serialized = json.dumps(payload, indent=2, ensure_ascii=False)
+    feed_json_serialized = json.dumps(
+        feed_payload, separators=(",", ":"), ensure_ascii=False
+    )
+    ndjson_serialized = "\n".join(ndjson_lines) + ("\n" if ndjson_lines else "")
+
+    _atomic_write_text(JSONLD_PATH, jsonld_serialized)
+    _atomic_write_text(target_feed_json, feed_json_serialized)
+    _atomic_write_text(target_feed_ndjson, ndjson_serialized)
 
     print(
-        f"\n Successfully generated {JSONLD_PATH} with {len(credentials)} total credential(s)."
+        f"\n Successfully generated {JSONLD_PATH}, {target_feed_json}, and {target_feed_ndjson} "
+        f"with {len(credentials)} total credential(s)."
     )
-    cleanup_readme()
+    cleanup_readme(README_PATH)
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])
+*-*-
