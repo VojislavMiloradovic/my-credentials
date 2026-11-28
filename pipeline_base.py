@@ -643,6 +643,26 @@ class PipelineBase:
             return "0000-00-00"
         return date
 
+    def _enrich_record_list_provenance(self, records: list[dict]) -> None:
+        """Ensure L1 records carry non-null source_platform, source_record_id, and source_hash."""
+        from models.fingerprint_schemas import get_id_field
+
+        effective_id_field = get_id_field(self.PLATFORM_NAME) or self.ID_FIELD
+        for record in records:
+            if not isinstance(record, dict):
+                continue
+            if not record.get("source_platform"):
+                record["source_platform"] = self.PLATFORM_NAME
+            if not record.get("source_record_id"):
+                record_id = loss_guard.extract_record_id(
+                    record, effective_id_field, self.PLATFORM_NAME
+                )
+                if record_id:
+                    record["source_record_id"] = record_id
+            record["source_hash"] = loss_guard.compute_content_hash(
+                record, effective_id_field, self.PLATFORM_NAME
+            )
+
     def persist_validation(self, records):
         """Persist validated data with layer metadata."""
         # Fix 3: Contamination detection - fail if record count is suspiciously low
@@ -666,6 +686,12 @@ class PipelineBase:
                     f"Contamination detected: {len(records)} records < {min_expected} minimum "
                     f"for {self.PLATFORM_NAME}. Check for test data leakage."
                 )
+        self._enrich_record_list_provenance(records)
+        for stream_attr in ("_public_badges", "_detailed_learnings"):
+            stream_records = getattr(self, stream_attr, None)
+            if isinstance(stream_records, list):
+                self._enrich_record_list_provenance(stream_records)
+
         validation_dir = self._effective_validation_dir()
         os.makedirs(validation_dir, exist_ok=True)
         validation_file = os.path.join(validation_dir, f"{self.PLATFORM_NAME}.json")
