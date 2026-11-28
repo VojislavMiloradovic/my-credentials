@@ -27,12 +27,15 @@ import logging
 import os
 import re
 import sys
+from collections import Counter
 from dataclasses import dataclass
 from datetime import UTC, datetime
 from typing import Any
 
 # Layer manifest integration
 from layer_manifest import LayerManifest, get_artifact_layer_mapping, load_manifest
+from loss_guard import compute_content_hash
+from models.fingerprint_schemas import get_id_field
 
 # Logging Setup
 logging.basicConfig(
@@ -46,9 +49,38 @@ logger = logging.getLogger("cross_artifact_validator")
 ARCHIVE_DIR = "archives"
 README_PATH = "README.md"
 JSONLD_PATH = "credentials.jsonld"
+FEED_JSON_PATH = "credentials.feed.json"
+FEED_NDJSON_PATH = "credentials.ndjson"
 LLMS_PATH = "llms.txt"
 LLMS_FULL_PATH = "llms-full.txt"
 VALIDATION_DIR = "for_validation"
+
+L1_SOURCE_FILES: dict[str, tuple[str, str]] = {
+    "microsoft-learn": ("microsoft-learn.json", "achievements"),
+    "google-skills": ("google_skills_badges.json", "badges"),
+    "aws-skills": ("aws_skill_badges.json", "badges"),
+    "credly": ("credly_badges.json", "credentials"),
+    "linkedin-certifications": ("linkedin-certifications.json", "certifications"),
+    "google-developer": ("google-developer.json", "combined_feed"),
+}
+
+
+def _parse_comparable_dt(value: Any) -> datetime | None:
+    """Parse ISO-8601 date/datetime into timezone-aware UTC datetime for safe comparison."""
+    if not value:
+        return None
+    raw = str(value).strip()
+    if not raw or raw.upper() == "N/A":
+        return None
+    if raw.endswith("Z"):
+        raw = raw[:-1] + "+00:00"
+    try:
+        dt = datetime.fromisoformat(raw)
+    except (ValueError, TypeError):
+        return None
+    if dt.tzinfo is None:
+        return dt.replace(tzinfo=UTC)
+    return dt.astimezone(UTC)
 
 # Map platform keys to validation file names (they don't always match platform_key + *.json)
 VALIDATION_FILES = {
@@ -340,12 +372,9 @@ class CrossArtifactValidator:
                                 or record.get("earned_at")
                             )
                             if date_str:
-                                try:
-                                    dt = datetime.fromisoformat(str(date_str))
-                                    if latest_date is None or dt > latest_date:
-                                        latest_date = dt
-                                except (ValueError, TypeError):
-                                    pass
+                                dt = _parse_comparable_dt(date_str)
+                                if dt and (latest_date is None or dt > latest_date):
+                                    latest_date = dt
 
                     # Extract L1_normalized records based on manifest
                     # Priority: combined_feed (deduplicated) > output_records > sum of output_streams
@@ -463,12 +492,9 @@ class CrossArtifactValidator:
                         # Extract date
                         date_match = re.search(r"\b(20\d{2}-\d{2}(-\d{2})?)\b", line)
                         if date_match:
-                            try:
-                                dt = datetime.fromisoformat(date_match.group(1))
-                                if latest_date is None or dt > latest_date:
-                                    latest_date = dt
-                            except ValueError:
-                                pass
+                            dt = _parse_comparable_dt(date_match.group(1))
+                            if dt and (latest_date is None or dt > latest_date):
+                                latest_date = dt
 
             counts.archive_complete_records = table_rows
             counts.retired_in_archive = retired_count
@@ -641,15 +667,12 @@ class CrossArtifactValidator:
 
                     date_str = cred.get("dateCreated")
                     if date_str:
-                        try:
-                            dt = datetime.fromisoformat(date_str)
-                            if (
-                                platform_latest[platform_key] is None
-                                or dt > platform_latest[platform_key]
-                            ):
-                                platform_latest[platform_key] = dt
-                        except ValueError:
-                            pass
+                        dt = _parse_comparable_dt(date_str)
+                        if dt and (
+                            platform_latest[platform_key] is None
+                            or dt > platform_latest[platform_key]
+                        ):
+                            platform_latest[platform_key] = dt
 
             for platform_key in PLATFORMS:
                 counts = self.platform_data.setdefault(
@@ -674,6 +697,53 @@ class CrossArtifactValidator:
                     )
                 )
 
+                plat_creds = [
+                    c
+                    for c in credentials
+                    if (
+                        c.get("platform")
+                        or self._infer_platform(
+                            c.get("recognizedBy", {}).get("name", "")
+                        )
+                    )
+                    == platform_key
+                ]
+                if plat_creds:
+                    missing_ids = sum(
+                        1 for c in plat_creds if not c.get("sourceRecordId")
+                    )
+                    missing_hashes = sum(
+                        1 for c in plat_creds if not c.get("sourceHash")
+                    )
+                    self.add_result(
+                        ValidationResult(
+                            check_name="jsonld_provenance_ids_and_hashes",
+                            platform=platform_key,
+                            passed=(missing_ids == 0 and missing_hashes == 0),
+                            expected="0 missing sourceRecordId/sourceHash",
+                            actual=f"missing_id={missing_ids}, missing_hash={missing_hashes}",
+                            message=(
+                                "All JSON-LD records carry non-null sourceRecordId and sourceHash"
+                                if (missing_ids == 0 and missing_hashes == 0)
+                                else f"JSON-LD provenance missing sourceRecordId ({missing_ids}) or sourceHash ({missing_hashes})"
+                            ),
+                            severity="error" if not self.warn_mode else "warning",
+                        )
+                    )
+
+            # Validate companion compact machine feeds and L1 -> JSON-LD sourceHash parity
+            if self._should_check_companion(
+                JSONLD_PATH, "credentials.jsonld", FEED_JSON_PATH, "credentials.feed.json"
+            ) or self._should_check_companion(
+                JSONLD_PATH, "credentials.jsonld", FEED_NDJSON_PATH, "credentials.ndjson"
+            ):
+                self._validate_machine_feeds(credentials)
+
+            if self._should_check_companion(
+                JSONLD_PATH, "credentials.jsonld", VALIDATION_DIR, "for_validation"
+            ):
+                self._validate_l1_jsonld_parity(credentials)
+
         except json.JSONDecodeError as e:
             self.add_result(
                 ValidationResult(
@@ -683,6 +753,342 @@ class CrossArtifactValidator:
                     expected="valid JSON",
                     actual=f"parse error: {e}",
                     message="JSON-LD is not valid JSON",
+                )
+            )
+
+    @staticmethod
+    def _infer_platform(issuer_name: str) -> str:
+        """Infer platform key from recognizedBy organization name."""
+        issuer = (issuer_name or "").lower()
+        if "microsoft" in issuer or "learn" in issuer:
+            return "microsoft-learn"
+        if "google cloud" in issuer or "google skills" in issuer:
+            return "google-skills"
+        if "amazon web services" in issuer or "aws" in issuer:
+            return "aws-skills"
+        if "credly" in issuer:
+            return "credly"
+        if "linkedin" in issuer:
+            return "linkedin-certifications"
+        if "google developer" in issuer:
+            return "google-developer"
+        return ""
+
+    @staticmethod
+    def _resolve_companion_path(
+        primary_path: str, configured_path: str, default_name: str
+    ) -> str:
+        """Resolve sibling companion path when tests override only the primary path."""
+        if configured_path != default_name:
+            return configured_path
+        if primary_path != os.path.basename(primary_path):
+            return os.path.join(os.path.dirname(primary_path) or ".", default_name)
+        return configured_path
+
+    @staticmethod
+    def _should_check_companion(
+        primary_path: str,
+        primary_default: str,
+        companion_path: str,
+        companion_default: str,
+    ) -> bool:
+        """Check companions in real/staged runs or when explicitly overridden/colocated in tests."""
+        if primary_path == primary_default:
+            return True
+        if companion_path != companion_default:
+            return True
+        sibling = os.path.join(
+            os.path.dirname(primary_path) or ".", os.path.basename(companion_default)
+        )
+        return os.path.exists(sibling)
+
+    def _validate_machine_feeds(self, jsonld_credentials: list[dict[str, Any]]) -> None:
+        """Validate credentials.feed.json and credentials.ndjson parity with JSON-LD."""
+        severity = "error" if not self.warn_mode else "warning"
+        expected_total = len(jsonld_credentials)
+        expected_by_platform = Counter(
+            str(
+                c.get("platform")
+                or self._infer_platform(c.get("recognizedBy", {}).get("name", ""))
+                or "unknown"
+            )
+            for c in jsonld_credentials
+        )
+        expected_identity = Counter(
+            (
+                str(c.get("platform") or ""),
+                str(c.get("sourceRecordId") or ""),
+                str(c.get("sourceHash") or ""),
+            )
+            for c in jsonld_credentials
+        )
+
+        feed_json_path = self._resolve_companion_path(
+            JSONLD_PATH, FEED_JSON_PATH, "credentials.feed.json"
+        )
+        feed_ndjson_path = self._resolve_companion_path(
+            JSONLD_PATH, FEED_NDJSON_PATH, "credentials.ndjson"
+        )
+
+        # 1. Validate credentials.feed.json
+        feed_content = self._read_file_safe(feed_json_path)
+        if feed_content is None:
+            self.add_result(
+                ValidationResult(
+                    check_name="feed_json_exists",
+                    platform=None,
+                    passed=False,
+                    expected="file exists",
+                    actual="missing",
+                    message=f"Compact JSON feed missing: {feed_json_path}",
+                    severity=severity,
+                )
+            )
+        else:
+            try:
+                feed_data = json.loads(feed_content)
+                feed_creds = (
+                    feed_data.get("credentials", [])
+                    if isinstance(feed_data, dict)
+                    else []
+                )
+                declared_total = (
+                    feed_data.get("totalCount") if isinstance(feed_data, dict) else None
+                )
+                counts_ok = (
+                    isinstance(feed_data, dict)
+                    and isinstance(feed_creds, list)
+                    and declared_total == expected_total
+                    and len(feed_creds) == expected_total
+                )
+                self.add_result(
+                    ValidationResult(
+                        check_name="feed_json_count_parity",
+                        platform=None,
+                        passed=counts_ok,
+                        expected=expected_total,
+                        actual=f"totalCount={declared_total}, items={len(feed_creds) if isinstance(feed_creds, list) else 'invalid'}",
+                        message=f"credentials.feed.json matches JSON-LD count ({expected_total})",
+                        severity=severity,
+                    )
+                )
+
+                declared_plat = (
+                    feed_data.get("countsByPlatform", {})
+                    if isinstance(feed_data, dict)
+                    else {}
+                )
+                actual_feed_plat = Counter(
+                    str(item.get("platform") or "unknown")
+                    for item in feed_creds
+                    if isinstance(item, dict)
+                )
+                plat_ok = (
+                    dict(declared_plat) == dict(sorted(expected_by_platform.items()))
+                    and actual_feed_plat == expected_by_platform
+                )
+                self.add_result(
+                    ValidationResult(
+                        check_name="feed_json_platform_parity",
+                        platform=None,
+                        passed=plat_ok,
+                        expected=dict(sorted(expected_by_platform.items())),
+                        actual=dict(declared_plat)
+                        if isinstance(declared_plat, dict)
+                        else declared_plat,
+                        message="credentials.feed.json per-platform counts match JSON-LD",
+                        severity=severity,
+                    )
+                )
+
+                missing_prov = sum(
+                    1
+                    for item in feed_creds
+                    if not isinstance(item, dict)
+                    or not item.get("id")
+                    or not item.get("sourceRecordId")
+                    or not item.get("sourceHash")
+                )
+                feed_identity = Counter(
+                    (
+                        str(item.get("platform") or ""),
+                        str(item.get("sourceRecordId") or ""),
+                        str(item.get("sourceHash") or ""),
+                    )
+                    for item in feed_creds
+                    if isinstance(item, dict)
+                )
+                self.add_result(
+                    ValidationResult(
+                        check_name="feed_json_provenance_parity",
+                        platform=None,
+                        passed=(missing_prov == 0 and feed_identity == expected_identity),
+                        expected="all items have id/sourceRecordId/sourceHash matching JSON-LD",
+                        actual=f"missing_provenance={missing_prov}, identity_match={feed_identity == expected_identity}",
+                        message="credentials.feed.json provenance & identity match JSON-LD",
+                        severity=severity,
+                    )
+                )
+            except json.JSONDecodeError as e:
+                self.add_result(
+                    ValidationResult(
+                        check_name="feed_json_valid",
+                        platform=None,
+                        passed=False,
+                        expected="valid JSON",
+                        actual=f"parse error: {e}",
+                        message=f"credentials.feed.json is not valid JSON: {e}",
+                        severity=severity,
+                    )
+                )
+
+        # 2. Validate credentials.ndjson
+        ndjson_content = self._read_file_safe(feed_ndjson_path)
+        if ndjson_content is None:
+            self.add_result(
+                ValidationResult(
+                    check_name="feed_ndjson_exists",
+                    platform=None,
+                    passed=False,
+                    expected="file exists",
+                    actual="missing",
+                    message=f"Streaming NDJSON feed missing: {feed_ndjson_path}",
+                    severity=severity,
+                )
+            )
+        else:
+            ndjson_records: list[dict[str, Any]] = []
+            parse_errors = 0
+            for raw_line in ndjson_content.splitlines():
+                line = raw_line.strip()
+                if not line:
+                    continue
+                try:
+                    parsed_line = json.loads(line)
+                    if isinstance(parsed_line, dict):
+                        ndjson_records.append(parsed_line)
+                    else:
+                        parse_errors += 1
+                except json.JSONDecodeError:
+                    parse_errors += 1
+
+            self.add_result(
+                ValidationResult(
+                    check_name="feed_ndjson_valid",
+                    platform=None,
+                    passed=parse_errors == 0,
+                    expected="0 line parse errors",
+                    actual=parse_errors,
+                    message=f"credentials.ndjson line JSON validity (errors={parse_errors})",
+                    severity=severity,
+                )
+            )
+
+            ndjson_identity = Counter(
+                (
+                    str(item.get("platform") or ""),
+                    str(item.get("sourceRecordId") or ""),
+                    str(item.get("sourceHash") or ""),
+                )
+                for item in ndjson_records
+            )
+            ndjson_plat = Counter(
+                str(item.get("platform") or "unknown") for item in ndjson_records
+            )
+            ndjson_ok = (
+                len(ndjson_records) == expected_total
+                and ndjson_plat == expected_by_platform
+                and ndjson_identity == expected_identity
+            )
+            self.add_result(
+                ValidationResult(
+                    check_name="feed_ndjson_parity",
+                    platform=None,
+                    passed=ndjson_ok,
+                    expected=expected_total,
+                    actual=len(ndjson_records),
+                    message=f"credentials.ndjson has {len(ndjson_records)} records matching JSON-LD",
+                    severity=severity,
+                )
+            )
+
+    def _validate_l1_jsonld_parity(self, jsonld_credentials: list[dict[str, Any]]) -> None:
+        """Verify L1 normalized records in for_validation/ match JSON-LD counts and sourceHashes."""
+        severity = "error" if not self.warn_mode else "warning"
+        val_dir = self._resolve_companion_path(
+            JSONLD_PATH, VALIDATION_DIR, "for_validation"
+        )
+        if not os.path.isdir(val_dir):
+            return
+
+        for platform_key in PLATFORMS:
+            source_spec = L1_SOURCE_FILES.get(platform_key)
+            if not source_spec:
+                continue
+            fname, records_key = source_spec
+            fpath = os.path.join(val_dir, fname)
+            if not os.path.exists(fpath):
+                continue
+
+            try:
+                with open(fpath, "r", encoding="utf-8") as f:
+                    l1_data = json.load(f)
+            except Exception as e:
+                self.add_result(
+                    ValidationResult(
+                        check_name="l1_jsonld_source_hash_parity",
+                        platform=platform_key,
+                        passed=False,
+                        expected="valid L1 JSON",
+                        actual=str(e),
+                        message=f"Failed to read L1 file {fpath}: {e}",
+                        severity=severity,
+                    )
+                )
+                continue
+
+            raw_list = l1_data.get(records_key) if isinstance(l1_data, dict) else None
+            if not isinstance(raw_list, list):
+                continue
+
+            id_field = get_id_field(platform_key) or "id"
+            l1_hashes: Counter[str] = Counter()
+            for rec in raw_list:
+                if not isinstance(rec, dict):
+                    continue
+                if not (rec.get("title") or rec.get("name")):
+                    continue
+                rec_hash = (
+                    str(rec["source_hash"]).strip()
+                    if rec.get("source_hash")
+                    else compute_content_hash(rec, id_field, platform_key)
+                )
+                l1_hashes[rec_hash] += 1
+
+            jsonld_hashes = Counter(
+                str(c.get("sourceHash") or "")
+                for c in jsonld_credentials
+                if (
+                    c.get("platform")
+                    or self._infer_platform(c.get("recognizedBy", {}).get("name", ""))
+                )
+                == platform_key
+            )
+
+            passed = l1_hashes == jsonld_hashes
+            self.add_result(
+                ValidationResult(
+                    check_name="l1_jsonld_source_hash_parity",
+                    platform=platform_key,
+                    passed=passed,
+                    expected=sum(l1_hashes.values()),
+                    actual=sum(jsonld_hashes.values()),
+                    message=(
+                        f"L1->JSON-LD sourceHash parity verified ({sum(jsonld_hashes.values())} records)"
+                        if passed
+                        else f"L1->JSON-LD sourceHash mismatch (l1={sum(l1_hashes.values())}, jsonld={sum(jsonld_hashes.values())})"
+                    ),
+                    severity=severity,
                 )
             )
 
@@ -987,6 +1393,31 @@ class CrossArtifactValidator:
                 )
             )
 
+        if self._should_check_companion(
+            LLMS_PATH, "llms.txt", FEED_JSON_PATH, "credentials.feed.json"
+        ):
+            required_refs = (
+                "credentials.jsonld",
+                "credentials.feed.json",
+                "credentials.ndjson",
+            )
+            missing_refs = [ref for ref in required_refs if ref not in content]
+            self.add_result(
+                ValidationResult(
+                    check_name="llms_txt_structured_feeds_referenced",
+                    platform=None,
+                    passed=len(missing_refs) == 0,
+                    expected=list(required_refs),
+                    actual="all present" if not missing_refs else missing_refs,
+                    message=(
+                        "llms.txt references all structured feeds"
+                        if not missing_refs
+                        else f"llms.txt missing structured feed references: {missing_refs}"
+                    ),
+                    severity="error" if not self.warn_mode else "warning",
+                )
+            )
+
     def validate_llms_full(self) -> None:
         """Validate llms-full.txt contains all platforms."""
         logger.info("[SEARCH] Validating llms-full.txt...")
@@ -1030,6 +1461,31 @@ class CrossArtifactValidator:
                     expected="included",
                     actual="included" if included else "missing",
                     message=f"llms-full.txt {'includes' if included else 'MISSING'} {complete_file}",
+                )
+            )
+
+        if self._should_check_companion(
+            LLMS_FULL_PATH, "llms-full.txt", FEED_JSON_PATH, "credentials.feed.json"
+        ):
+            required_refs = (
+                "credentials.jsonld",
+                "credentials.feed.json",
+                "credentials.ndjson",
+            )
+            missing_refs = [ref for ref in required_refs if ref not in content]
+            self.add_result(
+                ValidationResult(
+                    check_name="llms_full_structured_feeds_referenced",
+                    platform=None,
+                    passed=len(missing_refs) == 0,
+                    expected=list(required_refs),
+                    actual="all present" if not missing_refs else missing_refs,
+                    message=(
+                        "llms-full.txt references all structured feeds"
+                        if not missing_refs
+                        else f"llms-full.txt missing structured feed references: {missing_refs}"
+                    ),
+                    severity="error" if not self.warn_mode else "warning",
                 )
             )
 
@@ -1794,13 +2250,12 @@ class CrossArtifactValidator:
             if len(non_none) < 2:
                 continue
 
-            # Parse dates
+            # Parse dates (normalize naive vs timezone-aware ISO dates to UTC)
             parsed = {}
             for k, v in non_none.items():
-                try:
-                    parsed[k] = datetime.fromisoformat(v)
-                except (ValueError, TypeError):
-                    pass
+                dt = _parse_comparable_dt(v)
+                if dt is not None:
+                    parsed[k] = dt
 
             if len(parsed) < 2:
                 continue
@@ -1924,14 +2379,23 @@ def main():
     parser.add_argument(
         "--report", default="cross_artifact_report.json", help="Output report path"
     )
+    parser.add_argument(
+        "--root-dir",
+        default=None,
+        help="Optional repository/staging directory root to validate inside",
+    )
 
     args = parser.parse_args()
+    report_path = args.report
+    if args.root_dir:
+        report_path = os.path.abspath(report_path)
+        os.chdir(args.root_dir)
 
     validator = CrossArtifactValidator(
         strict=(args.mode == "strict"), warn_mode=(args.mode == "warn")
     )
     success = validator.run_all()
-    validator.generate_report(args.report)
+    validator.generate_report(report_path)
 
     sys.exit(0 if success else 1)
 
