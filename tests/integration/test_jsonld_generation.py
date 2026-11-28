@@ -246,8 +246,13 @@ class TestJsonLdMain:
             patch("generate_jsonld.VALIDATION_DIR", str(temp_dir / "missing_l1")),
             patch("generate_jsonld.README_PATH", str(readme)),
             patch("generate_jsonld.JSONLD_PATH", str(temp_dir / "credentials.jsonld")),
-            patch("generate_jsonld.FEED_JSON_PATH", str(temp_dir / "credentials.feed.json")),
-            patch("generate_jsonld.FEED_NDJSON_PATH", str(temp_dir / "credentials.ndjson")),
+            patch(
+                "generate_jsonld.FEED_JSON_PATH",
+                str(temp_dir / "credentials.feed.json"),
+            ),
+            patch(
+                "generate_jsonld.FEED_NDJSON_PATH", str(temp_dir / "credentials.ndjson")
+            ),
         ):
             main()
 
@@ -417,7 +422,10 @@ class TestJsonLdMain:
             "microsoft-learn": 1,
         }
         assert len(feed_data["credentials"]) == 3
-        assert all(c.get("sourceRecordId") and c.get("sourceHash") for c in feed_data["credentials"])
+        assert all(
+            c.get("sourceRecordId") and c.get("sourceHash")
+            for c in feed_data["credentials"]
+        )
 
         ndjson_lines = [
             json.loads(line)
