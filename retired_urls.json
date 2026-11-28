@@ -723,6 +723,164 @@
       "reason": "Auto-retired: removed from source data on 2026-11-25",
       "retired_at": "2026-11-25",
       "title": "007cc330ae355813"
+    },
+    {
+      "id": "0c30d8289fa04b96",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "0c30d8289fa04b96"
+    },
+    {
+      "id": "0ca3d89a88a7523e",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "0ca3d89a88a7523e"
+    },
+    {
+      "id": "0d60dbc826a6f3e9",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "0d60dbc826a6f3e9"
+    },
+    {
+      "id": "12440ebc55560e14",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "12440ebc55560e14"
+    },
+    {
+      "id": "13238a42fdd881dc",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "13238a42fdd881dc"
+    },
+    {
+      "id": "1a4a58a456cf451e",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "1a4a58a456cf451e"
+    },
+    {
+      "id": "1ea96d8c6eda2cd8",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "1ea96d8c6eda2cd8"
+    },
+    {
+      "id": "363a48b3f509c780",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "363a48b3f509c780"
+    },
+    {
+      "id": "3f47e46fec799b96",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "3f47e46fec799b96"
+    },
+    {
+      "id": "470dbdc11a2ae304",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "470dbdc11a2ae304"
+    },
+    {
+      "id": "4bf7edef18d5ea3c",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "4bf7edef18d5ea3c"
+    },
+    {
+      "id": "4d1413b4ad1f51f1",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "4d1413b4ad1f51f1"
+    },
+    {
+      "id": "53d207503c95ccee",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "53d207503c95ccee"
+    },
+    {
+      "id": "5660b8136d3a0114",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "5660b8136d3a0114"
+    },
+    {
+      "id": "63554a7adf29d713",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "63554a7adf29d713"
+    },
+    {
+      "id": "73983464b42e6072",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "73983464b42e6072"
+    },
+    {
+      "id": "74e46e2426b19406",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "74e46e2426b19406"
+    },
+    {
+      "id": "d22088b4b34eb036",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "d22088b4b34eb036"
+    },
+    {
+      "id": "d4bfea7b14a29b36",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "d4bfea7b14a29b36"
+    },
+    {
+      "id": "e7b59950354d9c30",
+      "match_type": "id",
+      "reason": "Auto-retired: removed from source data on 2026-11-28",
+      "retired_at": "2026-11-28",
+      "title": "e7b59950354d9c30"
+    },
+    {
+      "id": "5c14a677db408b7d",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": null,
+      "title": "CloudEndure Migration Training - Technical",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
+    },
+    {
+      "id": "b9c1d66a50ff2517",
+      "match_type": "url",
+      "reason": "Source CSV Status=Retired",
+      "retired_at": null,
+      "title": "Selling in AWS Marketplace (Technical)",
+      "retirement_source": "source_csv",
+      "url": "https://skillsprofile.skillbuilder.aws/user/vojislavmiloradovic"
     }
   ],
   "credly": [
