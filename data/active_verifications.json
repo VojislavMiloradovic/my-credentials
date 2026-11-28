@@ -1799,6 +1799,12 @@
     "alive": true,
     "method": "HEAD"
   },
+  "https://www.credential.net/a3f1f86c-1d54-4f89-8831-ed38c9874aa2": {
+    "last_verified_at": "2026-11-28T20:29:32.831689+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
   "https://www.credential.net/a6153528-a0b7-43ff-838a-925dd5273de6": {
     "last_verified_at": "2026-11-27T11:25:56.886611+00:00",
     "http_status": 200,
