@@ -166,10 +166,11 @@ class TestRetiredUrlsJson:
                         assert entry["url"].startswith("http")
                     if "reason" in entry:
                         assert isinstance(entry["reason"], str)
-                    if "retired_at" in entry:
+                    if entry.get("retired_at") is not None:
                         # Should be YYYY-MM-DD format
                         import re
 
+                        assert isinstance(entry["retired_at"], str)
                         assert re.match(r"^\d{4}-\d{2}-\d{2}$", entry["retired_at"])
 
 
