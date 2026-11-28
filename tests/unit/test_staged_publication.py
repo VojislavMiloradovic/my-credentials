@@ -15,7 +15,6 @@ sys.path.insert(0, str(Path(__file__).parent.parent.parent))
 
 import cross_artifact_validator
 import loss_guard
-import pipeline_base
 import publish_staged
 from cross_artifact_validator import CrossArtifactValidator, PlatformCounts
 from pipeline_base import PipelineBase
