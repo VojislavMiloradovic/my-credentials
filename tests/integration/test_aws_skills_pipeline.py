@@ -112,6 +112,16 @@ class TestAwsSkillsParsers:
         assert badges[0]["id"] == "aws-001"
         assert badges[3]["id"] == "aws-004"
 
+    def test_parse_aws_badges_missing_date_is_null(self, temp_dir):
+        csv_content = "Title,Type,Completed on,Credential ID,Credential URL,Status\nTest Badge,Badge,,abc123xyz,,Active\n"
+        csv_file = temp_dir / "aws-training-activity.csv"
+        csv_file.write_text(csv_content)
+
+        badges = parse_aws_badges_from_csv(str(csv_file), "testuser")
+        assert len(badges) == 1
+        assert badges[0]["issued_at"] is None
+        assert badges[0]["date"] is None
+
 
 class TestAwsSkillsFetch:
     """Tests for AWS Skills fetching with mocked HTTP."""
