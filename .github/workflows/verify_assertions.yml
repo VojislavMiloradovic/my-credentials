@@ -52,7 +52,7 @@ jobs:
       - name: Install Dependencies
         run: uv sync --frozen --all-extras
 
-      - name: Probe Credential Assertion URLs
+      - name: Stage Assertion Probing and Structured Generation
         run: |
           ARGS=("--ttl-days" "${{ inputs.ttl_days || '30' }}")
           if [ -n "${{ inputs.limit }}" ]; then
@@ -61,15 +61,24 @@ jobs:
           if [ "${{ inputs.force }}" = "true" ]; then
             ARGS+=("--force")
           fi
-          uv run python verify_assertions.py "${ARGS[@]}"
-
-      - name: Regenerate JSON-LD Linked Data
-        run: uv run python generate_jsonld.py
+          VERIFY_ARGS_STR=$(printf "%q " "${ARGS[@]}")
+          uv run python publish_staged.py \
+            --mode verify-assertions \
+            --stage-only \
+            --stage-dir .staging_verify \
+            --verify-args "$VERIFY_ARGS_STR"
 
       - name: Run Cross-Artifact Validation (Strict Mode)
         run: |
           mkdir -p validation_reports
-          uv run python cross_artifact_validator.py --mode strict --report /tmp/ca_verify_report.json
+          uv run python cross_artifact_validator.py --mode strict --root-dir .staging_verify --report /tmp/ca_verify_report.json
+
+      - name: Promote Validated Verification Results
+        run: uv run python publish_staged.py --promote-stage .staging_verify
+
+      - name: Cleanup Verification Staging Workspace
+        if: always()
+        run: uv run python publish_staged.py --cleanup-stage .staging_verify
 
       - name: Commit and Push Verification Results
         run: |
@@ -77,12 +86,12 @@ jobs:
           git config --local user.name "github-actions[bot]"
           git config --local user.email "github-actions[bot]@users.noreply.github.com"
 
-          if git diff --quiet data/active_verifications.json credentials.jsonld && [ -z "$(git ls-files --others --exclude-standard data/active_verifications.json)" ]; then
+          if git diff --quiet data/active_verifications.json credentials.jsonld credentials.feed.json credentials.ndjson llms.txt llms-full.txt && [ -z "$(git ls-files --others --exclude-standard data/active_verifications.json credentials.feed.json credentials.ndjson)" ]; then
             echo "No assertion verification updates to commit."
             exit 0
           fi
 
-          git add data/active_verifications.json credentials.jsonld
-          git commit -m "chore(verify): update active assertion verifications and json-ld"
+          git add data/active_verifications.json credentials.jsonld credentials.feed.json credentials.ndjson llms.txt llms-full.txt
+          git commit -m "chore(verify): update active assertion verifications and structured feeds"
           git pull --rebase origin main
           git push
