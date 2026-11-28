@@ -57,12 +57,15 @@ Platform-specific normalization:
 ### L2_published - Archives & Linked Data
 - **Archive files**: `{platform}-complete.md` (all records), `{platform}-index.md` (summary)
 - **Google Developer**: Additional `{platform}-codelabs-complete.md`, `{platform}-local-learnings-complete.md`
-- **Cross-platform**: `credentials.jsonld` (Schema.org linked data enriched with evidence-aware provenance and TTL-cached assertion verification from `data/active_verifications.json`)
+- **Cross-platform (`generate_jsonld.py`)**: Generated directly from normalized L1 records (`for_validation/*.json`) rather than reconstructed from Markdown archive tables:
+  - `credentials.jsonld`: Full Schema.org `ProfilePage` / `EducationalOccupationalCredential` graph preserving `sourceRecordId`, deterministic `sourceHash`, full ISO-8601 dates, structured issuers/skills, per-record `retrievedAt` / `retrievalMethod`, retirement metadata, `evidenceLevel`, `verificationStatus`, `verificationUrlKind`, and TTL-cached `lastVerifiedAt` (`data/active_verifications.json`).
+  - `credentials.feed.json`: Minified compact JSON feed with `countsByPlatform` and lean credential records for token-efficient AI and programmatic ingestion.
+  - `credentials.ndjson`: Streaming newline-delimited JSON feed (one compact record per line) for streaming parsers, `jq`, and RAG chunking.
 
 ### L3_display - Display Metrics
-- **README.md**: Human-readable summary with metrics tables
-- **llms.txt**: LLM-friendly index with archive links
-- **llms-full.txt**: Consolidated context for large-context LLMs
+- **README.md**: Human-readable summary with metrics tables and direct structured feed documentation/links
+- **llms.txt**: LLM-friendly index with archive links and structured feed references (`credentials.jsonld`, `credentials.feed.json`, `credentials.ndjson`)
+- **llms-full.txt**: Consolidated context referencing all structured feeds
 - **Metrics**: Platform-specific counts (total, active, retired, by category, etc.)
 
 ## Cross-Artifact Validation
@@ -83,13 +86,16 @@ The `cross_artifact_validator.py` validates that record counts flow correctly ac
 | L2 → L3 | `compute_display_metrics` | L3 derived from L0/L1 |
 | L2 → L3 | `count_streams_separately` | L3 = sum(L2 streams) |
 
-### Transactional Publication Boundary
+### Staged, Fail-Closed Publication Boundary
 
-All six `update_*.py` pipelines wrap their publication phase (`persist_validation`, `generate_archive`, `update_readme`, `generate_baselines`, `sync_fixtures`) inside `PublicationTransaction` (`pipeline_base.py`):
+Both pipeline-level updates and full cross-artifact publication enforce fail-closed atomicity:
 
-- **Atomic Writes**: Validation JSONs, archive markdown files, `README.md`, baselines, and synced fixtures are written via same-directory temporary files and `os.replace`.
-- **Fail-Fast & Rollback**: Publication steps raise on error rather than emitting non-fatal warnings; any failure rolls back validation files, archives (including deleted orphaned chunks), `README.md`, baselines, and fixtures so baselines never advance after an incomplete publish.
-- **Workflow Recovery Compatibility**: Temporarily disabling checks in `.github/workflows/*.yml` to regenerate clean `for_validation/*-baseline.json` files after local corruption remains unaffected.
+1. **Provider Pipeline Transaction (`PublicationTransaction` in `pipeline_base.py`)**:
+   - Enriches L1 records with `source_platform`, `source_record_id`, and `source_hash` inside `persist_validation()`.
+   - Writes validation JSONs, archive markdown files, `README.md`, baselines, and synced fixtures via same-directory temporary files and `os.replace`, rolling back all targets on failure.
+2. **Whole-Portfolio Staging (`publish_staged.py`)**:
+   - Copies repository inputs into a repo-local staging directory on the same filesystem, runs the pipeline (or assertion probing) and `generate_jsonld.py` / `generate_llms_txt.py` / `generate_llms_full.py` in staging, validates via `cross_artifact_validator.py --mode strict`, `validate_manifest.py`, and `scripts/verify_baseline.py`, and atomically promotes public artifacts, archives, baselines, and fixtures only after all active checks pass.
+   - **Workflow Recovery Compatibility**: CI workflows invoke `publish_staged.py --stage-only` followed by individually commentable validation steps inside `.staging_ci` and `--promote-stage`, so temporarily disabling checks in `.github/workflows/*.yml` to regenerate clean `for_validation/*-baseline.json` files after local corruption remains fully supported.
 
 ## Content Fingerprint Schema Architecture
 
@@ -272,11 +278,13 @@ def main():
 - Google Developer: `-codelabs-complete.md`, `-local-learnings-complete.md`
 
 ### Cross-Platform
-- `credentials.jsonld` - Schema.org `ItemList` with `EducationalOccupationalCredential`
+- `credentials.jsonld` - L1-sourced Schema.org `ProfilePage` / `EducationalOccupationalCredential` graph
+- `credentials.feed.json` - Minified compact JSON machine feed (`countsByPlatform` + lean records)
+- `credentials.ndjson` - Streaming newline-delimited JSON machine feed (one compact record per line)
 - `data/active_verifications.json` - Persistent 30-day TTL cache of HTTP assertion probe results
-- `README.md` - Human-readable dashboard
-- `llms.txt` - LLM index with archive links
-- `llms-full.txt` - Consolidated context
+- `README.md` - Human-readable dashboard linking all machine feeds
+- `llms.txt` - LLM index with archive links and machine feed references
+- `llms-full.txt` - Consolidated context with machine feed references
 
 ## Version History
 
