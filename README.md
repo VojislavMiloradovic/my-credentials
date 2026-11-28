@@ -151,6 +151,7 @@ Showing latest 10 of 846 credentials. View full dataset via [Platform Archive In
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-28 | [Get Started with Google AdMob](https://www.credential.net/a3f1f86c-1d54-4f89-8831-ed38c9874aa2) | Skillshop | Credly External Badge |
 | 2026-11-28 | [Optimize Google Ad Manager to Meet Objectives](https://www.credential.net/427ae06a-65ad-4355-aca8-c9894e97e4bf) | Skillshop | Credly External Badge |
 | 2026-11-27 | [Drive Advertising Revenue with Google Ad Manager](https://www.credential.net/168c1ccd-1d66-436b-8bda-55a7b34a11b4) | Skillshop | Credly External Badge |
 | 2026-11-27 | [Grow Your Monetization with Google Ad Manager](https://www.credential.net/0ac62d3d-c98d-421a-9865-88b141305660) | Skillshop | Credly External Badge |
@@ -160,7 +161,6 @@ Showing latest 10 of 846 credentials. View full dataset via [Platform Archive In
 | 2026-11-26 | [Google Ads Video Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/25cff18e-4dc3-4d65-aaf5-335992a6d29b) | Skillshop | Credly External Badge |
 | 2026-11-26 | [Google Analytics Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/3bf1b44f-8517-4b7d-a69b-19ee58b0d370) | Skillshop | Credly External Badge |
 | 2026-11-25 | [AWS Knowledge: Amazon WorkSpaces Operations at Scale - Training Badge](https://www.credly.com/badges/6629cd5b-ff2d-4fda-bea0-55ca9a4f0b54/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-11-23 | [C++ Essentials 1](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/public_url) | Cisco | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 

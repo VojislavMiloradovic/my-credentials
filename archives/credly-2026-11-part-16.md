@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-28 | [Get Started with Google AdMob](https://www.credential.net/a3f1f86c-1d54-4f89-8831-ed38c9874aa2) | Skillshop | Credly External Badge |
 | 2026-11-28 | [Optimize Google Ad Manager to Meet Objectives](https://www.credential.net/427ae06a-65ad-4355-aca8-c9894e97e4bf) | Skillshop | Credly External Badge |
 | 2026-11-27 | [Drive Advertising Revenue with Google Ad Manager](https://www.credential.net/168c1ccd-1d66-436b-8bda-55a7b34a11b4) | Skillshop | Credly External Badge |
 | 2026-11-27 | [Grow Your Monetization with Google Ad Manager](https://www.credential.net/0ac62d3d-c98d-421a-9865-88b141305660) | Skillshop | Credly External Badge |
@@ -61,7 +62,6 @@ artifacts: complete, index
 | 2026-11-04 | [Automate Identity Security with Workflows](https://www.credly.com/badges/e3f88afb-4313-41b3-b1b5-2051ba3e662e/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Automate User Lifecycle Management with Workflows](https://www.credly.com/badges/08cb9221-e675-411c-9d0c-347d9ac42ad0/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Evaluate the Business Impact of Phishing Resistance](https://www.credly.com/badges/62891241-bcce-4ffe-9448-42d910989ee0/public_url) | Okta | Credly Verified Badge |
-| 2026-11-04 | [Kong Insomnia for Developers](https://www.credly.com/badges/6cd29a72-4308-4e34-a4f6-48af1417eb01/public_url) | Kong | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-11-part-15.md](./credly-2026-11-part-15.md) | [Index](./credly-index.md) | Next: None

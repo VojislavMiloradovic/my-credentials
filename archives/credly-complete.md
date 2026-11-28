@@ -6,12 +6,13 @@ This document represents a unified, verifiable list of all 846 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-28T05:52:31.294892+00:00 -->
+<!-- retrieved_at: 2026-11-28T14:07:20.577500+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-28 | [Get Started with Google AdMob](https://www.credential.net/a3f1f86c-1d54-4f89-8831-ed38c9874aa2) | Skillshop | Credly External Badge |
 | 2026-11-28 | [Optimize Google Ad Manager to Meet Objectives](https://www.credential.net/427ae06a-65ad-4355-aca8-c9894e97e4bf) | Skillshop | Credly External Badge |
 | 2026-11-27 | [Drive Advertising Revenue with Google Ad Manager](https://www.credential.net/168c1ccd-1d66-436b-8bda-55a7b34a11b4) | Skillshop | Credly External Badge |
 | 2026-11-27 | [Grow Your Monetization with Google Ad Manager](https://www.credential.net/0ac62d3d-c98d-421a-9865-88b141305660) | Skillshop | Credly External Badge |
@@ -117,7 +118,6 @@ This document represents a unified, verifiable list of all 846 records.
 | 2026-10-13 | [Machine Learning for Data Science Projects](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-13 | [User Experience Design Fundamentals](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-11 | [AWS Knowledge: Amazon Connect Developer - Training Badge](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
-| 2026-10-11 | [Microsoft Applied Skills: Integrate model context protocol tools with agents in Microsoft Foundry](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/D296FE0D58F3B6D0?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-10 | [Harness Certified Code Repository Developer](https://www.credly.com/badges/e7564671-e168-49e2-b28b-c2f2da887146/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Continuous Delivery & GitOps Developer](https://www.credly.com/badges/99b36a29-ec2a-4df6-bf2d-74fdad35e070/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Continuous Integration Developer](https://www.credly.com/badges/614739fa-4c01-45e3-afaa-32d3ed5e80c5/public_url) | Harness Inc | Credly Verified Badge |

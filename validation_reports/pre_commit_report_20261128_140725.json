@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-11-28T05:15:36.794422+00:00",
+  "timestamp": "2026-11-28T14:07:26.384829+00:00",
   "summary": {
-    "total": 95,
-    "passed": 95,
+    "total": 114,
+    "passed": 114,
     "failed": 0,
     "warnings": 0
   },
@@ -19,8 +19,8 @@
       "retired_in_archive": 1,
       "retired_in_jsonld": 1,
       "latest_record_date_source": null,
-      "latest_record_date_archive": "2026-11-26T00:00:00",
-      "latest_record_date_jsonld": "2026-11-26T00:00:00"
+      "latest_record_date_archive": "2026-11-26T00:00:00+00:00",
+      "latest_record_date_jsonld": "2026-11-26T00:00:00+00:00"
     },
     "google-skills": {
       "source_records": 445,
@@ -33,9 +33,9 @@
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
-      "latest_record_date_source": "2026-11-18T00:00:00",
-      "latest_record_date_archive": "2026-11-18T00:00:00",
-      "latest_record_date_jsonld": "2026-11-18T00:00:00"
+      "latest_record_date_source": "2026-11-18T00:00:00+00:00",
+      "latest_record_date_archive": "2026-11-18T00:00:00+00:00",
+      "latest_record_date_jsonld": "2026-11-18T00:00:00+00:00"
     },
     "aws-skills": {
       "source_records": 1247,
@@ -48,9 +48,9 @@
       "retired_in_source": 48,
       "retired_in_archive": 48,
       "retired_in_jsonld": 48,
-      "latest_record_date_source": "2026-11-26T00:00:00",
-      "latest_record_date_archive": "2026-11-26T00:00:00",
-      "latest_record_date_jsonld": "2026-11-26T00:00:00"
+      "latest_record_date_source": "2026-11-26T00:00:00+00:00",
+      "latest_record_date_archive": "2026-11-26T00:00:00+00:00",
+      "latest_record_date_jsonld": "2026-11-26T00:00:00+00:00"
     },
     "credly": {
       "source_records": 846,
@@ -63,9 +63,9 @@
       "retired_in_source": 0,
       "retired_in_archive": 0,
       "retired_in_jsonld": 0,
-      "latest_record_date_source": "2026-11-28T00:00:00",
-      "latest_record_date_archive": "2026-11-28T00:00:00",
-      "latest_record_date_jsonld": "2026-11-28T00:00:00"
+      "latest_record_date_source": "2026-11-28T00:00:00+00:00",
+      "latest_record_date_archive": "2026-11-28T00:00:00+00:00",
+      "latest_record_date_jsonld": "2026-11-28T00:00:00+00:00"
     },
     "linkedin-certifications": {
       "source_records": 2151,
@@ -93,9 +93,9 @@
       "retired_in_source": 32,
       "retired_in_archive": 32,
       "retired_in_jsonld": 32,
-      "latest_record_date_source": "2026-11-18T00:00:00",
-      "latest_record_date_archive": "2026-11-18T00:00:00",
-      "latest_record_date_jsonld": "2026-11-18T00:00:00"
+      "latest_record_date_source": "2026-11-18T00:00:00+00:00",
+      "latest_record_date_archive": "2026-11-18T00:00:00+00:00",
+      "latest_record_date_jsonld": "2026-11-18T00:00:00+00:00"
     }
   },
   "results": [
@@ -325,12 +325,30 @@
       "severity": "error"
     },
     {
+      "check": "jsonld_provenance_ids_and_hashes",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": "0 missing sourceRecordId/sourceHash",
+      "actual": "missing_id=0, missing_hash=0",
+      "message": "All JSON-LD records carry non-null sourceRecordId and sourceHash",
+      "severity": "error"
+    },
+    {
       "check": "jsonld_count",
       "platform": "google-skills",
       "passed": true,
       "expected": "> 0",
       "actual": 445,
       "message": "JSON-LD has 445 credentials (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "jsonld_provenance_ids_and_hashes",
+      "platform": "google-skills",
+      "passed": true,
+      "expected": "0 missing sourceRecordId/sourceHash",
+      "actual": "missing_id=0, missing_hash=0",
+      "message": "All JSON-LD records carry non-null sourceRecordId and sourceHash",
       "severity": "error"
     },
     {
@@ -343,12 +361,30 @@
       "severity": "error"
     },
     {
+      "check": "jsonld_provenance_ids_and_hashes",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": "0 missing sourceRecordId/sourceHash",
+      "actual": "missing_id=0, missing_hash=0",
+      "message": "All JSON-LD records carry non-null sourceRecordId and sourceHash",
+      "severity": "error"
+    },
+    {
       "check": "jsonld_count",
       "platform": "credly",
       "passed": true,
       "expected": "> 0",
       "actual": 846,
       "message": "JSON-LD has 846 credentials (0 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "jsonld_provenance_ids_and_hashes",
+      "platform": "credly",
+      "passed": true,
+      "expected": "0 missing sourceRecordId/sourceHash",
+      "actual": "missing_id=0, missing_hash=0",
+      "message": "All JSON-LD records carry non-null sourceRecordId and sourceHash",
       "severity": "error"
     },
     {
@@ -361,12 +397,143 @@
       "severity": "error"
     },
     {
+      "check": "jsonld_provenance_ids_and_hashes",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": "0 missing sourceRecordId/sourceHash",
+      "actual": "missing_id=0, missing_hash=0",
+      "message": "All JSON-LD records carry non-null sourceRecordId and sourceHash",
+      "severity": "error"
+    },
+    {
       "check": "jsonld_count",
       "platform": "google-developer",
       "passed": true,
       "expected": "> 0",
       "actual": 1788,
       "message": "JSON-LD has 1788 credentials (32 retired)",
+      "severity": "error"
+    },
+    {
+      "check": "jsonld_provenance_ids_and_hashes",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": "0 missing sourceRecordId/sourceHash",
+      "actual": "missing_id=0, missing_hash=0",
+      "message": "All JSON-LD records carry non-null sourceRecordId and sourceHash",
+      "severity": "error"
+    },
+    {
+      "check": "feed_json_count_parity",
+      "platform": null,
+      "passed": true,
+      "expected": 11563,
+      "actual": "totalCount=11563, items=11563",
+      "message": "credentials.feed.json matches JSON-LD count (11563)",
+      "severity": "error"
+    },
+    {
+      "check": "feed_json_platform_parity",
+      "platform": null,
+      "passed": true,
+      "expected": {
+        "aws-skills": 1247,
+        "credly": 846,
+        "google-developer": 1788,
+        "google-skills": 445,
+        "linkedin-certifications": 2151,
+        "microsoft-learn": 5086
+      },
+      "actual": {
+        "aws-skills": 1247,
+        "credly": 846,
+        "google-developer": 1788,
+        "google-skills": 445,
+        "linkedin-certifications": 2151,
+        "microsoft-learn": 5086
+      },
+      "message": "credentials.feed.json per-platform counts match JSON-LD",
+      "severity": "error"
+    },
+    {
+      "check": "feed_json_provenance_parity",
+      "platform": null,
+      "passed": true,
+      "expected": "all items have id/sourceRecordId/sourceHash matching JSON-LD",
+      "actual": "missing_provenance=0, identity_match=True",
+      "message": "credentials.feed.json provenance & identity match JSON-LD",
+      "severity": "error"
+    },
+    {
+      "check": "feed_ndjson_valid",
+      "platform": null,
+      "passed": true,
+      "expected": "0 line parse errors",
+      "actual": 0,
+      "message": "credentials.ndjson line JSON validity (errors=0)",
+      "severity": "error"
+    },
+    {
+      "check": "feed_ndjson_parity",
+      "platform": null,
+      "passed": true,
+      "expected": 11563,
+      "actual": 11563,
+      "message": "credentials.ndjson has 11563 records matching JSON-LD",
+      "severity": "error"
+    },
+    {
+      "check": "l1_jsonld_source_hash_parity",
+      "platform": "microsoft-learn",
+      "passed": true,
+      "expected": 5086,
+      "actual": 5086,
+      "message": "L1->JSON-LD sourceHash parity verified (5086 records)",
+      "severity": "error"
+    },
+    {
+      "check": "l1_jsonld_source_hash_parity",
+      "platform": "google-skills",
+      "passed": true,
+      "expected": 445,
+      "actual": 445,
+      "message": "L1->JSON-LD sourceHash parity verified (445 records)",
+      "severity": "error"
+    },
+    {
+      "check": "l1_jsonld_source_hash_parity",
+      "platform": "aws-skills",
+      "passed": true,
+      "expected": 1247,
+      "actual": 1247,
+      "message": "L1->JSON-LD sourceHash parity verified (1247 records)",
+      "severity": "error"
+    },
+    {
+      "check": "l1_jsonld_source_hash_parity",
+      "platform": "credly",
+      "passed": true,
+      "expected": 846,
+      "actual": 846,
+      "message": "L1->JSON-LD sourceHash parity verified (846 records)",
+      "severity": "error"
+    },
+    {
+      "check": "l1_jsonld_source_hash_parity",
+      "platform": "linkedin-certifications",
+      "passed": true,
+      "expected": 2151,
+      "actual": 2151,
+      "message": "L1->JSON-LD sourceHash parity verified (2151 records)",
+      "severity": "error"
+    },
+    {
+      "check": "l1_jsonld_source_hash_parity",
+      "platform": "google-developer",
+      "passed": true,
+      "expected": 1788,
+      "actual": 1788,
+      "message": "L1->JSON-LD sourceHash parity verified (1788 records)",
       "severity": "error"
     },
     {
@@ -424,6 +591,19 @@
       "severity": "error"
     },
     {
+      "check": "llms_txt_structured_feeds_referenced",
+      "platform": null,
+      "passed": true,
+      "expected": [
+        "credentials.jsonld",
+        "credentials.feed.json",
+        "credentials.ndjson"
+      ],
+      "actual": "all present",
+      "message": "llms.txt references all structured feeds",
+      "severity": "error"
+    },
+    {
       "check": "llms_full_includes_platform",
       "platform": "microsoft-learn",
       "passed": true,
@@ -475,6 +655,19 @@
       "expected": "included",
       "actual": "included",
       "message": "llms-full.txt includes google-developer-complete.md",
+      "severity": "error"
+    },
+    {
+      "check": "llms_full_structured_feeds_referenced",
+      "platform": null,
+      "passed": true,
+      "expected": [
+        "credentials.jsonld",
+        "credentials.feed.json",
+        "credentials.ndjson"
+      ],
+      "actual": "all present",
+      "message": "llms-full.txt references all structured feeds",
       "severity": "error"
     },
     {

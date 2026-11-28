@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-04 | [Kong Insomnia for Developers](https://www.credly.com/badges/6cd29a72-4308-4e34-a4f6-48af1417eb01/public_url) | Kong | Credly Verified Badge |
 | 2026-11-04 | [Secure Enterprise AI Tools with Okta Agent Gateway](https://www.credly.com/badges/be836220-589c-4f7e-8056-7bb603f39aa2/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Secure Multi-Agent Workflows with Okta Agent to Agent](https://www.credly.com/badges/f93fc711-e173-4f7f-9d6c-da1833dc8ec2/public_url) | Okta | Credly Verified Badge |
 | 2026-11-04 | [Workflows](https://www.credly.com/badges/3d20176d-d805-49f0-97b9-b288376231c1/public_url) | Okta | Credly Verified Badge |
@@ -66,7 +67,6 @@ artifacts: complete, index
 | 2026-10-14 | [Harness Certified Database DevOps Developer](https://www.credly.com/badges/ba7bac4e-647c-4521-aedf-23c0d4df34df/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-14 | [Traceable by Harness Developer Certification](https://www.credly.com/badges/81821f9e-ed55-49db-a20b-6c2afdd9cacb/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified AI DLC Insights Formerly SEI Developer](https://www.credly.com/badges/281d5b1c-95e0-497d-8784-bbbca82109a5/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-13 | [Harness Certified Cloud & AI Cost Management Developer](https://www.credly.com/badges/150ce8a5-8669-42aa-a2df-2d0f61c1fbbc/public_url) | Harness Inc | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Index](./credly-index.md) | Next: [credly-2026-11-part-16.md](./credly-2026-11-part-16.md)
