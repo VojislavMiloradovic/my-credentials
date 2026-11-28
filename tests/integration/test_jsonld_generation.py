@@ -81,13 +81,41 @@ This document represents a unified list of 2 records.
 | 2024-01-10 | Badge 2 | Test Issuer | Badge |
 """)
 
-        with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)):
+        with (
+            patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)),
+            patch(
+                "generate_jsonld.get_platforms_with_l2_artifact",
+                return_value=["test-platform"],
+            ),
+        ):
             credentials = parse_archive_monoliths()
             assert len(credentials) == 2
             assert credentials[0]["name"] == "Badge 1"
             assert credentials[0]["url"] == "https://example.com/1"
             assert credentials[1]["name"] == "Badge 2"
             assert "url" not in credentials[1] or credentials[1].get("url") is None
+
+    def test_parse_archive_monoliths_ignores_undeclared_files(self, temp_dir):
+        archives_dir = temp_dir / "archives"
+        archives_dir.mkdir()
+
+        (archives_dir / "rogue-complete.md").write_text(
+            "# Rogue Archive\n\n"
+            "| Date Earned | Credential Name | Issuer | Verification Type |\n"
+            "| :---: | :--- | :--- | :---: |\n"
+            "| 2024-01-15 | [Rogue Badge](https://example.com/rogue) | Rogue | Badge |\n",
+            encoding="utf-8",
+        )
+
+        with (
+            patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)),
+            patch(
+                "generate_jsonld.get_platforms_with_l2_artifact",
+                return_value=["microsoft-learn"],
+            ),
+        ):
+            credentials = parse_archive_monoliths()
+            assert credentials == []
 
     def test_parse_archive_monoliths_with_images(self, temp_dir):
         archives_dir = temp_dir / "archives"
@@ -103,7 +131,13 @@ This document represents a unified list of 2 records.
 | 2024-01-15 | ![Image](https://img.com/1) [Badge 1](https://example.com/1) | Test Issuer | Badge |
 """)
 
-        with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)):
+        with (
+            patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)),
+            patch(
+                "generate_jsonld.get_platforms_with_l2_artifact",
+                return_value=["test-platform"],
+            ),
+        ):
             credentials = parse_archive_monoliths()
             assert len(credentials) == 1
             assert credentials[0]["image"] == "https://img.com/1"
@@ -122,7 +156,13 @@ This document represents a unified list of 2 records.
 | 2024-01-15 | **Badge 1** Credential ID: `ABC123` | Test Issuer | Badge |
 """)
 
-        with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)):
+        with (
+            patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)),
+            patch(
+                "generate_jsonld.get_platforms_with_l2_artifact",
+                return_value=["test-platform"],
+            ),
+        ):
             credentials = parse_archive_monoliths()
             assert len(credentials) == 1
             assert credentials[0]["identifier"] == "ABC123"
@@ -144,7 +184,13 @@ This document represents a unified list of 2 records.
             encoding="utf-8",
         )
 
-        with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)):
+        with (
+            patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)),
+            patch(
+                "generate_jsonld.get_platforms_with_l2_artifact",
+                return_value=["test-platform"],
+            ),
+        ):
             credentials = parse_archive_monoliths()
             assert len(credentials) == 1
             assert credentials[0]["credentialStatus"] == "Retired"
@@ -244,6 +290,10 @@ class TestJsonLdMain:
         with (
             patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)),
             patch("generate_jsonld.VALIDATION_DIR", str(temp_dir / "missing_l1")),
+            patch(
+                "generate_jsonld.get_platforms_with_l2_artifact",
+                return_value=["test-platform"],
+            ),
             patch("generate_jsonld.README_PATH", str(readme)),
             patch("generate_jsonld.JSONLD_PATH", str(temp_dir / "credentials.jsonld")),
             patch(

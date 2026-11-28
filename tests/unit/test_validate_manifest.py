@@ -131,6 +131,67 @@ platforms:
                 os.chdir(old_cwd)
                 sys.path.remove(tmpdir)
 
+    def test_validate_artifact_consistency_rejects_undeclared_complete_archive(self):
+        """Undeclared *-complete.md in archives/ must fail consistency check."""
+        with tempfile.TemporaryDirectory() as tmpdir:
+            archives_dir = os.path.join(tmpdir, "archives")
+            os.makedirs(archives_dir)
+
+            manifest_path = os.path.join(tmpdir, "dataset_layers.yaml")
+            manifest_content = """
+version: 1
+platforms:
+  microsoft-learn:
+    L0_raw:
+      source: "data/ms-learn.csv"
+    L1_normalized:
+      source_layer: "L0_raw"
+      transform:
+        type: "extract_achievements_dedupe_by_id"
+      output_records: "achievements"
+    L2_published:
+      source_layer: "L1_normalized"
+      transform:
+        type: "1:1_pass_through"
+      artifacts: ["complete"]
+    L3_display:
+      source_layer: "L2_published"
+      transform:
+        type: "compute_display_metrics"
+      artifacts: ["readme"]
+      metrics: ["units"]
+"""
+            with open(manifest_path, "w") as f:
+                f.write(manifest_content)
+
+            with open(
+                os.path.join(archives_dir, "microsoft-learn-complete.md"), "w"
+            ) as f:
+                f.write("# Complete")
+            with open(os.path.join(archives_dir, "rogue-complete.md"), "w") as f:
+                f.write("# Rogue")
+
+            for name in (
+                "credentials.jsonld",
+                "README.md",
+                "llms.txt",
+                "llms-full.txt",
+            ):
+                with open(os.path.join(tmpdir, name), "w") as f:
+                    f.write("ok")
+
+            old_cwd = os.getcwd()
+            os.chdir(tmpdir)
+            sys.path.insert(0, tmpdir)
+            try:
+                from validate_manifest import validate_artifact_consistency
+
+                result = validate_artifact_consistency()
+                assert result is False
+            finally:
+                os.chdir(old_cwd)
+                sys.path.remove(tmpdir)
+
     def test_validate_transform_types(self):
         """Test validate_transform_types function."""
         with tempfile.TemporaryDirectory() as tmpdir:

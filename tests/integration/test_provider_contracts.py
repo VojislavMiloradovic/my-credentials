@@ -1001,7 +1001,13 @@ class TestCrossPlatformProvenanceConsistency:
 """
         (archives_dir / "test-platform-complete.md").write_text(complete_md)
 
-        with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)):
+        with (
+            patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)),
+            patch(
+                "generate_jsonld.get_platforms_with_l2_artifact",
+                return_value=["test-platform"],
+            ),
+        ):
             credentials = parse_archive_monoliths()
 
         cred = credentials[0]
@@ -1021,7 +1027,13 @@ class TestCrossPlatformProvenanceConsistency:
 """
         (archives_dir / "test-platform-complete.md").write_text(complete_md)
 
-        with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)):
+        with (
+            patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)),
+            patch(
+                "generate_jsonld.get_platforms_with_l2_artifact",
+                return_value=["test-platform"],
+            ),
+        ):
             credentials = parse_archive_monoliths()
 
         cred = credentials[0]
@@ -1042,7 +1054,13 @@ class TestCrossPlatformProvenanceConsistency:
 """
         (archives_dir / "test-platform-complete.md").write_text(complete_md)
 
-        with patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)):
+        with (
+            patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)),
+            patch(
+                "generate_jsonld.get_platforms_with_l2_artifact",
+                return_value=["test-platform"],
+            ),
+        ):
             credentials = parse_archive_monoliths()
 
         cred = credentials[0]

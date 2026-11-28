@@ -489,14 +489,8 @@ def extract_table_data_rows(lines: list[str]) -> list[tuple[list[str], list[str]
 
 
 def _ordered_l1_platforms() -> list[str]:
-    """Resolve platform ordering from layer manifest while ensuring all L1 platforms are included."""
-    try:
-        platform_keys = get_platforms_with_l2_artifact("jsonld")
-    except Exception:
-        platform_keys = []
-    for p_key in L1_PLATFORM_SOURCES:
-        if p_key not in platform_keys:
-            platform_keys.append(p_key)
+    """Resolve platform ordering strictly from the layer manifest."""
+    platform_keys = get_platforms_with_l2_artifact("jsonld")
     return [p for p in platform_keys if p in L1_PLATFORM_SOURCES]
 
 
@@ -790,24 +784,16 @@ def parse_l1_normalized(
     return credentials
 
 
-def parse_archive_monoliths():
-    """Legacy fallback parser: converts *-complete.md archive tables into JSON-LD objects."""
+def parse_archive_monoliths(platform_keys: list[str] | None = None):
+    """Legacy fallback parser: converts declared *-complete.md archive tables into JSON-LD objects."""
     credentials = []
 
     if not os.path.exists(ARCHIVE_DIR):
         print(f"WARNING: Archive directory '{ARCHIVE_DIR}' not found.")
         return credentials
 
-    platform_keys = get_platforms_with_l2_artifact("jsonld")
-
-    try:
-        for f in os.listdir(ARCHIVE_DIR):
-            if f.endswith("-complete.md"):
-                platform_key = f[:-12]
-                if platform_key not in platform_keys:
-                    platform_keys.append(platform_key)
-    except Exception:
-        pass
+    if platform_keys is None:
+        platform_keys = get_platforms_with_l2_artifact("jsonld")
 
     print(f"Found {len(platform_keys)} platform(s) with L2_published jsonld artifact:")
     active_verifications = load_active_verifications(ACTIVE_VERIFICATIONS_PATH)

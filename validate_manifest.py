@@ -105,6 +105,20 @@ def validate_artifact_consistency() -> bool:
                 else:
                     print(f"  [OK] Found: {expected_file}")
 
+    # Fail if any undeclared *-complete.md exists in archives/
+    if archive_dir.exists():
+        for complete_file in sorted(archive_dir.glob("*-complete.md")):
+            platform_key = complete_file.name[:-12]
+            platform_layers = manifest.platforms.get(platform_key)
+            if (
+                not platform_layers
+                or "complete" not in platform_layers.L2_published.artifacts
+            ):
+                print(
+                    f"  [FAIL] Undeclared archive monolith (not in manifest): {complete_file}"
+                )
+                all_ok = False
+
     # Check cross-platform artifacts
     cross_artifacts = {
         "jsonld": Path("credentials.jsonld"),
