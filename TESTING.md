@@ -53,6 +53,7 @@ tests/
 │   ├── test_run_link_checker_extended.py
 │   ├── test_sanitize_gdev_mhtml.py
 │   ├── test_sanitize_ms_export.py
+│   ├── test_staged_publication.py
 │   ├── test_transactional_publication.py
 │   ├── test_validate_manifest.py
 │   ├── test_validation_summary.py
@@ -458,8 +459,14 @@ uv run python verify_assertions.py --limit 10 --dry-run
 - **CI Workspace vs Repo Semantics**: Confirms `scripts/sync_fixtures.py` skips gracefully when `for_validation/` is absent (CI targeted test workspaces) while raising `FileNotFoundError` / `ValueError` / `OSError` in full checkouts.
 - **Baseline Corruption Recovery**: If locally committed `for_validation/*-baseline.json` files become corrupted, temporarily commenting out checks in `.github/workflows/*.yml` and running the GitHub workflow remains supported—clean workflow runs pass `PublicationTransaction` and overwrite the corrupted baseline atomically.
 
+## Testing Staged Fail-Closed Publication & L1-First Feeds
+
+- `tests/integration/test_jsonld_generation.py` & `tests/integration/test_llms_generation.py` verify L1-first generation from `for_validation/*.json`, preservation of `sourceRecordId`, deterministic `sourceHash`, full ISO-8601 timestamps, retirement metadata, compact `credentials.feed.json` and `credentials.ndjson` outputs, and discovery references in `llms.txt` / `llms-full.txt`.
+- `tests/unit/test_staged_publication.py` verifies `PipelineBase._enrich_record_list_provenance`, `publish_staged.py` stage isolation, fail-closed abort before live mutation, atomic promotion with rollback, and `cross_artifact_validator.py` L1-to-JSON-LD `sourceHash` & machine-feed parity checks.
+
 ```bash
-# Run transactional publication and workflow security unit tests
-uv run pytest tests/unit/test_transactional_publication.py tests/unit/test_workflow_security.py -v
+# Run transactional, staged publication, L1 feed, and workflow security tests
+uv run pytest tests/unit/test_staged_publication.py tests/unit/test_transactional_publication.py tests/unit/test_workflow_security.py -v
+uv run pytest tests/integration/test_jsonld_generation.py tests/integration/test_llms_generation.py -v
 ```
 
