@@ -475,13 +475,10 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
         credential_id = row.get("Credential ID", "") or row.get("ID", "")
         credential_id = credential_id.strip()
 
-        # Normalize the date, with fallback to "2026-01-01" for missing/unparseable dates
-        # This maintains backward compatibility and ensures proper sorting
+        # Normalize the date; preserve missing or unparseable dates as null (None)
         normalized_date = normalize_date_string(earned_date)
-        if not normalized_date:
-            normalized_date = "2026-01-01"
 
-        b_id = credential_id or generate_badge_id(title, normalized_date)
+        b_id = credential_id or generate_badge_id(title, normalized_date or "")
 
         # Strip [RETIRED] and [RETIRING - ...] prefixes from title for clean display
         clean_title = title
@@ -519,11 +516,14 @@ def parse_aws_badges_from_csv(csv_path: str, profile_user: str) -> list[dict]:
         try:
             model = AwsBadgeItemModel(**entry)
             dumped = model.model_dump(mode="json", exclude_none=True)
+            dumped["issued_at"] = normalized_date
+            dumped["issued_at_date"] = normalized_date
+            dumped["date"] = normalized_date
             # Explicitly preserve retirement fields that may not be included in model_dump
             if is_retired:
-                dumped["retirement_reason"] = entry["retirement_reason"]
-                dumped["retired_at"] = entry["retired_at"]
-                dumped["retirement_source"] = entry["retirement_source"]
+                dumped["retirement_reason"] = entry.get("retirement_reason")
+                dumped["retired_at"] = entry.get("retired_at")
+                dumped["retirement_source"] = entry.get("retirement_source")
             badges.append(dumped)
 
         except ValidationError as ve:
