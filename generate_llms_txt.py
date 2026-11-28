@@ -426,7 +426,13 @@ Generated directly from normalized L1 records (`for_validation/*.json`) with det
 
 
 def main(argv: list[str] | None = None) -> None:
-    global README_PATH, ARCHIVE_DIR, LLMS_PATH, JSONLD_PATH, FEED_JSON_PATH, FEED_NDJSON_PATH
+    global \
+        README_PATH, \
+        ARCHIVE_DIR, \
+        LLMS_PATH, \
+        JSONLD_PATH, \
+        FEED_JSON_PATH, \
+        FEED_NDJSON_PATH
     parser = argparse.ArgumentParser(description="Generate llms.txt index file.")
     parser.add_argument("--readme", default=None)
     parser.add_argument("--archive-dir", default=None)
