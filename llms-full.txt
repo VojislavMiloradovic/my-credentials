@@ -2,12 +2,12 @@
   VOJISLAV MILORADOVIC - CONSOLIDATED CREDENTIALS ARCHIVE (llms-full.txt)
 ========================================================================
 
-> **Last Generated:** 2026-11-28 05:52 UTC
+> **Last Generated:** 2026-11-28 11:56 UTC
 
 --- BEGIN FILE: README.md ---
 
 # Professional Credentials & Achievements
-> **For AI Agents / LLMs:** See [llms.txt](./llms.txt) for an AI-native directory index, [llms-full.txt](./llms-full.txt) for the complete consolidated context, or [credentials.jsonld](./credentials.jsonld) for Schema.org linked data.
+> **For AI Agents / LLMs:** See [llms.txt](./llms.txt) for an AI-native directory index, [llms-full.txt](./llms-full.txt) for the complete consolidated context, [credentials.jsonld](./credentials.jsonld) for full Schema.org linked data, [credentials.feed.json](./credentials.feed.json) for the compact JSON machine feed, or [credentials.ndjson](./credentials.ndjson) for the streaming newline-delimited feed.
 
 Hello, I'm Vojislav Miloradović
 This is an automated, AI-readable repository aggregating my verified professional credentials, certifications, and learning achievements.
@@ -237,6 +237,13 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 <!-- GOOGLE_DEVELOPER_END -->
 
 
+## Machine-Readable Structured Data & Feeds
+
+All structured machine outputs are generated directly from normalized L1 records (`for_validation/*.json`) and preserve stable `sourceRecordId`, deterministic `sourceHash`, ISO-8601 dates, retirement metadata, `evidenceLevel`, `verificationStatus`, `verificationUrlKind`, and TTL-cached `lastVerifiedAt` timestamps:
+
+- **[credentials.jsonld](./credentials.jsonld)** — Full Schema.org `ProfilePage` / `EducationalOccupationalCredential` linked data for Semantic Web and JSON-LD consumers.
+- **[credentials.feed.json](./credentials.feed.json)** — Compact, minified single-file JSON feed with `countsByPlatform` and lean credential objects (omitting Schema.org `@context`/`@type` boilerplate) for token-efficient AI and programmatic ingestion.
+- **[credentials.ndjson](./credentials.ndjson)** — Newline-delimited JSON stream (one compact credential record per line) for streaming parsers, `jq`, RAG chunking, and incremental pipelines.
 
 ## Other Profiles
 * [Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
@@ -259,7 +266,7 @@ This document represents a unified, verifiable list of all 1247 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-25T23:42:48.208299+00:00 -->
+<!-- retrieved_at: 2026-11-28T11:56:11.265542+00:00 -->
 
 ## Verified Records Archive
 
@@ -11950,10 +11957,12 @@ This document represents a unified, verifiable list of all 5086 records.
 
 --- END FILE: archives/microsoft-learn-complete.md ---
 
---- BEGIN FILE: credentials.jsonld (Schema.org JSON-LD) ---
+--- BEGIN SECTION: STRUCTURED DATA & COMPACT MACHINE FEEDS ---
 
-> **Structured Linked Data:** Available at [credentials.jsonld](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.jsonld)
-> Contains all credentials as Schema.org EducationalOccupationalCredential objects.
-> Not embedded here to avoid duplication (same data as markdown archives).
+All structured outputs below are generated directly from normalized L1 records (`for_validation/*.json`) and preserve stable `sourceRecordId`, deterministic `sourceHash`, ISO-8601 dates, retirement metadata, `evidenceLevel`, `verificationStatus`, `verificationUrlKind`, and TTL-cached `lastVerifiedAt` timestamps. They are referenced here rather than embedded verbatim to avoid duplicating the markdown archive tables above.
 
---- END FILE: credentials.jsonld ---
+- **Schema.org JSON-LD (`credentials.jsonld`)**: Available at [credentials.jsonld](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.jsonld). Full `ProfilePage` / `EducationalOccupationalCredential` graph for Semantic Web and JSON-LD consumers.
+- **Compact JSON Machine Feed (`credentials.feed.json`)**: Available at [credentials.feed.json](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.feed.json). Minified, token-optimized single-file JSON with `countsByPlatform` and lean records (no repeated `@context`/`@type` boilerplate).
+- **Streaming NDJSON Machine Feed (`credentials.ndjson`)**: Available at [credentials.ndjson](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.ndjson). Newline-delimited JSON with one compact credential record per line for streaming parsers, `jq`, and RAG chunking.
+
+--- END SECTION: STRUCTURED DATA & COMPACT MACHINE FEEDS ---

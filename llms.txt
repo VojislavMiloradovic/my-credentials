@@ -1,6 +1,6 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-11-28 05:52 UTC
+> **Last Generated:** 2026-11-28 11:56 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
@@ -40,8 +40,12 @@ For tools with large context windows, complete datasets are available:
 - [Linkedin Certifications Complete](./archives/linkedin-certifications-complete.md) (426.43 KB, 149,446 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md
 - [Microsoft Learn Complete](./archives/microsoft-learn-complete.md) (921.19 KB, 236,179 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
 
-## JSON-LD Structured Data
-Full Schema.org linked data available at [credentials.jsonld](../credentials.jsonld) (`12054.07 KB`)
+## JSON-LD Structured Data & Compact Machine Feeds
+Generated directly from normalized L1 records (`for_validation/*.json`) with deterministic `sourceRecordId`, `sourceHash`, ISO-8601 dates, retirement metadata, evidence classification (`evidenceLevel`, `verificationUrlKind`), and assertion verification timestamps (`lastVerifiedAt`):
+
+- **Schema.org Linked Data (`credentials.jsonld`)**: Full `ProfilePage` / `EducationalOccupationalCredential` graph for Semantic Web and JSON-LD consumers. File: [credentials.jsonld](./credentials.jsonld) (`13528.79 KB`) | Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.jsonld
+- **Compact JSON Machine Feed (`credentials.feed.json`)**: Minified, token-optimized single-file JSON containing `countsByPlatform` and lean credential records (no repeated `@context`/`@type` boilerplate) for AI agents and fast full-portfolio loading. File: [credentials.feed.json](./credentials.feed.json) (`8611.83 KB`) | Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.feed.json
+- **Streaming NDJSON Machine Feed (`credentials.ndjson`)**: Newline-delimited JSON with one compact credential record per line, ideal for streaming parsers, `jq`, RAG chunking, and incremental ingestion. File: [credentials.ndjson](./credentials.ndjson) (`8611.48 KB`) | Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.ndjson
 
 ---
 *Generated automatically from live archive data. See [GitHub Actions](https://github.com/VojislavMiloradovic/my-credentials/actions) for build logs.*
