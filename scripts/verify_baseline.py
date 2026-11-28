@@ -88,7 +88,20 @@ def count_validation_records(platform: str) -> int:
     return len(unique_ids)
 
 
-def main() -> int:
+def main(argv: list[str] | None = None) -> int:
+    import argparse
+    import os
+
+    parser = argparse.ArgumentParser(description="Verify baseline fingerprints")
+    parser.add_argument(
+        "--root-dir",
+        default=None,
+        help="Optional repository/staging directory root to validate inside",
+    )
+    args = parser.parse_args([] if argv is None else argv)
+    if args.root_dir:
+        os.chdir(args.root_dir)
+
     failed = False
     for platform in PLATFORMS:
         b = count_baseline_fingerprints(platform)
@@ -116,4 +129,4 @@ def main() -> int:
 
 
 if __name__ == "__main__":
-    sys.exit(main())
+    sys.exit(main(sys.argv[1:]))
