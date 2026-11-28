@@ -32,7 +32,7 @@ on:
         required: false
         type: string
         description: 'JSON array of paths to stage (default: all standard artifacts)'
-        default: '["for_validation/", "archives/", "README.md", "credentials.jsonld", "llms.txt", "llms-full.txt", "validation_reports/", "retired_urls.json"]'
+        default: '["for_validation/", "archives/", "README.md", "credentials.jsonld", "credentials.feed.json", "credentials.ndjson", "llms.txt", "llms-full.txt", "validation_reports/", "retired_urls.json"]'
 
 jobs:
   update-credentials:
@@ -101,18 +101,14 @@ jobs:
       - name: Execute Scraper Script
         env:
           GOOGLE_PROFILE_ID: ${{ inputs.profile_id_value }}
-        run: uv run python ${{ inputs.script_name }}
+        run: |
+          uv run python publish_staged.py \
+            --mode full \
+            --script "${{ inputs.script_name }}" \
+            --stage-only \
+            --stage-dir .staging_ci
 
-      - name: Generate JSON-LD Linked Data
-        run: uv run python generate_jsonld.py
-
-      - name: Generate LLMs.txt Directory Files
-        run: uv run python generate_llms_txt.py
-
-      - name: Generate LLMs-Full Consolidated Export
-        run: uv run python generate_llms_full.py
-
-      # Strategy 1: Cross-Artifact Validation (Strict Mode) - Pre-commit validation
+      # Strategy 1: Cross-Artifact Validation (Strict Mode) - Pre-promotion staged validation
       - name: Run Cross-Artifact Validation (Strict Mode)
         run: |
           mkdir -p validation_reports
@@ -121,16 +117,23 @@ jobs:
             ls -t validation_reports/pre_commit_report_*.json 2>/dev/null | tail -n +4 | xargs -r rm -f
           fi
           TIMESTAMP=$(date +%Y%m%d_%H%M%S)
-          uv run python cross_artifact_validator.py --mode strict --report validation_reports/pre_commit_report_${TIMESTAMP}.json
+          uv run python cross_artifact_validator.py --mode strict --root-dir .staging_ci --report validation_reports/pre_commit_report_${TIMESTAMP}.json
 
-      # Strategy 2: Manifest Validation (Strict Mode) - Pre-commit validation
+      # Strategy 2: Manifest Validation (Strict Mode) - Pre-promotion staged validation
       - name: Run Manifest Validation (Strict Mode)
-        run: |
-          uv run python validate_manifest.py
+        run: uv run python validate_manifest.py --root-dir .staging_ci
 
-      # Strategy 4: Baseline Consistency Verification
+      # Strategy 4: Baseline Consistency Verification - Pre-promotion staged validation
       - name: Verify Baseline Consistency
-        run: uv run python scripts/verify_baseline.py
+        run: uv run python scripts/verify_baseline.py --root-dir .staging_ci
+
+      # Strategy 5: Atomic Promotion of Validated Staged Artifacts & Baselines
+      - name: Promote Validated Staged Artifacts
+        run: uv run python publish_staged.py --promote-stage .staging_ci
+
+      - name: Cleanup Staging Workspace
+        if: always()
+        run: uv run python publish_staged.py --cleanup-stage .staging_ci
 
       # Strategy 3: Targeted Pipeline Tests (Pre-commit validation)
       # Runs in isolated workspace to prevent test data contamination of production files
@@ -156,9 +159,9 @@ jobs:
           # We need: tests/, update_*.py, pipeline_base.py, loss_guard.py, archiver.py, 
           # layer_manifest.py, models/, scripts/, dataset_layers.yaml, pyproject.toml, uv.lock
           rsync -aq --exclude='.git' --exclude='__pycache__' --exclude='.pytest_cache' \
-            --exclude='for_validation' --exclude='archives' --exclude='validation_reports' \
+            --exclude='.staging_*' --exclude='for_validation' --exclude='archives' --exclude='validation_reports' \
             --exclude='data/*.json' --exclude='data/*.mhtml*' --exclude='*.md' --exclude='credentials.jsonld' \
-            --exclude='llms.txt' --exclude='llms-full.txt' \
+            --exclude='credentials.feed.json' --exclude='credentials.ndjson' --exclude='llms.txt' --exclude='llms-full.txt' \
             . "$TEST_WORKSPACE/"
           
           # Also copy test fixtures
@@ -192,7 +195,7 @@ jobs:
           }
           
           # 2. Required paths present (core artifacts that must always be staged)
-          REQUIRED_PATHS=("for_validation/" "archives/" "README.md" "credentials.jsonld" "llms.txt" "llms-full.txt")
+          REQUIRED_PATHS=("for_validation/" "archives/" "README.md" "credentials.jsonld" "credentials.feed.json" "credentials.ndjson" "llms.txt" "llms-full.txt")
           for req in "${REQUIRED_PATHS[@]}"; do
             if ! echo "$ARTIFACT_PATHS" | jq -e --arg p "$req" 'index($p)' >/dev/null; then
               echo "❌ Required artifact path missing: $req"
