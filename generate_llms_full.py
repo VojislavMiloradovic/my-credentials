@@ -179,7 +179,13 @@ def generate_llms_full():
 
 
 def main(argv: list[str] | None = None) -> None:
-    global README_PATH, ARCHIVE_DIR, JSONLD_PATH, FEED_JSON_PATH, FEED_NDJSON_PATH, LLMS_FULL_PATH
+    global \
+        README_PATH, \
+        ARCHIVE_DIR, \
+        JSONLD_PATH, \
+        FEED_JSON_PATH, \
+        FEED_NDJSON_PATH, \
+        LLMS_FULL_PATH
     parser = argparse.ArgumentParser(description="Generate llms-full.txt export.")
     parser.add_argument("--readme", default=None)
     parser.add_argument("--archive-dir", default=None)
