@@ -96,13 +96,12 @@ class TestCliSmoke:
 
         assert hasattr(verify_assertions, "main")
 
-    def test_main_functions_callable(self, mock_loss_guard):
+    def test_main_functions_callable(self, mock_loss_guard, tmp_path, monkeypatch):
         """All main functions should be callable (with mocked dependencies)."""
-        from unittest.mock import patch
-
+        monkeypatch.chdir(tmp_path)
         with (
             patch("update_ms_learn.os.path.exists", return_value=False),
-            patch("update_ms_learn.sys.exit") as mock_exit,
+            patch("update_ms_learn.sys.exit", side_effect=SystemExit(1)) as mock_exit,
         ):
             import update_ms_learn
 
@@ -112,8 +111,9 @@ class TestCliSmoke:
                 pass
             mock_exit.assert_called_with(1)
 
-    def test_update_scripts_exit_codes(self, mock_loss_guard):
+    def test_update_scripts_exit_codes(self, mock_loss_guard, tmp_path, monkeypatch):
         """All update scripts should exit with code 1 on missing input."""
+        monkeypatch.chdir(tmp_path)
         scripts = [
             "update_ms_learn",
             "update_google_skills",
@@ -136,12 +136,26 @@ class TestCliSmoke:
                     except Exception:
                         pass
 
-    def test_generate_scripts_runnable(self, mock_loss_guard):
-        """Generation scripts should be runnable with mocked I/O."""
+    def test_generate_scripts_runnable(self, mock_loss_guard, tmp_path, monkeypatch):
+        """Generation scripts should be runnable in an isolated workspace."""
+        monkeypatch.chdir(tmp_path)
         with (
-            patch("generate_jsonld.os.path.exists", return_value=False),
-            patch("generate_jsonld.glob.glob", return_value=[]),
-            patch("builtins.open", MagicMock()),
+            patch("generate_jsonld.VALIDATION_DIR", str(tmp_path / "for_validation")),
+            patch("generate_jsonld.ARCHIVE_DIR", str(tmp_path / "archives")),
+            patch("generate_jsonld.README_PATH", str(tmp_path / "README.md")),
+            patch("generate_jsonld.JSONLD_PATH", str(tmp_path / "credentials.jsonld")),
+            patch(
+                "generate_jsonld.FEED_JSON_PATH",
+                str(tmp_path / "credentials.feed.json"),
+            ),
+            patch(
+                "generate_jsonld.FEED_NDJSON_PATH",
+                str(tmp_path / "credentials.ndjson"),
+            ),
+            patch(
+                "generate_jsonld.ACTIVE_VERIFICATIONS_PATH",
+                str(tmp_path / "data" / "active_verifications.json"),
+            ),
             patch("generate_jsonld.jsonschema.validate"),
         ):
             import generate_jsonld
@@ -151,13 +165,13 @@ class TestCliSmoke:
             except SystemExit:
                 pass
             except Exception:
-                pass  # Expected with mocked I/O
+                pass  # Expected with empty isolated workspace
 
-    def test_sanitize_ms_export_cli(self, mock_loss_guard):
+    def test_sanitize_ms_export_cli(self, mock_loss_guard, tmp_path, monkeypatch):
         """sanitize_ms_export.py should accept file argument."""
-        import sys
-
         import sanitize_ms_export
+
+        monkeypatch.chdir(tmp_path)
 
         def mock_exit(code):
             raise SystemExit(code)
@@ -187,6 +201,7 @@ class TestScriptHelp:
             "generate_jsonld",
             "generate_llms_txt",
             "generate_llms_full",
+            "publish_staged",
             "sanitize_ms_export",
             "build_exclude",
             "verify_assertions",
@@ -199,9 +214,9 @@ class TestScriptHelp:
             # Check for a function call after main guard (various patterns)
             main_section = content[content.index('if __name__ == "__main__":') :]
             has_call = (
-                f"{script_name}.main()" in main_section
-                or f"{script_name}()" in main_section
-                or "main()" in main_section
+                f"{script_name}.main(" in main_section
+                or f"{script_name}(" in main_section
+                or "main(" in main_section
                 or "process_file" in main_section
             )
             assert has_call, f"No function call found in main guard for {script_name}"
