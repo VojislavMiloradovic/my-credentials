@@ -15,13 +15,14 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Implement secure AI-ready infrastructure with Azure services** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-secure-ai-ready-infrastructure-azure-services/) |
 | **Explore AI governance for AI ready infrastructure** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/explore-ai-governance-ai-ready-infrastructure/) |
 | **Develop a speech agent with the Azure Speech MCP server** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-speech-agent-speech-mcp/) |
 | **Configure AI-ready infrastructure with Microsoft Foundry** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-ai-ready-infrastructure-microsoft-foundry/) |
 | **Leverage quality reporting tools in PowerScribe One** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/powerscribe-one-leverage-quality-reporting-tools/) |
 | **Configure chat and digital channels in Dynamics 365 Contact Center** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-chat-digital-channels-contact-center/) |
-| **Develop understanding with the Study and Learn Agent in the Microsoft 365 Copilot app** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-understanding-study-learn-agent-copilot-app/) |
 | **Manage and design with AI** | Learningpaths | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/manage-design-ai/) |
+| **Develop understanding with the Study and Learn Agent in the Microsoft 365 Copilot app** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/develop-understanding-study-learn-agent-copilot-app/) |
 | **Introduction to Microsoft Surface Laptop for Business, 13-inch (1st Edition)** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-surface-laptop-13-1st-edition/) |
 | **Introduction to Azure Functions in IoT solutions** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-azure-functions-iot/) |
 | **Discover faster insights with Improved Windows Search** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/improved-windows-search/) |
@@ -37,7 +38,6 @@ artifacts: complete, index
 | **Identify and Prioritize High-Impact AI Agent Use Cases** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/identify-ai-agent-use-case/) |
 | **Forecast the return on investment (ROI) of AI agents** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/forecast-agent-return-investment/) |
 | **Architect scalable and cost-efficient AI agent solutions on Azure** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/architect-scalable-ai-agent-solutions/) |
-| **Optimize Azure reliability by using Azure SRE Agent** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-azure-reliability-with-sre-agent/) |
 | **Prepare and process data with Azure Databricks** | Learningpaths | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/paths/azure-databricks-data-engineer-prepare-process-data/) |
 | **Design and implement data modeling with Azure Databricks** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-data-modeling-unity-catalog/) |
 | **Develop PostgreSQL solutions in Visual Studio Code with the PostgreSQL extension and GitHub Copilot** | Modules | 2026-05-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/enhance-postgresql-development-github-copilot-visual-studio-code/) |

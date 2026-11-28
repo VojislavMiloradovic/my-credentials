@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 95 of 100
-date_range: 2026-08-15 to 2026-09-26
+date_range: 2026-08-19 to 2026-09-26
 total_entries: 51
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-09-part-95.md
 layer: L2_published
@@ -15,13 +15,14 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Enable productive work from anywhere with Surface Pro for Business, 12-inch (2nd Edition)** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-pro-12-inch-2nd-edition-2026-09/) |
 | **Deploy offline root and issuing Active Directory Certificate Services certification authorities** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-services-root-issuing-authority/) |
 | **Support mobile productivity with Surface Laptop for Business 13-inch** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-laptop-13-inch-business/) |
 | **Use Copilot wisely - balancing usage, cost, and value** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/balance-cost-usage-value-copilot/) |
 | **Active Directory Certificate Services roles and topology** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/certificate-services-roles-topology/) |
 | **Get started with Microsoft AI models in Foundry** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-ai-in-foundry/) |
-| **GitHub Copilot Fundamentals Part 2 of 2** | Learningpaths | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
 | **Accelerate development with GitHub Copilot Cloud Agent** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/github-copilot-code-agent/) |
+| **GitHub Copilot Fundamentals Part 2 of 2** | Learningpaths | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/gh-copilot-2/) |
 | **Harden a Microsoft 365 tenant with Microsoft Secure Score** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/harden-microsoft-365-secure-score/) |
 | **How to support usage and adoption** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/how-to-support-usage-adoption/) |
 | **What practice manager can expect** | Modules | 2026-09-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-practice-manager-can-expect/) |
@@ -65,7 +66,6 @@ artifacts: complete, index
 | **Write reusable code** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/write-reusable-code-python/) |
 | **Organize data with collections** | Modules | 2026-08-24 | [Verify](https://learn.microsoft.com/en-us/training/modules/organize-data-with-collections-python/) |
 | **Advanced Active Directory back up and recovery** | Modules | 2026-08-19 | [Verify](https://learn.microsoft.com/en-us/training/modules/active-directory-backup-recovery/) |
-| **Introduction to Azure SRE Agent** | Modules | 2026-08-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/intro-to-azure-sre-agent/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-96.md](./microsoft-learn-2026-10-part-96.md)

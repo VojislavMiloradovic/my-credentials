@@ -15,6 +15,7 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Get started with the SharePoint Framework** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/sharepoint-spfx-get-started/) |
 | **Build applications on the cloud** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-build-apps-cloud/) |
 | **Develop a Site Reliability Engineering (SRE) strategy** | Learningpaths | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-400-develop-sre-strategy/) |
 | **Scale your cloud resources with elasticity** | Modules | 2026-07-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/cmu-cloud-elasticity/) |
@@ -67,7 +68,6 @@ artifacts: complete, index
 | **MS-4021 Copilot Immersion Experience** | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/copilot-immersion-experience/) |
 | **Get started with the Dynamics 365 Sales mobile app** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-sales-mobile-app/) |
 | **Generate and qualify leads using AI in Dynamics 365 Sales** | Learningpaths | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/generate-qualify-leads-ai-sales/) |
-| **Engage with customers through text messages in Dynamics 365 Sales** | Modules | 2026-07-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/engage-customers-text-messages/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-07-part-92.md](./microsoft-learn-2026-07-part-92.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-08-part-94.md](./microsoft-learn-2026-08-part-94.md)

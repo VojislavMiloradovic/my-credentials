@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 80 of 100
 date_range: 2026-05-25 to 2026-05-31
-total_entries: 50
+total_entries: 49
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-05-part-80.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -22,8 +22,8 @@ artifacts: complete, index
 | **Configure GitHub Copilot instructions and create custom agents** | Modules | 2026-05-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/configure-customize-github-copilot-visual-studio-code/) |
 | **Explore SQL Server 2025 capabilities** | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/explore-sql-server-capabilities/) |
 | **Transform development workflows with T-SQL in SQL Server 2025** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/introduction-sql-server-t-sql-enhancements/) |
-| **Integrate SQL solutions with Azure services** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-solutions-azure-services/) |
 | **Secure, optimize, and deploy database solutions** | Learningpaths | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/secure-optimize-deploy-database-solutions/) |
+| **Integrate SQL solutions with Azure services** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-sql-solutions-azure-services/) |
 | **Implement SQL solutions by using AI-assisted tools** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-sql-solutions-ai-assisted-tools/) |
 | **Design and implement database objects with SQL** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-database-objects/) |
 | **Optimize database performance** | Modules | 2026-05-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-database-performance/) |
@@ -64,7 +64,6 @@ artifacts: complete, index
 | **Design and implement RAG with SQL** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-implement-rag-with-sql/) |
 | **Manage accounts receivable** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/implement-accounts-receivable-credit-collections-revenue-recognition/) |
 | **Implement cost management in Dynamics 365 Finance** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-cost-management/) |
-| **Customer and vendor netting in Dynamics 365 Finance** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/netting-customer-vendor/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-79.md](./microsoft-learn-2026-05-part-79.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-06-part-81.md](./microsoft-learn-2026-06-part-81.md)

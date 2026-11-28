@@ -1,7 +1,7 @@
 ---
 archive_platform: microsoft-learn
 chunk_part: 99 of 100
-date_range: 2026-10-15 to 2026-11-15
+date_range: 2026-10-15 to 2026-11-23
 total_entries: 53
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-99.md
 layer: L2_published
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Azure virtual machine rightsizing** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-capacity-cost-optimization/) |
+| **Identify Azure virtual machine performance bottlenecks** | Modules | 2026-11-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-compute-disk-performance/) |
 | **Plan integrated security operations using ISOC in Microsoft Defender** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/plan-integrated-security-operations-microsoft-defender/) |
 | **Understand Network ATC on Windows Server 2025** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/understand-network-atc-windows-server/) |
 | **Manage and analyze Business Central telemetry** | Modules | 2026-11-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-analyze-telemetry/) |
@@ -66,8 +68,6 @@ artifacts: complete, index
 | **Prepare Azure Local hardware and identity readiness** | Modules | 2026-10-31 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-local-hardware-identity-readiness/) |
 | **Restrict unauthorized code execution with Code Integrity policies on Windows Server** | Modules | 2026-10-23 | [Verify](https://learn.microsoft.com/en-us/training/modules/app-control-windows-server/) |
 | **Extend Dataverse with code and Azure compute** | Learningpaths | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/paths/extend-dataverse-code-azure/) |
-| **Get started with Microsoft Power Platform development** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/get-started-power-platform-development/) |
-| **Build reusable controls with Power Apps component framework** | Modules | 2026-10-15 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-power-apps-component-framework-code-components/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-10-part-98.md](./microsoft-learn-2026-10-part-98.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-11-part-100.md](./microsoft-learn-2026-11-part-100.md)

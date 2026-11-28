@@ -1,10 +1,10 @@
 # Vojislav Miloradovic - Machine-Readable Credentials Archive
 
-> **Last Generated:** 2026-11-28 20:29 UTC
+> **Last Generated:** 2026-11-28 21:35 UTC
 > Curated, structured, and token-optimized record of professional certifications, badges, and learning achievements across Microsoft Learn, AWS, Google Cloud, Credly, LinkedIn, and Google Developer.
 
 ## Portfolio Overview & Total Counts
-- **Microsoft Learn**: 37,954 completed units | 5,086 total achievements | 6,378,875 XP
+- **Microsoft Learn**: 38,003 completed units | 5,094 total achievements | 6,386,475 XP
 - **Google Cloud Skills**: 445 badges
 - **AWS Skill Builder**: 1,247 completed courses/activities
 - **Credly**: 846 credentials
@@ -12,13 +12,13 @@
 - **Google Developer**: 172 milestone badges | 1,763 codelabs & activities
 
 ## Domain Focus & Skill Taxonomy
-Dynamic classification of ~11,563 parsed portfolio achievements across 5 primary tech domains:
+Dynamic classification of ~11,571 parsed portfolio achievements across 5 primary tech domains:
 
-- **[AI]  AI, Machine Learning & Data**: 3,783 achievements (32.7%)
-- ** DevOps, Security & Governance**: 1,256 achievements (10.9%)
-- ** Cloud & Infrastructure**: 1,912 achievements (16.5%)
+- **[AI]  AI, Machine Learning & Data**: 3,788 achievements (32.7%)
+- ** DevOps, Security & Governance**: 1,258 achievements (10.9%)
+- ** Cloud & Infrastructure**: 1,913 achievements (16.5%)
 - **[Dev]  App Engineering & Software Development**: 1,402 achievements (12.1%)
-- **[Biz]  Enterprise & Professional Development**: 3,210 achievements (27.8%)
+- **[Biz]  Enterprise & Professional Development**: 3,210 achievements (27.7%)
 
 ## Platform Master Indexes
 Use these index files to navigate chunked historical records without exceeding context limits.
@@ -38,14 +38,14 @@ For tools with large context windows, complete datasets are available:
 - [Google Developer Complete](./archives/google-developer-complete.md) (344.57 KB, 88,064 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-developer-complete.md
 - [Google Skills Complete](./archives/google-skills-complete.md) (85.28 KB, 28,781 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/google-skills-complete.md
 - [Linkedin Certifications Complete](./archives/linkedin-certifications-complete.md) (426.43 KB, 149,446 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/linkedin-certifications-complete.md
-- [Microsoft Learn Complete](./archives/microsoft-learn-complete.md) (921.19 KB, 236,179 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
+- [Microsoft Learn Complete](./archives/microsoft-learn-complete.md) (922.76 KB, 236,589 tokens) Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-complete.md
 
 ## JSON-LD Structured Data & Compact Machine Feeds
 Generated directly from normalized L1 records (`for_validation/*.json`) with deterministic `sourceRecordId`, `sourceHash`, ISO-8601 dates, retirement metadata, evidence classification (`evidenceLevel`, `verificationUrlKind`), and assertion verification timestamps (`lastVerifiedAt`):
 
-- **Schema.org Linked Data (`credentials.jsonld`)**: Full `ProfilePage` / `EducationalOccupationalCredential` graph for Semantic Web and JSON-LD consumers. File: [credentials.jsonld](./credentials.jsonld) (`13528.04 KB`) | Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.jsonld
-- **Compact JSON Machine Feed (`credentials.feed.json`)**: Minified, token-optimized single-file JSON containing `countsByPlatform` and lean credential records (no repeated `@context`/`@type` boilerplate) for AI agents and fast full-portfolio loading. File: [credentials.feed.json](./credentials.feed.json) (`8611.30 KB`) | Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.feed.json
-- **Streaming NDJSON Machine Feed (`credentials.ndjson`)**: Newline-delimited JSON with one compact credential record per line, ideal for streaming parsers, `jq`, RAG chunking, and incremental ingestion. File: [credentials.ndjson](./credentials.ndjson) (`8610.95 KB`) | Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.ndjson
+- **Schema.org Linked Data (`credentials.jsonld`)**: Full `ProfilePage` / `EducationalOccupationalCredential` graph for Semantic Web and JSON-LD consumers. File: [credentials.jsonld](./credentials.jsonld) (`13536.74 KB`) | Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.jsonld
+- **Compact JSON Machine Feed (`credentials.feed.json`)**: Minified, token-optimized single-file JSON containing `countsByPlatform` and lean credential records (no repeated `@context`/`@type` boilerplate) for AI agents and fast full-portfolio loading. File: [credentials.feed.json](./credentials.feed.json) (`8616.62 KB`) | Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.feed.json
+- **Streaming NDJSON Machine Feed (`credentials.ndjson`)**: Newline-delimited JSON with one compact credential record per line, ideal for streaming parsers, `jq`, RAG chunking, and incremental ingestion. File: [credentials.ndjson](./credentials.ndjson) (`8616.27 KB`) | Raw: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/credentials.ndjson
 
 ---
 *Generated automatically from live archive data. See [GitHub Actions](https://github.com/VojislavMiloradovic/my-credentials/actions) for build logs.*

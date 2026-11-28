@@ -15,11 +15,12 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Customer and vendor netting in Dynamics 365 Finance** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/netting-customer-vendor/) |
 | **Configure financial management** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/set-up-configure-financial-management-work-general-ledger/) |
 | **Manage Azure DevOps by using MCP Server** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-ado-mcp-server/) |
 | **Manage Azure Boards by using GitHub Copilot integration** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-azure-boards-using-github-copilot/) |
-| **Extract data with Azure Document Intelligence** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-data-with-document-intelligence/) |
 | **Extract insights from visual data on Azure** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/insight-visual-data/) |
+| **Extract data with Azure Document Intelligence** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/extract-data-with-document-intelligence/) |
 | **Design dimensional models for analytics in Microsoft Fabric** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-dimensional-models-fabric/) |
 | **Design and transform analytics data in Microsoft Fabric** | Learningpaths | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/paths/design-transform-analytics-data/) |
 | **Build secure agents for public sector services** | Modules | 2026-05-25 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-secure-agents-public-sector-services/) |
@@ -65,7 +66,6 @@ artifacts: complete, index
 | **Run governed AI workloads with Microsoft Foundry** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/run-governed-ai-workloads-microsoft-foundry/) |
 | **Manage prompts for agents in Microsoft Foundry with GitHub** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/prompt-versioning-genaiops/) |
 | **Operationalize generative AI applications (GenAIOps)** | Learningpaths | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/paths/operationalize-gen-ai-apps/) |
-| **Implement secure AI-ready infrastructure with Azure services** | Modules | 2026-05-20 | [Verify](https://learn.microsoft.com/en-us/training/modules/implement-secure-ai-ready-infrastructure-azure-services/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-05-part-78.md](./microsoft-learn-2026-05-part-78.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-05-part-80.md](./microsoft-learn-2026-05-part-80.md)

@@ -14,13 +14,13 @@ Welcome to my portfolio! Here is my live learning history:
 
 **Public Profile:** [Verify Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
 
-- **Total Experience Points (XP):** 6,378,875
+- **Total Experience Points (XP):** 6,386,475
 - **Current Learning Level:** Level 20
-- **Badges Earned (Profile):** 4,150
-- **Trophies Earned (Profile):** 936
-- **Completed Learning Paths (Active Tracker):** 534
-- **Completed Modules (Active Tracker):** 2,863
-- **Completed Individual Units:** 37,954
+- **Badges Earned (Profile):** 4,155
+- **Trophies Earned (Profile):** 939
+- **Completed Learning Paths (Active Tracker):** 538
+- **Completed Modules (Active Tracker):** 2,869
+- **Completed Individual Units:** 38,003
 
 ### Verifiable Applied Skills & Credentials
 - **Enhance Agents With Autonomous Capabilities** (Credential ID: `A2805BBD40427267` | Earned: 2026-10-31T02:40:58+00:00 | Status: Active)
@@ -39,20 +39,20 @@ Welcome to my portfolio! Here is my live learning history:
 - **Create An Ai Agent** (Credential ID: `DC86763A7069ABBF` | Earned: 2026-03-14T11:52:24+00:00 | Status: Active)
 
 ### Recent Achievements & Completed Badges
-Showing latest 10 of 5,086 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-11-part-100.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-100.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
+Showing latest 10 of 5,094 achievements. View full dataset via [Platform Archive Index](./archives/microsoft-learn-index.md) ([Raw Index](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-index.md)), latest slice [Latest Slice](./archives/microsoft-learn-2026-11-part-100.md) ([Raw](https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-11-part-100.md)), or [Monolithic Complete File](./archives/microsoft-learn-complete.md).
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
-| **Build and ship data-driven apps using Fabric Apps** | Learningpaths | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/build-ship-data-driven-apps-fabric-apps/) |
-| **Release, share, and monitor Fabric apps across environments** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/release-operate-fabric-apps-environments/) |
-| **Evaluate Fabric Apps by deploying a first app to Microsoft Fabric** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/evaluate-fabric-apps-deploy-first-app/) |
-| **Design and evolve app data models using Fabric Apps** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-evolve-app-data-models-fabric-apps/) |
-| **Build data-driven app features using the Fabric Apps SDK** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-data-driven-features-fabric-apps-sdk/) |
-| **Build and review Fabric apps using AI coding agents** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-review-fabric-apps-ai-coding-agents/) |
-| **Diagnose incidents on Azure virtual machines** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-incident-diagnosis/) |
-| **Diagnose and support Surface devices with Surface Repair Tool** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-repair-tool/) |
-| **Integrate existing Fabric data using Fabric Apps connectors** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/integrate-fabric-data-fabric-apps-connectors/) |
-| **Add secure server-side logic using Fabric Apps Functions** | Modules | 2026-11-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-server-side-logic-fabric-apps-functions/) |
+| **Optimize Azure reliability by using Azure SRE Agent** | Modules | 2026-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/optimize-azure-reliability-with-sre-agent/) |
+| **Optimize DevOps with AI agents on Azure** | Learningpaths | 2026-11-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/optimize-devops-ai-agents-azure/) |
+| **AZ-401: Operate and evolve agentic DevOps systems** | Learningpaths | 2026-11-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-401-operate-evolve-agentic-devops/) |
+| **Prepare Azure virtual machine workloads for platform maintenance** | Modules | 2026-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/azure-virtual-machine-platform-maintenance/) |
+| **Design observability and feedback for agentic DevOps** | Modules | 2026-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-observability-feedback-agentic-devops/) |
+| **AZ-401: Build and validate with governed AI assistance** | Learningpaths | 2026-11-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-401-build-validate-governed-ai/) |
+| **Manage source control and code review with GitHub Copilot** | Modules | 2026-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-source-control-code-review-github-copilot/) |
+| **Design release strategies and AI-assisted deployment pipelines** | Modules | 2026-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/design-release-strategies-ai-assisted-deployment-pipelines/) |
+| **AZ-401: Deploy safely with AI-assisted automation** | Learningpaths | 2026-11-28 | [Verify](https://learn.microsoft.com/en-us/training/paths/az-401-deploy-safely-ai-automation/) |
+| **Build and validate pipelines, containers, and artifacts with AI assistance** | Modules | 2026-11-28 | [Verify](https://learn.microsoft.com/en-us/training/modules/build-validate-pipelines-containers-artifacts-ai-assistance/) |
 <!-- MS_LEARN_END -->
 
 ## Google Skills Credentials

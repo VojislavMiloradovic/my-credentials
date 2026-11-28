@@ -2,7 +2,7 @@
 archive_platform: microsoft-learn
 chunk_part: 96 of 100
 date_range: 2026-09-26 to 2026-10-02
-total_entries: 51
+total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/microsoft-learn-2026-10-part-96.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,8 @@ artifacts: complete, index
 
 | Achievement Title | Category | Date Earned | Verification Link |
 | :--- | :--- | :--- | :--- |
+| **Build your first agent in Microsoft 365 Copilot Chat** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/create-copilot-agent/) |
+| **Perform advanced searches in mPower Clinical Analytics** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/mpower-clinical-analytics-perform-advanced-searches/) |
 | **Introduction to Microsoft AI models** | Learningpaths | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/paths/microsoft-ai/) |
 | **Use a Microsoft AI Code model for AI-assisted coding** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/microsoft-ai-code/) |
 | **Prepare an enterprise governance strategy for AI agents** | Modules | 2026-10-02 | [Verify](https://learn.microsoft.com/en-us/training/modules/enterprise-ai-strategy/) |
@@ -40,15 +42,15 @@ artifacts: complete, index
 | **Repeat actions with loops in C#** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-repeat-actions-loops/) |
 | **Ground agents in enterprise knowledge in Microsoft Copilot Studio (GitHub Copilot)** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ground-agents-enterprise-knowledge-github-copilot/) |
 | **Add human-in-the-loop steps to workflows for Copilot Studio agents** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/add-human-loop-workflows-copilot-studio/) |
-| **AI for Job Coaches in Supported Employment** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-job-coaches-supported-employment/) |
 | **Using AI to develop coaching materials** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/using-ai-to-develop-coaching-materials/) |
+| **AI for Job Coaches in Supported Employment** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-job-coaches-supported-employment/) |
 | **Supported employment values as the foundation for AI use** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/supported-employment-values-foundation-ai-use/) |
 | **Privacy, security, and responsible AI practices** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/privacy-security-responsible-ai-practices/) |
 | **Organize data with arrays and lists in C#** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/csharp-arrays-lists/) |
 | **Build an AI-supported coaching workflow** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/building-ai-supported-coaching-workflow/) |
 | **AI basics for job coaches** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/ai-basics-for-job-coaches/) |
-| **AI for people with intellectual and developmental disabilities** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-people-intellectual-developmental-disabilities/) |
 | **Use AI to communicate** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-to-communicate/) |
+| **AI for people with intellectual and developmental disabilities** | Learningpaths | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/paths/ai-people-intellectual-developmental-disabilities/) |
 | **Use AI to plan your day** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/use-ai-plan-your-day/) |
 | **How AI can help with work and school** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/how-ai-can-help-work-school/) |
 | **What is Artificial Intelligence (AI)?** | Modules | 2026-09-30 | [Verify](https://learn.microsoft.com/en-us/training/modules/what-is-artificial-intelligence/) |
@@ -65,7 +67,6 @@ artifacts: complete, index
 | **Run AI-generated code securely in Azure Container Apps dynamic sessions** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/dynamic-sessions-azure-container-apps/) |
 | **Manage usage and cost for agents in Microsoft Copilot Studio** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/manage-usage-cost-agents-copilot-studio/) |
 | **Surface for Business Accreditation 2026-2027** | Learningpaths | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/paths/surface-for-business-accreditation-2027/) |
-| **Enable productive work from anywhere with Surface Pro for Business, 12-inch (2nd Edition)** | Modules | 2026-09-26 | [Verify](https://learn.microsoft.com/en-us/training/modules/surface-pro-12-inch-2nd-edition-2026-09/) |
 
 ---
 > **Navigation:** Prev: [microsoft-learn-2026-09-part-95.md](./microsoft-learn-2026-09-part-95.md) | [Index](./microsoft-learn-index.md) | Next: [microsoft-learn-2026-10-part-97.md](./microsoft-learn-2026-10-part-97.md)
