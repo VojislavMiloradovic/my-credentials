@@ -6,9 +6,12 @@ Scrapes live counts from README.md and archive index files, categorizes achievem
 into tech domains, and produces a machine-readable index with platform master indexes.
 """
 
+import argparse
 import glob
 import os
 import re
+import sys
+import tempfile
 from datetime import UTC, datetime
 
 from archiver import count_tokens
@@ -17,9 +20,13 @@ from layer_manifest import get_platforms_with_l2_artifact
 README_PATH = "README.md"
 ARCHIVE_DIR = "archives"
 LLMS_PATH = "llms.txt"
-RAW_BASE_URL = (
-    "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives"
+JSONLD_PATH = "credentials.jsonld"
+FEED_JSON_PATH = "credentials.feed.json"
+FEED_NDJSON_PATH = "credentials.ndjson"
+RAW_REPO_BASE_URL = (
+    "https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main"
 )
+RAW_BASE_URL = f"{RAW_REPO_BASE_URL}/archives"
 
 DOMAIN_PATTERNS = [
     (
@@ -83,6 +90,61 @@ def _get_slice_configs():
 
 MONOLITH_CONFIGS = _get_monolith_configs()
 SLICE_CONFIGS = _get_slice_configs()
+
+
+def _get_size_kb(filepath: str) -> float:
+    """Safely return file size in KB, or 0.0 if missing."""
+    if not filepath or not os.path.exists(filepath):
+        return 0.0
+    try:
+        return round(os.path.getsize(filepath) / 1024, 2)
+    except OSError:
+        return 0.0
+
+
+def _atomic_write_text(filepath: str, content: str) -> None:
+    """Atomically write text content via a same-directory temp file and os.replace."""
+    parent_dir = os.path.dirname(filepath) or "."
+    os.makedirs(parent_dir, exist_ok=True)
+    tmp_path: str | None = None
+    try:
+        with tempfile.NamedTemporaryFile(
+            mode="w",
+            encoding="utf-8",
+            newline="\n",
+            dir=parent_dir,
+            prefix=f".{os.path.basename(filepath)}.",
+            suffix=".tmp",
+            delete=False,
+        ) as tmp_file:
+            tmp_path = tmp_file.name
+            tmp_file.write(content)
+            tmp_file.flush()
+        try:
+            os.replace(tmp_path, filepath)
+        except OSError:
+            if os.name != "nt" or not os.path.exists(filepath):
+                raise
+            backup_path = f"{filepath}.bak"
+            os.replace(filepath, backup_path)
+            try:
+                os.replace(tmp_path, filepath)
+            except OSError:
+                if not os.path.exists(filepath) and os.path.exists(backup_path):
+                    os.replace(backup_path, filepath)
+                raise
+            if os.path.exists(backup_path):
+                try:
+                    os.remove(backup_path)
+                except OSError:
+                    pass
+        tmp_path = None
+    finally:
+        if tmp_path and os.path.exists(tmp_path):
+            try:
+                os.remove(tmp_path)
+            except OSError:
+                pass
 
 
 def _get_file_stats(filepath: str) -> tuple[float, int]:
@@ -342,19 +404,53 @@ For tools with large context windows, complete datasets are available:
         raw_url = f"{RAW_BASE_URL}/{filename}"
         content += f"- [{title}](./archives/{filename}) ({size_kb:.2f} KB, {tokens:,} tokens) Raw: {raw_url}\n"
 
+    jsonld_kb = _get_size_kb(JSONLD_PATH)
+    feed_json_kb = _get_size_kb(FEED_JSON_PATH)
+    feed_ndjson_kb = _get_size_kb(FEED_NDJSON_PATH)
+
     content += f"""
-## JSON-LD Structured Data
-Full Schema.org linked data available at [credentials.jsonld](../credentials.jsonld) (`{os.path.getsize("credentials.jsonld") / 1024:.2f} KB`)
+## JSON-LD Structured Data & Compact Machine Feeds
+Generated directly from normalized L1 records (`for_validation/*.json`) with deterministic `sourceRecordId`, `sourceHash`, ISO-8601 dates, retirement metadata, evidence classification (`evidenceLevel`, `verificationUrlKind`), and assertion verification timestamps (`lastVerifiedAt`):
+
+- **Schema.org Linked Data (`credentials.jsonld`)**: Full `ProfilePage` / `EducationalOccupationalCredential` graph for Semantic Web and JSON-LD consumers. File: [credentials.jsonld](./credentials.jsonld) (`{jsonld_kb:.2f} KB`) | Raw: {RAW_REPO_BASE_URL}/credentials.jsonld
+- **Compact JSON Machine Feed (`credentials.feed.json`)**: Minified, token-optimized single-file JSON containing `countsByPlatform` and lean credential records (no repeated `@context`/`@type` boilerplate) for AI agents and fast full-portfolio loading. File: [credentials.feed.json](./credentials.feed.json) (`{feed_json_kb:.2f} KB`) | Raw: {RAW_REPO_BASE_URL}/credentials.feed.json
+- **Streaming NDJSON Machine Feed (`credentials.ndjson`)**: Newline-delimited JSON with one compact credential record per line, ideal for streaming parsers, `jq`, RAG chunking, and incremental ingestion. File: [credentials.ndjson](./credentials.ndjson) (`{feed_ndjson_kb:.2f} KB`) | Raw: {RAW_REPO_BASE_URL}/credentials.ndjson
 
 ---
 *Generated automatically from live archive data. See [GitHub Actions](https://github.com/VojislavMiloradovic/my-credentials/actions) for build logs.*
 """
-    with open(LLMS_PATH, "w", encoding="utf-8", newline="\n") as f:
-        f.write(content)
+    _atomic_write_text(LLMS_PATH, content)
 
     file_size_kb = os.path.getsize(LLMS_PATH) / 1024
     print(f"Successfully written {LLMS_PATH} ({file_size_kb:.2f} KB).")
 
 
-if __name__ == "__main__":
+def main(argv: list[str] | None = None) -> None:
+    global README_PATH, ARCHIVE_DIR, LLMS_PATH, JSONLD_PATH, FEED_JSON_PATH, FEED_NDJSON_PATH
+    parser = argparse.ArgumentParser(description="Generate llms.txt index file.")
+    parser.add_argument("--readme", default=None)
+    parser.add_argument("--archive-dir", default=None)
+    parser.add_argument("--output", default=None)
+    parser.add_argument("--jsonld", default=None)
+    parser.add_argument("--feed-json", default=None)
+    parser.add_argument("--feed-ndjson", default=None)
+    args = parser.parse_args([] if argv is None else argv)
+
+    if args.readme:
+        README_PATH = args.readme
+    if args.archive_dir:
+        ARCHIVE_DIR = args.archive_dir
+    if args.output:
+        LLMS_PATH = args.output
+    if args.jsonld:
+        JSONLD_PATH = args.jsonld
+    if args.feed_json:
+        FEED_JSON_PATH = args.feed_json
+    if args.feed_ndjson:
+        FEED_NDJSON_PATH = args.feed_ndjson
+
     generate_llms_txt()
+
+
+if __name__ == "__main__":
+    main(sys.argv[1:])
