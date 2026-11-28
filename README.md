@@ -1,5 +1,5 @@
 # Professional Credentials & Achievements
-> **For AI Agents / LLMs:** See [llms.txt](./llms.txt) for an AI-native directory index, [llms-full.txt](./llms-full.txt) for the complete consolidated context, or [credentials.jsonld](./credentials.jsonld) for Schema.org linked data.
+> **For AI Agents / LLMs:** See [llms.txt](./llms.txt) for an AI-native directory index, [llms-full.txt](./llms-full.txt) for the complete consolidated context, [credentials.jsonld](./credentials.jsonld) for full Schema.org linked data, [credentials.feed.json](./credentials.feed.json) for the compact JSON machine feed, or [credentials.ndjson](./credentials.ndjson) for the streaming newline-delimited feed.
 
 Hello, I'm Vojislav Miloradović
 This is an automated, AI-readable repository aggregating my verified professional credentials, certifications, and learning achievements.
@@ -229,6 +229,13 @@ Showing latest 10 merged activities. View full data via [Platform Archive Index]
 <!-- GOOGLE_DEVELOPER_END -->
 
 
+## Machine-Readable Structured Data & Feeds
+
+All structured machine outputs are generated directly from normalized L1 records (`for_validation/*.json`) and preserve stable `sourceRecordId`, deterministic `sourceHash`, ISO-8601 dates, retirement metadata, `evidenceLevel`, `verificationStatus`, `verificationUrlKind`, and TTL-cached `lastVerifiedAt` timestamps:
+
+- **[credentials.jsonld](./credentials.jsonld)** — Full Schema.org `ProfilePage` / `EducationalOccupationalCredential` linked data for Semantic Web and JSON-LD consumers.
+- **[credentials.feed.json](./credentials.feed.json)** — Compact, minified single-file JSON feed with `countsByPlatform` and lean credential objects (omitting Schema.org `@context`/`@type` boilerplate) for token-efficient AI and programmatic ingestion.
+- **[credentials.ndjson](./credentials.ndjson)** — Newline-delimited JSON stream (one compact credential record per line) for streaming parsers, `jq`, RAG chunking, and incremental pipelines.
 
 ## Other Profiles
 * [Microsoft Learn Profile](https://learn.microsoft.com/en-us/users/vojislavmiloradovic/)
