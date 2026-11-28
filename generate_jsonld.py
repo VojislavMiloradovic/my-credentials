@@ -673,7 +673,9 @@ def _record_to_jsonld(
         and verify_url_val
     ):
         cache_entry = active_verifications.get(verify_url_val)
-        if is_verified_and_fresh(cache_entry, ttl_days=ACTIVE_VERIFICATION_TTL_DAYS):
+        if cache_entry and is_verified_and_fresh(
+            cache_entry, ttl_days=ACTIVE_VERIFICATION_TTL_DAYS
+        ):
             last_verified_at = cache_entry.get("last_verified_at")
             if not retired and verification_status != VerificationStatus.EXPIRED:
                 verification_status = VerificationStatus.VERIFIED
@@ -1050,7 +1052,7 @@ def parse_archive_monoliths():
                     and verify_url_val
                 ):
                     cache_entry = active_verifications.get(verify_url_val)
-                    if is_verified_and_fresh(
+                    if cache_entry and is_verified_and_fresh(
                         cache_entry, ttl_days=ACTIVE_VERIFICATION_TTL_DAYS
                     ):
                         last_verified_at = cache_entry.get("last_verified_at")
@@ -1224,14 +1226,14 @@ def main(argv: list[str] | None = None):
     # Also align feed paths with JSONLD_PATH when tests patch generate_jsonld.JSONLD_PATH
     target_feed_json = FEED_JSON_PATH
     target_feed_ndjson = FEED_NDJSON_PATH
-    if JSONLD_PATH != "credentials.jsonld" and FEED_JSON_PATH == "credentials.feed.json":
+    if (
+        JSONLD_PATH != "credentials.jsonld"
+        and FEED_JSON_PATH == "credentials.feed.json"
+    ):
         target_feed_json = os.path.join(
             os.path.dirname(JSONLD_PATH) or ".", "credentials.feed.json"
         )
-    if (
-        JSONLD_PATH != "credentials.jsonld"
-        and FEED_NDJSON_PATH == "credentials.ndjson"
-    ):
+    if JSONLD_PATH != "credentials.jsonld" and FEED_NDJSON_PATH == "credentials.ndjson":
         target_feed_ndjson = os.path.join(
             os.path.dirname(JSONLD_PATH) or ".", "credentials.ndjson"
         )
