@@ -192,8 +192,21 @@ def validate_transform_types() -> bool:
     return all_ok
 
 
-def main():
+def main(argv: list[str] | None = None):
     """Main validation entry point."""
+    import argparse
+    import os
+
+    parser = argparse.ArgumentParser(description="Dataset layer manifest validator")
+    parser.add_argument(
+        "--root-dir",
+        default=None,
+        help="Optional repository/staging directory root to validate inside",
+    )
+    args = parser.parse_args([] if argv is None else argv)
+    if args.root_dir:
+        os.chdir(args.root_dir)
+
     print("=" * 60)
     print("[LIST] Dataset Layer Manifest Validation")
     print("=" * 60)
@@ -230,4 +243,4 @@ def main():
 
 
 if __name__ == "__main__":
-    main()
+    main(sys.argv[1:])
