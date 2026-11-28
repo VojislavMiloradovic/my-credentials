@@ -1739,6 +1739,12 @@
     "alive": true,
     "method": "HEAD"
   },
+  "https://www.credential.net/168c1ccd-1d66-436b-8bda-55a7b34a11b4": {
+    "last_verified_at": "2026-11-28T11:57:24.523101+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
   "https://www.credential.net/1c7fcb2a-fd59-436f-a70d-2fff539820d8": {
     "last_verified_at": "2026-11-27T11:25:59.141640+00:00",
     "http_status": 200,
@@ -1753,6 +1759,12 @@
   },
   "https://www.credential.net/36a6db1f-de51-4200-812c-e01de420a016": {
     "last_verified_at": "2026-11-27T11:25:58.389976+00:00",
+    "http_status": 200,
+    "alive": true,
+    "method": "HEAD"
+  },
+  "https://www.credential.net/427ae06a-65ad-4355-aca8-c9894e97e4bf": {
+    "last_verified_at": "2026-11-28T11:57:24.313287+00:00",
     "http_status": 200,
     "alive": true,
     "method": "HEAD"
