@@ -82,6 +82,7 @@ def _parse_comparable_dt(value: Any) -> datetime | None:
         return dt.replace(tzinfo=UTC)
     return dt.astimezone(UTC)
 
+
 # Map platform keys to validation file names (they don't always match platform_key + *.json)
 VALIDATION_FILES = {
     "microsoft-learn": ["microsoft-learn.json", "microsoft-learn-baseline.json"],
@@ -733,9 +734,15 @@ class CrossArtifactValidator:
 
             # Validate companion compact machine feeds and L1 -> JSON-LD sourceHash parity
             if self._should_check_companion(
-                JSONLD_PATH, "credentials.jsonld", FEED_JSON_PATH, "credentials.feed.json"
+                JSONLD_PATH,
+                "credentials.jsonld",
+                FEED_JSON_PATH,
+                "credentials.feed.json",
             ) or self._should_check_companion(
-                JSONLD_PATH, "credentials.jsonld", FEED_NDJSON_PATH, "credentials.ndjson"
+                JSONLD_PATH,
+                "credentials.jsonld",
+                FEED_NDJSON_PATH,
+                "credentials.ndjson",
             ):
                 self._validate_machine_feeds(credentials)
 
@@ -922,7 +929,9 @@ class CrossArtifactValidator:
                     ValidationResult(
                         check_name="feed_json_provenance_parity",
                         platform=None,
-                        passed=(missing_prov == 0 and feed_identity == expected_identity),
+                        passed=(
+                            missing_prov == 0 and feed_identity == expected_identity
+                        ),
                         expected="all items have id/sourceRecordId/sourceHash matching JSON-LD",
                         actual=f"missing_provenance={missing_prov}, identity_match={feed_identity == expected_identity}",
                         message="credentials.feed.json provenance & identity match JSON-LD",
@@ -1012,7 +1021,9 @@ class CrossArtifactValidator:
                 )
             )
 
-    def _validate_l1_jsonld_parity(self, jsonld_credentials: list[dict[str, Any]]) -> None:
+    def _validate_l1_jsonld_parity(
+        self, jsonld_credentials: list[dict[str, Any]]
+    ) -> None:
         """Verify L1 normalized records in for_validation/ match JSON-LD counts and sourceHashes."""
         severity = "error" if not self.warn_mode else "warning"
         val_dir = self._resolve_companion_path(
