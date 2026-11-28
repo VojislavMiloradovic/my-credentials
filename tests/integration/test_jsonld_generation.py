@@ -222,7 +222,7 @@ class TestJsonLdCleanup:
 
 
 class TestJsonLdMain:
-    """Tests for main JSON-LD generation."""
+    """Tests for main JSON-LD and compact feed generation."""
 
     def test_main_generates_jsonld(self, temp_dir, mock_loss_guard):
         archives_dir = temp_dir / "archives"
@@ -243,14 +243,188 @@ class TestJsonLdMain:
 
         with (
             patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)),
+            patch("generate_jsonld.VALIDATION_DIR", str(temp_dir / "missing_l1")),
             patch("generate_jsonld.README_PATH", str(readme)),
             patch("generate_jsonld.JSONLD_PATH", str(temp_dir / "credentials.jsonld")),
+            patch("generate_jsonld.FEED_JSON_PATH", str(temp_dir / "credentials.feed.json")),
+            patch("generate_jsonld.FEED_NDJSON_PATH", str(temp_dir / "credentials.ndjson")),
         ):
             main()
 
             output = temp_dir / "credentials.jsonld"
             assert output.exists()
-            data = json.loads(output.read_text())
+            data = json.loads(output.read_text(encoding="utf-8"))
             assert data["@context"] == "https://schema.org"
             assert data["@type"] == "ProfilePage"
             assert len(data["mainEntity"]["hasCredential"]) == 1
+            assert (temp_dir / "credentials.feed.json").exists()
+            assert (temp_dir / "credentials.ndjson").exists()
+
+    def test_main_prefers_l1_normalized_and_emits_compact_feeds(
+        self, temp_dir, mock_loss_guard
+    ):
+        val_dir = temp_dir / "for_validation"
+        val_dir.mkdir()
+        archives_dir = temp_dir / "archives"
+        archives_dir.mkdir()
+
+        # Put sentinel archive that should NOT be used when L1 exists
+        (archives_dir / "sentinel-complete.md").write_text(
+            "| Date Earned | Credential Name | Issuer | Verification Type |\n"
+            "| :--- | :--- | :--- | :--- |\n"
+            "| 2020-01-01 | Sentinel From Markdown | Markdown | Badge |\n",
+            encoding="utf-8",
+        )
+
+        # Populate L1 records for credly & aws-skills & microsoft-learn
+        (val_dir / "credly_badges.json").write_text(
+            json.dumps(
+                {
+                    "platform": "credly",
+                    "retrieved_at": "2026-11-01T10:00:00+00:00",
+                    "credentials": [
+                        {
+                            "id": "credly-abc-123",
+                            "title": "AWS Certified DevOps Engineer",
+                            "issuer_name": "Amazon Web Services",
+                            "type": "Certification",
+                            "date": "2026-10-31T02:40:58+00:00",
+                            "verify_url": "https://www.credly.com/badges/credly-abc-123/public_url",
+                            "image_url": "https://images.credly.com/badge.png",
+                            "skills": ["AWS", "DevOps"],
+                            "retrieval_method": "api",
+                            "retrieved_at": "2026-11-01T09:59:00+00:00",
+                            "retired": False,
+                        }
+                    ],
+                }
+            ),
+            encoding="utf-8",
+        )
+        (val_dir / "aws_skill_badges.json").write_text(
+            json.dumps(
+                {
+                    "platform": "aws-skills",
+                    "retrieved_at": "2026-11-01T10:05:00+00:00",
+                    "badges": [
+                        {
+                            "id": "aws-ret-1",
+                            "title": "Legacy AWS Course",
+                            "issuer_name": "Amazon Web Services",
+                            "type": "Course",
+                            "date": "2024-05-01",
+                            "verify_url": "https://skillbuilder.aws/learn/course/1",
+                            "retired": True,
+                            "retirement_source": "source_csv",
+                            "retirement_reason": "Status=Retired",
+                            "retired_at": "2026-09-06",
+                        }
+                    ],
+                }
+            ),
+            encoding="utf-8",
+        )
+        (val_dir / "microsoft-learn.json").write_text(
+            json.dumps(
+                {
+                    "platform": "microsoft-learn",
+                    "achievements": [
+                        {
+                            "uid": "ms-mod-1",
+                            "id": "ms-mod-1",
+                            "title": "Implement Azure Storage",
+                            "category": "module",
+                            "grantedOn": "2026-10-15T12:00:00+00:00",
+                            "url": "/training/modules/implement-azure-storage/",
+                            "retired": False,
+                        }
+                    ],
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        active_verifications = temp_dir / "active_verifications.json"
+        active_verifications.write_text(
+            json.dumps(
+                {
+                    "https://www.credly.com/badges/credly-abc-123/public_url": {
+                        "alive": True,
+                        "last_verified_at": "2024-06-14T12:00:00+00:00",
+                        "http_status": 200,
+                        "method": "HEAD",
+                    }
+                }
+            ),
+            encoding="utf-8",
+        )
+
+        readme = temp_dir / "README.md"
+        readme.write_text("Test README", encoding="utf-8")
+
+        jsonld_path = temp_dir / "credentials.jsonld"
+        feed_json_path = temp_dir / "credentials.feed.json"
+        feed_ndjson_path = temp_dir / "credentials.ndjson"
+
+        with (
+            patch("generate_jsonld.VALIDATION_DIR", str(val_dir)),
+            patch("generate_jsonld.ARCHIVE_DIR", str(archives_dir)),
+            patch("generate_jsonld.README_PATH", str(readme)),
+            patch("generate_jsonld.JSONLD_PATH", str(jsonld_path)),
+            patch("generate_jsonld.FEED_JSON_PATH", str(feed_json_path)),
+            patch("generate_jsonld.FEED_NDJSON_PATH", str(feed_ndjson_path)),
+            patch(
+                "generate_jsonld.ACTIVE_VERIFICATIONS_PATH",
+                str(active_verifications),
+            ),
+        ):
+            main()
+
+        payload = json.loads(jsonld_path.read_text(encoding="utf-8"))
+        creds = payload["mainEntity"]["hasCredential"]
+        assert len(creds) == 3
+        names = {c["name"] for c in creds}
+        assert "Sentinel From Markdown" not in names
+
+        by_plat = {c["platform"]: c for c in creds}
+        credly_item = by_plat["credly"]
+        assert credly_item["sourceRecordId"] == "credly-abc-123"
+        assert credly_item["sourceHash"]
+        assert credly_item["dateCreated"] == "2026-10-31T02:40:58+00:00"
+        assert credly_item["retrievedAt"] == "2026-11-01T09:59:00+00:00"
+        assert credly_item["lastVerifiedAt"] == "2024-06-14T12:00:00+00:00"
+        assert credly_item["verificationStatus"] == "verified"
+        assert credly_item["skills"] == ["AWS", "DevOps"]
+        assert credly_item["issuer"] == "Amazon Web Services"
+
+        aws_item = by_plat["aws-skills"]
+        assert aws_item["credentialStatus"] == "Retired"
+        assert aws_item["retirement_source"] == "source_csv"
+        assert aws_item["retirement_reason"] == "Status=Retired"
+        assert aws_item["retired_at"] == "2026-09-06"
+        assert aws_item["sourceHash"]
+
+        ms_item = by_plat["microsoft-learn"]
+        assert ms_item["url"].startswith(
+            "https://learn.microsoft.com/en-us/training/modules/"
+        )
+
+        feed_data = json.loads(feed_json_path.read_text(encoding="utf-8"))
+        assert feed_data["totalCount"] == 3
+        assert feed_data["countsByPlatform"] == {
+            "aws-skills": 1,
+            "credly": 1,
+            "microsoft-learn": 1,
+        }
+        assert len(feed_data["credentials"]) == 3
+        assert all(c.get("sourceRecordId") and c.get("sourceHash") for c in feed_data["credentials"])
+
+        ndjson_lines = [
+            json.loads(line)
+            for line in feed_ndjson_path.read_text(encoding="utf-8").splitlines()
+            if line.strip()
+        ]
+        assert len(ndjson_lines) == 3
+        assert {item["sourceHash"] for item in ndjson_lines} == {
+            c["sourceHash"] for c in creds
+        }
