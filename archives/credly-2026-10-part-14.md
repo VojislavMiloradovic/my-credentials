@@ -2,7 +2,7 @@
 archive_platform: Credly Verified Credentials
 chunk_part: 14 of 16
 date_range: 2026-10-01 to 2026-10-13
-total_entries: 54
+total_entries: 55
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-10-part-14.md
 layer: L2_published
 transform: 1:1_pass_through
@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-10-13 | [Harness Certified Feature Flag Developer](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-13 | [Harness Certified Internal Developer Portal Developer](https://www.credly.com/badges/a9e63d43-0f30-4c99-a8e0-fb7db936a3b0/public_url) | Harness Inc | Credly Verified Badge |
+| 2026-10-13 | [Kong Gateway Operations](https://www.credly.com/badges/ec9b0dd2-a167-4d92-87af-2a5e6e2df6d6/public_url) | Kong | Credly Verified Badge |
 | 2026-10-13 | [Machine Learning for Data Science Projects](https://www.credly.com/badges/c21fb2aa-7f4e-4dae-8b16-eca46bd147f2/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-13 | [User Experience Design Fundamentals](https://www.credly.com/badges/d2179465-fd1c-4ed6-a032-850f5cc14ed9/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-11 | [AWS Knowledge: Amazon Connect Developer - Training Badge](https://www.credly.com/badges/b54fe6f0-0e84-46d6-8bf2-dfd997f49651/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
@@ -25,7 +28,6 @@ artifacts: complete, index
 | 2026-10-10 | [Harness Certified Infrastructure as Code Management Developer](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Resilience Testing Formerly Chaos Engineering Developer](https://www.credly.com/badges/ed311c10-6a4b-4dea-a7e5-a24b1bdde162/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Security Testing Orchestration Developer](https://www.credly.com/badges/455c75bc-68bd-455c-8162-9f22617ffed1/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-10 | [Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B3E75DBC35A98214?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-09 | [AI Gateway Operations](https://www.credly.com/badges/382c45a4-5932-4860-9b86-0a207e34d81e/public_url) | Kong | Credly Verified Badge |
 | 2026-10-09 | [Human-AI Collaborative Planning](https://www.credly.com/badges/1d2d3eaf-ee7e-4db9-a876-114852bcf023/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-09 | [Responsible AI and Risk Management](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/public_url) | IBM SkillsBuild | Credly Verified Badge |
@@ -48,7 +50,6 @@ artifacts: complete, index
 | 2026-10-08 | [Apply AI at Work Pathway Completion](https://www.credential.net/e106a393-57d6-4d31-87d0-a777c12095b0) | OpenAI Academy | Credly External Badge |
 | 2026-10-07 | [Implement DevOps Workflows in Google Cloud Skill Badge](https://www.credly.com/badges/6cd6bbb4-b1d6-4edf-8add-2523026f6915/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-07 | [Set Up a Google Cloud Network Skill Badge](https://www.credly.com/badges/981311c0-3ff9-4b0b-8491-79f928f8349f/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-10-06 | [Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/15F428743381AFA9?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-05 | [AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-05 | [Kong Gateway Foundations](https://www.credly.com/badges/0af05791-af55-4214-b9ee-f2ce15d2a35c/public_url) | Kong | Credly Verified Badge |
 | 2026-10-04 | [Account Executive](https://www.credly.com/badges/bf5a7533-622c-47c4-af61-137588647308/public_url) | Demandbase | Credly Verified Badge |

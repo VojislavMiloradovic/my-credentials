@@ -6,12 +6,14 @@ This document represents a unified, verifiable list of all 846 records.
 <!-- transform: 1:1_pass_through -->
 <!-- artifacts: complete, index -->
 
-<!-- retrieved_at: 2026-11-27T14:07:23.251944+00:00 -->
+<!-- retrieved_at: 2026-11-28T00:58:13.046820+00:00 -->
 
 ## Verified Records Archive
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-28 | [Optimize Google Ad Manager to Meet Objectives](https://www.credential.net/427ae06a-65ad-4355-aca8-c9894e97e4bf) | Skillshop | Credly External Badge |
+| 2026-11-27 | [Drive Advertising Revenue with Google Ad Manager](https://www.credential.net/168c1ccd-1d66-436b-8bda-55a7b34a11b4) | Skillshop | Credly External Badge |
 | 2026-11-27 | [Grow Your Monetization with Google Ad Manager](https://www.credential.net/0ac62d3d-c98d-421a-9865-88b141305660) | Skillshop | Credly External Badge |
 | 2026-11-27 | [Search Ads 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/339d7cc4-4f60-4e8d-9d50-c97d6cf17f77) | Skillshop | Credly External Badge |
 | 2026-11-26 | [Campaign manager 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/ab09b555-47f4-4d26-9197-e1c6e2113de6) | Skillshop | Credly External Badge |
@@ -122,7 +124,6 @@ This document represents a unified, verifiable list of all 846 records.
 | 2026-10-10 | [Harness Certified Infrastructure as Code Management Developer](https://www.credly.com/badges/e2642ea0-dab8-4577-a1bc-6bbcf815fab5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Resilience Testing Formerly Chaos Engineering Developer](https://www.credly.com/badges/ed311c10-6a4b-4dea-a7e5-a24b1bdde162/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-10 | [Harness Certified Security Testing Orchestration Developer](https://www.credly.com/badges/455c75bc-68bd-455c-8162-9f22617ffed1/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-10 | [Microsoft Applied Skills: Resolve GitHub issues by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/B3E75DBC35A98214?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-09 | [AI Gateway Operations](https://www.credly.com/badges/382c45a4-5932-4860-9b86-0a207e34d81e/public_url) | Kong | Credly Verified Badge |
 | 2026-10-09 | [Human-AI Collaborative Planning](https://www.credly.com/badges/1d2d3eaf-ee7e-4db9-a876-114852bcf023/public_url) | IBM SkillsBuild | Credly Verified Badge |
 | 2026-10-09 | [Responsible AI and Risk Management](https://www.credly.com/badges/0d35258c-e02f-4092-b067-17e3c928a306/public_url) | IBM SkillsBuild | Credly Verified Badge |
@@ -145,7 +146,6 @@ This document represents a unified, verifiable list of all 846 records.
 | 2026-10-08 | [Apply AI at Work Pathway Completion](https://www.credential.net/e106a393-57d6-4d31-87d0-a777c12095b0) | OpenAI Academy | Credly External Badge |
 | 2026-10-07 | [Implement DevOps Workflows in Google Cloud Skill Badge](https://www.credly.com/badges/6cd6bbb4-b1d6-4edf-8add-2523026f6915/public_url) | Google Cloud | Credly Verified Badge |
 | 2026-10-07 | [Set Up a Google Cloud Network Skill Badge](https://www.credly.com/badges/981311c0-3ff9-4b0b-8491-79f928f8349f/public_url) | Google Cloud | Credly Verified Badge |
-| 2026-10-06 | [Microsoft Applied Skills: Accelerate AI-assisted development by using GitHub Copilot](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/15F428743381AFA9?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
 | 2026-10-05 | [AWS Knowledge: AWS Communication Developer Services Fundamentals - Training Badge](https://www.credly.com/badges/b001a553-a34a-469c-b597-3b8f4428f95b/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-10-05 | [Kong Gateway Foundations](https://www.credly.com/badges/0af05791-af55-4214-b9ee-f2ce15d2a35c/public_url) | Kong | Credly Verified Badge |
 | 2026-10-04 | [Account Executive](https://www.credly.com/badges/bf5a7533-622c-47c4-af61-137588647308/public_url) | Demandbase | Credly Verified Badge |

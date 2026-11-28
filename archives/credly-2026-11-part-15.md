@@ -1,7 +1,7 @@
 ---
 archive_platform: Credly Verified Credentials
 chunk_part: 15 of 16
-date_range: 2026-10-13 to 2026-11-02
+date_range: 2026-10-13 to 2026-11-04
 total_entries: 52
 raw_url: https://raw.githubusercontent.com/VojislavMiloradovic/my-credentials/main/archives/credly-2026-11-part-15.md
 layer: L2_published
@@ -15,6 +15,9 @@ artifacts: complete, index
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-04 | [Secure Enterprise AI Tools with Okta Agent Gateway](https://www.credly.com/badges/be836220-589c-4f7e-8056-7bb603f39aa2/public_url) | Okta | Credly Verified Badge |
+| 2026-11-04 | [Secure Multi-Agent Workflows with Okta Agent to Agent](https://www.credly.com/badges/f93fc711-e173-4f7f-9d6c-da1833dc8ec2/public_url) | Okta | Credly Verified Badge |
+| 2026-11-04 | [Workflows](https://www.credly.com/badges/3d20176d-d805-49f0-97b9-b288376231c1/public_url) | Okta | Credly Verified Badge |
 | 2026-11-02 | [Build Your Own Chatbot - Level 1](https://www.credly.com/badges/1275ae4d-5bdd-45c3-bdc5-4eef7b2ae86f/public_url) | IBM | Credly Verified Badge |
 | 2026-11-02 | [Data Science Foundations - Level 1](https://www.credly.com/badges/8b535dbd-76db-4713-9e2e-1137abe99da0/public_url) | IBM | Credly Verified Badge |
 | 2026-10-31 | [Microsoft Applied Skills: Enhance agents with autonomous capabilities](https://learn.microsoft.com/api/credentials/share/en-us/VojislavMiloradovic/A2805BBD40427267?sharingId=4883E92AA6332B3F) | Microsoft | Credly External Badge |
@@ -64,9 +67,6 @@ artifacts: complete, index
 | 2026-10-14 | [Traceable by Harness Developer Certification](https://www.credly.com/badges/81821f9e-ed55-49db-a20b-6c2afdd9cacb/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified AI DLC Insights Formerly SEI Developer](https://www.credly.com/badges/281d5b1c-95e0-497d-8784-bbbca82109a5/public_url) | Harness Inc | Credly Verified Badge |
 | 2026-10-13 | [Harness Certified Cloud & AI Cost Management Developer](https://www.credly.com/badges/150ce8a5-8669-42aa-a2df-2d0f61c1fbbc/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-13 | [Harness Certified Feature Flag Developer](https://www.credly.com/badges/65a03609-901a-4bc0-914d-cc65301a5484/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-13 | [Harness Certified Internal Developer Portal Developer](https://www.credly.com/badges/a9e63d43-0f30-4c99-a8e0-fb7db936a3b0/public_url) | Harness Inc | Credly Verified Badge |
-| 2026-10-13 | [Kong Gateway Operations](https://www.credly.com/badges/ec9b0dd2-a167-4d92-87af-2a5e6e2df6d6/public_url) | Kong | Credly Verified Badge |
 
 ---
 > **Navigation:** Prev: [credly-2026-10-part-14.md](./credly-2026-10-part-14.md) | [Index](./credly-index.md) | Next: [credly-2026-11-part-16.md](./credly-2026-11-part-16.md)

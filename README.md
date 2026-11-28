@@ -143,7 +143,7 @@ Showing latest 10 of 1247 credentials. View full dataset via [Platform Archive I
 **Public Profile:** [Verify Credly Profile](https://www.credly.com/users/vojislavmiloradovic)
 
 **Total Portfolio Credentials:** 846
-**Total Verified Skills Mapped:** 2975
+**Total Verified Skills Mapped:** 2977
 
 #### Latest Earned Credentials
 
@@ -151,6 +151,8 @@ Showing latest 10 of 846 credentials. View full dataset via [Platform Archive In
 
 | Date Earned | Credential Name | Issuer | Verification Type |
 | :---: | :--- | :--- | :---: |
+| 2026-11-28 | [Optimize Google Ad Manager to Meet Objectives](https://www.credential.net/427ae06a-65ad-4355-aca8-c9894e97e4bf) | Skillshop | Credly External Badge |
+| 2026-11-27 | [Drive Advertising Revenue with Google Ad Manager](https://www.credential.net/168c1ccd-1d66-436b-8bda-55a7b34a11b4) | Skillshop | Credly External Badge |
 | 2026-11-27 | [Grow Your Monetization with Google Ad Manager](https://www.credential.net/0ac62d3d-c98d-421a-9865-88b141305660) | Skillshop | Credly External Badge |
 | 2026-11-27 | [Search Ads 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/339d7cc4-4f60-4e8d-9d50-c97d6cf17f77) | Skillshop | Credly External Badge |
 | 2026-11-26 | [Campaign manager 360 Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/ab09b555-47f4-4d26-9197-e1c6e2113de6) | Skillshop | Credly External Badge |
@@ -159,8 +161,6 @@ Showing latest 10 of 846 credentials. View full dataset via [Platform Archive In
 | 2026-11-26 | [Google Analytics Certification (2026)](https://api.accredible.com/v1/obi/badge_assertions/3bf1b44f-8517-4b7d-a69b-19ee58b0d370) | Skillshop | Credly External Badge |
 | 2026-11-25 | [AWS Knowledge: Amazon WorkSpaces Operations at Scale - Training Badge](https://www.credly.com/badges/6629cd5b-ff2d-4fda-bea0-55ca9a4f0b54/public_url) | Amazon Web Services Training and Certification | Credly Verified Badge |
 | 2026-11-23 | [C++ Essentials 1](https://www.credly.com/badges/857ca4f8-cd5b-4a84-8c47-831c1bb6efab/public_url) | Cisco | Credly Verified Badge |
-| 2026-11-23 | [Digital Safety and Security Awareness](https://www.credly.com/badges/8321a421-1066-4a4b-b151-a5d5de345a46/public_url) | Cisco | Credly Verified Badge |
-| 2026-11-20 | [Cloud Sales Professional MDR](https://www.credly.com/badges/938528c2-8698-487b-aa5c-bfaa151233f4/public_url) | Acronis | Credly Verified Badge |
 <!-- CREDLY_BADGES_END -->
 
 
