@@ -159,10 +159,20 @@ class TestLlmsTxtGeneration:
 
         (archives_dir / "aws-skills-2024-01-part-01.md").write_text("# Slice")
 
+        jsonld = temp_dir / "credentials.jsonld"
+        jsonld.write_text("{}")
+        feed_json = temp_dir / "credentials.feed.json"
+        feed_json.write_text("{}")
+        feed_ndjson = temp_dir / "credentials.ndjson"
+        feed_ndjson.write_text("")
+
         with (
             patch("generate_llms_txt.README_PATH", str(readme)),
             patch("generate_llms_txt.ARCHIVE_DIR", str(archives_dir)),
             patch("generate_llms_txt.LLMS_PATH", str(temp_dir / "llms.txt")),
+            patch("generate_llms_txt.JSONLD_PATH", str(jsonld)),
+            patch("generate_llms_txt.FEED_JSON_PATH", str(feed_json)),
+            patch("generate_llms_txt.FEED_NDJSON_PATH", str(feed_ndjson)),
             patch(
                 "generate_llms_txt.RAW_BASE_URL",
                 "https://raw.githubusercontent.com/test/test/main/archives",
@@ -206,6 +216,9 @@ class TestLlmsTxtGeneration:
             assert "Domain Focus" in content
             assert "Platform Master Indexes" in content
             assert "Complete Platform Archives (Monolithic)" in content
+            assert "credentials.jsonld" in content
+            assert "credentials.feed.json" in content
+            assert "credentials.ndjson" in content
 
 
 class TestLlmsFullGeneration:
@@ -232,11 +245,17 @@ class TestLlmsFullGeneration:
 
         jsonld = temp_dir / "credentials.jsonld"
         jsonld.write_text('{"@context": "https://schema.org"}')
+        feed_json = temp_dir / "credentials.feed.json"
+        feed_json.write_text("{}")
+        feed_ndjson = temp_dir / "credentials.ndjson"
+        feed_ndjson.write_text("")
 
         with (
             patch("generate_llms_full.README_PATH", str(readme)),
             patch("generate_llms_full.ARCHIVE_DIR", str(archives_dir)),
             patch("generate_llms_full.JSONLD_PATH", str(jsonld)),
+            patch("generate_llms_full.FEED_JSON_PATH", str(feed_json)),
+            patch("generate_llms_full.FEED_NDJSON_PATH", str(feed_ndjson)),
             patch("generate_llms_full.LLMS_FULL_PATH", str(temp_dir / "llms-full.txt")),
         ):
             generate_llms_full()
@@ -248,3 +267,5 @@ class TestLlmsFullGeneration:
             assert "README.md" in content
             assert "aws-skills-complete.md" in content
             assert "credentials.jsonld" in content
+            assert "credentials.feed.json" in content
+            assert "credentials.ndjson" in content
